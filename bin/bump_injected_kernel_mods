@@ -1,0 +1,41 @@
+#!/bin/sh
+
+kernel="${1}"
+if [ -z "${kernel}" ]; then
+	echo "$0 <kernel>"
+	echo "example: $0 2.6.35-sabayon"
+	exit 1
+fi
+
+packages="app-emulation/open-vm-tools-kmod
+app-emulation/virtualbox-guest-additions
+app-emulation/virtualbox-modules
+app-emulation/vmware-modules
+app-laptop/omnibook
+app-laptop/tp_smapi
+media-video/em8300-modules
+net-wireless/acx
+net-wireless/broadcom-sta
+net-wireless/madwifi-ng
+=net-wireless/ndiswrapper-1.55-r1
+sys-block/iscsitarget
+sys-fs/vhba
+~x11-drivers/ati-drivers-10.8
+net-wireless/rtl8192se
+~x11-drivers/nvidia-drivers-173.14.27
+~x11-drivers/nvidia-drivers-195.36.31
+~x11-drivers/nvidia-drivers-96.43.18
+~x11-drivers/nvidia-drivers-256.53
+x11-drivers/xf86-video-virtualbox"
+
+ETP_REPO="${ETP_REPO:-sabayonlinux.org}"
+
+# build for latest kernel
+rm -rf /usr/portage/packages/*
+KERNEL_DIR="/usr/src/linux-${kernel}" emerge -Bav ${packages}
+if [ "${?}" != "0" ]; then
+	exit 1
+fi
+reagent inject $(find /usr/portage/packages -name "*.tbz2" | xargs echo)
+
+echo "Now you should remove old packages, if you want of course"

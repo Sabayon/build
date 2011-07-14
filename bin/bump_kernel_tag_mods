@@ -1,0 +1,91 @@
+#!/usr/bin/python2
+import sys
+import subprocess
+import os
+import tempfile
+
+args = sys.argv[1:]
+
+only_injected = "--only-injected" in args
+if only_injected:
+    args.remove("--only-injected")
+
+if len(args) < 3:
+    print("bump_kernel_tag_mods <query tag> <compile tag> <source (query) repo> <destination entropy repo>")
+    raise SystemExit(1)
+
+kernel_tag = args.pop(0)
+compile_tag = args.pop(0)
+source_repo = args.pop(0)
+dest_repo = args.pop(0)
+
+sys.argv.append("--no-pid-handling")
+
+os.environ['KERNEL_DIR'] = "/usr/src/linux-" + compile_tag
+os.environ['ETP_REPO'] = source_repo
+import entropy.dep
+from entropy.server.interfaces import Server
+srv = Server()
+pkgs_map = {}
+try:
+    repo = srv.open_repository(srv.repository())
+    pkg_ids = repo.searchTaggedPackages(kernel_tag)
+    if not pkg_ids:
+        print("!!! no packages for kernel_tag")
+    injected_pkgs = []
+    normal_pkgs = []
+    for pkg_id in pkg_ids:
+        injected = repo.isInjected(pkg_id)
+        if injected:
+            injected_pkgs.append(pkg_id)
+        else:
+            normal_pkgs.append(pkg_id)
+
+    normal_atoms = [entropy.dep.remove_tag(repo.retrieveAtom(pkg_id)) for pkg_id in normal_pkgs]
+    injected_atoms = [entropy.dep.remove_tag(repo.retrieveAtom(pkg_id)) for pkg_id in injected_pkgs]
+finally:
+    srv.shutdown()
+
+if not only_injected:
+    if normal_atoms:
+        print("normal packages: %s" % (' '.join(normal_atoms),))    
+if injected_atoms:
+    print("injected packages: %s" % (' '.join(injected_atoms),))
+
+if not (normal_atoms or injected_atoms):
+    print("nothing to do !!")
+    raise SystemExit(0)
+
+if normal_atoms and not only_injected:
+    rc = subprocess.call(["emerge", "-av", "--keep-going"] + ["~" + x for x in normal_atoms])
+    if rc != 0:
+        raise SystemExit(rc)
+    subprocess.call(["etc-update"], shell = True)
+    os.environ['ETP_REPO'] = dest_repo
+    rc = subprocess.call(["reagent", "update"])
+    if rc != 0:
+        raise SystemExit(rc)
+
+if injected_atoms:
+    tmp_dir = tempfile.mkdtemp()
+    os.environ['PKGDIR'] = tmp_dir
+    rc = subprocess.call(["emerge", "-Bav", "--nodeps"] + ["~" + x for x in injected_atoms])
+    if rc != 0:
+        raise SystemExit(rc)
+    tbz2s = []
+    for category in os.listdir(tmp_dir):
+        path = os.path.join(tmp_dir, category)
+        if not os.path.isdir(path):
+            continue
+        for sub_file in os.listdir(path):
+            if not sub_file.endswith(".tbz2"):
+                continue
+            tbz2s.append(os.path.join(path, sub_file))
+
+    if tbz2s:
+        os.environ['ETP_REPO'] = dest_repo
+        rc = subprocess.call(["reagent", "inject"] + tbz2s)
+        if rc != 0:
+            raise SystemExit(rc)
+
+raise SystemExit(0)

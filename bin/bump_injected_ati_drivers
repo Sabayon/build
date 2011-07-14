@@ -1,0 +1,19 @@
+#!/bin/sh
+
+kernels="2.6.36-sabayon 2.6.37-sabayon 2.6.38-sabayon"
+packages="=x11-drivers/ati-drivers-11.2-r1"
+non_injected_packages="~x11-drivers/ati-userspace-11.2"
+ETP_REPO="${ETP_REPO:-sabayon-limbo}"
+
+rm -rf /usr/portage/packages/x11-drivers/*
+emerge -B ${non_injected_packages} || exit 1
+reagent inject /usr/portage/packages/x11-drivers/* || exit 1
+
+for kernel in $kernels; do
+        mypackages="${packages}"
+        # build for latest kernel
+        rm -rf /usr/portage/packages/x11-drivers/*
+        KERNEL_DIR="/usr/src/linux-${kernel}" emerge -B ${mypackages} || exit 1
+        reagent inject /usr/portage/packages/x11-drivers/*
+        echo
+done

@@ -1,0 +1,33 @@
+#!/bin/sh
+
+# PLEASE READ:
+# This script recompiles all the kernel-dependent video drivers for
+# every currently supported kernel. You can use this script when
+# you bump kernels or xorg-server.
+
+kernels="2.6.36-sabayon 2.6.37-sabayon 2.6.38-sabayon 2.6.39-sabayon"
+running_kernel="2.6.39-sabayon"
+packages="~x11-drivers/nvidia-drivers-173.14.28 ~x11-drivers/nvidia-drivers-96.43.19"
+non_injected_packages="~x11-drivers/nvidia-drivers-260.19.29 x11-drivers/ati-drivers x11-drivers/xf86-video-virtualbox"
+general_purpose_packages="media-video/amdcccle"
+ETP_REPO="${ETP_REPO:-sabayon-limbo}"
+
+for kernel in $kernels; do
+        mypackages="${packages}"
+        if [ "${kernel}" != "${running_kernel}" ]; then
+                mypackages="${mypackages} ${non_injected_packages}"
+        fi
+        # build for latest kernel
+        rm -rf /usr/portage/packages/x11-drivers/*
+        KERNEL_DIR="/usr/src/linux-${kernel}" emerge -B ${mypackages} || exit 1
+        reagent inject /usr/portage/packages/x11-drivers/*
+        echo
+done
+
+# Workout drivers for the running kernel, those non injected
+eselect kernel set "linux-${running_kernel}" || exit 1
+emerge ${non_injected_packages} ${general_purpose_packages} || exit 1
+echo -5 | etc-update
+reagent update --atoms ${non_injected_packages} ${general_purpose_packages} || exit 1
+
+echo "Now you should remove old packages, if you want of course"
