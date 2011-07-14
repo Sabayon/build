@@ -1,0 +1,14 @@
+<sys-apps/portage-2.3
+
+# E17 support
+=media-libs/imlib2-9999
+
+# Unmasking development kernel sources for openvz
+=sys-kernel/openvz-sources-2.6.32*
+
+# Only version 1.6.x works with latest kernels
+net-fs/openafs-kernel
+net-fs/openafs
+
+# temp unmask
+=app-office/libreoffice-3.4.1
