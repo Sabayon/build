@@ -1,0 +1,3 @@
+# Mask apache using MPM worker for now
+www-servers/apache[threads]
+=x11-drivers/ati-drivers-10.6

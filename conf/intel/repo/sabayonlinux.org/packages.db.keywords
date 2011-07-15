@@ -1,0 +1,2 @@
+media-sound/pulseaudio ~x86 ~amd64
+sys-apps/portage ~x86 ~amd64
