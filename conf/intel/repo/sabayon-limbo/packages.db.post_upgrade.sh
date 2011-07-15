@@ -133,7 +133,9 @@ function three_four_to_five() {
 }
 
 # run this in any case, it will fix symlinks setup
-fix_lib64_symlinks
+if [ "$(uname -m)" = "x86_64" ]; then
+	fix_lib64_symlinks
+fi
 
 # migration script from branch 4 to 5
 [[ "${OLD_BRANCH}" = "4" ]] && [[ "${NEW_BRANCH}" = "5" ]] && three_four_to_five
