@@ -6,9 +6,11 @@
 # Temp. masked
 <gnome-base/gnome-desktop-2.30.2
 app-i18n/anthy-ss
+app-i18n/atokx2
 app-vim/cvscommand
 app-vim/vcscommand
 app-shells/scsh
+app-vim/enhancedcommentify
 app-office/openoffice-l10n-meta
 sci-biology/mira
 media-fonts/acroread-asianfonts
@@ -22,7 +24,7 @@ media-sound/frescobaldi
 x11-drivers/ati-drivers::gentoo
 media-gfx/splashutils::gentoo
 
-# Joost Ruis:squeezebox bundles these 
+# Joost Ruis:squeezebox bundles these
 >dev-perl/DBIx-Class-0.08120
 
 # Joost Ruis: Tagged for Sabayon 6
@@ -46,7 +48,7 @@ app-admin/moodss
 
 ### Blockers
 
-# 2010-10-29 Joost Ruis: Blocks sci-biology/emboss              
+# 2010-10-29 Joost Ruis: Blocks sci-biology/emboss
 sys-devel/cons
 dev-java/emma
 
@@ -55,16 +57,20 @@ app-shells/bashdb
 
 # Joost Ruis: Blocks app-shells/ksh
 app-shells/pdksh
+sci-biology/staden-bin
 
 # Joost Ruis: Blocks media-gfx/hugin
 dev-util/cocom
 
-# Joost Ruis: Requires mesa +motif
-media-libs/openinventor
-sci-biology/arb
+# Joost Ruis: We use KDE and want the KDE phonon package
+#x11-libs/qt-phonon
 
 # Joost Ruis: Requires flag additions on apache webserver
 gnome-extra/gnome-user-share
+
+# Joost Ruis: Requires mesa +motif
+media-libs/openinventor
+sci-biology/arb
 
 # Joost Ruis: needs pciutils with zlib, but we have it in package.use with -zlib no idea why.
 xfce-extra/xfce4-cellmodem-plugin
@@ -78,8 +84,9 @@ sci-astronomy/ds9
 # Gentoo bug #297995
 net-misc/asterisk-chan_sccp
 
-### Slotted packages
+### Slotted packages 
 <net-analyzer/metasploit-3.2_p6750
+=app-editors/emacs-18.59-r6
 
 ### net-analyser
 
@@ -87,14 +94,14 @@ net-misc/asterisk-chan_sccp
 net-analyzer/netcat
 app-forensics/air
 
-### net-p2p 
+### net-p2p
 
-### www-client
+### www-client 
 
-# Joost Ruis: This requires x11-libs/fltk with -cairo, that ain't happening 
-www-client/dillo 
+# Joost Ruis: This requires x11-libs/fltk with -cairo, that ain't happening
+www-client/dillo
 
-### net-misc
+### net-misc 
 
 # Joost Ruis: We use Avahi so we want to mask this
 net-misc/mDNSResponder
@@ -112,10 +119,10 @@ net-misc/pump
 # Joost Ruis: This package cannot be in tree with sys-apps/iproute2
 net-misc/arpd
 
-# Joost Ruis: Wants >=net-libs/loudmouth-1.2.0[debug]
+#Joost Ruis: Wants >=net-libs/loudmouth-1.2.0[debug]
 net-irc/irssi-xmpp
 
-# Joost Ruis: Wants >=dev-lang/perl-5.6.1[-ithreads] never going to happen.
+#Joost Ruis: Wants >=dev-lang/perl-5.6.1[-ithreads] never going to happen.
 net-irc/epic4
 
 # Joost Ruis: We use net-misc/ntp so we want to mask this
@@ -124,8 +131,12 @@ net-misc/openntpd
 # Joost Ruis: We use net-misc/netkit-telnetd so we want to mask
 net-misc/telnet-bsd
 
-# Joost Ruis: Seems to be incompatible with latest net-misc/asterisk
+# Joost Ruis: Seems to be incompatible with latest net-misc/asterisk 
 =net-misc/asterisk-rate_engine-0.5.4
+
+# Joost Ruis: We use net-wireless/gnome-bluetooth now
+net-wireless/bluez-gnome
+gnome-extra/gnome-vfs-obexftp
 
 # Joost Ruis: We use dev-texlive/texlive-latexextra so we want to mask this
 dev-tex/prosper
@@ -163,10 +174,6 @@ sci-chemistry/xdsi
 sci-chemistry/mrbump
 sci-physics/camfr
 net-analyzer/namebench
-
-# Joost Ruis: We use net-wireless/gnome-bluetooth now
-net-wireless/bluez-gnome
-gnome-extra/gnome-vfs-obexftp
 
 # Joost Ruis: Blocks metacity
 x11-misc/expocity
@@ -208,7 +215,7 @@ dev-php/phing
 dev-php/agavi
 
 # 2010-08-17 Joost Ruis: Blocks x11-misc/notification-daemon 
-xfce-extra/xfce4-notifyd 
+xfce-extra/xfce4-notifyd
 
 # 2010-10-29 Joost Ruis: Needs media-libs/mesa +motif
 sci-chemistry/molmol
@@ -230,6 +237,10 @@ media-fonts/gnu-gs-fonts-std
 # 2010-11-18 Joost Ruis: Blocks media-fonts/culmus
 media-fonts/culmus-ancient
 
+# 2010-11-26 Fabio Erculiani: Keep networkmanager from our overlay
+net-misc/networkmanager::gentoo
+>=gnome-extra/nm-applet-0.8.4
+
 # 2010-12-28 Joost Ruis: Needs older mythtv version 0.22
 media-plugins/mythflix
 
@@ -238,10 +249,6 @@ media-plugins/vdr-noepgmenu
 
 # 2010-12-28 Joost Ruis: Needs vdr +setup, but we cannot enable that flag. 
 media-plugins/vdr-setup
-
-# 2010-11-26 Fabio Erculiani: Keep networkmanager from our overlay
-net-misc/networkmanager::gentoo
->=gnome-extra/nm-applet-0.8.4
 
 # 2011-01-08 Fabio Erculiani: broken, resolv.conf issue
 # see http://forum.sabayon.org/viewtopic.php?f=52&t=22717
@@ -268,5 +275,4 @@ media-plugins/vdr-audiorecorder
 # reported upstream...
 # Upstream is LAME
 # Kay Sievers !!
-# last working ver is 167-r1 (which uses ppoll() instead of epoll())
 # >=sys-fs/udev-168

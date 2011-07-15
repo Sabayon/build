@@ -1,4 +1,4 @@
-# Only use stable versions of these libs 
+# Only use stable versions of these libs
 # sys-kernel/linux-headers -~amd64 -~x86
 sys-libs/glibc -~amd64 -~x86
 dev-lang/python -~amd64 -~x86
@@ -14,7 +14,7 @@ dev-python/pycups **
 
 # Grub2, make binpkg for now, keep masked
 <sys-boot/grub-2.99 **
-dev-embedded/avr-libc * ~* -amd64 -~amd64
+dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 
 # Use portage-2.2
 =sys-apps/portage-2.2* **
