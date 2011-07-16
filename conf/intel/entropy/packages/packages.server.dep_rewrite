@@ -130,4 +130,4 @@ x11-misc/service-discovery-applet (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 x11-misc/x11vnc (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 
 # Fix gtk-3 deps
-media-video/kino (.*)x11-libs/gtk+-2(.*) \1x11-libs/gtk+-2\2:2
+media-video/kino (.*)x11-libs/gtk(.*) \1x11-libs/gtk\2:2
