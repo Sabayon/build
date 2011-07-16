@@ -20,8 +20,13 @@ for repo_id in srv.repositories():
                 if gtk2_match in matches:
                     bad_pkgs.append((pkg_id, repo_id))
                     print("found bad package: %s" % (repo.retrieveAtom(pkg_id),))
+                    break
 
+bad_atoms = []
 for pkg_id, repo_id in bad_pkgs:
-    print(srv.open_repository(repo_id).retrieveKeySlotAggregated(pkg_id))
+    bad_atoms.append(srv.open_repository(repo_id).retrieveKeySlotAggregated(pkg_id))
+bad_atoms.sort()
+for bad_atom in bad_atoms:
+    print(bad_atom)
 
 srv.shutdown()
