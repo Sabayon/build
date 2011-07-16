@@ -77,7 +77,7 @@ dev-games/crystalspace mng
 
 dev-java/antlr cxx
 dev-java/glazedlists java5
-dev-java/swt cairo
+dev-java/swt cairo -xulrunner
 dev-java/swt -firefox
 dev-java/tomcat-servlet-api java5
 
