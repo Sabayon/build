@@ -95,3 +95,5 @@ move app-office/openoffice-l10n-zh_TW app-office/libreoffice-l10n-zh_TW
 move app-office/openoffice-l10n-zu app-office/libreoffice-l10n-zu
 move app-office/libreoffice-bin app-office/libreoffice
 
+# Our default is notify-osd now
+move x11-misc/notification-daemon x11-misc/notify-osd
