@@ -4,7 +4,6 @@ from entropy.server.interfaces import Server
 
 srv = Server()
 bad_pkgs = []
-dep_cache = set()
 
 gtk2_match = srv.atom_match("x11-libs/gtk+:2")
 gtk3_match = srv.atom_match("x11-libs/gtk+:3")
@@ -12,8 +11,7 @@ gtk3_match = srv.atom_match("x11-libs/gtk+:3")
 for repo_id in srv.repositories():
     repo = srv.open_repository(repo_id)
     for pkg_id in repo.listAllPackageIds():
-        deps = [x for x in repo.retrieveDependencies(pkg_id) if x not in dep_cache]
-        dep_cache.update(deps)
+        deps = repo.retrieveDependencies(pkg_id)
         for dep in deps:
             matches, rc = srv.atom_match(dep, multi_match=True, multi_repo=True)
             if gtk3_match in matches:
