@@ -339,7 +339,7 @@ net-print/hplip static-ppds
 net-wireless/atmel-firmware pcmcia usb
 net-wireless/bluez gstreamer
 net-wireless/btsco ao skype
-net-wireless/wpa_supplicant -qt3 -qt4
+net-wireless/wpa_supplicant -qt3 -qt4 wimax
 
 sci-astronomy/celestia -kde
 
