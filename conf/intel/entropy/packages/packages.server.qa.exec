@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/python
 #
 # Entropy Server QA executable hook.
 # This file doesn't strictly need to be a shell script, but just an executable
@@ -42,42 +42,38 @@
 #
 # The executable must return 0 for success, 1 for warning, 2 for critical error
 
-EXIT_STATUS=0
+import sys
+import os
+import entropy.dep
 
-function dep_getkey() {
-	echo -n $(python -c "import sys, entropy.dep; sys.stdout.write(entropy.dep.dep_getkey(\"${1}\"))")
-}
+def check_unwanted_deps():
+    """
+    Check against forbidden dependencies, those we consider meta packages,
+    placeholders just to keep Gentoo compatibility, which, if listed as dep in,
+    would cause the whole world to be pulled in.
+    """
+    pkg_deps = os.getenv("PKG_DEPS")
+    if pkg_deps is None:
+        return 0
+    pkg_atom = os.getenv("PKG_ATOM")
 
-function check_unwanted_deps() {
-	# Check against forbidden dependencies, those we consider meta packages, placeholders
-	# just to keep Gentoo compatibility, which, if listed as dep in, would cause the
-	# whole world to be pulled in.
-	local unwanted_deps="app-admin/packagekit
-		app-text/poppler
-		kde-base/kde-l10n
-		net-dns/avahi
-		net-p2p/transmission"
+    unwanted_deps = ["app-admin/packagekit", "app-text/poppler",
+        "kde-base/kde-l10n", "net-dns/avahi", "net-p2p/transmission"]
 
-	for dep in ${PKG_DEPS}; do
-		# here we have plain deps, not conditional
-		for unwanted_dep in ${unwanted_deps}; do
-			dep_key=$(dep_getkey "${dep}")
-			if [ "${unwanted_dep}" = "${dep_key}" ]; then
-				echo
-				echo "ATTENTION ATTENTION ATTENTION"
-				echo "${PKG_ATOM} contains forbidden dependency against ${dep}"
-				echo "ATTENTION ATTENTION ATTENTION"
-				echo
-				EXIT_STATUS=1
-			fi
-		done
-	done
-}
+    func_rc = 0
+    pkg_deps = set([entropy.dep.dep_getkey(x) for x in pkg_deps.split()])
+    for unwanted_dep in unwanted_deps:
+        if unwanted_dep in pkg_deps:
+            sys.stderr.write("\nATTENTION ATTENTION ATTENTION\n")
+            sys.stderr.write("%s contains forbidden dependency against %s\n" % (
+                pkg_atom, unwanted_dep))
+            sys.stderr.write("ATTENTION ATTENTION ATTENTION\n\n")
+            func_rc = 1
+    return func_rc
 
-#
-# Main execution
-#
+if __name__ == "__main__":
 
-check_unwanted_deps
-
-exit ${EXIT_STATUS}
+    exit_st = check_unwanted_deps()
+    if exit_st != 0:
+        raise SystemExit(exit_st)
+    raise SystemExit(0)
