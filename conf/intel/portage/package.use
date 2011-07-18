@@ -312,7 +312,7 @@ net-mail/tpop3d mbox maildir
 
 net-misc/aria2 metalink bittorrent xmlrpc
 # bluetooth use flag is useless
-net-misc/networkmanager nss dhclient modemmanager -bluetooth connection-sharing dhcpcd
+net-misc/networkmanager nss dhclient modemmanager -bluetooth connection-sharing dhcpcd introspection
 net-misc/networkmanager-vpnc gnome
 net-misc/ntp -zeroconf
 net-misc/nxclient prebuilt
