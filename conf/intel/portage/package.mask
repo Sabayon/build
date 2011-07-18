@@ -239,7 +239,6 @@ media-fonts/culmus-ancient
 
 # 2010-11-26 Fabio Erculiani: Keep networkmanager from our overlay
 net-misc/networkmanager::gentoo
->=gnome-extra/nm-applet-0.8.4
 
 # 2010-12-28 Joost Ruis: Needs older mythtv version 0.22
 media-plugins/mythflix
