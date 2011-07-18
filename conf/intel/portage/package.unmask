@@ -16,3 +16,6 @@ net-fs/openafs
 
 # GNOME 3.0 stuff
 >=gnome-base/gdm-3.0.4-r1
+>=x11-wm/metacity-2.34
+>=media-gfx/gthumb-2.13
+>=gnome-extra/nautilus-open-terminal-0.19
