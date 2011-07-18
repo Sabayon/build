@@ -13,3 +13,6 @@ net-fs/openafs
 
 # temp unmask
 =app-office/libreoffice-3.4.1
+
+# GNOME 3.0 stuff
+>=gnome-base/gdm-3.0.4-r1
