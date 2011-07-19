@@ -116,7 +116,7 @@ media-video/vlc (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 media-tv/xbmc (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 net-fs/samba (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 net-im/pidgin (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-net-libs/libepc (.*)net-dns/avahi(.*) \1net-dns/avahi-gtk3\2
+net-libs/libepc (.*)net-dns/avahi(.*)(\[.*\]) \1net-dns/avahi-gtk3\2
 net-libs/obby (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 net-misc/networkmanager (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 net-misc/remmina (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
