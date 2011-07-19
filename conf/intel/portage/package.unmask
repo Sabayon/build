@@ -19,3 +19,4 @@ net-fs/openafs
 >=x11-wm/metacity-2.34
 >=media-gfx/gthumb-2.13
 >=gnome-extra/nautilus-open-terminal-0.19
+>=x11-misc/notification-daemon-0.7
