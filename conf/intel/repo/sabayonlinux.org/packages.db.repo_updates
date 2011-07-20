@@ -97,3 +97,5 @@ move app-office/libreoffice-bin app-office/libreoffice
 
 # Our default is notify-osd now
 move x11-misc/notification-daemon x11-misc/notify-osd
+# And with GNOME3, we're back to notification-daemon, sigh
+move x11-misc/notify-osd x11-misc/notification-daemon
