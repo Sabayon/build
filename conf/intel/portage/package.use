@@ -248,8 +248,8 @@ media-tv/xawtv aalib
 # Disabling vaapi for now, see bug #2221
 media-tv/xbmc vdpau css -vaapi webserver rtmp xrandr
 
-# 32bit plugin is unwanted, vdpau is yeah baby yeah
-www-plugins/adobe-flash vdpau -32bit
+# 32bit plugin is unwanted, enabling vdpau doesn't change anything actually
+www-plugins/adobe-flash -32bit
 
 # Disable MMX due to compile failures
 media-tv/mythtv fftw mmx -nvidia -xvmc
