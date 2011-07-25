@@ -84,6 +84,8 @@ app-cdr/k9copy (.*)kde-base/kde-l10n(.*)
 net-misc/smb4k (.*)kde-base/kde-l10n(.*)
 kde-misc/synaptiks (.*)kde-base/kde-l10n(.*)
 kde-base/kdepim-runtime (.*)kde-base/kde-l10n(.*)
+kde-misc/kgtk (.*)kde-base/kde-l10n(.*)
+kde-misc/skanlite (.*)kde-base/kde-l10n(.*)
 
 dev-util/kdevelop-php-docs (.*)kde-base/kde-l10n(.*)
 games-board/knights (.*)kde-base/kde-l10n(.*)
