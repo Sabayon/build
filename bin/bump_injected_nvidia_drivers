@@ -1,8 +1,8 @@
 #!/bin/sh
 
 kernels="2.6.36-sabayon 2.6.37-sabayon 2.6.38-sabayon 2.6.39-sabayon 3.0.0-sabayon"
-packages="~x11-drivers/nvidia-drivers-173.14.30" # ~x11-drivers/nvidia-drivers-96.43.19"
-non_injected_packages="~x11-drivers/nvidia-userspace-173.14.30" # ~x11-drivers/nvidia-userspace-96.43.19"
+packages="~x11-drivers/nvidia-drivers-173.14.31" # ~x11-drivers/nvidia-drivers-96.43.19"
+non_injected_packages="~x11-drivers/nvidia-userspace-173.14.31" # ~x11-drivers/nvidia-userspace-96.43.19"
 ETP_REPO="${ETP_REPO:-sabayon-limbo}"
 
 rm -rf /usr/portage/packages/x11-drivers/*
