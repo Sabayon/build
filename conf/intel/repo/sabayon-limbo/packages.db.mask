@@ -2,3 +2,5 @@
 # see: https://bugs.gentoo.org/show_bug.cgi?id=375615
 >=x11-drivers/nvidia-drivers-275.19
 >=x11-drivers/nvidia-userspace-275.19
+# Notify OSD must die with GNOME3
+x11-misc/notify-osd
