@@ -1,3 +1,7 @@
 # Mask apache using MPM worker for now
 www-servers/apache[threads]
-=x11-drivers/ati-drivers-10.6
+
+# Broken with GDM3 (gnome-session keeps spinning)
+# see: https://bugs.gentoo.org/show_bug.cgi?id=375615
+>=x11-drivers/nvidia-drivers-275.19
+>=x11-drivers/nvidia-userspace-275.19
