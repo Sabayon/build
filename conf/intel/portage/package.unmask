@@ -20,3 +20,4 @@ net-fs/openafs
 >=media-gfx/gthumb-2.13
 >=gnome-extra/nautilus-open-terminal-0.19
 >=x11-misc/notification-daemon-0.7
+net-misc/networkmanager::sabayon
