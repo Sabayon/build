@@ -778,6 +778,8 @@ gnome-base/gnome-panel introspection bonobo
 >=net-libs/gtk-vnc-0.4.3-r301 gtk3
 # our is a split package, who cares
 net-dns/avahi dbus gtk3
+# GNOME 3 wants NetworkManager 0.9
+kde-misc/knetworkmanager nm09
 
 # Newer kernels do not provide vid4l
 media-gfx/sane-backends -v4l
