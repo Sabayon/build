@@ -176,6 +176,7 @@ kde-base/krunner xcomposite
 kde-base/kwin captury xcomposite
 kde-base/solid networkmanager -wicd
 kde-base/okular chm djvu ebook crypt
+kde-base/marble plasma
 
 kde-misc/knetworkmanager openvpn networksettings
 
