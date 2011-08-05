@@ -21,6 +21,7 @@ net-fs/openafs
 >=gnome-extra/nautilus-open-terminal-0.19
 >=x11-misc/notification-daemon-0.7
 net-misc/networkmanager::sabayon
+<gnome-base/gnome-shell-9999
 
 # it's broken, but we have it in repos
 >=x11-drivers/nvidia-drivers-275.21
