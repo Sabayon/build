@@ -206,7 +206,6 @@ media-gfx/splashutils mng fbcondecor
 media-gfx/xsane tiff
 
 media-libs/blib aalib
-media-libs/coin javascript
 media-libs/devil mng
 media-libs/freetype -X -auto-hinter
 media-libs/glide-v3 voodoo1 voodoo2 voodoo3 voodoo5
