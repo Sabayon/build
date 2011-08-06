@@ -800,3 +800,4 @@ app-emulation/winetricks -gtk
 
 # No more spidermonkey
 net-misc/plowshare -javascript
+media-libs/libsfml doc examples
