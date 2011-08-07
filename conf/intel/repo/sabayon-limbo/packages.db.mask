@@ -1,6 +1,6 @@
 # Broken with GDM3 (gnome-session keeps spinning)
 # see: https://bugs.gentoo.org/show_bug.cgi?id=375615
-=x11-drivers/nvidia-drivers-275*  
+=x11-drivers/nvidia-drivers-275.1*
 ~x11-drivers/nvidia-drivers-280.04
 ~x11-drivers/nvidia-drivers-280.11
 ~x11-drivers/nvidia-drivers-280.13
