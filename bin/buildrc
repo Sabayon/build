@@ -1,0 +1,19 @@
+# Emerge wrapper, uses matter lock file support to avoid
+# concurrent execution
+emerge() {
+	matter_lock_file="/var/tmp/.matter_resource.lock"
+	flock -x -n "${matter_lock_file}" true
+	rc=${?}
+	if [ "${rc}" != "0" ]; then
+		echo
+		echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+		echo "matter is running on this chroot, in order to prevent explosions"
+		echo "this emerge instance will terminate NOW"
+		echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+		echo
+		return 1
+	else
+		/usr/bin/emerge $@
+		return ${?}
+	fi
+}
