@@ -3,11 +3,12 @@
 kernels="2.6.36-sabayon 2.6.37-sabayon 2.6.38-sabayon 2.6.39-sabayon"
 running_kernel="3.0.0-sabayon"
 packages="app-emulation/virtualbox-guest-additions app-emulation/virtualbox-modules x11-drivers/xf86-video-virtualbox"
+non_tagged_packages="xf86-input-virtualbox virtualbox-bin"
 
 # build for latest kernel
-KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge xf86-input-virtualbox $packages virtualbox-bin
+KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge $packages ${non_tagged_packages}
 echo -5 | etc-update
-reagent update
+eit add ${packages} ${non_tagged_packages}
 
 for kernel in $kernels; do
         if [ "${kernel}" = "${running_kernel}" ]; then
@@ -17,13 +18,11 @@ for kernel in $kernels; do
         KERNEL_DIR="/usr/src/linux-${kernel}" emerge -B ${packages} || ( echo "ouch unable to build" && exit 1 )
         built_pkgs=$(find /usr/portage/packages -name "*.tbz2" | xargs echo)
         [[ -z "${built_pkgs}" ]] && echo "ouch no kernel pkgs" && exit 2
-        reagent inject ${built_pkgs} || ( echo "ouch unable to inject" && exit 3 )
+        eit fit ${built_pkgs} || ( echo "ouch unable to inject" && exit 3 )
         echo
-        reagent query tags ${kernel} -qv | sort
+        eit search "#${kernel}" -qv | sort | uniq
         echo
 done
 
-echo "Now you should remove old packages:"
-echo reagent repo remove `reagent query search virtualbox -qv | grep MY_OLD_VER | xargs echo`
-echo
+echo "Now you should remove old packages"
 echo "PLEASE also see /etc/entropy/packages/packages.server.dep_rewrite"
