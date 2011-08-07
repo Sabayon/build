@@ -7,7 +7,7 @@ www-servers/apache[threads]
 ~x11-drivers/nvidia-drivers-280.04
 ~x11-drivers/nvidia-drivers-280.11
 ~x11-drivers/nvidia-drivers-280.13
-=x11-drivers/nvidia-userspace-275*
+=x11-drivers/nvidia-userspace-275.1*
 ~x11-drivers/nvidia-userspace-280.04
 ~x11-drivers/nvidia-userspace-280.11
 ~x11-drivers/nvidia-userspace-280.13
