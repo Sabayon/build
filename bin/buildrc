@@ -13,7 +13,7 @@ emerge() {
 		echo
 		return 1
 	else
-		/usr/bin/emerge $@
+		/usr/bin/emerge "$@"
 		return ${?}
 	fi
 }
