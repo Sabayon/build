@@ -735,7 +735,7 @@ virtual/mpi romio
 sys-cluster/openmpi romio
 media-libs/libpng apng
 kde-base/activitymanager semantic-desktop
-kde-base/kget semantic-desktop
+kde-base/kget bittorrent semantic-desktop
 
 # l10n issue is handled by entropy dep_rewrite
 media-gfx/digikam handbook semantic-desktop
