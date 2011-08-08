@@ -797,6 +797,7 @@ kde-base/kdepim-runtime -linguas_ar -linguas_ca -linguas_cs -linguas_da -linguas
 net-voip/telepathy-connection-managers -icq -yahoo
 net-im/empathy gnome
 app-emulation/winetricks -gtk
+x11-misc/obconf lxde
 
 # No more spidermonkey
 net-misc/plowshare -javascript
