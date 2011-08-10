@@ -798,6 +798,7 @@ net-voip/telepathy-connection-managers -icq -yahoo
 net-im/empathy gnome
 app-emulation/winetricks -gtk
 x11-misc/obconf lxde
+media-plugins/gst-plugins-meta mms
 
 # No more spidermonkey
 net-misc/plowshare -javascript
