@@ -214,9 +214,6 @@ dev-php5/propel
 dev-php/phing
 dev-php/agavi
 
-# 2010-08-17 Joost Ruis: Blocks x11-misc/notification-daemon 
-xfce-extra/xfce4-notifyd
-
 # 2010-10-29 Joost Ruis: Needs media-libs/mesa +motif
 sci-chemistry/molmol
 
