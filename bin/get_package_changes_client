@@ -1,0 +1,49 @@
+#!/usr/bin/python2
+import sys
+
+from entropy.client.interfaces import Client
+from entropy.const import etpUi
+etpUi['quiet'] = True
+import entropy.dep
+import portage
+
+def print_help():
+    sys.stderr.write("get_package_changes <added|removed>\n")
+
+if __name__ == "__main__":
+
+    args = sys.argv[1:]
+    if not args:
+        print_help()
+        raise SystemExit(1)
+
+    cmd = args.pop(0)
+    if cmd not in ("added", "removed"):
+        print_help()
+        raise SystemExit(1)
+
+    client = Client()
+    repositories = client.repositories()
+    pkg_keys = set()
+
+    for repository_id in repositories:
+        repo = client.open_repository(repository_id)
+        for atom, package_id, branch in repo.listAllPackages():
+            pkg_keys.add(entropy.dep.dep_getkey(atom))
+
+    portdb = portage.db["/"]['porttree']
+    portage_pkg_keys = set(portdb.getallnodes())
+
+    if cmd == "added":
+        added = sorted(portage_pkg_keys - pkg_keys)
+        for pkg_key in added:
+            sys.stdout.write(pkg_key + "\n")
+        sys.stdout.flush()
+    elif cmd == "removed":
+        removed = sorted(pkg_keys - portage_pkg_keys)
+        for pkg_key in removed:
+            sys.stdout.write(pkg_key + "\n")
+        sys.stdout.flush()
+    client.shutdown()
+    raise SystemExit(0)
+
