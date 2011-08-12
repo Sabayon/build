@@ -24,7 +24,7 @@ xfce-extra/tumbler (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-glib-\2
 app-office/texmaker (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-editors/gummi (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 app-office/calligra (.*)app-text/poppler(.*) \1app-text/poppler-base\2
-x11-misc/qcomicbook (.)app-text/poppler(.) \1app-text/poppler-qt4\2
+x11-misc/qcomicbook (.*)app-text/poppler(.*) \1app-text/poppler-qt4\2
 
 app-office/libreoffice (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
 app-office/impressive (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
