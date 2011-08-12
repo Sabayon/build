@@ -459,7 +459,10 @@ net-misc/networkmanager-pptp gnome
 
 # added for mythtv
 x11-libs/qt-sql mysql
-dev-python/PyQt4 webkit sql assistant declarative
+dev-python/PyQt4 webkit sql assistant declarative examples
+
+# wxGTK with gstreamers, required by guayadeque
+x11-libs/wxGTK gstreamer
 
 # enable Google Gadgets on Plasma
 # not yet!
