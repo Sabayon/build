@@ -406,7 +406,7 @@ www-plugins/gnash vaapi -kde
 
 x11-apps/fusion-icon -qt4
 
-x11-base/xorg-server -ipv6 nptl kdrive
+x11-base/xorg-server -ipv6 nptl kdrive xvfb
 x11-base/xorg-x11 intel
 
 x11-drivers/ati-drivers distribution -qt4
