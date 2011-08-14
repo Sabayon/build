@@ -807,3 +807,5 @@ net-ftp/proftpd authfile
 # No more spidermonkey
 net-misc/plowshare -javascript
 media-libs/libsfml doc examples
+
+net-analyzer/nessus-core -gtk
