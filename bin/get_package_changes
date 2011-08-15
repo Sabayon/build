@@ -32,10 +32,16 @@ if __name__ == "__main__":
             pkg_keys.add(entropy.dep.dep_getkey(atom))
 
     portdb = portage.db["/"]['porttree']
+    def _match_filter(atom):
+        best_visible = portdb.dbapi.xmatch("bestmatch-visible", atom)
+        if best_visible:
+            return True
+        return False
+
     portage_pkg_keys = set(portdb.getallnodes())
 
     if cmd == "added":
-        added = sorted(portage_pkg_keys - pkg_keys)
+        added = sorted(filter(_match_filter, portage_pkg_keys - pkg_keys))
         for pkg_key in added:
             sys.stdout.write(pkg_key + "\n")
         sys.stdout.flush()
