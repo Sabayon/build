@@ -809,3 +809,4 @@ net-misc/plowshare -javascript
 media-libs/libsfml doc examples
 
 net-analyzer/nessus-core -gtk
+media-sound/gmusicbrowser gstreamer
