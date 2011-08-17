@@ -283,3 +283,5 @@ media-sound/paprefs
 # 2011-08-17 Fabio Erculiani: Conflicts with x11-terms/terminal
 gnustep-apps/terminal
 
+# 2011-08-07 Fabio Erculiani: Conflicts with www-client/chromium
+>=www-plugins/gecko-mediaplayer-1.0.4
