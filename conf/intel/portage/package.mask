@@ -269,7 +269,7 @@ media-plugins/vdr-audiorecorder
 
 # 2011-08-16 Fabio Erculiani: Cruft we don't want
 dev-php/eaccelerator
-dev-php/pecl-apc
+dev-php/xcache
 
 # udevadm settle bug on LiveCD boot
 # reported upstream...
