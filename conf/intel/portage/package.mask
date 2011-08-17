@@ -272,3 +272,6 @@ media-plugins/vdr-audiorecorder
 # Upstream is LAME
 # Kay Sievers !!
 # >=sys-fs/udev-168
+
+# 2011-08-17 Joost Ruis: Wants pulseaudio +gnome
+media-sound/paprefs
