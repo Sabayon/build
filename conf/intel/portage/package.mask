@@ -279,3 +279,7 @@ dev-php/xcache
 
 # 2011-08-17 Joost Ruis: Wants pulseaudio +gnome
 media-sound/paprefs
+
+# 2011-08-17 Fabio Erculiani: Conflicts with x11-terms/terminal
+gnustep-apps/terminal
+
