@@ -267,6 +267,10 @@ media-sound/guayadeque
 # 2011-05-27 Joost Ruis: Wants dev-libs/tinyxml-2.6.1-r1 +stl but that conflicts with filezilla
 media-plugins/vdr-audiorecorder
 
+# 2011-08-16 Fabio Erculiani: Cruft we don't want
+dev-php/eaccelerator
+dev-php/pecl-apc
+
 # udevadm settle bug on LiveCD boot
 # reported upstream...
 # Upstream is LAME
