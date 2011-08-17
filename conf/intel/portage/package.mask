@@ -284,4 +284,4 @@ media-sound/paprefs
 gnustep-apps/terminal
 
 # 2011-08-07 Fabio Erculiani: Conflicts with www-client/chromium
->=www-plugins/gecko-mediaplayer-1.0.0
+>www-plugins/gecko-mediaplayer-1.0.0
