@@ -25,4 +25,4 @@ dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 =dev-lang/python-2.7.2 ~amd64 ~x86
 
 # I want it!
->=gnome-extra/gnome-shell-extensions-system-monitor-9999 ~amd64 ~x86
+>=gnome-extra/gnome-shell-extensions-system-monitor-9999 ** ~amd64 ~x86
