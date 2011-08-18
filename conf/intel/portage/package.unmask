@@ -113,3 +113,4 @@ net-fs/openafs
 # Misc applications
 >=media-gfx/gthumb-2.13
 >=gnome-extra/nautilus-open-terminal-0.19
+=dev-libs/libgweather-9999
