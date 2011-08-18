@@ -814,3 +814,6 @@ media-sound/gmusicbrowser gstreamer
 
 # Required by media-gfx/darktable
 media-libs/libraw demosaic
+
+# 389 Directory Server flags
+www-apps/389-dsgw -adminserver
