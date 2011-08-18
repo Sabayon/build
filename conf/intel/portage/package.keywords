@@ -26,3 +26,6 @@ dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 
 # I want it!
 >=gnome-extra/gnome-shell-extensions-system-monitor-9999 ** ~amd64 ~x86
+
+# GNOME3 stuff
+>=dev-libs/libgweather-9999 **
