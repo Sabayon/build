@@ -803,6 +803,7 @@ app-emulation/winetricks -gtk
 x11-misc/obconf lxde
 media-plugins/gst-plugins-meta mms
 net-ftp/proftpd authfile
+dev-lang/parrot pcre
 
 # No more spidermonkey
 net-misc/plowshare -javascript
