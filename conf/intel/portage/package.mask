@@ -149,32 +149,6 @@ media-gfx/skencil
 media-gfx/asymptote
 net-mail/gml
 
-# Joost Ruis: wants dev-lang/python +tk
-app-editors/leo
-sci-chemistry/viewmol
-sci-chemistry/sparky
-dev-python/editobj
-dev-python/pmw
-dev-python/pythong
-dev-python/ropeide
-sci-chemistry/pymol-plugins-promol
-sci-chemistry/pymol-plugins-cealign
-sci-chemistry/pymol-plugins-emovie
-sci-chemistry/pymol-plugins-bni-tools
-sci-chemistry/pymol
-sci-chemistry/prodecomp
-sci-chemistry/oasis
-sci-chemistry/hollow
-sci-chemistry/ccpn
-sci-chemistry/ccp4
-sci-chemistry/ccp4-apps
-sci-chemistry/xia2
-sci-chemistry/pointless
-sci-chemistry/xdsi
-sci-chemistry/mrbump
-sci-physics/camfr
-net-analyzer/namebench
-
 # Joost Ruis: Blocks metacity
 x11-misc/expocity
 
