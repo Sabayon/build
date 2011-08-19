@@ -63,12 +63,12 @@ def check_unwanted_deps():
         "dev-lang/gnat-gcc"]
     func_rc = 0
 
-    pkg_deps = set([entropy.dep.dep_getkey(x) for x in pkg_deps.split()])
+    pkg_deps = dict((entropy.dep.dep_getkey(x), x) for x in pkg_deps.split())
     for unwanted_dep in unwanted_deps:
         if unwanted_dep in pkg_deps:
             sys.stderr.write("\nATTENTION ATTENTION ATTENTION\n")
             sys.stderr.write("%s contains forbidden dependency against %s\n" % (
-                pkg_atom, unwanted_dep))
+                pkg_atom, pkg_deps[unwanted_dep]))
             sys.stderr.write("ATTENTION ATTENTION ATTENTION\n\n")
             func_rc = 2
 
@@ -76,7 +76,7 @@ def check_unwanted_deps():
         if warning_dep in pkg_deps:
             sys.stderr.write("\nATTENTION ATTENTION ATTENTION\n")
             sys.stderr.write("%s contains a weirdo dependency against %s\n" % (
-                pkg_atom, warning_dep))
+                pkg_atom, pkg_deps[warning_dep]))
             sys.stderr.write("ATTENTION ATTENTION ATTENTION\n\n")
             func_rc = 1
 
