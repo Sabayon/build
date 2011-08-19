@@ -59,8 +59,10 @@ def check_unwanted_deps():
 
     unwanted_deps = ["app-admin/packagekit", "app-text/poppler",
         "kde-base/kde-l10n", "net-dns/avahi", "net-p2p/transmission"]
-
+    warning_deps = ["media-libs/libjpeg-turbo", "media-libs/jpeg",
+        "dev-lang/gnat-gcc"]
     func_rc = 0
+
     pkg_deps = set([entropy.dep.dep_getkey(x) for x in pkg_deps.split()])
     for unwanted_dep in unwanted_deps:
         if unwanted_dep in pkg_deps:
@@ -68,7 +70,16 @@ def check_unwanted_deps():
             sys.stderr.write("%s contains forbidden dependency against %s\n" % (
                 pkg_atom, unwanted_dep))
             sys.stderr.write("ATTENTION ATTENTION ATTENTION\n\n")
+            func_rc = 2
+
+    for warning_dep in warning_deps:
+        if warning_dep in pkg_deps:
+            sys.stderr.write("\nATTENTION ATTENTION ATTENTION\n")
+            sys.stderr.write("%s contains a weirdo dependency against %s\n" % (
+                pkg_atom, warning_dep))
+            sys.stderr.write("ATTENTION ATTENTION ATTENTION\n\n")
             func_rc = 1
+
     return func_rc
 
 if __name__ == "__main__":
