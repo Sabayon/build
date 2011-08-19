@@ -63,7 +63,8 @@ def check_unwanted_deps():
         "dev-lang/gnat-gcc"]
     func_rc = 0
 
-    pkg_deps = dict((entropy.dep.dep_getkey(x), x) for x in pkg_deps.split())
+    pkg_deps = dict((entropy.dep.dep_getkey(x), x) for x in pkg_deps.split() if \
+        not x.startswith("!"))
     for unwanted_dep in unwanted_deps:
         if unwanted_dep in pkg_deps:
             sys.stderr.write("\nATTENTION ATTENTION ATTENTION\n")
