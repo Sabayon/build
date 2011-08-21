@@ -99,6 +99,8 @@ media-video/loopy (.*)kde-base/kde-l10n(.*)
 x11-themes/nitrogen (.*)kde-base/kde-l10n(.*)
 media-sound/amarok (.*)kde-base/kde-l10n(.*)
 net-nntp/kwooty (.*)kde-base/kde-l10n(.*)
+app-office/skrooge (.*)kde-base/kde-l10n(.*)
+app-office/kmymoney (.*)kde-base/kde-l10n(.*)
 
 # net-dns/avahi dep rewrites
 app-crypt/seahorse (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
