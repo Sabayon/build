@@ -804,6 +804,7 @@ x11-misc/obconf lxde
 media-plugins/gst-plugins-meta mms
 net-ftp/proftpd authfile
 dev-lang/parrot pcre
+app-office/calligra kdepim
 
 # No more spidermonkey
 net-misc/plowshare -javascript
