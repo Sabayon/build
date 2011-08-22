@@ -58,7 +58,8 @@ def check_unwanted_deps():
     pkg_atom = os.getenv("PKG_ATOM")
 
     unwanted_deps = ["app-admin/packagekit", "app-text/poppler",
-        "kde-base/kde-l10n", "net-dns/avahi", "net-p2p/transmission"]
+        "kde-base/kde-l10n", "net-dns/avahi", "net-p2p/transmission",
+        "app-crypt/pinentry"]
     warning_deps = ["media-libs/libjpeg-turbo", "media-libs/jpeg",
         "dev-lang/gnat-gcc"]
     func_rc = 0
