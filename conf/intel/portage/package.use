@@ -519,7 +519,7 @@ app-crypt/gnupg static
 www-servers/lighttpd fastcgi php lua memcache xattr
 
 app-emacs/auctex preview-latex
-net-analyzer/zabbix frontend agent server
+net-analyzer/zabbix frontend agent server mysql ssh snmp proxy
 
 # Kernel drivers are unwanted for lirc, they're in-kernel
 app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
