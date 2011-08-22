@@ -597,7 +597,7 @@ net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
 sys-devel/gdb expat
 
 # required by thunderbird-bin
-net-misc/curl nss
+net-misc/curl nss -gnutls
 
 # bluetooth stuff is now provided by gnome-bluetooth
 gnome-extra/nautilus-sendto -bluetooth
