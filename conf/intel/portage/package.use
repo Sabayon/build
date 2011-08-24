@@ -56,8 +56,7 @@ app-portage/eix sqlite
 app-portage/portato etc-proposals
 
 app-text/aspell -linguas_af -linguas_be -linguas_bg -linguas_br -linguas_ca -linguas_cs -linguas_cy -linguas_da -linguas_de -linguas_el -linguas_en -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fo -linguas_fr -linguas_ga -linguas_gl -linguas_he -linguas_hr -linguas_is -linguas_it -linguas_nl -linguas_no -linguas_pl -linguas_pt -linguas_ro -linguas_ru -linguas_sk -linguas_sl -linguas_sr -linguas_sv -linguas_uk -linguas_vi
-app-text/hunspell -linguas_af -linguas_be -linguas_bg -linguas_br -linguas_ca -linguas_cs -linguas_cy -linguas_da -linguas_de -linguas_el -linguas_en -linguas_eo -linguas_es -linguas_et -linguas_fi 
--linguas_fo -linguas_fr -linguas_ga -linguas_gl -linguas_he -linguas_hr -linguas_is -linguas_it -linguas_nl -linguas_no -linguas_pl -linguas_pt -linguas_ro -linguas_ru -linguas_sk -linguas_sl -linguas_sr -linguas_sv -linguas_uk -linguas_vi
+app-text/hunspell -linguas_af -linguas_be -linguas_bg -linguas_br -linguas_ca -linguas_cs -linguas_cy -linguas_da -linguas_de -linguas_el -linguas_en -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fo -linguas_fr -linguas_ga -linguas_gl -linguas_he -linguas_hr -linguas_is -linguas_it -linguas_nl -linguas_no -linguas_pl -linguas_pt -linguas_ro -linguas_ru -linguas_sk -linguas_sl -linguas_sr -linguas_sv -linguas_uk -linguas_vi
 app-text/djvu threads -nsplugin
 app-text/enchant aspell
 app-text/fbreader -gtk
