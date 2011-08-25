@@ -50,6 +50,11 @@ app-emulation/virtualbox-guest-additions#2.6.39-sabayon (.*)x11-drivers/xf86-vid
 app-emulation/virtualbox-guest-additions#3.0.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.0.0-sabayon
 app-emulation/virtualbox-guest-additions#3.1.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.1.0-sabayon
 app-emulation/virtualbox-guest-additions#3.2.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.2.0-sabayon
+# Fix virtualbox shitty dependencies, fusion sources
+app-emulation/virtualbox-guest-additions#3.0.0-fusion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.0.0-fusion
+app-emulation/virtualbox-guest-additions#3.1.0-fusion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.1.0-fusion
+app-emulation/virtualbox-guest-additions#3.2.0-fusion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.2.0-fusion
+
 
 # drop virtualbox-modules dep from virtualbox-bin
 # 2011-02-08: DISABLED because vboxusers group is required but not created by virtualbox-bin 
