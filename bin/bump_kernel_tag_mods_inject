@@ -1,0 +1,63 @@
+#!/usr/bin/python2
+import sys
+import subprocess
+import os
+import tempfile
+
+args = sys.argv[1:]
+
+if len(args) < 3:
+    print("bump_kernel_tag_mods <query tag> <compile tag> <source (query) repo> <destination entropy repo>")
+    raise SystemExit(1)
+
+kernel_tag = args.pop(0)
+compile_tag = args.pop(0)
+source_repo = args.pop(0)
+dest_repo = args.pop(0)
+
+sys.argv.append("--no-pid-handling")
+
+os.environ['KERNEL_DIR'] = "/usr/src/linux-" + compile_tag
+os.environ['ETP_REPO'] = source_repo
+import entropy.dep
+from entropy.server.interfaces import Server
+srv = Server()
+pkgs_map = {}
+try:
+    repo = srv.open_repository(srv.repository())
+    pkg_ids = repo.searchTaggedPackages(kernel_tag)
+    if not pkg_ids:
+        print("!!! no packages for kernel_tag")
+
+    injected_atoms = [entropy.dep.remove_tag(repo.retrieveAtom(pkg_id)) for pkg_id in pkg_ids]
+finally:
+    srv.shutdown()
+
+if injected_atoms:
+    print("packages: %s" % (' '.join(injected_atoms),))
+else:
+    print("nothing to do !!")
+    raise SystemExit(0)
+
+tmp_dir = tempfile.mkdtemp()
+os.environ['PKGDIR'] = tmp_dir
+rc = subprocess.call(["emerge", "-Bav", "--keep-going"] + ["~" + x for x in injected_atoms])
+if rc != 0:
+    raise SystemExit(rc)
+tbz2s = []
+for category in os.listdir(tmp_dir):
+    path = os.path.join(tmp_dir, category)
+    if not os.path.isdir(path):
+        continue
+    for sub_file in os.listdir(path):
+        if not sub_file.endswith(".tbz2"):
+            continue
+        tbz2s.append(os.path.join(path, sub_file))
+
+if tbz2s:
+    os.environ['ETP_REPO'] = dest_repo
+    rc = subprocess.call(["eit", "fit"] + tbz2s)
+    if rc != 0:
+        raise SystemExit(rc)
+
+raise SystemExit(0)
