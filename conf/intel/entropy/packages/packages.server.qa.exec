@@ -24,6 +24,7 @@
 # PKG_LICENSE = package license
 # PKG_BRANCH = package license
 # PKG_DOWNLOAD = package relative download URL
+# PKG_KEYWORDS = package keywords, space separated
 # PKG_MD5 = package file md5 hash
 # PKG_SLOT = package slot
 # PKG_ETPAPI = package Entropy API
@@ -56,6 +57,7 @@ def check_unwanted_deps():
     if pkg_deps is None:
         return 0
     pkg_atom = os.getenv("PKG_ATOM")
+    pkg_keywords = os.getenv("PKG_KEYWORDS")
 
     unwanted_deps = ["app-admin/packagekit", "app-text/poppler",
         "kde-base/kde-l10n", "net-dns/avahi", "net-p2p/transmission",
@@ -80,7 +82,18 @@ def check_unwanted_deps():
             sys.stderr.write("%s contains a weirdo dependency against %s\n" % (
                 pkg_atom, pkg_deps[warning_dep]))
             sys.stderr.write("ATTENTION ATTENTION ATTENTION\n\n")
-            func_rc = 1
+            if func_rc == 0:
+                func_rc = 1
+
+    if pkg_keywords is not None:
+        keywords = pkg_keywords.split()
+        if not keywords or ("**" in keywords and len(keywords) == 1):
+            sys.stderr.write("\nATTENTION ATTENTION ATTENTION\n")
+            sys.stderr.write("%s is masked by default, keywords: %s\n" % (
+                pkg_atom, pkg_keywords))
+            sys.stderr.write("ATTENTION ATTENTION ATTENTION\n\n")
+            if func_rc == 0:
+                func_rc = 1
 
     return func_rc
 
