@@ -1,6 +1,6 @@
 #!/bin/sh
 
-kernels="2.6.36-sabayon 2.6.37-sabayon 2.6.38-sabayon 2.6.39-sabayon"
+kernels="2.6.36-sabayon 2.6.37-sabayon 2.6.38-sabayon 2.6.39-sabayon 3.0.0-fusion"
 running_kernel="3.0.0-sabayon"
 packages="app-emulation/virtualbox-guest-additions app-emulation/virtualbox-modules x11-drivers/xf86-video-virtualbox"
 non_tagged_packages="xf86-input-virtualbox virtualbox-bin"
