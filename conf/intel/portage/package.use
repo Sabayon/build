@@ -394,6 +394,10 @@ sys-fs/udev extras
 sys-kernel/linux-sabayon splash dmraid symlink grub
 sys-kernel/sabayon-sources symlink
 
+# Fusion Sources, set defaults
+sys-kernel/linux-fusion splash dmraid grub
+
+
 sys-libs/db -java
 
 www-apps/trac mysql postgres vhosts sqlite
