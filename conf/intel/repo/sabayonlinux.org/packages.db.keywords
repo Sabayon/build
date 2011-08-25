@@ -1,2 +1,3 @@
 media-sound/pulseaudio ~x86 ~amd64
 sys-apps/portage ~x86 ~amd64
+=dev-libs/libgweather-9999 ~x86 ~amd64
