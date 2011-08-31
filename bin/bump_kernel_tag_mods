@@ -62,7 +62,7 @@ if normal_atoms and not only_injected:
         raise SystemExit(rc)
     subprocess.call(["etc-update"], shell = True)
     os.environ['ETP_REPO'] = dest_repo
-    rc = subprocess.call(["eit", "commit"])
+    rc = subprocess.call(["eit", "add"] + normal_atoms)
     if rc != 0:
         raise SystemExit(rc)
 
