@@ -114,3 +114,4 @@ net-fs/openafs
 >=media-gfx/gthumb-2.13
 >=gnome-extra/nautilus-open-terminal-0.19
 =dev-libs/libgweather-9999
+media-gfx/gimp
