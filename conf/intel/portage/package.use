@@ -197,7 +197,7 @@ media-fonts/baekmuk-fonts -X
 media-gfx/asymptote -latex
 media-gfx/blender blender-game verse
 media-gfx/gimageview mng
-media-gfx/gimp aalib mng wmf
+media-gfx/gimp aalib mng wmf smp
 media-gfx/gphoto2 aalib
 media-gfx/greycstoration fftw
 media-gfx/imagemagick fftw gs
