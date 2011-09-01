@@ -31,6 +31,8 @@ app-office/impressive (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base
 dev-python/python-poppler (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 sci-libs/gdal (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 dev-ruby/ruby-poppler (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
+www-apps/dotproject (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
+www-apps/swish-e (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
 
 # Fix enigmail deps, to point to our split pinentry packages
 x11-plugins/enigmail (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2\2
