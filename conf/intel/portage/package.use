@@ -810,6 +810,7 @@ media-plugins/gst-plugins-meta mms
 net-ftp/proftpd authfile
 dev-lang/parrot pcre
 app-office/calligra kdepim
+www-apps/postfixadmin mysql
 
 # No more spidermonkey
 net-misc/plowshare -javascript
