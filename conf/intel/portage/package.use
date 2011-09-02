@@ -386,8 +386,7 @@ sys-devel/gcc objc objc++ objc-gc
 sys-devel/gcc -gtk
 
 sys-fs/mtd-utils xattr
-sys-fs/ntfs3g suid
-sys-fs/ntfsprogs fuse
+sys-fs/ntfs3g suid ntfsprogs
 sys-fs/reiser4progs static
 sys-fs/udev extras
 
