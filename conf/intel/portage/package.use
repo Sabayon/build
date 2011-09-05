@@ -820,3 +820,6 @@ media-sound/gmusicbrowser gstreamer
 
 # Required by media-gfx/darktable
 media-libs/libraw demosaic
+
+# Do we really want berkdb?
+sys-apps/man-db -berkdb
