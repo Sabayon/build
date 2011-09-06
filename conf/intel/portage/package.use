@@ -746,7 +746,7 @@ kde-base/kget bittorrent semantic-desktop
 
 # l10n issue is handled by entropy dep_rewrite
 media-gfx/digikam handbook semantic-desktop
-dev-util/kdevelop php ruby
+dev-util/kdevelop php qthelp ruby
 dev-util/kdevplatform git subversion
 
 dev-libs/libgcrypt static-libs
