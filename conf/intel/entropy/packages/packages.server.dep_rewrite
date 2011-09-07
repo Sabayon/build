@@ -38,7 +38,7 @@ www-apps/swish-e (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
 x11-plugins/enigmail (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2\2
 x11-plugins/enigmail (.*)app-crypt/pinentry(.*)\[qt4\] \1app-crypt/pinentry-qt4\2
 mail-client/thunderbird (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2\2
-app-crypt/gnupg (.*)app-crypt/pinentry(.*)(\[.*\])? \1app-crypt/pinentry-base\2
+app-crypt/gnupg (.*)app-crypt/pinentry(.*) \1app-crypt/pinentry-base\2
 mail-client/evolution (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2\2
 
 # Fix virtualbox shitty dependencies
