@@ -20,3 +20,6 @@ sabayonlinux.org entropy packagekit
 sabayonlinux.org sabayon-artwork
 # Desktop environments
 sabayonlinux.org X e17 xfce lxde fluxbox gnome
+
+# IME fonts stuff
+sabayonlinux.org ime-fonts-support ime-fonts
