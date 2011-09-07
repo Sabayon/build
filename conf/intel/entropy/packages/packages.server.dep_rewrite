@@ -109,6 +109,7 @@ media-sound/amarok (.*)kde-base/kde-l10n(.*)
 net-nntp/kwooty (.*)kde-base/kde-l10n(.*)
 app-office/skrooge (.*)kde-base/kde-l10n(.*)
 app-office/kmymoney (.*)kde-base/kde-l10n(.*)
+kde-misc/kdesudo (.*)kde-base/kde-l10n(.*)
 
 # net-dns/avahi dep rewrites
 app-crypt/seahorse (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
