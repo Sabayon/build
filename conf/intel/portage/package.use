@@ -791,6 +791,8 @@ app-misc/tomboy -applet
 net-dns/avahi dbus gtk3
 # GNOME 3 wants NetworkManager 0.9
 kde-misc/knetworkmanager nm09
+# Do not pull in gnome-extra-apps meta package
+gnome-base/gnome -extras
 
 # Newer kernels do not provide vid4l
 media-gfx/sane-backends -v4l
