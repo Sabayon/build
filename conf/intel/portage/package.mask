@@ -64,9 +64,6 @@ dev-util/cocom
 # Joost Ruis: We use KDE and want the KDE phonon package
 #x11-libs/qt-phonon
 
-# Joost Ruis: Requires flag additions on apache webserver
-gnome-extra/gnome-user-share
-
 # Joost Ruis: Requires mesa +motif
 media-libs/openinventor
 sci-biology/arb
