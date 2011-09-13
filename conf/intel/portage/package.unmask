@@ -31,7 +31,6 @@ net-fs/openafs
 >=gnome-extra/gtkhtml-4.0
 >=gnome-extra/libgda-4.99
 =media-libs/libcanberra-0.28-r4
->=net-libs/gtk-vnc-0.4.3-r300
 >=x11-libs/gdk-pixbuf-2.23
 >=x11-misc/notification-daemon-0.7
 # Core Applications
