@@ -785,7 +785,7 @@ gnome-base/libgtop introspection
 x11-libs/libnotify introspection
 dev-libs/libgee introspection
 gnome-base/gnome-panel introspection bonobo
->=net-libs/gtk-vnc-0.4.3-r301 gtk3
+net-libs/gtk-vnc gtk3
 app-misc/tomboy -applet
 # our is a split package, who cares
 net-dns/avahi dbus gtk3
