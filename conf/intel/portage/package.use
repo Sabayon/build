@@ -465,9 +465,6 @@ net-misc/networkmanager-pptp gnome
 x11-libs/qt-sql mysql
 dev-python/PyQt4 webkit sql assistant declarative examples
 
-# wxGTK with gstreamers, required by guayadeque
-x11-libs/wxGTK gstreamer
-
 # enable Google Gadgets on Plasma
 # not yet!
 # kde-base/plasma-workspace google-gadgets
