@@ -686,7 +686,7 @@ dev-libs/libf2c static-libs
 kde-base/krdc vnc
 net-voip/ekiga gstreamer
 x11-libs/libdrm video_cards_intel video_cards_nouveau video_cards_radeon video_cards_vmware libkms
-app-text/evince djvu dvi
+app-text/evince djvu dvi gnome-keyring nautilus
 app-office/koffice-libs reports
 dev-lang/ifc idb
 app-editors/gedit-plugins terminal
