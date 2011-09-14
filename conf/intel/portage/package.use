@@ -8,6 +8,7 @@ app-arch/advancecomp mng
 app-arch/file-roller nautilus
 
 app-backup/bacula sqlite3
+app-backup/deja-dup nautilus
 
 app-cdr/brasero nautilus
 app-cdr/cdrdao -gnome
