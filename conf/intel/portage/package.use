@@ -763,6 +763,9 @@ virtual/jpeg static-libs
 media-libs/libjpeg-turbo static-libs
 media-libs/libmng static-libs
 
+# We want packages with static-libs (add here)
+dev-libs/expat static-libs
+
 # Our artwork, blame Ian
 >=x11-themes/elementary-icon-theme-2.7.1 monochrome branding
 
