@@ -28,7 +28,6 @@ app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml
 app-emulation/qemu-kvm no_kernel_module
 app-emulation/qemu-kvm havekernel -modules vde qemu-ifup spice fdt
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
-app-emulation/virtualbox-ose vboxbfe
 app-emulation/emul-linux-x86-soundlibs esd
 
 app-laptop/pommed -gtk
@@ -210,7 +209,6 @@ media-gfx/xsane tiff
 media-libs/blib aalib
 media-libs/devil mng
 media-libs/freetype -X -auto-hinter
-media-libs/glide-v3 voodoo1 voodoo2 voodoo3 voodoo5
 media-libs/libgphoto2 exif
 media-libs/libggi aalib
 media-libs/libsdl aalib
@@ -415,7 +413,6 @@ x11-base/xorg-server -ipv6 nptl kdrive xvfb
 x11-base/xorg-x11 intel
 
 x11-drivers/ati-drivers distribution -qt4
-x11-drivers/linuxwacom usb
 x11-drivers/nvidia-drivers distribution
 x11-drivers/nvidia-drivers -gtk
 
@@ -626,7 +623,6 @@ app-emulation/xen-tools hvm
 sci-geosciences/mapserver -tiff
 
 # Hylafax features
-media-libs/tiff:3.9
 net-misc/hylafax mgetty
 
 # temp. disable python support due to sip shit
