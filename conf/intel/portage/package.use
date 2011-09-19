@@ -718,7 +718,6 @@ dev-java/swing-layout source
 
 sys-auth/polkit -kde -gtk
 dev-util/geany-plugins enchant gtkspell
-sci-geosciences/tangogps gps
 kde-base/kdesdk-misc extras
 dev-java/antlr script
 app-misc/sphinx mysql
