@@ -474,9 +474,6 @@ sys-kernel/linux-vserver grub splash dmraid
 # Disable GTK for distcc, this is a server-side app
 # and it's better to not ship with gtk
 sys-devel/distcc -gtk
-cross-avr/binutils -selinux
-cross-avr/gcc -boundschecking -d -fortran -gtk -gcj -libffi -mudflap nocxx -objc -objc++ -objc-gc -openmp -selinux -boundschecking -d -fortran -gtk -gcj -libffi -mudflap nocxx -objc -objc++ -objc-gc -openmp
-cross-avr/avr-libc -selinux
 
 # See Sabayon bug #890
 sys-devel/libperl ithreads
