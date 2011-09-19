@@ -4,19 +4,17 @@
 <net-libs/xulrunner-2.0
 
 # Temp. masked
-<gnome-base/gnome-desktop-2.30.2
+<gnome-base/gnome-desktop-3.0.2-r1
 app-i18n/anthy-ss
 app-i18n/atokx2
 app-vim/cvscommand
 app-vim/vcscommand
 app-shells/scsh
-app-vim/enhancedcommentify
 sci-biology/mira
 media-fonts/acroread-asianfonts
 media-sound/songbird-bin
 >dev-lang/erlang-13.2.4
 >=app-portage/portpeek-1.9.70
-media-sound/frescobaldi
 
 # Joost Ruis: Masked because on our overlay, prevent pulling in Portage versions
 >media-tv/xbmc-10.0-r2
