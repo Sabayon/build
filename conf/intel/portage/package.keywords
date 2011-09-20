@@ -28,4 +28,4 @@ dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 >=dev-libs/libgweather-9999 **
 
 # gst-plugins missing x86 keywords
-media-plugins/gst-plugins-assrender ~x86
+media-plugins/gst-plugins-assrender **
