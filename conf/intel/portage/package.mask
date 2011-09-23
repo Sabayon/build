@@ -15,6 +15,7 @@ media-fonts/acroread-asianfonts
 media-sound/songbird-bin
 >dev-lang/erlang-13.2.4
 >=app-portage/portpeek-1.9.70
+>media-video/mediainfo-0.7.48
 
 # Joost Ruis: Masked because on our overlay, prevent pulling in Portage versions
 >media-tv/xbmc-10.0-r2
