@@ -16,3 +16,6 @@ net-fs/openafs
 
 # it's broken, but we have it in repos
 >=x11-drivers/nvidia-drivers-275.21
+
+# test pavucontrol gtk3 support
+media-sound/pavucontrol-0.99.2
