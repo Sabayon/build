@@ -369,6 +369,7 @@ sys-apps/coreutils -acl
 sys-apps/groff -X
 sys-apps/hal disk-partition dell laptop apm -X
 sys-apps/hwdata-gentoo binary-drivers
+sys-libs/zlib minizip
 sys-block/parted device-mapper
 sys-apps/pciutils -zlib
 
