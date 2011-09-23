@@ -806,6 +806,7 @@ app-office/calligra kdepim
 www-apps/postfixadmin mysql
 app-office/kmymoney hbci
 app-arch/unzip natspec
+sci-libs/netcdf hdf5
 
 # No more spidermonkey
 net-misc/plowshare -javascript
