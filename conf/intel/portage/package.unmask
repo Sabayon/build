@@ -18,4 +18,4 @@ net-fs/openafs
 >=x11-drivers/nvidia-drivers-275.21
 
 # test pavucontrol gtk3 support
-media-sound/pavucontrol-0.99.2
+=media-sound/pavucontrol-0.99.2
