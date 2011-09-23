@@ -234,7 +234,7 @@ media-sound/amarok lastfm cdaudio ifp njb mtp musicbrainz -xmms mp4 embedded
 media-sound/ardour freesound
 media-sound/asunder wavpack
 media-sound/audacity ladspa vamp
-media-sound/audacious wma timidity lirc dbus chardet
+media-sound/audacious gtk3 wma timidity lirc dbus chardet
 media-sound/banshee podcast -ipod -zeroconf mtp njb
 media-sound/jack-audio-connection-kit -mmx
 media-sound/jack-audio-connection-kit -cpudetection
