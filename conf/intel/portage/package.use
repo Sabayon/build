@@ -627,7 +627,7 @@ sci-chemistry/avogadro -python
 sci-geosciences/qgis -python
 
 # libva coolness
-x11-libs/libva video_cards_intel video_cards_dummy video_cards_nvidia
+x11-libs/libva video_cards_intel video_cards_dummy
 
 # we provide networkmanager tools for tweaking network settings,
 # moreover network-admin is broken and causes massive meltdown
