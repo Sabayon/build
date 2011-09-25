@@ -33,6 +33,12 @@ sci-libs/gdal (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 dev-ruby/ruby-poppler (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 www-apps/dotproject (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
 www-apps/swish-e (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
+app-text/apvlv (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
+app-text/diffpdf (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
+app-text/pdf2djvu (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-base\2
+app-text/pdf2oo (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-base\2
+app-text/pdfgrep (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-base\2
+app-text/zathura (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 
 # Fix enigmail deps, to point to our split pinentry packages
 x11-plugins/enigmail (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2\2
