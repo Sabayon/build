@@ -17,9 +17,6 @@ net-fs/openafs
 # it's broken, but we have it in repos
 >=x11-drivers/nvidia-drivers-275.21
 
-# test pavucontrol gtk3 support
-=media-sound/pavucontrol-0.99.2
-
 # Nirbheek Chauhan <nirbheek@gentoo.org> (29 Jul 2011)
 # GNOME 3.0 mask for upgrade packages, don't add new packages to this list
 # unless they pull in one of the masked packages
