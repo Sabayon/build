@@ -123,4 +123,6 @@ media-gfx/gimp
 >=gnome-base/gnome-control-center-9999
 >=dev-libs/gjs-9999
 >=dev-libs/json-glib-0.13.4
-
+# Nirbheek Chauhan <nirbheek@gentoo.org> (03 Jul 2011)
+# Mask js185 release, changes pkgconfig file, soname, etc
+>=dev-lang/spidermonkey-1.8.5
