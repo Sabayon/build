@@ -115,3 +115,6 @@ net-fs/openafs
 =dev-libs/libgweather-9999
 media-gfx/gimp
 >=gnome-extra/gnome-user-share-3.0.0
+
+# GNOME 3.1.x pre-releases for libraries in the tree
+>=dev-libs/gobject-introspection-9999
