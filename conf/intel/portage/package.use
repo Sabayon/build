@@ -786,6 +786,9 @@ net-dns/avahi dbus gtk3
 kde-misc/knetworkmanager nm09
 # Do not pull in gnome-extra-apps meta package
 gnome-base/gnome -extras
+# Required by app-accessibility/caribou, part of GNOME 3 crapware
+# librsvg[gtk3] needed to load svg images in css styles
+>=gnome-base/librsvg-2.34.1-r1 gtk3
 
 # Newer kernels do not provide vid4l
 media-gfx/sane-backends -v4l
