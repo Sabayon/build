@@ -2,10 +2,5 @@ media-sound/pulseaudio ~x86 ~amd64
 sys-apps/portage ~x86 ~amd64
 
 # GNOME 3.2 stuff
-~dev-libs/gjs-9999 ~x86 ~amd64
 ~dev-libs/gobject-introspection-9999 ~x86 ~amd64
-~gnome-base/gnome-control-center-9999 ~x86 ~amd64
-~gnome-extra/gnome-contacts-9999 ~x86 ~amd64
-~gnome-extra/gnome-documents-9999 ~x86 ~amd64
-~net-libs/gnome-online-accounts-9999 ~x86 ~amd64
 
