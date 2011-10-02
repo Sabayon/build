@@ -1,3 +1,6 @@
 media-sound/pulseaudio ~x86 ~amd64
 sys-apps/portage ~x86 ~amd64
 
+# GNOME 3.2 temp keywords
+gnome-extra/gnome-contacts ~x86 ~amd64
+net-libs/gnome-online-accounts ~x86 ~amd64
