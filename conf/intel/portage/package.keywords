@@ -40,6 +40,3 @@ dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 
 # gst-plugins missing x86 keywords
 media-plugins/gst-plugins-assrender **
-
-# temp keyword glibc-2.13, it's going to be stable soon
-~sys-libs/glibc-2.13 ~amd64 ~x86
