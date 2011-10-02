@@ -26,13 +26,12 @@ dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 
 # GNOME3 stuff
 >=dev-libs/libgweather-9999 **
-#required by gnome-base/gnome-core-apps-3.2.0, required by gnome-base/gnome-3.2.0, required by gnome (argument)
->=gnome-base/gnome-control-center-9999 **
 #required by gnome-base/gnome-shell-3.2.0, required by gnome-base/gnome-3.2.0, required by gnome (argument)
 >=dev-libs/gjs-9999 **
 #required by dev-libs/gjs-9999, required by gnome-base/gnome-shell-3.2.0, required by gnome-base/gnome-3.2.0, required by gnome (argument)
 >=dev-libs/gobject-introspection-9999 **
 >=gnome-extra/gnome-documents-9999 **
+
 # versioned ebuilds missing ~x86 keword
 <net-libs/gnome-online-accounts-9999 ** ~*
 <gnome-extra/gnome-contacts-9999 ** ~*
