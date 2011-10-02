@@ -33,6 +33,8 @@ dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 #required by dev-libs/gjs-9999, required by gnome-base/gnome-shell-3.2.0, required by gnome-base/gnome-3.2.0, required by gnome (argument)
 >=dev-libs/gobject-introspection-9999 **
 >=gnome-extra/gnome-documents-9999 **
+# versioned ebuilds missing ~x86 keword
+<gnome-extra/gnome-contacts-9999 ~x86
 
 # gst-plugins missing x86 keywords
 media-plugins/gst-plugins-assrender **
