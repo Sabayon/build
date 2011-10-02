@@ -118,6 +118,7 @@ media-gfx/gimp
 >=gnome-extra/nautilus-sendto-3.0.0
 <gnome-base/gnome-control-center-9999
 <dev-libs/gjs-9999
+<dev-libs/gobject-introspection-9999
 
 # Libraries
 # Core Applications
