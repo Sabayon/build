@@ -34,6 +34,7 @@ dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 >=dev-libs/gobject-introspection-9999 **
 >=gnome-extra/gnome-documents-9999 **
 # versioned ebuilds missing ~x86 keword
+<net-libs/gnome-online-accounts-9999 ** ~*
 <gnome-extra/gnome-contacts-9999 ** ~*
 
 # gst-plugins missing x86 keywords
