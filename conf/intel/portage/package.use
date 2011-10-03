@@ -786,6 +786,8 @@ net-dns/avahi dbus gtk3
 kde-misc/knetworkmanager nm09
 # Do not pull in gnome-extra-apps meta package
 gnome-base/gnome -extras
+# Enable some fancy stuff on gdm
+gnome-base/gdm gnome-keyring smartcard accessibility
 
 # Newer kernels do not provide vid4l
 media-gfx/sane-backends -v4l
