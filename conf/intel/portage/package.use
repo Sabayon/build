@@ -92,7 +92,7 @@ dev-lang/ocaml tk
 dev-lang/php fpm posix simplexml mysql mysqli mysqlnd sqlite sqlite3 ftp gd imap calendar ctype sockets snmp wddx apache2 filter soap curl mhash hash pcre reflection spl xml tokenizer pdo pcntl json tidy cgi bcmath postgres zip xsl
 dev-lang/python sqlite
 
-dev-libs/boost threads
+dev-libs/boost python threads
 dev-libs/dbus-glib bash-completion
 dev-libs/gdl gnome
 # 2010-04-6, trying to disable USE="mono" from gmime
