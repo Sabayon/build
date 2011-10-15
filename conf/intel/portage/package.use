@@ -560,7 +560,8 @@ dev-ml/lablgtk gnomecanvas
 kde-base/kdeplasma-addons semantic-desktop
 kde-base/pykde4 semantic-desktop
 kde-base/dolphin semantic-desktop thumbnail
-kde-base/plasma-workspace semantic-desktop
+kde-base/plasma-workspace semantic-desktop python
+kde-base/superkaramba python
 
 app-emulation/e-uae capslib
 games-emulation/qmc2 sdlmess
