@@ -74,6 +74,7 @@ app-text/ghostscript-gpl -linguas_ja -linguas_ko -linguas_zh_CN -linguas_zh_TW
 dev-db/sqlite soundex extensions
 
 dev-embedded/avr-libc -selinux
+dev-embedded/openocd ftdi
 
 dev-games/cegui devil
 dev-games/crystalspace mng
