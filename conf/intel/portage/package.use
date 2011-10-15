@@ -280,6 +280,7 @@ media-video/dvdrip -xine
 
 net-analyzer/echoping -ssl
 net-analyzer/snmptt mysql
+net-analyzer/wireshark python
 
 # Disable GTK for nmap, unfortunately this ebuild
 # should be split. Come on, common user doesn't use this
