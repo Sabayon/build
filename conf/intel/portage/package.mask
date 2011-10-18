@@ -17,6 +17,9 @@ media-sound/songbird-bin
 >=app-portage/portpeek-1.9.70
 >media-video/mediainfo-0.7.48
 
+# Joost Ruis: Bumping this breaks Blender. Impossible to rebuild Blender unless Gentoo bug 384239 is fixed
+>media-libs/openjpeg-1.3-r3
+
 # Joost Ruis: Masked because on our overlay, prevent pulling in Portage versions
 >media-tv/xbmc-10.0-r2
 x11-drivers/ati-drivers::gentoo
