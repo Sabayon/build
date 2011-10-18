@@ -221,11 +221,6 @@ media-plugins/vdr-setup
 # 2011-02-03 Joost Ruis: Wants media-libs/alsa-lib (Change USE: +alisp)
 dev-python/pyglet
 
-# 2011-04-11 Joost Ruis: breaks stuff. See Gentoo bug #362883
->media-libs/mediastreamer-2.6.0
->=media-plugins/mediastreamer-x264-1.4.1
->=net-voip/linphone-3.4.3
-
 # 2011-04-27 Joost Ruis: See Gentoo bug #358869
 >=sys-power/powertop-1.97
 
