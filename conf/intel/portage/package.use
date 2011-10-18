@@ -501,7 +501,7 @@ sys-libs/ncurses static-libs
 ## Put new entries after this line if you dont want to organize it. ##
 ######################################################################
 ## Cleaned up 0600Z 10Jan2010 - Az
-mail-client/mutt sidebar smtp
+mail-client/mutt sasl sidebar smtp
 app-emulation/vice gnome
 
 # Our Apache defaults
