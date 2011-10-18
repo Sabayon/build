@@ -240,6 +240,7 @@ media-sound/banshee podcast -ipod -zeroconf mtp njb
 media-sound/jack-audio-connection-kit -mmx
 media-sound/jack-audio-connection-kit -cpudetection
 media-sound/lmms fftw fluidsynth 
+media-sound/ncmpcpp curl
 # move media-sound/phonon media-libs/phonon
 media-libs/phonon -gstreamer
 media-sound/qtractor sse
