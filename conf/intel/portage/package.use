@@ -430,12 +430,12 @@ x11-libs/goffice gnome
 >=x11-libs/qt-4.0 qt3support sqlite sqlite3
 
 # Drop gtk style support from qt-gui, it's just ridiculous
-# 2010-11-11 Joost Ruis: Keep  raster disabled, seems to cause screen corruption on my Intel machine
-# 2011-03-25 Joost Ruis: enable raster again for testing.
 x11-libs/qt-gui mng private-headers raster -gtk
+
 x11-libs/qt-core private-headers
 x11-libs/qt-script private-headers
 x11-libs/qt-declarative webkit private-headers
+x11-libs/wxGTK gstreamer
 
 # to make cinepaint work, enable threads on fltk
 x11-libs/fltk threads xft
