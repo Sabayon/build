@@ -460,6 +460,7 @@ xfce-base/thunar thumbnail
 xfce-base/xfdesktop thunar-vfs
 xfce-base/xfwm4 xcomposite
 
+xfce-extra/tumbler gstreamer
 
 # to make VPN working with networkmanager (nm-applet)
 net-misc/networkmanager-openvpn gnome
