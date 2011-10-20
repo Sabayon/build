@@ -645,9 +645,7 @@ app-admin/gnome-system-tools -network nfs
 sys-devel/gettext -git
 
 # libproxy is bloatware
-net-libs/libproxy -kde -gnome
-# moreover, xulrunner gets pulled in, in XFCE spins
-net-libs/libproxy -xulrunner
+net-libs/libproxy -kde -gnome python
 
 www-servers/cherokee admin
 net-analyzer/snort dynamicplugin 
