@@ -120,6 +120,10 @@ media-gfx/gimp
 <dev-libs/gjs-9999
 <dev-libs/gobject-introspection-9999
 <gnome-base/gnome-common-9999
+<dev-python/pygobject-9999
+<dev-libs/gobject-introspection-9999
+<dev-libs/gjs-9999
+<media-libs/clutter-9999
 
 # Libraries
 # Core Applications
