@@ -7,13 +7,13 @@ ETP_REPO="${ETP_REPO:-sabayon-limbo}"
 
 rm -rf /usr/portage/packages/x11-drivers/*
 emerge -B ${non_injected_packages} || exit 1
-reagent inject /usr/portage/packages/x11-drivers/* || exit 1
+eit inject --to ${ETP_REPO} /usr/portage/packages/x11-drivers/* || exit 1
 
 for kernel in $kernels; do
         mypackages="${packages}"
         # build for latest kernel
         rm -rf /usr/portage/packages/x11-drivers/*
         KERNEL_DIR="/usr/src/linux-${kernel}" emerge -B ${mypackages} || exit 1
-        reagent inject /usr/portage/packages/x11-drivers/*
+        eit inject --to ${ETP_REPO} /usr/portage/packages/x11-drivers/*
         echo
 done

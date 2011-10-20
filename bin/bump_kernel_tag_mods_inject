@@ -56,7 +56,7 @@ for category in os.listdir(tmp_dir):
 
 if tbz2s:
     os.environ['ETP_REPO'] = dest_repo
-    rc = subprocess.call(["eit", "fit"] + tbz2s)
+    rc = subprocess.call(["eit", "inject"] + tbz2s)
     if rc != 0:
         raise SystemExit(rc)
 

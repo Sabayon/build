@@ -18,7 +18,7 @@ for kernel in $kernels; do
         KERNEL_DIR="/usr/src/linux-${kernel}" emerge -B ${packages} || ( echo "ouch unable to build" && exit 1 )
         built_pkgs=$(find /usr/portage/packages -name "*.tbz2" | xargs echo)
         [[ -z "${built_pkgs}" ]] && echo "ouch no kernel pkgs" && exit 2
-        eit fit ${built_pkgs} || ( echo "ouch unable to inject" && exit 3 )
+        eit inject ${built_pkgs} || ( echo "ouch unable to inject" && exit 3 )
         echo
         eit search "#${kernel}" -qv | sort | uniq
         echo

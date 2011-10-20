@@ -36,6 +36,6 @@ KERNEL_DIR="/usr/src/linux-${kernel}" emerge -Bav ${packages}
 if [ "${?}" != "0" ]; then
 	exit 1
 fi
-reagent inject $(find /usr/portage/packages -name "*.tbz2" | xargs echo)
+eit inject --to ${ETP_REPO} $(find /usr/portage/packages -name "*.tbz2" | xargs echo)
 
 echo "Now you should remove old packages, if you want of course"

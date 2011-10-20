@@ -20,7 +20,7 @@ for kernel in $kernels; do
         # build for latest kernel
         rm -rf /usr/portage/packages/x11-drivers/*
         KERNEL_DIR="/usr/src/linux-${kernel}" emerge -B ${mypackages} || exit 1
-        eit fit /usr/portage/packages/x11-drivers/*
+        eit inject --to ${ETP_REPO} /usr/portage/packages/x11-drivers/*
         echo
 done
 
