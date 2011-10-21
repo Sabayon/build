@@ -160,7 +160,7 @@ gnome-base/gconf policykit
 gnome-base/gnome-applets gnome networkmanager gstreamer
 gnome-base/gvfs ios samba gnome gdu fuse archive gnome-keyring
 gnome-base/librsvg gnome
-gnome-base/nautilus gnome
+gnome-base/nautilus gnome sendto
 
 gnome-extra/avant-window-navigator doc gnome xfce
 gnome-extra/avant-window-navigator-extras gnome
