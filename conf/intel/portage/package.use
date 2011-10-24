@@ -599,7 +599,7 @@ app-emulation/wine fontconfig samba
 net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
 
 # gdb tuning, we want XML
-sys-devel/gdb expat
+sys-devel/gdb expat python
 
 # required by thunderbird-bin
 net-misc/curl nss -gnutls
