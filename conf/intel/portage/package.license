@@ -1,7 +1,7 @@
 app-emulation/emul-linux-x86-java	dlj-1.1
 app-emulation/emul-linux-x86-java	Oracle-BCLA-JavaSE
 dev-java/sun-jce-bin			sun-bcla-java-vm
-dev-java/sun-jre-bin			dlj-1.1
+dev-java/sun-jre-bin			Oracle-BCLA-JavaSE
 dev-java/blackdown-jre			sun-bcla-java-vm
 dev-java/sun-jdk			dlj-1.1
 dev-java/sun-jdk			Oracle-BCLA-JavaSE
