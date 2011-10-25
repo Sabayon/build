@@ -5,8 +5,8 @@
 # every currently supported kernel. You can use this script when
 # you bump kernels or xorg-server.
 
-kernels="2.6.36-sabayon 2.6.37-sabayon 2.6.38-sabayon 2.6.39-sabayon 3.0.0-sabayon 3.0.0-fusion"
-running_kernel="3.0.0-sabayon"
+. /sabayon/bin/kernels.inc
+
 packages="~x11-drivers/nvidia-drivers-173.14.31 ~x11-drivers/nvidia-drivers-96.43.20"
 non_injected_packages="x11-drivers/nvidia-drivers x11-drivers/ati-drivers x11-drivers/xf86-video-virtualbox"
 general_purpose_packages="media-video/amdcccle"
