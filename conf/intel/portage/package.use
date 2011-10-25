@@ -363,7 +363,7 @@ sci-libs/itpp fftw
 sci-libs/vtk tk
 
 sci-mathematics/maxima latex
-sci-mathematics/octave fftw
+sci-mathematics/octave fftw curl
 
 sci-visualization/fityk gnuplot wxwindows
 sci-visualization/gnuplot gd wxwidgets
