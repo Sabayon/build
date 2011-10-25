@@ -131,3 +131,6 @@ media-gfx/gimp
 # Nirbheek Chauhan <nirbheek@gentoo.org> (03 Jul 2011)
 # Mask js185 release, changes pkgconfig file, soname, etc
 >=dev-lang/spidermonkey-1.8.5
+
+# Knetworkmanager is required for NM 09
+>=kde-misc/knetworkmanager-9999
