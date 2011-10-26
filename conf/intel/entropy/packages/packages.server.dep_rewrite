@@ -122,6 +122,7 @@ dev-vcs/kdesvn (.*)kde-base/kde-l10n(.*)
 media-video/kplayer (.*)kde-base/kde-l10n(.*)
 kde-misc/yawp (.*)kde-base/kde-l10n(.*)
 app-cdr/k3b (.*)kde-base/kde-l10n(.*)
+net-misc/knemo (.*)kde-base/kde-l10n(.*)
 
 # net-dns/avahi dep rewrites
 app-crypt/seahorse (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
