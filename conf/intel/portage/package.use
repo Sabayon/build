@@ -391,6 +391,7 @@ sys-boot/grub device-mapper -grub_platforms_coreboot -grub_platforms_efi-32 -gru
 sys-devel/distcc -avahi
 sys-devel/gcc objc objc++ objc-gc
 sys-devel/gcc -gtk
+sys-devel/base-gcc objc objc++ objc-gc -gtk
 
 sys-fs/mtd-utils xattr
 sys-fs/ntfs3g suid ntfsprogs
