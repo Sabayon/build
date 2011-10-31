@@ -2,11 +2,12 @@ app-admin/equo
 app-misc/sabayon-version
 dev-db/sqlite
 sys-apps/entropy
-sys-devel/gcc:4.5
+sys-devel/base-gcc:4.5
 sys-libs/db:4.8
 virtual/cron   
 # virtual/linux-binary
 sys-auth/pambase
+
 # glibc cannot be removed, it's part of the system
 # nowadays it's not even a system pkg because
 # virtual/libc wraps it.
