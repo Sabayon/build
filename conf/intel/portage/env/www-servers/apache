@@ -7,7 +7,7 @@ if [ "${EBUILD_PHASE}" = "install" ]; then
 	elog "please also bump the Entropy tagged version"
 	elog "containing the worker MPM, this way:"
 	elog "USE=\"threads\" APACHE2_MPMS=\"worker\" emerge -B apache && \\"
-	elog "ENTROPY_PROJECT_TAG=\"worker\" reagent inject /usr/portage/packages/www-servers/apache*"
+	elog "ENTROPY_PROJECT_TAG=\"worker\" eit inject /usr/portage/packages/www-servers/apache*"
 	elog
 	elog "~~~   READ THIS CAREFULLY   ~~~"
 	elog
