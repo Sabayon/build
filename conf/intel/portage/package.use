@@ -24,7 +24,7 @@ app-editors/vim vim-pager
 app-misc/beagle -firefox gtk -gtk -avahi chm ole
 
 # virt stuff
-app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml
+app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python
 app-emulation/qemu-kvm no_kernel_module
 app-emulation/qemu-kvm havekernel -modules vde qemu-ifup spice fdt
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
