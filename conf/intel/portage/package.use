@@ -182,7 +182,7 @@ kde-base/solid networkmanager -wicd
 kde-base/okular chm djvu ebook crypt
 kde-base/marble plasma
 
-kde-misc/knetworkmanager openvpn networksettings
+kde-misc/networkmanagement openvpn networksettings
 
 mail-client/claws-mail bogofilter -kde -pda
 mail-client/evolution exchange
@@ -796,7 +796,7 @@ app-misc/tomboy -applet
 # our is a split package, who cares
 net-dns/avahi dbus gtk3
 # GNOME 3 wants NetworkManager 0.9
-kde-misc/knetworkmanager nm09
+kde-misc/networkmanagement nm09
 # Do not pull in gnome-extra-apps meta package
 gnome-base/gnome -extras
 # Enable some fancy stuff on gdm

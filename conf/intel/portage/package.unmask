@@ -133,4 +133,4 @@ media-gfx/gimp
 >=dev-lang/spidermonkey-1.8.5
 
 # Knetworkmanager is required for NM 09
->=kde-misc/knetworkmanager-9999
+>=kde-misc/networkmanagement-9999
