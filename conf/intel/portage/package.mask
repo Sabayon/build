@@ -245,3 +245,6 @@ gnustep-apps/terminal
 
 # 2011-08-07 Fabio Erculiani: Conflicts with www-client/chromium
 >www-plugins/gecko-mediaplayer-1.0.0
+
+# 2011-11-02 Joost Ruis: Breaks games-arcade/smc. See Gentoo bug #357761 
+>dev-games/cegui-0.6.2b 
