@@ -5,6 +5,9 @@ dev-java/sun-jre-bin			Oracle-BCLA-JavaSE
 dev-java/blackdown-jre			sun-bcla-java-vm
 dev-java/sun-jdk			dlj-1.1
 dev-java/sun-jdk			Oracle-BCLA-JavaSE
+dev-lang/icc				Intel-SDP
+dev-lang/idb				Intel-SDP
+dev-lang/ifc				Intel-SDP
 games-action/mutantstorm-demo		POMPOM
 games-action/spacetripper-demo		POMPOM
 games-arcade/thinktanks-demo		THINKTANKS
