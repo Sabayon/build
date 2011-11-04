@@ -1,7 +1,7 @@
 # Only use stable versions of these libs
 # sys-kernel/linux-headers -~amd64 -~x86
 sys-libs/glibc -~amd64 -~x86
-dev-lang/python -~amd64 -~x86
+<dev-lang/python-3 -~amd64 -~x86
 dev-libs/openssl -~amd64 -~x86
 dev-lang/perl -~amd64 -~x86
 sys-devel/make -~amd64 -~x86
