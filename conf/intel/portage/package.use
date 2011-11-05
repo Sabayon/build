@@ -836,3 +836,6 @@ media-libs/libraw demosaic
 
 # Do we really want berkdb?
 sys-apps/man-db -berkdb
+
+# Enable perl and python
+net-irc/xchat perl python
