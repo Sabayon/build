@@ -839,3 +839,7 @@ sys-apps/man-db -berkdb
 
 # Enable perl and python
 net-irc/xchat perl python
+sci-libs/gdal perl python
+gnome-extra/gnome-commander python
+app-office/libreoffice python
+media-gfx/gimp python
