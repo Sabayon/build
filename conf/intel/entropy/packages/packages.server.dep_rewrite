@@ -17,7 +17,7 @@ app-text/evince (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-glib-\2
 kde-misc/tellico (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-qt4-\2
 app-text/epdfview (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-glib-\2
 app-text/xpdf (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
-app-text/xournal (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-glib-\2
+app-text/xournal app-text/poppler(\[.*\]) app-text/poppler-glib
 media-gfx/keyjnote (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
 dev-games/openscenegraph (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 xfce-extra/tumbler (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-glib-\2
