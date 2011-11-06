@@ -124,6 +124,7 @@ media-gfx/gimp
 <dev-libs/gobject-introspection-9999
 <dev-libs/gjs-9999
 <media-libs/clutter-9999
+<app-misc/tracker-9999
 
 # Libraries
 # Core Applications
