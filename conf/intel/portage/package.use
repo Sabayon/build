@@ -845,3 +845,4 @@ app-office/libreoffice python
 media-gfx/gimp python
 x11-libs/qscintilla python
 sci-visualization/qtiplot python
+dev-util/universalindentgui perl python
