@@ -837,6 +837,9 @@ media-libs/libraw demosaic
 # Do we really want berkdb?
 sys-apps/man-db -berkdb
 
+# We don't have Oracle
+dev-db/tora -oracle
+
 # Enable perl and python
 net-irc/xchat perl python
 sci-libs/gdal perl python
