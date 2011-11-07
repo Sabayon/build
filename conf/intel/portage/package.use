@@ -217,7 +217,7 @@ media-libs/libsdl aalib
 media-libs/libxtract fftw
 media-libs/mediastreamer video
 media-libs/mesa pic nptl video_cards_intel video_cards_mach64 video_cards_mga video_cards_r128 video_cards_radeon video_cards_savage video_cards_sis video_cards_tdfx video_cards_via video_cards_nouveau video_cards_vmware
-media-libs/mlt -qt3 melt frei0r kde quicktime
+media-libs/mlt -qt3 melt frei0r kde quicktime python
 media-libs/openal -pulseaudio
 media-libs/openexr -video_cards_nvidia
 media-libs/vigra fftw
