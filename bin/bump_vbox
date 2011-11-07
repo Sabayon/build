@@ -19,7 +19,7 @@ for kernel in $kernels; do
         [[ -z "${built_pkgs}" ]] && echo "ouch no kernel pkgs" && exit 2
         eit inject ${built_pkgs} || ( echo "ouch unable to inject" && exit 3 )
         echo
-        eit search "#${kernel}" -qv | sort | uniq
+        eit search "#${kernel}" -q | sort | uniq
         echo
 done
 
