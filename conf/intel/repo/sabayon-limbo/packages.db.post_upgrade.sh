@@ -10,7 +10,7 @@ NEW_BRANCH=$4
 echo -e "
 >> requirements for this branch:
    app-admin/eselect-python
-   sys-devel/base-gcc:4.5
+   sys-devel/base-gcc:4.6
 >> Entropy post-upgrade migration script
 >> Repository: "${REPO_ID}"
 >> Root: "${ROOT}"
