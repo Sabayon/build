@@ -1,0 +1,5 @@
+# Revert:
+# Alexandre Rostovtsev <tetromino@gentoo.org> (27 Oct 2011)
+# GNOME 3 package.use.mask for flags in unmasked packages that
+# would pull in masked ones
+>=app-misc/gnote-0.8 applet

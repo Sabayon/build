@@ -136,3 +136,6 @@ media-gfx/gimp
 
 # Knetworkmanager is required for NM 09
 >=kde-misc/networkmanagement-9999
+
+# GCC 4.6, welcome!
+sys-devel/gcc:4.6::sabayon
