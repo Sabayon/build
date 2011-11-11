@@ -1,0 +1,23 @@
+import os
+import subprocess
+from entropy.const import etpConst
+
+def configure_correct_gcc():
+    gcc_target = "4.6"
+    uname_arch = os.uname()[4]
+    gcc_dir = etpConst['systemroot'] + "/etc/env.d/gcc"
+    gcc_profile_file_pfx = uname_arch + "-pc-linux-gnu-" + gcc_target
+    gcc_profile_file = None
+    for curdir, subs, files in os.walk(gcc_dir):
+        for fname in files:
+            if fname.startswith(gcc_profile_file_pfx):
+                gcc_profile_file = fname
+                break
+        break
+    if gcc_profile_file is not None:
+        subprocess.call(("gcc-config", gcc_profile_file))
+
+if stage == "postinstall":
+    configure_correct_gcc()
+
+my_ext_status = 0
