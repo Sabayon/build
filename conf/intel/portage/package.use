@@ -416,8 +416,10 @@ www-plugins/gnash vaapi -kde
 
 x11-apps/fusion-icon -qt4
 
+# X.Org stuff
 x11-base/xorg-server -ipv6 nptl kdrive xvfb
 x11-base/xorg-x11 intel
+x11-drivers/xf86-video-intel sna
 
 x11-drivers/ati-drivers distribution -qt4
 x11-drivers/nvidia-drivers distribution
