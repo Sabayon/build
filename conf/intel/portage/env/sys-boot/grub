@@ -1,0 +1,11 @@
+if [ "${EBUILD_PHASE}" = "install" ]; then
+	elog
+	elog "Entropy administration information:"
+	elog
+	elog "~~~   READ THIS CAREFULLY   ~~~"
+	elog "if you are bumping sys-boot/grub:0"
+	elog "please MAKE SURE to compile it with gcc-4.4."
+	elog "Later GCC versions could cause runtime failures"
+	elog "~~~   READ THIS CAREFULLY   ~~~"
+	elog
+fi
