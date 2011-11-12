@@ -126,6 +126,7 @@ media-gfx/gimp
 <media-libs/clutter-9999
 <app-misc/tracker-9999
 <media-libs/cogl-9999
+~x11-libs/libcryptui-9999
 
 # Libraries
 # Core Applications
