@@ -27,7 +27,7 @@ dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 # versioned ebuilds missing ~x86 keword
 <net-libs/gnome-online-accounts-9999 ** ~*
 <gnome-extra/gnome-contacts-9999 ** ~*
-~x11-libs/libcryptui-9999 **
+~x11-libs/libcryptui-9999 ** ~amd64 ~x86
 
 # gst-plugins missing x86 keywords
 media-plugins/gst-plugins-assrender **
