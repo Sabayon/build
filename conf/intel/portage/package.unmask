@@ -143,4 +143,4 @@ media-gfx/gimp
 >=kde-misc/networkmanagement-9999
 
 # GCC 4.6, welcome!
-sys-devel/gcc:4.6::sabayon
+sys-devel/gcc:4.6::sabayon-distro
