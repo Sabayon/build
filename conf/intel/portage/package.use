@@ -843,12 +843,5 @@ sys-apps/man-db -berkdb
 # We don't have Oracle
 dev-db/tora -oracle
 
-# Enable perl and python
-net-irc/xchat perl python
-sci-libs/gdal perl python
-gnome-extra/gnome-commander python
-app-office/libreoffice python
-media-gfx/gimp python
-x11-libs/qscintilla python
-sci-visualization/qtiplot python
-dev-util/universalindentgui perl python
+# Disable v4l, broken
+media-gfx/zbar -v4l -v4l2
