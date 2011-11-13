@@ -127,6 +127,7 @@ media-gfx/gimp
 <app-misc/tracker-9999
 <media-libs/cogl-9999
 ~x11-libs/libcryptui-9999
+<gnome-extra/gnome-dvb-daemon-9999
 
 # Libraries
 # Core Applications
