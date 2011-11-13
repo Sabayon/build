@@ -4,7 +4,6 @@
 <net-libs/xulrunner-2.0
 
 # Temp. masked
-<gnome-base/gnome-desktop-3.0.2-r1
 app-i18n/anthy-ss
 app-i18n/atokx2
 app-vim/cvscommand
