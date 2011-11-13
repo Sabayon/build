@@ -251,5 +251,3 @@ gnustep-apps/terminal
 
 # Fabio Erculiani, matter masks (preserved-libs bullshit):
 >app-i18n/fcitx-4.1
-# Fabio Erculiani, too many broken pkgs
->media-libs/libpng-1.5
