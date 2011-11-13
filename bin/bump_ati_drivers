@@ -1,10 +1,10 @@
 #!/bin/sh
 
 . /sabayon/bin/kernels.inc
-packages="x11-drivers/ati-drivers::sabayon"
+packages="x11-drivers/ati-drivers::sabayon-distro"
 
 # build for latest kernel
-KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge $packages media-video/amdcccle::sabayon
+KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge $packages media-video/amdcccle::sabayon-distro
 echo -5 | etc-update
 eit commit
 
