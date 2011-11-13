@@ -248,3 +248,8 @@ gnustep-apps/terminal
 
 # 2011-11-02 Joost Ruis: Breaks games-arcade/smc. See Gentoo bug #357761 
 >dev-games/cegui-0.6.2b 
+
+# Fabio Erculiani, matter masks (preserved-libs bullshit):
+>app-i18n/fcitx-4.1
+# Fabio Erculiani, too many broken pkgs
+>media-libs/libpng-1.5
