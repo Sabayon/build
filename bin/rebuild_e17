@@ -1,0 +1,18 @@
+#!/bin/bash
+# Yeah, E17 is crap, real pure crap
+
+# STRICT ORDER!
+# http://www.enlightenment.org/p.php?p=download&l=en
+PACKAGES="
+	dev-libs/eina
+	dev-libs/eet
+	media-libs/evas
+	dev-libs/ecore
+	dev-libs/embryo
+	media-libs/edje
+	dev-libs/efreet
+	dev-libs/e_dbus
+	dev-libs/eeze
+	x11-wm/enlightenment"
+
+emerge ${PACKAGES} --nodeps
