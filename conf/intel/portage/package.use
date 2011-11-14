@@ -440,7 +440,8 @@ x11-libs/qt-declarative webkit private-headers
 x11-libs/wxGTK gstreamer
 
 # to make cinepaint work, enable threads on fltk
-x11-libs/fltk threads xft
+# @cairo: doesn't compile if enabled, undefined ref -> fl_set_cairo_ctm()
+x11-libs/fltk threads xft -cairo
 
 x11-misc/xaos aalib
 # Disable new-login, pulls in gdm or kdm, which is bad
