@@ -131,6 +131,7 @@ media-gfx/gimp
 <gnome-extra/gnome-documents-9999
 <gnome-extra/sushi-9999
 <gnome-extra/gnome-contacts-9999
+<dev-python/nautilus-python-9999
 
 # Libraries
 # Core Applications
