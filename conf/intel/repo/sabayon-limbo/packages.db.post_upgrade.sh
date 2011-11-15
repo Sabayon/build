@@ -31,7 +31,6 @@ echo -e "
 ### CUT HERE ###
 
 fix_lib64_symlinks() {
-
 	if [ -L ${ROOT}/lib64 ] ; then
 		echo "removing /lib64 symlink and moving lib to lib64..."
 		echo "dont hit ctrl-c until this is done"
@@ -57,10 +56,15 @@ fix_lib64_symlinks() {
 		ln -s lib64 ${ROOT}/usr/X11R6/lib
 		echo "fixed broken lib64/lib symlink in ${ROOT}/usr/X11R6"
 	fi
-
 }
 
-function three_four_to_five() {
+latest_gcc_profile() {
+    local gcc_dir="/etc/env.d/gcc"
+    local latest=$(ls -1 ${gcc_dir}/$(uname -m)* | sort | tail -n 1 2> /dev/null)
+    [[ -n "${latest}" ]] && echo $(basename "${latest}")
+}
+
+three_four_to_five() {
 
     local rc=0
 
@@ -82,16 +86,15 @@ function three_four_to_five() {
         rc=1
     fi
 
-    ## sys-devel/gcc:4.5 must be forced using
+    ## sys-devel/base-gcc:LATEST must be forced using
     ## packages.db.system_mask inside repository db dir
-    c_profile=$(gcc-config -l | grep "\-4.5" | cut -d"[" -f 2 | cut -d"]" -f 1)
-    [[ "${?}" != "0" ]] && echo "gcc-config script error" && exit 1
-    if [[ ${c_profile} =~ ^[0-9]+$ ]]; then
-        gcc-config ${c_profile}
+    c_profile=$(latest_gcc_profile)
+    if [ -n "${c_profile}" ]; then
+        gcc-config "${c_profile}"
         # update env
         env-update
     else
-        echo "gcc-config unable to set new profile:" ${c_profile}
+        echo "gcc-config unable to set new profile: not detected"
         rc=1
     fi
 
