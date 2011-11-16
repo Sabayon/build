@@ -145,3 +145,8 @@ media-gfx/gimp
 
 # GCC 4.6, welcome!
 sys-devel/gcc:4.6::sabayon-distro
+
+# Unmask llvm-3.x, lightspark needs it
+=sys-devel/llvm-3.0_rc*
+=sys-devel/clang-3.0_rc*
+=sys-devel/dragonegg-3.0_rc*
