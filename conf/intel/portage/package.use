@@ -267,6 +267,8 @@ media-video/libav threads ogg vhook faac faad vdpau video_cards_nvidia amr cpude
 media-video/mplayer -dxr3 mng dvdnav mp2 openal mmxext radio rtc rar tga tivo zoran cpudetection cddb cdparanoia 3dnow 3dnowext x264 sse sse2 vidix amr bl ftp lirc md5sum pnm ass ssse3 aalib vdpau ladspa vpx
 # testing mplayer flags
 media-video/mplayer fbcon bs2b
+# Drop dead code, doesn't work with libav
+media-video/mplayer2 -xvmc
 media-video/mkvtoolnix wxwindows
 media-video/ogmrip ogm mp4 srt
 media-video/totem xulrunner iplayer galago
