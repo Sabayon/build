@@ -302,6 +302,7 @@ net-dns/dnsmasq -dbus
 net-fs/samba acl oav winbind
 
 net-im/gajim -avahi
+net-im/gyachi gpgme gtkspell
 net-im/kadu xmpp
 net-im/pidgin bonjour console gadu groupwise meanwhile msn prediction qq sasl silc -zephyr
 net-im/psi jingle
