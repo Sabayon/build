@@ -280,7 +280,7 @@ media-video/xine-ui aalib
 
 # Drop xine-ui from dvdrip, since
 # we don't want it on G ISO
-media-video/dvdrip -xine
+media-video/dvdrip -xine subtitles fping
 
 net-analyzer/echoping -ssl
 net-analyzer/snmptt mysql
