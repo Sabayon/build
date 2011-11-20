@@ -172,3 +172,6 @@ media-video/kino (.*)x11-libs/gtk(.*) \1x11-libs/gtk\2:2
 
 # gnome-session-3.0.2 should pull in notification-daemon or it won't start
 >=gnome-base/gnome-session-3.0 ++>=x11-misc/notification-daemon-0.7.1<2>
+
+# We provide media-video/libav and we want systems to have it pulled in
+virtual/ffmpeg (.*)media-video/ffmpeg(.*) \1media-video/libav\2
