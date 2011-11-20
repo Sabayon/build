@@ -612,8 +612,9 @@ net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
 # gdb tuning, we want XML
 sys-devel/gdb expat python
 
-# required by thunderbird-bin
-net-misc/curl nss -gnutls
+# Prever openssl over nss and gnutls
+# moreover, nss breaks git https:// checkouts
+net-misc/curl ssl -nss -gnutls
 
 # bluetooth stuff is now provided by gnome-bluetooth
 gnome-extra/nautilus-sendto -bluetooth
