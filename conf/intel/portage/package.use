@@ -445,6 +445,8 @@ x11-libs/wxGTK gstreamer
 # to make cinepaint work, enable threads on fltk
 # @cairo: doesn't compile if enabled, undefined ref -> fl_set_cairo_ctm()
 x11-libs/fltk threads xft -cairo
+# We want MT support for tcl
+dev-lang/tcl threads
 
 x11-misc/xaos aalib
 # Disable new-login, pulls in gdm or kdm, which is bad
