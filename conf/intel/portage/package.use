@@ -449,6 +449,7 @@ x11-libs/fltk threads xft -cairo
 # We want MT support for tcl and tk
 dev-lang/tcl threads
 dev-lang/tk threads
+dev-tcltk/tclx threads
 
 x11-misc/xaos aalib
 # Disable new-login, pulls in gdm or kdm, which is bad
