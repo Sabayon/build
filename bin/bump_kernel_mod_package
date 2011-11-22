@@ -4,11 +4,12 @@
 
 if [ "${#}" -lt 1 ]; then
 	echo "${0} <package> <package> ..." >&2 /dev/null
+	echo "example: ${0} net-wireless/broadcom-sta" >&2 /dev/null
 	exit 1
 fi
 
 # build for latest kernel
-KERNEL_DIR="/usr/src/linux-${running_kernel}" "${@}"
+KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge "${@}"
 echo -5 | etc-update
 eit commit
 
