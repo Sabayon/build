@@ -536,7 +536,7 @@ media-tv/mythtv -css
 app-crypt/gnupg static
 
 # Inflate lighttpd
-www-servers/lighttpd fastcgi php lua memcache xattr
+www-servers/lighttpd fastcgi lua memcache xattr
 
 app-emacs/auctex preview-latex
 net-analyzer/zabbix frontend agent server mysql ssh snmp proxy -sqlite3
