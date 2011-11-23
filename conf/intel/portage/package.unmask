@@ -102,6 +102,7 @@ net-fs/openafs
 >=net-misc/networkmanager-vpnc-0.8.99
 >=net-misc/modemmanager-0.4.99
 >=gnome-extra/nm-applet-0.8.99
+<kde-misc/networkmanagement-9999
 # Meta packages
 >=gnome-base/gnome-core-apps-3.0
 >=gnome-base/gnome-extra-apps-3.0
