@@ -129,6 +129,7 @@ net-im/choqok (.*)kde-base/kde-l10n(.*)
 media-video/kmplayer (.*)kde-base/kde-l10n(.*)
 sci-calculators/keurocalc (.*)kde-base/kde-l10n(.*)
 media-sound/kradio (.*)kde-base/kde-l10n(.*)
+kde-misc/networkmanagement (.*)kde-base/kde-l10n(.*)
 
 # net-dns/avahi dep rewrites
 app-crypt/seahorse (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
