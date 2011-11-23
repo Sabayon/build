@@ -10,7 +10,7 @@ NEW_BRANCH=$4
 echo -e "
 >> requirements for this branch:
    app-admin/eselect-python
-   sys-devel/base-gcc:4.6
+   sys-devel/base-gcc:<latest>
 >> Entropy post-upgrade migration script
 >> Repository: "${REPO_ID}"
 >> Root: "${ROOT}"
@@ -58,12 +58,6 @@ fix_lib64_symlinks() {
 	fi
 }
 
-latest_gcc_profile() {
-    local gcc_dir="/etc/env.d/gcc"
-    local latest=$(ls -1 ${gcc_dir}/$(uname -m)* | sort | tail -n 1 2> /dev/null)
-    [[ -n "${latest}" ]] && echo $(basename "${latest}")
-}
-
 three_four_to_five() {
 
     local rc=0
@@ -83,18 +77,6 @@ three_four_to_five() {
     else
         echo "binutils directory ${binutils_dir} not found"
         echo "cannot properly set binutils profile"
-        rc=1
-    fi
-
-    ## sys-devel/base-gcc:LATEST must be forced using
-    ## packages.db.system_mask inside repository db dir
-    c_profile=$(latest_gcc_profile)
-    if [ -n "${c_profile}" ]; then
-        gcc-config "${c_profile}"
-        # update env
-        env-update
-    else
-        echo "gcc-config unable to set new profile: not detected"
         rc=1
     fi
 
