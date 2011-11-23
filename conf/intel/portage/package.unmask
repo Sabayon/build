@@ -140,8 +140,5 @@ media-gfx/gimp
 # Mask js185 release, changes pkgconfig file, soname, etc
 >=dev-lang/spidermonkey-1.8.5
 
-# Knetworkmanager is required for NM 09
->=kde-misc/networkmanagement-9999
-
 # GCC 4.6, welcome!
 sys-devel/gcc:4.6::sabayon-distro
