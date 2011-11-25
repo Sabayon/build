@@ -306,6 +306,8 @@ net-im/gyachi gpgme gtkspell
 net-im/kadu xmpp
 net-im/pidgin bonjour console gadu groupwise meanwhile msn prediction qq sasl silc -zephyr
 net-im/psi jingle
+# USE=perl, conflicts with irssi, (perl? ( !net-irc/irssi ))
+net-im/silc-client -perl
 
 net-irc/inspircd mysql sqlite
 net-irc/kvirc -audiofile dcc_video
