@@ -46,15 +46,15 @@ import sys
 import os
 import entropy.dep
 
-def check_unwanted_deps():
+def check_unwanted_deps(pkg_deps):
     """
     Check against forbidden dependencies, those we consider meta packages,
     placeholders just to keep Gentoo compatibility, which, if listed as dep in,
     would cause the whole world to be pulled in.
     """
-    pkg_deps = os.getenv("PKG_DEPS")
-    if pkg_deps is None:
+    if not pkg_deps:
         return 0
+
     pkg_atom = os.getenv("PKG_ATOM")
     pkg_keywords = os.getenv("PKG_KEYWORDS")
 
@@ -65,21 +65,21 @@ def check_unwanted_deps():
         "dev-lang/gnat-gcc"]
     func_rc = 0
 
-    pkg_deps = dict((entropy.dep.dep_getkey(x), x) for x in pkg_deps.split() if \
+    pkg_deps_map = dict((entropy.dep.dep_getkey(x), x) for x in pkg_deps if \
         not x.startswith("!"))
     for unwanted_dep in unwanted_deps:
-        if unwanted_dep in pkg_deps:
+        if unwanted_dep in pkg_deps_map:
             sys.stderr.write("\nATTENTION ATTENTION ATTENTION\n")
             sys.stderr.write("%s contains forbidden dependency against %s\n" % (
-                pkg_atom, pkg_deps[unwanted_dep]))
+                pkg_atom, pkg_deps_map[unwanted_dep]))
             sys.stderr.write("ATTENTION ATTENTION ATTENTION\n\n")
             func_rc = 2
 
     for warning_dep in warning_deps:
-        if warning_dep in pkg_deps:
+        if warning_dep in pkg_deps_map:
             sys.stderr.write("\nATTENTION ATTENTION ATTENTION\n")
             sys.stderr.write("%s contains a weirdo dependency against %s\n" % (
-                pkg_atom, pkg_deps[warning_dep]))
+                pkg_atom, pkg_deps_map[warning_dep]))
             sys.stderr.write("ATTENTION ATTENTION ATTENTION\n\n")
             if func_rc == 0:
                 func_rc = 1
@@ -98,7 +98,15 @@ def check_unwanted_deps():
 
 if __name__ == "__main__":
 
-    exit_st = check_unwanted_deps()
-    if exit_st != 0:
-        raise SystemExit(exit_st)
-    raise SystemExit(0)
+    pkg_deps = os.getenv("PKG_DEPS")
+    if pkg_deps is None:
+        return 0
+    pkg_deps = pkg_deps.split()
+
+    exit_st = 0
+    rc = check_unwanted_deps(pkg_deps)
+    if rc != 0:
+        exit_st = rc
+    # more tests here
+
+    raise SystemExit(exit_st)
