@@ -39,7 +39,6 @@
 #    note: elf class and path are also provided,
 #    so each item will look like this:
 #     <soname>|<path of soname>|<elfclass>
-# PKG_CONTENT = list (\n separated) of package files and dirs owned by package
 #
 # The executable must return 0 for success, 1 for warning, 2 for critical error
 
