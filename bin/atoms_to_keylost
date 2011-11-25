@@ -1,0 +1,17 @@
+#!/usr/bin/python
+import sys
+import entropy.dep
+
+atoms = sys.argv[1:]
+
+keyslot_cache = set()
+for atom in atoms:
+    key = entropy.dep.dep_getkey(atom)
+    with open("/var/db/pkg/%s/SLOT" % (atom,)) as slot_f:
+        slot = slot_f.readline().strip()
+    keyslot = "%s:%s" % (key, slot)
+    if keyslot in keyslot_cache:
+        continue
+    print(keyslot)
+    keyslot_cache.add(keyslot)
+
