@@ -38,3 +38,4 @@ sci-geosciences/googleearth             googleearth
 app-emulation/virtualbox-ose-additions	PUEL
 www-plugins/adobe-flash			AdobeFlash-10.1
 www-plugins/google-talkplugin           google-talkplugin
+dev-java/oracle-jdk-bin			Oracle-BCLA-JavaSE
