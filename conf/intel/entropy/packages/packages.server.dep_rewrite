@@ -39,7 +39,7 @@ app-text/pdf2djvu (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-base\2
 app-text/pdf2oo (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-base\2
 app-text/pdfgrep (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 app-text/zathura (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
-dev-tex/pstplus (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-qt4-\2
+dev-tex/pstplus (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 
 # Fix enigmail deps, to point to our split pinentry packages
 x11-plugins/enigmail (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2\2
