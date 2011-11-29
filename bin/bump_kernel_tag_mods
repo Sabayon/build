@@ -52,9 +52,9 @@ try:
     for lst in (normal_pkgs, injected_pkgs):
         for pkg_id in lst:
             if keyslot:
-                atom_str = repo.retrieveKeySlotAggregated(pkg_id)
+                atom_str = entropy.dep.remove_tag_from_slot(repo.retrieveKeySlotAggregated(pkg_id))
             else:
-                atom_str = entropy.dep.remove_tag(repo.retrieveAtom(pkg_id))
+                atom_str = "~" + entropy.dep.remove_tag(repo.retrieveAtom(pkg_id))
             if do_spm_repo:
                 spm_repo = repo.retrieveSpmRepository(pkg_id)
                 if spm_repo is not None:
@@ -74,7 +74,7 @@ if not (normal_atoms or injected_atoms):
     raise SystemExit(0)
 
 if normal_atoms and not only_injected:
-    rc = subprocess.call(["emerge", "-av", "--keep-going"] + ["~" + x for x in normal_atoms])
+    rc = subprocess.call(["emerge", "-av", "--keep-going"] + [x for x in normal_atoms])
     if rc != 0:
         raise SystemExit(rc)
     subprocess.call(["etc-update"], shell = True)
@@ -86,7 +86,7 @@ if normal_atoms and not only_injected:
 if injected_atoms:
     tmp_dir = tempfile.mkdtemp()
     os.environ['PKGDIR'] = tmp_dir
-    rc = subprocess.call(["emerge", "-Bav", "--nodeps"] + ["~" + x for x in injected_atoms])
+    rc = subprocess.call(["emerge", "-Bav", "--nodeps"] + [x for x in injected_atoms])
     if rc != 0:
         raise SystemExit(rc)
     tbz2s = []

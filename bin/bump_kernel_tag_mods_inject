@@ -44,9 +44,9 @@ try:
                 atom_str += "::" + spm_repo
         injected_atoms.append(atom_str)
     if keyslot:
-        injected_atoms = [repo.retrieveKeySlotAggregated(pkg_id) for pkg_id in pkg_ids]
+        injected_atoms = [entropy.dep.remove_tag_from_slot(repo.retrieveKeySlotAggregated(pkg_id)) for pkg_id in pkg_ids]
     else:
-        injected_atoms = [entropy.dep.remove_tag(repo.retrieveAtom(pkg_id)) for pkg_id in pkg_ids]
+        injected_atoms = ["~" + entropy.dep.remove_tag(repo.retrieveAtom(pkg_id)) for pkg_id in pkg_ids]
 finally:
     srv.shutdown()
 
@@ -58,7 +58,7 @@ else:
 
 tmp_dir = tempfile.mkdtemp()
 os.environ['PKGDIR'] = tmp_dir
-rc = subprocess.call(["emerge", "-Bav", "--keep-going"] + ["~" + x for x in injected_atoms])
+rc = subprocess.call(["emerge", "-Bav", "--keep-going"] + [x for x in injected_atoms])
 if rc != 0:
     raise SystemExit(rc)
 tbz2s = []
