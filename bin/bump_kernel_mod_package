@@ -9,9 +9,9 @@ if [ "${#}" -lt 1 ]; then
 fi
 
 # build for latest kernel
-KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge "${@}"
+KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge "${@}" || exit 1
 echo -5 | etc-update
-eit commit
+eit commit || exit 1
 
 for kernel in $kernels; do
         if [ "${kernel}" = "${running_kernel}" ]; then
