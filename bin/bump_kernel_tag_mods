@@ -12,9 +12,12 @@ if only_injected:
 do_spm_repo = "--no-spm-repo" not in args
 if not do_spm_repo:
     args.remove("--no-spm-repo")
+keyslot = "--keyslot" in args
+if keyslot:
+    args.remove("--keyslot")
 
 if len(args) < 3:
-    print("bump_kernel_tag_mods <query tag> <compile tag> <source (query) repo> <destination entropy repo> [--only-injected] [--no-spm-repo]")
+    print("bump_kernel_tag_mods <query tag> <compile tag> <source (query) repo> <destination entropy repo> [--only-injected] [--no-spm-repo] [--keyslot]")
     raise SystemExit(1)
 
 kernel_tag = args.pop(0)
@@ -48,7 +51,10 @@ try:
     injected_atoms = []
     for lst in (normal_pkgs, injected_pkgs):
         for pkg_id in lst:
-            atom_str = entropy.dep.remove_tag(repo.retrieveAtom(pkg_id))
+            if keyslot:
+                atom_str = repo.retrieveKeySlotAggregated(pkg_id)
+            else:
+                atom_str = entropy.dep.remove_tag(repo.retrieveAtom(pkg_id))
             if do_spm_repo:
                 spm_repo = repo.retrieveSpmRepository(pkg_id)
                 if spm_repo is not None:
