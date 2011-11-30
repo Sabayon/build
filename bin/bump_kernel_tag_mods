@@ -49,7 +49,7 @@ try:
 
     normal_atoms = []
     injected_atoms = []
-    for lst in (normal_pkgs, injected_pkgs):
+    for lst, dst in ((normal_pkgs, normal_atoms), (injected_pkgs, injected_atoms)):
         for pkg_id in lst:
             if keyslot:
                 atom_str = entropy.dep.remove_tag_from_slot(repo.retrieveKeySlotAggregated(pkg_id))
@@ -59,7 +59,7 @@ try:
                 spm_repo = repo.retrieveSpmRepository(pkg_id)
                 if spm_repo is not None:
                     atom_str += "::" + spm_repo
-            lst.append(atom_str)
+            dst.append(atom_str)
 finally:
     srv.shutdown()
 
