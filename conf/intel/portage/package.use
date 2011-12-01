@@ -641,7 +641,7 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 # add HVM
-app-emulation/xen-tools hvm
+app-emulation/xen-tools hvm qemu
 
 # doesn't build with tiff 4.0
 sci-geosciences/mapserver -tiff
