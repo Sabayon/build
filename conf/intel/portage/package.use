@@ -693,7 +693,7 @@ media-libs/libgpod ios
 app-emulation/ganeti kvm
 app-i18n/skk-jisyo cdb
 net-misc/x2goserver sqlite
-media-plugins/kipi-plugins calendar
+media-plugins/kipi-plugins calendar gpssync
 sci-libs/gdal geos
 dev-db/tora oracle
 media-sound/moc curl
