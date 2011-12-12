@@ -361,7 +361,7 @@ sci-geosciences/grass tcl tk fftw
 sci-geosciences/mapserver flash threads
 
 sci-libs/itpp fftw
-sci-libs/vtk tk
+sci-libs/vtk tk mpi
 
 sci-mathematics/maxima latex
 sci-mathematics/octave fftw curl
