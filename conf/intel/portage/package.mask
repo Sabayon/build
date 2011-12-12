@@ -15,6 +15,7 @@ media-sound/songbird-bin
 >dev-lang/erlang-13.2.4
 >=app-portage/portpeek-1.9.70
 >media-video/mediainfo-0.7.48
+sci-libs/hdf5
 
 # Joost Ruis: Bumping this breaks Blender. Impossible to rebuild Blender unless Gentoo bug 384239 is fixed
 >media-libs/openjpeg-1.3-r3
