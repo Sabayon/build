@@ -735,7 +735,7 @@ dev-util/nvidia-cuda-sdk opencl
 app-pda/syncevolution sqlite
 sci-chemistry/openbabel -perl -python
 media-sound/clementine ios
-dev-libs/tinyxml -stl
+dev-libs/tinyxml stl
 net-misc/mediatomb thumbnail -javascript
 
 # Needed for Netbeans ide
