@@ -1,8 +1,5 @@
 # Masked because it requires a flag change.
 
-# 2011-03-29 Joost Ruis: Prevent packages to downgrade xulrunner
-<net-libs/xulrunner-2.0
-
 # Temp. masked
 app-i18n/anthy-ss
 app-i18n/atokx2
