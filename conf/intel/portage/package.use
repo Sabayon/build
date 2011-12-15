@@ -298,7 +298,7 @@ net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm -gtk python autoipd -qt
 net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat
 net-dns/dnsmasq -dbus
 
-net-fs/samba acl oav winbind
+net-fs/samba ads acl oav winbind
 
 net-im/gajim -avahi
 net-im/gyachi gpgme gtkspell
