@@ -299,7 +299,7 @@ net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat
 net-dns/dnsmasq -dbus
 
 net-fs/cifs-utils ads
-net-fs/samba ads acl oav winbind
+net-fs/samba ads acl oav swat winbind
 
 net-im/gajim -avahi
 net-im/gyachi gpgme gtkspell
