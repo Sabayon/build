@@ -175,8 +175,7 @@ kde-base/kde-meta -nls semantic-desktop
 kde-base/kdepim-meta -nls
 kde-base/kdebase-kioslaves samba
 kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
-kde-base/kopete addbookmarks alias autoreplace connectionstatus contactnotes gadu groupwise highlight history jingle netmeeting nowlistening sametime texteffect translator webpresence winpopup 
-yahoo statistics irc otr -kdeenablefinal qq oscar skype
+kde-base/kopete addbookmarks alias autoreplace connectionstatus contactnotes gadu groupwise highlight history jingle netmeeting nowlistening sametime texteffect translator webpresence winpopup yahoo statistics irc otr -kdeenablefinal qq oscar skype
 kde-base/krunner xcomposite
 kde-base/kwin captury xcomposite
 kde-base/solid networkmanager -wicd
