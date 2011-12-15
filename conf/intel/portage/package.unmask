@@ -11,9 +11,6 @@ media-sound/potamus
 net-fs/openafs-kernel
 net-fs/openafs
 
-# temp unmask
-=app-office/libreoffice-3.4.1
-
 # it's broken, but we have it in repos
 >=x11-drivers/nvidia-drivers-275.21
 
