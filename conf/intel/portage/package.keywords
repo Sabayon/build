@@ -21,14 +21,9 @@ dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 # Use portage-2.2
 =sys-apps/portage-2.2* **
 
-# I want it!
->=gnome-extra/gnome-shell-extensions-system-monitor-9999 ** ~amd64 ~x86
-
 # versioned ebuilds missing ~x86 keword, GNOME 3.2 stuff
 <net-libs/gnome-online-accounts-9999 ** ~*
 <gnome-extra/gnome-contacts-9999 ** ~*
-~x11-libs/libcryptui-9999 ** ~amd64 ~x86
-~gnome-extra/accountsdialog-0.6 ** ~amd64 ~x86
 >=gnome-extra/gnome-dvb-daemon-0.2.5 ** ~amd64 ~x86
 # required by gnome-extra/gnome-dvb-daemon-0.2.5, required by gnome-extra/gnome-dvb-daemon (argument)
 >=media-libs/gst-rtsp-server-0.10.8 ** ~amd64 ~x86
