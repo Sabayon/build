@@ -3,5 +3,5 @@ sys-apps/file python
 dev-db/sqlite soundex
 
 # GCC
-sys-devel/gcc gcj
-sys-devel/base-gcc gcj
+sys-devel/gcc gcj objc objc-gc objc++
+sys-devel/base-gcc gcj objc objc-gc objc++
