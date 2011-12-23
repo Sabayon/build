@@ -1,0 +1,7 @@
+dev-lang/python sqlite
+sys-apps/file python
+dev-db/sqlite soundex
+
+# GCC
+sys-devel/gcc gcj
+sys-devel/base-gcc gcj

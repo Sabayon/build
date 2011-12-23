@@ -1,0 +1,146 @@
+#!/usr/bin/python
+#
+# Entropy Server QA executable hook.
+# This file doesn't strictly need to be a shell script, but just an executable
+# file (r-xr-xr-x) and (mandatory) owned by root:root.
+# Please rename this file by stripping the .example part
+#
+# It is used by Entropy Server QA routines to perform package metadata
+# validation.
+# Metadata is export in environmental variables form, and include:
+#
+# REPOSITORY_ID = repository identifier
+# PKG_ID = package identifier
+# PKG_ATOM = package atom
+# PKG_NAME = package name
+# PKG_VERSION = package version
+# PKG_TAG = package version tag
+# PKG_DESCRIPTION = package description
+# PKG_CATEGORY = package category
+# PKG_CHOST = package CHOST
+# PKG_CFLAGS = package CFLAGS
+# PKG_CXXFLAGS = package CXXFLAGS
+# PKG_HOMEPAGE = package homepage
+# PKG_LICENSE = package license
+# PKG_BRANCH = package license
+# PKG_DOWNLOAD = package relative download URL
+# PKG_KEYWORDS = package keywords, space separated
+# PKG_MD5 = package file md5 hash
+# PKG_SLOT = package slot
+# PKG_ETPAPI = package Entropy API
+# PKG_DATE = package creation date (in unix time)
+# PKG_SIZE = package size, in bytes
+# PKG_REVISION = package entropy revision
+# PKG_DEPS = list (\n separated) of package dependencies and conflicts
+# PKG_NEEDED_LIBS = list (\n separated) of SONAMES required by package,
+#    including ELF class, so each item will look like this:
+#     <soname>|<elfclass>
+# PKG_PROVIDED_LIBS = list (\n separated) of SONAMES provided by package,
+#    note: elf class and path are also provided,
+#    so each item will look like this:
+#     <soname>|<path of soname>|<elfclass>
+#
+# The executable must return 0 for success, 1 for warning, 2 for critical error
+
+import sys
+import os
+import entropy.dep
+
+def write_attention_msg(msg):
+    sys.stderr.write("\nATTENTION ATTENTION ATTENTION\n")
+    sys.stderr.write(msg + "\n")
+    sys.stderr.write("ATTENTION ATTENTION ATTENTION\n\n")
+
+def write_warning_msg(msg):
+    sys.stderr.write("\nWARNING WARNING WARNING\n")
+    sys.stderr.write(msg + "\n")
+    sys.stderr.write("\nWARNING WARNING WARNING\n")
+
+def check_unwanted_deps():
+    """
+    Check against forbidden dependencies, those we consider meta packages,
+    placeholders just to keep Gentoo compatibility, which, if listed as dep in,
+    would cause the whole world to be pulled in.
+    """
+    pkg_deps = os.getenv("PKG_DEPS", "")
+    pkg_deps = pkg_deps.split()
+    if not pkg_deps:
+        return 0
+
+    pkg_atom = os.getenv("PKG_ATOM")
+    pkg_keywords = os.getenv("PKG_KEYWORDS")
+
+    unwanted_deps = ["app-admin/packagekit", "app-text/poppler",
+        "kde-base/kde-l10n", "net-dns/avahi", "net-p2p/transmission",
+        "app-crypt/pinentry"]
+    warning_deps = ["media-libs/libjpeg-turbo", "media-libs/jpeg",
+        "dev-lang/gnat-gcc"]
+    func_rc = 0
+
+    pkg_deps_map = dict((entropy.dep.dep_getkey(x), x) for x in pkg_deps if \
+        not x.startswith("!"))
+    for unwanted_dep in unwanted_deps:
+        if unwanted_dep in pkg_deps_map:
+            write_attention_msg(
+                "%s contains forbidden dependency against %s" % (
+                    pkg_atom, pkg_deps_map[unwanted_dep]))
+            func_rc = 2
+
+    for warning_dep in warning_deps:
+        if warning_dep in pkg_deps_map:
+            write_attention_msg(
+                "%s contains a weirdo dependency against %s" % (
+                    pkg_atom, pkg_deps_map[warning_dep]))
+            if func_rc == 0:
+                func_rc = 1
+
+    if pkg_keywords is not None:
+        keywords = pkg_keywords.split()
+        if not keywords or ("**" in keywords and len(keywords) == 1):
+            write_attention_msg("%s is masked by default, keywords: %s" % (
+                pkg_atom, pkg_keywords))
+            if func_rc == 0:
+                func_rc = 1
+
+    return func_rc
+
+def warn_perl5_bump():
+    """
+    Warn in case of bumping dev-lang/perl. Developer should not
+    forget about running perl-cleaner.
+    """
+    pkg_key = "%s/%s" % (os.getenv("PKG_CATEGORY", ""),
+                         os.getenv("PKG_NAME", ""))
+    pkg_version = os.getenv("PKG_VERSION", "")
+
+    if pkg_key == "dev-lang/perl" and pkg_version.startswith("5"):
+        perl_dir = "/usr/lib/perl5/vendor_perl"
+        try:
+            perl_versions = os.listdir(perl_dir)
+        except (OSError, IOError):
+            perl_versions = []
+
+        if len(perl_versions) > 1:
+            write_warning_msg(
+                "Adding dev-lang/perl but you forgot to run perl-cleaner?\n"
+                "These are the versions detected in %s:\n"
+                "%s" % (perl_dir, ", ".join(perl_versions)))
+            return 1
+
+    return 0
+
+
+if __name__ == "__main__":
+
+    exit_st = 0
+    rc = check_unwanted_deps()
+    if rc != 0:
+        exit_st = rc
+
+    rc = warn_perl5_bump()
+    if rc != 0 and rc > exit_st:
+        exit_st = rc
+
+    # more tests here
+
+    raise SystemExit(exit_st)
