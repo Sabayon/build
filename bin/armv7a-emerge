@@ -1,0 +1,28 @@
+#!/bin/bash
+
+FEATURES="distcc -distcc-pump"
+DISTCC_PATH="/usr/lib/distcc/bin"
+CUR_CHOST="armv7a-hardfloat-linux-gnueabi"
+DISTCC_WRAPPER="${CUR_CHOST}-wrapper"
+
+echo "setting up symlinks in ${DISTCC_PATH}"
+
+pushd "${DISTCC_PATH}" || exit 1
+cur_link=$(readlink cc)
+if [ "${cur_link}" = "/usr/bin/distcc" ] || [ ! -f "${DISTCC_WRAPPER}" ]; then
+        echo "Fixing links in ${DISTCC_PATH}"
+        rm -f c++ g++ gcc cc || exit 1
+        echo "#!/bin/bash" > "${DISTCC_WRAPPER}"
+        echo "exec /usr/lib/distcc/bin/${CUR_CHOST}-g\${0:\$[-2]} \"\$@\"" >> "${DISTCC_WRAPPER}"
+        chmod a+x "${DISTCC_WRAPPER}" || exit 1
+        ln -s "${DISTCC_WRAPPER}" cc || exit 1
+        ln -s "${DISTCC_WRAPPER}" gcc || exit 1
+        ln -s "${DISTCC_WRAPPER}" g++ || exit 1
+        ln -s "${DISTCC_WRAPPER}" c++ || exit 1
+fi
+popd
+
+# PATH="${DISTCC_PATH}:${PATH}"
+export FEATURES PATH
+
+exec pump emerge "$@"
