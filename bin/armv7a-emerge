@@ -22,7 +22,7 @@ if [ "${cur_link}" = "/usr/bin/distcc" ] || [ ! -f "${DISTCC_WRAPPER}" ]; then
         ln -s "${DISTCC_WRAPPER}" g++ || exit 1
         ln -s "${DISTCC_WRAPPER}" c++ || exit 1
 fi
-popd
+popd > /dev/null
 
 export FEATURES PATH
 exec emerge "$@"
