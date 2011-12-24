@@ -1,13 +1,15 @@
-#!/bin/bash
+#!/bin/sh
 
-FEATURES="distcc -distcc-pump"
+. /etc/make.conf
+
+# just make sure
+FEATURES="${FEATURES} distcc distcc-pump"
+
 DISTCC_PATH="/usr/lib/distcc/bin"
 CUR_CHOST="armv7a-hardfloat-linux-gnueabi"
 DISTCC_WRAPPER="${CUR_CHOST}-wrapper"
 
-echo "setting up symlinks in ${DISTCC_PATH}"
-
-pushd "${DISTCC_PATH}" || exit 1
+pushd "${DISTCC_PATH}" > /dev/null || exit 1
 cur_link=$(readlink cc)
 if [ "${cur_link}" = "/usr/bin/distcc" ] || [ ! -f "${DISTCC_WRAPPER}" ]; then
         echo "Fixing links in ${DISTCC_PATH}"
@@ -22,7 +24,5 @@ if [ "${cur_link}" = "/usr/bin/distcc" ] || [ ! -f "${DISTCC_WRAPPER}" ]; then
 fi
 popd
 
-# PATH="${DISTCC_PATH}:${PATH}"
 export FEATURES PATH
-
-exec pump emerge "$@"
+exec emerge "$@"
