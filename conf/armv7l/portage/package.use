@@ -5,3 +5,6 @@ dev-db/sqlite soundex
 # GCC
 sys-devel/gcc gcj objc objc-gc objc++
 sys-devel/base-gcc gcj objc objc-gc objc++
+
+# Required by icedtea
+x11-libs/cairo X svg
