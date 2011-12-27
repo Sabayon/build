@@ -9,3 +9,6 @@ sys-devel/base-gcc gcj objc objc-gc objc++
 # Required by icedtea
 x11-libs/cairo X svg
 x11-libs/pango X
+
+# Nice fonts
+media-libs/freetype auto-hinter
