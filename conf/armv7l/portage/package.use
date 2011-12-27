@@ -10,5 +10,8 @@ sys-devel/base-gcc gcj objc objc-gc objc++
 x11-libs/cairo X svg
 x11-libs/pango X
 
+# Required by X.Org Server
+dev-libs/libxml2 python
+
 # Nice fonts
 media-libs/freetype auto-hinter
