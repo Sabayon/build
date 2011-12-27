@@ -43,6 +43,7 @@
 # The executable must return 0 for success, 1 for warning, 2 for critical error
 
 import sys
+sys.path.insert(0, "/usr/lib/entropy/lib")
 import os
 import entropy.dep
 
