@@ -15,3 +15,7 @@ dev-libs/libxml2 python
 
 # Nice fonts
 media-libs/freetype auto-hinter
+
+# Required by several stuff
+sys-auth/pambase consolekit
+sys-auth/consolekit policykit
