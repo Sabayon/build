@@ -73,10 +73,6 @@ xfce-extra/xfce4-cellmodem-plugin
 
 ### Temp masked due a bug
 
-# Gentoo bug #277649
-sci-astronomy/ast
-sci-astronomy/ds9
-
 ### Slotted packages 
 <net-analyzer/metasploit-3.2_p6750
 =app-editors/emacs-18.59-r6
