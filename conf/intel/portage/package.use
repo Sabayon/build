@@ -435,7 +435,6 @@ x11-libs/cairo glitz -qt4
 # move x11-libs/ecore dev-libs/ecore
 dev-libs/ecore curl
 x11-libs/goffice gnome
->=x11-libs/qt-4.0 qt3support sqlite sqlite3
 
 # Drop gtk style support from qt-gui, it's just ridiculous
 x11-libs/qt-gui mng private-headers raster -gtk
