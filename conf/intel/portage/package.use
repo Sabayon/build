@@ -109,8 +109,6 @@ dev-ml/camlimages gs
 
 dev-perl/PDL fftw
 
-dev-php/roadsend-php mysql sqlite3
-
 dev-python/cgkit 3ds
 dev-python/gnome-python-extras -firefox
 dev-python/imaging tk
