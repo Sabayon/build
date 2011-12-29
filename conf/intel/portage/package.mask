@@ -230,3 +230,6 @@ gnustep-apps/terminal
 # Fabio Erculiani, matter masks (preserved-libs bullshit):
 >app-i18n/fcitx-4.1
 >app-i18n/fcitx-configtool-0.3
+
+# 29-12-2011 Joost Ruis: Keep Ruby 1.9 masked for now
+>=dev-lang/ruby-1.9.0
