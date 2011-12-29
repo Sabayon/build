@@ -2,7 +2,6 @@ app-emulation/emul-linux-x86-java	dlj-1.1
 app-emulation/emul-linux-x86-java	Oracle-BCLA-JavaSE
 dev-java/sun-jce-bin			sun-bcla-java-vm
 dev-java/sun-jre-bin			Oracle-BCLA-JavaSE
-dev-java/blackdown-jre			sun-bcla-java-vm
 dev-java/sun-jdk			dlj-1.1
 dev-java/sun-jdk			Oracle-BCLA-JavaSE
 dev-lang/icc				Intel-SDP
@@ -25,7 +24,6 @@ games-fps/ut2004-bonuspack-ece		ut2003
 games-strategy/darwinia-demo		Introversion
 games-strategy/darwinia			Introversion
 app-cdr/nero				Nero-EULA-US
-dev-lisp/cl-fiveam-darcs		THINKTANKS
 games-simulation/bcs-demo       	BCS
 net-wireless/broadcom-sta		Broadcom
 app-emulation/virtualbox-bin		PUEL
@@ -35,7 +33,6 @@ games-action/heretic2-demo		LOKI-EULA
 net-im/skype				skype-eula 
 sci-electronics/eagle                   cadsoft
 sci-geosciences/googleearth             googleearth
-app-emulation/virtualbox-ose-additions	PUEL
 www-plugins/adobe-flash			AdobeFlash-10.1
 www-plugins/google-talkplugin           google-talkplugin
 dev-java/oracle-jdk-bin			Oracle-BCLA-JavaSE
