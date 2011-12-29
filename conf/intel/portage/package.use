@@ -354,7 +354,6 @@ net-print/hplip static-ppds
 
 net-wireless/atmel-firmware pcmcia usb
 net-wireless/bluez gstreamer
-net-wireless/btsco ao skype
 net-wireless/wpa_supplicant -qt3 -qt4 wimax
 
 # workaround for https://bugs.gentoo.org/show_bug.cgi?id=361411
