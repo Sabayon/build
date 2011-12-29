@@ -379,7 +379,6 @@ sys-auth/pambase consolekit -kerberos
 
 sys-apps/coreutils -acl
 sys-apps/groff -X
-sys-apps/hal disk-partition dell laptop apm -X
 sys-apps/hwdata-gentoo binary-drivers
 sys-libs/zlib minizip
 sys-block/parted device-mapper
