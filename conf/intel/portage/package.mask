@@ -133,8 +133,6 @@ gnome-extra/gnome-vfs-obexftp
 
 # Joost Ruis: We use dev-texlive/texlive-latexextra so we want to mask this
 dev-tex/prosper
-dev-texlive/texlive-psutils
-dev-texlive/texlive-langarab
 
 # Joost Ruis: wants dev-python/imaging +tk compiled, ain't going to happen
 =media-sound/lilycomp-1.0.2-r1
@@ -145,9 +143,6 @@ media-gfx/asymptote
 x11-misc/expocity
 
 ### Games
-
-# Joost Ruis: Requires esd, not want
-=games-arcade/monster-masher-1.8.1
 
 # Joost Ruis: Requires media-libs/sdl-mixer[timidity]
 games-rpg/xu4
@@ -173,9 +168,6 @@ dev-php/PEAR-MDB2_Driver_ibase
 dev-php/PEAR-MDB2_Driver_oci8
 
 # 2010-07-26 Joost Ruis: Needs PHP with +xsl
-dev-php5/propel-runtime
-dev-php5/propel-generator
-dev-php5/propel
 # move dev-php5/phing dev-php/phing
 dev-php/phing
 dev-php/agavi
