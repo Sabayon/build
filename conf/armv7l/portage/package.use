@@ -19,3 +19,6 @@ media-libs/freetype auto-hinter
 # Required by several stuff
 sys-auth/pambase consolekit
 sys-auth/consolekit policykit
+
+# doesn't compile with epoll
+net-proxy/squid -epoll
