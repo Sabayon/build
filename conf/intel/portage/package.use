@@ -81,6 +81,8 @@ dev-games/crystalspace mng
 
 dev-java/antlr cxx
 dev-java/glazedlists java5
+# micia: disable source inclusion in icedtea, save some space
+dev-java/icedtea -source
 dev-java/swt cairo -xulrunner
 dev-java/swt -firefox
 dev-java/tomcat-servlet-api java5
