@@ -22,3 +22,6 @@ sys-auth/consolekit policykit
 
 # doesn't compile with epoll
 net-proxy/squid -epoll
+
+# Required by chromium
+dev-libs/libxml2 icu
