@@ -207,8 +207,7 @@ media-gfx/greycstoration fftw
 media-gfx/imagemagick fftw gs perl
 media-gfx/k3d 3ds
 media-gfx/kphotoalbum kipi
-# micia add documentation for librecad, so
-# that help menu works properly
+# micia, add documentation for librecad, so that help menu works properly
 media-gfx/librecad doc
 media-gfx/splashutils mng fbcondecor
 media-gfx/xsane tiff
