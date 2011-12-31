@@ -15,6 +15,7 @@ dev-libs/libxml2 python
 
 # Nice fonts
 media-libs/freetype auto-hinter
+media-gfx/imagemagick truetype fontconfig corefonts
 
 # Required by several stuff
 sys-auth/pambase consolekit
@@ -25,3 +26,6 @@ net-proxy/squid -epoll
 
 # Required by chromium
 dev-libs/libxml2 icu
+
+# XFCE 4
+xfce-base/xfce4-session policykit udev
