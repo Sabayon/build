@@ -27,12 +27,12 @@ net-proxy/squid -epoll
 # Required by chromium
 dev-libs/libxml2 icu
 
-# XFCE 4
+# XFCE 4 stuff
 xfce-base/xfce4-session policykit udev
 # required by xfce4 and upower stuff
 sys-fs/udev gudev
 
-# LXDE
+# LXDE stuff
 x11-misc/obconf lxde
 
 # Firefox stuff
@@ -60,3 +60,6 @@ app-text/hunspell linguas_mai linguas_mk linguas_ml linguas_mr linguas_nb lingua
 app-text/hunspell linguas_or linguas_pa linguas_pa_IN linguas_pl linguas_pt linguas_pt_BR linguas_pt_PT linguas_rm linguas_ro linguas_ru
 app-text/hunspell linguas_si linguas_sk linguas_sl linguas_son linguas_sq linguas_sr linguas_sv linguas_sv_SE linguas_ta linguas_ta_LK
 app-text/hunspell linguas_te linguas_th linguas_tr linguas_uk linguas_vi linguas_zh
+
+# KDE stuff
+x11-libs/qt-core qt3support ssl
