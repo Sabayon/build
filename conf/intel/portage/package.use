@@ -230,7 +230,7 @@ media-libs/urt gs
 media-libs/xine-lib aalib mng vidix dxr3 -win32codecs -gtk
 
 media-plugins/alsa-plugins libsamplerate pulseaudio
-media-plugins/audacious-plugins cue chardet ffmpeg icecast wavpack
+media-plugins/audacious-plugins cue chardet ffmpeg gnome icecast libsamplerate wavpack
 media-plugins/vdr-weatherng dxr3
 
 media-radio/tucnak2 fftw
