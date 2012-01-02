@@ -134,7 +134,8 @@ media-sound/kradio (.*)kde-base/kde-l10n(.*)
 kde-misc/networkmanagement (.*)kde-base/kde-l10n(.*)
 kde-misc/eventlist (.*)kde-base/kde-l10n(.*)
 net-irc/konversation (.*)kde-base/kde-l10n(.*)
- net-wireless/bluedevil (.*)kde-base/kde-l10n(.*)
+net-wireless/bluedevil (.*)kde-base/kde-l10n(.*)
+kde-misc/fancytasks (.*)kde-base/kde-l10n(.*)
 
 # net-dns/avahi dep rewrites
 app-crypt/seahorse (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
