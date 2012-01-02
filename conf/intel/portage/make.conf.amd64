@@ -1,20 +1,21 @@
 # These settings were set by the catalyst build script that automatically built this stage
 # Please consult /etc/make.conf.example for a more detailed example
 
+# Compiler stuff
 GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
 CFLAGS="-O2 -ftree-vectorize -march=x86-64 -pipe ${GRAPHITE}"
 CHOST="x86_64-pc-linux-gnu"
 CXXFLAGS="${CFLAGS}"
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
-ACCEPT_KEYWORDS="~amd64"
 MAKEOPTS="-j16 -s"
-FEATURES="parallel-fetch protect-owned splitdebug"
-#PORTAGE_NICENESS="8"
+
+# Portage stuff
+ACCEPT_KEYWORDS="~amd64"
+FEATURES="ccache parallel-fetch protect-owned splitdebug"
+CCACHE_SIZE="50G"
+
 LINGUAS="en en_US af ar az bg bn br bs ca cs cy da de el en_GB eo es et eu fa fi fr fy ga gl he hi hr hu is it ja kk km ko lt lv mk mn ms nb nds nl 
 nn pa pl pt pt_BR ro ru rw se sk sl sr sr@Latn ss sv ta tg tr uk uz vi zh_CN zh_TW es_AR es_ES fy_NL ga_IE gu gu_IN nb_NO nn_NO pt_PT sv_SE zh"
-PHP_TARGETS="php5-3"
-RUBY_TARGETS="ruby18"
-#ACCEPT_LICENSE="*"
 
 ## USE ARRAYS ##
 SAB_BAD="-kdeprefix -arts -qt3 -beagle -gnome -evo -mono -eds -apm -oss -branding -esd"
@@ -61,3 +62,6 @@ rsync://mirror.neolabs.kz/gentoo http://ftp.gentoo.bg/ http://ftp.cc.uoc.gr/mirr
 # Avoids python.eclass to compile stuff for Python 3
 USE_PYTHON="2.7"
 
+# Some more forced targets
+PHP_TARGETS="php5-3"
+RUBY_TARGETS="ruby18"
