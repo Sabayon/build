@@ -1,0 +1,63 @@
+# These settings were set by the catalyst build script that automatically built this stage
+# Please consult /etc/make.conf.example for a more detailed example
+
+GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
+CFLAGS="-O2 -ftree-vectorize -march=x86-64 -pipe ${GRAPHITE}"
+CHOST="x86_64-pc-linux-gnu"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed"
+ACCEPT_KEYWORDS="~amd64"
+MAKEOPTS="-j16 -s"
+FEATURES="parallel-fetch protect-owned splitdebug"
+#PORTAGE_NICENESS="8"
+LINGUAS="en en_US af ar az bg bn br bs ca cs cy da de el en_GB eo es et eu fa fi fr fy ga gl he hi hr hu is it ja kk km ko lt lv mk mn ms nb nds nl 
+nn pa pl pt pt_BR ro ru rw se sk sl sr sr@Latn ss sv ta tg tr uk uz vi zh_CN zh_TW es_AR es_ES fy_NL ga_IE gu gu_IN nb_NO nn_NO pt_PT sv_SE zh"
+PHP_TARGETS="php5-3"
+RUBY_TARGETS="ruby18"
+#ACCEPT_LICENSE="*"
+
+## USE ARRAYS ##
+SAB_BAD="-kdeprefix -arts -qt3 -beagle -gnome -evo -mono -eds -apm -oss -branding -esd"
+SAB_MEDIA="musicbrainz sdl pulseaudio wmf fame cdr dvi mp3rtp xine cddb alsa dvb dvd network dvdread ipod audiofile artswrappersuid dvdr jack dri 
+cdda mjpeg mmx joystick xvmc cpudetection v4l v4l2"
+SAB_CODECS="x264 gsm lame dv mp3 stream live openal theora ogg a52 win32codecs matroska xvid flac ffmpeg aac speex real dts musepack"
+SAB_SYSTEM="cjk unicode gnutls nptl gcj udev kerberos acl dbus bash-completion lzo rar policykit xcb bzip2 bidi wifi lm_sensors acpi usb pcmcia 
+bluetooth irda ieee1394 perl python"
+SAB_FILESYS="fat hfs jfs xfs ntfs reiserfs sysfs inotify"
+SAB_PRINT="cups ppds foomatic-db gimpprint freetype xprint scanner"
+SAB_XSYS="cairo X opengl png gif gtk qt4 qt3support xpm tiff xinerama aiglx svg gphoto2 dga lcd openexr" 
+SAB_DESKTOP="kdehiddenvisibility gmp libnotify rdesktop pda zeroconf kdeenablefinal visualization avahi startup-notification accessibility"
+SAB_BROWSER="nsplugin firefox mozdevelop xulrunner"
+SAB_COMMS="jabber msn yahoo icq irc aim rss slp mail imap"
+
+USE="${SAB_BAD} ${SAB_MEDIA} ${SAB_CODECS} ${SAB_SYSTEM} ${SAB_FILESYS} ${SAB_PRINT} ${SAB_XSYS} ${SAB_DESKTOP} ${SAB_BROWSER} ${SAB_COMMS}"	
+
+## DEVICES ##
+INPUT_DEVICES="evdev void"
+VIDEO_CARDS="fbdev vesa radeonhd"
+LIRC_DEVICES="audio audio_alsa serial pctv"
+ALSA_CARDS="emu10k1x darla20 darla24 emu10k1 gina20 gina24 hdsp hdspm ice1712 indigo indigoio layla20 layla24 mia mixart mona pcxhr rme32 rme96 sb16 
+sbawe sscape usbusx2y vx222 usb-usx2y"
+CAMERAS="agfa_cl20 casio_qv dimagev dimera3500 kodak_dc120 kodak_dc210 kodak_dc240 kodak_dc3200 kodak_ez200 konica_qm150 panasonic_coolshot 
+panasonic_dc1000 panasonic_dc1580 panasonic_l859 polaroid_pdc320 polaroid_pdc640 polaroid_pdc700 ricoh_g3 sipix_blink sipix_blink2 sipix_web2 
+sony_dscf1 sony_dscf55 toshiba_pdrm11 adc65 aox barbie canon clicksmart310 digigr8 digita directory enigma13 fuji gsmart300 hp215 iclick jamcam jd11 
+konica largan lg_gsm mars mustek pccam300 pccam600 ptp2 ricoh samsung sierra smal sonix soundvision spca50x sq905 stv0674 stv0680 sx330z template"
+
+## QEMU ##
+QEMU_USER_TARGETS="alpha arm armeb cris i386 m68k microblaze mips mipsel ppc ppc64 ppc64abi32 sh4 sh4eb sparc sparc32plus sparc64 x86_64"
+QEMU_SOFTMMU_TARGETS="x86_64 arm cris i386 m68k microblaze mips mips64 mips64el mipsel ppc ppc64 ppcemb sh4 sh4eb sparc sparc64"
+
+## PORTAGE CONFIG ##
+source /var/lib/layman/make.conf
+CONFIG_PROTECT="/usr/share/config/kdm /etc /etc/conf.d /etc/init.d"
+CONFIG_PROTECT_MASK="/etc/skel"
+SYNC="rsync://rsync.europe.gentoo.org/gentoo-portage"
+APACHE2_MPMS="prefork"
+GENTOO_MIRRORS="ftp://mirrors.tera-byte.com/pub/gentoo ftp://ftp.spline.inf.fu-berlin.de/mirrors/gentoo/ http://archive.mmu.edu.my/gentoo 
+rsync://gentoo.bloodhost.ru/gentoo-distfiles ftp://gentoo.mirrors.tds.net/gentoo ftp://ftp.halifax.rwth-aachen.de/gentoo/ 
+rsync://mirror.neolabs.kz/gentoo http://ftp.gentoo.bg/ http://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://ftp.cc.uoc.gr/mirrors/linux/gentoo/"
+
+## FUCK KILL PYTHON 3 WITH FIRE ##
+# Avoids python.eclass to compile stuff for Python 3
+USE_PYTHON="2.7"
+
