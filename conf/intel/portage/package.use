@@ -616,7 +616,7 @@ net-misc/rsync xattr
 app-backup/backintime gnome -kde
 
 # Wine, more features
-app-emulation/wine fontconfig samba
+app-emulation/wine fontconfig samba udisks
 
 # ejabberd, more features!
 net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
