@@ -1,0 +1,2 @@
+# Unmask NEON SIMD support, we're armv7
+-neon
