@@ -16,3 +16,6 @@ net-fs/openafs
 
 # GCC 4.6, welcome!
 sys-devel/gcc:4.6::sabayon-distro
+
+# Needed for the >=games-action/teeworlds-0.6.1
+>=dev-util/bam-0.4.0
