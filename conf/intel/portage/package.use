@@ -416,6 +416,8 @@ sys-kernel/linux-fusion splash dmraid grub
 
 sys-libs/db -java
 
+virtual/opencl video_cards_nvidia
+
 www-apps/trac mysql postgres vhosts sqlite
 
 www-client/midori sqlite
