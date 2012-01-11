@@ -7,3 +7,6 @@ sys-apps/diffutils
 
 # We want Portage 2.2
 <sys-apps/portage-2.3 **
+
+# Temp keywording, will test and add keywords back
+www-servers/nginx **
