@@ -166,6 +166,7 @@ gnome-base/nautilus gnome sendto
 gnome-extra/avant-window-navigator doc gnome xfce
 gnome-extra/avant-window-navigator-extras gnome
 gnome-extra/evolution-data-server ldap kerberos
+gnome-extra/gnome-games -sudoku
 gnome-extra/libgsf gnome
 
 kde-base/gwenview kipi semantic-desktop
