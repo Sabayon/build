@@ -13,6 +13,8 @@ emerge() {
 		echo
 		return 1
 	else
+		# eval $(portageq envvar -v FETCHCOMMAND RESUMECOMMAND PORTAGE_RSYNC_OPTS)
+		# add bandwidth limit here
 		/usr/bin/emerge --quiet-build=n "$@"
 		return ${?}
 	fi
