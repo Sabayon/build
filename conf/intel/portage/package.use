@@ -108,6 +108,7 @@ dev-libs/xmlrpc-c curl
 dev-libs/openct pcsc-lite
 
 dev-ml/camlimages gs
+dev-ml/lablgl glut
 
 dev-perl/PDL fftw
 
