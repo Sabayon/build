@@ -63,3 +63,8 @@ app-text/hunspell linguas_te linguas_th linguas_tr linguas_uk linguas_vi linguas
 
 # KDE stuff
 x11-libs/qt-core qt3support ssl
+
+# GNOME stuff
+app-text/poppler cairo
+sys-fs/udev hwdb
+sys-apps/pciutils -zlib
