@@ -68,3 +68,6 @@ x11-libs/qt-core qt3support ssl
 app-text/poppler cairo
 sys-fs/udev hwdb
 sys-apps/pciutils -zlib
+
+# LibreOffice?
+app-office/libreoffice -nsplugin -gnome -java templates -kde pdfimport
