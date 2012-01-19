@@ -73,7 +73,7 @@ xfce-extra/xfce4-cellmodem-plugin
 
 ### Slotted packages 
 <net-analyzer/metasploit-3.2_p6750
-=app-editors/emacs-18.59-r6
+app-editors/emacs:18
 
 ### net-analyser
 
