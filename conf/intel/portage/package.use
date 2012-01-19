@@ -442,9 +442,6 @@ x11-drivers/ati-drivers distribution -qt4
 x11-drivers/nvidia-drivers distribution
 x11-drivers/nvidia-drivers -gtk
 
-# We want OpenCL with ati-userspace
-x11-drivers/ati-userspace opencl
-
 x11-libs/cairo glitz -qt4
 # move x11-libs/ecore dev-libs/ecore
 dev-libs/ecore curl
