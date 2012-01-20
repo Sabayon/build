@@ -1,2 +1,16 @@
+app-office/abiword ~arm
+app-text/libexttextcat ~arm
+app-text/libwpd ~arm
+app-text/libwpg ~arm
+app-text/libwps ~arm
+app-text/mythes ~arm
+dev-libs/hyphen ~arm
+dev-util/mdds ~arm
+media-libs/vigra ~arm
+sci-libs/colamd ~arm
+sci-libs/hdf5 ~arm
+sci-libs/ufconfig ~arm
+sci-mathematics/lpsolve ~arm
 sys-apps/portage ~arm
 sys-apps/ifplugd ~arm
+x11-themes/sabayon-artwork-loo ~arm
