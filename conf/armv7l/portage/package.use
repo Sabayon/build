@@ -1,3 +1,4 @@
+# Base system
 dev-lang/python sqlite
 sys-apps/file python
 dev-db/sqlite soundex
@@ -77,3 +78,7 @@ net-print/cups dbus
 
 # LibreOffice?
 app-office/libreoffice -nsplugin -gnome -java templates -kde pdfimport
+
+# Multimedia!
+media-libs/libsdl X opengl
+media-libs/sdl-image gif jpeg png
