@@ -62,6 +62,7 @@ app-text/enchant aspell
 app-text/fbreader -gtk
 app-text/ghostscript-gpl -cjk -gtk
 app-text/lcdf-typetools kpathsea
+app-text/stardict tools
 app-text/texlive -truetype
 
 # Since those are not linker deps, we
