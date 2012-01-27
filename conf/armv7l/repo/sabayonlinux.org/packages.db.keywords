@@ -1,3 +1,5 @@
+
+app-admin/apg ~arm
 app-office/abiword ~arm
 app-text/libexttextcat ~arm
 app-text/libwpd ~arm
@@ -5,12 +7,27 @@ app-text/libwpg ~arm
 app-text/libwps ~arm
 app-text/mythes ~arm
 dev-libs/hyphen ~arm
+dev-libs/json-glib ~arm
+dev-util/itstool ~arm
 dev-util/mdds ~arm
+media-libs/gexiv2 ~arm
+media-libs/libbluray ~arm
+media-libs/libgphoto2 ~arm
+media-libs/libprojectm ~arm
+media-libs/libraw ~arm
+media-libs/sdl-gfx ~arm
+media-libs/sdl-sound ~arm
 media-libs/vigra ~arm
+media-video/gnome-video-effects ~arm
+net-im/telepathy-connection-managers ~arm
+net-libs/libmicrohttpd ~arm
+net-libs/liboauth ~arm
 sci-libs/colamd ~arm
 sci-libs/hdf5 ~arm
 sci-libs/ufconfig ~arm
 sci-mathematics/lpsolve ~arm
-sys-apps/portage ~arm
 sys-apps/ifplugd ~arm
+sys-apps/lsb-release ~arm
+sys-apps/portage ~arm
+virtual/ffmpeg ~arm
 x11-themes/sabayon-artwork-loo ~arm
