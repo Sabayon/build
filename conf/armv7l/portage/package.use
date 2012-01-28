@@ -86,7 +86,7 @@ app-office/libreoffice -nsplugin -gnome -java templates -kde pdfimport
 # Multimedia!
 media-libs/libsdl X opengl
 media-libs/sdl-image gif jpeg png
-media-tv/xbmc bluray udev pulseaudio webserver css airplay
+media-tv/xbmc bluray udev pulseaudio webserver css
 
 # Networking
 net-wireless/wpa_supplicant dbus
