@@ -1,6 +1,6 @@
-
 app-admin/apg ~arm
 app-office/abiword ~arm
+app-txt/epdfview ~arm
 app-text/libexttextcat ~arm
 app-text/libwpd ~arm
 app-text/libwpg ~arm
@@ -10,6 +10,8 @@ dev-libs/hyphen ~arm
 dev-libs/json-glib ~arm
 dev-util/itstool ~arm
 dev-util/mdds ~arm
+gnome-extra/nm-applet ~arm
+gnome-extra/yelp-xsl ~arm
 media-libs/gexiv2 ~arm
 media-libs/libbluray ~arm
 media-libs/libgphoto2 ~arm
