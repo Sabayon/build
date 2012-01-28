@@ -81,6 +81,8 @@ net-libs/gtk-vnc gtk3
 net-print/cups dbus
 app-crypt/pinentry gtk
 gnome-base/gvfs gdu
+# required by Sulfur
+x11-libs/vte:0 python
 
 # LibreOffice?
 app-office/libreoffice -nsplugin -gnome -java templates -kde pdfimport
@@ -94,3 +96,4 @@ media-tv/xbmc bluray udev pulseaudio webserver css
 net-wireless/wpa_supplicant dbus
 net-misc/modemmanager policykit
 net-misc/networkmanager bluetooth connection-sharing resolvconf
+
