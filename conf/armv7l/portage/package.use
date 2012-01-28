@@ -37,6 +37,9 @@ sys-fs/udev gudev extras
 # LXDE stuff
 x11-misc/obconf lxde
 
+# Fluxbox time!
+media-libs/imlib2 X
+
 # Firefox stuff
 media-libs/libpng apng
 
