@@ -82,6 +82,7 @@ net-print/cups dbus
 app-crypt/pinentry gtk
 gnome-base/gvfs gdu
 gnome-base/gnome-settings-daemon packagekit policykit
+gnome-base/gconf policykit
 # required by Sulfur
 x11-libs/vte:0 python
 
