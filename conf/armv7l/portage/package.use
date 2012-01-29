@@ -99,4 +99,5 @@ media-libs/mesa gles
 net-wireless/wpa_supplicant dbus
 net-misc/modemmanager policykit
 net-misc/networkmanager bluetooth connection-sharing resolvconf
-
+# required by gnome-core-apps
+gnome-extra/nm-applet bluetooth
