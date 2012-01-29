@@ -83,6 +83,8 @@ app-crypt/pinentry gtk
 gnome-base/gvfs gdu
 gnome-base/gnome-settings-daemon packagekit policykit
 gnome-base/gconf policykit
+net-im/empathy gnome-online-accounts
+mail-client/evolution networkmanager
 # required by Sulfur
 x11-libs/vte:0 python
 
