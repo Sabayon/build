@@ -25,6 +25,8 @@ conf/*/entropy/packages/system.mask.d/
 conf/*/entropy/repositories.conf
 conf/*/entropy/repositories.conf.d/
 conf/*/repo/sabayonlinux.org/ChangeLog*
+conf/*/repo/sabayonlinux.org/make.conf
+conf/*/repo/sabayonlinux.org/make.profile
 conf/*/repo/sabayonlinux.org/packages.db
 conf/*/repo/sabayonlinux.org/packages.db.bz2
 conf/*/repo/sabayonlinux.org/packages.db.bz2.md5
@@ -43,5 +45,10 @@ conf/*/repo/sabayonlinux.org/packages.db.pkglist
 conf/*/repo/sabayonlinux.org/packages.db.revision
 conf/*/repo/sabayonlinux.org/packages.db.timestamp
 conf/*/repo/sabayonlinux.org/packages.db.webinst_updates
+conf/*/repo/sabayonlinux.org/package.keywords
+conf/*/repo/sabayonlinux.org/package.unmask
 conf/*/repo/sabayonlinux.org/packages.rss
+conf/*/repo/sabayonlinux.org/package.use
 conf/*/repo/sabayonlinux.org/updates.rss
+conf/*/repo/sabayonlinux.org/packages.db.lock
+conf/*/repo/sabayonlinux.org/packages.db.tainted
