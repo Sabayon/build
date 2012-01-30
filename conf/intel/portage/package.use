@@ -114,7 +114,6 @@ dev-ml/lablgl glut
 dev-perl/PDL fftw
 
 dev-python/cgkit 3ds
-dev-python/gnome-python-extras -firefox
 dev-python/imaging tk
 dev-python/matplotlib -wxwindows
 
