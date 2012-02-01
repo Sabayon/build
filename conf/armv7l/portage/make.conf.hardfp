@@ -1,0 +1,11 @@
+GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
+FPUABI="-mfloat-abi=hard"
+
+CFLAGS="-O2 -ftree-vectorize -pipe -march=armv7-a -mfpu=vfpv3-d16 ${FPUABI} ${GRAPHITE}"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed"
+CHOST="armv7a-hardfloat-linux-gnueabi"
+
+source /etc/make.conf.common
+source /var/lib/layman/make.conf
+

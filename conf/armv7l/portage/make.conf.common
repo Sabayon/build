@@ -1,10 +1,3 @@
-# Compiler configuration
-GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
-CFLAGS="-O2 -ftree-vectorize -pipe -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=hard ${GRAPHITE}"
-CXXFLAGS="${CFLAGS}"
-LDFLAGS="-Wl,-O1 -Wl,--as-needed"
-CHOST="armv7a-hardfloat-linux-gnueabi"
-
 # Portage configuration
 ACCEPT_KEYWORDS="~arm arm"
 FEATURES="ccache distcc distcc-pump parallel-fetch protect-owned splitdebug"
@@ -28,6 +21,3 @@ APACHE2_MPMS="prefork"
 # Filter out crap from packages
 INSTALL_MASK="usr/share/gtk-doc/html/*"
 PKG_INSTALL_MASK="${INSTALL_MASK}"
-
-source /var/lib/layman/make.conf
-
