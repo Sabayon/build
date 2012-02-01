@@ -6,7 +6,7 @@
 FEATURES="${FEATURES} distcc distcc-pump"
 
 DISTCC_PATH="/usr/lib/distcc/bin"
-CUR_CHOST="armv7a-hardfloat-linux-gnueabi"
+CUR_CHOST="$(basename /usr/lib/gcc/armv*)"
 DISTCC_WRAPPER="${CUR_CHOST}-wrapper"
 
 pushd "${DISTCC_PATH}" > /dev/null || exit 1
