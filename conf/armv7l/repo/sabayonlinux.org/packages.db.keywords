@@ -77,3 +77,5 @@ x11-libs/libdesktop-agnostic ~arm
 x11-libs/mx ~arm
 x11-themes/gnome-icon-theme-extras ~arm
 x11-themes/sabayon-artwork-loo ~arm
+lxde-base/lxpolkit ~arm
+xfce-extra/xfce4-notifyd ~arm
