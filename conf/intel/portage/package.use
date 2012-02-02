@@ -116,6 +116,7 @@ dev-perl/PDL fftw
 dev-python/cgkit 3ds
 dev-python/imaging tk
 dev-python/matplotlib -wxwindows
+dev-python/pyside script
 
 # we can't have +tk on Python
 dev-python/imaging -tk
