@@ -102,3 +102,6 @@ net-misc/modemmanager policykit
 net-misc/networkmanager bluetooth connection-sharing resolvconf
 # required by gnome-core-apps
 gnome-extra/nm-applet bluetooth
+
+# Enable gles while we don't have other GL libs around (pvr-omap4 would collide)
+media-libs/mesa gles
