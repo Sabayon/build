@@ -139,6 +139,7 @@ kde-misc/fancytasks (.*)kde-base/kde-l10n(.*)
 app-cdr/kcdemu (.*)kde-base/kde-l10n(.*)
 kde-misc/krecipes (.*)kde-base/kde-l10n(.*)
 kde-misc/kio-locate (.*)kde-base/kde-l10n(.*)
+kde-misc/kio_gopher (.*)kde-base/kde-l10n(.*)
 
 # net-dns/avahi dep rewrites
 app-crypt/seahorse (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
