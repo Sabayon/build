@@ -13,7 +13,7 @@ media-fonts/acroread-asianfonts
 sci-libs/hdf5
 
 # 2012-02-02 Joost Ruis: Current 3.5.x is RC not want yet
->app-office/libreoffice-3.4.4.2-r1
+>app-office/libreoffice-3.4.5.2
 >app-office/libreoffice-l10n-meta-3.4.5.2
 
 # Joost Ruis: Bumping this breaks Blender. Impossible to rebuild Blender unless Gentoo bug 384239 is fixed
