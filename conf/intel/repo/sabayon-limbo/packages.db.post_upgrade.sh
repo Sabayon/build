@@ -1,6 +1,6 @@
 #!/bin/sh
 
-[[ -z "$4" ]] && echo "not enough parameters" && exit 1
+[ -z "$4" ] && echo "not enough parameters" && exit 1
 
 REPO_ID=$1
 ROOT=$2
@@ -64,7 +64,7 @@ three_four_to_five() {
 
     # switch Python to latest available, 2.7
     eselect python update --ignore 3.0 --ignore 3.1 --ignore 3.2 --ignore 3.3 --ignore 3.4
-    [[ "${?}" != "0" ]] && echo "eselect-python not available" && rc=1
+    [ "${?}" != "0" ] && echo "eselect-python not available" && rc=1
 
     # configure correct binutils
     # new profile needs to be configured
@@ -93,17 +93,17 @@ three_four_to_five() {
     fi
 
     # move alsa conf to new location
-    [[ -f "${ROOT}/etc/modprobe.d/alsa" ]] && \
+    [ -f "${ROOT}/etc/modprobe.d/alsa" ] && \
         mv "${ROOT}/etc/modprobe.d/alsa" "${ROOT}/etc/modprobe.d/alsa.conf"
 
     # try to mount /boot, ignore all the possible bullshit
-    # [[ "${ROOT}" = "/" ]] && mount /boot &> /dev/null
+    # [ "${ROOT}" = "/" ] && mount /boot &> /dev/null
     # setup grub.conf, if found
-    [[ -f "${ROOT}boot/grub/grub.conf" ]] && \
+    [ -f "${ROOT}boot/grub/grub.conf" ] && \
         sed -i 's/CONSOLE=\/dev\/tty1/console=tty1/g' "${ROOT}/boot/grub/grub.conf"
 
     # setup grub.conf, if found, change nox into gentoo=nox
-    [[ -f "${ROOT}boot/grub/grub.conf" ]] && \
+    [ -f "${ROOT}boot/grub/grub.conf" ] && \
         sed -i 's/ nox / gentoo=nox /g' "${ROOT}/boot/grub/grub.conf"
 
     # setup /etc/localtime correctly
@@ -123,12 +123,11 @@ if [ "$(uname -m)" = "x86_64" ]; then
 fi
 
 # migration script from branch 4 to 5
-[[ "${OLD_BRANCH}" = "4" ]] && [[ "${NEW_BRANCH}" = "5" ]] && three_four_to_five
+[ "${OLD_BRANCH}" = "4" ] && [ "${NEW_BRANCH}" = "5" ] && three_four_to_five
 
 # migration script from branch 3.5 to 5
-[[ "${OLD_BRANCH}" = "3.5" ]] && [[ "${NEW_BRANCH}" = "5" ]] && three_four_to_five
+[ "${OLD_BRANCH}" = "3.5" ] && [ "${NEW_BRANCH}" = "5" ] && three_four_to_five
 
 echo "migration switch not found"
 exit 1
-
 

@@ -20,15 +20,15 @@
 # PLEASE NOTE: this script is called automatically by entropy and, unless
 # requested otherwise, it should be NEVER EVER called by user.
 
-[[ "$UID" != "0" ]] && echo && echo "Skipping update script, you are not root" && exit 0
+[ "$UID" != "0" ] && echo && echo "Skipping update script, you are not root" && exit 0
 
-[[ -z "$3" ]] && echo "not enough parameters" && exit 1
+[ -z "$3" ] && echo "not enough parameters" && exit 1
 
 REPO_ID=$1
 ROOT=$2
 BRANCH=$3
 
-function configure_correct_binutils() {
+configure_correct_binutils() {
     # configure correct binutils
     # new profile needs to be configured
     echo
