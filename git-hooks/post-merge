@@ -5,7 +5,6 @@ echo "post-merge hook is executing"
 
 arch="$(uname -m)"
 src_make_conf=""
-src_make_conf_common=""
 case $arch in
 	i686)
 	src_make_conf="./conf/intel/portage/make.conf.x86"
@@ -16,10 +15,8 @@ case $arch in
 	arm*)
 	if [ -e "/usr/lib/gcc/armv7a-hardfloat-linux-gnueabi" ]; then
 		src_make_conf="./conf/armv7l/portage/make.conf.hardfp"
-		src_make_conf_common="./conf/armv7l/portage/make.conf.common"
 	elif [ -e "/usr/lib/gcc/armv7a-unknown-linux-gnueabi" ]; then
 		src_make_conf="./conf/armv7l/portage/make.conf.softfp"
-		src_make_conf_common="./conf/armv7l/portage/make.conf.common"
 	else
 		echo "UNSUPPORTED ARM ABI, CANNOT COPY make.conf !!!"
 	fi
@@ -31,7 +28,4 @@ if [ -z "$src_make_conf" ]; then
 else
 	echo "post-merge hook: copying make.conf (from $src_make_conf):"
 	cp --no-target-directory -v "$src_make_conf" /etc/make.conf
-	if [ -n "$src_make_conf_common" ]; then
-		cp --no-target-directory -v "$src_make_conf_common" "/etc/$(basename $src_make_conf_common)"
-	fi
 fi
