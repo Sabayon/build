@@ -710,7 +710,7 @@ net-misc/x2goserver sqlite
 media-plugins/kipi-plugins calendar gpssync
 sci-libs/gdal geos
 dev-db/tora oracle
-media-sound/moc curl
+media-sound/moc curl sndfile
 kde-base/kdepimlibs semantic-desktop
 media-libs/gd fontconfig
 x11-libs/qt-webkit kde
