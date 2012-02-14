@@ -105,3 +105,6 @@ gnome-extra/nm-applet bluetooth
 
 # Enable gles while we don't have other GL libs around (pvr-omap4 would collide)
 media-libs/mesa gles
+
+# Required by Plymouth
+x11-libs/libdrm libkms
