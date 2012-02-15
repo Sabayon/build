@@ -235,3 +235,6 @@ gnustep-apps/terminal
 
 # 29-12-2011 Joost Ruis: Keep Ruby 1.9 masked for now
 >=dev-lang/ruby-1.9.0
+
+# 2012-02-15 Joost Ruis: Only use pymol from our overlay since it has depends on python-tk  
+sci-chemistry/pymol::gentoo
