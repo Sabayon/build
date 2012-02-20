@@ -313,7 +313,7 @@ net-fs/samba ads acl oav swat winbind
 net-im/centerim gadu
 net-im/ekg2 gadu gpg xmpp
 net-im/gajim -avahi
-net-im/gyachi gpgme gtkspell
+net-im/gyachi gpgme gtkspell gtkhtml -webkit
 net-im/kadu xmpp
 net-im/pidgin bonjour console gadu groupwise meanwhile msn prediction qq sasl silc -zephyr
 net-im/psi jingle
