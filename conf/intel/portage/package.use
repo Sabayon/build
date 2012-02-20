@@ -873,3 +873,6 @@ dev-db/tora -oracle
 
 # Disable v4l, broken
 media-gfx/zbar -v4l -v4l2
+
+# Bumblebee stuff
+x11-misc/bumblebee video_cards_nvidia video_cards_nouveau
