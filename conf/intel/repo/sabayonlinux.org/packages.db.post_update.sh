@@ -20,7 +20,7 @@
 # PLEASE NOTE: this script is called automatically by entropy and, unless
 # requested otherwise, it should be NEVER EVER called by user.
 
-[ "$UID" != "0" ] && echo && echo "Skipping update script, you are not root" && exit 0
+[ "$(id -u)" != "0" ] && echo && echo "Skipping update script, you are not root" && exit 0
 
 [ -z "$3" ] && echo "not enough parameters" && exit 1
 
