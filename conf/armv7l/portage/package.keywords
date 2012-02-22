@@ -10,3 +10,7 @@ sys-apps/diffutils
 
 # Temp keywording, will test and add keywords back
 www-servers/nginx **
+
+# it has long cmdline patch, they say it fixes webkit-gtk
+# (but it's not true)
+=sys-devel/make-3.82-r4 **
