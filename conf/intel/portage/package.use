@@ -281,9 +281,7 @@ media-video/mkvtoolnix wxwindows
 media-video/ogmrip ogm mp4 srt
 media-video/totem xulrunner iplayer galago
 media-video/vdr atsc subtitles iptv pinplugin graphtft submenu yaepg rotor SetGroupSep-Patch ttxtsubs cmdsubmenu ttxtsubs dvbsetup dxr3 menuorg
-media-video/vlc	xulrunner aalib id3tag httpd vlm libass -live samba -vaapi fontconfig skins rtsp
-# broken with nvidia atm, 2011-03-13
-media-video/vlc -vaapi
+media-video/vlc	xulrunner aalib id3tag httpd vlm libass -live samba vaapi fontconfig skins rtsp
 media-video/xine-ui aalib
 
 # Drop xine-ui from dvdrip, since
