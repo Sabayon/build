@@ -880,3 +880,6 @@ x11-misc/bumblebee video_cards_nvidia video_cards_nouveau
 
 # app-misc/recoll cannot use both inotify and fam, only one of them.
 app-misc/recoll -fam inotify
+
+# dev-db/mongodb should use V8. Allows to fix bug 3069
+dev-db/mongodb v8
