@@ -877,3 +877,6 @@ x11-misc/bumblebee video_cards_nvidia video_cards_nouveau
 
 # PQStego requires this USE, see bug 2751
 >=sci-libs/gsl-1.15 cblas-external
+
+# app-misc/recoll cannot use both inotify and fam, only one of them.
+app-misc/recoll -fam inotify
