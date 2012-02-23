@@ -876,4 +876,4 @@ media-gfx/zbar -v4l -v4l2
 x11-misc/bumblebee video_cards_nvidia video_cards_nouveau
 
 # PQStego requires this USE, see bug 2751
->=sci-libs/gsl-1.15 cblas-external
+# >=sci-libs/gsl-1.15 cblas-external
