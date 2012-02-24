@@ -214,6 +214,7 @@ media-gfx/kphotoalbum kipi
 media-gfx/librecad doc
 media-gfx/splashutils mng fbcondecor
 media-gfx/xsane tiff
+media-gfx/zbar imagemagick v4l
 
 media-libs/blib aalib
 media-libs/devil mng
@@ -868,9 +869,6 @@ sys-apps/man-db -berkdb
 
 # We don't have Oracle
 dev-db/tora -oracle
-
-# Disable v4l, broken
-media-gfx/zbar -v4l -v4l2
 
 # Bumblebee stuff
 x11-misc/bumblebee video_cards_nvidia video_cards_nouveau
