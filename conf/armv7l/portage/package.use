@@ -44,6 +44,7 @@ media-libs/imlib2 X
 media-libs/libpng apng
 
 # Language packs!
+sys-apps/man-pages -linguas_cs -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -linguas_nl -linguas_pl -linguas_ro -linguas_ru -linguas_zh_CN
 #www-client/firefox linguas_af linguas_ak linguas_ar linguas_ast linguas_be linguas_bg linguas_bn linguas_bn_BD linguas_bn_IN linguas_br
 #www-client/firefox linguas_bs linguas_ca linguas_cs linguas_cy linguas_da linguas_de linguas_el linguas_en linguas_en_GB linguas_en_US
 #www-client/firefox linguas_en_ZA linguas_eo linguas_es linguas_es_AR linguas_es_CL linguas_es_ES linguas_es_MX linguas_et
