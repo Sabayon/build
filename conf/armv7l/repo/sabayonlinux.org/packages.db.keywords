@@ -89,4 +89,12 @@ media-video/gnome-video-effects ~arm
 app-admin/apg ~arm
 net-im/telepathy-connection-managers ~arm
 sys-apps/lsb-release ~arm
-
+<dev-libs/embryo-9999 ~arm
+<dev-libs/eeze-9999 ~arm
+<dev-libs/ecore-9999 ~arm
+<dev-libs/e_dbus-9999 ~arm
+<dev-libs/eina-9999 ~arm
+<media-libs/edje-9999 ~arm
+<dev-libs/efreet-9999 ~arm
+<media-libs/evas-9999 ~arm
+<dev-libs/eet-9999 ~arm
