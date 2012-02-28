@@ -109,3 +109,6 @@ media-libs/mesa gles
 
 # Required by Plymouth
 x11-libs/libdrm libkms
+
+# E17 flags
+media-libs/evas X
