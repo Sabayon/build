@@ -472,8 +472,8 @@ x11-misc/xscreensaver -new-login
 
 x11-plugins/cairo-dock-plugins alsa exif -kde mail musicplayer powermanager terminal tomboy wifi xgamma compiz -gio -gmenu gnome -network-monitor -webkit -xfce -xklavier
 x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisVert Ubuntu Verde Wood
-x11-themes/gtk-engines-qtcurve -mozilla
 x11-themes/gtk-engines-murrine -themes
+x11-themes/gtk-engines-qtcurve -mozilla
 x11-themes/skinenigmang-logos dxr3
 
 x11-wm/compiz -gnome -kde
