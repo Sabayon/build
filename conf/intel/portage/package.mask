@@ -10,7 +10,6 @@ sci-biology/mira
 media-fonts/acroread-asianfonts
 >dev-lang/erlang-13.2.4
 >=app-portage/portpeek-1.9.70
-sci-libs/hdf5
 
 # 2012-02-02 Joost Ruis: Current 3.5.x is RC not want yet
 >app-office/libreoffice-3.4.5.2
