@@ -846,7 +846,7 @@ kde-base/kdepim-runtime -linguas_ar -linguas_ca -linguas_cs -linguas_da -linguas
 net-im/telepathy-connection-managers -icq -yahoo
 net-im/empathy gnome
 app-emulation/winetricks -gtk
-x11-misc/obconf lxde
+x11-misc/obconf -lxde
 media-plugins/gst-plugins-meta mms
 net-ftp/proftpd authfile
 dev-lang/parrot pcre
