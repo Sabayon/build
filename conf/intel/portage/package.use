@@ -764,7 +764,7 @@ dev-util/geany-plugins enchant gtkspell
 kde-base/kdesdk-misc extras
 dev-java/antlr script
 app-misc/sphinx mysql
-x11-misc/shutter webphoto
+x11-misc/shutter drawing webphoto
 dev-games/physfs hog
 media-libs/svgalib -kernel-helper 
 app-misc/tuxcmd-modules gnome unrar
