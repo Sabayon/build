@@ -13,6 +13,7 @@ MAKEOPTS="-j16 -s"
 FEATURES="ccache parallel-fetch protect-owned splitdebug"
 ACCEPT_KEYWORDS="~x86"
 CCACHE_SIZE="50G"
+CCACHE_DIR="/var/ccache"
 
 LINGUAS="en en_US af ar az bg bn br bs ca cs cy da de el en_GB eo es et eu fa fi fr fy ga gl he hi hr hu is it ja kk km ko lt lv mk mn ms nb nds nl nn pa pl pt pt_BR ro ru rw se sk sl sr sr@Latn ss sv ta tg tr uk uz vi zh_CN zh_TW es_AR es_ES fy_NL ga_IE gu gu_IN nb_NO nn_NO pt_PT sv_SE zh"
 
