@@ -5,7 +5,6 @@ app-i18n/anthy-ss
 app-i18n/atokx2
 app-vim/cvscommand
 app-vim/vcscommand
-app-shells/scsh
 sci-biology/mira
 media-fonts/acroread-asianfonts
 >dev-lang/erlang-13.2.4
