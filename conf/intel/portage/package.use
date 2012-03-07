@@ -170,6 +170,7 @@ gnome-extra/avant-window-navigator-extras gnome
 gnome-extra/evolution-data-server ldap kerberos
 gnome-extra/gnome-games -sudoku
 gnome-extra/libgsf gnome
+gnome-extra/zeitgeist-extensions fts
 
 kde-base/gwenview kipi semantic-desktop
 # move kde-base/kde-l10n-meta kde-base/kde-l10n
