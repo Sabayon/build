@@ -336,6 +336,9 @@ net-libs/libpcap -bluetooth
 net-mail/dbmail sqlite3
 net-mail/tpop3d mbox maildir
 
+# See bug 3118
+net-misc/dropbox librsync-bundled 
+
 net-misc/aria2 metalink bittorrent xmlrpc
 # bluetooth use flag is useless
 net-misc/networkmanager nss -dhclient modemmanager -bluetooth connection-sharing dhcpcd introspection -gnutls wimax
