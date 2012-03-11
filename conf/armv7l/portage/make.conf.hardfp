@@ -1,4 +1,5 @@
-GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
+# Temp disable Graphite due to known x11-libs/qt bugs
+# GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
 FPUABI="-mfloat-abi=hard"
 
 CFLAGS="-O2 -pipe -march=armv7-a -mfpu=vfpv3-d16 ${FPUABI} ${GRAPHITE}"

@@ -2,8 +2,9 @@
 # Please consult /etc/make.conf.example for a more detailed example
 
 # Compiler stuff
-GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
-CFLAGS="-O2 -ftree-vectorize -march=i686 -pipe ${GRAPHITE}"
+# GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
+# Temp disable Graphite and -ftree-vectorize due to x11-libs/qt-* instabilities
+CFLAGS="-O2 -march=i686 -pipe" # -ftree-vectorize ${GRAPHITE}"
 CHOST="i686-pc-linux-gnu"
 CXXFLAGS="${CFLAGS}"
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
