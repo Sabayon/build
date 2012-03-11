@@ -33,3 +33,6 @@ dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 media-plugins/gst-plugins-assrender **
 # ~x86 arch missing
 media-video/hwdecode-demos ** ~x86 ~amd64
+
+# ~x86 arch missing
+=media-video/imagination-3* **
