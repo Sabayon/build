@@ -387,6 +387,9 @@ sci-libs/vtk tk mpi
 sci-mathematics/maxima latex
 sci-mathematics/octave fftw curl
 
+# We don't want rtai
+sci-misc/emc simulator
+
 sci-visualization/fityk gnuplot wxwindows
 sci-visualization/gnuplot gd wxwidgets
 sci-visualization/grace fftw
