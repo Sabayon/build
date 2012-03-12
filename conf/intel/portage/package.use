@@ -133,6 +133,7 @@ virtual/mysql embedded
 dev-tcltk/tclxml expat
 
 dev-vcs/bzr bash-completion curl sftp
+dev-util/biew mmx sse
 dev-util/codeblocks contrib
 dev-util/eclipse-sdk java6
 dev-util/glade -gnome
