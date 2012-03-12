@@ -556,7 +556,7 @@ app-cdr/brasero -css
 media-tv/mythtv -css
 
 # DO NOT FUCKING REMOVE THIS
-app-crypt/gnupg static
+app-crypt/gnupg static bzip2
 
 # Inflate lighttpd
 www-servers/lighttpd fastcgi lua memcache xattr
