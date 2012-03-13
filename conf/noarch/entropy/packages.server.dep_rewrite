@@ -147,6 +147,7 @@ kde-misc/steamcompanion (.*)kde-base/kde-l10n(.*)
 kde-misc/serverstatuswidget (.*)kde-base/kde-l10n(.*)
 media-sound/soundkonverter (.*)kde-base/kde-l10n(.*)
 sci-mathematics/rkward (.*)kde-base/kde-l10n(.*)
+media-gfx/kpovmodeler (.*)kde-base/kde-l10n(.*)
 
 # net-dns/avahi dep rewrites
 app-crypt/seahorse (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
