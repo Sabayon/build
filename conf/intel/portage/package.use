@@ -894,3 +894,6 @@ app-misc/recoll -fam inotify
 
 # dev-db/mongodb should use V8. Allows to fix bug 3069
 dev-db/mongodb v8
+
+# See bug 3138
+app-benchmarks/bootchart java
