@@ -43,7 +43,7 @@ dev-tex/pstplus (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-text/kbibtex (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-misc/recoll (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 gnome-extra/gnome-commander (.*)app-text/poppler(.*) \1app-text/poppler-base\2
-dev-python:python-poppler-qt4 (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
+dev-python/python-poppler-qt4 (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 
 # Fix enigmail deps, to point to our split pinentry packages
 x11-plugins/enigmail (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2\2
