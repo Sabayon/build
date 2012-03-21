@@ -2,7 +2,7 @@
 
 app-accessibility/dasher gnome
 
-app-admin/conky audacious hddtemp imlib lua lua-imlib lua-cairo mpd thinkpad -ipv6
+app-admin/conky audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thinkpad -ipv6
 
 app-arch/advancecomp mng
 app-arch/file-roller -nautilus
@@ -101,6 +101,7 @@ dev-libs/gdl gnome
 # 2010-04-6, trying to disable USE="mono" from gmime
 dev-libs/gmime -mono
 dev-libs/libmcs -kde
+dev-libs/pth static-libs
 dev-libs/soprano clucene redland -java
 dev-libs/xerces-c xqilla icu
 dev-libs/xmlrpc-c curl
@@ -133,6 +134,7 @@ virtual/mysql embedded
 dev-tcltk/tclxml expat
 
 dev-vcs/bzr bash-completion curl sftp
+dev-util/biew mmx sse
 dev-util/codeblocks contrib
 dev-util/eclipse-sdk java6
 dev-util/glade -gnome
@@ -170,6 +172,7 @@ gnome-extra/avant-window-navigator-extras gnome
 gnome-extra/evolution-data-server ldap kerberos
 gnome-extra/gnome-games -sudoku
 gnome-extra/libgsf gnome
+gnome-extra/zeitgeist-extensions fts
 
 kde-base/gwenview kipi semantic-desktop
 # move kde-base/kde-l10n-meta kde-base/kde-l10n
@@ -207,6 +210,7 @@ media-gfx/gimageview mng
 media-gfx/gimp aalib mng wmf smp
 media-gfx/gphoto2 aalib
 media-gfx/greycstoration fftw
+media-gfx/gthumb -cdr slideshow
 media-gfx/imagemagick fftw gs perl
 media-gfx/k3d 3ds
 media-gfx/kphotoalbum kipi
@@ -334,6 +338,9 @@ net-libs/libpcap -bluetooth
 net-mail/dbmail sqlite3
 net-mail/tpop3d mbox maildir
 
+# See bug 3118
+net-misc/dropbox librsync-bundled 
+
 net-misc/aria2 metalink bittorrent xmlrpc
 # bluetooth use flag is useless
 net-misc/networkmanager nss -dhclient modemmanager -bluetooth connection-sharing dhcpcd introspection -gnutls wimax
@@ -381,6 +388,9 @@ sci-libs/vtk tk mpi
 sci-mathematics/maxima latex
 sci-mathematics/octave fftw curl
 
+# We don't want rtai
+sci-misc/emc simulator
+
 sci-visualization/fityk gnuplot wxwindows
 sci-visualization/gnuplot gd wxwidgets
 sci-visualization/grace fftw
@@ -424,6 +434,7 @@ sys-libs/db -java
 
 virtual/opencl video_cards_nvidia
 
+www-apps/rt mysql
 www-apps/trac mysql postgres vhosts sqlite
 
 www-client/midori sqlite
@@ -550,7 +561,7 @@ app-cdr/brasero -css
 media-tv/mythtv -css
 
 # DO NOT FUCKING REMOVE THIS
-app-crypt/gnupg static
+app-crypt/gnupg static bzip2
 
 # Inflate lighttpd
 www-servers/lighttpd fastcgi lua memcache xattr
@@ -763,12 +774,12 @@ dev-util/geany-plugins enchant gtkspell
 kde-base/kdesdk-misc extras
 dev-java/antlr script
 app-misc/sphinx mysql
-x11-misc/shutter webphoto
+x11-misc/shutter drawing webphoto
 dev-games/physfs hog
 media-libs/svgalib -kernel-helper 
 app-misc/tuxcmd-modules gnome unrar
 media-sound/cmus mikmod
-sci-libs/hdf5 -mpi threads szip
+sci-libs/hdf5 -cxx -fortran -mpi threads szip
 virtual/mpi romio
 sys-cluster/openmpi romio
 media-libs/libpng apng
@@ -847,7 +858,7 @@ kde-base/kdepim-runtime -linguas_ar -linguas_ca -linguas_cs -linguas_da -linguas
 net-im/telepathy-connection-managers -icq -yahoo
 net-im/empathy gnome
 app-emulation/winetricks -gtk
-x11-misc/obconf lxde
+x11-misc/obconf -lxde
 media-plugins/gst-plugins-meta mms
 net-ftp/proftpd authfile
 dev-lang/parrot pcre
@@ -884,3 +895,6 @@ app-misc/recoll -fam inotify
 
 # dev-db/mongodb should use V8. Allows to fix bug 3069
 dev-db/mongodb v8
+
+# See bug 3138
+app-benchmarks/bootchart java

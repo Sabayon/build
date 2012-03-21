@@ -1,2 +1,7 @@
 # Mask apache using MPM worker for now
 www-servers/apache[threads]
+
+
+# 2012-02-29: mask Python 3, many packages are now
+# featuring dependencies like "dev-lang/python"
+>=dev-lang/python-3.0
