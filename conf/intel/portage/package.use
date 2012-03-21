@@ -344,6 +344,7 @@ net-misc/nxnode prebuilt vnc
 net-misc/openssh -X
 net-misc/openssh -ldap
 net-misc/tightvnc -java server
+net-misc/tor threads
 net-misc/vinagre -avahi
 
 net-nntp/suck perl
