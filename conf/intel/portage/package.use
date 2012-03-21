@@ -860,7 +860,7 @@ net-im/empathy gnome
 app-emulation/winetricks -gtk
 x11-misc/obconf -lxde
 media-plugins/gst-plugins-meta mms
-net-ftp/proftpd authfile
+net-ftp/proftpd authfile openssl
 dev-lang/parrot pcre
 app-office/calligra kdepim
 www-apps/postfixadmin mysql
