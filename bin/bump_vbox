@@ -5,9 +5,9 @@ packages="app-emulation/virtualbox-guest-additions app-emulation/virtualbox-modu
 non_tagged_packages="virtualbox-bin"
 
 # build for latest kernel
-KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge $packages ${non_tagged_packages}
+KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge $packages ${non_tagged_packages} || exit 1
 echo -5 | etc-update
-eit add ${packages} ${non_tagged_packages}
+eit add ${packages} ${non_tagged_packages} || exit 1
 
 for kernel in $kernels; do
         if [ "${kernel}" = "${running_kernel}" ]; then
