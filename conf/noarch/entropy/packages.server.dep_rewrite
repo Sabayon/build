@@ -185,6 +185,7 @@ sys-auth/nss-mdns (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 sys-fs/owfs (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 www-apache/mod_dnssd (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 www-client/epiphany (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
+x11-libs/libqxt (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 x11-misc/service-discovery-applet (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 x11-misc/x11vnc (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 net-ftp/qshare (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
