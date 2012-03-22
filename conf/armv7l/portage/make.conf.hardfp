@@ -1,8 +1,8 @@
 # Temp disable Graphite due to known x11-libs/qt bugs
-# GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
+GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
 FPUABI="-mfloat-abi=hard"
 
-CFLAGS="-O2 -pipe -march=armv7-a -mfpu=vfpv3-d16 ${FPUABI} ${GRAPHITE}"
+CFLAGS="-O2 -pipe -march=armv7-a -mfpu=vfpv3-d16 ${FPUABI}"
 CXXFLAGS="${CFLAGS}"
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
 CHOST="armv7a-hardfloat-linux-gnueabi"
