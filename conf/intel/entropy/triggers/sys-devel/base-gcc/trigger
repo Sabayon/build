@@ -12,13 +12,19 @@ def configure_correct_gcc():
         for curdir, subs, files in os.walk(gcc_dir):
             for fname in files:
                 if fname.startswith(gcc_profile_file_pfx):
-                   gcc_profile_file = fname
+                   gcc_profile_file = os.path.join(curdir, fname)
                    break
             break
         if gcc_profile_file is not None:
             break
     if gcc_profile_file is not None:
-        subprocess.call(("gcc-config", gcc_profile_file))
+        # if we're hardened, we want the vanilla one by default
+        # to avoid stressing the user too much
+        vanilla_profile_file = gcc_profile_file + "-vanilla"
+        if os.path.isfile(vanilla_profile_file):
+            gcc_profile_file = vanilla_profile_file
+        profile_name = os.path.basename(gcc_profile_file)
+        subprocess.call(("gcc-config", profile_name))
 
 if stage == "postinstall":
     configure_correct_gcc()
