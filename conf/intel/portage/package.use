@@ -95,6 +95,7 @@ dev-lang/ocaml tk
 dev-lang/php fpm posix simplexml mysql mysqli mysqlnd sqlite sqlite3 ftp gd imap calendar ctype sockets snmp wddx apache2 filter soap curl mhash hash pcre reflection spl xml tokenizer pdo pcntl json tidy cgi bcmath postgres zip xsl
 dev-lang/python sqlite
 
+dev-libs/beecrypt threads
 dev-libs/boost python threads
 dev-libs/dbus-glib bash-completion
 dev-libs/gdl gnome
