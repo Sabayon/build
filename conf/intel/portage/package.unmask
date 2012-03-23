@@ -1,9 +1,6 @@
 media-sound/potamus
 <sys-apps/portage-2.3
 
-# E17 support
-=media-libs/imlib2-9999
-
 # Unmasking development kernel sources for openvz
 =sys-kernel/openvz-sources-2.6.32*
 
