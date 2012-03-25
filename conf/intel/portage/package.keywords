@@ -11,9 +11,6 @@ sys-devel/make -~amd64 -~x86
 app-crypt/qca:2 **
 dev-python/pycups **
 
-# Needed for E17
-~media-libs/imlib2-9999 **
-
 # Grub2, make binpkg for now, keep masked
 <sys-boot/grub-2.99 **
 dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
