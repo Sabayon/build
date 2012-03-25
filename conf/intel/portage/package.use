@@ -420,6 +420,7 @@ sys-devel/distcc -avahi
 sys-devel/gcc objc objc++ objc-gc graphite -gtk
 sys-devel/base-gcc objc objc++ objc-gc graphite -gtk
 
+sys-fs/cryptsetup static
 sys-fs/mtd-utils xattr
 sys-fs/ntfs3g suid ntfsprogs
 sys-fs/reiser4progs static
