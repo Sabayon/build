@@ -150,6 +150,17 @@ media-sound/soundkonverter (.*)kde-base/kde-l10n(.*)
 sci-mathematics/rkward (.*)kde-base/kde-l10n(.*)
 media-gfx/kpovmodeler (.*)kde-base/kde-l10n(.*)
 dev-util/kdevelop-php (.*)kde-base/kde-l10n(.*)
+bet-im/ktp-accounts-kcm (.*)kde-base/kde-l10n(.*)
+net-im/ktp-approver (.*)kde-base/kde-l10n(.*)
+net-im/ktp-auth-handler (.*)kde-base/kde-l10n(.*)
+net-im/ktp-common-internals (.*)kde-base/kde-l10n(.*)
+net-im/ktp-contact-applet (.*)kde-base/kde-l10n(.*)
+net-im/ktp-contact-list (.*)kde-base/kde-l10n(.*)
+net-im/ktp-filetransfer-handler (.*)kde-base/kde-l10n(.*)
+net-im/ktp-kded-module (.*)kde-base/kde-l10n(.*)
+net-im/ktp-presence-applet (.*)kde-base/kde-l10n(.*)
+net-im/ktp-send-file (.*)kde-base/kde-l10n(.*)
+net-im/ktp-text-ui (.*)kde-base/kde-l10n(.*)
 
 # net-dns/avahi dep rewrites
 app-crypt/seahorse (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
