@@ -359,6 +359,7 @@ net-nntp/suck perl
 
 net-p2p/amule geoip stats remote upnp daemon
 net-p2p/deluge webinterface
+net-p2p/eiskaltdcpp json
 net-p2p/gnunet sqlite
 net-p2p/vuze source
 
