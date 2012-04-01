@@ -161,6 +161,7 @@ net-im/ktp-kded-module (.*)kde-base/kde-l10n(.*)
 net-im/ktp-presence-applet (.*)kde-base/kde-l10n(.*)
 net-im/ktp-send-file (.*)kde-base/kde-l10n(.*)
 net-im/ktp-text-ui (.*)kde-base/kde-l10n(.*)
+www-client/rekonq (.*)kde-base/kde-l10n(.*)
 
 # net-dns/avahi dep rewrites
 app-crypt/seahorse (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
