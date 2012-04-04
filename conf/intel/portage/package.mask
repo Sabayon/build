@@ -235,3 +235,6 @@ sci-chemistry/pymol::gentoo
 
 # 2012-03-27: net-im/openfire needs ~dev-java/ant-contrib-1.0_beta2
 >dev-java/ant-contrib-1.0_beta2
+
+# 2012-04-04 Joost Ruis: pulseaudio-1.99.2 links with xen-tools. mask it for now 
+>=media-sound/pulseaudio-1.99.2
