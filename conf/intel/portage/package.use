@@ -379,6 +379,8 @@ net-wireless/wpa_supplicant -qt3 -qt4 wimax
 # workaround for https://bugs.gentoo.org/show_bug.cgi?id=361411
 sci-biology/transfac -emboss
 
+sci-electronics/geda doc stroke
+
 sci-astronomy/celestia -kde
 
 sci-geosciences/grass tcl tk fftw
