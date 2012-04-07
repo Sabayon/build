@@ -120,6 +120,9 @@ dev-python/imaging tk
 dev-python/matplotlib -wxwindows
 dev-python/pyside script
 
+# don't require media-libs/alsa-lib[alisp]
+dev-python/pyglet -alsa
+
 # we can't have +tk on Python
 dev-python/imaging -tk
 
