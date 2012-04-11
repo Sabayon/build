@@ -256,8 +256,7 @@ media-sound/asunder wavpack
 media-sound/audacity ladspa vamp
 media-sound/audacious -gtk gtk3 wma timidity lirc dbus chardet
 media-sound/banshee podcast -ipod -zeroconf mtp njb
-media-sound/jack-audio-connection-kit -mmx
-media-sound/jack-audio-connection-kit -cpudetection
+media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
 media-sound/lmms fftw fluidsynth 
 media-sound/ncmpcpp curl
 media-sound/qtractor sse
