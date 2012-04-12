@@ -508,6 +508,7 @@ x11-wm/enlightenment xrandr -exchange
 x11-wm/fluxbox imlib
 x11-wm/fvwm imlib
 x11-wm/icewm imlib
+x11-wm/openbox imlib
 
 xfce-base/thunar thumbnail
 xfce-base/xfdesktop thunar-vfs
