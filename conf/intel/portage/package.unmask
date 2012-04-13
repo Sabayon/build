@@ -19,3 +19,6 @@ sys-devel/gcc:4.6::sabayon-distro
 
 # Our version is fine
 media-video/nvidia-settings::sabayon-distro
+
+# Unmask Gimp 2.7, we want it
+<=media-gfx/gimp-2.8
