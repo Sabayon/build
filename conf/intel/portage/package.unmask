@@ -22,3 +22,6 @@ media-video/nvidia-settings::sabayon-distro
 
 # Unmask Gimp 2.7, we want it
 <=media-gfx/gimp-2.8
+
+# Anaconda uses it (perhaps bundle it?)
+<sys-libs/libsepol-9999
