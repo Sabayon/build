@@ -264,6 +264,8 @@ media-sound/qtractor sse
 media-sound/snd fftw
 media-sound/sonic-visualiser fftw
 >=media-sound/soundkonverter-0.2.90-r1 lame
+# Broken with latest libmp4v2
+media-sound/kid3 -mp4
 
 media-tv/freevo lirc matrox
 media-tv/xawtv aalib
