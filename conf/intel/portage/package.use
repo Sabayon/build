@@ -915,3 +915,8 @@ dev-db/mongodb v8
 
 # See bug 3138
 app-benchmarks/bootchart java
+
+# Enable hardened USE flags
+sys-devel/base-gcc hardened
+sys-devel/gcc hardened
+sys-libs/glibc hardened
