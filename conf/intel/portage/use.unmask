@@ -3,3 +3,10 @@
 # GNOME 3 package.use.mask for flags in unmasked packages that
 # would pull in masked ones
 >=app-misc/gnote-0.8 applet
+
+# Enable hardened USE flags without
+# inheriting the whole hardened profile
+# which is too much expensive
+sys-devel/base-gcc hardened
+sys-devel/gcc hardened
+sys-libs/glibc hardened
