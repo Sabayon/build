@@ -1,2 +1,5 @@
 # Required by GNOME 3
 -introspection
+
+# Unmask USE=hardened globally
+-hardened
