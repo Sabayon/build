@@ -25,3 +25,18 @@ media-video/nvidia-settings::sabayon-distro
 
 # Anaconda uses it (perhaps bundle it?)
 <sys-libs/libsepol-9999
+
+# Compiz Fusion stuff is hopefully going to be
+# resurrected by upstream volunteers
+<dev-python/compizconfig-python-9999
+<x11-apps/fusion-icon-9999
+<x11-apps/simple-ccsm-9999
+<x11-apps/ccsm-9999
+<x11-plugins/compiz-plugins-extra-9999
+<x11-themes/emerald-themes-9999
+<x11-libs/compizconfig-backend-gconf-9999
+<x11-libs/compiz-bcop-9999
+<x11-plugins/compiz-plugins-main-9999
+<x11-plugins/compiz-plugins-unsupported-9999
+<x11-wm/compiz-fusion-9999
+<x11-wm/emerald-9999
