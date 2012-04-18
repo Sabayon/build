@@ -40,3 +40,4 @@ media-video/nvidia-settings::sabayon-distro
 <x11-plugins/compiz-plugins-unsupported-9999
 <x11-wm/compiz-fusion-9999
 <x11-wm/emerald-9999
+<x11-libs/libcompizconfig-9999
