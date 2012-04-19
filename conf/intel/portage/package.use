@@ -426,8 +426,8 @@ sys-block/gparted -kde -gtk dmraid mdadm btrfs
 sys-boot/grub device-mapper -grub_platforms_coreboot -grub_platforms_efi-32 -grub_platforms_emu -grub_platforms_ieee1275 -grub_platforms_multiboot grub_platforms_pc -grub_platforms_qemu
 
 sys-devel/distcc -avahi
-sys-devel/gcc objc objc++ objc-gc graphite -gtk
-sys-devel/base-gcc objc objc++ objc-gc graphite -gtk
+sys-devel/gcc objc objc++ objc-gc graphite -gtk libffi
+sys-devel/base-gcc objc objc++ objc-gc graphite -gtk libffi
 
 sys-fs/cryptsetup static
 sys-fs/mtd-utils xattr
