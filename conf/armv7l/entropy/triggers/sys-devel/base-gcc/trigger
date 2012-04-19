@@ -1,4 +1,5 @@
 import os
+import re
 import subprocess
 from entropy.const import etpConst
 
@@ -9,9 +10,11 @@ def configure_correct_gcc():
     gcc_profile_file = None
     for gcc_target in gcc_targets:
         gcc_profile_file_pfx = uname_arch + "-pc-linux-gnu-" + gcc_target
+        regex = re.compile(gcc_profile_file_pfx + "((.[0-30])?)$")
+
         for curdir, subs, files in os.walk(gcc_dir):
             for fname in files:
-                if fname.startswith(gcc_profile_file_pfx):
+                if regex.match(fname):
                    gcc_profile_file = os.path.join(curdir, fname)
                    break
             break
