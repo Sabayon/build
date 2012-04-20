@@ -1,9 +1,9 @@
-import os
-import re
-import subprocess
-from entropy.const import etpConst
-
 def configure_correct_gcc():
+    import re
+    import subprocess
+    import os
+    from entropy.const import etpConst
+
     gcc_targets = ["4.8", "4.7", "4.6"]
     uname_arch = os.uname()[4]
     gcc_dir = etpConst['systemroot'] + "/etc/env.d/gcc"
