@@ -1,0 +1,41 @@
+#!/usr/bin/python
+import sys
+import re
+
+
+if __name__ == "__main__":
+    args = sys.argv[1:]
+    if not args or len(args) < 3:
+        sys.stderr.write(
+            "%s <target dependency> <rewrite rule> "
+            "<replace 1> [<replace 2> ...\n" % (sys.argv[0],))
+        raise SystemExit(1)
+
+    target, pattern, replaces = args[0], args[1], args[2:]
+    sys.stdout.write("Target:   %s\n" % (target,))
+    sys.stdout.write("Pattern:  %s\n" % (pattern,))
+    sys.stdout.write("Rewrites: %s\n" % (", ".join(replaces),))
+
+    if pattern.startswith("++"):
+        sys.stderr.write("You are just asking to add dep, meh!\n")
+        raise SystemExit(1)
+
+    sys.stdout.write("\n")
+
+    compiled_pattern = re.compile(pattern)
+    if not compiled_pattern.match(target):
+        sys.stderr.write("Error: Pattern does not match target dep\n")
+        raise SystemExit(1)
+
+    exit_st = 0
+    for replace in replaces:
+        new_target, number_of_subs = compiled_pattern.subn(
+            replace, target)
+        if number_of_subs:
+            sys.stdout.write("%s -> %s\n" % (target, new_target))
+        else:
+            sys.stderr.write("Error, not replaced: %s -> %s\n" % (
+                    target, replace,))
+            exit_st = 1
+
+    raise SystemExit(exit_st)
