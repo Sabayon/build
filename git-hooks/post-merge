@@ -1,3 +1,4 @@
+#!/bin/sh
 # although it doesn't seem to be documented,
 # current directory appears to be git "main" dir
 
@@ -29,3 +30,10 @@ else
 	echo "post-merge hook: copying make.conf (from $src_make_conf):"
 	cp --no-target-directory -v "$src_make_conf" /etc/make.conf
 fi
+
+# Copy noarch config files
+for conf_file in ./conf/noarch/entropy/packages/* ; do
+	dest_path=/etc/entropy/packages/$(basename "${conf_file}")
+	echo "Writing ${dest_path}"
+	cp --no-target-directory -p -v "${conf_file}" "${dest_path}"
+done
