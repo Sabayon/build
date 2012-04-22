@@ -764,7 +764,7 @@ media-sound/gpodder gstreamer
 net-proxy/tsocks tordns
 sys-kernel/dracut device-mapper net dracut_modules_biosdevname dracut_modules_mdraid dracut_modules_nbd dracut_modules_dmsquash-live dracut_modules_gensplash dracut_modules_syslog dracut_modules_btrfs dracut_modules_dmraid dracut_modules_nfs dracut_modules_lvm dracut_modules_multipath dracut_modules_plymouth
 games-fps/darkplaces textures
-media-sound/deadbeef curl lastfm hotkeys sndfile supereq cover
+media-sound/deadbeef cover curl lastfm m3u hotkeys sndfile supereq
 net-misc/remmina vnc ssh
 app-misc/gpsdrive speech
 media-video/miro faac
