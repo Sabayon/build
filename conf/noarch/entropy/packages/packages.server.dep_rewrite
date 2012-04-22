@@ -219,3 +219,7 @@ media-video/kino (.*)x11-libs/gtk(.*) \1x11-libs/gtk\2:2
 
 # We provide media-video/libav and we want systems to have it pulled in
 virtual/ffmpeg (.*)media-video/ffmpeg(.*) \1media-video/libav\2
+
+# pygobject-cairo rewrite, simple catch-all rewrite
+# this might not catch all the strings
+* (.*)dev-python/pygobject(.*)\[cairo\] \1dev-python/pygobject-cairo\2
