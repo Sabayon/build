@@ -835,7 +835,8 @@ dev-libs/expat static-libs
 
 # Prepare for GNOME 3
 # cairo pulls in mesa in the end, which is bad for spinbase
-dev-python/pygobject introspection -cairo
+# however, we have split ebuilds now, so enable cairo
+dev-python/pygobject introspection cairo
 sys-auth/polkit introspection
 sys-power/upower introspection
 net-libs/libsoup introspection

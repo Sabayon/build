@@ -112,3 +112,6 @@ x11-libs/libdrm libkms
 
 # E17 flags
 media-libs/evas X
+
+# Enable Cairo for pybogject, we have split ebuilds
+dev-python/pygobject cairo
