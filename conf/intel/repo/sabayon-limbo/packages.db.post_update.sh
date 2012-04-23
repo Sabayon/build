@@ -54,6 +54,31 @@ if [ -e "${autoconfl_file}" ]; then
 	rm -f "${autoconfl_file}"
 fi
 
+# 2012-04-23 (remove in 12 months)
+# fixup wrong disabled USE deps matching
+tmp_path=$(mktemp)
+if [ -z "${tmp_path}" ]; then
+	exit 1
+fi
+cat << EOF >> "${tmp_path}"
+--- a/usr/lib/entropy/lib/entropy/db/skel.py
++++ b/usr/lib/entropy/lib/entropy/db/skel.py
+@@ -4651,7 +4651,9 @@ class EntropyRepositoryBase(TextInterface, EntropyRepositoryPluginStore):
+             else:
+                 # for compatibility reasons with older Entropy versions,
+                 # use flags not in pkguse are considered disabled.
+-                pkguse.add(use)
++                en_use = use[1:]
++                if en_use not in pkguse:
++                    pkguse.add(use)
+             disabled_use.add(use)
+ 
+         enabled_not_satisfied = enabled_use - pkguse
+EOF
+
+( cd / && patch -p1 < "${tmp_path}" 2>&1 > /dev/null ) # ignore any outcome
+rm -f "${tmp_path}"
+
 exit 0
 
 ### CUT HERE ###
