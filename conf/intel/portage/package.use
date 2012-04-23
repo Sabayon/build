@@ -921,3 +921,7 @@ app-benchmarks/bootchart java
 sys-devel/base-gcc hardened
 sys-devel/gcc hardened
 sys-libs/glibc hardened
+
+# Corsix USE=wxwidgets requires masked (dev) wxGTK 2.9
+games-engines/corsix-th -wxwidgets
+
