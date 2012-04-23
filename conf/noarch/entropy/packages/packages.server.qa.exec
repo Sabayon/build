@@ -83,24 +83,35 @@ def check_unwanted_deps():
         (entropy.dep.dep_getkey(x), (entropy.dep.dep_getslot(x), x)) \
             for x in pkg_deps if not x.startswith("!"))
 
+    pkg_deps_map = {}
+    for pkg_dep in pkg_deps:
+        if x.startswith("!"):
+            continue
+        key = entropy.dep.dep_getkey(pkg_dep)
+        obj = pkg_deps_map.setdefault(key, [])
+        val = entropy.dep.dep_getslot(pkg_dep), pkg_dep
+        obj.append(val)
+
     for unwanted_dep in unwanted_deps:
         unwanted_slot = entropy.dep.dep_getslot(unwanted_dep)
         if unwanted_slot:
             unwanted_dep = entropy.dep.remove_slot(unwanted_dep)
 
-        dep_data = pkg_deps_map.get(unwanted_dep)
-        if dep_data is None:
+        dep_data_list = pkg_deps_map.get(unwanted_dep)
+        if dep_data_list is None:
             continue
-        dep_slot, dep = dep_data
 
-        if not unwanted_slot:
-            unwanted_slot = dep_slot
+        for dep_data in dep_data_list:
+            dep_slot, dep = dep_data
 
-        if dep_slot == unwanted_slot:
-            write_attention_msg(
-                "%s contains forbidden dependency against %s" % (
-                    pkg_atom, pkg_deps_map[unwanted_dep][1]))
-            func_rc = 2
+            if not unwanted_slot:
+                unwanted_slot = dep_slot
+
+            if dep_slot == unwanted_slot:
+                write_attention_msg(
+                    "%s contains forbidden dependency against %s" % (
+                        pkg_atom, pkg_deps_map[unwanted_dep][1]))
+                func_rc = 2
 
     for warning_dep in warning_deps:
 
@@ -108,20 +119,22 @@ def check_unwanted_deps():
         if warning_slot:
             warning_dep = entropy.dep.remove_slot(warning_dep)
 
-        dep_data = pkg_deps_map.get(warning_dep)
-        if dep_data is None:
+        dep_data_list = pkg_deps_map.get(warning_dep)
+        if dep_data_list is None:
             continue
-        dep_slot, dep = dep_data
 
-        if not warning_slot:
-            unwanted_slot = dep_slot
+        for dep_data in dep_data_list:
+            dep_slot, dep = dep_data
 
-        if dep_slot == warning_slot:
-            write_attention_msg(
-                "%s contains a weirdo dependency against %s" % (
-                    pkg_atom, pkg_deps_map[warning_dep][1]))
-            if func_rc == 0:
-                func_rc = 1
+            if not warning_slot:
+                unwanted_slot = dep_slot
+
+            if dep_slot == warning_slot:
+                write_attention_msg(
+                    "%s contains a weirdo dependency against %s" % (
+                        pkg_atom, pkg_deps_map[warning_dep][1]))
+                if func_rc == 0:
+                    func_rc = 1
 
     if pkg_keywords is not None:
         keywords = pkg_keywords.split()
