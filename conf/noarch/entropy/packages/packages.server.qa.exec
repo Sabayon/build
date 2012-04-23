@@ -85,7 +85,7 @@ def check_unwanted_deps():
 
     pkg_deps_map = {}
     for pkg_dep in pkg_deps:
-        if x.startswith("!"):
+        if pkg_dep.startswith("!"):
             continue
         key = entropy.dep.dep_getkey(pkg_dep)
         obj = pkg_deps_map.setdefault(key, [])
