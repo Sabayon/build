@@ -71,27 +71,55 @@ def check_unwanted_deps():
     pkg_atom = os.getenv("PKG_ATOM")
     pkg_keywords = os.getenv("PKG_KEYWORDS")
 
+    # You can only declare key or key:slot
     unwanted_deps = ["app-admin/packagekit", "app-text/poppler",
         "kde-base/kde-l10n", "net-dns/avahi", "net-p2p/transmission",
-        "app-crypt/pinentry", "dev-python/pygobject"]
+        "app-crypt/pinentry", "dev-python/pygobject:3"]
     warning_deps = ["media-libs/libjpeg-turbo", "media-libs/jpeg",
         "dev-lang/gnat-gcc"]
     func_rc = 0
 
-    pkg_deps_map = dict((entropy.dep.dep_getkey(x), x) for x in pkg_deps if \
-        not x.startswith("!"))
+    pkg_deps_map = dict(
+        (entropy.dep.dep_getkey(x), (entropy.dep.dep_getslot(x), x)) \
+            for x in pkg_deps if not x.startswith("!"))
+
     for unwanted_dep in unwanted_deps:
-        if unwanted_dep in pkg_deps_map:
+        unwanted_slot = entropy.dep.dep_getslot(unwanted_dep)
+        if unwanted_slot:
+            unwanted_dep = entropy.dep.remove_slot(unwanted_dep)
+
+        dep_data = pkg_deps_map.get(unwanted_dep)
+        if dep_data is None:
+            continue
+        dep_slot, dep = dep_data
+
+        if not unwanted_slot:
+            unwanted_slot = dep_slot
+
+        if dep_slot == unwanted_slot:
             write_attention_msg(
                 "%s contains forbidden dependency against %s" % (
-                    pkg_atom, pkg_deps_map[unwanted_dep]))
+                    pkg_atom, pkg_deps_map[unwanted_dep][1]))
             func_rc = 2
 
     for warning_dep in warning_deps:
-        if warning_dep in pkg_deps_map:
+
+        warning_slot = entropy.dep.dep_getslot(warning_dep)
+        if warning_slot:
+            warning_dep = entropy.dep.remove_slot(warning_dep)
+
+        dep_data = pkg_deps_map.get(warning_dep)
+        if dep_data is None:
+            continue
+        dep_slot, dep = dep_data
+
+        if not warning_slot:
+            unwanted_slot = dep_slot
+
+        if dep_slot == warning_slot:
             write_attention_msg(
                 "%s contains a weirdo dependency against %s" % (
-                    pkg_atom, pkg_deps_map[warning_dep]))
+                    pkg_atom, pkg_deps_map[warning_dep][1]))
             if func_rc == 0:
                 func_rc = 1
 
