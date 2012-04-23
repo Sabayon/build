@@ -479,6 +479,7 @@ x11-libs/goffice gnome
 
 # Drop gtk style support from qt-gui, it's just ridiculous
 x11-libs/qt-gui egl mng private-headers raster -gtk
+x11-libs/qt-opengl egl
 
 x11-libs/qt-core private-headers
 x11-libs/qt-script private-headers
