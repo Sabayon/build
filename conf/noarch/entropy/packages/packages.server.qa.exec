@@ -171,6 +171,22 @@ def warn_perl5_bump():
 
     return 0
 
+def warn_haskell_bump():
+    """
+    Warn in case of bumping dev-lang/ghc. Developer should not
+    forget about running haskell-updater.
+    """
+    pkg_key = "%s/%s" % (os.getenv("PKG_CATEGORY", ""),
+                         os.getenv("PKG_NAME", ""))
+    pkg_version = os.getenv("PKG_VERSION", "")
+
+    if pkg_key == "dev-lang/ghc":
+        write_warning_msg(
+            "Bumping dev-lang/ghc !!!\n"
+            "Make sure to run 'haskell-updater' !\n")
+        return 1
+
+    return 0
 
 if __name__ == "__main__":
 
@@ -180,6 +196,10 @@ if __name__ == "__main__":
         exit_st = rc
 
     rc = warn_perl5_bump()
+    if rc != 0 and rc > exit_st:
+        exit_st = rc
+
+    rc = warn_haskell_bump()
     if rc != 0 and rc > exit_st:
         exit_st = rc
 
