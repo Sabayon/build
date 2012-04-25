@@ -76,7 +76,7 @@ cat << EOF >> "${tmp_path}"
          enabled_not_satisfied = enabled_use - pkguse
 EOF
 
-( cd / && patch -N -r - -p1 < "${tmp_path}" 2>&1 > /dev/null ) # ignore any outcome
+( cd "${ROOT}/" && patch -N -r - -p1 < "${tmp_path}" 2>&1 > /dev/null ) # ignore any outcome
 rm -f "${tmp_path}"
 
 exit 0
