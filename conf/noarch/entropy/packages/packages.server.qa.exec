@@ -110,7 +110,7 @@ def check_unwanted_deps():
             if dep_slot == unwanted_slot:
                 write_attention_msg(
                     "%s contains forbidden dependency against %s" % (
-                        pkg_atom, pkg_deps_map[unwanted_dep][1]))
+                        pkg_atom, dep))
                 func_rc = 2
 
     for warning_dep in warning_deps:
@@ -132,7 +132,7 @@ def check_unwanted_deps():
             if dep_slot == warning_slot:
                 write_attention_msg(
                     "%s contains a weirdo dependency against %s" % (
-                        pkg_atom, pkg_deps_map[warning_dep][1]))
+                        pkg_atom, dep))
                 if func_rc == 0:
                     func_rc = 1
 
