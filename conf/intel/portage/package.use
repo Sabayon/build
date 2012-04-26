@@ -169,7 +169,7 @@ games-util/springlobby bittorrent
 
 gnome-base/gconf policykit
 gnome-base/gnome-applets gnome networkmanager gstreamer
-gnome-base/gvfs ios samba gnome gdu fuse archive gnome-keyring
+gnome-base/gvfs ios samba gnome gdu fuse archive gnome-keyring udisks
 gnome-base/librsvg gnome
 gnome-base/nautilus gnome sendto
 
