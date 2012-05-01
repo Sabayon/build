@@ -9,6 +9,7 @@ sci-biology/mira
 media-fonts/acroread-asianfonts
 >dev-lang/erlang-13.2.4
 >=app-portage/portpeek-1.9.70
+x11-misc/bumblebee::gentoo
 
 # Joost Ruis: Masked because on our overlay, prevent pulling in Portage versions
 x11-drivers/ati-drivers::gentoo
