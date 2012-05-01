@@ -25,8 +25,6 @@ dev-lang/python:3.1
 >=net-zope/zope-interface-3.6.1
 
 # Joost Ruis: Old as wolfden!
-app-editors/emacs:21
-app-editors/emacs:22
 x11-libs/gtk+:1
 
 # Joost Ruis: wants tcl +threads
@@ -96,9 +94,6 @@ net-misc/pump
 # Joost Ruis: This package cannot be in tree with sys-apps/iproute2
 net-misc/arpd
 
-#Joost Ruis: Wants >=net-libs/loudmouth-1.2.0[debug]
-net-irc/irssi-xmpp
-
 #Joost Ruis: Wants >=dev-lang/perl-5.6.1[-ithreads] never going to happen.
 net-irc/epic4
 
@@ -110,10 +105,6 @@ net-misc/telnet-bsd
 
 # Joost Ruis: Seems to be incompatible with latest net-misc/asterisk 
 =net-misc/asterisk-rate_engine-0.5.4
-
-# Joost Ruis: We use net-wireless/gnome-bluetooth now
-net-wireless/bluez-gnome
-gnome-extra/gnome-vfs-obexftp
 
 # Joost Ruis: We use dev-texlive/texlive-latexextra so we want to mask this
 dev-tex/prosper
