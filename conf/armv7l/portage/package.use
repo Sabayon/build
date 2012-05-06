@@ -115,3 +115,6 @@ media-libs/evas X
 
 # Enable Cairo for pybogject, we have split ebuilds
 dev-python/pygobject cairo
+
+# Do not user thread worker
+<www-servers/apache-2.4 -threads
