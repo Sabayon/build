@@ -719,7 +719,7 @@ app-mobilephone/kannel mysql
 dev-libs/libassuan static-libs
 media-libs/ming php
 
-app-arch/p7zip -kde
+app-arch/p7zip -kde -wxwidgets
 x11-misc/keytouch -kde
 x11-misc/keytouch-editor -kde
 dev-java/gnu-classpath gstreamer
