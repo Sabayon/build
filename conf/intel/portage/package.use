@@ -450,6 +450,7 @@ sys-kernel/linux-fusion splash dmraid grub
 
 sys-libs/db -java
 
+virtual/ooo java
 virtual/opencl video_cards_nvidia
 
 www-apps/rt mysql
