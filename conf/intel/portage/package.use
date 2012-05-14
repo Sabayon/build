@@ -580,8 +580,11 @@ media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
 
-# DO NOT FUCKING REMOVE THIS
-app-crypt/gnupg static bzip2
+# We really wanted USE=static in order
+# to not add many pkgs on 700Mb sized ISO
+# images but it turned out to be buggy,
+# see bug 2781
+app-crypt/gnupg -static bzip2
 
 # Inflate lighttpd
 www-servers/lighttpd fastcgi lua memcache xattr
