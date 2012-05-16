@@ -54,6 +54,7 @@ GENTOO_MIRRORS="ftp://mirrors.tera-byte.com/pub/gentoo ftp://ftp.spline.inf.fu-b
 ## FUCK KILL PYTHON 3 WITH FIRE ##
 # Avoids python.eclass to compile stuff for Python 3
 USE_PYTHON="2.7"
+PYTHON_TARGETS="python2_7"
 
 # Some more forced targets
 PHP_TARGETS="php5-3"
