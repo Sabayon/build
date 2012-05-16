@@ -118,3 +118,6 @@ dev-python/pygobject cairo
 
 # Do not user thread worker
 <www-servers/apache-2.4 -threads
+
+# Enable USE=branding
+x11-themes/elementary-icon-theme branding
