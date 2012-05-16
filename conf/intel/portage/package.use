@@ -350,6 +350,7 @@ net-mail/tpop3d mbox maildir
 net-misc/dropbox librsync-bundled 
 
 net-misc/aria2 metalink bittorrent xmlrpc
+net-misc/asterisk jabber gtalk
 # bluetooth use flag is useless
 # wext due to bug 3283
 net-misc/networkmanager nss -dhclient modemmanager -bluetooth connection-sharing dhcpcd introspection -gnutls wimax wext
