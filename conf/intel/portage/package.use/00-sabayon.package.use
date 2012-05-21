@@ -736,7 +736,7 @@ media-libs/swfdec gstreamer
 gnome-base/gnome-panel eds
 x11-themes/sabayon-artwork-kde ksplash
 dev-db/postgresql-base threads
-x11-themes/qtcurve-qt4 kde
+x11-themes/qtcurve-qt4 kde windeco
 media-libs/libsamplerate sndfile
 app-benchmarks/phoronix-test-suite gd -gtk
 net-nds/openldap -minimal
