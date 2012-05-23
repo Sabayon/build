@@ -122,3 +122,6 @@ dev-python/pygobject cairo
 
 # Enable USE=branding
 x11-themes/elementary-icon-theme branding
+
+# Enable cryptsetup in genkernel
+sys-kernel/genkernel cryptsetup crypt

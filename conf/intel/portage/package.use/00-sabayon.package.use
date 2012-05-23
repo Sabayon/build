@@ -438,6 +438,7 @@ sys-fs/ntfs3g suid ntfsprogs
 sys-fs/reiser4progs static
 sys-fs/udev extras
 
+sys-kernel/genkernel cryptsetup crypt
 sys-kernel/linux-sabayon splash dmraid symlink grub iscsi mdadm luks lvm
 sys-kernel/linux-server splash dmraid grub iscsi mdadm luks lvm
 sys-kernel/linux-rt splash dmraid grub iscsi mdadm luks lvm
