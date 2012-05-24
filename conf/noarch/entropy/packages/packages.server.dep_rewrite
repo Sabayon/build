@@ -200,7 +200,7 @@ net-im/pidgin (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 net-libs/libepc (.*)net-dns/avahi(.*)(\[.*\]) \1net-dns/avahi-gtk3\2
 net-libs/obby (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 net-misc/networkmanager (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-net-misc/remmina (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
+net-misc/remmina (.*)net-dns/avahi(.*)(\[.*\]) \1net-dns/avahi-gtk3\2
 net-misc/vino (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 net-voip/ekiga (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 net-voip/telepathy-salut (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
