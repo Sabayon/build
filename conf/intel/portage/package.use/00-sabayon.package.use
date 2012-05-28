@@ -455,6 +455,7 @@ sys-libs/db -java
 virtual/ooo java
 virtual/opencl video_cards_nvidia
 
+www-apps/owncloud mysql postgres sqlite3
 www-apps/rt mysql
 www-apps/trac mysql postgres vhosts sqlite
 
