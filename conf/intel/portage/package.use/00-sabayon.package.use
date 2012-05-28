@@ -243,7 +243,7 @@ media-libs/tiff lzma
 media-libs/vigra fftw
 media-libs/vips fftw
 media-libs/urt gs
-media-libs/xine-lib aalib mng vidix dxr3 -win32codecs -gtk
+media-libs/xine-lib aalib fbcon mng vidix dxr3 -win32codecs -gtk
 
 media-plugins/alsa-plugins libsamplerate pulseaudio
 media-plugins/audacious-plugins -gtk gtk3 cue chardet ffmpeg gnome icecast libsamplerate sndfile wavpack
