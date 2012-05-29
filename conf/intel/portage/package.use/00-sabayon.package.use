@@ -374,12 +374,7 @@ net-p2p/vuze source
 
 net-print/cups -java
 net-print/gutenprint foomaticdb -gtk
-net-print/hplip usb hpijs
-net-print/hplip snmp
-net-print/hplip parport fax
-
-# Also install ppd files with package, otherwise ppl are lost
-net-print/hplip static-ppds
+net-print/hplip fax hpijs parport snmp static-ppds usb
 
 net-wireless/atmel-firmware pcmcia usb
 net-wireless/bluez gstreamer
