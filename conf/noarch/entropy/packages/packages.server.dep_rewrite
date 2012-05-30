@@ -79,21 +79,6 @@ app-emulation/virtualbox-guest-additions#3.4.0-fusion (.*)x11-drivers/xf86-video
 app-emulation/virtualbox-guest-additions#3.5.0-fusion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.5.0-fusion
 app-emulation/virtualbox-guest-additions#3.6.0-fusion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.6.0-fusion
 
-# Fix sys-fs/zfs dependency against sys-kernel/spl
-sys-fs/zfs#3.2.0-sabayon (.*)sys-kernel/spl(.*) \1sys-kernel/spl\2#3.2.0-sabayon
-sys-fs/zfs#3.3.0-sabayon (.*)sys-kernel/spl(.*) \1sys-kernel/spl\2#3.3.0-sabayon
-sys-fs/zfs#3.4.0-sabayon (.*)sys-kernel/spl(.*) \1sys-kernel/spl\2#3.4.0-sabayon
-sys-fs/zfs#3.5.0-sabayon (.*)sys-kernel/spl(.*) \1sys-kernel/spl\2#3.5.0-sabayon
-sys-fs/zfs#3.6.0-sabayon (.*)sys-kernel/spl(.*) \1sys-kernel/spl\2#3.6.0-sabayon
-sys-fs/zfs#3.7.0-sabayon (.*)sys-kernel/spl(.*) \1sys-kernel/spl\2#3.7.0-sabayon
-sys-fs/zfs#3.2.0-server (.*)sys-kernel/spl(.*) \1sys-kernel/spl\2#3.2.0-server
-sys-fs/zfs#3.3.0-server (.*)sys-kernel/spl(.*) \1sys-kernel/spl\2#3.3.0-server
-sys-fs/zfs#3.4.0-server (.*)sys-kernel/spl(.*) \1sys-kernel/spl\2#3.4.0-server
-sys-fs/zfs#3.5.0-server (.*)sys-kernel/spl(.*) \1sys-kernel/spl\2#3.5.0-server
-sys-fs/zfs#3.6.0-server (.*)sys-kernel/spl(.*) \1sys-kernel/spl\2#3.6.0-server
-sys-fs/zfs#3.7.0-server (.*)sys-kernel/spl(.*) \1sys-kernel/spl\2#3.7.0-server
-
-
 # drop virtualbox-modules dep from virtualbox-bin
 # 2011-02-08: DISABLED because vboxusers group is required but not created by virtualbox-bin 
 # app-emulation/virtualbox-bin (.*)app-emulation/virtualbox-modules-(.*) dev-libs/glib
