@@ -204,6 +204,7 @@ net-voip/ekiga (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 net-voip/telepathy-salut (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 sys-auth/nss-mdns (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 sys-fs/owfs (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
+sys-power/nut (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 www-apache/mod_dnssd (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 www-client/epiphany (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 x11-libs/libqxt (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
