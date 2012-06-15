@@ -31,7 +31,7 @@ media-sound/google-musicmanager		google-talkplugin Apache-2.0 MIT LGPL-2.1 gSOAP
 media-tv/livestation			Livestation-EULA
 media-video/makemkv			MakeMKV-EULA
 games-action/heretic2-demo		LOKI-EULA
-net-im/skype				skype-eula 
+net-im/skype				>=net-im/skype-4.0.0.7-r2 skype-4.0.0.7-copyright 
 sci-electronics/eagle                   cadsoft
 sci-geosciences/googleearth             googleearth
 www-plugins/adobe-flash			AdobeFlash-10.3
