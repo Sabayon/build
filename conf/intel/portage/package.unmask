@@ -110,3 +110,11 @@ media-video/nvidia-settings::sabayon-distro
 >=x11-wm/metacity-2.34.2
 =x11-wm/mutter-3.4*
 >=x11-themes/zukitwo-shell-2012.04.24
+# New clutter API breaks almost everything
+=media-libs/cogl-1.10*
+=media-libs/clutter-1.10*
+=media-libs/clutter-gtk-1.2*
+=media-libs/clutter-gst-1.5*
+=media-libs/clutter-gst-1.6*
+# Needs gst-plugins-flac-0.10.31 + commit 265a5bfa to write seekable flac files
+=media-sound/sound-juicer-3.4*
