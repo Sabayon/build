@@ -6,7 +6,6 @@ app-i18n/atokx2
 app-vim/cvscommand
 app-vim/vcscommand
 sci-biology/mira
-media-fonts/acroread-asianfonts
 >dev-lang/erlang-13.2.4
 >=app-portage/portpeek-1.9.70
 x11-misc/bumblebee::gentoo
