@@ -7,6 +7,7 @@ app-admin/ulogd mysql
 
 app-arch/advancecomp mng
 app-arch/file-roller -nautilus
+app-arch/mate-file-archiver caja
 
 app-backup/bacula sqlite3
 app-backup/deja-dup nautilus
@@ -65,6 +66,7 @@ app-text/enchant aspell
 app-text/fbreader -gtk
 app-text/ghostscript-gpl -cjk -gtk
 app-text/lcdf-typetools kpathsea
+app-text/mate-document-viewer caja mate mate-keyring
 app-text/stardict tools
 app-text/texlive -truetype
 
