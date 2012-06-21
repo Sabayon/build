@@ -172,6 +172,14 @@ www-client/rekonq (.*)kde-base/kde-l10n(.*)
 app-portage/kportagetray (.*)kde-base/kde-l10n(.*) 
 kde-misc/takeoff (.*)kde-base/kde-l10n(.*)
 kde-misc/kde-gtk-config (.*)kde-base/kde-l10n(.*)
+app-backup/kbackup (.*)kde-base/kde-l10n(.*)
+kde-misc/colibri (.*)kde-base/kde-l10n(.*)
+kde-misc/rsibreak (.*)kde-base/kde-l10n(.*)
+media-gfx/kcoloredit (.*)kde-base/kde-l10n(.*)
+media-gfx/kfax (.*)kde-base/kde-l10n(.*)
+media-gfx/kgraphviewer (.*)kde-base/kde-l10n(.*)
+media-gfx/kiconedit (.*)kde-base/kde-l10n(.*)
+media-sound/audex (.*)kde-base/kde-l10n(.*)
 
 # net-dns/avahi dep rewrites
 app-crypt/seahorse (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
