@@ -211,6 +211,8 @@ mail-filter/dovecot-antispam dspam
 mail-filter/procmail mbox
 mail-filter/spamassassin-fuzzyocr gocr
 
+mate-extra/mate-file-manager-sendto -cdr
+
 media-fonts/baekmuk-fonts -X
 
 media-gfx/asymptote -latex
