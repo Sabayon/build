@@ -89,6 +89,11 @@ mail-client/evolution networkmanager
 # required by Sulfur
 x11-libs/vte:0 python
 
+# MATE stuff
+app-arch/mate-file-archiver caja
+mate-extra/mate-file-manager-sendto -cdr
+app-text/mate-document-viewer caja mate mate-keyring
+
 # LibreOffice?
 app-office/libreoffice -nsplugin -gnome -java templates -kde pdfimport
 
