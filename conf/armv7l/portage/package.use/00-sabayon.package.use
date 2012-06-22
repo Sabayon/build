@@ -92,6 +92,7 @@ x11-libs/vte:0 python
 # MATE stuff
 app-arch/mate-file-archiver caja
 mate-base/mate-conf policykit
+mate-base/mate-menus python
 mate-base/mate-settings-daemon policykit pulseaudio
 mate-extra/mate-file-manager-sendto -cdr
 mate-extra/mate-media pulseaudio
