@@ -27,3 +27,9 @@ www-servers/nginx **
 <dev-libs/eet-9999 **
 
 <xfce-extra/xfce4-notifyd-9999 **
+
+# Want slim for testing
+<=x11-misc/slim-1.3.3 **
+
+# Want guake for testing
+<=x11-terms/guake-guake-0.4.3 **
