@@ -39,3 +39,6 @@ www-servers/nginx **
 
 # Real men want dosbox on ARM
 =games-emulation/dosbox-0.74 **
+
+# need this
+=dev-libs/gjs-1.32.0 **
