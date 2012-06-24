@@ -36,3 +36,6 @@ www-servers/nginx **
 
 # Want gnumeric for testing
 =app-office/gnumeric-1.10.17 **
+
+# Real men want dosbox on ARM
+=games-emulation/dosbox-0.74 **
