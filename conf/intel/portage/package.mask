@@ -211,6 +211,3 @@ gnustep-apps/terminal
 
 # 2012-02-15 Joost Ruis: Only use pymol from our overlay since it has depends on python-tk  
 sci-chemistry/pymol::gentoo
-
-# 2012-03-27: net-im/openfire needs ~dev-java/ant-contrib-1.0_beta2
->dev-java/ant-contrib-1.0_beta2
