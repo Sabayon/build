@@ -42,3 +42,6 @@ www-servers/nginx **
 
 # need this
 =dev-libs/gjs-1.32.0 **
+
+# Games!
+<=games-strategy/freeciv-2.3.2 **
