@@ -54,3 +54,6 @@ www-servers/nginx **
 
 # want xnoise
 =media-sound/xnoise-0.2.2 **
+
+# want xvid
+=media-plugins/gst-plugins-xvid-0.10.22 **
