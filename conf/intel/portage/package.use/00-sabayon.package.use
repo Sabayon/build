@@ -187,6 +187,7 @@ gnome-extra/gnome-games -sudoku
 gnome-extra/libgsf gnome
 gnome-extra/zeitgeist-extensions fts
 
+kde-base/kactivities semantic-desktop
 kde-base/gwenview kipi semantic-desktop
 # move kde-base/kde-l10n-meta kde-base/kde-l10n
 kde-base/kde-l10n linguas_be linguas_csb linguas_ne linguas_th linguas_wa
