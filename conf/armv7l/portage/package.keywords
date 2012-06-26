@@ -51,3 +51,6 @@ www-servers/nginx **
 # want WICD
 =dev-python/urwid-1.0.1 **
 =net-misc/wicd-1.7.2.4-r1 **
+
+# want xnoise
+=media-sound/xnoise-0.2.2 **
