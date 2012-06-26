@@ -45,3 +45,5 @@ www-servers/nginx **
 
 # Games!
 <=games-strategy/freeciv-2.3.2 **
+
+=app-office/glabels-3.0.0 **
