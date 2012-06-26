@@ -1,6 +1,7 @@
 # Base system
 dev-lang/python sqlite
 sys-apps/file python
+dev-libs/boost python
 dev-db/sqlite soundex
 
 # GCC
