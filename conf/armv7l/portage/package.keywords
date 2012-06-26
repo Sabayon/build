@@ -47,3 +47,7 @@ www-servers/nginx **
 <=games-strategy/freeciv-2.3.2 **
 
 =app-office/glabels-3.0.0 **
+
+# want WICD
+=dev-python/urwid-1.0.1 **
+=net-misc/wicd-1.7.2.4-r1 **
