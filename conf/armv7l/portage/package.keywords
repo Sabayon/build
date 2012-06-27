@@ -57,3 +57,6 @@ www-servers/nginx **
 
 # want xvid
 =media-plugins/gst-plugins-xvid-0.10.22 **
+
+# want lightdm
+=x11-misc/lightdm-1.2.2-r3 **
