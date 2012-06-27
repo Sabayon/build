@@ -31,9 +31,6 @@ www-servers/nginx **
 # Want slim for testing
 <=x11-misc/slim-1.3.3 **
 
-# Want guake for testing
-=x11-terms/guake-0.4.3 **
-
 # Want gnumeric for testing
 =app-office/gnumeric-1.10.17 **
 
