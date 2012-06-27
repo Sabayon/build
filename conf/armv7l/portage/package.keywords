@@ -60,3 +60,4 @@ www-servers/nginx **
 
 # want lightdm
 =x11-misc/lightdm-1.2.2-r3 **
+=x11-misc/lightdm-gtk-greeter-1.1.5 **
