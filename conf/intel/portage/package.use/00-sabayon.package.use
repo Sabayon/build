@@ -314,10 +314,8 @@ net-analyzer/echoping -ssl
 net-analyzer/snmptt mysql
 net-analyzer/wireshark python
 
-# Disable GTK for nmap, unfortunately this ebuild
-# should be split. Come on, common user doesn't use this
-# and it's mostly a CLI thing
-net-analyzer/nmap -gtk
+# gtk part is provided by net-analyzer/zenmap
+net-analyzer/nmap -gtk ncat ndiff nping
 
 net-dialup/mgetty -fax
 net-dialup/ppp atm dhcp radius -gtk
