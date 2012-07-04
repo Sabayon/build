@@ -39,7 +39,7 @@ app-office/glabels doc
 app-office/gnucash ofx
 app-office/homebank ofx
 app-office/libreoffice -nsplugin gnome java templates -kde pdfimport
-app-office/libreoffice-l10n-meta linguas_as_IN linguas_be_BY linguas_dz linguas_en_ZA linguas_hi_IN linguas_ml_IN linguas_mr_IN linguas_ne linguas_nr linguas_ns linguas_or_IN linguas_pa_IN linguas_sh linguas_st linguas_sw_TZ linguas_te_IN linguas_th linguas_ti_ER linguas_tn linguas_ts linguas_ur_IN linguas_ve linguas_xh linguas_zu linguas_gu linguas_ku linguas_as linguas_ast linguas_ml linguas_mr linguas_my linguas_oc linguas_om linguas_or linguas_si linguas_te linguas_ug linguas_bo linguas_brx linguas_ca_XV linguas_dgo linguas_fo linguas_gd linguas_ia linguas_id linguas_ka linguas_kn linguas_kok linguas_ks linguas_ky linguas_lo linguas_mai linguas_mi linguas_mni linguas_pap linguas_ps linguas_sa_IN linguas_sat linguas_sd linguas_sq linguas_sw linguas_ti linguas_be linguas_nso
+app-office/libreoffice-l10n-meta linguas_as linguas_as_IN linguas_ast linguas_be linguas_be_BY linguas_bo linguas_brx linguas_ca_XV linguas_dgo linguas_dz linguas_en_ZA linguas_fo linguas_gd linguas_gu linguas_hi_IN linguas_ia linguas_id linguas_ka linguas_kn linguas_kok linguas_ks linguas_ku linguas_ky linguas_lo linguas_mai linguas_mi linguas_ml linguas_ml_IN linguas_mni linguas_mr linguas_mr_IN linguas_my linguas_ne linguas_nr linguas_ns linguas_nso linguas_oc linguas_om linguas_or linguas_or_IN linguas_pa_IN linguas_pap linguas_ps linguas_sa_IN linguas_sat linguas_sd linguas_sh linguas_si linguas_sq linguas_st linguas_sw linguas_sw_TZ linguas_te linguas_te_IN linguas_th linguas_ti linguas_ti_ER linguas_tn linguas_ts linguas_ug linguas_ur_IN linguas_ve linguas_xh linguas_zu
 app-office/magicpoint mng
 
 app-misc/ddccontrol -gtk -gnome
@@ -52,7 +52,7 @@ app-pda/libopensync-plugin-syncml obex
 app-portage/eix sqlite
 
 app-text/aspell -linguas_af -linguas_be -linguas_bg -linguas_br -linguas_ca -linguas_cs -linguas_cy -linguas_da -linguas_de -linguas_el -linguas_en -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fo -linguas_fr -linguas_ga -linguas_gl -linguas_he -linguas_hr -linguas_is -linguas_it -linguas_lt -linguas_nl -linguas_no -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_sk -linguas_sl -linguas_sr -linguas_sv -linguas_uk -linguas_vi
-app-text/hunspell -linguas_hu -linguas_lt -linguas_lv -linguas_mk -linguas_ms -linguas_nb -linguas_nn -linguas_af -linguas_be -linguas_bg -linguas_br -linguas_ca -linguas_cs -linguas_cy -linguas_da -linguas_de -linguas_el -linguas_en -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fo -linguas_fr -linguas_ga -linguas_gl -linguas_he -linguas_hr -linguas_is -linguas_it -linguas_nl -linguas_no -linguas_pl -linguas_pt -linguas_ro -linguas_ru -linguas_sk -linguas_sl -linguas_sr -linguas_sv -linguas_uk -linguas_vi
+app-text/hunspell -linguas_af -linguas_be -linguas_bg -linguas_br -linguas_ca -linguas_cs -linguas_cy -linguas_da -linguas_de -linguas_el -linguas_en -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fo -linguas_fr -linguas_ga -linguas_gl -linguas_he -linguas_hr -linguas_hu -linguas_is -linguas_it -linguas_lt -linguas_lv -linguas_mk -linguas_ms -linguas_nb -linguas_nl -linguas_nn -linguas_no -linguas_pl -linguas_pt -linguas_ro -linguas_ru -linguas_sk -linguas_sl -linguas_sr -linguas_sv -linguas_uk -linguas_vi
 app-text/djvu threads -nsplugin
 app-text/enchant aspell
 app-text/fbreader -gtk
@@ -89,7 +89,7 @@ dev-lang/fpc source
 dev-lang/lua deprecated
 dev-lang/mono moonlight
 dev-lang/ocaml tk
-dev-lang/php fpm posix simplexml mysql mysqli mysqlnd sqlite sqlite3 ftp gd imap calendar ctype sockets snmp wddx apache2 filter soap curl mhash hash pcre reflection spl xml tokenizer pdo pcntl json tidy cgi bcmath postgres zip xmlreader xmlwriter xsl odbc
+dev-lang/php apache2 bcmath calendar cgi ctype curl filter fpm ftp gd hash imap json mhash mysql mysqli mysqlnd odbc pcntl pcre pdo posix postgres reflection simplexml snmp soap sockets spl sqlite sqlite3 tidy tokenizer wddx xml xmlreader xmlwriter xsl zip
 dev-lang/python sqlite
 
 dev-libs/beecrypt threads
@@ -188,7 +188,7 @@ kde-base/kde-meta -nls semantic-desktop
 kde-base/kdepim-meta -nls
 kde-base/kdebase-kioslaves samba
 kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
-kde-base/kopete addbookmarks alias autoreplace connectionstatus contactnotes gadu groupwise highlight history jingle netmeeting nowlistening sametime texteffect translator webpresence winpopup yahoo statistics irc otr -kdeenablefinal qq oscar skype
+kde-base/kopete addbookmarks alias autoreplace connectionstatus contactnotes gadu groupwise highlight history irc jingle -kdeenablefinal netmeeting nowlistening oscar otr qq sametime skype statistics texteffect translator webpresence winpopup yahoo
 kde-base/krunner xcomposite
 kde-base/kwin captury xcomposite
 kde-base/solid networkmanager -wicd
@@ -201,7 +201,7 @@ kde-misc/networkmanagement openvpn networksettings
 mail-client/claws-mail bogofilter -kde -pda
 mail-client/evolution exchange
 mail-client/mail-notification mozilla pop mbox gmail
-mail-client/thunderbird lightning -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO -pa_IN linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW
+mail-client/thunderbird lightning -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
 
 mail-filter/dovecot-antispam dspam
 mail-filter/procmail mbox
@@ -236,7 +236,7 @@ media-libs/libggi aalib
 media-libs/libsdl aalib
 media-libs/libxtract fftw
 media-libs/mediastreamer video
-media-libs/mesa xa g3dvl openvg pic shared-glapi shared-dricore nptl video_cards_intel video_cards_i915 video_cards_i965 video_cards_radeon video_cards_r100 video_cards_r200 video_cards_r300 video_cards_r600 video_cards_via video_cards_nouveau video_cards_vmware
+media-libs/mesa g3dvl nptl openvg pic shared-dricore shared-glapi video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_r100 video_cards_r200 video_cards_r300 video_cards_r600 video_cards_radeon video_cards_via video_cards_vmware xa
 media-libs/mlt -qt3 melt frei0r kde quicktime python
 media-libs/openexr -video_cards_nvidia
 media-libs/sdl-mixer midi timidity mod mikmod
@@ -247,7 +247,7 @@ media-libs/urt gs
 media-libs/xine-lib aalib fbcon mng vidix dxr3 -win32codecs -gtk
 
 media-plugins/alsa-plugins libsamplerate pulseaudio
-media-plugins/audacious-plugins -gtk gtk3 cue chardet ffmpeg gnome icecast libsamplerate sndfile wavpack
+media-plugins/audacious-plugins chardet cue ffmpeg gnome -gtk gtk3 icecast libsamplerate sndfile wavpack
 media-plugins/vdr-weatherng dxr3
 
 media-radio/tucnak2 fftw
@@ -285,8 +285,8 @@ media-video/blinkensim aalib
 virtual/ffmpeg threads ogg vhook faac faad vdpau video_cards_nvidia amr cpudetection vaapi vpx
 media-video/ffmpeg threads ogg vhook faac faad vdpau video_cards_nvidia amr cpudetection vaapi vpx
 media-video/leechcraft-lmp kde
-media-video/libav threads ogg vhook faac faad vdpau video_cards_nvidia amr cpudetection vaapi vpx rtmp
-media-video/mplayer -live -dxr3 mng dvdnav mp2 openal mmxext radio rtc rar tga tivo zoran cpudetection cddb cdparanoia 3dnow 3dnowext x264 sse sse2 vidix amr bl ftp lirc md5sum pnm ass ssse3 aalib vdpau ladspa vpx
+media-video/libav amr cpudetection faac faad ogg rtmp threads vaapi vdpau vhook video_cards_nvidia vpx
+media-video/mplayer 3dnow 3dnowext aalib amr ass bl cddb cdparanoia cpudetection dvdnav -dxr3 ftp ladspa lirc -live md5sum mmxext mng mp2 openal pnm radio rar rtc sse sse2 ssse3 tga tivo vdpau vidix vpx x264 zoran
 # testing mplayer flags
 media-video/mplayer fbcon bs2b
 # Drop dead code, doesn't work with libav
@@ -294,7 +294,7 @@ media-video/mplayer2 -xvmc
 media-video/mkvtoolnix wxwindows
 media-video/ogmrip ogm mp4 srt
 media-video/totem xulrunner iplayer galago
-media-video/vdr atsc subtitles iptv pinplugin graphtft submenu yaepg rotor SetGroupSep-Patch ttxtsubs cmdsubmenu ttxtsubs dvbsetup dxr3 menuorg
+media-video/vdr SetGroupSep-Patch atsc cmdsubmenu dvbsetup dxr3 graphtft iptv menuorg pinplugin rotor submenu subtitles ttxtsubs ttxtsubs yaepg
 media-video/vlc aalib egl fontconfig httpd libass -live lua rtsp samba skins taglib upnp vaapi vlm
 media-video/xine-ui aalib
 
@@ -352,7 +352,7 @@ net-misc/aria2 metalink bittorrent xmlrpc
 net-misc/asterisk jabber gtalk
 # bluetooth use flag is useless
 # wext due to bug 3283
-net-misc/networkmanager nss -dhclient modemmanager -bluetooth connection-sharing dhcpcd introspection -gnutls wimax wext
+net-misc/networkmanager -bluetooth connection-sharing -dhclient dhcpcd -gnutls introspection modemmanager nss wext wimax
 net-misc/networkmanager-vpnc gnome
 net-misc/ntp -zeroconf
 net-misc/nxclient prebuilt
@@ -456,9 +456,9 @@ www-apps/rt mysql
 www-apps/trac mysql postgres vhosts sqlite
 
 www-client/midori sqlite
-www-client/firefox xforms mozbranding filepicker -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO -pa_IN -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -gnome
+www-client/firefox filepicker -gnome -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW mozbranding -pa_IN xforms
 www-client/firefox-bin linguas_be linguas_id linguas_ka linguas_ku linguas_pa_IN linguas_sq 
-www-client/seamonkey -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO -pa_IN -linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW
+www-client/seamonkey -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO -linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
 
 www-plugins/gnash vaapi egl openvg ffmpeg -python -cairo -sdl -kde
 
@@ -500,7 +500,7 @@ x11-misc/xaos aalib
 # Disable new-login, pulls in gdm or kdm, which is bad
 x11-misc/xscreensaver -new-login
 
-x11-plugins/cairo-dock-plugins alsa exif -kde mail musicplayer powermanager terminal tomboy wifi xgamma compiz -gio -gmenu gnome -network-monitor -webkit -xfce -xklavier
+x11-plugins/cairo-dock-plugins alsa compiz exif -gio -gmenu gnome -kde mail musicplayer -network-monitor powermanager terminal tomboy -webkit wifi -xfce xgamma -xklavier
 x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisVert Ubuntu Verde Wood
 x11-themes/gtk-engines-murrine -themes
 x11-themes/gtk-engines-qtcurve -mozilla
@@ -571,7 +571,7 @@ mail-client/mutt sasl sidebar smtp
 app-emulation/vice gnome
 
 # Our Apache defaults
-www-servers/apache apache2_modules_cgi apache2_modules_cgid apache2_modules_proxy apache2_modules_proxy_ajp apache2_modules_proxy_balancer apache2_modules_proxy_connect apache2_modules_proxy_ftp apache2_modules_proxy_http apache2_modules_substitute apache2_modules_version apache2_modules_auth_digest apache2_modules_authn_dbd apache2_modules_cern_meta apache2_modules_charset_lite apache2_modules_dumpio ident apache2_modules_imagemap apache2_modules_log_forensic apache2_modules_asis apache2_modules_dbd suexec
+www-servers/apache apache2_modules_asis apache2_modules_auth_digest apache2_modules_authn_dbd apache2_modules_cern_meta apache2_modules_cgi apache2_modules_cgid apache2_modules_charset_lite apache2_modules_dbd apache2_modules_dumpio apache2_modules_imagemap apache2_modules_log_forensic apache2_modules_proxy apache2_modules_proxy_ajp apache2_modules_proxy_balancer apache2_modules_proxy_connect apache2_modules_proxy_ftp apache2_modules_proxy_http apache2_modules_substitute apache2_modules_version ident suexec
 
 # libdvdcss setup
 media-libs/libdvdread -css
@@ -769,7 +769,7 @@ app-text/texlive-core xetex
 media-sound/mp3splt-gtk gstreamer
 media-sound/gpodder gstreamer 
 net-proxy/tsocks tordns
-sys-kernel/dracut device-mapper net dracut_modules_biosdevname dracut_modules_mdraid dracut_modules_nbd dracut_modules_dmsquash-live dracut_modules_gensplash dracut_modules_syslog dracut_modules_btrfs dracut_modules_dmraid dracut_modules_nfs dracut_modules_lvm dracut_modules_multipath dracut_modules_plymouth
+sys-kernel/dracut device-mapper dracut_modules_biosdevname dracut_modules_btrfs dracut_modules_dmraid dracut_modules_dmsquash-live dracut_modules_gensplash dracut_modules_lvm dracut_modules_mdraid dracut_modules_multipath dracut_modules_nbd dracut_modules_nfs dracut_modules_plymouth dracut_modules_syslog net
 games-fps/darkplaces textures
 media-sound/deadbeef cover curl lastfm m3u hotkeys sndfile supereq
 net-misc/remmina vnc ssh
@@ -877,7 +877,7 @@ sys-apps/systemd -gtk plymouth cryptsetup
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon
 
 # kill linguas on kdepim-runtime, we ship it in kde-l10n
-kde-base/kdepim-runtime -linguas_ar -linguas_ca -linguas_cs -linguas_da -linguas_de -linguas_el -linguas_en_GB -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fr -linguas_ga -linguas_gl -linguas_hr -linguas_hu -linguas_it -linguas_ja -linguas_kk -linguas_km -linguas_ko -linguas_lt -linguas_lv -linguas_nb -linguas_nds -linguas_nl -linguas_nn -linguas_pa -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_se -linguas_sk -linguas_sl -linguas_sv -linguas_tr -linguas_uk -linguas_zh_CN -linguas_zh_TW -linguas_be -linguas_ca@valencia -linguas_ia -linguas_mai -linguas_th
+kde-base/kdepim-runtime -linguas_ar -linguas_be -linguas_ca -linguas_ca@valencia -linguas_cs -linguas_da -linguas_de -linguas_el -linguas_en_GB -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fr -linguas_ga -linguas_gl -linguas_hr -linguas_hu -linguas_ia -linguas_it -linguas_ja -linguas_kk -linguas_km -linguas_ko -linguas_lt -linguas_lv -linguas_mai -linguas_nb -linguas_nds -linguas_nl -linguas_nn -linguas_pa -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_se -linguas_sk -linguas_sl -linguas_sv -linguas_th -linguas_tr -linguas_uk -linguas_zh_CN -linguas_zh_TW
 
 net-im/telepathy-connection-managers -icq -yahoo
 net-im/empathy gnome
