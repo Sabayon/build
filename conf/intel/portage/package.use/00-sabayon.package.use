@@ -31,6 +31,12 @@ app-emulation/qemu-kvm havekernel -modules vde qemu-ifup spice fdt
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
 app-emulation/emul-linux-x86-soundlibs esd
 
+# USE flag gtk3 enabled on app-i18n/ibus makes it depend on both slots of Gtk+; it shouldn't
+# be a real problem though since everyone nowadays has normally both of them installed.
+# Advantage is that it will be working for applications using either version of the toolkit
+# which also helps make it just work (bug 2518). It may be revisited in the future if needed.
+app-i18n/ibus gtk3
+
 app-laptop/pommed -gtk
 
 app-office/abiword plugins
