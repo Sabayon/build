@@ -24,9 +24,6 @@ app-editors/bluefish gnome
 app-editors/emacs xft
 app-editors/vim vim-pager
 
-## some silliness here on beagle, make up your mind
-app-misc/beagle -firefox gtk -gtk -avahi chm ole
-
 # virt stuff
 app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python
 app-emulation/qemu-kvm no_kernel_module
