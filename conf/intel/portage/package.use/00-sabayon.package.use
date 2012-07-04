@@ -618,6 +618,9 @@ net-analyzer/net-snmp -X
 # instead
 app-crypt/pinentry gtk qt4
 
+# required for some functionality of Inkscape - bug 2941
+media-gfx/pstoedit plotutils
+
 # move x11-libs/evas media-libs/evas
 media-libs/evas fontconfig sse threads
 
