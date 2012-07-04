@@ -25,7 +25,6 @@ dev-lang/python:3.1
 
 # Joost Ruis: Needed by masked python:3.1
 >=dev-python/simpletal-5.0
->=dev-python/manuel-1.4.1
 >=dev-util/eric-5.0.2
 >=net-irc/znc-0.098
 >=net-zope/zope-interface-3.6.1
@@ -86,7 +85,6 @@ app-forensics/air
 
 # Joost Ruis: We use Avahi so we want to mask this
 net-misc/mDNSResponder
-net-misc/asterisk-res_bondia
 
 # Joost Ruis: We have Openswan in our tree so we must mask this
 net-misc/strongswan
@@ -119,9 +117,6 @@ dev-tex/prosper
 =media-sound/lilycomp-1.0.2-r1
 media-gfx/skencil
 media-gfx/asymptote
-
-# Joost Ruis: Blocks metacity
-x11-misc/expocity
 
 ### Games
 
@@ -165,10 +160,6 @@ media-sound/qtractor
 
 # 2010-11-18 Joost Ruis: Blocks media-fonts/jsmath-extra-dark 
 media-fonts/jsmath-extra-light
-
-# 2010-11-18 Joost Ruis: Blocks media-fonts/urw-fonts
-media-fonts/gnu-gs-fonts-other
-media-fonts/gnu-gs-fonts-std
 
 # 2010-11-18 Joost Ruis: Blocks media-fonts/culmus
 media-fonts/culmus-ancient
