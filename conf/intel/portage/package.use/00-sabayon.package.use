@@ -38,8 +38,6 @@ app-office/dia gnome-print
 app-office/glabels doc
 app-office/gnucash ofx
 app-office/homebank ofx
-app-office/karbon wpg
-app-office/kword wpd
 app-office/libreoffice -nsplugin gnome java templates -kde pdfimport
 app-office/libreoffice-l10n-meta linguas_as_IN linguas_be_BY linguas_dz linguas_en_ZA linguas_hi_IN linguas_ml_IN linguas_mr_IN linguas_ne linguas_nr linguas_ns linguas_or_IN linguas_pa_IN linguas_sh linguas_st linguas_sw_TZ linguas_te_IN linguas_th linguas_ti_ER linguas_tn linguas_ts linguas_ur_IN linguas_ve linguas_xh linguas_zu linguas_gu linguas_ku linguas_as linguas_ast linguas_ml linguas_mr linguas_my linguas_oc linguas_om linguas_or linguas_si linguas_te linguas_ug linguas_bo linguas_brx linguas_ca_XV linguas_dgo linguas_fo linguas_gd linguas_ia linguas_id linguas_ka linguas_kn linguas_kok linguas_ks linguas_ky linguas_lo linguas_mai linguas_mi linguas_mni linguas_pap linguas_ps linguas_sa_IN linguas_sat linguas_sd linguas_sq linguas_sw linguas_ti linguas_be linguas_nso
 app-office/magicpoint mng
@@ -52,7 +50,6 @@ app-mobilephone/gnokii sms -X
 app-pda/libopensync-plugin-syncml obex
 
 app-portage/eix sqlite
-app-portage/portato etc-proposals
 
 app-text/aspell -linguas_af -linguas_be -linguas_bg -linguas_br -linguas_ca -linguas_cs -linguas_cy -linguas_da -linguas_de -linguas_el -linguas_en -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fo -linguas_fr -linguas_ga -linguas_gl -linguas_he -linguas_hr -linguas_is -linguas_it -linguas_lt -linguas_nl -linguas_no -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_sk -linguas_sl -linguas_sr -linguas_sv -linguas_uk -linguas_vi
 app-text/hunspell -linguas_hu -linguas_lt -linguas_lv -linguas_mk -linguas_ms -linguas_nb -linguas_nn -linguas_af -linguas_be -linguas_bg -linguas_br -linguas_ca -linguas_cs -linguas_cy -linguas_da -linguas_de -linguas_el -linguas_en -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fo -linguas_fr -linguas_ga -linguas_gl -linguas_he -linguas_hr -linguas_is -linguas_it -linguas_nl -linguas_no -linguas_pl -linguas_pt -linguas_ro -linguas_ru -linguas_sk -linguas_sl -linguas_sr -linguas_sv -linguas_uk -linguas_vi
@@ -758,7 +755,6 @@ kde-base/krdc vnc
 net-voip/ekiga gstreamer
 x11-libs/libdrm video_cards_intel video_cards_nouveau video_cards_radeon video_cards_vmware libkms
 app-text/evince djvu dvi gnome-keyring nautilus
-app-office/koffice-libs reports
 dev-lang/ifc idb
 app-editors/gedit-plugins terminal
 sci-chemistry/xds-bin smp
@@ -785,7 +781,6 @@ dev-libs/tntnet sdk
 x11-themes/tango-icon-theme branding
 dev-games/ode double-precision
 dev-util/nvidia-cuda-sdk opencl
-app-pda/syncevolution sqlite
 sci-chemistry/openbabel -perl -python
 media-sound/clementine ios
 dev-libs/tinyxml stl
