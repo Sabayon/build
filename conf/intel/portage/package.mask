@@ -14,6 +14,11 @@ x11-misc/bumblebee::gentoo
 # Joost Ruis: Masked because on our overlay, prevent pulling in Portage versions
 x11-drivers/ati-drivers::gentoo
 media-gfx/splashutils::gentoo
+net-wireless/madwifi-ng::gentoo
+dev-lang/python::gentoo
+dev-libs/glib::gentoo
+app-emulation/open-vm-tools-kmod::gentoo
+sys-apps/baselayout::gentoo
 
 # Joost Ruis: Tagged for Sabayon 6
 dev-lang/python:3.1
