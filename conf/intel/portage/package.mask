@@ -9,7 +9,7 @@ sci-biology/mira
 >dev-lang/erlang-13.2.4
 >=app-portage/portpeek-1.9.70
 x11-misc/bumblebee::gentoo
-=x11-plugins/compiz-plugins-main-0.8.8
+x11-plugins/compiz-plugins-main::gentoo
 
 # Joost Ruis: Masked because on our overlay, prevent pulling in Portage versions
 x11-drivers/ati-drivers::gentoo
