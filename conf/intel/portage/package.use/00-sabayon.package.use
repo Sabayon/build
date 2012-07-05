@@ -758,7 +758,7 @@ dev-db/tora oracle
 media-sound/moc curl sndfile
 kde-base/kdepimlibs semantic-desktop
 media-libs/gd fontconfig
-x11-libs/qt-webkit kde
+x11-libs/qt-webkit kde icu
 www-client/uget gstreamer
 dev-libs/libf2c static-libs
 kde-base/krdc vnc
