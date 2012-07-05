@@ -779,7 +779,7 @@ net-proxy/tsocks tordns
 sys-kernel/dracut device-mapper dracut_modules_biosdevname dracut_modules_btrfs dracut_modules_dmraid dracut_modules_dmsquash-live dracut_modules_gensplash dracut_modules_lvm dracut_modules_mdraid dracut_modules_multipath dracut_modules_nbd dracut_modules_nfs dracut_modules_plymouth dracut_modules_syslog net
 games-fps/darkplaces textures
 media-sound/deadbeef cover curl lastfm m3u hotkeys sndfile supereq
-net-misc/remmina vnc ssh
+net-misc/remmina vnc ssh freerdp
 app-misc/gpsdrive speech
 media-video/miro faac
 media-gfx/sane-frontends gimp
