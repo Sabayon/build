@@ -10,6 +10,7 @@ sci-biology/mira
 >=app-portage/portpeek-1.9.70
 x11-misc/bumblebee::gentoo
 x11-plugins/compiz-plugins-main::gentoo
+=dev-libs/libxml2-2.8.0_rc1::gentoo
 
 # Joost Ruis: Masked because on our overlay, prevent pulling in Portage versions
 x11-drivers/ati-drivers::gentoo
