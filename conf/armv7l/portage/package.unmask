@@ -1,2 +1,7 @@
 # sys-devel/gcc:4.6 is fine for us
 sys-devel/gcc:4.6
+
+# Unmask this GNOME 3 stuff
+=media-libs/cogl-1.10.2 **
+=gnome-extra/sushi-0.4.1 **
+=media-libs/clutter-1.10.8 **
