@@ -67,3 +67,10 @@ www-servers/nginx **
 =media-libs/cogl-1.10.2 **
 =gnome-extra/sushi-0.4.1 **
 =media-libs/clutter-1.10.8 **
+=x11-wm/muffin-1.0.2-r1 **
+=media-libs/clutter-gtk-1.2.0 **
+=x11-wm/mutter-3.4.1-r1 **
+=media-video/cheese-3.4.2 **
+=gnome-base/gnome-shell-3.4.1 **
+=x11-libs/mx-1.4.2 **
+=media-libs/libchamplain-0.12.2 **
