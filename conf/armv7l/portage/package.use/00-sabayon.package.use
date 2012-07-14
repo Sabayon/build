@@ -87,6 +87,7 @@ gnome-base/gnome-settings-daemon packagekit policykit
 gnome-base/gconf policykit
 net-im/empathy gnome-online-accounts
 mail-client/evolution networkmanager
+x11-libs/gtk+ X
 # required by Sulfur
 x11-libs/vte:0 python
 
