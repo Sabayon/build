@@ -9,3 +9,5 @@ sys-devel/gcc:4.6
 =media-video/cheese-3.4.2
 =gnome-base/gnome-shell-3.4.1
 =media-libs/clutter-gtk-1.2.0
+=gnome-base/gnome-keyring-3.4.1
+=app-crypt/gcr-3.4.1

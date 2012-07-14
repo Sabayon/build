@@ -88,6 +88,7 @@ gnome-base/gconf policykit
 net-im/empathy gnome-online-accounts
 mail-client/evolution networkmanager
 x11-libs/gtk+ X
+gnome-base/gnome-menus python
 # required by Sulfur
 x11-libs/vte:0 python
 
