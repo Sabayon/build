@@ -38,7 +38,7 @@ app-text/diffpdf (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-text/pdf2djvu (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-base\2
 app-text/pdf2oo (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-base\2
 app-text/pdfgrep (.*)app-text/poppler(.*) \1app-text/poppler-base\2
-app-text/zathura (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
+app-text/zathura-pdf-poppler (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 dev-tex/pstplus (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-text/kbibtex (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-misc/recoll (.*)app-text/poppler(.*) \1app-text/poppler-base\2
