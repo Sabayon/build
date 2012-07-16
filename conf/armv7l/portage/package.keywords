@@ -64,15 +64,16 @@ www-servers/nginx **
 =media-sound/exaile-0.3.2.1 **
 
 # GNOME 3 stuff
-=media-libs/cogl-1.10.2 **
-=gnome-extra/sushi-0.4.1 **
-=media-libs/clutter-1.10.8 **
-=x11-wm/muffin-1.0.2-r1 **
-=media-libs/clutter-gtk-1.2.0 **
-=x11-wm/mutter-3.4.1-r1 **
-=media-video/cheese-3.4.2 **
-=gnome-base/gnome-shell-3.4.1 **
-=x11-libs/mx-1.4.2 **
-=media-libs/libchamplain-0.12.2 **
-=media-plugins/gst-plugins-vp8-0.10.22 **
-=media-video/totem-3.4.3 **
+<media-libs/cogl-9999 **
+<gnome-extra/sushi-9999 **
+<media-libs/clutter-9999 **
+<x11-wm/muffin-9999 **
+<media-libs/clutter-gtk-9999 **
+<x11-wm/mutter-9999 **
+<media-video/cheese-9999 **
+<gnome-base/gnome-shell-9999 **
+<x11-libs/mx-9999 **
+<media-libs/libchamplain-9999 **
+<media-plugins/gst-plugins-vp8-9999 **
+<media-video/totem-9999 **
+<gnome-extra/gnome-games-9999 **
