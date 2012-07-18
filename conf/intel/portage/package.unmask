@@ -118,11 +118,3 @@ media-video/nvidia-settings::sabayon-distro
 =media-libs/clutter-gst-1.6*
 # Needs gst-plugins-flac-0.10.31 + commit 265a5bfa to write seekable flac files
 =media-sound/sound-juicer-3.4*
-
-# Unmask for us:
-# Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org> (11 May 2012)
-# Nouveau API break, mask until situation becomes palatable for users
-# xf86-video-ati-6.14.5 needs new libdrm
-<x11-drivers/xf86-video-ati-9999
-<x11-drivers/xf86-video-nouveau-9999
-<x11-libs/libdrm-9999
