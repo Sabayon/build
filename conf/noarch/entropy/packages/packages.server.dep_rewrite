@@ -183,6 +183,7 @@ media-gfx/kiconedit (.*)kde-base/kde-l10n(.*)
 media-gfx/kphotoalbum (.*)kde-base/kde-l10n(.*)
 media-sound/audex (.*)kde-base/kde-l10n(.*)
 kde-misc/plasma-applet-daisy (.*)kde-base/kde-l10n(.*)
+kde-misc/miniplayer (.*)kde-base/kde-l10n(.*)
 
 # net-dns/avahi dep rewrites
 app-crypt/seahorse (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
