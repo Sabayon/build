@@ -185,6 +185,10 @@ media-sound/audex (.*)kde-base/kde-l10n(.*)
 kde-misc/plasma-applet-daisy (.*)kde-base/kde-l10n(.*)
 kde-misc/miniplayer (.*)kde-base/kde-l10n(.*)
 
+# dev-lang/gcc dep rewrites (drop dep)
+dev-java/icedtea-bin (.*)sys-devel/gcc(.*)
+dev-java/icedtea (.*)sys-devel/gcc(.*)
+
 # net-dns/avahi dep rewrites
 app-crypt/seahorse (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
 app-emulation/libvirt (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
