@@ -84,6 +84,7 @@ dev-games/cegui devil
 dev-games/crystalspace mng
 
 dev-java/antlr cxx
+dev-java/bsh bsf
 dev-java/glazedlists java5
 # micia: disable source inclusion in icedtea, save some space
 dev-java/icedtea -source
