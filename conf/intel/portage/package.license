@@ -37,3 +37,4 @@ sci-geosciences/googleearth             googleearth
 www-plugins/adobe-flash			AdobeFlash-10.3
 www-plugins/google-talkplugin           google-talkplugin
 dev-java/oracle-jdk-bin			Oracle-BCLA-JavaSE
+dev-java/oracle-jre-bin			Oracle-BCLA-JavaSE
