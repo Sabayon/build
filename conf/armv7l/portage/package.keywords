@@ -78,3 +78,9 @@ www-servers/nginx **
 <media-video/totem-9999 **
 <gnome-extra/gnome-games-9999 **
 <media-libs/clutter-gst-9999 **
+<gnome-extra/gnome-games-9999 **
+
+# Additional deps pulled in that need to be keyworded
+=app-editors/xemacs-21.5.31 **
+=app-xemacs/emerge-1.11 **
+=app-xemacs/xemacs-base-2.27 **
