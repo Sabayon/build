@@ -340,7 +340,7 @@ net-im/psi jingle
 net-irc/inspircd mysql sqlite
 net-irc/kvirc -audiofile dcc_video
 
-net-libs/aqbanking chipcard
+net-libs/aqbanking chipcard ofx
 net-libs/libgadu ssl threads
 net-libs/libsoup gnome
 net-libs/opal sip h323
