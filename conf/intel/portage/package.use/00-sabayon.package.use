@@ -150,7 +150,7 @@ dev-util/glade -gnome
 dev-vcs/git curl webdav -subversion -gtk
 dev-vcs/git bash-completion
 dev-util/jay java
-dev-util/qt-creator git subversion examples
+dev-util/qt-creator autotools cmake git subversion valgrind examples
 dev-vcs/subversion -java -apache2 -dso -kde
 
 # use minimal so it doesn't depend on dev-python/imaging[tk]
