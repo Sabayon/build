@@ -86,4 +86,5 @@ www-servers/nginx **
 =app-xemacs/xemacs-base-2.27 **
 
 # Media stuff
-=media-video/mpeg-tools-1.5b-r4 **
+# =media-video/mpeg-tools-1.5b-r4 **
+=media-video/xvid4conf-1.12 **
