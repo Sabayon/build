@@ -84,3 +84,6 @@ www-servers/nginx **
 =app-editors/xemacs-21.5.31 **
 =app-xemacs/emerge-1.11 **
 =app-xemacs/xemacs-base-2.27 **
+
+# Media stuff
+=media-video/mpeg-tools-1.5b-r4 **
