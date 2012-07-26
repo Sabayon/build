@@ -110,7 +110,7 @@ app-office/libreoffice -nsplugin -gnome -java templates -kde pdfimport
 media-libs/libsdl X opengl
 media-libs/sdl-image gif jpeg png
 media-video/mplayer jpeg png pulseaudio -dvdnav
-media-video/mplayer2 jpeg png pulseaudio -dvdnav
+media-video/mplayer2 jpeg png pulseaudio -cpudetection -dvdnav
 media-tv/xbmc bluray udev pulseaudio webserver css
 # needed for vlc
 sys-libs/zlib minizip
