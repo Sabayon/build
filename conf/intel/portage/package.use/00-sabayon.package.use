@@ -691,7 +691,7 @@ dev-python/paste openid
 dev-python/pylons genshi jinja
 
 # Provide more dovecot features
-net-mail/dovecot managesieve sieve sqlite
+net-mail/dovecot managesieve mbox sieve sqlite
 # More postfix features
 mail-mta/postfix mbox sasl
 
