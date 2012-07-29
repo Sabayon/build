@@ -17,7 +17,7 @@ dev-libs/libxml2 python
 
 # Nice fonts
 media-libs/freetype auto-hinter
-media-gfx/imagemagick truetype fontconfig corefonts
+media-gfx/imagemagick truetype fontconfig corefonts png
 
 # Required by several stuff
 sys-auth/pambase consolekit
