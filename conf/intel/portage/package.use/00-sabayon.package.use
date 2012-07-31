@@ -942,3 +942,6 @@ games-engines/corsix-th -wxwidgets
 
 # In order to generate files in different formats, we need to enable imlib
 media-libs/libcaca imlib
+
+# We must choose between mysql and postgres
+net-dns/mydns mysql
