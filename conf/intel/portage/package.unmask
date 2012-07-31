@@ -118,3 +118,8 @@ media-video/nvidia-settings::sabayon-distro
 =media-libs/clutter-gst-1.6*
 # Needs gst-plugins-flac-0.10.31 + commit 265a5bfa to write seekable flac files
 =media-sound/sound-juicer-3.4*
+
+# We want MySQL 5.5, do we?
+=dev-db/mariadb-5.5*
+=dev-db/mysql-5.5*
+=virtual/mysql-5.5*
