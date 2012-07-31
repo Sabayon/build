@@ -137,7 +137,7 @@ dev-python/epydoc -X
 dev-scheme/guile regex discouraged networking
 
 dev-db/sqliteodbc sqlite3
-dev-db/mysql -berkdb embedded pic
+dev-db/mysql -berkdb embedded pic extraengine
 virtual/mysql embedded
 
 dev-tcltk/tclxml expat
