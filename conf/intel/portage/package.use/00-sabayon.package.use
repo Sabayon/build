@@ -96,7 +96,7 @@ dev-lang/fpc source
 dev-lang/lua deprecated
 dev-lang/mono moonlight
 dev-lang/ocaml tk
-dev-lang/php apache2 bcmath calendar cgi ctype curl filter fpm ftp gd hash imap json mhash mysql mysqli mysqlnd odbc pcntl pcre pdo posix postgres reflection simplexml snmp soap sockets spl sqlite sqlite3 tidy tokenizer wddx xml xmlreader xmlwriter xsl zip
+dev-lang/php apache2 bcmath calendar cgi ctype curl filter fpm ftp gd hash imap json mhash mysql mysqli mysqlnd odbc pcntl pcre pdo posix postgres reflection simplexml snmp soap sockets spl sqlite sqlite3 tidy tokenizer wddx xml xmlreader xmlwriter xsl zip sysvipc
 dev-lang/python sqlite
 
 dev-libs/beecrypt threads
