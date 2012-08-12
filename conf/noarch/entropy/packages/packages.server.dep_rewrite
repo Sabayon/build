@@ -185,6 +185,7 @@ media-sound/audex (.*)kde-base/kde-l10n(.*)
 kde-misc/plasma-applet-daisy (.*)kde-base/kde-l10n(.*)
 kde-misc/miniplayer (.*)kde-base/kde-l10n(.*)
 media-video/kamerka (.*)kde-base/kde-l10n(.*)
+media-sound/kaudiocreator (.*)kde-base/kde-l10n(.*)
 
 # dev-lang/gcc dep rewrites (drop dep)
 dev-java/icedtea-bin (.*)sys-devel/gcc(.*)
