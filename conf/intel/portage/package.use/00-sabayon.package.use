@@ -360,6 +360,7 @@ net-misc/dropbox librsync-bundled
 
 net-misc/aria2 metalink bittorrent xmlrpc
 net-misc/asterisk jabber gtalk
+net-misc/mosh ufw
 # bluetooth use flag is useless
 # wext due to bug 3283
 net-misc/networkmanager -bluetooth connection-sharing -dhclient dhcpcd -gnutls introspection modemmanager nss wext wimax
