@@ -622,7 +622,8 @@ dev-libs/crypto++ sse3
 app-cdr/dvd95 sse sse2
 
 # No need to have USE=X on net-snmp
-net-analyzer/net-snmp -X
+# ucd-compat required by net-misc/vmpsd-1.4
+net-analyzer/net-snmp ucd-compat -X
 
 # app-crypt/pinentry is now a meta-package
 # enable GTK2 by default, people complaining
