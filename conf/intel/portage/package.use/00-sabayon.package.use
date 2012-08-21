@@ -49,6 +49,7 @@ app-office/libreoffice-l10n-meta linguas_as linguas_as_IN linguas_ast linguas_be
 app-office/magicpoint mng
 
 app-misc/ddccontrol -gtk -gnome
+app-misc/gcstar stats
 app-misc/mc -slang
 
 app-mobilephone/gnokii sms -X
