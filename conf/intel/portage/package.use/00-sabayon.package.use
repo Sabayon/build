@@ -948,3 +948,7 @@ media-libs/libcaca imlib
 
 # We must choose between mysql and postgres
 net-dns/mydns mysql
+
+# Bluetooth dependency is unwanted on servers
+# It pulls in a lot of crap
+net-analyzer/netcat6 -bluetooth
