@@ -16,7 +16,6 @@ x11-plugins/compiz-plugins-main::gentoo
 # Joost Ruis: Masked because on our overlay, prevent pulling in Portage versions
 x11-drivers/ati-drivers::gentoo
 media-gfx/splashutils::gentoo
-net-wireless/madwifi-ng::gentoo
 dev-libs/glib::gentoo
 sys-apps/baselayout::gentoo
 # remove mask to pull in sys-fs/udev::gentoo for testing
