@@ -18,7 +18,6 @@ x11-drivers/ati-drivers::gentoo
 media-gfx/splashutils::gentoo
 net-wireless/madwifi-ng::gentoo
 dev-libs/glib::gentoo
-app-emulation/open-vm-tools-kmod::gentoo
 sys-apps/baselayout::gentoo
 # remove mask to pull in sys-fs/udev::gentoo for testing
 # sys-fs/udev::gentoo
