@@ -33,9 +33,6 @@ dev-lang/python:3.1
 # Joost Ruis: Old as wolfden!
 x11-libs/gtk+:1
 
-# Joost Ruis: wants tcl +threads
-app-admin/moodss
-
 ### Blockers
 
 # 2010-10-29 Joost Ruis: Blocks sci-biology/emboss
@@ -44,10 +41,6 @@ dev-java/emma
 
 # Joost Ruis: Blocks bash
 app-shells/bashdb
-
-# Joost Ruis: Blocks app-shells/ksh
-app-shells/pdksh
-sci-biology/staden-bin
 
 # Joost Ruis: Blocks media-gfx/hugin
 dev-util/cocom
@@ -83,9 +76,6 @@ app-forensics/air
 >=www-client/dillo-3
 
 ### net-misc 
-
-# Joost Ruis: We use Avahi so we want to mask this
-net-misc/mDNSResponder
 
 # Joost Ruis: We have Openswan in our tree so we must mask this
 net-misc/strongswan
