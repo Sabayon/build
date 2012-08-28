@@ -451,6 +451,7 @@ sys-kernel/linux-server splash dmraid grub iscsi mdadm luks lvm
 sys-kernel/linux-rt splash dmraid grub iscsi mdadm luks lvm
 sys-kernel/linux-fusion splash dmraid grub iscsi mdadm luks lvm
 sys-kernel/linux-openvz splash dmraid grub iscsi mdadm luks lvm
+sys-kernel/linux-hardened splash dmraid grub iscsi mdadm luks lvm
 sys-kernel/sabayon-sources symlink
 
 # Fusion Sources, set defaults
