@@ -514,6 +514,8 @@ dev-lang/tcl threads
 dev-lang/tk threads
 dev-tcltk/tclx threads
 
+x11-terms/rxvt-unicode xft
+
 x11-misc/cairo-dock xcomposite
 x11-misc/xaos aalib
 # Disable new-login, pulls in gdm or kdm, which is bad
