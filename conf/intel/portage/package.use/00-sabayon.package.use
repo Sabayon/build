@@ -491,6 +491,10 @@ x11-drivers/xf86-video-intel sna
 x11-drivers/ati-drivers distribution -qt4
 x11-drivers/nvidia-drivers distribution
 x11-drivers/nvidia-drivers -gtk
+# Disable USE=multilib, it's way too much space on amd64
+# see Sept. 6 2012 discussion on staff ML
+x11-drivers/nvidia-userspace -multilib
+x11-drivers/ati-userspace -multilib
 
 x11-libs/cairo glitz -qt4
 # move x11-libs/ecore dev-libs/ecore
