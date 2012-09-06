@@ -1,21 +1,32 @@
 # Emerge wrapper, uses matter lock file support to avoid
 # concurrent execution
 emerge() {
+	snapshot_lock_file=/var/tmp/.emerge.snapshot.lock"
 	matter_lock_file="/var/tmp/.matter_resource.lock"
 	flock -x -n "${matter_lock_file}" true
 	rc=${?}
 	if [ "${rc}" != "0" ]; then
-		echo
-		echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-		echo "matter is running on this chroot, in order to prevent explosions"
-		echo "this emerge instance will terminate NOW"
-		echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-		echo
+		echo >&2
+		echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" >&2
+		echo "matter is running on this chroot, in order to prevent explosions" >&2
+		echo "this emerge instance will terminate NOW" >&2
+		echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" >&2
+		echo >&2
 		return 1
 	else
-		# eval $(portageq envvar -v FETCHCOMMAND RESUMECOMMAND PORTAGE_RSYNC_OPTS)
-		# add bandwidth limit here
-		/usr/bin/emerge --quiet-build=n "$@"
-		return ${?}
+		# acquire snapshot read lock in non-blocking, shared mode
+		(
+			flock -s -n 9 || {
+				echo "Hello there," >&2;
+				echo "a chroot snapshot is in progress..." >%2;
+				echo "Try again later." >&2;
+				exit 1;
+			}
+			# eval $(portageq envvar -v FETCHCOMMAND RESUMECOMMAND PORTAGE_RSYNC_OPTS)
+			# add bandwidth limit here
+			/usr/bin/emerge --quiet-build=n "$@"
+			exit ${?}
+		) 9> "${snapshot_lock_file}"
+		return "${?}"
 	fi
 }
