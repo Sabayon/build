@@ -1,7 +1,7 @@
 # Emerge wrapper, uses matter lock file support to avoid
 # concurrent execution
 emerge() {
-	snapshot_lock_file=/var/tmp/.emerge.snapshot.lock"
+	snapshot_lock_file="/var/tmp/.emerge.snapshot.lock"
 	matter_lock_file="/var/tmp/.matter_resource.lock"
 	flock -x -n "${matter_lock_file}" true
 	rc=${?}
