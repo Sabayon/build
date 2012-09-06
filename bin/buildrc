@@ -3,12 +3,17 @@
 emerge() {
 	snapshot_lock_file="/var/tmp/.emerge.snapshot.lock"
 	matter_lock_file="/var/tmp/.matter_resource.lock"
+
 	flock -x -n "${matter_lock_file}" true
 	rc=${?}
 	if [ "${rc}" != "0" ]; then
 		echo >&2
 		echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" >&2
-		echo "matter is running on this chroot, in order to prevent explosions" >&2
+		echo "Matter or the Backup Script is running on this chroot" >&2
+		echo "Please be patient, it will eventually terminate..." >&2
+		echo "Snapshot lock file = ${snapshot_lock_file}" >&2
+		echo "Matter lock file = ${matter_lock_file}" >&2
+		echo >&2
 		echo "this emerge instance will terminate NOW" >&2
 		echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" >&2
 		echo >&2
