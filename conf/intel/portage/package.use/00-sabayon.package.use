@@ -204,6 +204,8 @@ kde-base/solid networkmanager -wicd
 kde-base/okular chm djvu ebook crypt
 kde-base/phonon-kde -xine
 kde-base/marble plasma
+# See bug 3619
+kde-base/ark lzma
 
 kde-misc/networkmanagement openvpn networksettings
 
