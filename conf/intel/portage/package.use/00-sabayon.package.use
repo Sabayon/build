@@ -977,3 +977,7 @@ net-dns/mydns mysql
 # Bluetooth dependency is unwanted on servers
 # It pulls in a lot of crap
 net-analyzer/netcat6 -bluetooth
+
+# add Infinality patches to freetype-2
+# See bug 3360
+media-libs/freetype infinality
