@@ -1,6 +1,7 @@
+#!/bin/bash
 # Emerge wrapper, uses matter lock file support to avoid
 # concurrent execution
-emerge() {
+_exec_locked() {
 	snapshot_lock_file="/var/tmp/.emerge.snapshot.lock"
 	matter_lock_file="/var/tmp/.matter_resource.lock"
 
@@ -29,9 +30,19 @@ emerge() {
 			}
 			# eval $(portageq envvar -v FETCHCOMMAND RESUMECOMMAND PORTAGE_RSYNC_OPTS)
 			# add bandwidth limit here
-			/usr/bin/emerge --quiet-build=n "$@"
+			"${@}"
 			exit ${?}
 		) 9> "${snapshot_lock_file}"
 		return "${?}"
 	fi
+}
+
+emerge() {
+	_exec_locked "/usr/bin/emerge" "${@}"
+	return ${?}
+}
+
+eit() {
+	_exec_locked "/usr/bin/eit" "${@}"
+	return ${?}
 }
