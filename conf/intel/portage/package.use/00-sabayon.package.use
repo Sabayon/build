@@ -468,7 +468,7 @@ sys-kernel/linux-fusion splash dmraid grub
 sys-libs/db -java
 
 virtual/ooo java
-virtual/opencl video_cards_nvidia
+virtual/opencl video_cards_nvidia video_cards_fglrx
 
 www-apps/egroupware mysql
 www-apps/owncloud mysql postgres sqlite3
