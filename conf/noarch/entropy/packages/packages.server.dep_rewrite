@@ -256,3 +256,7 @@ virtual/ffmpeg (.*)media-video/ffmpeg(.*) \1media-video/libav\2
 * (.*)dev-python/pygobject(.*)\[cairo\] \1dev-python/pygobject-cairo\2
 # Rewrite almost every standard dev-python/pygobject dependency
 * (.*)dev-python/pygobject(?!.*-base.*)(?!.*-cairo.*)((?=-[0-9]\.)?)(?!.*-2\*)(?!.*:2)((.*:3)?)(?!.*\[.*cairo.*\].*) \1dev-python/pygobject-base\2\3
+
+# ati-drivers, nvidia-drivers rewrites
+virtual/opencl (.*)x11-drivers/ati-drivers(.*) \1x11-drivers/ati-userspace\2
+virtual/opencl (.*)x11-drivers/nvidia-drivers(.*) \1x11-drivers/nvidia-userspace\2
