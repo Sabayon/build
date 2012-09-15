@@ -291,7 +291,7 @@ media-tv/xbmc vdpau css -vaapi webserver rtmp xrandr
 www-plugins/adobe-flash -32bit
 
 # Disable MMX due to compile failures
-media-tv/mythtv fftw mmx -nvidia -xvmc
+media-tv/mythtv fftw
 
 media-video/blinkensim aalib
 # To enable vdpau, video_cards_nvidia USE flag must be enabled
