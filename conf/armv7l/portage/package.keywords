@@ -79,6 +79,13 @@ www-servers/nginx **
 <gnome-extra/gnome-games-9999 **
 <media-libs/clutter-gst-9999 **
 <gnome-extra/gnome-games-9999 **
+<net-im/telepathy-mission-control-9999 **
+<net-libs/gnome-online-accounts-9999 **
+<net-im/empathy-9999 **
+<net-im/telepathy-logger-9999 **
+<sci-geosciences/geocode-glib-9999 **
+<dev-libs/folks-9999 **
+<net-libs/telepathy-farstream-9999 **
 
 # Additional deps pulled in that need to be keyworded
 =app-editors/xemacs-21.5.31 **
