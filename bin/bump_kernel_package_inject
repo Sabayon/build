@@ -1,0 +1,17 @@
+#!/bin/sh
+
+. /sabayon/bin/kernels.inc
+
+if [ "${#}" -lt 1 ]; then
+	echo "${0} <package> <package> ..." >&2 /dev/null
+	echo "example: ${0} net-wireless/broadcom-sta" >&2 /dev/null
+	exit 1
+fi
+
+for kernel in ${kernels}; do
+        rm -rf /usr/portage/packages/*
+        KERNEL_DIR="/usr/src/linux-${kernel}" emerge -B "${@}" || { echo "ouch unable to build" && exit 1; }
+        built_pkgs=$(find /usr/portage/packages -name "*.tbz2" | xargs)
+        [[ -z "${built_pkgs}" ]] && echo "ouch no kernel pkgs" && exit 2
+        eit inject ${built_pkgs} || { echo "ouch unable to inject" && exit 3; }
+done
