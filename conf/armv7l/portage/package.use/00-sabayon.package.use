@@ -119,7 +119,7 @@ sys-libs/zlib minizip
 net-libs/rb_libtorrent python
 net-wireless/wpa_supplicant dbus
 net-misc/modemmanager policykit
-net-misc/networkmanager bluetooth connection-sharing resolvconf
+net-misc/networkmanager bluetooth connection-sharing resolvconf modemmanager
 # required by gnome-core-apps
 gnome-extra/nm-applet bluetooth
 
