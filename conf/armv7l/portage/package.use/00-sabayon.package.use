@@ -91,6 +91,7 @@ x11-libs/gtk+ X
 gnome-base/gnome-menus python
 # required by Sulfur
 x11-libs/vte:0 python
+dev-libs/folks eds
 
 # MATE stuff
 app-arch/mate-file-archiver caja
