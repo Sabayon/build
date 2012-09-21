@@ -333,6 +333,7 @@ net-dns/dnsmasq -dbus
 net-fs/cifs-utils ads
 net-fs/samba ads acl oav swat winbind
 
+net-im/bitlbee twitter
 net-im/centerim gadu
 net-im/ekg2 gadu gpg xmpp
 net-im/gajim -avahi
