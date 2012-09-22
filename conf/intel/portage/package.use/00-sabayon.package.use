@@ -712,8 +712,7 @@ sys-devel/gdb expat python
 # moreover, nss breaks git https:// checkouts
 net-misc/curl ssl -nss -gnutls
 
-# bluetooth stuff is now provided by gnome-bluetooth
-gnome-extra/nautilus-sendto -bluetooth
+gnome-extra/nautilus-sendto -cdr
 
 # Pylons stuff
 dev-python/paste openid
