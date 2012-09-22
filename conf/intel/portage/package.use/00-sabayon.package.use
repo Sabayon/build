@@ -297,7 +297,6 @@ media-video/blinkensim aalib
 # To enable vdpau, video_cards_nvidia USE flag must be enabled
 virtual/ffmpeg threads ogg vhook faac faad vdpau video_cards_nvidia amr cpudetection vaapi vpx
 media-video/ffmpeg threads ogg vhook faac faad vdpau video_cards_nvidia amr cpudetection vaapi vpx
-media-video/leechcraft-lmp kde
 media-video/libav amr cpudetection faac faad ogg rtmp threads vaapi vdpau vhook video_cards_nvidia vpx
 media-video/mplayer 3dnow 3dnowext aalib amr ass bl cddb cdparanoia cpudetection dvdnav -dxr3 ftp ladspa lirc -live md5sum mmxext mng mp2 openal pnm radio rar rtc sse sse2 ssse3 tga tivo vdpau vidix vpx x264 zoran
 # testing mplayer flags
@@ -383,7 +382,6 @@ net-nntp/suck perl
 net-p2p/amule geoip stats remote upnp daemon
 net-p2p/deluge webinterface
 net-p2p/eiskaltdcpp json
-net-p2p/gnunet sqlite
 net-p2p/vuze source
 
 net-print/cups -java
@@ -843,7 +841,6 @@ sci-libs/hdf5 -cxx -fortran -mpi threads -szip
 virtual/mpi romio
 sys-cluster/openmpi romio
 media-libs/libpng apng
-kde-base/activitymanager semantic-desktop
 kde-base/kget bittorrent semantic-desktop
 
 # l10n issue is handled by entropy dep_rewrite
@@ -956,9 +953,6 @@ app-misc/recoll -fam inotify
 
 # dev-db/mongodb should use V8. Allows to fix bug 3069
 dev-db/mongodb v8
-
-# See bug 3138
-app-benchmarks/bootchart java
 
 # Enable hardened USE flags
 sys-devel/base-gcc hardened
