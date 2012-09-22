@@ -549,7 +549,7 @@ xfce-base/thunar thumbnail
 xfce-base/xfdesktop thunar-vfs
 xfce-base/xfwm4 xcomposite
 
-xfce-extra/tumbler gstreamer
+xfce-extra/tumbler gstreamer raw
 
 # OLD: to make VPN working with networkmanager (nm-applet)
 # NEW: USE=gtk makes these plugins work properly with
