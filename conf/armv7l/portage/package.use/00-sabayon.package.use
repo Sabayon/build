@@ -145,3 +145,6 @@ x11-themes/elementary-icon-theme branding
 
 # Enable cryptsetup in genkernel
 sys-kernel/genkernel cryptsetup crypt
+
+# Needed for emesene
+net-libs/farstream python
