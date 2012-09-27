@@ -64,9 +64,9 @@ www-servers/nginx **
 =media-sound/exaile-0.3.2.1 **
 
 # want emesene
-dev-python/pywebkitgtk
-dev-python/papyon
-net-im/emesene
+dev-python/pywebkitgtk **
+dev-python/papyon **
+net-im/emesene **
 
 # GNOME 3 stuff
 <media-libs/cogl-9999 **
