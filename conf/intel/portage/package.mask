@@ -119,10 +119,6 @@ net-analyzer/pnp4nagios
 # 2010-05-07 Be careful, these versions made xbmc+vdpau go boom
 # >media-video/ffmpeg-0.5_p20373
 
-# 2010-07-26 Joost Ruis: Needs PHP with -postgre
-dev-php/PEAR-HTTP_Download
-dev-php/PEAR-File_PDF
-
 # 2010-10-02 Joost Ruis: Needs PHP with +mssql
 dev-php/PEAR-MDB2_Driver_mssql
 
