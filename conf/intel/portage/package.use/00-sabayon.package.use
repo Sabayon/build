@@ -357,6 +357,7 @@ net-libs/wvstreams -qt3
 net-libs/libpcap -bluetooth
 
 net-mail/dbmail sqlite3
+net-mail/notmuch mutt
 net-mail/tpop3d mbox maildir
 
 # See bug 3118
