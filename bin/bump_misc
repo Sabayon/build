@@ -1,0 +1,43 @@
+#!/bin/sh
+
+# script that makes it easier to bump split packages
+# (and perhaps other fun stuff)
+
+list="git subversion transmission"
+cmd="emerge -av"
+
+what=$1
+
+if [ -z "$what" ]; then
+	echo "What to compile? [$list]"
+	read what
+fi
+
+case $what in
+git)
+	$cmd \
+		dev-vcs/git::sabayon-distro \
+		dev-vcs/git-cvs \
+		dev-vcs/git-gui-tools \
+		dev-vcs/git-subversion \
+		www-apps/gitweb
+	;;
+subversion)
+	$cmd \
+		dev-vcs/subversion::sabayon-distro \
+		dev-vcs/subversion-java
+	;;
+transmission)
+	$cmd \
+		net-p2p/transmission-base \
+		net-p2p/transmission-cli \
+		net-p2p/transmission-daemon \
+		net-p2p/transmission-gtk \
+		net-p2p/transmission-qt4 \
+		net-p2p/transmission::sabayon-distro
+	;;
+*)
+	echo "Excuse me, but I non capisco." >&2
+	[ -n "$1" ] && echo "Run without any parameter for interactive use." >&2
+	exit 1
+esac
