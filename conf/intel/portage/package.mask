@@ -162,9 +162,6 @@ media-plugins/vdr-setup
 # see http://forum.sabayon.org/viewtopic.php?f=52&t=22717
 >net-dns/openresolv-3.4
 
-# 2011-04-27 Joost Ruis: See Gentoo bug #358869
->=sys-power/powertop-1.97
-
 # 2011-08-16 Fabio Erculiani: Cruft we don't want
 dev-php/eaccelerator
 dev-php/xcache
