@@ -2,5 +2,6 @@
 # Segmentation faults with guake.
 # See Sabayon bug #3599
 echo "* Disabling PIE as per bug 3599"
-GCC_SPECS=/usr/lib/gcc/*/*/hardenednopiessp.specs
+GCC_SPECS=$(gcc-config -L)/hardenednopiessp.specs
+echo "* Setting GCC_SPECS to ${GCC_SPECS}"
 export GCC_SPECS
