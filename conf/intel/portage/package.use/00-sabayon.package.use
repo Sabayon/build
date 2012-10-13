@@ -675,7 +675,7 @@ dev-libs/nss utils
 
 dev-ml/lablgtk gnomecanvas
 
-kde-base/kdeplasma-addons desktopglobe semantic-desktop
+kde-base/kdeplasma-addons desktopglobe json oauth semantic-desktop
 kde-base/pykde4 semantic-desktop
 kde-base/dolphin semantic-desktop thumbnail
 kde-base/plasma-workspace semantic-desktop python
