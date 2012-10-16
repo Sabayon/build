@@ -414,8 +414,8 @@ sci-mathematics/octave fftw curl
 # We don't want rtai
 sci-misc/emc simulator
 
-# required by app-doc/root-docs
-sci-physics/root htmldoc doc graphviz
+# htmldoc, doc, graphviz are required by app-doc/root-docs
+sci-physics/root htmldoc doc fftw graphviz
 
 sci-visualization/fityk gnuplot wxwindows
 sci-visualization/gnuplot gd wxwidgets
