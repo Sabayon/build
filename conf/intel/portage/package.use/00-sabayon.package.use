@@ -11,6 +11,7 @@ app-arch/mate-file-archiver caja
 
 app-backup/bacula sqlite3
 app-backup/deja-dup nautilus
+app-backup/fsarchiver lzma
 
 app-cdr/brasero nautilus
 app-cdr/cdrdao -gnome
