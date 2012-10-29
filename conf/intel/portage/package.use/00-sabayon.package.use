@@ -71,6 +71,10 @@ app-text/mate-document-viewer caja mate mate-keyring
 app-text/stardict tools
 app-text/texlive -truetype
 
+# qt4 is a bit overkill for highlight
+# our servers don't want qt4 either.
+app-text/highlight -qt4
+
 # Since those are not linker deps, we
 # can drop then and let users decide
 # to install the fonts they want
