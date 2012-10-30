@@ -28,6 +28,9 @@ dev-lang/python:3.1
 >=net-irc/znc-0.098
 >=net-zope/zope-interface-3.6.1
 
+# Sławomir Nizio: needs Python 3
+>=app-text/nfoview-1.10
+
 # Joost Ruis: Old as wolfden!
 x11-libs/gtk+:1
 
