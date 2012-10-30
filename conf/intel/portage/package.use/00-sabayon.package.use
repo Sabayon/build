@@ -481,6 +481,7 @@ virtual/opencl video_cards_nvidia video_cards_fglrx
 
 www-apps/egroupware mysql
 www-apps/owncloud mysql postgres sqlite3
+www-apps/phprojekt mysql
 www-apps/rt mysql
 www-apps/trac mysql postgres vhosts sqlite
 
