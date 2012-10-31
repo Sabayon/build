@@ -122,7 +122,7 @@ net-im/emesene **
 <gnome-base/gdm-9999 **
 <net-misc/vinagre-9999 **
 <gnome-base/gnome-fallback-9999 **
-
+<gnome-extra/nemo-9999 **
 
 # Additional deps pulled in that need to be keyworded
 =app-editors/xemacs-21.5.31 **
