@@ -128,6 +128,7 @@ net-im/emesene **
 =app-editors/xemacs-21.5.31 **
 =app-xemacs/emerge-1.11 **
 =app-xemacs/xemacs-base-2.27 **
+<x11-libs/libdesktop-agnostic-9999 **
 
 # Media stuff
 # =media-video/mpeg-tools-1.5b-r4 **

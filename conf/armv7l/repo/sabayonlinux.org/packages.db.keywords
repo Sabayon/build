@@ -119,3 +119,4 @@ dev-libs/eet ~arm
 gnome-base/gnome-control-center ~arm
 dev-libs/embryo ~arm
 gnome-extra/nemo ~arm
+x11-libs/libdesktop-agnostic ~arm
