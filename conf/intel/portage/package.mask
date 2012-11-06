@@ -187,3 +187,6 @@ gnustep-apps/terminal
 
 # 2012-02-15 Joost Ruis: Only use pymol from our overlay since it has depends on python-tk  
 sci-chemistry/pymol::gentoo
+
+# 2012-11-06 Sławomir Nizio: breaks sys-apps/man-db - Gentoo bug #439422
+>=sys-apps/less-452
