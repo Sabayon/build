@@ -6,8 +6,8 @@ dev-libs/openssl -~amd64 -~x86
 dev-lang/perl -~amd64 -~x86
 sys-devel/make -~amd64 -~x86
 sys-kernel/linux-headers -~amd64 -~x86
-# make 3.82-r1 contains corruption patches
-=sys-devel/make-3.82-r1 ~amd64 ~x86
+# required to compile Chromium on x86, it seems
+=sys-devel/make-3.82-r4 ~amd64 ~x86
 
 app-crypt/qca:2 **
 dev-python/pycups **
