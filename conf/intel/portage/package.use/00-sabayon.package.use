@@ -461,10 +461,8 @@ sys-fs/udev static-libs
 sys-apps/util-linux static-libs
 
 sys-kernel/genkernel cryptsetup crypt
-sys-kernel/linux-sabayon splash dmraid symlink grub iscsi mdadm luks lvm
-sys-kernel/linux-server splash dmraid grub iscsi mdadm luks lvm
-sys-kernel/linux-rt splash dmraid grub iscsi mdadm luks lvm
-sys-kernel/linux-fusion splash dmraid grub iscsi mdadm luks lvm
+sys-kernel/linux-sabayon splash dmraid symlink grub iscsi mdadm luks lvm zfs
+sys-kernel/linux-server splash dmraid grub iscsi mdadm luks lvm zfs
 sys-kernel/linux-openvz splash dmraid grub iscsi mdadm luks lvm
 sys-kernel/linux-hardened splash dmraid grub iscsi mdadm luks lvm
 sys-kernel/sabayon-sources symlink
