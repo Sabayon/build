@@ -309,7 +309,8 @@ media-video/mplayer 3dnow 3dnowext aalib amr ass bl cddb cdparanoia cpudetection
 media-video/mplayer fbcon bs2b
 # Drop dead code, doesn't work with libav
 media-video/mplayer2 -xvmc
-media-video/mkvtoolnix wxwindows
+# we have media-video/mkvtoolnix-gui
+media-video/mkvtoolnix -qt4 -wxwidgets
 media-video/ogmrip ogm mp4 srt
 media-video/totem xulrunner iplayer galago
 media-video/vdr SetGroupSep-Patch atsc cmdsubmenu dvbsetup dxr3 graphtft iptv menuorg pinplugin rotor submenu subtitles ttxtsubs ttxtsubs yaepg
