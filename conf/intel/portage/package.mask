@@ -182,8 +182,9 @@ gnustep-apps/terminal
 >dev-games/cegui-0.6.2b 
 
 # Fabio Erculiani, matter masks (preserved-libs bullshit):
->app-i18n/fcitx-4.1
->app-i18n/fcitx-configtool-0.3
+# updated by S. Nizio
+>app-i18n/fcitx-4.2.6.1
+>app-i18n/fcitx-configtool-0.4.4-r1
 
 # 2012-02-15 Joost Ruis: Only use pymol from our overlay since it has depends on python-tk  
 sci-chemistry/pymol::gentoo
