@@ -80,6 +80,9 @@ app-text/highlight -qt4
 # to install the fonts they want
 app-text/ghostscript-gpl -linguas_ja -linguas_ko -linguas_zh_CN -linguas_zh_TW
 
+# required for blender
+dev-cpp/glog gflags
+
 # soundex required by Entropy
 # secure-delete required by xulrunner
 dev-db/sqlite soundex extensions
