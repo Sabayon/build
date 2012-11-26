@@ -357,7 +357,7 @@ net-libs/aqbanking chipcard ofx
 net-libs/libgadu ssl threads
 net-libs/libsoup gnome
 net-libs/opal sip sipim h323
-net-libs/ptlib video stun wav pipechan dns
+net-libs/ptlib video stun wav pipechan dns http dtmf
 net-libs/wvstreams -qt3
 
 # Disable net-wireless/bluez for libpcap to avoid
