@@ -789,7 +789,7 @@ media-libs/libsamplerate sndfile
 app-benchmarks/phoronix-test-suite gd -gtk
 net-nds/openldap -minimal
 media-libs/libgpod ios
-app-emulation/ganeti kvm
+app-emulation/ganeti kvm lxc htools
 app-i18n/skk-jisyo cdb
 net-misc/x2goserver sqlite
 media-plugins/kipi-plugins calendar gpssync
