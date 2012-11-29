@@ -52,7 +52,7 @@ CONFIG_PROTECT="/usr/share/config/kdm /etc /etc/conf.d /etc/init.d"
 CONFIG_PROTECT_MASK="/etc/skel"
 SYNC="rsync://rsync.europe.gentoo.org/gentoo-portage"
 APACHE2_MPMS="prefork"
-GENTOO_MIRRORS="ftp://mirrors.tera-byte.com/pub/gentoo ftp://ftp.spline.inf.fu-berlin.de/mirrors/gentoo/ http://archive.mmu.edu.my/gentoo rsync://gentoo.bloodhost.ru/gentoo-distfiles ftp://gentoo.mirrors.tds.net/gentoo ftp://ftp.halifax.rwth-aachen.de/gentoo/ rsync://mirror.neolabs.kz/gentoo http://ftp.gentoo.bg/ http://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://ftp.cc.uoc.gr/mirrors/linux/gentoo/"
+GENTOO_MIRRORS="ftp://ftp.spline.inf.fu-berlin.de/mirrors/gentoo/ http://archive.mmu.edu.my/gentoo rsync://gentoo.bloodhost.ru/gentoo-distfiles ftp://gentoo.mirrors.tds.net/gentoo ftp://ftp.halifax.rwth-aachen.de/gentoo/ rsync://mirror.neolabs.kz/gentoo http://ftp.gentoo.bg/ http://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://mirrors.tera-byte.com/pub/gentoo"
 
 ## FUCK KILL PYTHON 3 WITH FIRE ##
 # Avoids python.eclass to compile stuff for Python 3
