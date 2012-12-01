@@ -21,7 +21,6 @@ sys-apps/baselayout::gentoo
 # Joost Ruis: Needed by masked python:3.1
 >=dev-python/simpletal-5.0
 >=dev-util/eric-5.0.2
->=net-irc/znc-0.098
 >=net-zope/zope-interface-3.6.1
 
 # Sławomir Nizio: needs Python 3

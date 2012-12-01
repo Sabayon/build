@@ -352,6 +352,7 @@ net-im/psi jingle
 
 net-irc/inspircd mysql sqlite
 net-irc/kvirc -audiofile dcc_video
+net-irc/znc -python
 
 net-libs/aqbanking chipcard ofx
 net-libs/libgadu ssl threads
