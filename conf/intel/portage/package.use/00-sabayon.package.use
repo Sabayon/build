@@ -797,7 +797,7 @@ app-emulation/ganeti kvm lxc htools
 app-i18n/skk-jisyo cdb
 net-misc/x2goserver sqlite
 media-plugins/kipi-plugins calendar gpssync
-sci-libs/gdal geos
+sci-libs/gdal curl geos
 dev-db/tora oracle
 media-sound/moc curl sndfile
 kde-base/kdepimlibs semantic-desktop
