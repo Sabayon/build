@@ -416,6 +416,7 @@ sci-geosciences/mapserver flash threads
 
 sci-libs/itpp fftw
 sci-libs/indilib nova
+sci-libs/plplot -wxwidgets
 sci-libs/vtk tk mpi
 
 sci-mathematics/maxima latex
