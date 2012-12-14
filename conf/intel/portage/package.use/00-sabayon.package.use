@@ -132,6 +132,7 @@ dev-perl/PDL fftw
 
 dev-python/cgkit 3ds
 dev-python/imaging tk
+dev-python/ipython -wxwidgets
 dev-python/matplotlib -wxwindows
 dev-python/pyside script
 
