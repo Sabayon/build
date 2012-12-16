@@ -24,7 +24,7 @@ _exec_locked() {
 		(
 			flock -s -n 9 || {
 				echo "Hello there," >&2;
-				echo "a chroot snapshot is in progress..." >%2;
+				echo "a chroot snapshot is in progress..." >&2;
 				echo "Try again later." >&2;
 				exit 1;
 			}
