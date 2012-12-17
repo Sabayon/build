@@ -1,5 +1,7 @@
 #!/bin/sh
 
+. /etc/profile
+
 set -e
 
 TMPL_PATH="$(dirname "${0}")/antimatter"
