@@ -1,0 +1,33 @@
+#!/bin/sh
+
+set -e
+
+TMPL_PATH="$(dirname "${0}")/antimatter"
+HEADER_PATH="${TMPL_PATH}/antimatter.html.header"
+FOOTER_PATH="${TMPL_PATH}/antimatter.html.footer"
+UPGRADE_PATH="${TMPL_PATH}/antimatter.html.upgrade"
+DEAD_PATH="${TMPL_PATH}/antimatter.html.dead"
+NEW_PATH="${TMPL_PATH}/antimatter.html.new"
+ANTIMATTER="${ANTIMATTER:-antimatter}"
+
+(
+    cat "${HEADER_PATH}"
+
+    # Upgradable packages
+    cat "${UPGRADE_PATH}"
+    "${ANTIMATTER}" -u --quiet --extended --html
+
+    # Dead packages (dropped by upstream)
+    cat "${DEAD_PATH}"
+    "${ANTIMATTER}" -e --quiet --extended --html
+
+    # New packages
+    cat "${NEW_PATH}"
+    "${ANTIMATTER}" -n --quiet --extended --html
+
+    cat "${FOOTER_PATH}"
+
+) | mail -a "MIME-Version: 1.0" \
+    -a "Content-Type: text/html" \
+    -s "[$(uname -m)] AntiMatter tracker for $(date +%Y-%m-%d)" \
+    staff@lists.sabayon.org

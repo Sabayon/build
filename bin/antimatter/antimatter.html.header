@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<body>
+
+<style>
+.rt {
+  color: green;
+  font-family: arial, sans-serif;
+  font-size: 0.85em;
+}
+
+.rd {
+  font-size: 0.7em;
+  margin-bottom: 0.3em;
+}
+
+.frompkg {
+  color: brown;
+  font-family: arial, sans-serif;
+}
+
+.topkg {
+  color: red;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+}
+</style>
