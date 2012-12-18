@@ -19,6 +19,9 @@ app-cdr/k3b taglib
 
 app-crypt/mit-krb5 krb4 openldap
 
+# required by app-backup/deja-dup
+app-crypt/libsecret vala
+
 app-laptop/pommed -gtk
 app-laptop/tp_smapi hdaps
 app-editors/bluefish gnome
