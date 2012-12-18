@@ -7,27 +7,16 @@ set -e
 TMPL_PATH="$(dirname "${0}")/antimatter"
 HEADER_PATH="${TMPL_PATH}/antimatter.html.header"
 FOOTER_PATH="${TMPL_PATH}/antimatter.html.footer"
-UPGRADE_PATH="${TMPL_PATH}/antimatter.html.upgrade"
-DEAD_PATH="${TMPL_PATH}/antimatter.html.dead"
-NEW_PATH="${TMPL_PATH}/antimatter.html.new"
 ANTIMATTER="${ANTIMATTER:-antimatter}"
 
-(
-    cat "${HEADER_PATH}"
+cat "${HEADER_PATH}"
 
-    # Upgradable packages
-    cat "${UPGRADE_PATH}"
-    "${ANTIMATTER}" -u --quiet --extended --html
+# Upgradable packages
+"${ANTIMATTER}" -u --quiet --extended --html
 
-    # Dead packages (dropped by upstream)
-    cat "${DEAD_PATH}"
-    "${ANTIMATTER}" -e --quiet --extended --html
+# Dead packages (dropped by upstream)
+"${ANTIMATTER}" -e --quiet --extended --html
 
-    # New packages
-    cat "${NEW_PATH}"
-    "${ANTIMATTER}" -n --quiet --extended --html
-
-    cat "${FOOTER_PATH}" ) | sed \
-        -e "s|class='rt'|style='color: green;'|g" \
-        -e "s|class='frompkg'|style='color: brown;'|g" \
-        -e "s|class='topkg'|style='font-weight: bold; color: red;'|g"
+# New packages
+"${ANTIMATTER}" -n --quiet --extended --html
+cat "${FOOTER_PATH}"
