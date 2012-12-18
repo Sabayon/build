@@ -254,6 +254,8 @@ media-gfx/xsane tiff
 media-gfx/zbar imagemagick v4l
 
 media-libs/blib aalib
+# required by media-sound/picard
+media-libs/chromaprint tools
 media-libs/devil mng
 media-libs/freetype -X -auto-hinter
 media-libs/libgphoto2 exif
