@@ -18,9 +18,9 @@ ANTIMATTER="${ANTIMATTER:-antimatter}"
     # Dead packages (dropped by upstream)
     "${ANTIMATTER}" -e --quiet --extended --html
 
-    # New packages
-    "${ANTIMATTER}" -n --quiet --extended --html
-    cat "${FOOTER_PATH}"
+    # New packages - temp disabled
+    # "${ANTIMATTER}" -n --quiet --extended --html
+    # cat "${FOOTER_PATH}"
 
 ) | sed \
     -e "s|class='rt'|style='color: green;'|g" \
