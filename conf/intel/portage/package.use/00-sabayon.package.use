@@ -402,6 +402,7 @@ net-p2p/deluge webinterface
 net-p2p/eiskaltdcpp json
 net-p2p/vuze source
 
+net-print/cnijfilter ip100 mx710 mx890 mx370 mx430 mx510 e600
 net-print/cups -java
 net-print/gutenprint foomaticdb -gtk
 net-print/hplip -acl fax hpijs parport snmp static-ppds usb
