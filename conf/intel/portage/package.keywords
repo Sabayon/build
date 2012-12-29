@@ -31,3 +31,6 @@ dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 media-plugins/gst-plugins-assrender **
 # ~x86 arch missing
 media-video/hwdecode-demos ** ~x86 ~amd64
+
+# From the bumblebee overlay
+=x11-misc/primus-9999 ** ~amd64 ~x86
