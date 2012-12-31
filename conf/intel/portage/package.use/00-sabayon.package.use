@@ -1003,3 +1003,6 @@ media-libs/freetype infinality
 
 # required by media-gfx/luminance-hdr
 sci-libs/fftw threads
+
+# SSE2 required, otherwise it does not merge
+media-gfx/luminance-hdr sse2
