@@ -48,7 +48,7 @@ dev-python/python-poppler-qt4 (.*)app-text/poppler(.*)(\[.*\]) \1app-text/popple
 app-text/mate-document-viewer (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-glib-\2
 app-text/qpdfview (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-text/leechcraft-monocle (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
-net-print/cups-filters (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
+net-print/cups-filters (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 
 # Fix enigmail deps, to point to our split pinentry packages
 x11-plugins/enigmail (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2\2
