@@ -46,3 +46,6 @@ eit() {
 	_exec_locked "/usr/bin/eit" "${@}"
 	return ${?}
 }
+
+# Alias configuration
+alias cosmos=/particles/cosmos/cosmos
