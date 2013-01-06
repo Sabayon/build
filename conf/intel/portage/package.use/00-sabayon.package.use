@@ -1006,3 +1006,6 @@ sci-libs/fftw threads
 
 # SSE2 required, otherwise it does not merge
 media-gfx/luminance-hdr sse2
+
+# Required by XBMC 12.x
+net-libs/libmicrohttpd messages
