@@ -258,7 +258,7 @@ virtual/ffmpeg (.*)media-video/ffmpeg(.*) \1media-video/libav\2
 
 # pygobject-cairo rewrite, simple catch-all rewrite
 # this might not catch all the strings
-* (.*)dev-python/pygobject(.*)\[cairo\] \1dev-python/pygobject-cairo\2
+* (.*)dev-python/pygobject(.*)\[cairo(.*)\] \1dev-python/pygobject-cairo\2
 # Rewrite almost every standard dev-python/pygobject dependency
 * (.*)dev-python/pygobject(?!.*-base.*)(?!.*-cairo.*)((?=-[0-9]\.)?)(?!.*-2\*)(?!.*:2)((.*:3)?)(?!.*\[.*cairo.*\].*) \1dev-python/pygobject-base\2\3
 
