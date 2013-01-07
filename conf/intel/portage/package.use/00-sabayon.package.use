@@ -1009,3 +1009,6 @@ media-gfx/luminance-hdr sse2
 
 # Required by XBMC 12.x
 net-libs/libmicrohttpd messages
+
+# Required by gnome-documents 3.6
+dev-libs/libgdata gnome
