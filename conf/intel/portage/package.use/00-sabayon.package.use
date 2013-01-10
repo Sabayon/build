@@ -77,6 +77,8 @@ app-text/texlive -truetype
 # qt4 is a bit overkill for highlight
 # our servers don't want qt4 either.
 app-text/highlight -qt4
+# qt4 is overkill for cmake as well
+dev-util/cmake -qt4
 
 # Since those are not linker deps, we
 # can drop then and let users decide
