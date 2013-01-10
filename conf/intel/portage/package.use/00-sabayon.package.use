@@ -1016,5 +1016,5 @@ net-libs/libmicrohttpd messages
 dev-libs/libgdata gnome
 
 # Super Google MySQL!
-dev-db/google-mysql static -embedded
+dev-db/google-mysql -embedded
 dev-libs/lzo static-libs
