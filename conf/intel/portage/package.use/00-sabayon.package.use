@@ -1017,3 +1017,4 @@ dev-libs/libgdata gnome
 
 # Super Google MySQL!
 dev-db/google-mysql static -embedded
+dev-libs/lzo static-libs
