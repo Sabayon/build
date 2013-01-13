@@ -13,6 +13,8 @@ app-admin/apache-tools -~amd64 -~x86
 www-servers/apache -~amd64 -~x86
 # required to compile Chromium on x86, it seems
 =sys-devel/make-3.82-r4 ~amd64 ~x86
+# there is no fpc-gui 2.6.0 for fpc yet, stick with table
+dev-lang/fpc -~amd64 -~x86
 
 app-crypt/qca:2 **
 dev-python/pycups **
