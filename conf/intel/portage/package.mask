@@ -88,9 +88,6 @@ games-arcade/rocksndiamonds
 # Joost Ruis: Wants gd-external for PHP, not want
 net-analyzer/pnp4nagios
 
-# 2010-05-07 Be careful, these versions made xbmc+vdpau go boom
-# >media-video/ffmpeg-0.5_p20373
-
 # 2010-10-02 Joost Ruis: Needs PHP with +mssql
 dev-php/PEAR-MDB2_Driver_mssql
 
@@ -169,3 +166,6 @@ sci-chemistry/pymol::gentoo
 
 # 2013-01-05 Sławomir Nizio: mask versions that may be buggy, http://bugs.sabayon.org/show_bug.cgi?id=3872
 >sys-apps/kbd-1.15.3
+
+# 2013-01-13 Fabio Erculiani: we use media-video/libav
+media-video/ffmpeg
