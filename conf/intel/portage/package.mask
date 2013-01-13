@@ -169,3 +169,5 @@ sci-chemistry/pymol::gentoo
 
 # 2013-01-13 Fabio Erculiani: we use media-video/libav
 media-video/ffmpeg
+# also, latest versions of mplayer pull in ffmpeg directly, mask them
+>media-video/mplayer-1.0_rc4_p20110322-r1
