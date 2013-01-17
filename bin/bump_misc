@@ -25,7 +25,8 @@ git)
 subversion)
 	$cmd \
 		dev-vcs/subversion::sabayon-distro \
-		dev-vcs/subversion-java
+		dev-vcs/subversion-java \
+		www-apache/mod_dav_svn
 	;;
 transmission)
 	$cmd \
