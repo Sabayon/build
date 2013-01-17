@@ -495,6 +495,9 @@ sys-libs/db -java
 virtual/ooo java
 virtual/opencl video_cards_nvidia video_cards_fglrx
 
+# relevant flags must be kept in sync with dev-vcs/subversion
+www-apache/mod_dav_svn -dso
+
 www-apps/egroupware mysql
 www-apps/owncloud mysql postgres sqlite3
 www-apps/phprojekt mysql
