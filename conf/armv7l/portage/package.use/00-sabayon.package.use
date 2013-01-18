@@ -148,3 +148,6 @@ sys-kernel/genkernel cryptsetup crypt
 
 # Needed for emesene
 net-libs/farstream python
+
+# PHP wants gd
+dev-lang/php gd truetype
