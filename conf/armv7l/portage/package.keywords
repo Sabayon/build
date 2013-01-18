@@ -130,3 +130,6 @@ net-im/emesene **
 
 # Frozen Bubble
 =games-arcade/frozen-bubble-2.2.1_beta1 **
+
+# XBMC, we want unstable
+media-tv/xbmc ~arm
