@@ -26,7 +26,7 @@ app-laptop/pommed -gtk
 app-laptop/tp_smapi hdaps
 app-editors/bluefish gnome
 app-editors/emacs xft
-app-editors/vim vim-pager
+app-editors/vim cscope vim-pager
 app-editors/xemacs xft
 
 # virt stuff
