@@ -171,3 +171,7 @@ sci-chemistry/pymol::gentoo
 media-video/ffmpeg
 # also, latest versions of mplayer pull in ffmpeg directly, mask them
 >media-video/mplayer-1.0_rc4_p20110322-r1
+
+# 2013-01-23 Fabio Erculiani: app-misc/pax-utils-0.6 breaks genkernel initramfs generation
+# See Gentoo bug #450688, mask pax-utils for now
+>=app-misc/pax-utils-0.6
