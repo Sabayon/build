@@ -164,9 +164,6 @@ sci-chemistry/pymol::gentoo
 # 2012-12-31 Fabio Erculiani: temp mask apache-2.4, we're not ready yet
 >=www-servers/apache-2.3
 
-# 2013-01-05 Sławomir Nizio: mask versions that may be buggy, http://bugs.sabayon.org/show_bug.cgi?id=3872
->sys-apps/kbd-1.15.3
-
 # 2013-01-13 Fabio Erculiani: we use media-video/libav
 media-video/ffmpeg
 # also, latest versions of mplayer pull in ffmpeg directly, mask them
