@@ -49,6 +49,7 @@ app-text/mate-document-viewer (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppl
 app-text/qpdfview (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-text/leechcraft-monocle (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 net-print/cups-filters (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
+mail-client/claws-mail-pdf-viewer (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 
 # Fix enigmail deps, to point to our split pinentry packages
 x11-plugins/enigmail (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2\2
@@ -96,6 +97,8 @@ dev-java/netbeans-ide (.*)dev-vcs/subversion(.*):0\[java\] \1dev-vcs/subversion-
 
 # Drop kde-l10n* deps
 kde-misc/kover (.*)kde-base/kde-l10n(.*)
+kde-misc/kdirstat (.*)kde-base/kde-l10n(.*)
+dev-util/kdbg (.*)kde-base/kde-l10n(.*)
 kde-misc/customizable-weather (.*)kde-base/kde-l10n(.*)
 media-gfx/digikam (.*)kde-base/kde-l10n(.*)
 dev-util/kdevelop (.*)kde-base/kde-l10n(.*)
