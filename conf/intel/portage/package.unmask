@@ -54,3 +54,6 @@ media-video/nvidia-settings::sabayon-distro
 <x11-drivers/xf86-video-ati-9999
 <x11-drivers/xf86-video-nouveau-9999
 <x11-libs/libdrm-9999
+
+# Unmask for us:
+media-video/avidemux:2
