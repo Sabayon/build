@@ -269,3 +269,5 @@ virtual/ffmpeg (.*)media-video/ffmpeg(.*) \1media-video/libav\2
 # ati-drivers, nvidia-drivers rewrites
 virtual/opencl (.*)x11-drivers/ati-drivers(.*) \1x11-drivers/ati-userspace\2
 virtual/opencl (.*)x11-drivers/nvidia-drivers(.*) \1x11-drivers/nvidia-userspace\2
+dev-util/nvidia-cuda-sdk (.*)x11-drivers/nvidia-drivers(.*) \1x11-drivers/nvidia-userspace\2
+dev-python/pycuda (.*)x11-drivers/nvidia-drivers(.*) \1x11-drivers/nvidia-userspace\2
