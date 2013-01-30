@@ -36,6 +36,6 @@ net-im/skype				>=net-im/skype-4.0.0.7-r2 skype-4.0.0.7-copyright
 sci-electronics/eagle                   cadsoft
 sci-geosciences/googleearth             googleearth
 www-plugins/adobe-flash			AdobeFlash-10.3
-www-plugins/google-talkplugin           google-talkplugin
+www-plugins/google-talkplugin           Google-TOS
 dev-java/oracle-jdk-bin			Oracle-BCLA-JavaSE
 dev-java/oracle-jre-bin			Oracle-BCLA-JavaSE
