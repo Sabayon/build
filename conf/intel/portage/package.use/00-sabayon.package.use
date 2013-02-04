@@ -1023,3 +1023,6 @@ dev-libs/libgdata gnome
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
+
+# Wants an old version of farstream stuff
+net-libs/telepathy-qt -farstream
