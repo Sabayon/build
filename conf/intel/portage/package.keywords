@@ -9,6 +9,7 @@ sys-kernel/linux-headers -~amd64 -~x86
 net-libs/gnutls -~amd64 -~x86
 dev-lang/tcl -~amd64 -~x86
 dev-lang/tk -~amd64 -~x86
+dev-lang/ghc -~amd64 -~x86
 
 # Apache is a critical component and 2.2 is still
 # "good enough", 2.4 isn't yet stabilized
