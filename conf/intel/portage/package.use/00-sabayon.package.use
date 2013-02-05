@@ -90,7 +90,8 @@ dev-cpp/glog gflags
 
 # soundex required by Entropy
 # secure-delete required by xulrunner
-dev-db/sqlite soundex extensions
+# unlock-notify required by dev-db/libzdb
+dev-db/sqlite soundex extensions unlock-notify
 
 dev-embedded/avr-libc -selinux
 dev-embedded/openocd ftdi
