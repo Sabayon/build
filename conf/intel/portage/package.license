@@ -26,6 +26,7 @@ games-strategy/darwinia-demo		Introversion
 games-strategy/darwinia			Introversion
 app-cdr/nero				Nero-EULA-US
 games-simulation/bcs-demo       	BCS
+media-sound/google-musicmanager		Google-TOS
 net-wireless/broadcom-sta		Broadcom
 app-emulation/virtualbox-bin		PUEL
 media-sound/google-musicmanager		google-talkplugin Apache-2.0 MIT LGPL-2.1 gSOAP BSD FDL-1.2 MPL-1.1 openssl ZLIB as-is
