@@ -51,6 +51,9 @@ app-text/leechcraft-monocle (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-
 net-print/cups-filters (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 mail-client/claws-mail-pdf-viewer (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 
+# lightdm split rewrite
+razorqt-base/razorqt-lightdm-greeter (.*)x11-misc/lightdm\[qt4\](.*) \1x11-misc/lightdm-qt4\2
+
 # Fix enigmail deps, to point to our split pinentry packages
 x11-plugins/enigmail (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2\2
 x11-plugins/enigmail (.*)app-crypt/pinentry(.*)\[qt4\] \1app-crypt/pinentry-qt4\2
