@@ -1027,3 +1027,6 @@ dev-libs/lzo static-libs
 
 # Wants an old version of farstream stuff
 net-libs/telepathy-qt -farstream
+
+# We must split lightdm, so no qt4 nor gtk
+x11-misc/lightdm -qt4 -gtk
