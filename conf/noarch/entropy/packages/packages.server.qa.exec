@@ -74,7 +74,7 @@ def check_unwanted_deps():
     # You can only declare key or key:slot
     unwanted_deps = ["app-admin/packagekit", "app-text/poppler",
         "kde-base/kde-l10n", "net-dns/avahi", "net-p2p/transmission",
-        "app-crypt/pinentry", "dev-python/pygobject:3"]
+        "app-crypt/pinentry", "dev-python/pygobject:3", "x11-misc/lightdm"]
     warning_deps = ["media-libs/libjpeg-turbo", "media-libs/jpeg",
         "dev-lang/gnat-gcc", "dev-lang/gcc", "x11-drivers/nvidia-drivers",
         "x11-drivers/ati-drivers"]
