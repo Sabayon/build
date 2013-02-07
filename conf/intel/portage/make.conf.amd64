@@ -4,7 +4,7 @@
 # Compiler stuff
 GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
 # Only enable Graphite via package.env
-CFLAGS="-O2 -march=x86-64 -pipe" # -ftree-vectorize ${GRAPHITE}"
+CFLAGS="-O2 -march=x86-64 -pipe -ggdb" # -ftree-vectorize ${GRAPHITE}"
 CHOST="x86_64-pc-linux-gnu"
 CXXFLAGS="${CFLAGS}"
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
