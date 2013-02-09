@@ -466,6 +466,8 @@ sys-boot/grub -grub_platforms_multiboot grub_platforms_pc -grub_platforms_qemu l
 # but let's see what happens if we enable it
 sys-boot/grub grub_platforms_efi-64 grub_platforms_efi-32
 
+sys-cluster/torque server
+
 sys-devel/distcc -avahi
 sys-devel/gcc objc objc++ objc-gc graphite -gtk
 sys-devel/base-gcc objc objc++ objc-gc graphite -gtk
