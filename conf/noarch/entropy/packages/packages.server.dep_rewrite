@@ -201,6 +201,7 @@ media-sound/kaudiocreator (.*)kde-base/kde-l10n(.*)
 net-im/ktp-contact-runner (.*)kde-base/kde-l10n(.*)
 kde-misc/yakuake (.*)kde-base/kde-l10n(.*)
 media-gfx/kuickshow (.*)kde-base/kde-l10n(.*)
+x11-misc/lightdm-kde (.*)kde-base/kde-l10n(.*)
 
 # Drop x11-libs/cairo PDEPEND from dev-libs/gobject-introspection
 # cairo pulls in mesa (through virtual/opengl) and this is very
