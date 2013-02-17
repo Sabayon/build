@@ -602,7 +602,7 @@ gnome-extra/nm-applet-gtk2 -bluetooth
 
 # added for mythtv
 x11-libs/qt-sql mysql
-dev-python/PyQt4 webkit sql assistant declarative examples
+dev-python/PyQt4 webkit sql assistant declarative examples script
 
 # enable Google Gadgets on Plasma
 # not yet!
