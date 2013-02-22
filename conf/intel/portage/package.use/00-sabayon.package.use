@@ -565,7 +565,7 @@ x11-misc/xaos aalib
 x11-misc/xscreensaver -new-login
 
 x11-plugins/pidgin-sipe voice
-x11-plugins/cairo-dock-plugins alsa compiz exif -gio -gmenu gnome -kde mail musicplayer -network-monitor powermanager terminal tomboy -webkit wifi -xfce xgamma -xklavier
+x11-plugins/cairo-dock-plugins alsa exif gmenu -kde terminal tomboy -webkit -xfce -xklavier
 x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisVert Ubuntu Verde Wood
 x11-themes/gtk-engines-murrine -themes
 x11-themes/gtk-engines-qtcurve -mozilla
