@@ -106,6 +106,8 @@ dev-java/glazedlists java5
 dev-java/icedtea -source
 dev-java/swt cairo -xulrunner
 dev-java/swt -firefox
+# net-p2p/vuze requires swt[gnome] in order to work, see bug #3724
+dev-java/swt gnome
 dev-java/tomcat-servlet-api java5
 
 dev-lang/fpc source
