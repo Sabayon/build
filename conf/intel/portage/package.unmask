@@ -57,3 +57,4 @@ media-video/nvidia-settings::sabayon-distro
 
 # Unmask for us:
 media-video/avidemux:2
+media-gfx/blender:0
