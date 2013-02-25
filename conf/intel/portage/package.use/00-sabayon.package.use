@@ -417,7 +417,7 @@ net-print/hplip -acl fax hpijs parport snmp static-ppds usb
 
 net-wireless/atmel-firmware pcmcia usb
 net-wireless/bluez gstreamer
-net-wireless/wpa_supplicant -qt3 -qt4 wimax ap p2p eap-sim fasteap wps
+net-wireless/wpa_supplicant -qt3 -qt4 wimax ap p2p eap-sim wps
 
 # workaround for https://bugs.gentoo.org/show_bug.cgi?id=361411
 sci-biology/transfac -emboss
