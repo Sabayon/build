@@ -30,7 +30,7 @@ app-editors/vim cscope vim-pager
 app-editors/xemacs xft
 
 # virt stuff
-app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python
+app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/qemu-kvm no_kernel_module
 app-emulation/qemu-kvm havekernel -modules vde qemu-ifup spice fdt
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
