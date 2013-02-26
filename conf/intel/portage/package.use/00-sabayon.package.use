@@ -858,7 +858,7 @@ x11-themes/tango-icon-theme branding
 dev-games/ode double-precision
 dev-util/nvidia-cuda-sdk opencl
 sci-chemistry/openbabel -perl -python
-media-sound/clementine ios moodbar
+media-sound/clementine lastfm ios moodbar
 dev-libs/tinyxml stl
 net-misc/mediatomb thumbnail -javascript
 
