@@ -309,6 +309,7 @@ media-tv/freevo lirc matrox
 media-tv/xawtv aalib
 # Disabling vaapi for now, see bug #2221
 media-tv/xbmc vdpau css vaapi webserver rtmp xrandr goom upnp bluray
+media-tv/xbmc bluray css goom mysql pvr rtmp upnp vaapi vdpau webserver xrandr
 
 # 32bit plugin is unwanted, enabling vdpau doesn't change anything actually
 www-plugins/adobe-flash -32bit
