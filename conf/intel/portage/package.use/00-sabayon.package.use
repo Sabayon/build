@@ -308,7 +308,6 @@ media-sound/kid3 -mp4
 media-tv/freevo lirc matrox
 media-tv/xawtv aalib
 # Disabling vaapi for now, see bug #2221
-media-tv/xbmc vdpau css vaapi webserver rtmp xrandr goom upnp bluray
 media-tv/xbmc bluray css goom mysql pvr rtmp upnp vaapi vdpau webserver xrandr
 
 # 32bit plugin is unwanted, enabling vdpau doesn't change anything actually
@@ -429,6 +428,7 @@ sci-astronomy/celestia -kde
 
 sci-geosciences/grass tcl tk fftw
 sci-geosciences/mapserver flash threads
+sci-geosciences/qgis grass
 
 sci-libs/itpp fftw
 sci-libs/indilib nova
@@ -777,7 +777,6 @@ net-misc/hylafax mgetty
 
 # temp. disable python support due to sip shit
 sci-chemistry/avogadro -python
-sci-geosciences/qgis -python
 
 # libva coolness
 x11-libs/libva video_cards_dummy
