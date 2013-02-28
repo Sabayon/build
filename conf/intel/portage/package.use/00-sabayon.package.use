@@ -298,6 +298,9 @@ media-sound/leechcraft-lmp kde
 media-sound/lmms fftw fluidsynth 
 media-sound/ncmpcpp curl
 media-sound/qtractor sse
+# 2.92 with USE=cdr requires =app-cdr/brasero-3.4* but
+# gnome-base/gnome-core-apps[cdr] depends on >=app-cdr/brasero-3.6.1
+media-sound/rhythmbox -cdr
 media-sound/snd fftw
 media-sound/sonic-visualiser fftw
 >=media-sound/soundkonverter-0.2.90-r1 lame
