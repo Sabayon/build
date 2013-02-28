@@ -43,6 +43,9 @@ media-plugins/gst-plugins-assrender **
 # ~x86 arch missing
 media-video/hwdecode-demos ** ~x86 ~amd64
 
+# using only stable versions
+www-client/chromium -~amd64 -~x86
+
 # From the bumblebee overlay
 =x11-misc/primus-9999 ** ~amd64 ~x86
 
