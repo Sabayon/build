@@ -1,9 +1,9 @@
 #!/bin/bash
-# Emerge wrapper, uses matter lock file support to avoid
-# concurrent execution
+
 _exec_locked() {
-	snapshot_lock_file="/var/tmp/.emerge.snapshot.lock"
-	matter_lock_file="/var/tmp/.matter_resource.lock"
+	local lvm_snapshot_lock_file="/.entropy_locks/vg_chroots-lv_chroots-snapshot.lock"
+	local snapshot_lock_file="/var/tmp/.emerge.snapshot.lock"
+	local matter_lock_file="/var/tmp/.matter_resource.lock"
 
 	flock -x -n "${matter_lock_file}" true
 	rc=${?}
@@ -15,7 +15,7 @@ _exec_locked() {
 		echo "Snapshot lock file = ${snapshot_lock_file}" >&2
 		echo "Matter lock file = ${matter_lock_file}" >&2
 		echo >&2
-		echo "this emerge instance will terminate NOW" >&2
+		echo "This ${1} instance will terminate NOW" >&2
 		echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" >&2
 		echo >&2
 		return 1
@@ -28,12 +28,28 @@ _exec_locked() {
 				echo "Try again later." >&2;
 				exit 1;
 			}
-			# eval $(portageq envvar -v FETCHCOMMAND RESUMECOMMAND PORTAGE_RSYNC_OPTS)
-			# add bandwidth limit here
+
+			flock -s --timeout=120 10
+			if [ "${?}" != "0" ]; then
+				echo >&2
+				echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" >&2
+				echo "The LVM lock of the Backup Script is being held for 2 minutes" >&2
+				echo "This should not happen. Please contact lxnay@sabayon.org and" >&2
+				echo "stop any activity NOW. However, if you're in an emergency" >&2
+				echo "Just rm ${lvm_snapshot_lock_file} and continue." >&2
+				echo "Please note that this will cause inconsistent backups." >&2
+				echo >&2
+				echo "This instance will terminate NOW" >&2
+				echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" >&2
+				echo >&2
+				exit 1
+			fi
+
 			"${@}"
 			exit ${?}
-		) 9> "${snapshot_lock_file}"
-		return "${?}"
+
+		) 9> "${snapshot_lock_file}" 10>"${lvm_snapshot_lock_file}"
+		return ${?}
 	fi
 }
 
