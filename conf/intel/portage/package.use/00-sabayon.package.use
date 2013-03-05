@@ -454,7 +454,6 @@ sci-visualization/gwyddion fftw
 
 sys-auth/pambase consolekit -kerberos
 
-sys-apps/coreutils -acl
 sys-apps/groff -X
 sys-apps/hwdata-gentoo binary-drivers
 sys-apps/pciutils -zlib
