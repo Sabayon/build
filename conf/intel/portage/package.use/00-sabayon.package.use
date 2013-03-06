@@ -70,7 +70,7 @@ app-text/enchant aspell
 app-text/fbreader -gtk
 app-text/ghostscript-gpl -cjk -gtk
 app-text/lcdf-typetools kpathsea
-app-text/mate-document-viewer caja mate mate-keyring
+app-text/mate-document-viewer caja djvu dvi mate mate-keyring
 app-text/stardict tools
 app-text/texlive -truetype
 
