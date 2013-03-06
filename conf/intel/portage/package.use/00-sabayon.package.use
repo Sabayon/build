@@ -546,11 +546,11 @@ dev-libs/ecore curl
 x11-libs/goffice gnome
 
 # Drop gtk style support from qt-gui, it's just ridiculous
-x11-libs/qt-gui mng private-headers raster -gtk
+dev-qt/qtgui mng private-headers raster -gtk
 
-x11-libs/qt-core private-headers
-x11-libs/qt-script private-headers
-x11-libs/qt-declarative webkit private-headers
+dev-qt/qtcore private-headers
+dev-qt/qtscript private-headers
+dev-qt/qtdeclarative webkit private-headers
 x11-libs/wxGTK gstreamer
 
 # to make cinepaint work, enable threads on fltk
@@ -607,7 +607,7 @@ net-misc/networkmanager-openconnect gtk
 gnome-extra/nm-applet-gtk2 -bluetooth
 
 # added for mythtv
-x11-libs/qt-sql mysql
+dev-qt/qtsql mysql
 dev-python/PyQt4 webkit sql assistant declarative examples script help
 
 # enable Google Gadgets on Plasma
@@ -826,7 +826,7 @@ dev-db/tora oracle
 media-sound/moc curl sndfile
 kde-base/kdepimlibs semantic-desktop
 media-libs/gd fontconfig
-x11-libs/qt-webkit kde icu
+dev-qt/qtwebkit kde icu
 www-client/uget gstreamer
 dev-libs/libf2c static-libs
 kde-base/krdc vnc
@@ -838,8 +838,8 @@ app-editors/gedit-plugins terminal
 sci-chemistry/xds-bin smp
 dev-java/gnu-classpath -qt4
 app-cdr/xfburn gstreamer
-x11-libs/qt-qt3support kde
-x11-libs/qt-assistant compat
+dev-qt/qt3support kde
+dev-qt/qtassistant compat
 app-text/texlive-core xetex
 media-sound/mp3splt-gtk gstreamer
 media-sound/gpodder gstreamer 
