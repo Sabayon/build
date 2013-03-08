@@ -54,7 +54,7 @@ _exec_locked() {
 }
 
 emerge() {
-	_exec_locked "/usr/bin/emerge" "${@}"
+	_exec_locked "/usr/bin/emerge" --quiet-build=y "${@}"
 	return ${?}
 }
 
