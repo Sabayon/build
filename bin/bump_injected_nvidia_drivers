@@ -2,12 +2,12 @@
 
 . /sabayon/bin/kernels.inc
 
-packages="~x11-drivers/nvidia-drivers-173.14.36 ~x11-drivers/nvidia-drivers-304.64" # ~x11-drivers/nvidia-drivers-96.43.20"
-non_injected_packages="~x11-drivers/nvidia-userspace-173.14.36 ~x11-drivers/nvidia-userspace-304.64" # ~x11-drivers/nvidia-userspace-96.43.20"
+packages="~x11-drivers/nvidia-drivers-173.14.36 ~x11-drivers/nvidia-drivers-304.84"
+non_kernel_packages="~x11-drivers/nvidia-userspace-173.14.36 ~x11-drivers/nvidia-userspace-304.84"
 ETP_REPO="${ETP_REPO:-sabayon-limbo}"
 
 rm -rf /usr/portage/packages/x11-drivers/*
-emerge -B ${non_injected_packages} || exit 1
+emerge -B ${non_kernel_packages} || exit 1
 eit inject --to ${ETP_REPO} /usr/portage/packages/x11-drivers/* || exit 1
 
 for kernel in $kernels; do
