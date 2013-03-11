@@ -1,0 +1,6 @@
+# Don't clobber screen status!
+# STRING
+# If the beginning of TERM matches a word of this space-separated list,
+# it is assumed that the terminal supports a status line.
+#TERM_STATUSLINE="xterm screen rxvt aterm konsole gnome Eterm eterm kterm interix"
+TERM_STATUSLINE=""
