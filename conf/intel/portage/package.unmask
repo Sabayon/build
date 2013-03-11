@@ -60,4 +60,4 @@ media-video/avidemux:2
 media-gfx/blender:0
 
 # Unmask for us:
-<dev-lang/jimtcl-9999
+<dev-embedded/openocd-9999
