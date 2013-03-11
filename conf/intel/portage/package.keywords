@@ -51,3 +51,6 @@ www-client/chromium -~amd64 -~x86
 
 # Keeps being pulled in while qgis still needs an older version
 >=x11-libs/qwtpolar-1.0 -~amd64 -~x86
+
+# Python 3.3, add keywords
+dev-lang/python:3.3 ~amd64 ~x86
