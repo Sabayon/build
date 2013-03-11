@@ -3,42 +3,56 @@
 # script that makes it easier to bump split packages
 # (and perhaps other fun stuff)
 
-list="git subversion transmission"
+list="git [sub]version [tra]nsmission"
 cmd="emerge -av"
+default_overlay="sabayon-distro"
+overlay=
+
+if [ "$1" = "--repo" ]; then
+	overlay=$2
+	if [ -z "$overlay" ]; then
+		echo "--repo requires an argument" >&2
+		exit 1
+	fi
+	shift; shift
+fi
+
+overlay=${overlay:-$default_overlay}
 
 what=$1
 
 if [ -z "$what" ]; then
-	echo "What to compile? [$list]"
+	echo "What to compile? [ $list ]"
 	read what
 fi
 
 case $what in
 git)
 	$cmd \
-		dev-vcs/git::sabayon-distro \
+		dev-vcs/git::"$overlay" \
 		dev-vcs/git-cvs \
 		dev-vcs/git-gui-tools \
 		dev-vcs/git-subversion \
 		www-apps/gitweb
 	;;
-subversion)
+subversion|sub)
 	$cmd \
-		dev-vcs/subversion::sabayon-distro \
+		dev-vcs/subversion::"$overlay" \
 		dev-vcs/subversion-java \
 		www-apache/mod_dav_svn
 	;;
-transmission)
+transmission|tra)
 	$cmd \
 		net-p2p/transmission-base \
 		net-p2p/transmission-cli \
 		net-p2p/transmission-daemon \
 		net-p2p/transmission-gtk \
 		net-p2p/transmission-qt4 \
-		net-p2p/transmission::sabayon-distro
+		net-p2p/transmission::"$overlay"
 	;;
 *)
 	echo "Excuse me, but I non capisco." >&2
+	echo "Use --repo <repository> to use different overlay (default: $default_overlay)." >&2
 	[ -n "$1" ] && echo "Run without any parameter for interactive use." >&2
 	exit 1
 esac
