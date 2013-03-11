@@ -243,7 +243,7 @@ mate-extra/mate-file-manager-sendto -cdr
 media-fonts/baekmuk-fonts -X
 
 media-gfx/asymptote -latex
-media-gfx/blender blender-game verse
+media-gfx/blender blender-game verse python_single_target_python3_3
 media-gfx/exiv2 xmp
 media-gfx/gimageview mng
 media-gfx/gimp aalib mng wmf smp
