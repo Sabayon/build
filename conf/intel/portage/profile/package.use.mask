@@ -1,1 +1,5 @@
 kde-base/solid -networkmanager
+
+# media-gfx/blender wants Python 3.3
+# need to unmask its use flag
+media-gfx/blender -python_single_target_python3_3
