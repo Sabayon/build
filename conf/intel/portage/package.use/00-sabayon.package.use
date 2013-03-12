@@ -205,7 +205,8 @@ gnome-extra/avant-window-navigator-extras gnome
 gnome-extra/evolution-data-server ldap kerberos
 gnome-extra/gnome-games -sudoku
 gnome-extra/libgsf gnome
-gnome-extra/zeitgeist-extensions fts
+# disable fts because gnome-extra/zeitgeist-extensions[fts] doesn't allow gnome-extra/zeitgeist[fts]
+gnome-extra/zeitgeist-extensions -fts
 
 kde-base/gwenview kipi semantic-desktop
 kde-base/kactivities semantic-desktop
