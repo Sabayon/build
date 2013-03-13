@@ -3,6 +3,8 @@
 # script that makes it easier to bump split packages
 # (and perhaps other fun stuff)
 
+. /sabayon/bin/buildrc || exit 2
+
 list="git [sub]version [tra]nsmission"
 cmd="emerge -av"
 default_overlay="sabayon-distro"
