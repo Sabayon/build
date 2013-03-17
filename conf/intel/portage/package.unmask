@@ -61,3 +61,6 @@ media-gfx/blender:0
 
 # Unmask for us:
 <dev-embedded/openocd-9999
+
+# >=qemu-1.2.0 has been masked on x86 due to futile reasons
+<app-emulation/qemu-9999
