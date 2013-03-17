@@ -326,7 +326,7 @@ media-video/blinkensim aalib
 virtual/ffmpeg threads ogg vhook faac faad vdpau video_cards_nvidia amr cpudetection vaapi vpx
 media-video/ffmpeg threads ogg vhook faac faad vdpau video_cards_nvidia amr cpudetection vaapi vpx
 media-video/libav amr cpudetection faac faad ogg rtmp threads vaapi vdpau vhook video_cards_nvidia vpx
-media-video/mplayer 3dnow 3dnowext aalib amr ass bl cddb cdparanoia cpudetection dvdnav -dxr3 ftp ladspa lirc -live md5sum mmxext mng mp2 openal pnm radio rar rtc sse sse2 ssse3 tga tivo vdpau vidix vpx x264 zoran
+media-video/mplayer 3dnow 3dnowext aalib amr ass bl cddb cdparanoia cpudetection dvdnav -dxr3 faac rtmp ftp ladspa lirc -live md5sum mmxext mng mp2 openal pnm radio rar rtc sse sse2 ssse3 tga tivo vdpau vidix vpx x264 zoran
 # testing mplayer flags
 media-video/mplayer fbcon bs2b
 # Drop dead code, doesn't work with libav
