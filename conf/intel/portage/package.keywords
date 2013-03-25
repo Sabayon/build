@@ -58,3 +58,4 @@ dev-lang/python:3.3 ** ~amd64 ~x86
 # OpenEXR 2.0.0 causes a huge breakage, keep stable, mask unstable
 media-libs/ilmbase -~amd64 -~x86
 media-libs/openexr -~amd64 -~x86
+media-gfx/openexr_viewers -~amd64 -~x86
