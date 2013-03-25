@@ -58,6 +58,7 @@ media-video/nvidia-settings::sabayon-distro
 # Unmask for us:
 media-video/avidemux:2
 media-gfx/blender:0
+media-gfx/yafaray:0
 
 # Unmask for us:
 <dev-embedded/openocd-9999
