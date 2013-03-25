@@ -8,7 +8,7 @@ media-gfx/gimp (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-glib-\2
 net-print/cups (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
 app-text/calibre (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-qt4-\2
 app-text/dvipdfmx (.*)app-text/poppler-(\d.*)(\[.*\])? \1app-text/poppler-base-\2
-dev-tex/luatex (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
+dev-tex/luatex (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 app-misc/beagle (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
 app-misc/tracker (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-glib-\2
 app-office/krita (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-qt4-\2
