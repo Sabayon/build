@@ -478,7 +478,7 @@ sys-boot/grub grub_platforms_efi-64 grub_platforms_efi-32
 sys-cluster/torque server
 
 sys-devel/distcc -avahi
-sys-devel/gcc objc objc++ objc-gc graphite -gtk
+sys-devel/gcc objc objc++ objc-gc graphite go -gtk
 sys-devel/base-gcc objc objc++ objc-gc graphite -gtk
 
 sys-fs/cryptsetup static
