@@ -13,9 +13,6 @@ app-shells/bashdb
 # Joost Ruis: Blocks media-gfx/hugin
 dev-util/cocom
 
-# Joost Ruis: We use KDE and want the KDE phonon package
-#x11-libs/qt-phonon
-
 # Joost Ruis: Requires mesa +motif
 media-libs/openinventor
 sci-biology/arb
