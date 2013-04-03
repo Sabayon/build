@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec /usr/sbin/sshd -e "${@}" 2> /.sshd.log
