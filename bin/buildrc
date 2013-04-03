@@ -1,9 +1,15 @@
 #!/bin/bash
 
 _exec_locked() {
+	local tmp_dir="/var/tmp"
 	local lvm_snapshot_lock_file="/.entropy_locks/vg_chroots-lv_chroots-snapshot.lock"
-	local snapshot_lock_file="/var/tmp/.emerge.snapshot.lock"
-	local matter_lock_file="/var/tmp/.matter_resource.lock"
+	local snapshot_lock_file="${tmp_dir}/.emerge.snapshot.lock"
+	local matter_lock_file="${tmp_dir}/.matter_resource.lock"
+
+	if [ ! -d "${tmp_dir}" ]; then
+		echo "${tmp_dir} is missing, creating it..." >&2
+		mkdir -p "${tmp_dir}"
+	fi
 
 	flock -x -n "${matter_lock_file}" true
 	rc=${?}
