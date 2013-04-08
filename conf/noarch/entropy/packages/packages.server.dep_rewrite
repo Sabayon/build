@@ -50,6 +50,7 @@ app-text/qpdfview (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-leechcraft/lc-monocle (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 net-print/cups-filters (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 mail-client/claws-mail-pdf-viewer (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
+kde-base/nepomuk-core (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 
 # lightdm split rewrite
 razorqt-base/razorqt-lightdm-greeter (.*)x11-misc/lightdm(.*)\[qt4\] \1x11-misc/lightdm-qt4\2
