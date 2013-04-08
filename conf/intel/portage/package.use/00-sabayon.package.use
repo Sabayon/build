@@ -1043,3 +1043,6 @@ media-sound/pulseaudio system-wide
 
 # 32bit libs on amd64, list them here
 media-libs/libsdl abi_x86_32
+
+# Required by dev-python/graph-tool
+dev-python/numpy lapack
