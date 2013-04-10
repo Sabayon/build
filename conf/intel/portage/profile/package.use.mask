@@ -6,3 +6,8 @@ media-gfx/blender -python_single_target_python3_3 -python_targets_python3_3
 
 # http://bugs.sabayon.org/show_bug.cgi?id=4115
 media-sound/audacity -ffmpeg
+
+# USE=systemd unmasking, no need to keep them masked
+sys-auth/polkit -systemd
+sys-power/upower -systemd
+sys-fs/udisks -systemd
