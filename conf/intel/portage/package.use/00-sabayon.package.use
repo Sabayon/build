@@ -1055,3 +1055,4 @@ gnome-base/gnome-session systemd
 gnome-base/gnome-shell systemd
 gnome-base/gnome-settings-daemon systemd
 gnome-base/gnome-control-center systemd
+media-sound/pulseaudio systemd
