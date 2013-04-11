@@ -1061,3 +1061,4 @@ gnome-base/gnome-control-center systemd
 media-sound/pulseaudio systemd
 sys-apps/busybox systemd
 sys-apps/accountsservice systemd
+gnome-base/gvfs systemd
