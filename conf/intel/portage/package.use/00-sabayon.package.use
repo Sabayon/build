@@ -1064,3 +1064,4 @@ sys-apps/accountsservice systemd
 gnome-base/gvfs systemd
 sys-fs/udisks systemd
 sys-power/upower systemd
+sys-apps/udevil systemd
