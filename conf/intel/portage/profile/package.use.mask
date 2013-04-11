@@ -11,3 +11,6 @@ media-sound/audacity -ffmpeg
 sys-auth/polkit -systemd
 sys-power/upower -systemd
 sys-fs/udisks -systemd
+
+# We use a builtin module for sys-fs/zfs
+sys-fs/zfs -kernel-builtin
