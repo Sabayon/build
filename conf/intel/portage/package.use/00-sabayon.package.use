@@ -1049,4 +1049,4 @@ dev-python/numpy lapack
 # systemd support
 sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr
 net-misc/networkmanager systemd
-sys-auth/pokit systemd
+sys-auth/polkit systemd
