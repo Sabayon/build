@@ -1052,3 +1052,5 @@ net-misc/networkmanager systemd
 sys-auth/polkit systemd
 gnome-base/gdm systemd
 gnome-base/gnome-session systemd
+gnome-base/gnome-shell systemd
+gnome-base/gnome-settings-daemon systemd
