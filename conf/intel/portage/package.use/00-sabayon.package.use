@@ -1046,6 +1046,9 @@ media-libs/libsdl abi_x86_32
 # Required by dev-python/graph-tool
 dev-python/numpy lapack
 
+# We use a builtin kernel module
+sys-fs/zfs kernel-builtin
+
 # systemd support
 sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr
 net-misc/networkmanager systemd
