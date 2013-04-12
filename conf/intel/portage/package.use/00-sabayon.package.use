@@ -1066,3 +1066,7 @@ sys-fs/udisks systemd
 sys-power/upower systemd
 sys-apps/udevil systemd
 x11-misc/colord systemd
+mate-base/mate-session-manager systemd
+mate-extra/mate-power-manager systemd
+mate-extra/mate-screensaver systemd
+gnome-extra/gnome-screensaver systemd
