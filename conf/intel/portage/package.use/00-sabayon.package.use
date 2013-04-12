@@ -1051,6 +1051,7 @@ sys-fs/zfs kernel-builtin
 
 # systemd support
 sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr
+app-laptop/laptop-mode-tools systemd
 net-misc/networkmanager systemd
 sys-auth/polkit systemd
 gnome-base/gdm systemd
@@ -1072,3 +1073,4 @@ mate-extra/mate-screensaver systemd
 gnome-extra/gnome-screensaver systemd
 gnome-extra/gnome-system-monitor systemd
 gnome-extra/gnome-packagekit systemd
+
