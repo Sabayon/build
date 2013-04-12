@@ -116,10 +116,6 @@ media-plugins/vdr-noepgmenu
 # 2010-12-28 Joost Ruis: Needs vdr +setup, but we cannot enable that flag. 
 media-plugins/vdr-setup
 
-# 2011-01-08 Fabio Erculiani: broken, resolv.conf issue
-# see http://forum.sabayon.org/viewtopic.php?f=52&t=22717
->net-dns/openresolv-3.4
-
 # 2011-08-16 Fabio Erculiani: Cruft we don't want
 dev-php/eaccelerator
 dev-php/xcache
