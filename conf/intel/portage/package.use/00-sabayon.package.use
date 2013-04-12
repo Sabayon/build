@@ -1070,3 +1070,5 @@ mate-base/mate-session-manager systemd
 mate-extra/mate-power-manager systemd
 mate-extra/mate-screensaver systemd
 gnome-extra/gnome-screensaver systemd
+gnome-extra/gnome-system-monitor systemd
+gnome-extra/gnome-packagekit systemd
