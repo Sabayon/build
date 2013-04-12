@@ -1051,26 +1051,3 @@ sys-fs/zfs kernel-builtin
 
 # systemd support
 sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr
-app-laptop/laptop-mode-tools systemd
-net-misc/networkmanager systemd
-sys-auth/polkit systemd
-gnome-base/gdm systemd
-gnome-base/gnome-session systemd
-gnome-base/gnome-shell systemd
-gnome-base/gnome-settings-daemon systemd
-gnome-base/gnome-control-center systemd
-media-sound/pulseaudio systemd
-sys-apps/busybox systemd
-sys-apps/accountsservice systemd
-gnome-base/gvfs systemd
-sys-fs/udisks systemd
-sys-power/upower systemd
-sys-apps/udevil systemd
-x11-misc/colord systemd
-mate-base/mate-session-manager systemd
-mate-extra/mate-power-manager systemd
-mate-extra/mate-screensaver systemd
-gnome-extra/gnome-screensaver systemd
-gnome-extra/gnome-system-monitor systemd
-gnome-extra/gnome-packagekit systemd
-
