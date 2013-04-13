@@ -1051,5 +1051,3 @@ sys-fs/zfs kernel-builtin
 
 # systemd support
 sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr
-# Needs fixing with openrc
-sys-auth/polkit -systemd
