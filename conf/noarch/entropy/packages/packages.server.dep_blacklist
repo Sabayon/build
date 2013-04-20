@@ -13,3 +13,6 @@ app-admin/anaconda x11-libs/libXmu:0 x11-libs/gtk+:2 x11-libs/gdk-pixbuf:2 x11-l
 
 # it provides its own libwine.so.1
 net-misc/teamviewer app-emulation/wine:0
+
+# libcli.so
+media-sound/pulseaudio dev-db/fastdb:0
