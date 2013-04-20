@@ -31,8 +31,7 @@ app-editors/xemacs xft
 
 # virt stuff
 app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
-app-emulation/qemu-kvm no_kernel_module
-app-emulation/qemu-kvm havekernel -modules vde qemu-ifup spice fdt
+app-emulation/qemu fdt spice
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
 app-emulation/emul-linux-x86-soundlibs esd
 
@@ -43,6 +42,8 @@ app-emulation/emul-linux-x86-soundlibs esd
 app-i18n/ibus gtk3 dconf
 
 app-laptop/pommed -gtk
+
+app-leechcraft/lc-lmp kde
 
 app-office/abiword plugins
 app-office/dia gnome-print
@@ -171,7 +172,7 @@ dev-util/glade -gnome
 dev-vcs/git curl webdav -subversion -gtk
 dev-vcs/git bash-completion
 dev-util/jay java
-dev-util/qt-creator autotools cmake git subversion valgrind examples
+dev-qt/qt-creator autotools cmake git subversion valgrind examples
 dev-vcs/subversion -java -apache2 -dso -kde
 
 # use minimal so it doesn't depend on dev-python/imaging[tk]
@@ -295,7 +296,6 @@ media-sound/audacious -gtk gtk3 wma timidity lirc dbus chardet
 media-sound/banshee podcast -ipod -zeroconf mtp njb
 media-sound/cantata replaygain
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
-media-sound/leechcraft-lmp kde
 media-sound/lmms fftw fluidsynth 
 media-sound/mixxx shout
 media-sound/ncmpcpp curl
@@ -420,7 +420,6 @@ net-print/cups -java
 net-print/gutenprint foomaticdb -gtk
 net-print/hplip -acl fax hpijs parport snmp static-ppds usb
 
-net-wireless/atmel-firmware pcmcia usb
 net-wireless/bluez gstreamer
 net-wireless/wpa_supplicant -qt3 -qt4 wimax ap p2p eap-sim wps
 
@@ -498,10 +497,6 @@ sys-kernel/linux-server splash dmraid grub iscsi mdadm luks lvm zfs
 sys-kernel/linux-openvz splash dmraid grub iscsi mdadm luks lvm
 sys-kernel/linux-hardened splash dmraid grub iscsi mdadm luks lvm
 sys-kernel/sabayon-sources symlink
-
-# Fusion Sources, set defaults
-sys-kernel/linux-fusion splash dmraid grub
-
 
 sys-libs/db -java
 
@@ -619,7 +614,6 @@ dev-python/PyQt4 webkit sql assistant declarative examples script help
 # We want splash and grub with linux-openvz and linux-server
 sys-kernel/linux-openvz grub splash dmraid
 sys-kernel/linux-server grub splash dmraid
-sys-kernel/linux-vserver grub splash dmraid
 
 # Disable GTK for distcc, this is a server-side app
 # and it's better to not ship with gtk
@@ -841,7 +835,7 @@ sci-chemistry/xds-bin smp
 dev-java/gnu-classpath -qt4
 app-cdr/xfburn gstreamer
 dev-qt/qt3support kde
-dev-qt/qtassistant compat
+dev-qt/qthelp compat
 app-text/texlive-core xetex
 media-sound/mp3splt-gtk gstreamer
 media-sound/gpodder gstreamer 
