@@ -65,3 +65,11 @@ media-gfx/yafaray:0
 
 # >=qemu-1.2.0 has been masked on x86 due to futile reasons
 <app-emulation/qemu-9999
+
+# We got hit by this already, so there is no point in keeping
+# the mask:
+# Ben de Groot <yngwin@gentoo.org> (05 Apr 2013)
+# Non-maintainer ebuild with experimental multilib features
+# masked for further testing
+=media-libs/freetype-2.4.11-r2
+=media-libs/fontconfig-2.10.2-r1
