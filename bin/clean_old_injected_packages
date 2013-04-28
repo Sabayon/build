@@ -74,7 +74,10 @@ if __name__ == "__main__":
                 key_slot_package_ids = sorted(key_slot_package_ids)
                 atoms = [repo.retrieveAtom(x) for x in key_slot_package_ids]
                 atoms.sort()
-                srv.output("removing old injected packages:")
+
+                latest_atom = repo.retrieveAtom(latest_package_id)
+                srv.output("%s is the latest package" % (latest_atom))
+                srv.output("removing old packages:")
                 for atom in atoms:
                     srv.output("  %s" % (atom,))
                 resp = srv.ask_question("Really remove?")
