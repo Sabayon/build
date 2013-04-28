@@ -10,6 +10,7 @@ from entropy.server.interfaces import Server
 from entropy.i18n import _
 
 from matter.spec import SpecParser
+import matter.binpms.entropysrv  # plugin registration
 
 
 PARTICLES_DIR = "/particles"
@@ -30,6 +31,9 @@ if __name__ == "__main__":
             spec = SpecParser(f)
             data = spec.parse()
             if not data:
+                continue
+
+            if data.get("build-only", "no") != "yes":
                 continue
 
             drop_injected = data.get("drop-old-injected", "no") == "yes"
