@@ -73,3 +73,6 @@ media-gfx/yafaray:0
 # masked for further testing
 =media-libs/freetype-2.4.11-r2
 =media-libs/fontconfig-2.10.2-r1
+
+# Yeah Yeah, security...
+<app-text/cuneiform-9999:0
