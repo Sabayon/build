@@ -1,0 +1,84 @@
+#!/usr/bin/python
+
+import sys
+sys.path.insert(0, "/usr/lib/matter")
+sys.path.insert(0, "/usr/lib/entropy/lib")
+
+import os
+
+from entropy.server.interfaces import Server
+from entropy.i18n import _
+
+from matter.spec import SpecParser
+
+
+PARTICLES_DIR = "/particles"
+
+
+if __name__ == "__main__":
+
+    # collect particles
+    particles = []
+    for root, dirs, files in os.walk(PARTICLES_DIR):
+        for name in files:
+            if name.endswith(".particle"):
+                particles.append(os.path.join(root, name))
+
+    packages = set()
+    for particle in particles:
+        with open(particle, "r") as f:
+            spec = SpecParser(f)
+            data = spec.parse()
+            if not data:
+                continue
+
+            drop_injected = data.get("drop-old-injected", "no") == "yes"
+            if not drop_injected:
+                continue
+            for p_packages in data.get("packages", []):
+                packages.update(p_packages)
+
+    packages = sorted(packages)
+
+    srv = Server()
+    for repository in srv.repositories():
+
+        repo = srv.open_repository(repository)
+        for package in packages:
+
+            latest_package_id, _mrc = repo.atomMatch(package)
+            if latest_package_id == -1:
+                continue
+
+            package_ids, _mrc = repo.atomMatch(package, multiMatch=True)
+            if not package_ids:
+                continue
+
+            key_slots = set()
+            for package_id in package_ids:
+                key, slot = repo.retrieveKeySlot(package_id)
+                key_slots.add((key, slot))
+
+            key_slot_package_ids = set()
+            for key, slot in key_slots:
+                ks_package_ids = [x for x in repo.searchKeySlot(key, slot) \
+                                      if repo.isInjected(x)]
+                key_slot_package_ids.update(ks_package_ids)
+
+            key_slot_package_ids.discard(latest_package_id)
+            if key_slot_package_ids:
+                key_slot_package_ids = sorted(key_slot_package_ids)
+                atoms = [repo.retrieveAtom(x) for x in key_slot_package_ids]
+                atoms.sort()
+                srv.output("removing old injected packages:")
+                for atom in atoms:
+                    srv.output("  %s" % (atom,))
+                resp = srv.ask_question("Really remove?")
+                if resp != _("Yes"):
+                    continue
+
+                srv.remove_packages(
+                    repository, key_slot_package_ids)
+                srv.commit_repositories()
+
+    srv.destroy()
