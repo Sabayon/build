@@ -59,7 +59,7 @@ else:
     print("nothing to do !!")
     raise SystemExit(0)
 
-tmp_dir = tempfile.mkdtemp()
+tmp_dir = tempfile.mkdtemp(dir="/var/tmp", prefix="bump_kernel_packages")
 os.environ['PKGDIR'] = tmp_dir
 rc = subprocess.call(["emerge", "-Bav", "--keep-going"] + [x for x in injected_atoms])
 if rc != 0 and not canfail:

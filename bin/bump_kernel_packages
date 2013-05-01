@@ -87,7 +87,7 @@ if normal_atoms and not only_injected:
         raise SystemExit(rc)
 
 if injected_atoms:
-    tmp_dir = tempfile.mkdtemp()
+    tmp_dir = tempfile.mkdtemp(dir="/var/tmp", prefix="bump_kernel_packages")
     os.environ['PKGDIR'] = tmp_dir
     rc = subprocess.call(["emerge", "-Bav", "--nodeps"] + [x for x in injected_atoms])
     if rc != 0 and not canfail:
