@@ -15,9 +15,12 @@ if not do_spm_repo:
 keyslot = "--keyslot" in args
 if keyslot:
     args.remove("--keyslot")
+canfail = "--canfail" in args
+if keyslot:
+    args.remove("--canfail")
 
 if len(args) < 3:
-    print("bump_kernel_tag_mods <query tag> <compile tag> <source (query) repo> <destination entropy repo> [--only-injected] [--no-spm-repo] [--keyslot]")
+    print("bump_kernel_tag_mods <query tag> <compile tag> <source (query) repo> <destination entropy repo> [--only-injected] [--no-spm-repo] [--keyslot] [--canfail]")
     raise SystemExit(1)
 
 kernel_tag = args.pop(0)
@@ -75,7 +78,7 @@ if not (normal_atoms or injected_atoms):
 
 if normal_atoms and not only_injected:
     rc = subprocess.call(["emerge", "-av", "--keep-going"] + [x for x in normal_atoms])
-    if rc != 0:
+    if rc != 0 and not canfail:
         raise SystemExit(rc)
     subprocess.call(["etc-update"], shell = True)
     os.environ['ETP_REPO'] = dest_repo
@@ -87,7 +90,7 @@ if injected_atoms:
     tmp_dir = tempfile.mkdtemp()
     os.environ['PKGDIR'] = tmp_dir
     rc = subprocess.call(["emerge", "-Bav", "--nodeps"] + [x for x in injected_atoms])
-    if rc != 0:
+    if rc != 0 and not canfail:
         raise SystemExit(rc)
     tbz2s = []
     for category in os.listdir(tmp_dir):
