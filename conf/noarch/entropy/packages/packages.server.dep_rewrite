@@ -166,10 +166,6 @@ media-video/kino (.*)x11-libs/gtk(.*) \1x11-libs/gtk\2:2
 # gnome-session-3.0.2 should pull in notification-daemon or it won't start
 >=gnome-base/gnome-session-3.0 ++>=x11-misc/notification-daemon-0.7.1<2>
 
-# drop dependency, don't rewrite as media-video/libav because it may give
-# wrong >= versions
-virtual/ffmpeg (.*)media-video/ffmpeg(.*)
-
 # pygobject-cairo rewrite, simple catch-all rewrite
 # this might not catch all the strings
 * (.*)dev-python/pygobject(.*)\[cairo(.*)\] \1dev-python/pygobject-cairo\2
