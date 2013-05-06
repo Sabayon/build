@@ -1047,3 +1047,6 @@ sys-fs/zfs kernel-builtin
 # systemd support
 sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr
 virtual/udev static-libs
+
+# Needed by some lisp packages
+dev-libs/boehm-gc threads
