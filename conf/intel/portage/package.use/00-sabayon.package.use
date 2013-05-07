@@ -78,6 +78,7 @@ app-text/texlive -truetype
 # qt4 is a bit overkill for highlight
 # our servers don't want qt4 either.
 app-text/highlight -qt4
+app-text/qpdfview sqlite
 # qt4 is overkill for cmake as well
 dev-util/cmake -qt4
 
