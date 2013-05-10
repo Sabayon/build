@@ -83,6 +83,7 @@ app-emulation/virtualbox-guest-additions#3.5.0-sabayon (.*)x11-drivers/xf86-vide
 app-emulation/virtualbox-guest-additions#3.6.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.6.0-sabayon
 app-emulation/virtualbox-guest-additions#3.7.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.7.0-sabayon
 app-emulation/virtualbox-guest-additions#3.8.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.8.0-sabayon
+app-emulation/virtualbox-guest-additions#3.9.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.9.0-sabayon
 app-emulation/virtualbox-guest-additions#3.10.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.10.0-sabayon
 app-emulation/virtualbox-guest-additions#3.11.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.11.0-sabayon
 # server kernel
