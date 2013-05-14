@@ -178,3 +178,6 @@ virtual/opencl (.*)x11-drivers/ati-drivers(.*) \1x11-drivers/ati-userspace\2
 virtual/opencl (.*)x11-drivers/nvidia-drivers(.*) \1x11-drivers/nvidia-userspace\2
 dev-util/nvidia-cuda-sdk (.*)x11-drivers/nvidia-drivers(.*) \1x11-drivers/nvidia-userspace\2
 dev-python/pycuda (.*)x11-drivers/nvidia-drivers(.*) \1x11-drivers/nvidia-userspace\2
+
+# Drop dracut dependency from plymouth, not needed atm
+sys-boot/plymouth (.*)sys-kernel/dracut(.*)
