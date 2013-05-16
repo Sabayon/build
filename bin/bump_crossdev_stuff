@@ -1,0 +1,10 @@
+#!/bin/bash
+
+ARCHES=(
+	armv7a-hardfloat-linux-gnueabi
+	armv7a-unknown-linux-gnueabi
+)
+
+for a in "${ARCHES[@]}"; do
+	crossdev -t "${a}" -S --overlays "" --ov-output "/usr/local/portage" || exit 1
+done
