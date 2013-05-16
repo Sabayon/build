@@ -7,5 +7,5 @@ ARCHES=(
 
 for a in "${ARCHES[@]}"; do
 	# USE="-fortran" or glibc will fail to compile
-	USE="-fortran" crossdev -t "${a}" || exit 1
+	USE="-fortran" crossdev -t "${a}" -oS "/usr/local/portage" -oO "/usr/local/portage" || exit 1
 done
