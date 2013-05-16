@@ -71,7 +71,3 @@ eit() {
 
 # Alias configuration
 alias cosmos=/particles/cosmos/cosmos
-
-# This is a build server local overlay
-# It is used by crossdev
-export PORTDIR_OVERLAY="/usr/local/portage"
