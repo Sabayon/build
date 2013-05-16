@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ARCHES=(
+	armv7a-hardfloat-linux-gnueabi
+	armv7a-unknown-linux-gnueabi
+)
+
+for a in "${ARCHES[@]}"; do
+	# USE="-fortran" or glibc will fail to compile
+	USE="-fortran" crossdev -t "${a}" || exit 1
+done
