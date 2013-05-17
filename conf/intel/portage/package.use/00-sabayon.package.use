@@ -1053,3 +1053,6 @@ virtual/udev static-libs
 
 # Needed by some lisp packages
 dev-libs/boehm-gc threads
+
+# eselect-php now contains fpm init script and apache stuff
+app-admin/eselect-php fpm apache2
