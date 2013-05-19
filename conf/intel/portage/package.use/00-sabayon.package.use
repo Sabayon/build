@@ -332,7 +332,7 @@ media-video/mplayer 3dnow 3dnowext aalib amr ass bl cddb cdparanoia cpudetection
 # testing mplayer flags
 media-video/mplayer fbcon bs2b
 # Drop dead code, doesn't work with libav
-media-video/mplayer2 -xvmc
+media-video/mplayer2 -xvmc vdpau
 # we have media-video/mkvtoolnix-gui
 media-video/mkvtoolnix -qt4 -wxwidgets
 media-video/ogmrip ogm mp4 srt
