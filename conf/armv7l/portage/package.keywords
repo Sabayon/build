@@ -79,4 +79,4 @@ net-im/emesene **
 media-tv/xbmc ~arm
 
 # GNOME keywords
-gnome-extra/nemo ~arm
+gnome-extra/nemo ** ~arm
