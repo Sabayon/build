@@ -75,7 +75,7 @@ x11-libs/qt-core qt3support ssl
 # GNOME stuff
 app-text/poppler cairo
 sys-apps/pciutils -zlib
-gnome-base/gvfs cdda
+gnome-base/gvfs cdda gtk
 x11-libs/gdk-pixbuf jpeg
 x11-libs/qt-core -qt3support
 sys-apps/dbus X
@@ -91,7 +91,8 @@ x11-libs/gtk+ X
 gnome-base/gnome-menus python
 # required by Sulfur
 x11-libs/vte:0 python
-dev-libs/folks eds
+dev-libs/folks eds vala
+gnome-extra/evolution-data-server vala
 
 # MATE stuff
 app-arch/mate-file-archiver caja
