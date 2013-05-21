@@ -16,7 +16,7 @@ MAKEOPTS="-j4 -s"
 CCACHE_SIZE="5G"
 CCACHE_DIR="/var/ccache"
 # Global USE flags
-USE="alsa cpudetection dbus flac goom joystick mp3 theora threads truetype xvid vorbis vorbis systemd logind"
+USE="alsa cpudetection dbus flac goom joystick mp3 theora threads truetype xattr xvid vorbis vorbis systemd logind"
 
 # distcc configuration
 DISTCC_SSH="/etc/distcc/distcc-ssh"
