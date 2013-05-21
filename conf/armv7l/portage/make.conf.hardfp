@@ -12,8 +12,8 @@ CHOST="armv7a-hardfloat-linux-gnueabi"
 # Portage configuration
 ACCEPT_KEYWORDS="arm"
 FEATURES="ccache distcc distcc-pump parallel-fetch protect-owned compressdebug splitdebug"
-MAKEOPTS="-j16 -s"
-CCACHE_SIZE="50G"
+MAKEOPTS="-j4 -s"
+CCACHE_SIZE="5G"
 CCACHE_DIR="/var/ccache"
 # Global USE flags
 USE="alsa cpudetection dbus flac goom joystick mp3 theora threads truetype xvid vorbis vorbis"
