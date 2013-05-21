@@ -35,6 +35,8 @@ DISTCC_HOSTS="localhost/1 192.168.1.2/8"
 
 # Package specific configuration
 APACHE2_MPMS="prefork"
+# No Python3 Noooo
+PYTHON_TARGETS="python2_7"
 
 # Filter out crap from packages
 INSTALL_MASK="usr/share/gtk-doc/html/*"
