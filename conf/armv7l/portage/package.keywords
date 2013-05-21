@@ -77,3 +77,6 @@ net-im/emesene **
 
 # XBMC, we want unstable
 media-tv/xbmc ~arm
+
+# GNOME keywords
+gnome-extra/nemo ~arm
