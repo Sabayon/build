@@ -1,1 +1,5 @@
 >sys-fs/udev-171-r5
+
+# temp mask GNOME 3.8 stuff
+>=net-libs/gnome-online-accounts-3.8.2
+>=gnome-extra/evolution-data-server-3.8.2
