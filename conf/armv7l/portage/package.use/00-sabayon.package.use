@@ -33,7 +33,8 @@ dev-libs/libxml2 icu
 xfce-base/xfce4-session policykit udev
 # required by xfce4 and upower stuff
 # extras is required by net-wireless/bluez
-sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr openrc gudev extras
+sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr openrc gudev extras hwdb keymap
+virtual/udev hwdb gudev keymap
 
 # LXDE stuff
 x11-misc/obconf lxde
@@ -73,7 +74,6 @@ x11-libs/qt-core qt3support ssl
 
 # GNOME stuff
 app-text/poppler cairo
-sys-fs/udev hwdb
 sys-apps/pciutils -zlib
 gnome-base/gvfs cdda
 x11-libs/gdk-pixbuf jpeg
