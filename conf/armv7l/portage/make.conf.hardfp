@@ -10,7 +10,7 @@ CHOST="armv7a-hardfloat-linux-gnueabi"
 ### COMMON PART
 #################################################
 # Portage configuration
-ACCEPT_KEYWORDS="arm"
+ACCEPT_KEYWORDS="arm ~arm"
 FEATURES="ccache distcc distcc-pump parallel-fetch protect-owned compressdebug splitdebug"
 MAKEOPTS="-j4 -s"
 CCACHE_SIZE="5G"
