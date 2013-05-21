@@ -152,3 +152,6 @@ net-libs/farstream python
 
 # PHP wants gd
 dev-lang/php gd truetype
+
+# GST stuff
+media-libs/gst-plugins-base X
