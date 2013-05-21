@@ -17,7 +17,7 @@ MAKEOPTS="-j4 -s"
 CCACHE_SIZE="5G"
 CCACHE_DIR="/var/ccache"
 # Global USE flags
-USE="alsa cpudetection flac goom joystick mp3 theora truetype xvid vorbis vorbis"
+USE="alsa cpudetection cups flac goom joystick mp3 theora truetype xvid vorbis vorbis"
 # System USE flags
 USE="${USE} dbus introspection logind policykit systemd threads xattr"
 
