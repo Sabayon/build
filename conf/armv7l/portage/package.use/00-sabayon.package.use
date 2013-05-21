@@ -33,7 +33,7 @@ dev-libs/libxml2 icu
 xfce-base/xfce4-session policykit udev
 # required by xfce4 and upower stuff
 # extras is required by net-wireless/bluez
-sys-fs/udev gudev extras
+sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr openrc gudev extras
 
 # LXDE stuff
 x11-misc/obconf lxde
