@@ -81,3 +81,7 @@ media-tv/xbmc ~arm
 # GNOME keywords
 <gnome-extra/nemo-9999 ** ~arm
 <x11-wm/muffin-9999 ** ~arm
+
+# Needed for MATE 1.6
+=x11-themes/gtk-engines-murrine-0.98.2 **
+=x11-themes/murrine-themes-0.98.0 **
