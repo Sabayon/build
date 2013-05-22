@@ -73,6 +73,7 @@ sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -
 x11-libs/qt-core qt3support ssl
 
 # GNOME stuff
+app-text/poppler cairo
 app-text/poppler-glib cairo
 sys-apps/pciutils -zlib
 gnome-base/gvfs cdda gtk
