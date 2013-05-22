@@ -93,6 +93,7 @@ gnome-base/gnome-menus python
 x11-libs/vte:0 python
 dev-libs/folks eds vala
 gnome-extra/evolution-data-server vala
+app-i18n/ibus dconf
 
 # MATE stuff
 app-arch/mate-file-archiver caja
