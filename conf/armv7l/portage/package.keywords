@@ -88,3 +88,6 @@ media-tv/xbmc ~arm
 
 # Misc
 =media-libs/vigra-1.8.0-r1 **
+
+# Firefox, we want stable
+www-client/firefox -~arm
