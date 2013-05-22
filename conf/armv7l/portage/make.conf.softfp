@@ -1,5 +1,4 @@
 # Temp disable Graphite due to known x11-libs/qt-* bugs
-GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
 FPUABI="-mfloat-abi=softfp"
 
 CFLAGS="-O2 -pipe -march=armv7-a -mfpu=vfpv3-d16 ${FPUABI}"
@@ -22,6 +21,10 @@ USE="cpudetection cups goom joystick neon theora truetype xvid"
 USE="${USE} pulseaudio alsa flac mp3 vorbis"
 # System USE flags
 USE="${USE} dbus introspection logind policykit systemd threads xattr"
+# Video OpenGL stuff
+# Note: GLES2 is disabled globally atm. mesa-9.1.2 has bugs if both gl, and gles2 are enabled.
+# The bug is in the GL{ES2,} headers (name clash), and gnome-shell fails to build because of that.
+USE="${USE} -gles2"
 
 # distcc configuration
 DISTCC_SSH="/etc/distcc/distcc-ssh"
