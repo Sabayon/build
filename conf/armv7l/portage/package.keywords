@@ -85,3 +85,6 @@ media-tv/xbmc ~arm
 # Needed for MATE 1.6
 =x11-themes/gtk-engines-murrine-0.98.2 **
 =x11-themes/murrine-themes-0.98.0 **
+
+# Misc
+=media-libs/vigra-1.8.0-r1 **
