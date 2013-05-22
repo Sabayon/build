@@ -13,7 +13,7 @@ CHOST="armv7a-hardfloat-linux-gnueabi"
 ACCEPT_KEYWORDS="arm ~arm"
 FEATURES="ccache distcc parallel-fetch protect-owned compressdebug splitdebug"
 # temp disabled: distcc-pump
-MAKEOPTS="-j4 -s"
+MAKEOPTS="-j6 -s"
 CCACHE_SIZE="5G"
 CCACHE_DIR="/var/ccache"
 # Global USE flags
