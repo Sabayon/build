@@ -43,7 +43,8 @@ x11-misc/obconf lxde
 media-libs/imlib2 X
 
 # Firefox stuff
-media-libs/libpng apng
+# -neon: /usr/lib/libpng16.so.16: undefined symbol: png_read_filter_row_avg4_neon
+media-libs/libpng apng -neon
 
 # Language packs!
 sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -linguas_nl -linguas_pl -linguas_ro -linguas_ru -linguas_zh_CN
