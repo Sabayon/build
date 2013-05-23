@@ -3,6 +3,7 @@ dev-lang/python sqlite
 sys-apps/file python
 dev-libs/boost python
 dev-db/sqlite soundex
+sys-libs/glibc suid nscd
 
 # GCC
 sys-devel/gcc gcj objc objc-gc objc++ graphite
