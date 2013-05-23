@@ -1,5 +1,5 @@
 # Only use stable versions of these libs
-# sys-kernel/linux-headers -~arm
+sys-kernel/linux-headers -~arm
 sys-libs/glibc -~arm
 <dev-lang/python-3 -~arm
 dev-libs/openssl -~arm
