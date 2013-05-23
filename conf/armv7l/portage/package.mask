@@ -3,6 +3,3 @@
 # temp mask GNOME 3.8 stuff
 >=net-libs/gnome-online-accounts-3.8.2
 >=gnome-extra/evolution-data-server-3.8.2
-
-# 2013-05-23: causing segfaults all around.
->=sys-apps/util-linux-2.22
