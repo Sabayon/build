@@ -12,7 +12,7 @@ BINUTILS_VER="--b =2.23*"
 
 for a in "${ARCHES[@]}"; do
 	# USE="-fortran" or glibc will fail to compile
-	USE="-fortran" crossdev -t "${a}" \
+	USE="-fortran -gtk" crossdev -t "${a}" --ex-gcc \
 		-oS "/usr/local/portage" \
 		-oO "/usr/local/portage" \
 		${GCC_VER} ${LIBC_VER} ${K_VER} ${BINUTILS_VER} || exit 1
