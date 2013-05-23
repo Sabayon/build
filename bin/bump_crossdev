@@ -5,7 +5,15 @@ ARCHES=(
 	armv7a-unknown-linux-gnueabi
 )
 
+GCC_VER="--g ~4.7.3"
+LIBC_VER="--l ~2.15"
+K_VER="--k ~3.7"
+BINUTILS_VER="--b =2.23*"
+
 for a in "${ARCHES[@]}"; do
 	# USE="-fortran" or glibc will fail to compile
-	USE="-fortran" crossdev -t "${a}" -oS "/usr/local/portage" -oO "/usr/local/portage" || exit 1
+	USE="-fortran" crossdev -t "${a}" \
+		-oS "/usr/local/portage" \
+		-oO "/usr/local/portage" \
+		${GCC_VER} ${LIBC_VER} ${K_VER} ${BINUTILS_VER} || exit 1
 done
