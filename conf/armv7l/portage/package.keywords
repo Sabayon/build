@@ -1,3 +1,20 @@
+# Only use stable versions of these libs
+# sys-kernel/linux-headers -~arm
+sys-libs/glibc -~arm
+<dev-lang/python-3 -~arm
+dev-libs/openssl -~arm
+dev-lang/perl -~arm
+sys-devel/make -~arm
+sys-kernel/linux-headers -~arm
+net-libs/gnutls -~arm
+dev-lang/tcl -~arm
+dev-lang/tk -~arm
+dev-lang/ghc -~arm
+dev-lang/ruby -~arm
+# sci-mathematics/maxima needs texinfo <5.0
+# stick texinfo to stable to avoid matter bump it
+sys-apps/texinfo -~arm
+
 # hardfloat is only supported since gcc-4.5
 # We force gcc-4.5 because this stage should be closer to stable
 # When gcc-4.5 is stable this could be removed
