@@ -121,3 +121,9 @@ dev-libs/embryo ~arm
 gnome-extra/nemo ~arm
 x11-libs/libdesktop-agnostic ~arm
 media-libs/libprojectm ~arm
+x11-themes/gtk-engines-murrine ~arm
+www-servers/nginx ~arm
+media-libs/vigra ~arm
+gnome-extra/nemo ~arm
+x11-wm/muffin ~arm
+x11-themes/murrine-themes ~arm
