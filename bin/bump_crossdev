@@ -3,6 +3,7 @@
 ARCHES=(
 	armv7a-hardfloat-linux-gnueabi
 	armv7a-unknown-linux-gnueabi
+	armv6j-hardfloat-linux-gnueabi
 )
 
 GCC_VER="--g ~4.7.3"
