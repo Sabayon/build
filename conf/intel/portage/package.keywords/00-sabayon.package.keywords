@@ -1,6 +1,9 @@
 # Only use stable versions of these libs
 # sys-kernel/linux-headers -~amd64 -~x86
 sys-libs/glibc -~amd64 -~x86
+# Allow glibc 2.17, it's good enough and:
+# https://bugs.sabayon.org/show_bug.cgi?id=4182
+=sys-libs/glibc-2.17* ~amd64 ~x86
 <dev-lang/python-3 -~amd64 -~x86
 dev-libs/openssl -~amd64 -~x86
 dev-lang/perl -~amd64 -~x86
