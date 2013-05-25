@@ -7,7 +7,7 @@ ARCHES=(
 )
 
 GCC_VER="--g ~4.7.3"
-LIBC_VER="--l ~2.15"
+LIBC_VER="--l ~2.17"
 K_VER="--k ~3.7"
 BINUTILS_VER="--b =2.23*"
 
