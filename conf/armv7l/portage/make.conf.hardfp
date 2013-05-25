@@ -41,9 +41,6 @@ APACHE2_MPMS="prefork"
 # No Python3 Noooo
 PYTHON_TARGETS="python2_7"
 
-# Filter out crap from packages
-INSTALL_MASK="usr/share/gtk-doc/html/*"
-PKG_INSTALL_MASK="${INSTALL_MASK}"
 #################################################
 ### END COMMON PART -- cut here
 
