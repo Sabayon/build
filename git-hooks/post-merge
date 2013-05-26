@@ -14,12 +14,12 @@ case $arch in
 	src_make_conf="./conf/intel/portage/make.conf.amd64"
 	;;
 	arm*)
-	if [ -e "/usr/lib/gcc/armv7a-hardfloat-linux-gnueabi" ]; then
-		src_make_conf="./conf/armv7l/portage/make.conf.hardfp"
-	elif [ -e "/usr/lib/gcc/armv7a-unknown-linux-gnueabi" ]; then
-		src_make_conf="./conf/armv7l/portage/make.conf.softfp"
+	if [ -e "/usr/lib/gcc/armv6j-hardfloat-linux-gnueabi" ]; then
+		src_make_conf="./conf/armv6j/portage/make.conf"
+	elif [ -e "/usr/lib/gcc/armv7l-hardfloat-linux-gnueabi" ]; then
+		src_make_conf="./conf/armv7l/portage/make.conf"
 	else
-		echo "UNSUPPORTED ARM ABI, CANNOT COPY make.conf !!!"
+		echo "Unsupported ARM architecture" >&2
 	fi
 	;;
 esac
