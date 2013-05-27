@@ -15,9 +15,7 @@ case $arch in
 	;;
 esac
 
-if [ -z "$src_make_conf" ]; then
-	echo "Can't execute post-merge hook. Unknown arch \"$arch\"." >&2
-else
+if [ -n "$src_make_conf" ]; then
 	echo "post-merge hook: copying make.conf (from $src_make_conf):"
 	cp --no-target-directory -v "$src_make_conf" /etc/make.conf
 fi
