@@ -1,0 +1,8 @@
+# these are all the same
+http://dl.sabayon.org/entropy
+http://best.sabayon.org/entropy
+http://redir.sabayon.org/entropy
+# This will be used as last resort, and must stay here
+http://pkg.sabayon.org
+# this is in case our DNS goes down
+http://na.mirror.garr.it/mirrors/sabayonlinux/entropy
