@@ -16,82 +16,76 @@ dev-lang/ruby -~arm
 # stick texinfo to stable to avoid matter bump it
 sys-apps/texinfo -~arm
 
-# hardfloat is only supported since gcc-4.5
-# We force gcc-4.5 because this stage should be closer to stable
-# When gcc-4.5 is stable this could be removed
-=sys-devel/gcc-4.5*
-# <3.0 doesn't build with gcc-4.5
-sys-apps/diffutils
-
 # We want Portage 2.2
-<sys-apps/portage-2.3 **
+<sys-apps/portage-2.3 ** ~arm
 
 # Temp keywording, will test and add keywords back
-www-servers/nginx **
+www-servers/nginx ** ~arm
 
 # it has long cmdline patch, they say it fixes webkit-gtk
 # (but it's not true)
-=sys-devel/make-3.82-r4 **
+=sys-devel/make-3.82-r4 ** ~arm
 
 # Keyword E17
-=dev-libs/eio-1.7.4 **
-=x11-wm/enlightenment-0.17.0 **
+=dev-libs/eio-1.7.4 ** ~arm
+=x11-wm/enlightenment-0.17.0 ** ~arm
 
-<xfce-extra/xfce4-notifyd-9999 **
+<xfce-extra/xfce4-notifyd-9999 ** ~arm
 
 # Want slim for testing
-<=x11-misc/slim-1.3.3 **
+<=x11-misc/slim-1.3.3 ** ~arm
 
 # Want gnumeric for testing
-=app-office/gnumeric-1.10.17 **
+=app-office/gnumeric-1.10.17 ** ~arm
 
 # Real men want dosbox on ARM
-=games-emulation/dosbox-0.74 **
+=games-emulation/dosbox-0.74 ** ~arm
 
 # need this
-=dev-libs/gjs-1.32.0 **
+=dev-libs/gjs-1.32.0 ** ~arm
 
 # Games!
-<=games-strategy/freeciv-2.3.2 **
+<=games-strategy/freeciv-2.3.2 ** ~arm
 
-=app-office/glabels-3.0.0 **
+=app-office/glabels-3.0.0 ** ~arm
 
 # want WICD
-=dev-python/urwid-1.0.1 **
-=net-misc/wicd-1.7.2.4-r1 **
+=dev-python/urwid-1.0.1 ** ~arm
+=net-misc/wicd-1.7.2.4-r1 ** ~arm
 
 # want xnoise
-=media-sound/xnoise-0.2.2 **
+=media-sound/xnoise-0.2.2 ** ~arm
 
 # want xvid
-=media-plugins/gst-plugins-xvid-0.10.22 **
+=media-plugins/gst-plugins-xvid-0.10.22 ** ~arm
 
 # want lightdm
-=x11-misc/lightdm-1.2.2-r3 **
-=x11-misc/lightdm-gtk-greeter-1.1.5 **
+=x11-misc/lightdm-1.2.2-r3 ** ~arm
+=x11-misc/lightdm-gtk-greeter-1.1.5 ** ~arm
 
 # want exaile
-=media-libs/mutagen-1.20 **
-=media-sound/exaile-0.3.2.1 **
+=media-libs/mutagen-1.20 ** ~arm
+=media-sound/exaile-0.3.2.1 ** ~arm
 
 # want emesene
-dev-python/pywebkitgtk **
-dev-python/papyon **
-net-im/emesene **
+dev-python/pywebkitgtk ** ~arm
+dev-python/papyon ** ~arm
+net-im/emesene ** ~arm
 
 # Additional deps pulled in that need to be keyworded
-=app-editors/xemacs-21.5.31 **
-=app-xemacs/emerge-1.11 **
-=app-xemacs/xemacs-base-2.27 **
-<x11-libs/libdesktop-agnostic-9999 **
-<media-libs/libprojectm-9999 **
+=app-editors/xemacs-21.5.31 ** ~arm
+=app-xemacs/emerge-1.11 ** ~arm
+=app-xemacs/xemacs-base-2.27 ** ~arm
+<x11-libs/libdesktop-agnostic-9999 ** ~arm
+<media-libs/libprojectm-9999 ** ~arm
+<dev-lang/yasm-9999 ** ~arm
 
 # Media stuff
 # =media-video/mpeg-tools-1.5b-r4 **
-=media-video/xvid4conf-1.12 **
+=media-video/xvid4conf-1.12 ** ~arm
 
 # Frozen Bubble
-=games-arcade/frozen-bubble-2.2.1_beta1 **
+=games-arcade/frozen-bubble-2.2.1_beta1 ** ~arm
 
 # XBMC, we want unstable
 media-tv/xbmc ~arm
@@ -101,11 +95,11 @@ media-tv/xbmc ~arm
 <x11-wm/muffin-9999 ** ~arm
 
 # Needed for MATE 1.6
-=x11-themes/gtk-engines-murrine-0.98.2 **
-=x11-themes/murrine-themes-0.98.0 **
+=x11-themes/gtk-engines-murrine-0.98.2 ** ~arm
+=x11-themes/murrine-themes-0.98.0 ** ~arm
 
 # Misc
-=media-libs/vigra-1.8.0-r1 **
+=media-libs/vigra-1.8.0-r1 ** ~arm
 
 # Firefox, we want stable
 www-client/firefox -~arm
