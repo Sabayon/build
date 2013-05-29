@@ -79,6 +79,7 @@ net-im/emesene ** ~arm
 <x11-libs/libdesktop-agnostic-9999 ** ~arm
 <media-libs/libprojectm-9999 ** ~arm
 <dev-lang/yasm-9999 ** ~arm
+<dev-lang/nacl-toolchain-newlib-9999 ** ~arm
 
 # Media stuff
 # =media-video/mpeg-tools-1.5b-r4 **
