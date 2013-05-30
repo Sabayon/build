@@ -104,3 +104,5 @@ media-tv/xbmc ~arm
 
 # Firefox, we want stable
 www-client/firefox -~arm
+# Chromium, we want it
+www-client/chromium ** ~arm
