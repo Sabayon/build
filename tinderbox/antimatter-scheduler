@@ -1,0 +1,23 @@
+#!/bin/bash
+
+unset PORTAGE
+unset PORTAGE_TMPDIR
+
+set -e
+
+if [ "${#}" != "3" ]; then
+    echo "Invalid arguments." >&2
+    exit 1
+fi
+
+CHROOT_PATH="${1}"
+ARCH_NAME="${2}"
+CHROOT_PREFIX="${3}"
+
+(
+    ${CHROOT_PREFIX} chroot "${CHROOT_PATH}" \
+        /sabayon/bin/antimatter-digest
+) | mail -a "MIME-Version: 1.0" \
+    -a "Content-Type: text/html" \
+    -s "[${ARCH_NAME}] AntiMatter tracker of $(date +%Y-%m-%d)" \
+    entropy-team@lists.sabayon.org
