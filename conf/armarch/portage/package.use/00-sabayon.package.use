@@ -73,12 +73,14 @@ sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -
 #app-text/hunspell linguas_te linguas_th linguas_tr linguas_uk linguas_vi linguas_zh
 
 # KDE stuff
+app-text/poppler qt4
 dev-qt/qtcore qt3support ssl
 dev-qt/qtsql qt3support mysql
 dev-qt/qtgui qt3support
 dev-qt/qtwebkit icu
 kde-base/kdepimlibs semantic-desktop
 kde-base/kdelibs semantic-desktop opengl
+kde-base/kwin opengl gles
 dev-python/PyQt4 script svg declarative sql webkit X
 
 # GNOME stuff
