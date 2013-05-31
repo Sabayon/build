@@ -73,7 +73,9 @@ sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -
 #app-text/hunspell linguas_te linguas_th linguas_tr linguas_uk linguas_vi linguas_zh
 
 # KDE stuff
-x11-libs/qt-core qt3support ssl
+dev-qt/qtcore qt3support ssl
+dev-qt/qtsql qt3support
+dev-qt/qtgui qt3support
 
 # GNOME stuff
 app-text/poppler cairo
@@ -81,7 +83,6 @@ app-text/poppler-glib cairo
 sys-apps/pciutils -zlib
 gnome-base/gvfs cdda gtk
 x11-libs/gdk-pixbuf jpeg
-x11-libs/qt-core -qt3support
 sys-apps/dbus X
 net-libs/gtk-vnc gtk3
 net-print/cups dbus
