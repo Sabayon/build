@@ -76,7 +76,7 @@ sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -
 app-text/poppler qt4
 dev-qt/qtcore qt3support ssl
 dev-qt/qtsql qt3support mysql
-dev-qt/qtgui qt3support
+dev-qt/qtgui qt3support mng
 dev-qt/qtwebkit icu
 kde-base/kdepimlibs semantic-desktop
 kde-base/kdelibs semantic-desktop opengl
