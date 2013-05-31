@@ -77,6 +77,10 @@ app-text/poppler qt4
 dev-qt/qtcore qt3support ssl
 dev-qt/qtsql qt3support mysql
 dev-qt/qtgui qt3support mng
+dev-qt/qtopengl qt3support
+dev-qt/qthelp qt3support
+dev-qt/qtdeclarative qt3support
+dev-qt/qtdemo qt3support
 dev-qt/qtwebkit icu
 kde-base/kdepimlibs semantic-desktop
 kde-base/kdelibs semantic-desktop opengl
