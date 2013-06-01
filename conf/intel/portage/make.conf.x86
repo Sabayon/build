@@ -20,7 +20,7 @@ LINGUAS="en en_US af ar az bg bn br bs ca cs cy da de el en_GB eo es et eu fa fi
 
 ## USE ARRAYS ##
 SAB_BAD="-kdeprefix -arts -qt3 -beagle -gnome -evo -mono -eds -apm -oss -branding -esd"
-SAB_MEDIA="musicbrainz sdl pulseaudio wmf fame cdr mp3rtp xine cddb alsa dvb dvd bluray network dvdread ipod audiofile artswrappersuid dvdr jack dri cdda mjpeg mmx joystick xvmc cpudetection v4l v4l2 smartcard"
+SAB_MEDIA="musicbrainz sdl pulseaudio wmf fame cdr mp3rtp xine cddb alsa dvb dvd bluray network dvdread ipod audiofile artswrappersuid dvdr jack dri cdda mjpeg mmx joystick xvmc cpudetection v4l v4l2"
 #dvi
 SAB_CODECS="x264 gsm lame dv mp3 stream live openal theora ogg a52 win32codecs matroska xvid flac ffmpeg aac speex real dts musepack"
 SAB_SYSTEM="cjk unicode gnutls nptl gcj udev systemd logind kerberos acl dbus bash-completion lzo rar policykit xcb bzip2 bidi wifi lm_sensors acpi usb pcmcia bluetooth irda ieee1394 perl python"
