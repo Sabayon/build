@@ -9,11 +9,15 @@ if __name__ == "__main__":
 
     DEFAULT_PARTICLES_DIR = "/particles"
     PARTICLES_DIR = os.getenv("PARTICLES_DIR", DEFAULT_PARTICLES_DIR)
+    DEFAULT_BUILD_DIR = "/sabayon"
+    BUILD_DIR = os.getenv("BUILD_GIT_DIR", DEFAULT_BUILD_DIR)
     DEFAULT_MATTER_ARGS = "--commit --gentle --push --sync --sync-best-effort"
     MATTER_ARGS = os.getenv("MATTER_ARGS", DEFAULT_MATTER_ARGS)
 
     CHROOT_SCRIPT = """\
 cd "${PARTICLES_DIR}" || exit 1
+git pull || exit 1
+cd "${BUILD_GIT_DIR}" || exit 1
 git pull || exit 1
 particles=$(find "${PARTICLES_DIR}" -name "*.particle" | sort)
 if [ -n "${particles}" ]; then
@@ -29,11 +33,15 @@ exit 1
 Environment variables:
 %s  =  path inside chroot containing Matter spec files (also called particles)
                   default: %s
+%s    =  path inside chroot containing the build.git repository checkout
+                  default: %s
 %s    =  custom "matter" arguments
                   default: %s
 """ % (
         "PARTICLES_DIR",
         DEFAULT_PARTICLES_DIR,
+        "BUILD_GIT_DIR",
+        DEFAULT_BUILD_DIR,
         "MATTER_ARGS",
         DEFAULT_MATTER_ARGS,)
 
@@ -57,6 +65,7 @@ Environment variables:
         raise SystemExit(1)
 
     os.environ["PARTICLES_DIR"] = PARTICLES_DIR
+    os.environ["BUILD_GIT_DIR"] = BUILD_DIR
     os.environ["MATTER_ARGS"] = MATTER_ARGS
     os.chroot(chroot_dir)
     os.chdir("/")
