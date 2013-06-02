@@ -162,6 +162,12 @@ x11-themes/elementary-icon-theme branding
 
 # Enable cryptsetup in genkernel
 sys-kernel/genkernel cryptsetup crypt
+# Kernel stuff!
+sys-kernel/linux-odroid luks mdadm lvm
+sys-kernel/linux-sabayon luks mdadm lvm
+sys-kernel/linux-beaglebone luks mdadm lvm
+sys-kernel/linux-efikamx luks mdadm lvm
+sys-kernel/linux-raspberry luks mdadm lvm
 
 # Needed for emesene
 net-libs/farstream python
