@@ -59,7 +59,7 @@ echo "Acquiring locks at ${LOCK_FILE} and ${LVM_LOCK_FILE} in blocking mode, wai
 
 		# TODO: remove after Entropy 177
 		# we want --oneshot for emerge
-		export MATTER_PORTAGE_BUILD_ARGS="--verbose --oneshot --nospinner --quiet-build=y --fail-clean=y --newuse --complete-graph"
+		export MATTER_PORTAGE_BUILD_ARGS="--verbose --oneshot --nospinner --quiet-build=y --fail-clean=y"
 
 		# Place standard outout and standard error together to make
 		# tee happy. Filter out stdout because it gets to mail
