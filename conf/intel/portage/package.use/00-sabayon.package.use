@@ -277,7 +277,7 @@ media-libs/libggi aalib
 media-libs/libsdl aalib
 media-libs/libxtract fftw
 media-libs/mediastreamer video
-media-libs/mesa g3dvl nptl openvg pic shared-dricore shared-glapi video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_r100 video_cards_r200 video_cards_r300 video_cards_r600 video_cards_radeon video_cards_via video_cards_vmware -video_cards_radeonsi xa vdpau xorg
+media-libs/mesa gbm g3dvl nptl openvg pic shared-dricore shared-glapi video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_r100 video_cards_r200 video_cards_r300 video_cards_r600 video_cards_radeon video_cards_via video_cards_vmware -video_cards_radeonsi xa vdpau xorg
 media-libs/mlt melt frei0r kdenlive quicktime python
 media-libs/openexr -video_cards_nvidia
 media-libs/sdl-mixer midi timidity mod mikmod
@@ -551,8 +551,7 @@ x11-libs/cairo glitz -qt4
 dev-libs/ecore curl
 x11-libs/goffice gnome
 
-# Drop gtk style support from qt-gui, it's just ridiculous
-dev-qt/qtgui mng private-headers raster -gtk
+dev-qt/qtgui mng private-headers raster gtkstyle
 
 dev-qt/qtcore private-headers
 dev-qt/qtscript private-headers
@@ -1056,3 +1055,12 @@ dev-libs/boehm-gc threads
 
 # eselect-php now contains fpm init script and apache stuff
 app-admin/eselect-php fpm apache2
+
+# Needed by freecad
+media-libs/coin doc
+
+# Needed by net-analyzer/ehterape
+gnome-base/libgnomecanvas glade
+
+# Needed by directvnc
+dev-libs/DirectFB dynload fbcon
