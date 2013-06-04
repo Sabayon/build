@@ -177,3 +177,9 @@ dev-lang/php gd truetype
 
 # GST stuff
 media-libs/gst-plugins-base X
+
+# NSS, we want utils!
+dev-libs/nss:0 utils
+
+# libmicrohttpd, we want messages!
+net-libs/libmicrohttpd:0 messages
