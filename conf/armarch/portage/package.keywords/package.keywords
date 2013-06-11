@@ -106,3 +106,6 @@ media-tv/xbmc ~arm
 www-client/firefox -~arm
 # Chromium, we want it
 www-client/chromium ** ~arm
+
+# We want to resolve mdns stuff
+<sys-auth/nss-mdns-9999 ** ~arm
