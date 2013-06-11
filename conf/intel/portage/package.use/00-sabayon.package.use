@@ -350,7 +350,6 @@ media-video/xine-ui aalib
 media-video/dvdrip -xine subtitles fping
 
 net-analyzer/snmptt mysql
-net-analyzer/smokeping apache2
 net-analyzer/wireshark python
 
 # gtk part is provided by net-analyzer/zenmap
