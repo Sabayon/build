@@ -110,6 +110,8 @@ x11-libs/vte:0 python
 dev-libs/folks eds vala
 gnome-extra/evolution-data-server vala
 app-i18n/ibus dconf
+# required by sabayon-artwork-gnome
+x11-themes/elementary-icon-theme monochrome
 
 # MATE stuff
 app-arch/mate-file-archiver caja
