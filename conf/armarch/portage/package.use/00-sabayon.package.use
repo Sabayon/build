@@ -86,6 +86,7 @@ kde-base/kdepimlibs semantic-desktop
 kde-base/kdelibs semantic-desktop opengl
 kde-base/kwin opengl gles
 dev-python/PyQt4 script svg declarative sql webkit X
+kde-base/kde-l10n linguas_be linguas_csb linguas_ne linguas_th linguas_wa
 
 # GNOME stuff
 app-text/poppler cairo
