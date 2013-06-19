@@ -128,7 +128,7 @@ app-text/mate-document-viewer caja mate mate-keyring
 app-office/libreoffice -nsplugin -gnome -java templates -kde pdfimport
 
 # Multimedia!
-media-libs/libsdl X opengl
+media-libs/libsdl directfb X opengl 
 media-libs/sdl-image gif jpeg png
 media-video/mplayer jpeg png pulseaudio -dvdnav
 media-video/mplayer2 jpeg png pulseaudio -cpudetection -dvdnav
@@ -186,6 +186,3 @@ dev-libs/nss:0 utils
 
 # libmicrohttpd, we want messages!
 net-libs/libmicrohttpd:0 messages
-
-# Be able to run dosbox with directfb capeability
-media-libs/libsdl directfb
