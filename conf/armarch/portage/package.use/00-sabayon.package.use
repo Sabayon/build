@@ -186,3 +186,6 @@ dev-libs/nss:0 utils
 
 # libmicrohttpd, we want messages!
 net-libs/libmicrohttpd:0 messages
+
+# Be able to run dosbox with directfb capeability
+media-libs/libsdl directfb
