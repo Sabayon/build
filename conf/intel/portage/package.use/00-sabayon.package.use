@@ -1037,7 +1037,8 @@ dev-libs/lzo static-libs
 net-libs/telepathy-qt -farstream
 
 # Enable system-wide pulseaudio, also see bug #4009
-media-sound/pulseaudio system-wide
+# Disable qt4
+media-sound/pulseaudio system-wide -qt4
 
 # 32bit libs on amd64, list them here
 media-libs/libsdl abi_x86_32
