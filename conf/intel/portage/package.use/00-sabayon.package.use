@@ -1052,6 +1052,8 @@ sys-fs/zfs kernel-builtin
 # systemd support
 sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr openrc
 virtual/udev static-libs
+# keep it disabled until we switch over
+sys-fs/udev-init-scripts -logind
 
 # Needed by some lisp packages
 dev-libs/boehm-gc threads
