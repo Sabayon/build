@@ -301,7 +301,7 @@ media-sound/asunder wavpack
 media-sound/audacity ladspa vamp soundtouch id3tag midi
 media-sound/audacious -gtk gtk3 wma timidity lirc dbus chardet
 media-sound/banshee podcast -ipod -zeroconf mtp njb
-media-sound/cantata replaygain
+media-sound/cantata replaygain taglib cdparanoia
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
 media-sound/lmms fftw fluidsynth 
 media-sound/mixxx shout
