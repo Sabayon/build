@@ -76,3 +76,8 @@ media-gfx/yafaray:0
 
 # Yeah Yeah, security...
 <app-text/cuneiform-9999:0
+
+# GNOME 3.8 stuff
+=dev-libs/glib-2.36*
+=dev-libs/gobject-introspection-common-1.36*
+=dev-libs/gobject-introspection-1.36*
