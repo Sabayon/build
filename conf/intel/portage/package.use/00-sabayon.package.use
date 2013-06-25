@@ -462,7 +462,7 @@ sci-visualization/gnuplot gd wxwidgets
 sci-visualization/grace fftw
 sci-visualization/gwyddion fftw
 
-sys-auth/pambase consolekit -kerberos
+sys-auth/pambase -consolekit -kerberos
 
 sys-apps/groff -X
 sys-apps/hwdata-gentoo binary-drivers

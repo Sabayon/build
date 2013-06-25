@@ -18,11 +18,11 @@ CCACHE_DIR="/var/ccache"
 
 LINGUAS="en en_US af ar az bg bn br bs ca cs cy da de el en_GB eo es et eu fa fi fr fy ga gl he hi hr hu is it ja kk km ko lt lv mk mn ms nb nds nl nn pa pl pt pt_BR ro ru rw se sk sl sr sr@Latn ss sv ta tg tr uk uz vi zh_CN zh_TW es_AR es_ES fy_NL ga_IE gu gu_IN nb_NO nn_NO pt_PT sv_SE zh"
 
-## USE ARRAYS ##
+## USE ##
 SAB_BAD="-kdeprefix -arts -qt3 -beagle -gnome -evo -mono -eds -apm -oss -branding -esd"
 SAB_MEDIA="musicbrainz sdl pulseaudio wmf fame cdr dvi mp3rtp xine cddb alsa dvb dvd bluray network dvdread ipod audiofile artswrappersuid dvdr jack dri cdda mjpeg mmx joystick xvmc cpudetection v4l v4l2"
 SAB_CODECS="x264 gsm lame dv mp3 stream live openal theora ogg a52 win32codecs matroska xvid flac ffmpeg aac speex real dts musepack"
-SAB_SYSTEM="cjk unicode gnutls nptl gcj udev systemd logind kerberos acl dbus bash-completion lzo rar policykit xcb bzip2 bidi wifi lm_sensors acpi usb pcmcia bluetooth irda ieee1394 perl python"
+SAB_SYSTEM="cjk unicode gnutls nptl gcj udev systemd logind -consolekit kerberos acl dbus bash-completion lzo rar policykit xcb bzip2 bidi wifi lm_sensors acpi usb pcmcia bluetooth irda ieee1394 perl python"
 SAB_FILESYS="fat hfs jfs xfs ntfs reiserfs sysfs inotify"
 SAB_PRINT="cups ppds foomatic-db gimpprint freetype xprint scanner"
 SAB_XSYS="cairo X opengl png gif gtk qt4 qt3support xpm tiff xinerama aiglx svg gphoto2 dga lcd openexr" 
