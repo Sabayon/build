@@ -1067,3 +1067,6 @@ gnome-base/libgnomecanvas glade
 
 # Needed by directvnc
 dev-libs/DirectFB dynload fbcon
+
+# We support both vanilla and vz kernels
+sys-cluster/vzctl vanilla-kernel vz-kernel
