@@ -99,9 +99,9 @@ media-gfx/yafaray:0
 #=dev-libs/folks-0.9*
 #=dev-libs/gdl-3.8*
 #=dev-libs/gjs-1.36*
-#=dev-libs/glib-2.36*
-#=dev-libs/gobject-introspection-common-1.36*
-#=dev-libs/gobject-introspection-1.36*
+=dev-libs/glib-2.36*
+=dev-libs/gobject-introspection-common-1.36*
+=dev-libs/gobject-introspection-1.36*
 #=dev-libs/libgweather-3.8*
 #=dev-libs/libpeas-1.8*
 #=dev-libs/libwacom-0.7*
