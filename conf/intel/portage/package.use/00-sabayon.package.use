@@ -1069,4 +1069,4 @@ gnome-base/libgnomecanvas glade
 dev-libs/DirectFB dynload fbcon
 
 # We support both vanilla and vz kernels
-sys-cluster/vzctl vanilla-kernel vz-kernel
+sys-cluster/vzctl vanilla-kernel vz-kernel ploop
