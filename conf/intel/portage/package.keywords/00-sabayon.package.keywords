@@ -21,6 +21,10 @@ net-libs/opal -~amd64 -~x86
 # stick texinfo to stable to avoid matter bump it
 sys-apps/texinfo -~amd64 -~x86
 
+# Apache is a critical component and 2.2 is still
+# "good enough", 2.4 isn't yet stabilized
+app-admin/apache-tools -~amd64 -~x86
+www-servers/apache -~amd64 -~x86
 # required to compile Chromium on x86, it seems
 =sys-devel/make-3.82-r4 ~amd64 ~x86
 
