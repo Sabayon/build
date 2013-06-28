@@ -146,9 +146,6 @@ sci-chemistry/pymol::gentoo
 # 2012-12-14 Fabio Erculiani: it is causing annoying sh errors on chroots
 >=app-shells/autojump-21.1.0
 
-# 2012-12-31 Fabio Erculiani: temp mask apache-2.4, we're not ready yet
->=www-servers/apache-2.3
-
 # 2013-01-13 Fabio Erculiani: we use media-video/libav
 media-video/ffmpeg
 
