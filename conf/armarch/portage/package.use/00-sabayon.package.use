@@ -176,7 +176,8 @@ sys-kernel/linux-raspberry luks mdadm lvm
 net-libs/farstream python
 
 # PHP wants gd
-dev-lang/php gd truetype
+dev-lang/php gd truetype fpm pdo sockets mysql
+app-admin/eselect-php fpm
 
 # GST stuff
 media-libs/gst-plugins-base X
