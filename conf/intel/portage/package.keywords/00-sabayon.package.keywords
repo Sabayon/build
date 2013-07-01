@@ -17,7 +17,6 @@ dev-lang/ruby -~amd64 -~x86
 media-video/libav -~amd64 -~x86
 net-libs/ptlib -~amd64 -~x86
 net-libs/opal -~amd64 -~x86
-dev-libs/protobuf -~amd64 -~x86
 # sci-mathematics/maxima needs texinfo <5.0
 # stick texinfo to stable to avoid matter bump it
 sys-apps/texinfo -~amd64 -~x86
