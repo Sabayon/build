@@ -161,3 +161,6 @@ sys-apps/man
 
 # 2013-06-26 Fabio Erculiani: migrated to logind
 sys-auth/consolekit
+
+# 2013-07-01 Fabio Erculiani: libreoffice want this
+<dev-util/mdds-0.8.0
