@@ -365,7 +365,7 @@ net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm -gtk python autoipd -qt
 net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat
 net-dns/dnsmasq -dbus
 
-net-fs/cifs-utils ads
+net-fs/cifs-utils ads upcall
 net-fs/samba ads acl oav swat winbind
 
 net-im/bitlbee twitter
