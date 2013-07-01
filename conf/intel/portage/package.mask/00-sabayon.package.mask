@@ -166,7 +166,7 @@ sys-auth/consolekit
 <dev-util/mdds-0.8.0
 
 # 2013-07-01 Fabio Erculiani: fpc-ide-2.6.x is not in tree yet
->dev-lang/fpc-2.6.0
+>dev-lang/fpc-2.6.1
 
 # 2013-07-01 Fabio Erculiani: not all the pkgs compile with 2.5
 >=dev-libs/protobuf-2.5
