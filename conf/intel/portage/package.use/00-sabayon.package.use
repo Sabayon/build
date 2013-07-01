@@ -501,6 +501,7 @@ sys-fs/udev static-libs
 sys-apps/util-linux static-libs
 dev-libs/glib static-libs
 dev-libs/elfutils static-libs
+sys-libs/gpm static-libs
 
 sys-kernel/genkernel cryptsetup crypt
 sys-kernel/genkernel-next cryptsetup crypt
