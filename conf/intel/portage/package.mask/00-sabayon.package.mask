@@ -164,3 +164,6 @@ sys-auth/consolekit
 
 # 2013-07-01 Fabio Erculiani: libreoffice want this
 <dev-util/mdds-0.8.0
+
+# 2013-07-01 Fabio Erculiani: fpc-ide-2.6.x is not in tree yet
+>dev-lang/fpc-2.6.0
