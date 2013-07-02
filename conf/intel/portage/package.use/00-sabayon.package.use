@@ -836,7 +836,7 @@ net-voip/ekiga gstreamer
 x11-libs/libdrm video_cards_intel video_cards_nouveau video_cards_radeon video_cards_vmware libkms
 app-text/evince djvu dvi gnome-keyring nautilus
 dev-lang/ifc idb
-app-editors/gedit-plugins terminal
+app-editors/gedit-plugins -python -terminal
 sci-chemistry/xds-bin smp
 dev-java/gnu-classpath -qt4
 app-cdr/xfburn gstreamer
