@@ -1075,3 +1075,6 @@ sys-cluster/vzctl vanilla-kernel vz-kernel ploop
 
 # USE=python wants python 3.3 now, so disable
 app-editors/gedit -python
+
+# We want the MATE NetworkManager applet
+mate-base/mate-applets networkmanager
