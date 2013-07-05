@@ -16,7 +16,7 @@ keyslot = "--keyslot" in args
 if keyslot:
     args.remove("--keyslot")
 canfail = "--canfail" in args
-if keyslot:
+if canfail:
     args.remove("--canfail")
 
 if len(args) < 3:
