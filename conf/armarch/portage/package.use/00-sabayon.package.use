@@ -157,9 +157,6 @@ media-libs/evas X
 # Enable Cairo for pybogject, we have split ebuilds
 dev-python/pygobject cairo
 
-# Do not user thread worker
-www-servers/apache -threads
-
 # Enable USE=branding
 x11-themes/elementary-icon-theme branding
 
@@ -189,4 +186,4 @@ dev-libs/nss:0 utils
 net-libs/libmicrohttpd:0 messages
 
 # Apache webserver
-www-servers/apache threads
+www-servers/apache threads -apache2_mpms_prefork
