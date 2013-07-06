@@ -177,7 +177,7 @@ net-libs/farstream python
 
 # PHP wants gd
 dev-lang/php apache2 gd truetype fpm pdo sockets mysql mysqli
-app-admin/eselect-php fpm
+app-admin/eselect-php apache2 fpm
 
 # GST stuff
 media-libs/gst-plugins-base X
