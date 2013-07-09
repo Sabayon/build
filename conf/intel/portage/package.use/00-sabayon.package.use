@@ -363,7 +363,7 @@ net-dialup/slmodem usb
 
 net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm -gtk python autoipd -qt4
 net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat
-net-dns/dnsmasq -dbus
+net-dns/dnsmasq -dbus tftp conntrack dhcp script dhcp-tools
 
 net-fs/cifs-utils ads upcall
 net-fs/samba ads acl oav swat winbind
