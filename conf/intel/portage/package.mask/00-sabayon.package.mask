@@ -179,4 +179,4 @@ app-office/libreoffice::gentoo
 
 # 2013-07-11 Joost Ruis: Blender needs Python-3 only gifted people may unmask this
 media-gfx/blender
->=dev-python/setuptools-0.7.8
+dev-python/setuptools
