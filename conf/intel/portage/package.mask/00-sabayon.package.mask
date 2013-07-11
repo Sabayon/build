@@ -171,5 +171,8 @@ sys-auth/consolekit
 # 2013-07-01 Fabio Erculiani: not all the pkgs compile with 2.5
 >=dev-libs/protobuf-2.5
 
-#2013-07-11 Joost Ruis: Masked because it pulls in gnutls-3
+# 2013-07-11 Joost Ruis: Masked because it pulls in gnutls-3
 >=net-ftp/filezilla-3.6.0.2-r1
+
+# 2013-07-11 Joost Ruis: Do not pull libreoffice from Gentoo
+app-office/libreoffice::gentoo
