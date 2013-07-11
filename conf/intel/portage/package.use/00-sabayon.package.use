@@ -352,7 +352,7 @@ media-video/dvdrip -xine subtitles fping
 
 net-analyzer/snmptt mysql
 net-analyzer/smokeping apache2
-net-analyzer/wireshark python
+net-analyzer/wireshark python -qt4
 
 # gtk part is provided by net-analyzer/zenmap
 net-analyzer/nmap -gtk ncat ndiff nping
