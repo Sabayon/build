@@ -64,6 +64,7 @@ app-misc/mc -slang
 
 app-mobilephone/gnokii sms -X
 
+app-pda/gtkpod gstreamer
 app-pda/libopensync-plugin-syncml obex
 
 app-portage/eix sqlite
