@@ -1041,7 +1041,8 @@ net-libs/telepathy-qt -farstream
 
 # Enable system-wide pulseaudio, also see bug #4009
 # Disable qt4
-media-sound/pulseaudio system-wide -qt4
+# 2013-07-11: gtk3 is only used to set a proper window icon...
+media-sound/pulseaudio system-wide -qt4 -gtk
 
 # 32bit libs on amd64, list them here
 media-libs/libsdl abi_x86_32
