@@ -187,6 +187,3 @@ dev-libs/nss:0 utils
 
 # libmicrohttpd, we want messages!
 net-libs/libmicrohttpd:0 messages
-
-# Apache webserver
-www-servers/apache threads
