@@ -985,7 +985,7 @@ sys-apps/man-db -berkdb
 dev-db/tora -oracle
 
 # Bumblebee stuff
-x11-misc/bumblebee video_cards_nvidia video_cards_nouveau
+x11-misc/bumblebee video_cards_nvidia video_cards_nouveau -bbswitch
 
 # PQStego requires this USE, see bug 2751
 >=sci-libs/gsl-1.15 cblas-external
