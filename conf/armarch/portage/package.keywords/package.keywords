@@ -100,7 +100,7 @@ media-tv/xbmc ~arm
 =x11-themes/murrine-themes-0.98.0 ** ~arm
 
 # Misc
-=media-libs/vigra-1.8.0-r1 ** ~arm
+<media-libs/vigra-9999 ** ~arm
 
 # Firefox, we want stable
 www-client/firefox -~arm
