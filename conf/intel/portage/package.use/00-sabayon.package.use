@@ -1080,3 +1080,6 @@ app-editors/gedit -python
 
 # We want the MATE NetworkManager applet
 mate-base/mate-applets networkmanager
+
+# Required by bitcoin-qt
+dev-libs/leveldb -snappy
