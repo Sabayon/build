@@ -1083,3 +1083,6 @@ mate-base/mate-applets networkmanager
 
 # Required by bitcoin-qt
 dev-libs/leveldb -snappy
+
+# LibreOffice wants it
+media-libs/harfbuzz icu
