@@ -1,111 +1,148 @@
 #!/usr/bin/python2
-import sys
-import subprocess
+
+import argparse
 import os
+import subprocess
+import sys
 import tempfile
 
-args = sys.argv[1:]
-
-only_injected = "--only-injected" in args
-if only_injected:
-    args.remove("--only-injected")
-do_spm_repo = "--no-spm-repo" not in args
-if not do_spm_repo:
-    args.remove("--no-spm-repo")
-keyslot = "--keyslot" in args
-if keyslot:
-    args.remove("--keyslot")
-canfail = "--canfail" in args
-if canfail:
-    args.remove("--canfail")
-
-if len(args) < 3:
-    print("bump_kernel_tag_mods <query tag> <compile tag> <source (query) repo> <destination entropy repo> [--only-injected] [--no-spm-repo] [--keyslot] [--canfail]")
-    raise SystemExit(1)
-
-kernel_tag = args.pop(0)
-compile_tag = args.pop(0)
-source_repo = args.pop(0)
-dest_repo = args.pop(0)
-
-sys.argv.append("--no-pid-handling")
-
-os.environ['KERNEL_DIR'] = "/usr/src/linux-" + compile_tag
-os.environ['ETP_REPO'] = source_repo
-import entropy.dep
 from entropy.server.interfaces import Server
-srv = Server()
-pkgs_map = {}
-try:
-    repo = srv.open_repository(srv.repository())
-    pkg_ids = repo.searchTaggedPackages(kernel_tag)
-    if not pkg_ids:
-        print("!!! no packages for kernel_tag")
-    injected_pkgs = []
-    normal_pkgs = []
-    for pkg_id in pkg_ids:
-        injected = repo.isInjected(pkg_id)
-        if injected:
-            injected_pkgs.append(pkg_id)
-        else:
-            normal_pkgs.append(pkg_id)
 
-    normal_atoms = []
-    injected_atoms = []
-    for lst, dst in ((normal_pkgs, normal_atoms), (injected_pkgs, injected_atoms)):
-        for pkg_id in lst:
-            if keyslot:
-                atom_str = entropy.dep.remove_tag_from_slot(repo.retrieveKeySlotAggregated(pkg_id))
+import entropy.dep
+
+
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser(
+        description="Bump Kernel Packages for Entropy Server")
+
+    parser.add_argument(
+        "query_version", metavar="<query version>",
+        help="the uname version to query")
+    parser.add_argument(
+        "build_version", metavar="<build version>",
+        help="the uname version to build packages for")
+
+    parser.add_argument(
+        "query_repo", metavar="<query repo>",
+        help="the repository to query")
+    parser.add_argument(
+        "build_repo", metavar="<build repo>",
+        help="the repository to place packages into")
+
+    parser.add_argument(
+        "--only-injected", action="store_true", default=False,
+        help="only consider injected packages")
+    parser.add_argument(
+        "--no-spm-repo", action="store_true", default=False,
+        help=("do not include the SPM repository suffix "
+              "in dependency atoms"))
+    parser.add_argument(
+        "--keyslot", action="store_true", default=False,
+        help=("do not use the exact package version but "
+              "rather key:slot"))
+    parser.add_argument(
+        "--canfail", action="store_true", default=False,
+        help="if emerge can fail and you want to ignore it")
+
+    nsargs = parser.parse_args(sys.argv[1:])
+
+    srv = Server()
+    pkgs_map = {}
+    try:
+        repo = srv.open_repository(nsargs.query_repo)
+        pkg_ids = repo.searchTaggedPackages(nsargs.query_version)
+        if not pkg_ids:
+            print("!!! no packages for <query version>")
+            raise SystemExit(1)
+
+        injected_pkgs = []
+        normal_pkgs = []
+        for pkg_id in pkg_ids:
+            injected = repo.isInjected(pkg_id)
+            if injected:
+                injected_pkgs.append(pkg_id)
             else:
-                atom_str = "~" + entropy.dep.remove_tag(repo.retrieveAtom(pkg_id))
-            if do_spm_repo:
-                spm_repo = repo.retrieveSpmRepository(pkg_id)
-                if spm_repo is not None:
-                    atom_str += "::" + spm_repo
-            dst.append(atom_str)
-finally:
-    srv.shutdown()
+                normal_pkgs.append(pkg_id)
 
-if not only_injected:
-    if normal_atoms:
-        print("normal packages: %s" % (' '.join(normal_atoms),))    
-if injected_atoms:
-    print("injected packages: %s" % (' '.join(injected_atoms),))
+        normal_atoms = []
+        injected_atoms = []
+        data = (
+            (normal_pkgs, normal_atoms),
+            (injected_pkgs, injected_atoms)
+        )
+        for lst, dst in data:
+            for pkg_id in lst:
+                if nsargs.keyslot:
+                    atom_str = entropy.dep.remove_tag_from_slot(
+                        repo.retrieveKeySlotAggregated(pkg_id))
+                else:
+                    atom_str = "~" + entropy.dep.remove_tag(
+                        repo.retrieveAtom(pkg_id))
+                if not nsargs.no_spm_repo:
+                    spm_repo = repo.retrieveSpmRepository(pkg_id)
+                    if spm_repo is not None:
+                        atom_str += "::" + spm_repo
+                dst.append(atom_str)
+    finally:
+        srv.shutdown()
 
-if not (normal_atoms or injected_atoms):
-    print("nothing to do !!")
-    raise SystemExit(0)
+    if not nsargs.only_injected:
+        if normal_atoms:
+            print("normal packages: %s" % (
+                " ".join(normal_atoms),))
+    if injected_atoms:
+        print("injected packages: %s" % (
+            " ".join(injected_atoms),))
 
-if normal_atoms and not only_injected:
-    rc = subprocess.call(["emerge", "-av", "--keep-going"] + [x for x in normal_atoms])
-    if rc != 0 and not canfail:
-        raise SystemExit(rc)
-    subprocess.call(["etc-update"], shell = True)
-    os.environ['ETP_REPO'] = dest_repo
-    rc = subprocess.call(["eit", "add"] + normal_atoms)
-    if rc != 0:
-        raise SystemExit(rc)
+    if not (normal_atoms or injected_atoms):
+        print("nothing to do !!")
+        raise SystemExit(0)
 
-if injected_atoms:
-    tmp_dir = tempfile.mkdtemp(dir="/var/tmp", prefix="bump_kernel_packages")
-    os.environ['PKGDIR'] = tmp_dir
-    rc = subprocess.call(["emerge", "-Bav", "--nodeps"] + [x for x in injected_atoms])
-    if rc != 0 and not canfail:
-        raise SystemExit(rc)
-    tbz2s = []
-    for category in os.listdir(tmp_dir):
-        path = os.path.join(tmp_dir, category)
-        if not os.path.isdir(path):
-            continue
-        for sub_file in os.listdir(path):
-            if not sub_file.endswith(".tbz2"):
-                continue
-            tbz2s.append(os.path.join(path, sub_file))
+    os.environ['KERNEL_DIR'] = "/usr/src/linux-%s" % (
+        nsargs.build_version,)
 
-    if tbz2s:
-        os.environ['ETP_REPO'] = dest_repo
-        rc = subprocess.call(["eit", "inject"] + tbz2s)
+    if normal_atoms and not nsargs.only_injected:
+        args = ["emerge", "-av", "--keep-going"]
+        args += [x for x in normal_atoms]
+        rc = subprocess.call(args)
+        if rc != 0 and not nsargs.canfail:
+            raise SystemExit(rc)
+        subprocess.call(["/usr/sbin/etc-update"])
+
+        args = ["eit", "add", "--to", nsargs.build_repo]
+        args += normal_atoms
+        rc = subprocess.call(args)
         if rc != 0:
             raise SystemExit(rc)
 
-raise SystemExit(0)
+    if injected_atoms:
+        tmp_dir = tempfile.mkdtemp(
+            dir="/var/tmp", prefix="bump_kernel_packages")
+        os.environ['PKGDIR'] = tmp_dir
+
+        args = ["emerge", "-Bav", "--nodeps"]
+        args += [x for x in injected_atoms]
+        rc = subprocess.call(args)
+        if rc != 0 and not nsargs.canfail:
+            raise SystemExit(rc)
+
+        tbz2s = []
+        for category in os.listdir(tmp_dir):
+            path = os.path.join(tmp_dir, category)
+            if not os.path.isdir(path):
+                continue
+            for sub_file in os.listdir(path):
+                if not sub_file.endswith(".tbz2"):
+                    continue
+                tbz2s.append(os.path.join(path, sub_file))
+
+        if tbz2s:
+            args = ["eit", "inject", "--to", nsargs.build_repo]
+            args += tbz2s
+            rc = subprocess.call(args)
+            if rc != 0:
+                raise SystemExit(rc)
+
+    raise SystemExit(0)
+
