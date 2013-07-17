@@ -190,3 +190,9 @@ net-libs/libmicrohttpd:0 messages
 
 # bitcoin-qt needs -leveldb
 dev-libs/leveldb -snappy
+
+# Texlive
+app-text/texlive-core cjk xetex
+
+# WX Widgets
+x11-libs/wxGTK X tiff
