@@ -189,6 +189,24 @@ def warn_portage_bump():
 
     return 0
 
+def warn_binutils_bump():
+    """
+    Whenever binutils is bumped, we should rebuild packages
+    linking explicitly to libbfd-<ver>.so :( sigh.
+    """
+    pkg_key = "%s/%s" % (os.getenv("PKG_CATEGORY", ""),
+                         os.getenv("PKG_NAME", ""))
+
+    if pkg_key == "sys-devel/binutils":
+        write_warning_msg(
+            "So you bumped binutils they told me...\n"
+            "Please, no wait... FUCKING CHECK that packages linking to\n"
+            "libbfd-<old_ver>.so have been rebuilt. You can use:\n"
+            " # eit query required libbfd-*.so\n")
+        return 1
+
+    return 0
+
 def warn_haskell_bump():
     """
     Warn in case of bumping dev-lang/ghc. Developer should not
@@ -222,6 +240,10 @@ if __name__ == "__main__":
         exit_st = rc
 
     rc = warn_haskell_bump()
+    if rc != 0 and rc > exit_st:
+        exit_st = rc
+
+    rc = warn_binutils_bump()
     if rc != 0 and rc > exit_st:
         exit_st = rc
 
