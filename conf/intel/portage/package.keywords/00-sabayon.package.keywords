@@ -15,6 +15,7 @@ dev-lang/tk -~amd64 -~x86
 dev-lang/ghc -~amd64 -~x86
 dev-lang/ruby -~amd64 -~x86
 media-video/libav -~amd64 -~x86
+virtual/ffmpeg -~amd64 -~x86
 net-libs/ptlib -~amd64 -~x86
 net-libs/opal -~amd64 -~x86
 # Force stable boost
