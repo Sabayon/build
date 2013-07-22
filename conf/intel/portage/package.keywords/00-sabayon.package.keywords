@@ -19,7 +19,9 @@ net-libs/ptlib -~amd64 -~x86
 net-libs/opal -~amd64 -~x86
 # Force stable boost
 dev-libs/boost -~amd64 -~x86
+dev-util/boost-build -~amd64 -~x86
 =dev-libs/boost-1.52* ~amd64 ~x86 amd64 x86
+=dev-util/boost-build-1.52* ~amd64 ~x86 amd64 x86
 # sci-mathematics/maxima needs texinfo <5.0
 # stick texinfo to stable to avoid matter bump it
 sys-apps/texinfo -~amd64 -~x86
