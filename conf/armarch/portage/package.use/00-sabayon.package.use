@@ -21,7 +21,7 @@ media-libs/freetype auto-hinter
 media-gfx/imagemagick truetype fontconfig corefonts png
 
 # Required by several stuff
-sys-auth/pambase consolekit
+sys-auth/pambase -consolekit systemd
 sys-auth/consolekit policykit
 
 # doesn't compile with epoll
