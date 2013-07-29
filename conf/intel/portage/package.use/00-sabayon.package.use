@@ -882,6 +882,7 @@ media-libs/svgalib -kernel-helper
 app-misc/tuxcmd-modules gnome unrar
 media-sound/cmus mikmod
 sci-libs/hdf5 -cxx -fortran -mpi threads szip
+sci-libs/netcdf -fortran
 virtual/mpi romio
 sys-cluster/openmpi romio
 media-libs/libpng apng
