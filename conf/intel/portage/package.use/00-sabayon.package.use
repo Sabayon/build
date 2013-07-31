@@ -106,6 +106,7 @@ dev-embedded/openocd ftdi
 
 dev-games/cegui devil
 dev-games/crystalspace mng
+dev-games/ogre cg ois
 
 dev-java/antlr cxx
 dev-java/bsh bsf
