@@ -38,6 +38,7 @@ sci-electronics/eagle                   cadsoft
 sci-geosciences/googleearth             googleearth
 www-client/google-chrome		google-chrome
 www-plugins/adobe-flash			AdobeFlash-10.3 AdobeFlash-11.x
+www-plugins/chrome-binary-plugins	google-chrome
 www-plugins/google-talkplugin           Google-TOS
 dev-java/oracle-jdk-bin			Oracle-BCLA-JavaSE
 dev-java/oracle-jre-bin			Oracle-BCLA-JavaSE
