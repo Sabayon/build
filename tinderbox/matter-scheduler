@@ -14,21 +14,7 @@ if __name__ == "__main__":
     DEFAULT_MATTER_ARGS = "--commit --gentle --push --sync --sync-best-effort"
     MATTER_ARGS = os.getenv("MATTER_ARGS", DEFAULT_MATTER_ARGS)
 
-    CHROOT_SCRIPT = """\
-cd "${PARTICLES_DIR}" || exit 1
-git pull || exit 1
-cd "${BUILD_GIT_DIR}" || exit 1
-git pull || exit 1
-particles=$(find "${PARTICLES_DIR}" -name "*.particle" | sort)
-if [ -n "${particles}" ]; then
-    /usr/sbin/env-update
-    . /etc/profile
-    matter ${MATTER_ARGS} ${particles}
-    exit ${?}
-fi
-exit 1
-"""
-
+    CHROOT_SCRIPT = "/sabayon/bin/matter-scheduler-chroot"  # this is in build.git
     ENV_VARS_HELP = """\
 Environment variables:
 %s  =  path inside chroot containing Matter spec files (also called particles)
@@ -70,7 +56,7 @@ Environment variables:
     os.chroot(chroot_dir)
     os.chdir("/")
     try:
-        rc = subprocess.call(CHROOT_SCRIPT, shell=True)
+        rc = subprocess.call(CHROOT_SCRIPT)
     except Exception as err:
         sys.stderr.write(repr(err) + "\n")
         rc = 1

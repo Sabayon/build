@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cd "${PARTICLES_DIR}" || exit 1
+git pull || exit 1
+cd "${BUILD_GIT_DIR}" || exit 1
+git pull || exit 1
+particles=$(find "${PARTICLES_DIR}" -name "*.particle" | sort)
+if [ -n "${particles}" ]; then
+    /usr/sbin/env-update
+    . /etc/profile
+    matter ${MATTER_ARGS} ${particles}
+    exit ${?}
+fi
+exit 1
