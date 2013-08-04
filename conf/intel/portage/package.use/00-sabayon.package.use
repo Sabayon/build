@@ -416,6 +416,7 @@ net-misc/nxclient prebuilt
 net-misc/nxnode prebuilt vnc
 net-misc/openssh -X
 net-misc/openssh -ldap
+net-misc/ps3mediaserver multiuser tsmuxer
 net-misc/tightvnc -java server
 net-misc/tor threads
 net-misc/vinagre -avahi
@@ -865,7 +866,7 @@ x11-themes/tango-icon-theme branding
 dev-games/ode double-precision
 dev-util/nvidia-cuda-sdk opencl
 sci-chemistry/openbabel -perl -python
-media-sound/clementine lastfm ios moodbar
+media-sound/clementine lastfm ios moodbar mtp
 dev-libs/tinyxml stl
 net-misc/mediatomb thumbnail -javascript
 
