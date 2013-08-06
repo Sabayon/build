@@ -1096,3 +1096,6 @@ dev-python/imaging tk
 virtual/python-imaging tk
 =dev-lang/python-2.7* tk
 
+# system-ffmpeg dependency pulls in ffmpeg, we use stable libav
+# which is not enough at this time, minimum req is 9.5
+www-client/chromium -system-ffmpeg
