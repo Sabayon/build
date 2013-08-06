@@ -1094,4 +1094,5 @@ media-libs/harfbuzz icu
 # that redirects the tk dependency to python-tk
 dev-python/imaging tk
 virtual/python-imaging tk
+=dev-lang/python-2.7* tk
 
