@@ -17,7 +17,7 @@ try:
             sys.stderr.write("  %s\n" % (path,))
 
     if plibdata:
-        sys.stdout.write("\n--\n")
+        sys.stdout.write("# list of inverse deps:\n")
 
     # taken from display_preserved_libs.py, Portage
     linkmap.rebuild()  # can raise CommandNotFound
@@ -51,6 +51,7 @@ try:
 
     all_preserved = set()
     all_preserved.update(*plibdata.values())
+    owners_map = {}
 
     for cpv in plibdata:
         sys.stdout.write("%s\n" % (cpv,))
@@ -78,15 +79,32 @@ try:
                 consumers = consumers_non_preserved
 
             for c in consumers:
+                owner_pkgs = []
                 if c in all_preserved:
                     # The owner is displayed elsewhere due to having
                     # its libs preserved, so distinguish this special
                     # case (see bug #461908).
                     owners_desc = "preserved"
                 else:
-                    owners_desc = ", ".join(x.mycpv for x in owners.get(c, []))
+                    owner_cpvs = [x.mycpv for x in owners.get(c, [])]
+                    owner_pkgs.extend(owner_cpvs)
+                    owners_desc = ", ".join(owner_cpvs)
 
                 sys.stderr.write("  used by %s (%s)\n" % (c, owners_desc))
+
+                for owner_pkg in owner_pkgs:
+                    obj = owners_map.setdefault(owner_pkg, set())
+                    obj.add(c)
+
+        sys.stdout.flush()
+        sys.stderr.flush()
+
+        if owners_map:
+            sys.stdout.write("# grouped list of rebuilds:\n")
+
+        for owner_pkg in sorted(owners_map.keys()):
+            owner_files = sorted(owners_map[owner_pkg])
+            sys.stderr.write("%s (files: %s)\n" % (owner_pkg, owner_files))
 
         sys.stdout.flush()
         sys.stderr.flush()
