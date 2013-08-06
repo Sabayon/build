@@ -172,3 +172,7 @@ sys-auth/consolekit
 # dev-python/pillow is supposed to replace dev-python/imaging at some
 # point in the future.
 dev-python/pillow
+
+# 2013-08-06 Fabio Erculiani: not sure why this may be pulled in
+# but you know, gamerlay...
+>=games-strategy/0ad-99999
