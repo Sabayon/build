@@ -11,6 +11,10 @@ reg = vardb._plib_registry
 reg.lock()
 try:
     plibdata = reg.getPreservedLibs()
+
+    if plibdata:
+        sys.stdout.write("# list of bumped libraries:\n")
+
     for cpv, paths in plibdata.items():
         sys.stdout.write("%s\n" % (cpv,))
         for path in sorted(paths):
@@ -104,7 +108,8 @@ try:
 
         for owner_pkg in sorted(owners_map.keys()):
             owner_files = sorted(owners_map[owner_pkg])
-            sys.stderr.write("%s (files: %s)\n" % (owner_pkg, owner_files))
+            sys.stderr.write("%s (files: %s)\n" % (
+                owner_pkg, ", ".join(owner_files)))
 
         sys.stdout.flush()
         sys.stderr.flush()
