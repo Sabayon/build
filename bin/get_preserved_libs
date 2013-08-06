@@ -1,0 +1,18 @@
+#!/usr/bin/python
+
+import sys
+from _emerge.actions import load_emerge_config
+
+settings, trees, mtimedb = load_emerge_config()
+vdb = trees[settings["ROOT"]]["vartree"].dbapi
+reg = vdb._plib_registry
+
+reg.lock()
+try:
+    pkg_paths = reg.getPreservedLibs()
+    for cpv, paths in pkg_paths.items():
+        sys.stdout.write("%s\n" % (cpv,))
+        for path in sorted(paths):
+            sys.stderr.write("  %s\n" % (path,))
+finally:
+    reg.unlock()
