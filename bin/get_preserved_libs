@@ -115,7 +115,7 @@ try:
 
         for owner_pkg in sorted(owners_map.keys()):
             owner_files = sorted(owners_map[owner_pkg])
-            sys.stderr.write("%s\n" % (
+            sys.stdout.write("%s\n" % (
                 owner_pkg,))
             for owner_file in owner_files:
                 sys.stderr.write("  %s\n" % (owner_file,))
