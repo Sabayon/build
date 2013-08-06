@@ -1099,3 +1099,6 @@ virtual/python-imaging tk
 # system-ffmpeg dependency pulls in ffmpeg, we use stable libav
 # which is not enough at this time, minimum req is 9.5
 www-client/chromium -system-ffmpeg
+
+# required by games-engines/gargoyle:0
+media-libs/sdl-sound modplug
