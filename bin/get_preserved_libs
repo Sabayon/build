@@ -101,7 +101,7 @@ try:
 
                 for owner_pkg in owner_pkgs:
                     cp_slot = "%s:%s" % (
-                        portage.dep.dep_getkey(owner_pkg),
+                        portage.dep.dep_getkey("=" + owner_pkg),
                         vardb.aux_get(owner_pkg, ["SLOT"])[0]
                         )
                     obj = owners_map.setdefault(cp_slot, set())
@@ -118,7 +118,7 @@ try:
             sys.stderr.write("%s\n" % (
                 owner_pkg,))
             for owner_file in owner_files:
-                sys.stderr.write("   %s\n" % (owner_file,))
+                sys.stderr.write("  %s\n" % (owner_file,))
 
         sys.stdout.flush()
         sys.stderr.flush()
