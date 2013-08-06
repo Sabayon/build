@@ -110,18 +110,17 @@ try:
         sys.stdout.flush()
         sys.stderr.flush()
 
-        if owners_map:
-            sys.stdout.write("# grouped list of rebuilds:\n")
+    if owners_map:
+        sys.stdout.write("# grouped list of rebuilds:\n")
 
-        for owner_pkg in sorted(owners_map.keys()):
-            owner_files = sorted(owners_map[owner_pkg])
-            sys.stdout.write("%s\n" % (
-                owner_pkg,))
-            for owner_file in owner_files:
-                sys.stderr.write("  %s\n" % (owner_file,))
+    for owner_pkg in sorted(owners_map.keys()):
+        owner_files = sorted(owners_map[owner_pkg])
+        sys.stdout.write("%s\n" % (owner_pkg,))
+        for owner_file in owner_files:
+            sys.stderr.write("  %s\n" % (owner_file,))
 
-        sys.stdout.flush()
-        sys.stderr.flush()
+    sys.stdout.flush()
+    sys.stderr.flush()
 
 finally:
     reg.unlock()
