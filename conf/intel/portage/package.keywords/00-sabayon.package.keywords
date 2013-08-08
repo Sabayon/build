@@ -83,3 +83,6 @@ media-gfx/openexr_viewers -~amd64 -~x86
 
 # leechcraft only stable versions
 app-leechcraft/leechcraft-meta -~amd64 -~x86
+
+# unstable dtc always causes build failures
+sys-apps/dtc -~amd64 -~x86
