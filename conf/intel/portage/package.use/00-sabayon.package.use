@@ -448,7 +448,8 @@ sci-geosciences/qgis grass
 sci-libs/itpp fftw
 sci-libs/indilib nova
 sci-libs/plplot -wxwidgets
-sci-libs/vtk tk mpi
+# -ffmpeg because at this time, with latest libav, build fails
+sci-libs/vtk tk mpi -ffmpeg
 
 sci-mathematics/maxima latex
 sci-mathematics/octave fftw curl
