@@ -11,7 +11,7 @@ LDFLAGS="-Wl,-O1 -Wl,--as-needed"
 MAKEOPTS="-j16 -s"
 
 # Portage stuff
-FEATURES="ccache parallel-fetch protect-owned compressdebug splitdebug"
+FEATURES="parallel-fetch protect-owned compressdebug splitdebug"
 ACCEPT_KEYWORDS="~x86"
 CCACHE_SIZE="2G"
 CCACHE_DIR="/var/ccache"

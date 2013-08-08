@@ -12,7 +12,7 @@ MAKEOPTS="-j16 -s"
 
 # Portage stuff
 ACCEPT_KEYWORDS="~amd64"
-FEATURES="ccache parallel-fetch protect-owned compressdebug splitdebug"
+FEATURES="parallel-fetch protect-owned compressdebug splitdebug"
 CCACHE_SIZE="2G"
 CCACHE_DIR="/var/ccache"
 
