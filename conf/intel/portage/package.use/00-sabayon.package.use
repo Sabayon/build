@@ -1103,4 +1103,5 @@ virtual/python-imaging tk
 www-client/chromium -system-ffmpeg
 
 # required by games-engines/gargoyle:0
-media-libs/sdl-sound modplug
+# USE=mikmod required by gltron
+media-libs/sdl-sound modplug mikmod
