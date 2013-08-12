@@ -199,3 +199,7 @@ dev-python/pillow
 # sci-mathematics/pari-2.3.5
 <sci-mathematics/pari-2.3.5
 >sci-mathematics/pari-2.3.5
+
+# 2013-08-12 Fabio Erculiani: mdds must be held back as libreoffice
+# dictates.
+>=dev-util/mdds-0.9
