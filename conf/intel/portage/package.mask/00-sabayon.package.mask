@@ -176,3 +176,8 @@ dev-python/pillow
 # 2013-08-06 Fabio Erculiani: not sure why this may be pulled in
 # but you know, gamerlay...
 >=games-strategy/0ad-99999
+
+# 2013-08-12 Fabio Erculiani: 4.0 versions don't work with linphone
+# and they're constantly bumped by matter. Keep them masked for a while.
+>=net-libs/libosip-4.0
+>=net-libs/libeXosip-4.0
