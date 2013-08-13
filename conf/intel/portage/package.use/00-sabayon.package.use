@@ -524,6 +524,7 @@ virtual/opencl video_cards_nvidia video_cards_fglrx
 www-apache/mod_dav_svn -dso
 
 www-apps/egroupware mysql
+www-apps/gallery mysql
 www-apps/owncloud mysql postgres sqlite3
 www-apps/phprojekt mysql
 www-apps/rt mysql
