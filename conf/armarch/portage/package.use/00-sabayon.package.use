@@ -196,3 +196,7 @@ app-text/texlive-core cjk xetex
 
 # WX Widgets
 x11-libs/wxGTK X tiff
+
+# Disable Python (needs 3.x) in gedit
+app-editors/gedit -python
+app-editors/gedit-plugins -python -terminal
