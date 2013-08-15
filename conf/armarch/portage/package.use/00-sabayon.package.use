@@ -203,3 +203,6 @@ app-editors/gedit-plugins -python -terminal
 
 # if USE=acl, then also upcall
 net-fs/cifs-utils upcall
+
+# cifs-utils requires samba[winbind]
+net-fs/samba winbind
