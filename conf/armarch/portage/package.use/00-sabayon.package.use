@@ -200,3 +200,6 @@ x11-libs/wxGTK X tiff
 # Disable Python (needs 3.x) in gedit
 app-editors/gedit -python
 app-editors/gedit-plugins -python -terminal
+
+# if USE=acl, then also upcall
+net-fs/cifs-utils upcall
