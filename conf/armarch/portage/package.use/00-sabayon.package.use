@@ -89,6 +89,7 @@ dev-python/PyQt4 script svg declarative sql webkit X
 kde-base/kde-l10n linguas_be linguas_csb linguas_ne linguas_th linguas_wa
 
 # GNOME stuff
+app-accessibility/orca python_targets_python3_3
 app-crypt/gcr gtk
 app-text/poppler cairo
 app-text/poppler-glib cairo
