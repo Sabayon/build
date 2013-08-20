@@ -195,6 +195,7 @@ dev-libs/leveldb -snappy
 
 # Texlive
 app-text/texlive-core cjk xetex
+media-libs/harfbuzz icu
 
 # WX Widgets
 x11-libs/wxGTK X tiff
