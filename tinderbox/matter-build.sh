@@ -57,9 +57,11 @@ echo "Acquiring locks at ${LOCK_FILE} and ${LVM_LOCK_FILE} in blocking mode, wai
 		echo "Starting matter-scheduler at $(date)..."
 		export ETP_NO_COLOR="1"
 
+		pre_post="--pre /particles/hooks/pre.sh --post /particles/hooks/post.sh"
 		# Place standard outout and standard error together to make
 		# tee happy. Filter out stdout because it gets to mail
-		PARTICLES_DIR="/particles/${schedule}" MATTER_ARGS="--commit --blocking --gentle --disable-preserved-libs ${@}" "${PRE_CHROOT}" \
+		PARTICLES_DIR="/particles/${schedule}" \
+		MATTER_ARGS="--commit --blocking --gentle --disable-preserved-libs ${pre_post} ${@}" "${PRE_CHROOT}" \
 			/build/tinderbox/matter-scheduler "${CHROOT_DIR}" 2>&1 3>&1 | tee "${LOG_FILE}" > /dev/null
 		rc=${?}
 		echo "Completed matter-scheduler at $(date) with exit status: ${rc}"
