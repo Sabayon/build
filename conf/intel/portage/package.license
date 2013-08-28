@@ -8,6 +8,7 @@ dev-lang/icc				Intel-SDP
 dev-lang/idb				Intel-SDP
 dev-lang/ifc				Intel-SDP
 dev-libs/intel-common			Intel-SDP
+dev-util/intel-ocl-sdk			Intel-SDP
 games-action/mutantstorm-demo		POMPOM
 games-action/spacetripper-demo		POMPOM
 games-arcade/thinktanks-demo		THINKTANKS
