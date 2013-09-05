@@ -37,6 +37,7 @@ games-action/heretic2-demo		LOKI-EULA
 net-im/skype				>=net-im/skype-4.0.0.7-r2 skype-4.0.0.7-copyright
 sci-electronics/eagle                   cadsoft
 sci-geosciences/googleearth             googleearth
+sci-misc/mendeleydesktop 		Mendeley-EULA
 www-client/google-chrome		google-chrome
 www-plugins/adobe-flash			AdobeFlash-10.3 AdobeFlash-11.x
 www-plugins/chrome-binary-plugins	google-chrome
