@@ -1001,7 +1001,8 @@ x11-misc/bumblebee video_cards_nvidia video_cards_nouveau -bbswitch
 app-misc/recoll -fam inotify
 
 # dev-db/mongodb should use V8. Allows to fix bug 3069
-dev-db/mongodb v8
+# embedded-v8 due to incompatiblity with Chromium - Gentoo bug 471582
+dev-db/mongodb v8 embedded-v8
 
 # Enable hardened USE flags
 sys-devel/base-gcc hardened
