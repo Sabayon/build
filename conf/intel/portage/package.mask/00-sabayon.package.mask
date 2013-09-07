@@ -211,8 +211,3 @@ dev-python/pillow
 # 2013-08-26 Fabio Erculiani: mask the gamerlay version of osg
 # osg has a very unstable API.
 dev-games/openscenegraph::gamerlay
-
-# 2013-09-07 Fabio Erculiani: speech-dispatcher 0.7 is required
-# by orca-3.6. We cannot bump to orca-3.8 because it requires
-# a shitload of stuff compiled with python3.3 support.
->=app-accessibility/speech-dispatcher-0.8
