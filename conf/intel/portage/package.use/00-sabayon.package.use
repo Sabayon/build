@@ -1,5 +1,8 @@
 ## If you dont want to organize it, put new entries in at the very end
 
+# Required by USE=python, which is needed by orca
+app-accessibility/speech-dispatcher python_targets_python3_3
+
 app-accessibility/orca python_targets_python3_3
 app-accessibility/dasher gnome
 
