@@ -3,9 +3,6 @@
 app-accessibility/orca python_targets_python3_3
 app-accessibility/dasher gnome
 
-# 0.8-r(1|2): USE=python implies Python 3
-app-accessibility/speech-dispatcher -python
-
 app-admin/conky audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thinkpad weather-metar weather-xoap -ipv6
 app-admin/ulogd mysql
 
