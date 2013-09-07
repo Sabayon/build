@@ -1115,5 +1115,7 @@ app-accessibility/orca python_targets_python3_3
 dev-python/dbus-python python_targets_python3_3
 dev-python/setproctitle python_targets_python3_3
 dev-python/pycairo python_targets_python3_3
-dev-python/pygobject python_targets_python3_3
 dev-python/pyatspi python_targets_python3_3
+dev-python/pygobject-base python_targets_python3_3
+dev-python/pygobject-cairo python_targets_python3_3
+dev-python/pygobject python_targets_python3_3
