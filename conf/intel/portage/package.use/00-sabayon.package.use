@@ -948,7 +948,8 @@ net-dns/avahi dbus gtk3
 # GNOME 3 wants NetworkManager 0.9
 kde-misc/networkmanagement nm09
 # Do not pull in gnome-extra-apps meta package
-gnome-base/gnome -extras
+# Disable accessibility, since it's just a virtual dependency
+gnome-base/gnome -extras -accessibility
 # Enable some fancy stuff on gdm
 gnome-base/gdm gnome-keyring smartcard accessibility fprint plymouth
 # required by gnome-extra/synapse-0.2.6, required by gnome-extra/synapse (argument)
