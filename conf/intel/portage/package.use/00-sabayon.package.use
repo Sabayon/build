@@ -454,9 +454,6 @@ sci-libs/vtk tk mpi -ffmpeg
 sci-mathematics/maxima latex
 sci-mathematics/octave fftw curl
 
-# We don't want rtai
-sci-misc/emc simulator
-
 # htmldoc, doc, graphviz are required by app-doc/root-docs
 sci-physics/root htmldoc doc fftw graphviz
 
