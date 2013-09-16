@@ -211,3 +211,6 @@ dev-python/pillow
 # 2013-08-26 Fabio Erculiani: mask the gamerlay version of osg
 # osg has a very unstable API.
 dev-games/openscenegraph::gamerlay
+
+# 2013-09-16 Fabio Erculiani: wtf? live ebuild with keywords?
+>=dev-python/python-keystoneclient-9999
