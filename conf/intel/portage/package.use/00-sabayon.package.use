@@ -332,7 +332,7 @@ media-video/blinkensim aalib
 # To enable vdpau, video_cards_nvidia USE flag must be enabled
 virtual/ffmpeg threads ogg vhook faac faad vdpau video_cards_nvidia amr cpudetection vaapi vpx
 media-video/ffmpeg threads ogg vhook faac faad vdpau video_cards_nvidia amr cpudetection vaapi vpx
-media-video/libav amr cpudetection faac faad ogg rtmp threads vaapi vdpau vhook video_cards_nvidia vpx
+media-video/libav amr cpudetection faac faad ogg rtmp threads vaapi vdpau vhook video_cards_nvidia vpx jpeg2k
 media-video/mplayer 3dnow 3dnowext aalib amr ass bl cddb cdparanoia cpudetection dvdnav -dxr3 faac rtmp ftp ladspa lirc -live md5sum mmxext mng mp2 openal pnm radio rar rtc sse sse2 ssse3 tga tivo vdpau vidix vpx x264 zoran
 # testing mplayer flags
 media-video/mplayer fbcon bs2b
