@@ -323,7 +323,7 @@ media-tv/xawtv aalib
 media-tv/xbmc airplay bluray css goom mysql pvr rtmp upnp vdpau webserver xrandr sftp nfs
 
 # 32bit plugin is unwanted, enabling vdpau doesn't change anything actually
-www-plugins/adobe-flash -32bit
+www-plugins/adobe-flash -32bit sse2
 
 # Disable MMX due to compile failures
 media-tv/mythtv fftw
