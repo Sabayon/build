@@ -185,3 +185,6 @@ dev-python/pycuda (.*)x11-drivers/nvidia-drivers(.*) \1x11-drivers/nvidia-usersp
 
 # Drop dracut dependency from plymouth, not needed atm
 sys-boot/plymouth (.*)sys-kernel/dracut(.*)
+
+# Steam, don't pull in gcc directly
+games-util/steam-launcher (.*)sys-devel/gcc-(.*) \1sys-devel/base-gcc-\2
