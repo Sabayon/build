@@ -211,3 +211,6 @@ dev-games/openscenegraph::gamerlay
 
 # 2013-09-16 Fabio Erculiani: wtf? live ebuild with keywords?
 >=dev-python/python-keystoneclient-9999
+
+# 2013-09-26 Fabio Erculiani: we're shipping with ruby:1.9 atm
+>=dev-lang/ruby-2.0
