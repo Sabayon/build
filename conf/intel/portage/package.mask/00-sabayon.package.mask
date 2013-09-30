@@ -146,10 +146,6 @@ sci-chemistry/pymol::gentoo
 # 2013-01-13 Fabio Erculiani: we use media-video/libav
 media-video/ffmpeg
 
-# 2013-01-23 Fabio Erculiani: app-misc/pax-utils-0.6 breaks genkernel initramfs generation
-# See Gentoo bug #450688, mask pax-utils for now
->=app-misc/pax-utils-0.6
-
 # 2013-02-08 Fabio Erculiani: we use man-db
 sys-apps/man
 
