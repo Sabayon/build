@@ -67,6 +67,3 @@ RUBY_TARGETS="ruby19"
 # Apache suEXEC default UMASK
 # See bug 3544
 SUEXEC_UMASK=022
-
-# Support the new multilib mode
-ABI_X86="64 32"
