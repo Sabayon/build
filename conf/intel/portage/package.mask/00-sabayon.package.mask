@@ -170,11 +170,6 @@ dev-python/pillow
 # but you know, gamerlay...
 >=games-strategy/0ad-99999
 
-# 2013-08-12 Fabio Erculiani: 4.0 versions don't work with linphone
-# and they're constantly bumped by matter. Keep them masked for a while.
->=net-libs/libosip-4.0
->=net-libs/libeXosip-4.0
-
 # 2013-08-12 Fabio Erculiani: oyranos 0.9.4 wants elektra 0.7
 # stop matter from bumping it for now.
 >=app-admin/elektra-0.8
