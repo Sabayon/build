@@ -210,3 +210,6 @@ dev-games/openscenegraph::gamerlay
 
 # 2013-09-26 Fabio Erculiani: we're shipping with ruby:1.9 atm
 >=dev-lang/ruby-2.0
+
+# 2013-10-14 Fabio Erculiani: force our python
+dev-lang/python::gentoo
