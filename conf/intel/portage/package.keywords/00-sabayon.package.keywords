@@ -89,4 +89,4 @@ sys-apps/dtc -~amd64 -~x86
 
 # These are a pain in the ass when they abi break
 net-libs/libosip -~amd64 -~x86
-net-libs/libeXosip -~amd64 -~x86
+# net-libs/libeXosip -~amd64 -~x86
