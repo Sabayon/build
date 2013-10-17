@@ -70,3 +70,6 @@ RUBY_TARGETS="ruby19"
 # Apache suEXEC default UMASK
 # See bug 3544
 SUEXEC_UMASK=022
+
+# Setup GRUB platforms
+GRUB_PLATFORMS="pc"
