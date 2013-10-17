@@ -189,6 +189,22 @@ def warn_portage_bump():
 
     return 0
 
+def warn_sip_bump():
+    """
+    Wheneger Sip is bumped, we need to manually bump the reverse dependencies.
+    """
+    pkg_key = "%s/%s" % (os.getenv("PKG_CATEGORY", ""),
+                         os.getenv("PKG_NAME", ""))
+
+    if pkg_key == "dev-python/sip":
+        write_warning_msg(
+            "So you bumped Sip they told me...\n"
+            "Have you rebuilt its reverse dependencies?\n"
+            "# qfile -e /usr/lib/python2.7/site-packages/PyQt4")
+        return 1
+
+    return 0
+
 def warn_binutils_bump():
     """
     Whenever binutils is bumped, we should rebuild packages
@@ -244,6 +260,10 @@ if __name__ == "__main__":
         exit_st = rc
 
     rc = warn_binutils_bump()
+    if rc != 0 and rc > exit_st:
+        exit_st = rc
+
+    rc = warn_sip_bump()
     if rc != 0 and rc > exit_st:
         exit_st = rc
 
