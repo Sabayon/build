@@ -80,6 +80,8 @@ Log  : ${LOG_FILE}.bz2
 Do not forget to check logs before touching repositories.
 Thanks for reading." | mutt -s "${schedule} matter run, $(basename ${LOG_FILE})" -a "${LOG_FILE}.bz2" -- entropy-team@lists.sabayon.org
 
+	# spawn GLSA and ignore any failures
+	/build/tinderbox/glsa-scheduler "${CHROOT_DIR}" "${CHROOT_NAME}" "${PRE_CHROOT}" > /dev/null
 	# spawn AntiMatter and ignore any failures
 	/build/tinderbox/antimatter-scheduler "${CHROOT_DIR}" "${CHROOT_NAME}" "${PRE_CHROOT}" > /dev/null
 
