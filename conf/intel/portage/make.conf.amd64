@@ -70,3 +70,6 @@ SUEXEC_UMASK=022
 
 # Setup GRUB platforms
 GRUB_PLATFORMS="efi-32 efi-64 pc"
+
+# Prepare the migration to non-emul-linux packages
+ABI_X86="32 64"
