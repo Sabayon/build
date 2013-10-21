@@ -1042,7 +1042,7 @@ net-libs/telepathy-qt -farstream
 media-sound/pulseaudio system-wide -qt4 -gtk
 
 # 32bit libs on amd64, list them here
-media-libs/libsdl abi_x86_32
+media-libs/libsdl2 abi_x86_32
 
 # Required by dev-python/graph-tool
 dev-python/numpy lapack
