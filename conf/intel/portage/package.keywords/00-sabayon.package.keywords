@@ -90,3 +90,6 @@ sys-apps/dtc -~amd64 -~x86
 # These are a pain in the ass when they abi break
 net-libs/libosip -~amd64 -~x86
 # net-libs/libeXosip -~amd64 -~x86
+
+# Keyword libsdl2 required by steam on amd64
+=media-libs/libsdl2-2.0.0-r1 ** ~amd64
