@@ -37,6 +37,8 @@ www-servers/apache -~amd64 -~x86
 
 # force stable libpng
 media-libs/libpng -~amd64 -~x86
+# allow libpng-1.6 on amd64 for the migration to ABI_X86=32
+=media-libs/libpng-1.6* ~amd64
 
 # force stable icu
 dev-libs/icu -~amd64 -~x86
