@@ -208,3 +208,7 @@ dev-games/openscenegraph::gamerlay
 
 # 2013-10-14 Fabio Erculiani: force our python
 dev-lang/python::gentoo
+
+# 2013-10-21 Fabio Erculiani: avoid libsdl from gamerlay, since
+# version 2 is in the main tree under a different PN (libsdl2).
+media-libs/libsdl::gamerlay
