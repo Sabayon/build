@@ -1114,3 +1114,8 @@ dev-python/pygobject python_targets_python3_3
 
 # udisks, we want cryptsetup support
 sys-fs/udisks cryptsetup crypt
+
+# These two want either one of alsa pulseaudio, etc
+app-accessibility/julius -alsa pulseaudio -oss -portaudio
+app-accessibility/simon -alsa pulseaudio -oss -portaudio
+
