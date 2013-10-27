@@ -16,6 +16,6 @@ CHROOT_PREFIX="${3}"
 
 (
     ${CHROOT_PREFIX} chroot "${CHROOT_PATH}" \
-	/sabayon/bin/glsa-digest
+	/sabayon/bin/glsa-digest 2>&1
 ) | mail -s "[${ARCH_NAME}] GLSA tracker of $(date +%Y-%m-%d)" \
     entropy-team@lists.sabayon.org
