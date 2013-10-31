@@ -64,7 +64,7 @@ USE_PYTHON="2.7"
 PYTHON_TARGETS="python2_7"
 
 # Other forced targets
-PHP_TARGETS="php5-3"
+PHP_TARGETS="php5-4"
 RUBY_TARGETS="ruby19"
 
 # Apache suEXEC default UMASK
