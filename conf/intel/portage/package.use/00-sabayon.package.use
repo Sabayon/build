@@ -958,7 +958,7 @@ x11-misc/obconf -lxde
 media-plugins/gst-plugins-meta mms
 net-ftp/proftpd authfile openssl
 dev-lang/parrot pcre
-app-office/calligra kdepim
+app-office/calligra kdepim semantic-desktop
 www-apps/postfixadmin mysql
 app-office/kmymoney hbci ofx
 app-arch/unzip natspec
