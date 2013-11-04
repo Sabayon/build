@@ -97,3 +97,7 @@ net-libs/libosip -~amd64 -~x86
 # 7.6.3-r1 (stable) does not compile on x86
 # (related to Sabayon hardening)
 =dev-lang/ghc-7.6.3 **
+
+# Force stable, since shorewall{6,}-lite
+# inverse deps are not updated with the same freq.
+net-firewall/shorewall-core -~amd64 -~x86
