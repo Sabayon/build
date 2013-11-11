@@ -1121,3 +1121,6 @@ app-accessibility/simon -alsa pulseaudio -oss -portaudio
 
 # Required by plasma-workspace
 kde-base/libplasmaclock semantic-desktop
+
+# clang wants USE=clang for llvm
+sys-devel/llvm clang
