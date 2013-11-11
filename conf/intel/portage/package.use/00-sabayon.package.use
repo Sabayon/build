@@ -1119,3 +1119,5 @@ sys-fs/udisks cryptsetup crypt
 app-accessibility/julius -alsa pulseaudio -oss -portaudio
 app-accessibility/simon -alsa pulseaudio -oss -portaudio
 
+# Required by plasma-workspace
+kde-base/libplasmaclock semantic-desktop
