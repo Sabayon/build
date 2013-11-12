@@ -1144,8 +1144,7 @@ app-cdr/brasero tracker
 # required by gnome-base/gnome-3.10.1::gnome-next
 # required by gnome-base/gnome (argument)
 gnome-base/nautilus tracker
-media-sound/rhythmbox python_single_target_python3_3
-
+media-sound/rhythmbox python_single_target_python3_3 python_targets_python3_3
 
 # Better support for xmobar, add xft USE flag
 x11-misc/xmobar xft
