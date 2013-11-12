@@ -76,3 +76,6 @@ media-gfx/yafaray:0
 
 # Yeah Yeah, security...
 <app-text/cuneiform-9999:0
+
+# Unmask true multilib aware libav ebuild
+=media-video/libav-0.8.9-r1
