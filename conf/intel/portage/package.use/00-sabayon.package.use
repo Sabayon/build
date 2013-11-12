@@ -1136,3 +1136,6 @@ virtual/ffmpeg -gnutls openssl -pulseaudio
 ## GNOME 3.10 flags
 # required by gnome-music
 app-misc/tracker gstreamer -xine
+
+# Better support for xmobar, add xft USE flag
+x11-misc/xmobar xft
