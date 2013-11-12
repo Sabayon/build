@@ -79,3 +79,40 @@ media-gfx/yafaray:0
 
 # Unmask true multilib aware libav ebuild
 =media-video/libav-0.8.9-r1
+
+# GNOME 3.10 related unmasks
+# required by gnome-base/gnome-settings-daemon-3.10.1::gnome-next
+# required by gnome-base/gnome-core-apps-3.10.1::gnome-next
+# required by gnome-base/gnome-3.10.1::gnome-next
+# required by gnome-base/gnome (argument)
+# /usr/portage/profiles/package.mask:
+# Alexandre Rostovtsev <tetromino@gentoo.org> (04 Aug 2013)
+# API break, reverse dependencies need patching; bug #479458.
+=sci-geosciences/geocode-glib-3.10.0
+# required by dev-libs/totem-pl-parser-3.10.0::gnome-next[quvi]
+# required by media-video/totem-3.10.1::gnome-next
+# required by gnome-base/gnome-core-apps-3.10.1::gnome-next
+# required by gnome-base/gnome-3.10.1::gnome-next
+# required by gnome-base/gnome (argument)
+# /usr/portage/profiles/package.mask:
+# Tim Harder <radhermit@gentoo.org> (22 May 2013)
+# masked for testing
+=media-libs/libquvi-0.9.3
+# required by app-crypt/seahorse-3.10.1::gnome-next
+# required by gnome-base/gnome-core-apps-3.10.1::gnome-next
+# required by gnome-base/gnome-3.10.1::gnome-next
+# required by gnome-base/gnome (argument)
+# /usr/portage/profiles/package.mask:
+# Alexandre Rostovtsev <tetromino@gentoo.org> (02 Sep 2013)
+# Silent API/ABI change; mask until seahorse is patched; bug #483414
+=app-crypt/libsecret-0.16
+# required by media-libs/libquvi-0.9.3
+# required by dev-libs/totem-pl-parser-3.10.0::gnome-next[quvi]
+# required by media-video/totem-3.10.1::gnome-next
+# required by gnome-base/gnome-core-apps-3.10.1::gnome-next
+# required by gnome-base/gnome-3.10.1::gnome-next
+# required by gnome-base/gnome (argument)
+# /usr/portage/profiles/package.mask:
+# Tim Harder <radhermit@gentoo.org> (22 May 2013)
+# masked for testing
+=media-libs/libquvi-scripts-0.9.20131104
