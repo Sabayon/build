@@ -41,6 +41,8 @@ media-libs/libpng -~amd64 -~x86
 =media-libs/libpng-1.6* ~amd64 ~x86
 # and also multilib-minimal aware 1.2
 =media-libs/libpng-1.2.50-r1 ~amd64 ~x86
+# and also this support package
+=media-libs/libpng-1.5.17-r15 ~amd64 ~x86
 
 # force stable icu
 dev-libs/icu -~amd64 -~x86
