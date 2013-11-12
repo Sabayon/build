@@ -1127,3 +1127,8 @@ sys-devel/llvm clang
 
 # on amd64, if ABI_X86=32 is set, exif must be unset
 media-libs/oyranos -exif
+
+# This is while we wait for full true multilib support on libav
+# Please drop this as soon as the corresponding packages are fixed
+media-video/libav -gnutls openssl -pulseaudio
+virtual/ffmpeg -gnutls openssl -pulseaudio
