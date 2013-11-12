@@ -1136,6 +1136,15 @@ virtual/ffmpeg -gnutls openssl -pulseaudio
 ## GNOME 3.10 flags
 # required by gnome-music
 app-misc/tracker gstreamer -xine
+# required by gnome-base/gnome-core-apps-3.10.1::gnome-next[cdr]
+# required by gnome-base/gnome-3.10.1::gnome-next
+# required by gnome-base/gnome (argument)
+app-cdr/brasero tracker
+# required by gnome-base/gnome-core-apps-3.10.1::gnome-next
+# required by gnome-base/gnome-3.10.1::gnome-next
+# required by gnome-base/gnome (argument)
+gnome-base/nautilus tracker
+
 
 # Better support for xmobar, add xft USE flag
 x11-misc/xmobar xft
