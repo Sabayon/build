@@ -1124,3 +1124,6 @@ kde-base/libplasmaclock semantic-desktop
 
 # clang wants USE=clang for llvm
 sys-devel/llvm clang
+
+# on amd64, if ABI_X86=32 is set, exif must be unset
+media-libs/oyranos -exif
