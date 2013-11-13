@@ -214,3 +214,9 @@ dev-lang/python::gentoo
 media-libs/libsdl::gamerlay
 games-util/steam-games-meta::gamerlay
 games-util/steam-client-meta::gamerlay
+
+# 2013-11-13 Sławomir Nizio: this package (v. 2013.1.4, 2013.2)
+# depends directly or indirectly on packages older than we already
+# provide. It cannot be supported properly (easily), and seems to
+# be unpopular.
+app-admin/glance
