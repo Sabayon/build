@@ -776,7 +776,7 @@ net-misc/hylafax mgetty
 sci-chemistry/avogadro -python
 
 # libva coolness
-x11-libs/libva video_cards_dummy
+x11-libs/libva video_cards_dummy video_cards_intel
 
 # we provide networkmanager tools for tweaking network settings,
 # moreover network-admin is broken and causes massive meltdown
