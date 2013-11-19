@@ -73,3 +73,9 @@ GRUB_PLATFORMS="efi-32 efi-64 pc"
 
 # Support both 64bit and 32bit
 ABI_X86="64 32"
+
+# Set PORTDIR for backward compatibility with various tools:
+#   gentoo-bashcomp - bug #478444
+#   euse - bug #474574
+#   euses and ufed - bug #478318
+PORTDIR="/usr/portage"
