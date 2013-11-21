@@ -1,8 +1,10 @@
 #!/usr/bin/python2
 
 import argparse
+import atexit
 import os
 import subprocess
+import shutil
 import sys
 import tempfile
 
@@ -99,8 +101,23 @@ if __name__ == "__main__":
         print("nothing to do !!")
         raise SystemExit(0)
 
+    def clean_dirs(xdirs):
+        for directory in xdirs:
+            try:
+                shutil.rmtree(directory, True)
+            except shutil.Error:
+                pass
+
+    dirs = []
+    atexit.register(clean_dirs, dirs)
+
     os.environ['KERNEL_DIR'] = "/usr/src/linux-%s" % (
         nsargs.build_version,)
+
+    portage_tmpdir = tempfile.mkdtemp(
+        dir="/var/tmp", prefix="bump_kernel_packages.portage_tmpdir")
+    dirs.append(portage_tmpdir)
+    os.environ["PORTAGE_TMPDIR"] = portage_tmpdir
 
     if normal_atoms and not nsargs.only_injected:
         args = ["emerge", "-av", "--keep-going"]
@@ -119,6 +136,7 @@ if __name__ == "__main__":
     if injected_atoms:
         tmp_dir = tempfile.mkdtemp(
             dir="/var/tmp", prefix="bump_kernel_packages")
+        dirs.append(tmp_dir)
         os.environ['PKGDIR'] = tmp_dir
 
         args = ["emerge", "-Bav", "--nodeps"]
