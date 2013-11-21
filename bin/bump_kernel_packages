@@ -3,6 +3,7 @@
 import argparse
 import atexit
 import os
+import pwd
 import subprocess
 import shutil
 import sys
@@ -116,6 +117,14 @@ if __name__ == "__main__":
 
     portage_tmpdir = tempfile.mkdtemp(
         dir="/var/tmp", prefix="bump_kernel_packages.portage_tmpdir")
+    os.chmod(portage_tmpdir, 0o775)
+
+    try:
+        pass_s = pwd.getpwnam("portage")
+        os.chown(portage_tmpdir, pass_s.pw_uid, pass_s.pw_gid)
+    except KeyError:
+        pass
+
     dirs.append(portage_tmpdir)
     os.environ["PORTAGE_TMPDIR"] = portage_tmpdir
 
