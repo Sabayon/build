@@ -1,6 +1,6 @@
 # Fix poppler dependencies, we provide our own split deps
 media-gfx/pdf2svg (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-glib-\2
-media-gfx/graphviz (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
+media-gfx/graphviz (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 kde-base/okular (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-qt4-\2
 media-gfx/inkscape (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-glib-\2
 gnustep-libs/popplerkit (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
