@@ -1178,4 +1178,4 @@ media-plugins/gst-plugins-meta http
 sys-apps/util-linux tty-helpers
 
 # disable USE=avahi for netatalk, see bug #4495
-sys-fs/netatalk -avahi
+net-fs/netatalk -avahi
