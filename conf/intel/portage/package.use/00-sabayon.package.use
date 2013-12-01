@@ -1176,6 +1176,3 @@ media-plugins/gst-plugins-meta http
 
 # Install tty helpers (like wall)
 sys-apps/util-linux tty-helpers
-
-# disable USE=avahi for netatalk, see bug #4495
-net-fs/netatalk -avahi
