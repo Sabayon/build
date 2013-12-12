@@ -429,7 +429,7 @@ net-print/cups -java
 net-print/gutenprint foomaticdb -gtk
 net-print/hplip -acl fax hpijs parport snmp static-ppds usb
 
-net-wireless/bluez gstreamer
+net-wireless/bluez gstreamer obex
 net-wireless/wpa_supplicant -qt3 -qt4 wimax ap p2p eap-sim wps
 
 # workaround for https://bugs.gentoo.org/show_bug.cgi?id=361411
