@@ -220,3 +220,7 @@ games-util/steam-client-meta::gamerlay
 # provide. It cannot be supported properly (easily), and seems to
 # be unpopular.
 app-admin/glance
+
+# 2013-12-15 Fabio Erculiani: mask perl-5.16 for some time since
+# we are nearing a new release. That's it. Perl 5.16 became stable.
+>=dev-lang/perl-5.13
