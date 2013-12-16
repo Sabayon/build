@@ -1183,3 +1183,6 @@ sys-apps/util-linux tty-helpers
 # VT_WAITACTIVE
 gnome-base/gdm -plymouth
 sys-boot/plymouth -gdm
+
+# vzctl and other packages now require xattr support in tar
+app-arch/tar xattr
