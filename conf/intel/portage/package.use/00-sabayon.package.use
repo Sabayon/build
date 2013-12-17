@@ -1186,3 +1186,6 @@ sys-boot/plymouth -gdm
 
 # vzctl and other packages now require xattr support in tar
 app-arch/tar xattr
+
+# blocks wants Python 3.3
+sys-block/blocks python_targets_python3_3
