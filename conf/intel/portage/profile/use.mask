@@ -9,3 +9,6 @@
 
 # Unmask systemd for everything
 -systemd
+
+# packagekit is ready for primetime in Sabayon
+-packagekit
