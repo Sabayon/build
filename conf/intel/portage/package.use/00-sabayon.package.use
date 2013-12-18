@@ -1195,6 +1195,8 @@ dev-python/pyparted python_targets_python3_3
 dev-python/setuptools python_targets_python3_3
 
 # GNOME PackageKit support
+app-arch/file-roller packagekit
 gnome-base/gnome-settings-daemon packagekit
 gnome-base/nautilus packagekit
 gnome-extra/gnome-color-manager packagekit
+
