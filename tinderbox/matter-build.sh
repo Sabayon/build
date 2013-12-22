@@ -33,6 +33,10 @@ LOG_FILE=/var/log/particles/$(basename "${CHROOT_DIR}")-${schedule}-$(date +%Y%m
 # Make sure th have these directories in place
 mkdir -p /var/log/particles /entropy_LOCKS || exit 1
 
+# Drop these settings from the environment as they could interfere
+# with interactive processing
+unset PORTDIR PORTAGE_TMPDIR
+
 echo "CHROOT_DIR: ${CHROOT_DIR}"
 echo "PRE_CHROOT: ${PRE_CHROOT}"
 echo "LOG_FILE: ${LOG_FILE}.bz2"
