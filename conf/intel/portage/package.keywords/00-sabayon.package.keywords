@@ -123,3 +123,6 @@ app-emulation/libvirt -~amd64 -~x86
 # Latest libgcrypt may break a gazillion of pkgs,
 # wait for it to be stabilized
 dev-libs/libgcrypt -~amd64 -~x86
+
+# Force stable, due to Gentoo bug #495236
+dev-python/tempita -~amd64 -~x86
