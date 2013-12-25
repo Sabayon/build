@@ -1196,7 +1196,9 @@ dev-python/setuptools python_targets_python3_3
 
 # GNOME PackageKit support
 app-arch/file-roller packagekit
-gnome-base/gnome-settings-daemon packagekit
+# This is disabled because the functionality conflicts with RigoDaemon
+# Maybe it's time to think about turning RigoDaemon into a PackageKit provider
+gnome-base/gnome-settings-daemon -packagekit
 gnome-base/nautilus packagekit
 gnome-extra/gnome-color-manager packagekit
 
