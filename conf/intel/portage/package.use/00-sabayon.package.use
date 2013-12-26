@@ -1202,3 +1202,5 @@ gnome-base/gnome-settings-daemon -packagekit
 gnome-base/nautilus packagekit
 gnome-extra/gnome-color-manager packagekit
 
+# Razorqt lightdm plugin is lagging behind, disable
+razorqt-base/razorqt-meta -lightdm
