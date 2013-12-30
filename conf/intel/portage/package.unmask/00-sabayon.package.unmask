@@ -251,3 +251,5 @@ media-gfx/yafaray:0
 >=x11-themes/gnome-themes-standard-3.10
 >=x11-wm/mutter-3.10
 
+# True multilib aware openal, want!
+=media-libs/openal-1.15.1-r1
