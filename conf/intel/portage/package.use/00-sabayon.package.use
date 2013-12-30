@@ -1128,8 +1128,8 @@ media-libs/oyranos -exif
 
 # This is while we wait for full true multilib support on libav
 # Please drop this as soon as the corresponding packages are fixed
-media-video/libav -gnutls openssl
-virtual/ffmpeg -gnutls openssl
+media-video/libav -gnutls openssl -test
+virtual/ffmpeg -gnutls openssl -test
 
 ## GNOME 3.10 flags
 # required by gnome-music
