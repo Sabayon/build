@@ -1109,6 +1109,7 @@ dev-python/pyatspi python_targets_python3_3
 dev-python/pygobject-base python_targets_python3_3
 dev-python/pygobject-cairo python_targets_python3_3
 dev-python/pygobject python_targets_python3_3
+app-accessibility/accerciser python_targets_python3_3
 
 # udisks, we want cryptsetup support
 sys-fs/udisks cryptsetup crypt
