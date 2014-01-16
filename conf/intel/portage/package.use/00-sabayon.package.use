@@ -251,7 +251,6 @@ mate-extra/mate-file-manager-sendto -cdr
 media-fonts/baekmuk-fonts -X
 
 media-gfx/asymptote -latex
-media-gfx/blender blender-game verse python_single_target_python3_3 python_targets_python3_3
 media-gfx/exiv2 xmp
 media-gfx/gimageview mng
 media-gfx/gimp aalib mng wmf smp
@@ -1098,19 +1097,6 @@ www-client/chromium -system-ffmpeg
 # USE=mikmod required by gltron
 media-libs/sdl-sound modplug mikmod
 
-# Required by USE=python, which is needed by orca
-# orca-3.8 needs python3.3. Get over it.
-app-accessibility/speech-dispatcher python_targets_python3_3
-app-accessibility/orca python_targets_python3_3
-dev-python/dbus-python python_targets_python3_3
-dev-python/setproctitle python_targets_python3_3
-dev-python/pycairo python_targets_python3_3
-dev-python/pyatspi python_targets_python3_3
-dev-python/pygobject-base python_targets_python3_3
-dev-python/pygobject-cairo python_targets_python3_3
-dev-python/pygobject python_targets_python3_3
-app-accessibility/accerciser python_targets_python3_3
-
 # udisks, we want cryptsetup support
 sys-fs/udisks cryptsetup crypt
 
@@ -1143,7 +1129,6 @@ app-cdr/brasero tracker
 # required by gnome-base/gnome-3.10.1::gnome-next
 # required by gnome-base/gnome (argument)
 gnome-base/nautilus tracker
-media-sound/rhythmbox python_single_target_python3_3 python_targets_python3_3
 
 # Better support for xmobar, add xft USE flag
 x11-misc/xmobar xft
@@ -1188,13 +1173,6 @@ sys-boot/plymouth -gdm
 # vzctl and other packages now require xattr support in tar
 app-arch/tar xattr
 
-# blocks wants Python 3.3
-sys-block/blocks python_targets_python3_3
-dev-python/pyparted python_targets_python3_3
-
-# Enable Python 3.3 support for setuptools as well
-dev-python/setuptools python_targets_python3_3
-
 # GNOME PackageKit support
 app-arch/file-roller packagekit
 # This is disabled because the functionality conflicts with RigoDaemon
@@ -1205,3 +1183,25 @@ gnome-extra/gnome-color-manager packagekit
 
 # Razorqt lightdm plugin is lagging behind, disable
 razorqt-base/razorqt-meta -lightdm
+
+## Python 3.3
+# blocks wants Python 3.3
+sys-block/blocks python_targets_python3_3
+dev-python/pyparted python_targets_python3_3
+# Enable Python 3.3 support for setuptools as well
+dev-python/setuptools python_targets_python3_3
+# Required by USE=python, which is needed by orca
+# orca-3.8 needs python3.3. Get over it.
+app-accessibility/speech-dispatcher python_targets_python3_3
+app-accessibility/orca python_targets_python3_3
+dev-python/dbus-python python_targets_python3_3
+dev-python/setproctitle python_targets_python3_3
+dev-python/pycairo python_targets_python3_3
+dev-python/pyatspi python_targets_python3_3
+dev-python/pygobject-base python_targets_python3_3
+dev-python/pygobject-cairo python_targets_python3_3
+dev-python/pygobject python_targets_python3_3
+app-accessibility/accerciser python_targets_python3_3
+media-sound/rhythmbox python_single_target_python3_3 python_targets_python3_3
+# Blender needs Python 3.3
+media-gfx/blender blender-game verse python_single_target_python3_3 python_targets_python3_3
