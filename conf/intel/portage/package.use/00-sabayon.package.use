@@ -1205,3 +1205,5 @@ app-accessibility/accerciser python_targets_python3_3
 media-sound/rhythmbox python_single_target_python3_3 python_targets_python3_3
 # Blender needs Python 3.3
 media-gfx/blender blender-game verse python_single_target_python3_3 python_targets_python3_3
+# Misc Python 3.3 enablements
+dev-python/python-augeas python_targets_python3_3
