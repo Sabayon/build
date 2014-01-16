@@ -1183,27 +1183,3 @@ gnome-extra/gnome-color-manager packagekit
 
 # Razorqt lightdm plugin is lagging behind, disable
 razorqt-base/razorqt-meta -lightdm
-
-## Python 3.3
-# blocks wants Python 3.3
-sys-block/blocks python_targets_python3_3
-dev-python/pyparted python_targets_python3_3
-# Enable Python 3.3 support for setuptools as well
-dev-python/setuptools python_targets_python3_3
-# Required by USE=python, which is needed by orca
-# orca-3.8 needs python3.3. Get over it.
-app-accessibility/speech-dispatcher python_targets_python3_3
-app-accessibility/orca python_targets_python3_3
-dev-python/dbus-python python_targets_python3_3
-dev-python/setproctitle python_targets_python3_3
-dev-python/pycairo python_targets_python3_3
-dev-python/pyatspi python_targets_python3_3
-dev-python/pygobject-base python_targets_python3_3
-dev-python/pygobject-cairo python_targets_python3_3
-dev-python/pygobject python_targets_python3_3
-app-accessibility/accerciser python_targets_python3_3
-media-sound/rhythmbox python_single_target_python3_3 python_targets_python3_3
-# Blender needs Python 3.3
-media-gfx/blender blender-game verse python_single_target_python3_3 python_targets_python3_3
-# Misc Python 3.3 enablements
-dev-python/python-augeas python_targets_python3_3
