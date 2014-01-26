@@ -1,19 +1,22 @@
 #!/bin/bash
 
-# Constants
-REPO_PATH="/home/fabio/repos-local/sabayon-kernel"
-
 # Variables
-PULL_REMOTE=${1}
-PUSH_REMOTE=${2}
-BRANCH=${3}
-PREFIX=${4}
-REGEX=${5}
+REPO_PATH=${1}
+PULL_REMOTE=${2}
+PUSH_REMOTE=${3}
+BRANCH=${4}
+PREFIX=${5}
+REGEX=${6}
 
 show_help() {
-    echo "${0} <pull remote> <push remote> <branch> <push tag prefix> v<track regex>" >&2
+    echo "${0} <repo path> <pull remote> <push remote> <branch> <push tag prefix> v<track regex>" >&2
     echo "Example: ${0} stable origin 3.12 sabayon- 3\.12\.[0-9999]" >&2
 }
+
+if [ ! -d "${REPO_PATH}" ]; then
+    show_help
+    exit 1
+fi
 
 if [ -z "${PULL_REMOTE}" ]; then
     show_help
