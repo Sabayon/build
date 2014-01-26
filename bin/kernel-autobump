@@ -1,0 +1,133 @@
+#!/bin/bash
+
+# Constants
+REPO_PATH="/home/fabio/repos-local/sabayon-kernel"
+
+# Variables
+PULL_REMOTE=${1}
+PUSH_REMOTE=${2}
+BRANCH=${3}
+PREFIX=${4}
+REGEX=${5}
+
+show_help() {
+    echo "${0} <pull remote> <push remote> <branch> <push tag prefix> v<track regex>" >&2
+    echo "Example: ${0} stable origin 3.12 sabayon- 3\.12\.[0-9999]" >&2
+}
+
+if [ -z "${PULL_REMOTE}" ]; then
+    show_help
+    exit 1
+fi
+
+if [ -z "${PUSH_REMOTE}" ]; then
+    show_help
+    exit 1
+fi
+
+if [ -z "${BRANCH}" ]; then
+    show_help
+    exit 1
+fi
+
+if [ -z "${PREFIX}" ]; then
+    show_help
+    exit 1
+fi
+
+if [ -z "${REGEX}" ]; then
+    show_help
+    exit 1
+fi
+
+rollback() {
+    cd "${REPO_PATH}" || return 1
+    git reset --hard "${PUSH_REMOTE}/${BRANCH}" || return 1
+}
+
+start() {
+    cd "${REPO_PATH}" || return 1
+
+    echo "Fetching ${PULL_REMOTE}"
+    git fetch "${PULL_REMOTE}" || {
+        rollback
+        return 1;
+    }
+
+    echo "Fetching ${PUSH_REMOTE}"
+    git fetch "${PUSH_REMOTE}" || {
+        rollback
+        return 1;
+    }
+
+    echo "Checking out branch: ${BRANCH}"
+    git checkout "${BRANCH}" || {
+        rollback
+        return 1;
+    }
+
+    echo "Updating branch"
+    git rebase "${PUSH_REMOTE}/${BRANCH}" || {
+        rollback
+        return 1;
+    }
+
+    local tags=$(git tag | grep -e "v${REGEX}")
+    echo "Tracking tags:"
+    echo -e "${tags}"
+    if [ -z "${tags}" ]; then
+        echo "No tags to track for: ${REGEX} in ${REPO_PATH}" >&2
+        return 0
+    fi
+
+    local bumps=()
+    local tag= tracked_tag=
+    for tag in ${tags}; do
+        tracked_tag="${PREFIX}${tag/v}"
+        echo "Checking tag: ${tag}, ${tracked_tag}"
+        if ! git tag | grep -q -e "^${tracked_tag}$"; then
+            echo "Not tracked: ${tag}, ${tracked_tag}"
+            bumps+=( "${tag}" )
+        fi
+    done
+
+    if [ -z "${bumps[*]}" ]; then
+        echo "Nothing to do."
+        return 0
+    fi
+
+    for tag in "${bumps[@]}"; do
+        git merge "${tag}" -m "Automatic merge of tag ${PULL_REMOTE}/${tag}" || {
+            rollback
+            return 1;
+        }
+        bash sabayon/bump-configs.sh || {
+            rollback
+            return 1;
+        }
+        git commit sabayon/config -m "sabayon: bump configs" || {
+            rollback
+            return 1
+        }
+
+        git push || {
+            rollback
+            return 1;
+        }
+        git push --tags || {
+            rollback
+            return 1;
+        }
+
+        tracked_tag="${PREFIX}${tag/v}"
+        bash sabayon/tag-version.sh "${tracked_tag}" || {
+            rollback
+            return 1;
+        }
+
+        echo "Released ${tracked_tag}"
+    done
+}
+
+
+start
