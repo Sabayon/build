@@ -97,6 +97,7 @@ start() {
     fi
 
     for tag in "${bumps[@]}"; do
+        echo "Working on tag: ${tag}"
         git merge "${tag}" -m "Automatic merge of tag ${PULL_REMOTE}/${tag}" || {
             rollback
             return 1;
@@ -105,10 +106,14 @@ start() {
             rollback
             return 1;
         }
-        git commit sabayon/config -m "sabayon: bump configs" || {
-            rollback
-            return 1
-        }
+
+        local changed=$(git ls-files -m -d -o --exclude-standard sabayon/config)
+        if [ -n "${changed}" ]; then
+            git commit sabayon/config -m "sabayon: bump configs" || {
+                rollback
+                return 1
+            }
+        fi
 
         git push || {
             rollback
