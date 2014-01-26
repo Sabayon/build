@@ -10,7 +10,7 @@ REGEX=${6}
 
 show_help() {
     echo "${0} <repo path> <pull remote> <push remote> <branch> <push tag prefix> v<track regex>" >&2
-    echo "Example: ${0} stable origin 3.12 sabayon- 3\.12\.[0-9999]" >&2
+    echo "Example: ${0} ~/repos/kernel stable origin 3.12 sabayon- 3\.12\.[0-9999]" >&2
 }
 
 if [ ! -d "${REPO_PATH}" ]; then
