@@ -122,7 +122,7 @@ start() {
         if [ -n "${changed}" ]; then
             git commit sabayon/config -m "sabayon: bump configs" || {
                 rollback
-                return 1
+                return 1;
             }
         fi
 
