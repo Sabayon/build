@@ -65,13 +65,13 @@ start() {
 
     if ! git show-branch "${BRANCH}" > /dev/null; then
         echo "Creating branch: ${BRANCH}"
-        git checkout "${PUSH_REMOTE}/${BRANCH}" -b "${BRANCH}" || {
+        git checkout -q "${PUSH_REMOTE}/${BRANCH}" -b "${BRANCH}" || {
             rollback
             return 1;
         }
     else
         echo "Checking out branch: ${BRANCH}"
-        git checkout "${BRANCH}" || {
+        git checkout -q "${BRANCH}" || {
             rollback
             return 1;
         }
@@ -87,7 +87,7 @@ start() {
     echo "Tracking tags:"
     echo -e "${tags}"
     if [ -z "${tags}" ]; then
-        echo "No tags to track for: ${REGEX} in ${REPO_PATH}" >&2
+        echo "No tags to track for: ${REGEX} in ${REPO_PATH}"
         return 0
     fi
 
