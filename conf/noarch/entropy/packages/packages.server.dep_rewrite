@@ -89,14 +89,9 @@ app-emulation/virtualbox-guest-additions#3.10.0-sabayon (.*)x11-drivers/xf86-vid
 app-emulation/virtualbox-guest-additions#3.11.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.11.0-sabayon
 app-emulation/virtualbox-guest-additions#3.12.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.12.0-sabayon
 app-emulation/virtualbox-guest-additions#3.13.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.13.0-sabayon
-# server kernel
-app-emulation/virtualbox-guest-additions#3.7.0-server (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.7.0-server
-app-emulation/virtualbox-guest-additions#3.8.0-server (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.8.0-server
-app-emulation/virtualbox-guest-additions#3.9.0-server (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.9.0-server
-app-emulation/virtualbox-guest-additions#3.10.0-server (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.10.0-server
-app-emulation/virtualbox-guest-additions#3.11.0-server (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.11.0-server
-app-emulation/virtualbox-guest-additions#3.12.0-server (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.12.0-server
-app-emulation/virtualbox-guest-additions#3.13.0-server (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.13.0-server
+app-emulation/virtualbox-guest-additions#3.14.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.14.0-sabayon
+app-emulation/virtualbox-guest-additions#3.15.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.15.0-sabayon
+app-emulation/virtualbox-guest-additions#3.16.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.16.0-sabayon
 
 # drop virtualbox-modules dep from virtualbox-bin
 # 2011-02-08: DISABLED because vboxusers group is required but not created by virtualbox-bin 
