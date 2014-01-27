@@ -288,7 +288,7 @@ media-libs/urt gs
 media-libs/xine-lib aalib fbcon mng vidix dxr3 -win32codecs -gtk
 
 media-plugins/alsa-plugins libsamplerate pulseaudio
-media-plugins/audacious-plugins chardet cue ffmpeg gnome -gtk gtk3 icecast libsamplerate sndfile wavpack
+media-plugins/audacious-plugins chardet cue gnome -gtk gtk3 icecast libsamplerate sndfile wavpack
 media-plugins/vdr-weatherng dxr3
 
 media-radio/tucnak2 fftw
@@ -1183,3 +1183,6 @@ gnome-extra/gnome-color-manager packagekit
 
 # Razorqt lightdm plugin is lagging behind, disable
 razorqt-base/razorqt-meta -lightdm
+
+# USE=-ffmpeg due to libav-9.10+ requirements, not yet in chroots
+media-plugins/audacious-plugins -ffmpeg
