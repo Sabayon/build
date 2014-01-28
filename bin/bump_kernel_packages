@@ -27,9 +27,6 @@ if __name__ == "__main__":
         help="the uname version to build packages for")
 
     parser.add_argument(
-        "query_repo", metavar="<query repo>",
-        help="the repository to query")
-    parser.add_argument(
         "build_repo", metavar="<build repo>",
         help="the repository to place packages into")
 
@@ -57,20 +54,32 @@ if __name__ == "__main__":
     srv = Server()
     pkgs_map = {}
     try:
-        repo = srv.open_repository(nsargs.query_repo)
-        pkg_ids = repo.searchTaggedPackages(nsargs.query_version)
-        if not pkg_ids:
-            print("!!! no packages for <query version>")
-            raise SystemExit(1)
+
+        pkg_matches = {}
+        repository_ids = srv.repositories()
+        for repository_id in repository_ids:
+            repo = srv.open_repository(repository_id)
+            pkg_ids = repo.searchTaggedPackages(nsargs.query_version)
+
+            for pkg_id in pkg_ids:
+                key_slot = repo.retrieveKeySlotAggregated(pkg_id)
+                obj = pkg_matches.setdefault(key_slot, set())
+                obj.add((pkg_id, repository_id))
 
         injected_pkgs = []
         normal_pkgs = []
-        for pkg_id in pkg_ids:
-            injected = repo.isInjected(pkg_id)
-            if injected:
-                injected_pkgs.append(pkg_id)
+        for key_slot, candidates in pkg_matches.items():
+            candidate = srv.atom_match(key_slot + "#" + nsargs.query_version)
+            if candidate not in candidates:
+                print("%s (%s) not in candidates %s, skipping" % (
+                        candidate, key_slot, candidates))
+                continue
+            pkg_id, repository_id = candidate
+            repo = srv.open_repository(repository_id)
+            if repo.isInjected(pkg_id):
+                injected_pkgs.append(candidate)
             else:
-                normal_pkgs.append(pkg_id)
+                normal_pkgs.append(candidate)
 
         normal_atoms = []
         injected_atoms = []
@@ -79,7 +88,8 @@ if __name__ == "__main__":
             (injected_pkgs, injected_atoms)
         )
         for lst, dst in data:
-            for pkg_id in lst:
+            for pkg_id, repository_id in lst:
+                repo = srv.open_repository(repository_id)
                 if nsargs.keyslot:
                     atom_str = entropy.dep.remove_tag_from_slot(
                         repo.retrieveKeySlotAggregated(pkg_id))
