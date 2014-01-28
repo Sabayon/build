@@ -48,6 +48,10 @@ if __name__ == "__main__":
         "--canfail", action="store_true", default=False,
         help="if emerge can fail and you want to ignore it")
 
+    parser.add_argument(
+        "--non-interactive", action="store_true", default=False,
+        help="if set, the script will run in non-interactive mode")
+
     nsargs = parser.parse_args(sys.argv[1:])
 
     srv = Server()
@@ -129,7 +133,9 @@ if __name__ == "__main__":
     os.environ["PORTAGE_TMPDIR"] = portage_tmpdir
 
     if normal_atoms and not nsargs.only_injected:
-        args = ["emerge", "-av", "--keep-going"]
+        args = ["emerge", "-v", "--keep-going"]
+        if not nsargs.non_interactive:
+            args.append("-a")
         args += [x for x in normal_atoms]
         rc = subprocess.call(args)
         if rc != 0 and not nsargs.canfail:
@@ -137,6 +143,9 @@ if __name__ == "__main__":
         subprocess.call(["/usr/sbin/etc-update"])
 
         args = ["eit", "add", "--to", nsargs.build_repo]
+        if nsargs.non_interactive:
+            args.append("--quick")
+
         args += normal_atoms
         rc = subprocess.call(args)
         if rc != 0:
@@ -148,7 +157,9 @@ if __name__ == "__main__":
         dirs.append(tmp_dir)
         os.environ['PKGDIR'] = tmp_dir
 
-        args = ["emerge", "-Bav", "--nodeps"]
+        args = ["emerge", "-Bv", "--nodeps"]
+        if not nsargs.not_interactive:
+            args.append("-a")
         args += [x for x in injected_atoms]
         rc = subprocess.call(args)
         if rc != 0 and not nsargs.canfail:
@@ -172,4 +183,3 @@ if __name__ == "__main__":
                 raise SystemExit(rc)
 
     raise SystemExit(0)
-
