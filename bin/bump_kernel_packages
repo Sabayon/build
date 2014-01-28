@@ -81,6 +81,14 @@ if __name__ == "__main__":
             else:
                 normal_pkgs.append(candidate)
 
+            # address other injected pkgs, like older nvidia drivers
+            for other_candidate in candidates:
+                if other_candidate != candidate:
+                    pkg_id, repository_id = other_candidate
+                    repo = srv.open_repository(repository_id)
+                    if repo.isInjected(pkg_id):
+                        injected_pkgs.append(other_candidate)
+
         normal_atoms = []
         injected_atoms = []
         data = (
