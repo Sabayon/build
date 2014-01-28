@@ -190,7 +190,7 @@ if __name__ == "__main__":
         os.environ['PKGDIR'] = tmp_dir
 
         args = ["emerge", "-Bv", "--nodeps", "--keep-going"]
-        if not nsargs.not_interactive:
+        if not nsargs.non_interactive:
             args.append("-a")
         args += [x for x in injected_atoms]
         rc = subprocess.call(args)
