@@ -16,19 +16,34 @@ import entropy.dep
 
 if __name__ == "__main__":
 
+    srv = Server()
+
+    def ValidString(arg):
+        if not arg:
+            raise ValueError("invalid string")
+        return arg
+
+    def ValidRepository(arg):
+        if arg not in srv.repositories():
+            raise ValueError("invalid repository %s" % (arg,))
+        return arg
+
     parser = argparse.ArgumentParser(
         description="Bump Kernel Packages for Entropy Server")
 
     parser.add_argument(
         "query_version", metavar="<query version>",
-        help="the uname version to query")
+        help="the uname version to query",
+        type=ValidString)
     parser.add_argument(
         "build_version", metavar="<build version>",
-        help="the uname version to build packages for")
+        help="the uname version to build packages for",
+        type=ValidString)
 
     parser.add_argument(
         "build_repo", metavar="<build repo>",
-        help="the repository to place packages into")
+        help="the repository to place packages into",
+        type=ValidRepository)
 
     parser.add_argument(
         "--only-injected", action="store_true", default=False,
@@ -51,7 +66,6 @@ if __name__ == "__main__":
 
     nsargs = parser.parse_args(sys.argv[1:])
 
-    srv = Server()
     pkgs_map = {}
     try:
 
