@@ -189,7 +189,7 @@ if __name__ == "__main__":
         dirs.append(tmp_dir)
         os.environ['PKGDIR'] = tmp_dir
 
-        args = ["emerge", "-Bv", "--nodeps"]
+        args = ["emerge", "-Bv", "--nodeps", "--keep-going"]
         if not nsargs.not_interactive:
             args.append("-a")
         args += [x for x in injected_atoms]
