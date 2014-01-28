@@ -109,6 +109,9 @@ if __name__ == "__main__":
             (normal_pkgs, normal_atoms),
             (injected_pkgs, injected_atoms)
         )
+
+        spm = srv.Spm()
+
         for lst, dst in data:
             for pkg_id, repository_id in lst:
                 repo = srv.open_repository(repository_id)
@@ -122,6 +125,11 @@ if __name__ == "__main__":
                     spm_repo = repo.retrieveSpmRepository(pkg_id)
                     if spm_repo is not None:
                         atom_str += "::" + spm_repo
+
+                if not spm.match_package(atom_str):
+                    print("%s not found in Portage, skipping" % (atom_str,))
+                    continue
+
                 dst.append(atom_str)
     finally:
         srv.shutdown()
