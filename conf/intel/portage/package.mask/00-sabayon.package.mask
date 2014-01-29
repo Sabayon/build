@@ -132,11 +132,6 @@ media-sound/paprefs
 # 2011-08-17 Fabio Erculiani: Conflicts with x11-terms/terminal
 gnustep-apps/terminal
 
-# Fabio Erculiani, matter masks (preserved-libs bullshit):
-# updated by S. Nizio
->app-i18n/fcitx-4.2.7
->app-i18n/fcitx-configtool-0.4.6
-
 # 2012-02-15 Joost Ruis: Only use pymol from our overlay since it has depends on python-tk  
 sci-chemistry/pymol::gentoo
 
