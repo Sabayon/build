@@ -63,26 +63,6 @@ start() {
         return 1;
     }
 
-    if ! git show-branch "${BRANCH}" > /dev/null; then
-        echo "Creating branch: ${BRANCH}"
-        git checkout -q "${PUSH_REMOTE}/${BRANCH}" -b "${BRANCH}" || {
-            rollback
-            return 1;
-        }
-    else
-        echo "Checking out branch: ${BRANCH}"
-        git checkout -q "${BRANCH}" || {
-            rollback
-            return 1;
-        }
-    fi
-
-    echo "Updating branch"
-    git rebase "${PUSH_REMOTE}/${BRANCH}" || {
-        rollback
-        return 1;
-    }
-
     local tags=$(git tag | grep -e "v${REGEX}")
     echo "Tracking tags:"
     echo -e "${tags}"
@@ -106,6 +86,26 @@ start() {
         echo "Nothing to do."
         return 0
     fi
+
+    if ! git show-branch "${BRANCH}" > /dev/null; then
+        echo "Creating branch: ${BRANCH}"
+        git checkout -q "${PUSH_REMOTE}/${BRANCH}" -b "${BRANCH}" || {
+            rollback
+            return 1;
+        }
+    else
+        echo "Checking out branch: ${BRANCH}"
+        git checkout -q "${BRANCH}" || {
+            rollback
+            return 1;
+        }
+    fi
+
+    echo "Updating branch"
+    git rebase "${PUSH_REMOTE}/${BRANCH}" || {
+        rollback
+        return 1;
+    }
 
     for tag in "${bumps[@]}"; do
         echo "Working on tag: ${tag}"
