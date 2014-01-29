@@ -1188,4 +1188,4 @@ razorqt-base/razorqt-meta -lightdm
 media-plugins/audacious-plugins -ffmpeg
 
 # Required by terminology
-dev-libs/efl pulseaudio audio xcb pixman -X
+dev-libs/efl pulseaudio audio -xcb pixman X
