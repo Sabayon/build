@@ -1186,6 +1186,7 @@ razorqt-base/razorqt-meta -lightdm
 
 # USE=-ffmpeg due to libav-9.10+ requirements, not yet in chroots
 media-plugins/audacious-plugins -ffmpeg
+media-video/handbrake -ffmpeg gstreamer
 
 # Required by terminology
 dev-libs/efl pulseaudio audio -xcb pixman X
