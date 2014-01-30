@@ -52,13 +52,13 @@ start() {
     cd "${REPO_PATH}" || return 1
 
     echo "Fetching ${PULL_REMOTE}"
-    git fetch "${PULL_REMOTE}" || {
+    git fetch --quiet "${PULL_REMOTE}" || {
         rollback
         return 1;
     }
 
     echo "Fetching ${PUSH_REMOTE}"
-    git fetch "${PUSH_REMOTE}" || {
+    git fetch --quiet "${PUSH_REMOTE}" || {
         rollback
         return 1;
     }
