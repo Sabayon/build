@@ -400,6 +400,7 @@ net-misc/dropbox librsync-bundled
 
 net-misc/aria2 metalink bittorrent xmlrpc
 net-misc/asterisk jabber gtalk
+net-misc/minidlna netgear readynas
 net-misc/mosh ufw
 # bluetooth use flag is useless
 # wext due to bug 3283
