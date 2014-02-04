@@ -126,7 +126,7 @@ dev-lang/php -threads apache2 bcmath calendar cgi ctype curl filter fpm ftp gd h
 dev-lang/python sqlite berkdb
 
 dev-libs/beecrypt threads
-dev-libs/boost python threads
+dev-libs/boost python threads icu
 dev-libs/dbus-glib bash-completion
 dev-libs/folks eds vala
 dev-libs/gdl gnome
