@@ -1193,3 +1193,6 @@ dev-libs/efl pulseaudio audio -xcb pixman X
 
 # icc doesn't like LINGUAS=ja on ifc
 dev-lang/ifc -linguas_ja
+
+# required by net-analyzer/tcpreplay-4.0.2
+sys-devel/autogen libopts
