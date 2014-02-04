@@ -50,7 +50,8 @@ QEMU_SOFTMMU_TARGETS="x86_64 arm cris i386 m68k microblaze mips mips64 mips64el 
 PORTDIR_OVERLAY="/usr/local/portage"
 source /var/lib/layman/make.conf
 CONFIG_PROTECT="/usr/share/config/kdm /etc /etc/conf.d /etc/init.d"
-CONFIG_PROTECT_MASK="/etc/skel"
+# /lib/modules mask is useful for our internal tinderbox
+CONFIG_PROTECT_MASK="/etc/skel /lib/modules"
 SYNC="rsync://rsync.europe.gentoo.org/gentoo-portage"
 APACHE2_MPMS="prefork"
 GENTOO_MIRRORS="ftp://ftp.spline.inf.fu-berlin.de/mirrors/gentoo/ http://archive.mmu.edu.my/gentoo rsync://gentoo.bloodhost.ru/gentoo-distfiles ftp://gentoo.mirrors.tds.net/gentoo ftp://ftp.halifax.rwth-aachen.de/gentoo/ rsync://mirror.neolabs.kz/gentoo http://ftp.gentoo.bg/ http://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://mirrors.tera-byte.com/pub/gentoo"
