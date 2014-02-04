@@ -725,7 +725,7 @@ app-admin/system-config-users -X
 x11-themes/gnome-colors-common branding
 
 # PackageKit settings
-app-admin/packagekit-base pm-utils entropy
+app-admin/packagekit-base pm-utils entropy -bash-completion
 
 # Add xattr support to rsync
 net-misc/rsync xattr
