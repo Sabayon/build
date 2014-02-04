@@ -1190,3 +1190,6 @@ media-plugins/audacious-plugins -ffmpeg
 
 # Required by terminology
 dev-libs/efl pulseaudio audio -xcb pixman X
+
+# icc doesn't like LINGUAS=ja on ifc
+dev-lang/ifc -linguas_ja
