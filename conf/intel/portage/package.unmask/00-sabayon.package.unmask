@@ -253,3 +253,6 @@ media-gfx/yafaray:0
 
 # True multilib aware openal, want!
 =media-libs/openal-1.15.1-r1
+
+# Mesa 10 is still masked
+=media-libs/mesa-10*
