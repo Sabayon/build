@@ -1196,3 +1196,6 @@ dev-lang/ifc -linguas_ja
 
 # required by net-analyzer/tcpreplay-4.0.2
 sys-devel/autogen libopts
+
+# Blender uses Python 3.3
+media-gfx/blender python_single_target_python3_3
