@@ -79,6 +79,7 @@ media-gfx/yafaray:0
 
 # Unmask true multilib aware libav ebuild
 =media-video/libav-0.8.9-r1
+=media-video/libav-9.10-r1
 
 # GNOME 3.10 related unmasks
 # required by gnome-base/gnome-settings-daemon-3.10.1::gnome-next
