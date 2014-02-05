@@ -297,7 +297,7 @@ media-sound/alsa-tools -gtk
 media-sound/amarok lastfm cdaudio ifp njb mtp musicbrainz -xmms mp4 embedded
 media-sound/ardour freesound
 media-sound/asunder wavpack
-media-sound/audacity ladspa vamp soundtouch id3tag midi
+media-sound/audacity ladspa vamp soundtouch id3tag midi -ffmpeg
 media-sound/audacious -gtk gtk3 wma timidity lirc dbus chardet
 media-sound/banshee podcast -ipod -zeroconf mtp njb
 media-sound/cantata replaygain taglib cdparanoia
