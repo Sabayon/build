@@ -212,3 +212,7 @@ games-util/steam-client-meta::gamerlay
 # provide. It cannot be supported properly (easily), and seems to
 # be unpopular.
 app-admin/glance
+
+# 2014-02-10 Fabio Erculiani: must be held back as libreoffice
+# dictates.
+>=app-text/libmwaw-0.2.0
