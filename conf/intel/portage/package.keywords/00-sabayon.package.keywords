@@ -135,3 +135,11 @@ dev-python/tempita -~amd64 -~x86
 # required by =gnome-base/gnome-extra-apps-3.10* (argument)
 =gnome-base/gnome-extra-apps-3.10* ** ~x86
 =net-misc/gnome-online-miners-3.10* ** ~x86
+# required by gnome-weather (argument)
+=gnome-extra/gnome-weather-3.10* ** ~x86
+# required by gnome-music (argument)
+=media-sound/gnome-music-3.10* ** ~x86
+# required by gnome-photos (argument)
+=media-gfx/gnome-photos-3.10* ** ~x86
+# required by gnome-maps (argument)
+=sci-geosciences/gnome-maps-3.10* ** ~x86
