@@ -1199,3 +1199,6 @@ sys-devel/autogen libopts
 
 # Blender uses Python 3.3
 media-gfx/blender python_single_target_python3_3
+
+# gnome-music is Python3 only, prefer python 3.3 for now
+media-sound/gnome-music python_single_target_python3_3
