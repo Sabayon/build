@@ -134,3 +134,4 @@ dev-python/tempita -~amd64 -~x86
 =gnome-base/gnome-3.10* ** ~x86
 # required by =gnome-base/gnome-extra-apps-3.10* (argument)
 =gnome-base/gnome-extra-apps-3.10* ** ~x86
+=net-misc/gnome-online-miners-3.10* ** ~x86
