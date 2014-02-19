@@ -94,10 +94,6 @@ app-leechcraft/leechcraft-meta -~amd64 -~x86
 
 # unstable dtc always causes build failures
 sys-apps/dtc -~amd64 -~x86
-# also keyword qemu, because it needs sys-apps/dtc
-app-emulation/qemu -~amd64 -~x86
-# allow qemu-1.5*
-=app-emulation/qemu-1.5* ~amd64 ~x86
 
 # These are a pain in the ass when they abi break
 net-libs/libosip -~amd64 -~x86
