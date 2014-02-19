@@ -35,7 +35,7 @@ app-editors/xemacs xft
 
 # virt stuff
 app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
-app-emulation/qemu fdt spice -gtk
+app-emulation/qemu fdt spice -gtk virtfs
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
 app-emulation/emul-linux-x86-soundlibs esd
 
