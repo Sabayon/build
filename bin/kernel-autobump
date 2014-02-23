@@ -102,14 +102,14 @@ start() {
     fi
 
     echo "Updating branch"
-    git rebase "${PUSH_REMOTE}/${BRANCH}" || {
+    git rebase --quiet "${PUSH_REMOTE}/${BRANCH}" || {
         rollback
         return 1;
     }
 
     for tag in "${bumps[@]}"; do
         echo "Working on tag: ${tag}"
-        git merge "${tag}" -m "Automatic merge of tag ${PULL_REMOTE}/${tag}" || {
+        git merge --quiet "${tag}" -m "Automatic merge of tag ${PULL_REMOTE}/${tag}" || {
             rollback
             return 1;
         }
@@ -120,17 +120,17 @@ start() {
 
         local changed=$(git ls-files -m -d -o --exclude-standard sabayon/config)
         if [ -n "${changed}" ]; then
-            git commit sabayon/config -m "sabayon: bump configs" || {
+            git commit --quiet sabayon/config -m "sabayon: bump configs" || {
                 rollback
                 return 1;
             }
         fi
 
-        git push || {
+        git push --quiet || {
             rollback
             return 1;
         }
-        git push --tags || {
+        git push --quiet --tags || {
             rollback
             return 1;
         }
