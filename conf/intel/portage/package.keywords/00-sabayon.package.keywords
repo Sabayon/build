@@ -139,3 +139,6 @@ dev-python/tempita -~amd64 -~x86
 =media-gfx/gnome-photos-3.10* ** ~x86
 # required by gnome-maps (argument)
 =sci-geosciences/gnome-maps-3.10* ** ~x86
+
+# Temporarily use stable net-libs/rb_libtorrent, see bug #4613
+<net-libs/rb_libtorrent-0.16.15 -~amd64 -~x86
