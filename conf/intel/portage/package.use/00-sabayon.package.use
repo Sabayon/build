@@ -1049,8 +1049,7 @@ dev-python/numpy lapack
 sys-fs/zfs kernel-builtin
 
 # systemd support
-sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr -openrc hwdb keymap
-virtual/udev static-libs hwdb
+sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap
 
 # Needed by some lisp packages
 dev-libs/boehm-gc threads
