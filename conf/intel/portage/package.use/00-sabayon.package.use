@@ -488,7 +488,6 @@ sys-fs/ntfs3g suid ntfsprogs
 sys-fs/reiser4progs static
 sys-fs/udev extras
 sys-apps/kmod lzma static-libs
-sys-fs/lvm2 static-libs
 sys-libs/e2fsprogs-libs static-libs
 sys-fs/udev static-libs
 sys-apps/util-linux static-libs
