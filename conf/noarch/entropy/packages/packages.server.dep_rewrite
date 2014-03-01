@@ -11,6 +11,7 @@ app-text/calibre (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-qt4-\2
 app-text/dvipdfmx (.*)app-text/poppler-(\d.*)(\[.*\])? \1app-text/poppler-base-\2
 dev-tex/luatex (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 app-misc/beagle (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
+app-misc/pdfpc (.*)app-text/poppler(.*) app-text/poppler-glib
 app-misc/tracker (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-glib-\2
 app-office/krita (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-qt4-\2
 app-office/openoffice (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
