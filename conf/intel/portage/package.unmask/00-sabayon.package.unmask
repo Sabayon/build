@@ -257,3 +257,7 @@ media-gfx/yafaray:0
 
 # Mesa 10 is still masked
 =media-libs/mesa-10*
+
+# Unmask true multilib ebuilds
+=media-libs/harfbuzz-0.9.26-r1
+=media-gfx/graphite2-1.2.4-r1
