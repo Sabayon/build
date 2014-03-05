@@ -10,6 +10,8 @@ dev-lang/perl -~amd64 -~x86
 sys-devel/make -~amd64 -~x86
 sys-kernel/linux-headers -~amd64 -~x86
 net-libs/gnutls -~amd64 -~x86
+# Contains fix for CVE 2014-0092
+=net-libs/gnutls-2.12.23-r4 ~x86 ~amd64
 dev-lang/tcl -~amd64 -~x86
 dev-lang/tk -~amd64 -~x86
 dev-lang/ghc -~amd64 -~x86
