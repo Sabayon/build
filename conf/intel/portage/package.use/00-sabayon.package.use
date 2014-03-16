@@ -146,6 +146,7 @@ dev-libs/gdl gnome
 # 2010-04-6, trying to disable USE="mono" from gmime
 dev-libs/gmime -mono
 dev-libs/libmcs -kde
+dev-libs/nss utils
 dev-libs/pth static-libs
 dev-libs/soprano clucene redland -java
 dev-libs/xerces-c xqilla icu
@@ -688,8 +689,6 @@ app-cdr/brasero -css
 media-tv/mythtv -css
 
 media-video/avidemux amr
-
-dev-libs/nss utils
 
 dev-ml/lablgtk gnomecanvas
 
