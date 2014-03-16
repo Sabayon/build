@@ -160,6 +160,8 @@ dev-python/pyside script
 # don't require media-libs/alsa-lib[alisp]
 dev-python/pyglet -alsa
 
+dev-python/traitsgui wxwidgets qt4
+
 # Make possible to have dev-python/epydoc without python compiled with tk
 dev-python/epydoc -X
 
@@ -665,8 +667,6 @@ media-libs/libdvdread -css
 media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
-
-dev-python/traitsgui wxwidgets qt4
 
 net-dialup/freeradius threads
 
