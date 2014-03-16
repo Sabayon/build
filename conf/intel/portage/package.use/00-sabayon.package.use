@@ -294,6 +294,7 @@ media-libs/freetype -X -auto-hinter adobe-cff
 media-libs/libgphoto2 exif
 media-libs/libggi aalib
 media-libs/libsdl aalib
+media-libs/libsoundtouch sse2
 media-libs/libxtract fftw
 media-libs/mediastreamer video
 # www-client/chromium wants media-libs/mesa[gles2]
@@ -687,8 +688,6 @@ app-cdr/brasero -css
 media-tv/mythtv -css
 
 media-video/avidemux amr
-
-media-libs/libsoundtouch sse2
 
 dev-libs/nss utils
 
