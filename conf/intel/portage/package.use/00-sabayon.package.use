@@ -26,7 +26,6 @@ app-crypt/gnupg -static bzip2 smartcard
 app-crypt/libsecret vala
 app-crypt/mit-krb5 krb4 openldap
 
-app-laptop/tp_smapi hdaps
 app-editors/bluefish gnome
 app-editors/emacs xft
 app-editors/vim cscope ruby vim-pager
@@ -45,6 +44,7 @@ app-emulation/emul-linux-x86-soundlibs esd
 app-i18n/ibus gtk3 dconf
 
 app-laptop/pommed -gtk
+app-laptop/tp_smapi hdaps
 
 app-leechcraft/lc-lmp kde
 
