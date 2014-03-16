@@ -157,6 +157,7 @@ dev-libs/openct pcsc-lite
 
 dev-ml/camlimages gs postscript
 dev-ml/lablgl glut
+dev-ml/lablgtk gnomecanvas
 
 dev-perl/PDL fftw
 
@@ -689,8 +690,6 @@ app-cdr/brasero -css
 media-tv/mythtv -css
 
 media-video/avidemux amr
-
-dev-ml/lablgtk gnomecanvas
 
 kde-base/kdeplasma-addons desktopglobe json oauth semantic-desktop
 kde-base/pykde4 semantic-desktop
