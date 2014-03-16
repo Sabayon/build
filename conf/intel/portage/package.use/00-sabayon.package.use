@@ -252,6 +252,7 @@ kde-base/kwin captury xcomposite
 kde-base/marble plasma
 kde-base/okular chm djvu ebook crypt
 kde-base/phonon-kde -xine
+kde-base/plasma-workspace semantic-desktop python
 kde-base/pykde4 semantic-desktop
 kde-base/solid networkmanager -wicd
 
@@ -653,10 +654,6 @@ gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
 dev-qt/qtsql mysql
 dev-python/PyQt4 webkit sql assistant declarative examples script help
 
-# enable Google Gadgets on Plasma
-# not yet!
-# kde-base/plasma-workspace google-gadgets
-
 # We want splash and grub with linux-openvz and linux-server
 sys-kernel/linux-openvz grub splash dmraid
 sys-kernel/linux-server grub splash dmraid
@@ -694,7 +691,6 @@ media-tv/mythtv -css
 
 media-video/avidemux amr
 
-kde-base/plasma-workspace semantic-desktop python
 kde-base/superkaramba python
 
 app-emulation/e-uae capslib
