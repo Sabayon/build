@@ -358,6 +358,9 @@ media-video/xine-ui aalib
 # we don't want it on G ISO
 media-video/dvdrip -xine subtitles fping
 
+# No need to have USE=X on net-snmp
+# ucd-compat required by net-misc/vmpsd-1.4
+net-analyzer/net-snmp ucd-compat -X
 net-analyzer/snmptt mysql
 net-analyzer/smokeping apache2
 net-analyzer/wireshark python -qt4
@@ -672,10 +675,6 @@ media-libs/libdvdread -css
 media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
-
-# No need to have USE=X on net-snmp
-# ucd-compat required by net-misc/vmpsd-1.4
-net-analyzer/net-snmp ucd-compat -X
 
 # app-crypt/pinentry is now a meta-package
 # enable GTK2 by default, people complaining
