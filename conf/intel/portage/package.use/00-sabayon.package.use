@@ -551,9 +551,6 @@ sys-libs/gpm static-libs
 sys-kernel/genkernel cryptsetup crypt
 sys-kernel/genkernel-next cryptsetup crypt
 sys-kernel/linux-sabayon splash dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
-sys-kernel/linux-server splash dmraid grub iscsi mdadm luks lvm zfs plymouth
-sys-kernel/linux-openvz splash dmraid grub iscsi mdadm luks lvm plymouth
-sys-kernel/linux-hardened splash dmraid grub iscsi mdadm luks lvm plymouth
 sys-kernel/sabayon-sources symlink
 
 sys-libs/db -java
@@ -653,10 +650,6 @@ xfce-extra/tumbler gstreamer raw
 # added for mythtv
 dev-qt/qtsql mysql
 dev-python/PyQt4 webkit sql assistant declarative examples script help
-
-# We want splash and grub with linux-openvz and linux-server
-sys-kernel/linux-openvz grub splash dmraid
-sys-kernel/linux-server grub splash dmraid
 
 # Disable GTK for distcc, this is a server-side app
 # and it's better to not ship with gtk
