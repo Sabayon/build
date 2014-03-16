@@ -3,6 +3,10 @@
 app-accessibility/dasher gnome
 
 app-admin/conky audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thinkpad weather-metar weather-xoap -ipv6
+# PackageKit, Sabayon config
+app-admin/packagekit entropy cron pm-utils -qt4 -gtk
+# PackageKit settings
+app-admin/packagekit-base pm-utils entropy -bash-completion
 app-admin/ulogd mysql
 
 app-arch/advancecomp mng
@@ -659,9 +663,6 @@ dev-python/PyQt4 webkit sql assistant declarative examples script help
 sys-devel/libperl ithreads
 dev-lang/perl ithreads
 
-# PackageKit, Sabayon config
-app-admin/packagekit entropy cron pm-utils -qt4 -gtk
-
 # vmware-tools defaults
 # app-emulation/vmware-tools vmware_guest_freebsd vmware_guest_linux vmware_guest_netware vmware_guest_solaris vmware_guest_winPre2k vmware_guest_windows
 
@@ -689,9 +690,6 @@ app-admin/firstboot -gtk
 app-admin/system-config-users -X
 
 x11-themes/gnome-colors-common branding
-
-# PackageKit settings
-app-admin/packagekit-base pm-utils entropy -bash-completion
 
 # Add xattr support to rsync
 net-misc/rsync xattr
