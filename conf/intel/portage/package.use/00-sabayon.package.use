@@ -26,6 +26,11 @@ app-crypt/gnupg -static bzip2 smartcard
 # required by app-backup/deja-dup
 app-crypt/libsecret vala
 app-crypt/mit-krb5 krb4 openldap
+# app-crypt/pinentry is now a meta-package
+# enable GTK2 by default, people complaining
+# about dependencies, should really use pinentry-base
+# instead
+app-crypt/pinentry gtk qt4
 
 app-editors/bluefish gnome
 app-editors/emacs xft
@@ -675,12 +680,6 @@ media-libs/libdvdread -css
 media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
-
-# app-crypt/pinentry is now a meta-package
-# enable GTK2 by default, people complaining
-# about dependencies, should really use pinentry-base
-# instead
-app-crypt/pinentry gtk qt4
 
 # required for some functionality of Inkscape - bug 2941
 media-gfx/pstoedit plotutils
