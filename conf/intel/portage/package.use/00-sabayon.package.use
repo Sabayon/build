@@ -175,6 +175,7 @@ virtual/mysql embedded
 
 dev-tcltk/tclxml expat
 
+dev-util/anjuta subversion
 dev-util/biew mmx sse
 dev-util/codeblocks contrib
 dev-util/eclipse-sdk java6
@@ -664,8 +665,6 @@ media-libs/libdvdread -css
 media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
-
-dev-util/anjuta subversion
 
 dev-python/traitsgui wxwidgets qt4
 
