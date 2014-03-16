@@ -240,6 +240,7 @@ kde-misc/networkmanagement openvpn networksettings -linguas_ar -linguas_bs -ling
 mail-client/claws-mail archive bogofilter calendar pdf perl python rss spam-report webkit -kde -pda
 mail-client/evolution exchange
 mail-client/mail-notification mozilla pop mbox gmail
+mail-client/mutt sasl sidebar smtp
 mail-client/thunderbird lightning -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
 
 mail-filter/dovecot-antispam dspam
@@ -642,7 +643,6 @@ sys-libs/ncurses static-libs
 ## Put new entries after this line if you dont want to organize it. ##
 ######################################################################
 ## Cleaned up 0600Z 10Jan2010 - Az
-mail-client/mutt sasl sidebar smtp
 
 # Our Apache defaults
 www-servers/apache apache2_modules_asis apache2_modules_auth_digest apache2_modules_authn_dbd apache2_modules_cern_meta apache2_modules_cgi apache2_modules_cgid apache2_modules_charset_lite apache2_modules_dbd apache2_modules_dumpio apache2_modules_imagemap apache2_modules_log_forensic apache2_modules_proxy apache2_modules_proxy_ajp apache2_modules_proxy_balancer apache2_modules_proxy_connect apache2_modules_proxy_ftp apache2_modules_proxy_http apache2_modules_substitute apache2_modules_version ident suexec
