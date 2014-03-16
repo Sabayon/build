@@ -366,6 +366,7 @@ net-analyzer/nmap -gtk ncat ndiff nping
 
 net-dialup/mgetty -fax
 net-dialup/ppp atm dhcp radius -gtk
+net-dialup/freeradius threads
 net-dialup/slmodem usb
 
 net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm -gtk python autoipd -qt4
@@ -666,8 +667,6 @@ media-libs/libdvdread -css
 media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
-
-net-dialup/freeradius threads
 
 # Kernel modules not needed
 sys-block/open-iscsi -modules
