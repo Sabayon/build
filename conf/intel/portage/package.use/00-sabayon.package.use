@@ -34,6 +34,7 @@ app-editors/xemacs xft
 # virt stuff
 app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/qemu fdt spice -gtk virtfs xattr
+app-emulation/vice gnome
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
 app-emulation/emul-linux-x86-soundlibs esd
 
@@ -642,7 +643,6 @@ sys-libs/ncurses static-libs
 ######################################################################
 ## Cleaned up 0600Z 10Jan2010 - Az
 mail-client/mutt sasl sidebar smtp
-app-emulation/vice gnome
 
 # Our Apache defaults
 www-servers/apache apache2_modules_asis apache2_modules_auth_digest apache2_modules_authn_dbd apache2_modules_cern_meta apache2_modules_cgi apache2_modules_cgid apache2_modules_charset_lite apache2_modules_dbd apache2_modules_dumpio apache2_modules_imagemap apache2_modules_log_forensic apache2_modules_proxy apache2_modules_proxy_ajp apache2_modules_proxy_balancer apache2_modules_proxy_connect apache2_modules_proxy_ftp apache2_modules_proxy_http apache2_modules_substitute apache2_modules_version ident suexec
