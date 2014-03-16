@@ -62,6 +62,10 @@ app-office/magicpoint mng
 
 app-misc/ddccontrol -gtk -gnome
 app-misc/gcstar stats
+
+# Kernel drivers are unwanted for lirc, they're in-kernel
+app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
+
 app-misc/mc -slang
 
 app-mobilephone/gnokii sms -X
@@ -658,10 +662,6 @@ media-libs/libdvdread -css
 media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
-
-
-# Kernel drivers are unwanted for lirc, they're in-kernel
-app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
 
 net-proxy/privoxy threads
 
