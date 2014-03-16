@@ -133,6 +133,7 @@ dev-lang/python sqlite berkdb
 
 dev-libs/beecrypt threads
 dev-libs/boost python threads icu
+dev-libs/crypto++ sse3
 dev-libs/dbus-glib bash-completion
 dev-libs/folks eds vala
 dev-libs/gdl gnome
@@ -670,8 +671,6 @@ media-libs/libdvdread -css
 media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
-
-dev-libs/crypto++ sse3
 
 app-cdr/dvd95 sse sse2
 
