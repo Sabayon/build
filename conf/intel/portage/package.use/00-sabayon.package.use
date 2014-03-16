@@ -31,6 +31,8 @@ app-editors/emacs xft
 app-editors/vim cscope ruby vim-pager
 app-editors/xemacs xft
 
+app-emacs/auctex preview-latex
+
 # virt stuff
 app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/qemu fdt spice -gtk virtfs xattr
@@ -656,7 +658,6 @@ media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
 
-app-emacs/auctex preview-latex
 net-analyzer/zabbix frontend agent server mysql ssh snmp proxy -sqlite3
 
 # Kernel drivers are unwanted for lirc, they're in-kernel
