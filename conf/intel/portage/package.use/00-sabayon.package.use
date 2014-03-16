@@ -51,7 +51,6 @@ app-laptop/tp_smapi hdaps
 
 app-leechcraft/lc-lmp kde
 
-app-office/dia gnome-print
 app-office/glabels doc
 app-office/gnucash chipcard hbci ofx quotes sqlite
 app-office/homebank ofx
@@ -70,6 +69,7 @@ app-misc/mc -slang
 app-mobilephone/gnokii sms -X
 
 app-office/abiword plugins
+app-office/dia gnome-print
 
 app-pda/gtkpod gstreamer
 app-pda/libopensync-plugin-syncml obex
