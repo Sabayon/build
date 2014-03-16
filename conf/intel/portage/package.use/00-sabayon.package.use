@@ -233,6 +233,7 @@ gnome-extra/zeitgeist-extensions -fts
 
 # See bug 3619
 kde-base/ark lzma
+kde-base/dolphin semantic-desktop thumbnail
 kde-base/gwenview kipi semantic-desktop
 kde-base/kactivities semantic-desktop
 kde-base/ksnapshot kipi
@@ -693,7 +694,6 @@ media-tv/mythtv -css
 
 media-video/avidemux amr
 
-kde-base/dolphin semantic-desktop thumbnail
 kde-base/plasma-workspace semantic-desktop python
 kde-base/superkaramba python
 
