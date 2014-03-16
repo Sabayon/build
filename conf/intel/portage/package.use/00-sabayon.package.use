@@ -441,6 +441,14 @@ net-misc/mosh ufw
 # bluetooth use flag is useless
 # wext due to bug 3283
 net-misc/networkmanager -bluetooth connection-sharing -dhclient dhcpcd -gnutls introspection modemmanager nss wext wimax
+# OLD: to make VPN working with networkmanager (nm-applet)
+# NEW: USE=gtk makes these plugins work properly with
+# newer nm-applet. Please, don't remove it and see
+# bug 3508
+net-misc/networkmanager-openvpn gtk
+net-misc/networkmanager-openswan gtk
+net-misc/networkmanager-openconnect gtk
+net-misc/networkmanager-pptp gtk
 net-misc/networkmanager-vpnc gnome
 net-misc/ntp -zeroconf
 net-misc/nxclient prebuilt
@@ -636,16 +644,6 @@ xfce-base/xfdesktop thunar-vfs
 xfce-base/xfwm4 xcomposite
 
 xfce-extra/tumbler gstreamer raw
-
-# OLD: to make VPN working with networkmanager (nm-applet)
-# NEW: USE=gtk makes these plugins work properly with
-# newer nm-applet. Please, don't remove it and see
-# bug 3508
-net-misc/networkmanager-openvpn gtk
-net-misc/networkmanager-pptp gtk
-net-misc/networkmanager-openswan gtk
-net-misc/networkmanager-openconnect gtk
-
 
 # nm-applet-gtk2 is the bloody version of nm-applet
 # used by non-gtk3 DEs, like LXDE, Xfce, E17, ...
