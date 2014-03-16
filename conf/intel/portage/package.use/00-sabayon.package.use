@@ -532,7 +532,9 @@ sys-boot/grub device-mapper libzfs
 
 sys-cluster/torque server
 
-sys-devel/distcc -avahi
+# Disable GTK for distcc, this is a server-side app
+# and it's better to not ship with gtk
+sys-devel/distcc -avahi -gtk
 sys-devel/gcc objc objc++ objc-gc graphite go -gtk
 sys-devel/base-gcc objc objc++ objc-gc graphite -gtk
 
@@ -650,10 +652,6 @@ xfce-extra/tumbler gstreamer raw
 # added for mythtv
 dev-qt/qtsql mysql
 dev-python/PyQt4 webkit sql assistant declarative examples script help
-
-# Disable GTK for distcc, this is a server-side app
-# and it's better to not ship with gtk
-sys-devel/distcc -gtk
 
 # See Sabayon bug #890
 sys-devel/libperl ithreads
