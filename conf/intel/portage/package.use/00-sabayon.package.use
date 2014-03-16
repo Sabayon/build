@@ -437,6 +437,8 @@ net-print/cups -java
 net-print/gutenprint foomaticdb -gtk
 net-print/hplip -acl fax hpijs parport snmp static-ppds usb
 
+net-proxy/privoxy threads
+
 net-wireless/bluez gstreamer obex
 net-wireless/wpa_supplicant -qt3 -qt4 wimax ap p2p eap-sim wps
 
@@ -662,8 +664,6 @@ media-libs/libdvdread -css
 media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
-
-net-proxy/privoxy threads
 
 dev-util/anjuta subversion
 
