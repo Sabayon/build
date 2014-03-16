@@ -467,6 +467,8 @@ net-misc/nxnode prebuilt vnc
 net-misc/openssh -X
 net-misc/openssh -ldap
 net-misc/ps3mediaserver multiuser tsmuxer
+# Add xattr support to rsync
+net-misc/rsync xattr
 net-misc/tightvnc -java server
 net-misc/tor threads
 net-misc/vinagre -avahi
@@ -690,9 +692,6 @@ app-admin/firstboot -gtk
 app-admin/system-config-users -X
 
 x11-themes/gnome-colors-common branding
-
-# Add xattr support to rsync
-net-misc/rsync xattr
 
 # Disable KDE on backintime
 app-backup/backintime gnome -kde
