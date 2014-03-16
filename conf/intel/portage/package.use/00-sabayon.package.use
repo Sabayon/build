@@ -13,6 +13,8 @@ app-arch/advancecomp mng
 app-arch/file-roller -nautilus
 app-arch/mate-file-archiver caja
 
+# Disable KDE on backintime
+app-backup/backintime gnome -kde
 app-backup/bacula sqlite3
 app-backup/deja-dup nautilus
 app-backup/fsarchiver lzma
@@ -692,9 +694,6 @@ app-admin/firstboot -gtk
 app-admin/system-config-users -X
 
 x11-themes/gnome-colors-common branding
-
-# Disable KDE on backintime
-app-backup/backintime gnome -kde
 
 # Wine, more features
 app-emulation/wine fontconfig samba udisks
