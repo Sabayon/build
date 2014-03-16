@@ -278,6 +278,8 @@ media-gfx/k3d 3ds
 media-gfx/kphotoalbum kipi
 # micia, add documentation for librecad, so that help menu works properly
 media-gfx/librecad doc
+# required for some functionality of Inkscape - bug 2941
+media-gfx/pstoedit plotutils
 media-gfx/splashutils mng fbcondecor
 media-gfx/xsane tiff
 media-gfx/zbar imagemagick v4l
@@ -680,9 +682,6 @@ media-libs/libdvdread -css
 media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
-
-# required for some functionality of Inkscape - bug 2941
-media-gfx/pstoedit plotutils
 
 # move x11-libs/evas media-libs/evas
 media-libs/evas fontconfig sse threads
