@@ -153,6 +153,8 @@ dev-ml/lablgl glut
 dev-perl/PDL fftw
 
 dev-python/cgkit 3ds
+# Make possible to have dev-python/epydoc without python compiled with tk
+dev-python/epydoc -X
 dev-python/ipython -wxwidgets
 dev-python/matplotlib -wxwindows
 dev-python/pyside script
@@ -161,9 +163,6 @@ dev-python/pyside script
 dev-python/pyglet -alsa
 
 dev-python/traitsgui wxwidgets qt4
-
-# Make possible to have dev-python/epydoc without python compiled with tk
-dev-python/epydoc -X
 
 dev-qt/qt-creator autotools cmake git subversion valgrind examples
 
