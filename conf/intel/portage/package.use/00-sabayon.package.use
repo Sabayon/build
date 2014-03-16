@@ -454,6 +454,9 @@ net-misc/dropbox librsync-bundled
 
 net-misc/aria2 metalink bittorrent xmlrpc
 net-misc/asterisk jabber gtalk
+# Preffer openssl over nss and gnutls for curl
+# moreover, nss breaks git https:// checkouts
+net-misc/curl ssl -nss -gnutls
 net-misc/minidlna netgear readynas
 net-misc/mosh ufw
 # bluetooth use flag is useless
@@ -701,10 +704,6 @@ app-admin/system-config-date -gtk
 dev-python/python-slip -gtk
 app-admin/firstboot -gtk
 app-admin/system-config-users -X
-
-# Prever openssl over nss and gnutls
-# moreover, nss breaks git https:// checkouts
-net-misc/curl ssl -nss -gnutls
 
 gnome-extra/nautilus-sendto -cdr
 
