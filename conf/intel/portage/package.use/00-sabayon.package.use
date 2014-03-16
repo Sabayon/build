@@ -40,6 +40,7 @@ app-editors/xemacs xft
 app-emacs/auctex preview-latex
 
 # virt stuff
+app-emulation/e-uae capslib
 app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/qemu fdt spice -gtk virtfs xattr
 app-emulation/vice gnome
@@ -692,7 +693,6 @@ media-tv/mythtv -css
 
 media-video/avidemux amr
 
-app-emulation/e-uae capslib
 games-emulation/qmc2 sdlmess
 
 # Disable gtk dependency, unwanted for Core
