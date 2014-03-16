@@ -15,6 +15,7 @@ app-backup/fsarchiver lzma
 
 app-cdr/brasero nautilus
 app-cdr/cdrdao -gnome
+app-cdr/dvd95 sse sse2
 app-cdr/k3b taglib
 
 # We really wanted USE=static in order
@@ -671,8 +672,6 @@ media-libs/libdvdread -css
 media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
-
-app-cdr/dvd95 sse sse2
 
 # No need to have USE=X on net-snmp
 # ucd-compat required by net-misc/vmpsd-1.4
