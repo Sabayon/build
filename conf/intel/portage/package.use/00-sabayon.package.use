@@ -641,6 +641,7 @@ x11-misc/xscreensaver -new-login
 x11-plugins/pidgin-sipe voice
 x11-plugins/cairo-dock-plugins alsa exif gmenu -kde terminal tomboy -webkit -xfce -xklavier
 x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisVert Ubuntu Verde Wood
+x11-themes/gnome-colors-common branding
 x11-themes/gtk-engines-murrine -themes
 x11-themes/gtk-engines-qtcurve -mozilla
 x11-themes/skinenigmang-logos dxr3
@@ -692,8 +693,6 @@ app-admin/system-config-date -gtk
 dev-python/python-slip -gtk
 app-admin/firstboot -gtk
 app-admin/system-config-users -X
-
-x11-themes/gnome-colors-common branding
 
 # Wine, more features
 app-emulation/wine fontconfig samba udisks
