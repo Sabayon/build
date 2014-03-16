@@ -419,6 +419,8 @@ net-fs/samba ads acl oav swat winbind
 
 net-im/bitlbee twitter
 net-im/centerim gadu
+# ejabberd, more features!
+net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
 net-im/ekg2 gadu gpg xmpp
 net-im/gajim -avahi
 net-im/gyachi gpgme gtkspell gtkhtml -webkit
@@ -696,9 +698,6 @@ app-admin/system-config-date -gtk
 dev-python/python-slip -gtk
 app-admin/firstboot -gtk
 app-admin/system-config-users -X
-
-# ejabberd, more features!
-net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
 
 # gdb tuning, we want XML
 sys-devel/gdb expat python
