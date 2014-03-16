@@ -481,9 +481,9 @@ sys-apps/pciutils -zlib
 sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -linguas_nl -linguas_pl -linguas_ro -linguas_ru -linguas_zh_CN
 sys-auth/consolekit -acl
 sys-libs/zlib minizip
-sys-block/parted device-mapper
 
 sys-block/gparted -kde -gtk dmraid mdadm btrfs
+sys-block/parted device-mapper
 
 # Kernel modules not needed
 sys-block/open-iscsi -modules
