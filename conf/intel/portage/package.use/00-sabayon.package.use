@@ -230,6 +230,11 @@ gnome-extra/avant-window-navigator-extras gnome
 gnome-extra/evolution-data-server ldap kerberos vala
 gnome-extra/gnome-games -sudoku
 gnome-extra/libgsf gnome
+# nm-applet-gtk2 is the bloody version of nm-applet
+# used by non-gtk3 DEs, like LXDE, Xfce, E17, ...
+# Cannot enable bluetooth because gnome-bluetooth-3.x
+# is gtk3 as well
+gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
 # disable fts because gnome-extra/zeitgeist-extensions[fts] doesn't allow gnome-extra/zeitgeist[fts]
 gnome-extra/zeitgeist-extensions -fts
 
@@ -644,12 +649,6 @@ xfce-base/xfdesktop thunar-vfs
 xfce-base/xfwm4 xcomposite
 
 xfce-extra/tumbler gstreamer raw
-
-# nm-applet-gtk2 is the bloody version of nm-applet
-# used by non-gtk3 DEs, like LXDE, Xfce, E17, ...
-# Cannot enable bluetooth because gnome-bluetooth-3.x
-# is gtk3 as well
-gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
 
 # added for mythtv
 dev-qt/qtsql mysql
