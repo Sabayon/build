@@ -347,6 +347,7 @@ www-plugins/adobe-flash -32bit sse2
 media-tv/mythtv fftw
 
 media-video/blinkensim aalib
+media-video/dvgrab quicktime
 virtual/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx jpeg2k
 media-video/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx
 media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_nvidia vpx jpeg2k
@@ -684,8 +685,6 @@ media-libs/libdvdread -css
 media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
-
-media-video/dvgrab quicktime
 
 media-video/avidemux amr
 
