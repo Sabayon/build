@@ -52,6 +52,9 @@ app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python
 app-emulation/qemu fdt spice -gtk virtfs xattr
 app-emulation/vice gnome
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
+# Wine, more features
+app-emulation/wine fontconfig samba udisks
+app-emulation/winetricks -gtk
 
 # USE flag gtk3 enabled on app-i18n/ibus makes it depend on both slots of Gtk+; it shouldn't
 # be a real problem though since everyone nowadays has normally both of them installed.
@@ -694,9 +697,6 @@ dev-python/python-slip -gtk
 app-admin/firstboot -gtk
 app-admin/system-config-users -X
 
-# Wine, more features
-app-emulation/wine fontconfig samba udisks
-
 # ejabberd, more features!
 net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
 
@@ -912,7 +912,6 @@ kde-base/kdepim-runtime -linguas_ar -linguas_be -linguas_ca -linguas_ca@valencia
 
 net-im/telepathy-connection-managers -icq -yahoo
 net-im/empathy gnome
-app-emulation/winetricks -gtk
 x11-misc/obconf -lxde
 media-plugins/gst-plugins-meta mms
 net-ftp/proftpd authfile openssl
