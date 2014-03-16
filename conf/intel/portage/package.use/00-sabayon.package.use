@@ -47,11 +47,11 @@ app-emacs/auctex preview-latex
 
 # virt stuff
 app-emulation/e-uae capslib
+app-emulation/emul-linux-x86-soundlibs esd
 app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/qemu fdt spice -gtk virtfs xattr
 app-emulation/vice gnome
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
-app-emulation/emul-linux-x86-soundlibs esd
 
 # USE flag gtk3 enabled on app-i18n/ibus makes it depend on both slots of Gtk+; it shouldn't
 # be a real problem though since everyone nowadays has normally both of them installed.
