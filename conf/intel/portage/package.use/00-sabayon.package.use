@@ -485,6 +485,9 @@ sys-block/parted device-mapper
 
 sys-block/gparted -kde -gtk dmraid mdadm btrfs
 
+# Kernel modules not needed
+sys-block/open-iscsi -modules
+
 # grub2 must be slotted for a while
 >sys-boot/grub-1 multislot
 sys-boot/grub device-mapper libzfs
@@ -667,9 +670,6 @@ media-libs/libdvdread -css
 media-libs/xine-lib -css
 app-cdr/brasero -css
 media-tv/mythtv -css
-
-# Kernel modules not needed
-sys-block/open-iscsi -modules
 
 dev-libs/crypto++ sse3
 
