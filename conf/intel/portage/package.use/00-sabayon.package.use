@@ -301,6 +301,8 @@ media-gfx/zbar imagemagick v4l
 media-libs/blib aalib
 # required by media-sound/picard
 media-libs/chromaprint tools
+# Needed for gnome-shell
+media-libs/clutter opengl introspection
 media-libs/devil mng
 # move x11-libs/evas media-libs/evas
 media-libs/evas fontconfig sse threads
@@ -656,9 +658,6 @@ dev-python/PyQt4 webkit sql assistant declarative examples script help
 # See Sabayon bug #890
 sys-devel/libperl ithreads
 dev-lang/perl ithreads
-
-# Needed for gnome-shell
-media-libs/clutter opengl introspection
 
 # PackageKit, Sabayon config
 app-admin/packagekit entropy cron pm-utils -qt4 -gtk
