@@ -573,6 +573,8 @@ sys-devel/distcc -avahi -gtk
 sys-devel/gcc objc objc++ objc-gc graphite go -gtk
 sys-devel/base-gcc objc objc++ objc-gc graphite -gtk
 
+# No fuck git by default!
+sys-devel/gettext -git
 # gdb tuning, we want XML
 sys-devel/gdb expat python
 
@@ -733,9 +735,6 @@ net-dns/bind dlz resolvconf
 net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
-
-# No fuck git by default!
-sys-devel/gettext -git
 
 # libproxy is bloatware
 net-libs/libproxy -kde -gnome python
