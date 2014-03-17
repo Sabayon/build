@@ -880,8 +880,6 @@ net-libs/gtk-vnc gtk3
 app-misc/tomboy -applet
 # our is a split package, who cares
 net-dns/avahi dbus gtk3
-# GNOME 3 wants NetworkManager 0.9
-kde-misc/networkmanagement nm09
 # Do not pull in gnome-extra-apps meta package
 # Disable accessibility, since it's just a virtual dependency
 gnome-base/gnome -extras -accessibility
