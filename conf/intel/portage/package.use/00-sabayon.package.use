@@ -3,6 +3,9 @@
 app-accessibility/dasher gnome
 
 app-admin/conky audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thinkpad weather-metar weather-xoap -ipv6
+# we provide networkmanager tools for tweaking network settings,
+# moreover network-admin is broken and causes massive meltdown
+app-admin/gnome-system-tools -network nfs
 # PackageKit, Sabayon config
 app-admin/packagekit entropy cron pm-utils -qt4 -gtk
 # PackageKit settings
@@ -730,10 +733,6 @@ net-dns/bind dlz resolvconf
 net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
-
-# we provide networkmanager tools for tweaking network settings,
-# moreover network-admin is broken and causes massive meltdown
-app-admin/gnome-system-tools -network nfs
 
 # No fuck git by default!
 sys-devel/gettext -git
