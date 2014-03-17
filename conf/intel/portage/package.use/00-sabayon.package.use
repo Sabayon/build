@@ -495,6 +495,9 @@ media-video/xine-ui aalib
 media-video/dvdrip -xine subtitles fping
 
 net-analyzer/nessus-core -gtk
+# Bluetooth dependency is unwanted on servers
+# It pulls in a lot of crap
+net-analyzer/netcat6 -bluetooth
 # No need to have USE=X on net-snmp
 # ucd-compat required by net-misc/vmpsd-1.4
 net-analyzer/net-snmp ucd-compat -X
@@ -936,10 +939,6 @@ sys-devel/base-gcc hardened
 sys-devel/gcc hardened
 # keep suid for a while, needs devpts mounted with gid=5 otherwise
 sys-libs/glibc hardened suid nscd
-
-# Bluetooth dependency is unwanted on servers
-# It pulls in a lot of crap
-net-analyzer/netcat6 -bluetooth
 
 # add Infinality patches to freetype-2
 # See bug 3360
