@@ -646,6 +646,8 @@ sci-geosciences/grass tcl tk fftw
 sci-geosciences/mapserver flash threads -tiff
 sci-geosciences/qgis grass
 
+# required by media-gfx/luminance-hdr
+sci-libs/fftw threads
 sci-libs/gdal curl geos
 # PQStego requires this USE, see bug 2751
 >=sci-libs/gsl-1.15 cblas-external
@@ -943,9 +945,6 @@ sys-libs/glibc hardened suid nscd
 # add Infinality patches to freetype-2
 # See bug 3360
 media-libs/freetype infinality
-
-# required by media-gfx/luminance-hdr
-sci-libs/fftw threads
 
 # SSE2 required, otherwise it does not merge
 media-gfx/luminance-hdr sse2
