@@ -439,6 +439,9 @@ media-libs/ming php
 media-libs/mlt melt frei0r kdenlive quicktime python
 media-libs/openexr -video_cards_nvidia
 media-libs/sdl-mixer midi timidity mod mikmod
+# required by games-engines/gargoyle:0
+# USE=mikmod required by gltron
+media-libs/sdl-sound modplug mikmod
 media-libs/svgalib -kernel-helper
 media-libs/swfdec gstreamer
 media-libs/tiff lzma
@@ -1003,10 +1006,6 @@ dev-python/imaging tk
 virtual/python-imaging tk
 =dev-lang/python-2.7* tk
 =dev-lang/python-3.3* tk
-
-# required by games-engines/gargoyle:0
-# USE=mikmod required by gltron
-media-libs/sdl-sound modplug mikmod
 
 # udisks, we want cryptsetup support
 sys-fs/udisks cryptsetup crypt
