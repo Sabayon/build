@@ -288,6 +288,9 @@ mail-filter/dovecot-antispam dspam
 mail-filter/procmail mbox
 mail-filter/spamassassin-fuzzyocr gocr
 
+# More postfix features
+mail-mta/postfix mbox sasl
+
 mate-extra/mate-file-manager-sendto -cdr
 
 media-fonts/baekmuk-fonts -X
@@ -719,9 +722,6 @@ app-admin/system-config-users -X
 # Pylons stuff
 dev-python/paste openid
 dev-python/pylons genshi jinja
-
-# More postfix features
-mail-mta/postfix mbox sasl
 
 # openresolv support
 net-dns/bind dlz resolvconf
