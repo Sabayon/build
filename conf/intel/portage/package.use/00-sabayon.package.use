@@ -550,6 +550,8 @@ net-libs/aqbanking chipcard ofx
 net-libs/c-client chappa
 net-libs/glib-networking gnome
 net-libs/libgadu ssl threads
+# Required by XBMC 12.x
+net-libs/libmicrohttpd messages
 # libproxy is bloatware
 net-libs/libproxy -kde -gnome python
 net-libs/libsoup gnome
@@ -947,9 +949,6 @@ sys-libs/glibc hardened suid nscd
 # add Infinality patches to freetype-2
 # See bug 3360
 media-libs/freetype infinality
-
-# Required by XBMC 12.x
-net-libs/libmicrohttpd messages
 
 # Required by gnome-documents 3.6
 dev-libs/libgdata gnome
