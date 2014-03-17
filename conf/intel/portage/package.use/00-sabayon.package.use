@@ -370,6 +370,9 @@ mail-mta/netqmail qmail-spp
 # More postfix features
 mail-mta/postfix mbox sasl
 
+# We want the MATE NetworkManager applet
+mate-base/mate-applets networkmanager
+
 mate-extra/mate-file-manager-sendto -cdr
 
 media-fonts/baekmuk-fonts -X
@@ -985,9 +988,6 @@ media-libs/freetype infinality
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
-
-# We want the MATE NetworkManager applet
-mate-base/mate-applets networkmanager
 
 # Required by bitcoin-qt
 dev-libs/leveldb -snappy
