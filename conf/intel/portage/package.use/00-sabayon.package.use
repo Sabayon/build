@@ -380,6 +380,7 @@ media-libs/ming php
 media-libs/mlt melt frei0r kdenlive quicktime python
 media-libs/openexr -video_cards_nvidia
 media-libs/sdl-mixer midi timidity mod mikmod
+media-libs/svgalib -kernel-helper
 media-libs/swfdec gstreamer
 media-libs/tiff lzma
 media-libs/vigra fftw
@@ -821,7 +822,6 @@ net-misc/vpnc resolvconf
 gnome-base/gnome-panel eds
 
 sys-auth/polkit -kde -gtk
-media-libs/svgalib -kernel-helper 
 app-misc/tuxcmd-modules gnome unrar
 media-sound/cmus mikmod
 sci-libs/hdf5 -cxx -fortran -mpi threads szip
