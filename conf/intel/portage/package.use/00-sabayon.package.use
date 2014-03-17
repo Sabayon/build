@@ -335,6 +335,7 @@ media-libs/evas fontconfig sse threads
 media-libs/freetype -X -auto-hinter adobe-cff
 media-libs/libgphoto2 exif
 media-libs/libggi aalib
+media-libs/libgpod ios
 media-libs/libsamplerate sndfile
 media-libs/libsdl aalib
 media-libs/libsoundtouch sse2
@@ -763,7 +764,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-media-libs/libgpod ios
 app-emulation/ganeti kvm lxc htools
 app-i18n/skk-jisyo cdb
 net-misc/x2goserver sqlite
