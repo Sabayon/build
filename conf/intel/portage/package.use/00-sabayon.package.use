@@ -342,6 +342,7 @@ media-libs/ming php
 media-libs/mlt melt frei0r kdenlive quicktime python
 media-libs/openexr -video_cards_nvidia
 media-libs/sdl-mixer midi timidity mod mikmod
+media-libs/swfdec gstreamer
 media-libs/tiff lzma
 media-libs/vigra fftw
 media-libs/vips fftw
@@ -753,7 +754,6 @@ net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
-media-libs/swfdec gstreamer
 gnome-base/gnome-panel eds
 x11-themes/sabayon-artwork-kde ksplash
 dev-db/postgresql-base threads
