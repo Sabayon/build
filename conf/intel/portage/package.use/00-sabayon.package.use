@@ -390,6 +390,7 @@ media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
 media-sound/lmms fftw fluidsynth 
 media-sound/mixxx shout
 media-sound/moc curl sndfile
+media-sound/mp3splt-gtk gstreamer
 media-sound/ncmpcpp curl
 media-sound/qtractor sse
 # 2.92 with USE=cdr requires =app-cdr/brasero-3.4* but
@@ -790,7 +791,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-media-sound/mp3splt-gtk gstreamer
 media-sound/gpodder gstreamer 
 net-proxy/tsocks tordns
 sys-kernel/dracut device-mapper dracut_modules_biosdevname dracut_modules_btrfs dracut_modules_dmraid dracut_modules_dmsquash-live dracut_modules_gensplash dracut_modules_lvm dracut_modules_mdraid dracut_modules_multipath dracut_modules_nbd dracut_modules_nfs dracut_modules_plymouth dracut_modules_syslog dracut_modules_crypt dracut_modules_crypt-gpg dracut_modules_crypt-loop dracut_modules_iscsi dracut_modules_systemd net
