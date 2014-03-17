@@ -387,6 +387,7 @@ media-sound/audacity ladspa vamp soundtouch id3tag midi -ffmpeg
 media-sound/audacious -gtk gtk3 wma timidity lirc dbus chardet
 media-sound/banshee podcast -ipod -zeroconf mtp njb
 media-sound/cantata replaygain taglib cdparanoia
+media-sound/deadbeef ape cover curl lastfm m3u hotkeys sndfile supereq wavpack
 media-sound/gpodder gstreamer
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
 media-sound/lmms fftw fluidsynth 
@@ -795,7 +796,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-media-sound/deadbeef ape cover curl lastfm m3u hotkeys sndfile supereq wavpack
 net-misc/remmina vnc vte ssh freerdp
 app-misc/gpsdrive speech
 media-video/miro faac
