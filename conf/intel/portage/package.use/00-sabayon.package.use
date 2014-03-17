@@ -3,6 +3,8 @@
 app-accessibility/dasher gnome
 
 app-admin/conky audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thinkpad weather-metar weather-xoap -ipv6
+# eselect-php now contains fpm init script and apache stuff
+app-admin/eselect-php fpm apache2
 # we provide networkmanager tools for tweaking network settings,
 # moreover network-admin is broken and causes massive meltdown
 app-admin/gnome-system-tools -network nfs
@@ -973,9 +975,6 @@ media-libs/freetype infinality
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
-
-# eselect-php now contains fpm init script and apache stuff
-app-admin/eselect-php fpm apache2
 
 # Needed by freecad
 media-libs/coin doc
