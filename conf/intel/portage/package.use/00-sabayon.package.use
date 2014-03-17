@@ -645,6 +645,7 @@ www-client/firefox filepicker -gnome -linguas_en_GB -linguas_es_AR -linguas_es_E
 www-client/firefox-bin linguas_be linguas_id linguas_ka linguas_ku linguas_pa_IN linguas_sq 
 www-client/rekonq semantic-desktop
 www-client/seamonkey -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO -linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
+www-client/uget gstreamer
 
 www-plugins/gnash egl openvg ffmpeg -python -cairo -sdl -kde
 
@@ -775,7 +776,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-www-client/uget gstreamer
 dev-libs/libf2c static-libs
 kde-base/krdc vnc
 net-voip/ekiga gstreamer
