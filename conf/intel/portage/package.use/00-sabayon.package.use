@@ -511,6 +511,8 @@ net-misc/tightvnc -java server
 net-misc/tor threads
 net-misc/vinagre -avahi
 
+net-nds/openldap -minimal
+
 net-nntp/suck perl
 
 net-p2p/amule geoip stats remote upnp daemon
@@ -761,7 +763,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-net-nds/openldap -minimal
 media-libs/libgpod ios
 app-emulation/ganeti kvm lxc htools
 app-i18n/skk-jisyo cdb
