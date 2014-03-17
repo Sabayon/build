@@ -423,6 +423,7 @@ virtual/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection v
 media-video/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx
 media-video/kino gstreamer quicktime
 media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_nvidia vpx jpeg2k
+media-video/miro faac
 media-video/mplayer 3dnow 3dnowext aalib amr ass bl cddb cdparanoia cpudetection dvdnav -dxr3 faac rtmp ftp ladspa lirc -live md5sum mmxext mng mp2 openal pnm radio rar rtc sse sse2 ssse3 tga tivo vidix vpx x264 zoran
 # testing mplayer flags
 media-video/mplayer fbcon bs2b
@@ -798,7 +799,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-media-video/miro faac
 media-gfx/sane-frontends gimp
 dev-db/freetds mssql
 dev-libs/libxml2 icu
