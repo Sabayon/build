@@ -275,6 +275,7 @@ kde-base/kde-l10n linguas_be linguas_csb linguas_ne linguas_th linguas_wa
 kde-base/kdebase-runtime-meta semantic-desktop
 kde-base/kde-meta -nls semantic-desktop
 kde-base/kdepim-meta -nls
+kde-base/kdepimlibs semantic-desktop
 kde-base/kdebase-kioslaves samba
 kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
 kde-base/kdeplasma-addons desktopglobe json oauth semantic-desktop
@@ -772,7 +773,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-kde-base/kdepimlibs semantic-desktop
 media-libs/gd fontconfig
 dev-qt/qtwebkit kde icu
 www-client/uget gstreamer
