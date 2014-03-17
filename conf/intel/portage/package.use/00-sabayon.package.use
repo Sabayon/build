@@ -407,6 +407,7 @@ media-video/dvdrip -xine subtitles fping
 # ucd-compat required by net-misc/vmpsd-1.4
 net-analyzer/net-snmp ucd-compat -X
 net-analyzer/snmptt mysql
+net-analyzer/snort dynamicplugin
 net-analyzer/smokeping apache2
 net-analyzer/wireshark python -qt4
 net-analyzer/zabbix frontend agent server mysql ssh snmp proxy -sqlite3
@@ -740,7 +741,6 @@ net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
-net-analyzer/snort dynamicplugin 
 mail-mta/netqmail qmail-spp
 app-mobilephone/kannel mysql
 dev-libs/libassuan static-libs
