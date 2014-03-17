@@ -639,6 +639,8 @@ x11-libs/cairo glitz -qt4
 # move x11-libs/ecore dev-libs/ecore
 dev-libs/ecore curl
 x11-libs/goffice gnome
+# libva coolness
+x11-libs/libva video_cards_dummy video_cards_intel
 
 dev-qt/qtgui mng private-headers raster gtkstyle
 
@@ -728,9 +730,6 @@ net-dns/bind dlz resolvconf
 net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
-
-# libva coolness
-x11-libs/libva video_cards_dummy video_cards_intel
 
 # we provide networkmanager tools for tweaking network settings,
 # moreover network-admin is broken and causes massive meltdown
