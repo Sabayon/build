@@ -187,6 +187,7 @@ dev-libs/pth static-libs
 dev-libs/soprano clucene redland -java
 dev-libs/xerces-c xqilla icu
 dev-libs/xmlrpc-c curl
+dev-libs/xmlsec gcrypt
 
 # See Sabayon bug #1020
 dev-libs/openct pcsc-lite
@@ -803,7 +804,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-dev-libs/xmlsec gcrypt
 dev-libs/tntnet sdk
 x11-themes/tango-icon-theme branding
 dev-games/ode double-precision
