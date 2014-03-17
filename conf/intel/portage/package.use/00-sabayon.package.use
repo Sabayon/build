@@ -506,6 +506,8 @@ net-proxy/privoxy threads
 net-wireless/bluez gstreamer obex
 net-wireless/wpa_supplicant -qt3 -qt4 wimax ap p2p eap-sim wps
 
+sci-astronomy/celestia -kde
+
 # workaround for https://bugs.gentoo.org/show_bug.cgi?id=361411
 sci-biology/transfac -emboss
 
@@ -513,8 +515,6 @@ sci-biology/transfac -emboss
 sci-chemistry/avogadro -python
 
 sci-electronics/geda doc stroke
-
-sci-astronomy/celestia -kde
 
 sci-geosciences/grass tcl tk fftw
 # doesn't build with tiff 4.0
