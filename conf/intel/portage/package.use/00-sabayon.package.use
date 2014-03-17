@@ -29,6 +29,7 @@ app-cdr/brasero nautilus
 app-cdr/cdrdao -gnome
 app-cdr/dvd95 sse sse2
 app-cdr/k3b taglib
+app-cdr/xfburn gstreamer
 
 # We really wanted USE=static in order
 # to not add many pkgs on 700Mb sized ISO
@@ -786,7 +787,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-app-cdr/xfburn gstreamer
 dev-qt/qt3support kde
 dev-qt/qthelp compat
 app-text/texlive-core xetex
