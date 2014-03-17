@@ -559,6 +559,8 @@ net-libs/libproxy -kde -gnome python
 net-libs/libsoup gnome
 net-libs/opal sip sipim h323
 net-libs/ptlib video stun wav pipechan dns http dtmf
+# Wants an old version of farstream stuff
+net-libs/telepathy-qt -farstream
 net-libs/wvstreams -qt3
 
 # Disable net-wireless/bluez for libpcap to avoid
@@ -956,9 +958,6 @@ media-libs/freetype infinality
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
-
-# Wants an old version of farstream stuff
-net-libs/telepathy-qt -farstream
 
 # Enable system-wide pulseaudio, also see bug #4009
 # Disable qt4
