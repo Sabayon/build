@@ -513,6 +513,7 @@ net-misc/rsync xattr
 net-misc/tightvnc -java server
 net-misc/tor threads
 net-misc/vinagre -avahi
+net-misc/x2goserver sqlite
 
 net-nds/openldap -minimal
 
@@ -766,7 +767,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-net-misc/x2goserver sqlite
 media-plugins/kipi-plugins calendar gpssync
 sci-libs/gdal curl geos
 dev-db/tora oracle
