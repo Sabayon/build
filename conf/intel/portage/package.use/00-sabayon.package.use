@@ -429,6 +429,7 @@ media-sound/cantata replaygain taglib cdparanoia
 media-sound/clementine lastfm ios moodbar mtp
 media-sound/cmus mikmod
 media-sound/deadbeef ape cover curl lastfm m3u hotkeys sndfile supereq wavpack
+media-sound/gmusicbrowser gstreamer
 media-sound/gpodder gstreamer
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
 media-sound/lmms fftw fluidsynth 
@@ -909,8 +910,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 >=gnome-extra/zeitgeist-0.7.1-r1 fts
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
-
-media-sound/gmusicbrowser gstreamer
 
 # Required by media-gfx/darktable
 media-libs/libraw demosaic
