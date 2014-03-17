@@ -652,8 +652,6 @@ sci-visualization/gnuplot gd wxwidgets
 sci-visualization/grace fftw
 sci-visualization/gwyddion fftw
 
-sys-auth/pambase -consolekit -kerberos
-
 # Disable nautilus integration, it gets pulled in in XFCE spin
 sys-apps/gnome-disk-utility -nautilus -avahi
 sys-apps/groff -X
@@ -662,7 +660,10 @@ sys-apps/hwdata-gentoo binary-drivers
 sys-apps/man-db -berkdb
 sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -linguas_nl -linguas_pl -linguas_ro -linguas_ru -linguas_zh_CN
 sys-apps/pciutils -zlib
+
 sys-auth/consolekit -acl
+sys-auth/pambase -consolekit -kerberos
+
 sys-libs/zlib minizip
 
 sys-block/gparted -kde -gtk dmraid mdadm btrfs
