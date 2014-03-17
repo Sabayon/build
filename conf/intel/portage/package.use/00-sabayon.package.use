@@ -141,6 +141,9 @@ app-text/ghostscript-gpl -linguas_ja -linguas_ko -linguas_zh_CN -linguas_zh_TW
 dev-cpp/glog gflags
 
 dev-db/freetds mssql
+# dev-db/mongodb should use V8. Allows to fix bug 3069
+# embedded-v8 due to incompatiblity with Chromium - Gentoo bug 471582
+dev-db/mongodb v8 embedded-v8
 dev-db/postgresql-base threads
 # soundex required by Entropy
 # secure-delete required by xulrunner
@@ -921,10 +924,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 >=gnome-extra/zeitgeist-0.7.1-r1 fts
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
-
-# dev-db/mongodb should use V8. Allows to fix bug 3069
-# embedded-v8 due to incompatiblity with Chromium - Gentoo bug 471582
-dev-db/mongodb v8 embedded-v8
 
 # Enable hardened USE flags
 sys-devel/base-gcc hardened
