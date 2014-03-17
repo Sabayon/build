@@ -740,8 +740,6 @@ sys-apps/util-linux tty-helpers
 sys-auth/consolekit -acl
 sys-auth/pambase -consolekit -kerberos
 
-sys-libs/zlib minizip
-
 sys-block/gparted -kde -gtk dmraid mdadm btrfs
 sys-block/parted device-mapper
 
@@ -795,6 +793,7 @@ sys-kernel/linux-sabayon splash dmraid symlink grub iscsi mdadm luks lvm zfs ply
 sys-kernel/sabayon-sources symlink
 
 sys-libs/db -java
+sys-libs/zlib minizip
 
 virtual/mpi romio
 virtual/ooo java
