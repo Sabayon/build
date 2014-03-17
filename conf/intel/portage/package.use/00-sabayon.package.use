@@ -240,6 +240,7 @@ dev-util/eclipse-sdk java6
 dev-util/geany-plugins enchant gtkspell
 dev-util/glade -gnome
 dev-util/jay java
+dev-util/kdevelop php qthelp ruby
 dev-util/nvidia-cuda-sdk opencl
 
 dev-vcs/bzr bash-completion curl sftp
@@ -833,7 +834,6 @@ gnome-base/gnome-panel eds
 sys-auth/polkit -kde -gtk
 media-libs/libpng apng
 
-dev-util/kdevelop php qthelp ruby
 dev-util/kdevplatform git subversion
 
 dev-libs/libgcrypt static-libs
