@@ -659,6 +659,8 @@ sys-apps/gnome-disk-utility -nautilus -avahi
 sys-apps/groff -X
 sys-apps/hwdata-gentoo binary-drivers
 sys-apps/pciutils -zlib
+# Do we really want berkdb?
+sys-apps/man-db -berkdb
 sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -linguas_nl -linguas_pl -linguas_ro -linguas_ru -linguas_zh_CN
 sys-auth/consolekit -acl
 sys-libs/zlib minizip
@@ -912,9 +914,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 >=gnome-extra/zeitgeist-0.7.1-r1 fts
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
-
-# Do we really want berkdb?
-sys-apps/man-db -berkdb
 
 # Bumblebee stuff
 x11-misc/bumblebee video_cards_nvidia video_cards_nouveau -bbswitch
