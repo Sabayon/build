@@ -115,6 +115,7 @@ app-text/lcdf-typetools kpathsea
 app-text/mate-document-viewer caja djvu dvi mate mate-keyring
 app-text/stardict tools
 app-text/texlive -truetype
+app-text/texlive-core xetex
 
 # qt4 is a bit overkill for highlight
 # our servers don't want qt4 either.
@@ -789,7 +790,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-app-text/texlive-core xetex
 media-sound/mp3splt-gtk gstreamer
 media-sound/gpodder gstreamer 
 net-proxy/tsocks tordns
