@@ -374,6 +374,8 @@ media-gfx/k3d 3ds
 media-gfx/kphotoalbum kipi
 # micia, add documentation for librecad, so that help menu works properly
 media-gfx/librecad doc
+# SSE2 required, otherwise it does not merge
+media-gfx/luminance-hdr sse2
 # required for some functionality of Inkscape - bug 2941
 media-gfx/pstoedit plotutils
 # Newer kernels do not provide vid4l
@@ -945,9 +947,6 @@ sys-libs/glibc hardened suid nscd
 # add Infinality patches to freetype-2
 # See bug 3360
 media-libs/freetype infinality
-
-# SSE2 required, otherwise it does not merge
-media-gfx/luminance-hdr sse2
 
 # Required by XBMC 12.x
 net-libs/libmicrohttpd messages
