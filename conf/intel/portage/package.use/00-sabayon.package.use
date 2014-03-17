@@ -513,6 +513,7 @@ net-irc/znc -python
 
 net-libs/aqbanking chipcard ofx
 net-libs/c-client chappa
+net-libs/glib-networking gnome
 net-libs/libgadu ssl threads
 # libproxy is bloatware
 net-libs/libproxy -kde -gnome python
@@ -841,8 +842,6 @@ gnome-base/gnome-panel eds
 
 sys-auth/polkit -kde -gtk
 media-libs/libpng apng
-
-net-libs/glib-networking gnome
 
 # New splashutils wants static-libs see Gentoo bug #356231
 media-libs/libpng static-libs
