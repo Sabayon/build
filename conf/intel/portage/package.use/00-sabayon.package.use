@@ -87,6 +87,7 @@ app-misc/gpsdrive speech
 app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
 
 app-misc/mc -slang
+app-misc/sphinx mysql
 
 app-mobilephone/gnokii sms -X
 app-mobilephone/kannel mysql
@@ -818,7 +819,6 @@ net-misc/vpnc resolvconf
 gnome-base/gnome-panel eds
 
 sys-auth/polkit -kde -gtk
-app-misc/sphinx mysql
 x11-misc/shutter drawing webphoto
 dev-games/physfs hog
 media-libs/svgalib -kernel-helper 
