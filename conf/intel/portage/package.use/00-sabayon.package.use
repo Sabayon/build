@@ -443,6 +443,8 @@ media-libs/mesa gbm g3dvl nptl openvg pic shared-dricore shared-glapi video_card
 media-libs/ming php
 media-libs/mlt melt frei0r kdenlive quicktime python
 media-libs/openexr -video_cards_nvidia
+# on amd64, if ABI_X86=32 is set, exif must be unset
+media-libs/oyranos -exif
 media-libs/sdl-mixer midi timidity mod mikmod
 # required by games-engines/gargoyle:0
 # USE=mikmod required by gltron
@@ -1015,9 +1017,6 @@ dev-python/imaging tk
 virtual/python-imaging tk
 =dev-lang/python-2.7* tk
 =dev-lang/python-3.3* tk
-
-# on amd64, if ABI_X86=32 is set, exif must be unset
-media-libs/oyranos -exif
 
 # This is while we wait for full true multilib support on libav
 # Please drop this as soon as the corresponding packages are fixed
