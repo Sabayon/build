@@ -678,6 +678,9 @@ net-voip/ekiga gstreamer
 net-wireless/bluez gstreamer obex
 net-wireless/wpa_supplicant -qt3 -qt4 wimax ap p2p eap-sim wps
 
+# Razorqt lightdm plugin is lagging behind, disable
+razorqt-base/razorqt-meta -lightdm
+
 sci-astronomy/celestia -kde
 
 # workaround for https://bugs.gentoo.org/show_bug.cgi?id=361411
@@ -1078,9 +1081,6 @@ app-arch/file-roller packagekit
 gnome-base/gnome-settings-daemon -packagekit
 gnome-base/nautilus packagekit
 gnome-extra/gnome-color-manager packagekit
-
-# Razorqt lightdm plugin is lagging behind, disable
-razorqt-base/razorqt-meta -lightdm
 
 # USE=-ffmpeg due to libav-9.10+ requirements, not yet in chroots
 media-plugins/audacious-plugins -ffmpeg
