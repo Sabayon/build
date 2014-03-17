@@ -750,8 +750,8 @@ sys-block/open-iscsi -modules
 >sys-boot/grub-1 multislot
 sys-boot/grub device-mapper libzfs
 
-sys-cluster/torque server
 sys-cluster/openmpi romio
+sys-cluster/torque server
 # We support both vanilla and vz kernels
 sys-cluster/vzctl vanilla-kernel vz-kernel ploop
 
