@@ -393,6 +393,8 @@ media-libs/devil mng
 media-libs/evas fontconfig sse threads
 media-libs/freetype -X -auto-hinter adobe-cff
 media-libs/gd fontconfig
+# In order to generate files in different formats, we need to enable imlib
+media-libs/libcaca imlib
 media-libs/libgphoto2 exif
 media-libs/libggi aalib
 media-libs/libgpod ios
@@ -932,9 +934,6 @@ sys-devel/base-gcc hardened
 sys-devel/gcc hardened
 # keep suid for a while, needs devpts mounted with gid=5 otherwise
 sys-libs/glibc hardened suid nscd
-
-# In order to generate files in different formats, we need to enable imlib
-media-libs/libcaca imlib
 
 # We must choose between mysql and postgres
 net-dns/mydns mysql
