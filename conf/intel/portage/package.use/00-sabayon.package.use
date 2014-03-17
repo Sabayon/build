@@ -770,6 +770,7 @@ x11-misc/cairo-dock xcomposite
 x11-misc/keytouch -kde
 x11-misc/keytouch-editor -kde
 x11-misc/notification-daemon gstreamer
+x11-misc/obconf -lxde
 x11-misc/shutter drawing webphoto
 x11-misc/xaos aalib
 # Disable new-login, pulls in gdm or kdm, which is bad
@@ -896,7 +897,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
 
-x11-misc/obconf -lxde
 media-plugins/gst-plugins-meta mms
 net-ftp/proftpd authfile openssl
 dev-lang/parrot pcre
