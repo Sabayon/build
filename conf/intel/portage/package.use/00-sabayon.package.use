@@ -81,6 +81,7 @@ app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
 app-misc/mc -slang
 
 app-mobilephone/gnokii sms -X
+app-mobilephone/kannel mysql
 
 app-office/abiword plugins
 app-office/dia gnome-print
@@ -742,7 +743,6 @@ net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
-app-mobilephone/kannel mysql
 dev-libs/libassuan static-libs
 media-libs/ming php
 
