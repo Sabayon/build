@@ -754,6 +754,8 @@ sys-devel/base-gcc objc objc++ objc-gc graphite -gtk
 sys-devel/gettext -git
 # gdb tuning, we want XML
 sys-devel/gdb expat python
+# clang wants USE=clang for llvm
+sys-devel/llvm clang
 
 sys-fs/evms -gtk
 sys-fs/mtd-utils xattr
@@ -1013,9 +1015,6 @@ dev-python/imaging tk
 virtual/python-imaging tk
 =dev-lang/python-2.7* tk
 =dev-lang/python-3.3* tk
-
-# clang wants USE=clang for llvm
-sys-devel/llvm clang
 
 # on amd64, if ABI_X86=32 is set, exif must be unset
 media-libs/oyranos -exif
