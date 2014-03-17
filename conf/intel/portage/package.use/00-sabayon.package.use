@@ -416,6 +416,8 @@ media-libs/devil mng
 media-libs/evas fontconfig sse threads
 media-libs/freetype -X -auto-hinter adobe-cff
 media-libs/gd fontconfig
+# LibreOffice wants it
+media-libs/harfbuzz icu
 # In order to generate files in different formats, we need to enable imlib
 media-libs/libcaca imlib
 media-libs/libgphoto2 exif
@@ -990,9 +992,6 @@ media-libs/freetype infinality
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
-
-# LibreOffice wants it
-media-libs/harfbuzz icu
 
 # Enable USE=tk for the Python Imaging stack (and Python)
 # We will use our own crafted dev-python/imaging ebuild
