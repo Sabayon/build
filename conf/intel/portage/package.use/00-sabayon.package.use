@@ -94,6 +94,7 @@ app-mobilephone/gnokii sms -X
 app-mobilephone/kannel mysql
 
 app-office/abiword plugins
+app-office/calligra kdepim semantic-desktop
 app-office/dia gnome-print
 app-office/glabels doc
 app-office/gnucash chipcard hbci ofx quotes sqlite
@@ -902,7 +903,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
 
-app-office/calligra kdepim semantic-desktop
 www-apps/postfixadmin mysql
 app-office/kmymoney hbci ofx
 app-arch/unzip natspec
