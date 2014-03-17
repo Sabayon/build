@@ -358,6 +358,7 @@ media-libs/xine-lib aalib fbcon mng vidix dxr3 -win32codecs -gtk
 
 media-plugins/alsa-plugins libsamplerate pulseaudio
 media-plugins/audacious-plugins chardet cue gnome -gtk gtk3 icecast libsamplerate sndfile wavpack
+media-plugins/kipi-plugins calendar gpssync
 media-plugins/vdr-weatherng dxr3
 
 media-radio/tucnak2 fftw
@@ -767,7 +768,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-media-plugins/kipi-plugins calendar gpssync
 sci-libs/gdal curl geos
 dev-db/tora oracle
 media-sound/moc curl sndfile
