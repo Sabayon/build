@@ -196,6 +196,8 @@ dev-libs/beecrypt threads
 # Needed by some lisp packages
 dev-libs/boehm-gc threads
 dev-libs/boost python threads icu
+# Enable threading support in botan
+dev-libs/botan threads
 dev-libs/crypto++ sse3
 # Needed by directvnc
 dev-libs/DirectFB dynload fbcon
@@ -1057,9 +1059,6 @@ www-plugins/gnash vaapi vdpau
 # Use Gtk3 for scim and spice-gtk
 app-i18n/scim gtk3
 net-misc/spice-gtk gtk3
-
-# Enable threading support in botan
-dev-libs/botan threads
 
 # Install tty helpers (like wall)
 sys-apps/util-linux tty-helpers
