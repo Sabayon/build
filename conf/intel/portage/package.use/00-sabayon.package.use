@@ -673,6 +673,7 @@ sys-kernel/sabayon-sources symlink
 
 sys-libs/db -java
 
+virtual/mpi romio
 virtual/ooo java
 virtual/opencl video_cards_nvidia video_cards_fglrx
 
@@ -826,7 +827,6 @@ net-misc/vpnc resolvconf
 gnome-base/gnome-panel eds
 
 sys-auth/polkit -kde -gtk
-virtual/mpi romio
 sys-cluster/openmpi romio
 media-libs/libpng apng
 kde-base/kget bittorrent semantic-desktop
