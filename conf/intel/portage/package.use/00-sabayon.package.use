@@ -449,6 +449,8 @@ net-libs/wvstreams -qt3
 net-libs/libpcap -bluetooth
 
 net-mail/dbmail sqlite3
+# Provide more dovecot features
+net-mail/dovecot managesieve mbox sieve sqlite
 net-mail/notmuch mutt
 net-mail/tpop3d mbox maildir
 
@@ -718,8 +720,6 @@ app-admin/system-config-users -X
 dev-python/paste openid
 dev-python/pylons genshi jinja
 
-# Provide more dovecot features
-net-mail/dovecot managesieve mbox sieve sqlite
 # More postfix features
 mail-mta/postfix mbox sasl
 
