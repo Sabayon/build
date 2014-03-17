@@ -350,6 +350,8 @@ kde-base/kopete addbookmarks alias autoreplace connectionstatus contactnotes gad
 kde-base/krdc vnc
 kde-base/krunner xcomposite
 kde-base/kwin captury xcomposite
+# Required by plasma-workspace
+kde-base/libplasmaclock semantic-desktop
 kde-base/marble plasma
 kde-base/okular chm djvu ebook crypt
 kde-base/phonon-kde -xine
@@ -1011,9 +1013,6 @@ dev-python/imaging tk
 virtual/python-imaging tk
 =dev-lang/python-2.7* tk
 =dev-lang/python-3.3* tk
-
-# Required by plasma-workspace
-kde-base/libplasmaclock semantic-desktop
 
 # clang wants USE=clang for llvm
 sys-devel/llvm clang
