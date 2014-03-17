@@ -338,6 +338,7 @@ media-libs/devil mng
 # move x11-libs/evas media-libs/evas
 media-libs/evas fontconfig sse threads
 media-libs/freetype -X -auto-hinter adobe-cff
+media-libs/gd fontconfig
 media-libs/libgphoto2 exif
 media-libs/libggi aalib
 media-libs/libgpod ios
@@ -773,7 +774,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-media-libs/gd fontconfig
 dev-qt/qtwebkit kde icu
 www-client/uget gstreamer
 dev-libs/libf2c static-libs
