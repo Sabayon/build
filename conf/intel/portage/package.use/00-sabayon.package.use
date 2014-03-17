@@ -529,6 +529,7 @@ net-misc/nxnode prebuilt vnc
 net-misc/openssh -X
 net-misc/openssh -ldap
 net-misc/ps3mediaserver multiuser tsmuxer
+net-misc/remmina vnc vte ssh freerdp
 # Add xattr support to rsync
 net-misc/rsync xattr
 net-misc/tightvnc -java server
@@ -796,7 +797,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-net-misc/remmina vnc vte ssh freerdp
 app-misc/gpsdrive speech
 media-video/miro faac
 media-gfx/sane-frontends gimp
