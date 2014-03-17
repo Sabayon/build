@@ -139,6 +139,7 @@ dev-games/ogre cg ois
 dev-java/antlr cxx
 dev-java/bsh bsf
 dev-java/glazedlists java5
+dev-java/gnu-classpath gstreamer -qt4
 # micia: disable source inclusion in icedtea, save some space
 dev-java/icedtea -source
 dev-java/swt cairo -xulrunner
@@ -748,7 +749,6 @@ net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
-dev-java/gnu-classpath gstreamer
 # Disable nautilus integration, it gets pulled in in XFCE spin
 sys-apps/gnome-disk-utility -nautilus -avahi
 x11-misc/notification-daemon gstreamer
@@ -781,7 +781,6 @@ app-text/evince djvu dvi gnome-keyring nautilus
 dev-lang/ifc idb
 app-editors/gedit-plugins -python -terminal
 sci-chemistry/xds-bin smp
-dev-java/gnu-classpath -qt4
 app-cdr/xfburn gstreamer
 dev-qt/qt3support kde
 dev-qt/qthelp compat
