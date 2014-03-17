@@ -200,6 +200,7 @@ dev-python/pyglet -alsa
 dev-python/traitsgui wxwidgets qt4
 
 dev-qt/qt-creator autotools cmake git subversion valgrind examples
+dev-qt/qtwebkit kde icu
 
 dev-scheme/guile regex discouraged networking
 dev-scheme/racket backtrace futures jit places threads
@@ -774,7 +775,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-dev-qt/qtwebkit kde icu
 www-client/uget gstreamer
 dev-libs/libf2c static-libs
 kde-base/krdc vnc
