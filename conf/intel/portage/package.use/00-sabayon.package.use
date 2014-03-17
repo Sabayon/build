@@ -482,6 +482,7 @@ media-video/xine-ui aalib
 # we don't want it on G ISO
 media-video/dvdrip -xine subtitles fping
 
+net-analyzer/nessus-core -gtk
 # No need to have USE=X on net-snmp
 # ucd-compat required by net-misc/vmpsd-1.4
 net-analyzer/net-snmp ucd-compat -X
@@ -909,7 +910,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
 
-net-analyzer/nessus-core -gtk
 media-sound/gmusicbrowser gstreamer
 
 # Required by media-gfx/darktable
