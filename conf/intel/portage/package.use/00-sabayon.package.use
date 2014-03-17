@@ -333,6 +333,7 @@ mail-client/mutt sasl sidebar smtp
 mail-client/thunderbird lightning -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
 
 mail-filter/dovecot-antispam dspam
+mail-filter/maildrop authlib
 mail-filter/procmail mbox
 mail-filter/spamassassin-fuzzyocr gocr
 
@@ -839,7 +840,6 @@ gnome-base/gnome-panel eds
 sys-auth/polkit -kde -gtk
 media-libs/libpng apng
 
-mail-filter/maildrop authlib
 dev-python/pyudev pyqt4
 dev-libs/popt static-libs
 net-libs/glib-networking gnome
