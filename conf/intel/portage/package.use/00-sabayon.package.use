@@ -298,6 +298,8 @@ games-util/springlobby bittorrent
 gnome-base/gconf policykit
 gnome-base/gnome-applets gnome networkmanager gstreamer
 gnome-base/gvfs ios samba gnome gdu fuse archive gnome-keyring udisks
+# Needed by net-analyzer/ehterape
+gnome-base/libgnomecanvas glade
 gnome-base/librsvg gnome
 gnome-base/nautilus gnome sendto
 
@@ -977,9 +979,6 @@ media-libs/freetype infinality
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
-
-# Needed by net-analyzer/ehterape
-gnome-base/libgnomecanvas glade
 
 # Needed by directvnc
 dev-libs/DirectFB dynload fbcon
