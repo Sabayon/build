@@ -729,6 +729,9 @@ sys-fs/mtd-utils xattr
 sys-fs/ntfs3g suid ntfsprogs
 sys-fs/reiser4progs static
 sys-fs/udev extras
+# We use a builtin kernel module
+sys-fs/zfs kernel-builtin
+
 sys-apps/kmod lzma static-libs
 sys-libs/e2fsprogs-libs static-libs
 sys-fs/udev static-libs
@@ -966,9 +969,6 @@ media-libs/freetype infinality
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
-
-# We use a builtin kernel module
-sys-fs/zfs kernel-builtin
 
 # systemd support
 sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap
