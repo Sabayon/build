@@ -755,6 +755,8 @@ sys-fs/mtd-utils xattr
 sys-fs/ntfs3g suid ntfsprogs
 sys-fs/reiser4progs static
 sys-fs/udev extras
+# udisks, we want cryptsetup support
+sys-fs/udisks cryptsetup crypt
 # We use a builtin kernel module
 sys-fs/zfs kernel-builtin
 
@@ -1006,9 +1008,6 @@ dev-python/imaging tk
 virtual/python-imaging tk
 =dev-lang/python-2.7* tk
 =dev-lang/python-3.3* tk
-
-# udisks, we want cryptsetup support
-sys-fs/udisks cryptsetup crypt
 
 # These two want either one of alsa pulseaudio, etc
 app-accessibility/julius -alsa pulseaudio -oss -portaudio
