@@ -269,6 +269,8 @@ games-board/pysolfc minimal
 games-emulation/generator sdlaudio
 games-emulation/qmc2 sdlmess
 
+# Corsix USE=wxwidgets requires masked (dev) wxGTK 2.9
+games-engines/corsix-th -wxwidgets
 games-engines/stratagus mng
 
 games-fps/darkplaces textures
@@ -930,9 +932,6 @@ sys-devel/base-gcc hardened
 sys-devel/gcc hardened
 # keep suid for a while, needs devpts mounted with gid=5 otherwise
 sys-libs/glibc hardened suid nscd
-
-# Corsix USE=wxwidgets requires masked (dev) wxGTK 2.9
-games-engines/corsix-th -wxwidgets
 
 # In order to generate files in different formats, we need to enable imlib
 media-libs/libcaca imlib
