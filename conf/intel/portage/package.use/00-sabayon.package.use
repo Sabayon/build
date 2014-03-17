@@ -133,6 +133,7 @@ app-text/ghostscript-gpl -linguas_ja -linguas_ko -linguas_zh_CN -linguas_zh_TW
 # required for blender
 dev-cpp/glog gflags
 
+dev-db/freetds mssql
 dev-db/postgresql-base threads
 # soundex required by Entropy
 # secure-delete required by xulrunner
@@ -800,7 +801,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-dev-db/freetds mssql
 dev-libs/libxml2 icu
 media-video/jubler mplayer
 dev-libs/xmlsec gcrypt
