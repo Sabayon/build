@@ -541,6 +541,8 @@ net-print/hplip -acl fax hpijs parport snmp static-ppds usb
 
 net-proxy/privoxy threads
 
+net-voip/ekiga gstreamer
+
 net-wireless/bluez gstreamer obex
 net-wireless/wpa_supplicant -qt3 -qt4 wimax ap p2p eap-sim wps
 
@@ -778,7 +780,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-net-voip/ekiga gstreamer
 x11-libs/libdrm video_cards_intel video_cards_nouveau video_cards_radeon video_cards_vmware libkms
 app-text/evince djvu dvi gnome-keyring nautilus
 dev-lang/ifc idb
