@@ -186,6 +186,7 @@ dev-libs/gdl gnome
 dev-libs/gmime -mono
 dev-libs/libassuan static-libs
 dev-libs/libf2c static-libs
+dev-libs/libgcrypt static-libs
 dev-libs/libmcs -kde
 dev-libs/libxml2 icu
 dev-libs/nss utils
@@ -835,7 +836,6 @@ gnome-base/gnome-panel eds
 sys-auth/polkit -kde -gtk
 media-libs/libpng apng
 
-dev-libs/libgcrypt static-libs
 dev-libs/libgpg-error static-libs
 dev-libs/libksba static-libs
 sys-fs/evms -gtk
