@@ -171,6 +171,7 @@ dev-libs/gdl gnome
 # 2010-04-6, trying to disable USE="mono" from gmime
 dev-libs/gmime -mono
 dev-libs/libassuan static-libs
+dev-libs/libf2c static-libs
 dev-libs/libmcs -kde
 dev-libs/nss utils
 dev-libs/pth static-libs
@@ -776,7 +777,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-dev-libs/libf2c static-libs
 kde-base/krdc vnc
 net-voip/ekiga gstreamer
 x11-libs/libdrm video_cards_intel video_cards_nouveau video_cards_radeon video_cards_vmware libkms
