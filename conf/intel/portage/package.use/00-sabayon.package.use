@@ -192,6 +192,7 @@ dev-libs/libksba static-libs
 dev-libs/libmcs -kde
 dev-libs/libxml2 icu
 dev-libs/nss utils
+dev-libs/popt static-libs
 dev-libs/pth static-libs
 dev-libs/soprano clucene redland -java
 dev-libs/tinyxml stl
@@ -841,7 +842,6 @@ gnome-base/gnome-panel eds
 sys-auth/polkit -kde -gtk
 media-libs/libpng apng
 
-dev-libs/popt static-libs
 net-libs/glib-networking gnome
 
 # New splashutils wants static-libs see Gentoo bug #356231
