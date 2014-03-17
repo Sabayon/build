@@ -46,6 +46,7 @@ app-crypt/pinentry gtk qt4
 
 app-editors/bluefish gnome
 app-editors/emacs xft
+app-editors/gedit-plugins -python -terminal
 app-editors/vim cscope ruby vim-pager
 app-editors/xemacs xft
 
@@ -784,7 +785,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-app-editors/gedit-plugins -python -terminal
 sci-chemistry/xds-bin smp
 app-cdr/xfburn gstreamer
 dev-qt/qt3support kde
