@@ -576,6 +576,8 @@ net-misc/nxclient prebuilt
 net-misc/nxnode prebuilt vnc
 net-misc/openssh -X
 net-misc/openssh -ldap
+# No more spidermonkey
+net-misc/plowshare -javascript
 net-misc/ps3mediaserver multiuser tsmuxer
 net-misc/remmina vnc vte ssh freerdp
 # Add xattr support to rsync
@@ -906,8 +908,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
 
-# No more spidermonkey
-net-misc/plowshare -javascript
 media-libs/libsfml doc examples
 
 net-analyzer/nessus-core -gtk
