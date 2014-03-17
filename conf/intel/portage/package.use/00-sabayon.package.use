@@ -215,6 +215,7 @@ dev-python/epydoc -X
 dev-python/ipython -wxwidgets
 dev-python/matplotlib -wxwindows
 dev-python/pyside script
+dev-python/pyudev pyqt4
 
 # don't require media-libs/alsa-lib[alisp]
 dev-python/pyglet -alsa
@@ -840,7 +841,6 @@ gnome-base/gnome-panel eds
 sys-auth/polkit -kde -gtk
 media-libs/libpng apng
 
-dev-python/pyudev pyqt4
 dev-libs/popt static-libs
 net-libs/glib-networking gnome
 
