@@ -386,6 +386,7 @@ media-sound/audacity ladspa vamp soundtouch id3tag midi -ffmpeg
 media-sound/audacious -gtk gtk3 wma timidity lirc dbus chardet
 media-sound/banshee podcast -ipod -zeroconf mtp njb
 media-sound/cantata replaygain taglib cdparanoia
+media-sound/gpodder gstreamer
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
 media-sound/lmms fftw fluidsynth 
 media-sound/mixxx shout
@@ -791,7 +792,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-media-sound/gpodder gstreamer 
 net-proxy/tsocks tordns
 sys-kernel/dracut device-mapper dracut_modules_biosdevname dracut_modules_btrfs dracut_modules_dmraid dracut_modules_dmsquash-live dracut_modules_gensplash dracut_modules_lvm dracut_modules_mdraid dracut_modules_multipath dracut_modules_nbd dracut_modules_nfs dracut_modules_plymouth dracut_modules_syslog dracut_modules_crypt dracut_modules_crypt-gpg dracut_modules_crypt-loop dracut_modules_iscsi dracut_modules_systemd net
 games-fps/darkplaces textures
