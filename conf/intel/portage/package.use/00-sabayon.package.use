@@ -445,6 +445,8 @@ net-irc/znc -python
 net-libs/aqbanking chipcard ofx
 net-libs/c-client chappa
 net-libs/libgadu ssl threads
+# libproxy is bloatware
+net-libs/libproxy -kde -gnome python
 net-libs/libsoup gnome
 net-libs/opal sip sipim h323
 net-libs/ptlib video stun wav pipechan dns http dtmf
@@ -735,9 +737,6 @@ net-dns/bind dlz resolvconf
 net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
-
-# libproxy is bloatware
-net-libs/libproxy -kde -gnome python
 
 www-servers/cherokee admin
 net-analyzer/snort dynamicplugin 
