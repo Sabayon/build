@@ -196,6 +196,8 @@ dev-libs/gmime -mono
 dev-libs/libassuan static-libs
 dev-libs/libf2c static-libs
 dev-libs/libgcrypt static-libs
+# Required by gnome-documents 3.6
+dev-libs/libgdata gnome
 dev-libs/libgpg-error static-libs
 dev-libs/libksba static-libs
 dev-libs/libmcs -kde
@@ -949,9 +951,6 @@ sys-libs/glibc hardened suid nscd
 # add Infinality patches to freetype-2
 # See bug 3360
 media-libs/freetype infinality
-
-# Required by gnome-documents 3.6
-dev-libs/libgdata gnome
 
 # Super Google MySQL!
 dev-db/google-mysql -embedded
