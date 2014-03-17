@@ -510,9 +510,6 @@ media-tv/freevo lirc matrox
 media-tv/xawtv aalib
 media-tv/xbmc airplay bluray css goom mysql pvr rtmp upnp webserver xrandr sftp nfs
 
-# 32bit plugin is unwanted
-www-plugins/adobe-flash -32bit sse2
-
 # Disable MMX due to compile failures
 media-tv/mythtv fftw
 
@@ -819,6 +816,8 @@ www-client/rekonq semantic-desktop
 www-client/seamonkey -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO -linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
 www-client/uget gstreamer
 
+# 32bit plugin is unwanted
+www-plugins/adobe-flash -32bit sse2
 www-plugins/gnash egl openvg ffmpeg -python -cairo -sdl -kde
 
 # Our Apache defaults
