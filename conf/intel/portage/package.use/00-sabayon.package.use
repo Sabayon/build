@@ -150,7 +150,7 @@ dev-games/crystalspace mng
 dev-games/ode double-precision
 dev-games/ogre cg ois
 
-dev-java/antlr cxx
+dev-java/antlr cxx script
 dev-java/bsh bsf
 dev-java/glazedlists java5
 dev-java/gnu-classpath gstreamer -qt4
@@ -818,7 +818,6 @@ net-misc/vpnc resolvconf
 gnome-base/gnome-panel eds
 
 sys-auth/polkit -kde -gtk
-dev-java/antlr script
 app-misc/sphinx mysql
 x11-misc/shutter drawing webphoto
 dev-games/physfs hog
