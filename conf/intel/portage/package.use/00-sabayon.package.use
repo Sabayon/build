@@ -551,6 +551,7 @@ sci-geosciences/grass tcl tk fftw
 sci-geosciences/mapserver flash threads -tiff
 sci-geosciences/qgis grass
 
+sci-libs/gdal curl geos
 sci-libs/itpp fftw
 sci-libs/indilib nova
 sci-libs/plplot -wxwidgets
@@ -768,7 +769,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-sci-libs/gdal curl geos
 dev-db/tora oracle
 media-sound/moc curl sndfile
 kde-base/kdepimlibs semantic-desktop
