@@ -333,6 +333,7 @@ media-libs/evas fontconfig sse threads
 media-libs/freetype -X -auto-hinter adobe-cff
 media-libs/libgphoto2 exif
 media-libs/libggi aalib
+media-libs/libsamplerate sndfile
 media-libs/libsdl aalib
 media-libs/libsoundtouch sse2
 media-libs/libxtract fftw
@@ -758,7 +759,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-media-libs/libsamplerate sndfile
 app-benchmarks/phoronix-test-suite gd -gtk
 net-nds/openldap -minimal
 media-libs/libgpod ios
