@@ -557,6 +557,7 @@ sci-biology/transfac -emboss
 
 # temp. disable python support due to sip shit
 sci-chemistry/avogadro -python
+sci-chemistry/xds-bin smp
 
 sci-electronics/geda doc stroke
 
@@ -785,7 +786,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-sci-chemistry/xds-bin smp
 app-cdr/xfburn gstreamer
 dev-qt/qt3support kde
 dev-qt/qthelp compat
