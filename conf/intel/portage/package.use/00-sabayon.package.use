@@ -389,6 +389,8 @@ media-libs/gd fontconfig
 media-libs/libgphoto2 exif
 media-libs/libggi aalib
 media-libs/libgpod ios
+# Required by media-gfx/darktable
+media-libs/libraw demosaic
 media-libs/libsamplerate sndfile
 media-libs/libsdl aalib
 media-libs/libsfml doc examples
@@ -910,9 +912,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 >=gnome-extra/zeitgeist-0.7.1-r1 fts
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
-
-# Required by media-gfx/darktable
-media-libs/libraw demosaic
 
 # Do we really want berkdb?
 sys-apps/man-db -berkdb
