@@ -391,6 +391,7 @@ media-libs/libggi aalib
 media-libs/libgpod ios
 media-libs/libsamplerate sndfile
 media-libs/libsdl aalib
+media-libs/libsfml doc examples
 media-libs/libsoundtouch sse2
 media-libs/libxtract fftw
 media-libs/mediastreamer video
@@ -907,8 +908,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 >=gnome-extra/zeitgeist-0.7.1-r1 fts
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
-
-media-libs/libsfml doc examples
 
 net-analyzer/nessus-core -gtk
 media-sound/gmusicbrowser gstreamer
