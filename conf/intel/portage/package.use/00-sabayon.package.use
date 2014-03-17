@@ -157,6 +157,8 @@ dev-java/swt gnome
 dev-java/tomcat-servlet-api java5
 
 dev-lang/fpc source
+# icc doesn't like LINGUAS=ja on ifc
+dev-lang/ifc idb -linguas_ja
 dev-lang/lua deprecated
 dev-lang/mono moonlight
 dev-lang/ocaml tk
@@ -782,7 +784,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-dev-lang/ifc idb
 app-editors/gedit-plugins -python -terminal
 sci-chemistry/xds-bin smp
 app-cdr/xfburn gstreamer
@@ -1138,9 +1139,6 @@ media-plugins/audacious-plugins -ffmpeg
 
 # Required by terminology
 dev-libs/efl pulseaudio audio -xcb pixman X
-
-# icc doesn't like LINGUAS=ja on ifc
-dev-lang/ifc -linguas_ja
 
 # required by net-analyzer/tcpreplay-4.0.2
 sys-devel/autogen libopts
