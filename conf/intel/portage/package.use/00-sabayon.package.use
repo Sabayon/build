@@ -1,6 +1,9 @@
 ## If you dont want to organize it, put new entries in at the very end
 
 app-accessibility/dasher gnome
+# These two want either one of alsa pulseaudio, etc
+app-accessibility/julius -alsa pulseaudio -oss -portaudio
+app-accessibility/simon -alsa pulseaudio -oss -portaudio
 
 app-admin/conky audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thinkpad weather-metar weather-xoap -ipv6
 # eselect-php now contains fpm init script and apache stuff
@@ -1008,10 +1011,6 @@ dev-python/imaging tk
 virtual/python-imaging tk
 =dev-lang/python-2.7* tk
 =dev-lang/python-3.3* tk
-
-# These two want either one of alsa pulseaudio, etc
-app-accessibility/julius -alsa pulseaudio -oss -portaudio
-app-accessibility/simon -alsa pulseaudio -oss -portaudio
 
 # Required by plasma-workspace
 kde-base/libplasmaclock semantic-desktop
