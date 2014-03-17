@@ -283,6 +283,7 @@ kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
 kde-base/kdeplasma-addons desktopglobe json oauth semantic-desktop
 kde-base/klipper prison
 kde-base/kopete addbookmarks alias autoreplace connectionstatus contactnotes gadu groupwise highlight history irc jingle -kdeenablefinal netmeeting nowlistening oscar otr qq sametime skype statistics texteffect translator webpresence winpopup yahoo
+kde-base/krdc vnc
 kde-base/krunner xcomposite
 kde-base/kwin captury xcomposite
 kde-base/marble plasma
@@ -777,7 +778,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-kde-base/krdc vnc
 net-voip/ekiga gstreamer
 x11-libs/libdrm video_cards_intel video_cards_nouveau video_cards_radeon video_cards_vmware libkms
 app-text/evince djvu dvi gnome-keyring nautilus
