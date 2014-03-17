@@ -245,6 +245,8 @@ dev-python/ipython -wxwidgets
 dev-python/matplotlib -wxwindows
 # Required by dev-python/graph-tool
 dev-python/numpy lapack
+# We want sqlite3 support in pypy
+dev-python/pypy sqlite
 dev-python/pyside script
 dev-python/pyudev pyqt4
 
@@ -1100,6 +1102,3 @@ media-sound/gnome-music python_single_target_python3_3
 # required by media-gfx/gnome-photos-3.10.2
 # required by gnome-photos (argument)
 media-plugins/grilo-plugins upnp-av
-
-# We want sqlite3 support in pypy
-dev-python/pypy sqlite
