@@ -406,6 +406,8 @@ media-libs/xine-lib aalib fbcon mng vidix dxr3 -win32codecs -gtk
 
 media-plugins/alsa-plugins libsamplerate pulseaudio
 media-plugins/audacious-plugins chardet cue gnome -gtk gtk3 icecast libsamplerate sndfile wavpack
+# Enable the http plugin
+media-plugins/gst-plugins-meta mms http
 media-plugins/kipi-plugins calendar gpssync
 media-plugins/vdr-weatherng dxr3
 
@@ -897,7 +899,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
 
-media-plugins/gst-plugins-meta mms
 net-ftp/proftpd authfile openssl
 dev-lang/parrot pcre
 app-office/calligra kdepim semantic-desktop
@@ -1096,9 +1097,6 @@ net-misc/spice-gtk gtk3
 
 # Enable threading support in botan
 dev-libs/botan threads
-
-# Enable the http plugin
-media-plugins/gst-plugins-meta http
 
 # Install tty helpers (like wall)
 sys-apps/util-linux tty-helpers
