@@ -600,6 +600,7 @@ sci-geosciences/mapserver flash threads -tiff
 sci-geosciences/qgis grass
 
 sci-libs/gdal curl geos
+sci-libs/hdf5 -cxx -fortran -mpi threads szip
 sci-libs/itpp fftw
 sci-libs/indilib nova
 sci-libs/plplot -wxwidgets
@@ -824,7 +825,6 @@ net-misc/vpnc resolvconf
 gnome-base/gnome-panel eds
 
 sys-auth/polkit -kde -gtk
-sci-libs/hdf5 -cxx -fortran -mpi threads szip
 sci-libs/netcdf -fortran
 virtual/mpi romio
 sys-cluster/openmpi romio
