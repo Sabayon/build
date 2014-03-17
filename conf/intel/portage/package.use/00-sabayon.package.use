@@ -181,6 +181,7 @@ dev-libs/gmime -mono
 dev-libs/libassuan static-libs
 dev-libs/libf2c static-libs
 dev-libs/libmcs -kde
+dev-libs/libxml2 icu
 dev-libs/nss utils
 dev-libs/pth static-libs
 dev-libs/soprano clucene redland -java
@@ -801,7 +802,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-dev-libs/libxml2 icu
 media-video/jubler mplayer
 dev-libs/xmlsec gcrypt
 dev-libs/tntnet sdk
