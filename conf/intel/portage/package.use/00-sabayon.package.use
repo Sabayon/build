@@ -207,6 +207,7 @@ dev-python/traitsgui wxwidgets qt4
 
 dev-qt/qt-creator autotools cmake git subversion valgrind examples
 dev-qt/qt3support kde
+dev-qt/qthelp compat
 dev-qt/qtwebkit kde icu
 
 dev-scheme/guile regex discouraged networking
@@ -788,7 +789,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-dev-qt/qthelp compat
 app-text/texlive-core xetex
 media-sound/mp3splt-gtk gstreamer
 media-sound/gpodder gstreamer 
