@@ -460,6 +460,8 @@ net-misc/asterisk jabber gtalk
 # Preffer openssl over nss and gnutls for curl
 # moreover, nss breaks git https:// checkouts
 net-misc/curl ssl -nss -gnutls
+# Hylafax features
+net-misc/hylafax mgetty
 net-misc/minidlna netgear readynas
 net-misc/mosh ufw
 # bluetooth use flag is useless
@@ -723,9 +725,6 @@ net-dns/bind dlz resolvconf
 net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
-
-# Hylafax features
-net-misc/hylafax mgetty
 
 # temp. disable python support due to sip shit
 sci-chemistry/avogadro -python
