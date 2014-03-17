@@ -641,6 +641,7 @@ sys-block/open-iscsi -modules
 sys-boot/grub device-mapper libzfs
 
 sys-cluster/torque server
+sys-cluster/openmpi romio
 
 # Disable GTK for distcc, this is a server-side app
 # and it's better to not ship with gtk
@@ -827,7 +828,6 @@ net-misc/vpnc resolvconf
 gnome-base/gnome-panel eds
 
 sys-auth/polkit -kde -gtk
-sys-cluster/openmpi romio
 media-libs/libpng apng
 kde-base/kget bittorrent semantic-desktop
 
