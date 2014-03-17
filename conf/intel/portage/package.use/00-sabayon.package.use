@@ -55,6 +55,8 @@ app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
 # Wine, more features
 app-emulation/wine fontconfig samba udisks
 app-emulation/winetricks -gtk
+# add HVM
+app-emulation/xen-tools hvm qemu
 
 # USE flag gtk3 enabled on app-i18n/ibus makes it depend on both slots of Gtk+; it shouldn't
 # be a real problem though since everyone nowadays has normally both of them installed.
@@ -720,9 +722,6 @@ net-dns/bind dlz resolvconf
 net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
-
-# add HVM
-app-emulation/xen-tools hvm qemu
 
 # doesn't build with tiff 4.0
 sci-geosciences/mapserver -tiff
