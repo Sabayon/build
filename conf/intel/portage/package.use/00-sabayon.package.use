@@ -871,6 +871,8 @@ x11-misc/notification-daemon gstreamer
 x11-misc/obconf -lxde
 x11-misc/shutter drawing webphoto
 x11-misc/xaos aalib
+# Better support for xmobar, add xft USE flag
+x11-misc/xmobar xft
 # Disable new-login, pulls in gdm or kdm, which is bad
 x11-misc/xscreensaver -new-login
 
@@ -1034,9 +1036,6 @@ app-cdr/brasero tracker
 # required by gnome-base/gnome-3.10.1::gnome-next
 # required by gnome-base/gnome (argument)
 gnome-base/nautilus tracker
-
-# Better support for xmobar, add xft USE flag
-x11-misc/xmobar xft
 
 # VAAPI/VDPAU support
 media-libs/avidemux-core vaapi vdpau
