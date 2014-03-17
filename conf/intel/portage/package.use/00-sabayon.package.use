@@ -391,6 +391,7 @@ media-video/blinkensim aalib
 media-video/dvgrab quicktime
 virtual/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx jpeg2k
 media-video/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx
+media-video/kino gstreamer quicktime
 media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_nvidia vpx jpeg2k
 media-video/mplayer 3dnow 3dnowext aalib amr ass bl cddb cdparanoia cpudetection dvdnav -dxr3 faac rtmp ftp ladspa lirc -live md5sum mmxext mng mp2 openal pnm radio rar rtc sse sse2 ssse3 tga tivo vidix vpx x264 zoran
 # testing mplayer flags
@@ -752,7 +753,6 @@ net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
-media-video/kino gstreamer quicktime
 media-libs/swfdec gstreamer
 gnome-base/gnome-panel eds
 x11-themes/sabayon-artwork-kde ksplash
