@@ -54,6 +54,7 @@ app-emacs/auctex preview-latex
 # virt stuff
 app-emulation/e-uae capslib
 app-emulation/emul-linux-x86-soundlibs esd
+app-emulation/ganeti kvm lxc htools
 app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/qemu fdt spice -gtk virtfs xattr
 app-emulation/vice gnome
@@ -764,7 +765,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-app-emulation/ganeti kvm lxc htools
 app-i18n/skk-jisyo cdb
 net-misc/x2goserver sqlite
 media-plugins/kipi-plugins calendar gpssync
