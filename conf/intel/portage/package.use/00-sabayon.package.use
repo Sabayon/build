@@ -233,6 +233,7 @@ dev-util/codeblocks contrib
 dev-util/eclipse-sdk java6
 dev-util/glade -gnome
 dev-util/jay java
+dev-util/nvidia-cuda-sdk opencl
 
 dev-vcs/bzr bash-completion curl sftp
 dev-vcs/git curl webdav -subversion -gtk
@@ -807,7 +808,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-dev-util/nvidia-cuda-sdk opencl
 sci-chemistry/openbabel -perl -python
 media-sound/clementine lastfm ios moodbar mtp
 dev-libs/tinyxml stl
