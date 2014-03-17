@@ -694,6 +694,8 @@ sys-apps/hwdata-gentoo binary-drivers
 sys-apps/man-db -berkdb
 sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -linguas_nl -linguas_pl -linguas_ro -linguas_ru -linguas_zh_CN
 sys-apps/pciutils -zlib
+# systemd support
+sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap
 
 sys-auth/consolekit -acl
 sys-auth/pambase -consolekit -kerberos
@@ -969,9 +971,6 @@ media-libs/freetype infinality
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
-
-# systemd support
-sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap
 
 # Needed by some lisp packages
 dev-libs/boehm-gc threads
