@@ -173,6 +173,7 @@ dev-lang/ifc idb -linguas_ja
 dev-lang/lua deprecated
 dev-lang/mono moonlight
 dev-lang/ocaml tk
+dev-lang/parrot pcre
 dev-lang/php -threads apache2 bcmath calendar cgi ctype curl filter fpm ftp gd hash imap intl json mhash mysql mysqli mysqlnd odbc pcntl pcre pdo posix postgres reflection simplexml snmp soap sockets spl sqlite sqlite3 tidy tokenizer wddx xml xmlreader xmlwriter xsl zip sysvipc xslt
 dev-lang/python sqlite berkdb
 
@@ -901,7 +902,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
 
-dev-lang/parrot pcre
 app-office/calligra kdepim semantic-desktop
 www-apps/postfixadmin mysql
 app-office/kmymoney hbci ofx
