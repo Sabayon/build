@@ -406,6 +406,8 @@ media-libs/libgpod ios
 media-libs/libraw demosaic
 media-libs/libsamplerate sndfile
 media-libs/libsdl aalib
+# 32bit libs on amd64, list them here
+media-libs/libsdl2 abi_x86_32
 media-libs/libsfml doc examples
 media-libs/libsoundtouch sse2
 media-libs/libxtract fftw
@@ -962,9 +964,6 @@ media-libs/freetype infinality
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
-
-# 32bit libs on amd64, list them here
-media-libs/libsdl2 abi_x86_32
 
 # Required by dev-python/graph-tool
 dev-python/numpy lapack
