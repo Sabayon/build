@@ -501,6 +501,8 @@ net-dns/dnsmasq -dbus tftp conntrack dhcp script dhcp-tools
 net-fs/cifs-utils ads upcall
 net-fs/samba ads acl oav swat winbind
 
+net-ftp/proftpd authfile openssl
+
 net-im/bitlbee twitter
 net-im/centerim gadu
 # ejabberd, more features!
@@ -899,7 +901,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
 
-net-ftp/proftpd authfile openssl
 dev-lang/parrot pcre
 app-office/calligra kdepim semantic-desktop
 www-apps/postfixadmin mysql
