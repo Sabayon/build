@@ -398,6 +398,8 @@ media-libs/blib aalib
 media-libs/chromaprint tools
 # Needed for gnome-shell
 media-libs/clutter opengl introspection
+# Needed by freecad
+media-libs/coin doc
 media-libs/devil mng
 # move x11-libs/evas media-libs/evas
 media-libs/evas fontconfig sse threads
@@ -975,9 +977,6 @@ media-libs/freetype infinality
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
-
-# Needed by freecad
-media-libs/coin doc
 
 # Needed by net-analyzer/ehterape
 gnome-base/libgnomecanvas glade
