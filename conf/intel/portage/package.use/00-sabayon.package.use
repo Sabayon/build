@@ -156,6 +156,8 @@ dev-java/glazedlists java5
 dev-java/gnu-classpath gstreamer -qt4
 # micia: disable source inclusion in icedtea, save some space
 dev-java/icedtea -source
+# Needed for Netbeans ide
+dev-java/swing-layout source
 dev-java/swt cairo -xulrunner
 dev-java/swt -firefox
 # net-p2p/vuze requires swt[gnome] in order to work, see bug #3724
@@ -812,9 +814,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-
-# Needed for Netbeans ide
-dev-java/swing-layout source
 
 sys-auth/polkit -kde -gtk
 dev-util/geany-plugins enchant gtkspell
