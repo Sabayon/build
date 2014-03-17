@@ -662,6 +662,7 @@ sys-devel/gettext -git
 # gdb tuning, we want XML
 sys-devel/gdb expat python
 
+sys-fs/evms -gtk
 sys-fs/mtd-utils xattr
 sys-fs/ntfs3g suid ntfsprogs
 sys-fs/reiser4progs static
@@ -838,7 +839,6 @@ gnome-base/gnome-panel eds
 sys-auth/polkit -kde -gtk
 media-libs/libpng apng
 
-sys-fs/evms -gtk
 mail-filter/maildrop authlib
 dev-python/pyudev pyqt4
 dev-libs/popt static-libs
