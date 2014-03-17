@@ -88,6 +88,8 @@ app-misc/gpsdrive speech
 app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
 
 app-misc/mc -slang
+# app-misc/recoll cannot use both inotify and fam, only one of them.
+app-misc/recoll -fam inotify
 app-misc/sphinx mysql
 app-misc/tuxcmd-modules gnome unrar
 
@@ -919,9 +921,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 >=gnome-extra/zeitgeist-0.7.1-r1 fts
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
-
-# app-misc/recoll cannot use both inotify and fam, only one of them.
-app-misc/recoll -fam inotify
 
 # dev-db/mongodb should use V8. Allows to fix bug 3069
 # embedded-v8 due to incompatiblity with Chromium - Gentoo bug 471582
