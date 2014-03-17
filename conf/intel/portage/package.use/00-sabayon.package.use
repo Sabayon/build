@@ -21,6 +21,8 @@ app-arch/advancecomp mng
 app-arch/file-roller -nautilus
 app-arch/mate-file-archiver caja
 app-arch/p7zip -kde -wxwidgets
+# vzctl and other packages now require xattr support in tar
+app-arch/tar xattr
 app-arch/unzip natspec
 
 # Disable KDE on backintime
@@ -1068,9 +1070,6 @@ net-misc/spice-gtk gtk3
 # VT_WAITACTIVE
 gnome-base/gdm -plymouth
 sys-boot/plymouth -gdm
-
-# vzctl and other packages now require xattr support in tar
-app-arch/tar xattr
 
 # GNOME PackageKit support
 app-arch/file-roller packagekit
