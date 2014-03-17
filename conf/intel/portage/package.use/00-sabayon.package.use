@@ -363,6 +363,8 @@ media-gfx/kphotoalbum kipi
 media-gfx/librecad doc
 # required for some functionality of Inkscape - bug 2941
 media-gfx/pstoedit plotutils
+# Newer kernels do not provide vid4l
+media-gfx/sane-backends threads -v4l
 media-gfx/sane-frontends gimp
 media-gfx/splashutils mng fbcondecor
 media-gfx/xsane tiff
@@ -887,9 +889,6 @@ gnome-base/gnome -extras -accessibility
 gnome-base/gdm gnome-keyring smartcard accessibility fprint
 # required by gnome-extra/synapse-0.2.6, required by gnome-extra/synapse (argument)
 >=gnome-extra/zeitgeist-0.7.1-r1 fts
-
-# Newer kernels do not provide vid4l
-media-gfx/sane-backends threads -v4l
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
 
