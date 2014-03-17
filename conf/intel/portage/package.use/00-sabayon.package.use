@@ -338,6 +338,7 @@ media-gfx/kphotoalbum kipi
 media-gfx/librecad doc
 # required for some functionality of Inkscape - bug 2941
 media-gfx/pstoedit plotutils
+media-gfx/sane-frontends gimp
 media-gfx/splashutils mng fbcondecor
 media-gfx/xsane tiff
 media-gfx/zbar imagemagick v4l
@@ -799,7 +800,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-media-gfx/sane-frontends gimp
 dev-db/freetds mssql
 dev-libs/libxml2 icu
 media-video/jubler mplayer
