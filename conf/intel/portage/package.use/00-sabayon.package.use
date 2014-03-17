@@ -234,6 +234,7 @@ dev-util/anjuta subversion
 dev-util/biew mmx sse
 dev-util/codeblocks contrib
 dev-util/eclipse-sdk java6
+dev-util/geany-plugins enchant gtkspell
 dev-util/glade -gnome
 dev-util/jay java
 dev-util/nvidia-cuda-sdk opencl
@@ -816,7 +817,6 @@ net-misc/vpnc resolvconf
 gnome-base/gnome-panel eds
 
 sys-auth/polkit -kde -gtk
-dev-util/geany-plugins enchant gtkspell
 kde-base/kdesdk-misc extras
 dev-java/antlr script
 app-misc/sphinx mysql
