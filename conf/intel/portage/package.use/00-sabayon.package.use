@@ -241,6 +241,7 @@ games-emulation/qmc2 sdlmess
 
 games-engines/stratagus mng
 
+games-fps/darkplaces textures
 games-fps/freedoom doomsday
 games-fps/nexuiz dedicated maps
 games-fps/worldofpadman maps
@@ -794,7 +795,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-games-fps/darkplaces textures
 media-sound/deadbeef ape cover curl lastfm m3u hotkeys sndfile supereq wavpack
 net-misc/remmina vnc vte ssh freerdp
 app-misc/gpsdrive speech
