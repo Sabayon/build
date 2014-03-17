@@ -724,6 +724,8 @@ sys-boot/grub device-mapper libzfs
 
 sys-cluster/torque server
 sys-cluster/openmpi romio
+# We support both vanilla and vz kernels
+sys-cluster/vzctl vanilla-kernel vz-kernel ploop
 
 # Disable GTK for distcc, this is a server-side app
 # and it's better to not ship with gtk
@@ -981,9 +983,6 @@ media-libs/freetype infinality
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
-
-# We support both vanilla and vz kernels
-sys-cluster/vzctl vanilla-kernel vz-kernel ploop
 
 # USE=python wants python 3.3 now, so disable
 app-editors/gedit -python
