@@ -603,6 +603,7 @@ sci-libs/gdal curl geos
 sci-libs/hdf5 -cxx -fortran -mpi threads szip
 sci-libs/itpp fftw
 sci-libs/indilib nova
+sci-libs/netcdf -fortran hdf5
 sci-libs/plplot -wxwidgets
 # -ffmpeg because at this time, with latest libav, build fails
 sci-libs/vtk tk mpi -ffmpeg
@@ -825,7 +826,6 @@ net-misc/vpnc resolvconf
 gnome-base/gnome-panel eds
 
 sys-auth/polkit -kde -gtk
-sci-libs/netcdf -fortran
 virtual/mpi romio
 sys-cluster/openmpi romio
 media-libs/libpng apng
@@ -911,7 +911,6 @@ app-office/calligra kdepim semantic-desktop
 www-apps/postfixadmin mysql
 app-office/kmymoney hbci ofx
 app-arch/unzip natspec
-sci-libs/netcdf hdf5
 
 # No more spidermonkey
 net-misc/plowshare -javascript
