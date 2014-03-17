@@ -785,6 +785,8 @@ dev-tcltk/tclx threads
 
 x11-terms/rxvt-unicode xft
 
+# Bumblebee stuff
+x11-misc/bumblebee video_cards_nvidia video_cards_nouveau -bbswitch
 x11-misc/cairo-dock xcomposite
 x11-misc/keytouch -kde
 x11-misc/keytouch-editor -kde
@@ -915,9 +917,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 >=gnome-extra/zeitgeist-0.7.1-r1 fts
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
-
-# Bumblebee stuff
-x11-misc/bumblebee video_cards_nvidia video_cards_nouveau -bbswitch
 
 # PQStego requires this USE, see bug 2751
 >=sci-libs/gsl-1.15 cblas-external
