@@ -147,6 +147,7 @@ dev-embedded/openocd ftdi
 
 dev-games/cegui devil
 dev-games/crystalspace mng
+dev-games/ode double-precision
 dev-games/ogre cg ois
 
 dev-java/antlr cxx
@@ -806,7 +807,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-dev-games/ode double-precision
 dev-util/nvidia-cuda-sdk opencl
 sci-chemistry/openbabel -perl -python
 media-sound/clementine lastfm ios moodbar mtp
