@@ -557,6 +557,8 @@ sci-visualization/gwyddion fftw
 
 sys-auth/pambase -consolekit -kerberos
 
+# Disable nautilus integration, it gets pulled in in XFCE spin
+sys-apps/gnome-disk-utility -nautilus -avahi
 sys-apps/groff -X
 sys-apps/hwdata-gentoo binary-drivers
 sys-apps/pciutils -zlib
@@ -749,8 +751,6 @@ net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
-# Disable nautilus integration, it gets pulled in in XFCE spin
-sys-apps/gnome-disk-utility -nautilus -avahi
 x11-misc/notification-daemon gstreamer
 media-video/kino gstreamer quicktime
 media-libs/swfdec gstreamer
