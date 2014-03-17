@@ -15,6 +15,7 @@ app-admin/ulogd mysql
 app-arch/advancecomp mng
 app-arch/file-roller -nautilus
 app-arch/mate-file-archiver caja
+app-arch/p7zip -kde -wxwidgets
 
 # Disable KDE on backintime
 app-backup/backintime gnome -kde
@@ -745,7 +746,6 @@ net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
-app-arch/p7zip -kde -wxwidgets
 x11-misc/keytouch -kde
 x11-misc/keytouch-editor -kde
 dev-java/gnu-classpath gstreamer
