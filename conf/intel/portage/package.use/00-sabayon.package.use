@@ -510,6 +510,7 @@ net-im/jabberd2 mysql
 net-im/kadu xmpp
 net-im/pidgin bonjour console gadu groupwise meanwhile msn prediction qq sasl silc -zephyr
 net-im/psi jingle
+net-im/telepathy-connection-managers -icq -yahoo
 
 net-irc/inspircd mysql sqlite
 net-irc/kvirc -audiofile dcc_video
@@ -894,7 +895,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
 
-net-im/telepathy-connection-managers -icq -yahoo
 net-im/empathy gnome
 x11-misc/obconf -lxde
 media-plugins/gst-plugins-meta mms
