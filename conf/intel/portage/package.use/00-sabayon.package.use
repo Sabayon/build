@@ -186,6 +186,8 @@ dev-lang/php -threads apache2 bcmath calendar cgi ctype curl filter fpm ftp gd h
 dev-lang/python sqlite berkdb
 
 dev-libs/beecrypt threads
+# Needed by some lisp packages
+dev-libs/boehm-gc threads
 dev-libs/boost python threads icu
 dev-libs/crypto++ sse3
 dev-libs/dbus-glib bash-completion
@@ -971,9 +973,6 @@ media-libs/freetype infinality
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
-
-# Needed by some lisp packages
-dev-libs/boehm-gc threads
 
 # eselect-php now contains fpm init script and apache stuff
 app-admin/eselect-php fpm apache2
