@@ -192,6 +192,8 @@ dev-libs/beecrypt threads
 dev-libs/boehm-gc threads
 dev-libs/boost python threads icu
 dev-libs/crypto++ sse3
+# Needed by directvnc
+dev-libs/DirectFB dynload fbcon
 dev-libs/dbus-glib bash-completion
 dev-libs/folks eds vala
 dev-libs/gdl gnome
@@ -979,9 +981,6 @@ media-libs/freetype infinality
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
-
-# Needed by directvnc
-dev-libs/DirectFB dynload fbcon
 
 # We support both vanilla and vz kernels
 sys-cluster/vzctl vanilla-kernel vz-kernel ploop
