@@ -150,6 +150,7 @@ dev-games/cegui devil
 dev-games/crystalspace mng
 dev-games/ode double-precision
 dev-games/ogre cg ois
+dev-games/physfs hog
 
 dev-java/antlr cxx script
 dev-java/bsh bsf
@@ -820,7 +821,6 @@ net-misc/vpnc resolvconf
 gnome-base/gnome-panel eds
 
 sys-auth/polkit -kde -gtk
-dev-games/physfs hog
 media-libs/svgalib -kernel-helper 
 app-misc/tuxcmd-modules gnome unrar
 media-sound/cmus mikmod
