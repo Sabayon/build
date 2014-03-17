@@ -727,6 +727,8 @@ sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -
 sys-apps/pciutils -zlib
 # systemd support
 sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap
+# Install tty helpers (like wall)
+sys-apps/util-linux tty-helpers
 
 sys-auth/consolekit -acl
 sys-auth/pambase -consolekit -kerberos
@@ -1059,9 +1061,6 @@ www-plugins/gnash vaapi vdpau
 # Use Gtk3 for scim and spice-gtk
 app-i18n/scim gtk3
 net-misc/spice-gtk gtk3
-
-# Install tty helpers (like wall)
-sys-apps/util-linux tty-helpers
 
 # Disable plymouth integration in gdm 3.10
 # Disable gdm integration in plymouth
