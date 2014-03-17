@@ -512,7 +512,8 @@ sci-electronics/geda doc stroke
 sci-astronomy/celestia -kde
 
 sci-geosciences/grass tcl tk fftw
-sci-geosciences/mapserver flash threads
+# doesn't build with tiff 4.0
+sci-geosciences/mapserver flash threads -tiff
 sci-geosciences/qgis grass
 
 sci-libs/itpp fftw
@@ -722,9 +723,6 @@ net-dns/bind dlz resolvconf
 net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
-
-# doesn't build with tiff 4.0
-sci-geosciences/mapserver -tiff
 
 # Hylafax features
 net-misc/hylafax mgetty
