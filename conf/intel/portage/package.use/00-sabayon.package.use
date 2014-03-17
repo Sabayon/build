@@ -16,6 +16,7 @@ app-arch/advancecomp mng
 app-arch/file-roller -nautilus
 app-arch/mate-file-archiver caja
 app-arch/p7zip -kde -wxwidgets
+app-arch/unzip natspec
 
 # Disable KDE on backintime
 app-backup/backintime gnome -kde
@@ -904,8 +905,6 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 >=gnome-extra/zeitgeist-0.7.1-r1 fts
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
-
-app-arch/unzip natspec
 
 # No more spidermonkey
 net-misc/plowshare -javascript
