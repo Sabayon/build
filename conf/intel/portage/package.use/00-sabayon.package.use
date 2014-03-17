@@ -133,6 +133,8 @@ dev-db/postgresql-base threads
 # secure-delete required by xulrunner
 # unlock-notify required by dev-db/libzdb
 dev-db/sqlite soundex extensions unlock-notify
+# We don't have Oracle
+dev-db/tora -oracle
 
 dev-embedded/avr-libc -selinux
 dev-embedded/openocd ftdi
@@ -769,7 +771,6 @@ net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
 gnome-base/gnome-panel eds
-dev-db/tora oracle
 media-sound/moc curl sndfile
 kde-base/kdepimlibs semantic-desktop
 media-libs/gd fontconfig
@@ -924,9 +925,6 @@ media-libs/libraw demosaic
 
 # Do we really want berkdb?
 sys-apps/man-db -berkdb
-
-# We don't have Oracle
-dev-db/tora -oracle
 
 # Bumblebee stuff
 x11-misc/bumblebee video_cards_nvidia video_cards_nouveau -bbswitch
