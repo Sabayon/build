@@ -453,6 +453,10 @@ media-sound/moc curl sndfile
 media-sound/mp3splt-gtk gstreamer
 media-sound/ncmpcpp curl
 media-sound/qtractor sse
+# Enable system-wide pulseaudio, also see bug #4009
+# Disable qt4
+# 2013-07-11: gtk3 is only used to set a proper window icon...
+media-sound/pulseaudio system-wide -qt4 -gtk
 # 2.92 with USE=cdr requires =app-cdr/brasero-3.4* but
 # gnome-base/gnome-core-apps[cdr] depends on >=app-cdr/brasero-3.6.1
 media-sound/rhythmbox -cdr
@@ -958,11 +962,6 @@ media-libs/freetype infinality
 dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
-
-# Enable system-wide pulseaudio, also see bug #4009
-# Disable qt4
-# 2013-07-11: gtk3 is only used to set a proper window icon...
-media-sound/pulseaudio system-wide -qt4 -gtk
 
 # 32bit libs on amd64, list them here
 media-libs/libsdl2 abi_x86_32
