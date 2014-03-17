@@ -161,6 +161,7 @@ dev-libs/folks eds vala
 dev-libs/gdl gnome
 # 2010-04-6, trying to disable USE="mono" from gmime
 dev-libs/gmime -mono
+dev-libs/libassuan static-libs
 dev-libs/libmcs -kde
 dev-libs/nss utils
 dev-libs/pth static-libs
@@ -743,7 +744,6 @@ net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
-dev-libs/libassuan static-libs
 media-libs/ming php
 
 app-arch/p7zip -kde -wxwidgets
