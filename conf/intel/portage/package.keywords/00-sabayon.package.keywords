@@ -142,3 +142,6 @@ dev-python/tempita -~amd64 -~x86
 =media-gfx/gnome-photos-3.10* ** ~x86
 # required by gnome-maps (argument)
 =sci-geosciences/gnome-maps-3.10* ** ~x86
+
+# vlc fails configure with unstable libdvbpsi
+media-libs/libdvbpsi -~amd64 -~x86
