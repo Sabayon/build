@@ -213,3 +213,4 @@ app-admin/glance
 # It creates Multiple package instances within a single package slot
 # e.g. <dev-haskell/tls-1.2.0 required by (dev-haskell/tls-extra-0.6.6
 >dev-haskell/connection-0.1.3.1
+>dev-haskell/http-client-tls-0.2.0.0
