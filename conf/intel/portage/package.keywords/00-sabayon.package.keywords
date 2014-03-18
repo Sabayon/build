@@ -145,3 +145,6 @@ dev-python/tempita -~amd64 -~x86
 
 # vlc fails configure with unstable libdvbpsi
 media-libs/libdvbpsi -~amd64 -~x86
+
+# singular fails with unstable ntl
+dev-libs/ntl -~amd64 -~x86
