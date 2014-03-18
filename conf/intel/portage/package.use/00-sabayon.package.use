@@ -809,9 +809,9 @@ www-apps/trac mysql postgres vhosts sqlite
 # system-ffmpeg dependency pulls in ffmpeg, we use stable libav
 # which is not enough at this time, minimum req is 9.5
 www-client/chromium -system-ffmpeg
-www-client/midori sqlite
 www-client/firefox filepicker -gnome -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW mozbranding -pa_IN system-jpeg xforms
 www-client/firefox-bin linguas_be linguas_id linguas_ka linguas_ku linguas_pa_IN linguas_sq 
+www-client/midori sqlite
 www-client/rekonq semantic-desktop
 www-client/seamonkey -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO -linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
 www-client/uget gstreamer
