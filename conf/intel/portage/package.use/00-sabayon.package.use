@@ -1104,3 +1104,6 @@ media-plugins/grilo-plugins upnp-av
 
 # required by reiser4progs
 sys-libs/readline static-libs
+
+# required by seahorse
+app-crypt/gcr vala
