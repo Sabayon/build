@@ -1107,3 +1107,6 @@ sys-libs/readline static-libs
 
 # required by seahorse
 app-crypt/gcr vala
+
+# required by gitg
+dev-libs/libgit2 threads
