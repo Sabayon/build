@@ -19,5 +19,5 @@ CHROOT_PREFIX="${3}"
         /sabayon/bin/antimatter-digest
 ) | mail -a "MIME-Version: 1.0" \
     -a "Content-Type: text/html" \
-    -s "[${ARCH_NAME}] AntiMatter tracker of $(date +%Y-%m-%d)" \
+    -s "AntiMatter tracker of $(date +%Y-%m-%d) for ${ARCH_NAME}" \
     entropy-team@lists.sabayon.org
