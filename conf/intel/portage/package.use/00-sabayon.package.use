@@ -16,7 +16,8 @@ app-admin/packagekit-base pm-utils entropy -bash-completion
 app-admin/ulogd mysql
 
 app-arch/advancecomp mng
-app-arch/file-roller -nautilus
+# GNOME PackageKit support
+app-arch/file-roller -nautilus packagekit
 app-arch/mate-file-archiver caja
 app-arch/p7zip -kde -wxwidgets
 # vzctl and other packages now require xattr support in tar
@@ -1079,8 +1080,6 @@ net-misc/spice-gtk gtk3
 gnome-base/gdm -plymouth
 sys-boot/plymouth -gdm
 
-# GNOME PackageKit support
-app-arch/file-roller packagekit
 # This is disabled because the functionality conflicts with RigoDaemon
 # Maybe it's time to think about turning RigoDaemon into a PackageKit provider
 gnome-base/gnome-settings-daemon -packagekit
