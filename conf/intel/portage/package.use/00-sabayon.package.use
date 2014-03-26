@@ -8,9 +8,7 @@ app-accessibility/simon -alsa pulseaudio -oss -portaudio
 app-admin/conky audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thinkpad weather-metar weather-xoap -ipv6
 # eselect-php now contains fpm init script and apache stuff
 app-admin/eselect-php fpm apache2
-# we provide networkmanager tools for tweaking network settings,
-# moreover network-admin is broken and causes massive meltdown
-app-admin/gnome-system-tools -network nfs
+app-admin/gnome-system-tools nfs
 # PackageKit, Sabayon config
 app-admin/packagekit entropy cron pm-utils -qt4 -gtk
 # PackageKit settings
@@ -18,7 +16,8 @@ app-admin/packagekit-base pm-utils entropy -bash-completion
 app-admin/ulogd mysql
 
 app-arch/advancecomp mng
-app-arch/file-roller -nautilus
+# GNOME PackageKit support
+app-arch/file-roller -nautilus packagekit
 app-arch/mate-file-archiver caja
 app-arch/p7zip -kde -wxwidgets
 # vzctl and other packages now require xattr support in tar
@@ -39,6 +38,8 @@ app-cdr/dvd95 sse sse2
 app-cdr/k3b taglib
 app-cdr/xfburn gstreamer
 
+# required by seahorse
+app-crypt/gcr vala
 # We really wanted USE=static in order
 # to not add many pkgs on 700Mb sized ISO
 # images but it turned out to be buggy,
@@ -204,6 +205,8 @@ dev-libs/crypto++ sse3
 # Needed by directvnc
 dev-libs/DirectFB dynload fbcon
 dev-libs/dbus-glib bash-completion
+# Required by terminology
+dev-libs/efl pulseaudio audio -xcb pixman X
 dev-libs/folks eds vala
 dev-libs/gdl gnome
 # 2010-04-6, trying to disable USE="mono" from gmime
@@ -391,6 +394,8 @@ mate-extra/mate-file-manager-sendto -cdr
 media-fonts/baekmuk-fonts -X
 
 media-gfx/asymptote -latex
+# Blender uses Python 3.3
+media-gfx/blender python_single_target_python3_3
 media-gfx/exiv2 xmp
 # l10n issue is handled by entropy dep_rewrite
 media-gfx/digikam handbook semantic-desktop
@@ -1075,8 +1080,6 @@ net-misc/spice-gtk gtk3
 gnome-base/gdm -plymouth
 sys-boot/plymouth -gdm
 
-# GNOME PackageKit support
-app-arch/file-roller packagekit
 # This is disabled because the functionality conflicts with RigoDaemon
 # Maybe it's time to think about turning RigoDaemon into a PackageKit provider
 gnome-base/gnome-settings-daemon -packagekit
@@ -1086,14 +1089,8 @@ gnome-extra/gnome-color-manager packagekit
 # USE=-ffmpeg due to libav-9.10+ requirements, not yet in chroots
 media-plugins/audacious-plugins -ffmpeg
 
-# Required by terminology
-dev-libs/efl pulseaudio audio -xcb pixman X
-
 # required by net-analyzer/tcpreplay-4.0.2
 sys-devel/autogen libopts
-
-# Blender uses Python 3.3
-media-gfx/blender python_single_target_python3_3
 
 # gnome-music is Python3 only, prefer python 3.3 for now
 media-sound/gnome-music python_single_target_python3_3
@@ -1104,9 +1101,6 @@ media-plugins/grilo-plugins upnp-av
 
 # required by reiser4progs
 sys-libs/readline static-libs
-
-# required by seahorse
-app-crypt/gcr vala
 
 # required by gitg
 dev-libs/libgit2 threads
