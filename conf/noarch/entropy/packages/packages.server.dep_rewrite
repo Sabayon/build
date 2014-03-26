@@ -190,3 +190,6 @@ games-util/steam-client-meta (.*)sys-devel/gcc-(.*) \1sys-devel/base-gcc-\2
 
 # Ensure a smooth migration from libpng-1.5 to libpng-1.6, drop in future.
 # =media-libs/libpng-1.6* ++media-libs/libpng:1.5<2>
+
+# Add conflict to systemd-sysv-utils for eselect-init
+sys-apps/systemd-sysv-utils ++!app-admin/eselect-init<2>
