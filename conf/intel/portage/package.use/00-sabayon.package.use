@@ -391,6 +391,8 @@ mate-extra/mate-file-manager-sendto -cdr
 media-fonts/baekmuk-fonts -X
 
 media-gfx/asymptote -latex
+# Blender uses Python 3.3
+media-gfx/blender python_single_target_python3_3
 media-gfx/exiv2 xmp
 # l10n issue is handled by entropy dep_rewrite
 media-gfx/digikam handbook semantic-desktop
@@ -1091,9 +1093,6 @@ dev-libs/efl pulseaudio audio -xcb pixman X
 
 # required by net-analyzer/tcpreplay-4.0.2
 sys-devel/autogen libopts
-
-# Blender uses Python 3.3
-media-gfx/blender python_single_target_python3_3
 
 # gnome-music is Python3 only, prefer python 3.3 for now
 media-sound/gnome-music python_single_target_python3_3
