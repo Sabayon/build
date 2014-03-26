@@ -204,6 +204,8 @@ dev-libs/crypto++ sse3
 # Needed by directvnc
 dev-libs/DirectFB dynload fbcon
 dev-libs/dbus-glib bash-completion
+# Required by terminology
+dev-libs/efl pulseaudio audio -xcb pixman X
 dev-libs/folks eds vala
 dev-libs/gdl gnome
 # 2010-04-6, trying to disable USE="mono" from gmime
@@ -1087,9 +1089,6 @@ gnome-extra/gnome-color-manager packagekit
 
 # USE=-ffmpeg due to libav-9.10+ requirements, not yet in chroots
 media-plugins/audacious-plugins -ffmpeg
-
-# Required by terminology
-dev-libs/efl pulseaudio audio -xcb pixman X
 
 # required by net-analyzer/tcpreplay-4.0.2
 sys-devel/autogen libopts
