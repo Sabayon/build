@@ -37,6 +37,8 @@ app-cdr/dvd95 sse sse2
 app-cdr/k3b taglib
 app-cdr/xfburn gstreamer
 
+# required by seahorse
+app-crypt/gcr vala
 # We really wanted USE=static in order
 # to not add many pkgs on 700Mb sized ISO
 # images but it turned out to be buggy,
@@ -1102,9 +1104,6 @@ media-plugins/grilo-plugins upnp-av
 
 # required by reiser4progs
 sys-libs/readline static-libs
-
-# required by seahorse
-app-crypt/gcr vala
 
 # required by gitg
 dev-libs/libgit2 threads
