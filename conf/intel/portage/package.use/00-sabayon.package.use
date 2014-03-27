@@ -487,7 +487,7 @@ media-sound/banshee podcast -ipod -zeroconf mtp njb
 media-sound/cantata replaygain taglib cdparanoia
 media-sound/clementine lastfm ios moodbar mtp
 media-sound/cmus mikmod
-media-sound/deadbeef ape cover curl lastfm m3u hotkeys sndfile supereq wavpack
+media-sound/deadbeef alac ape cover curl lastfm m3u hotkeys sndfile supereq wavpack
 media-sound/gmusicbrowser gstreamer
 media-sound/gpodder gstreamer
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
