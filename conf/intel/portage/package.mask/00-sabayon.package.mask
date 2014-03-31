@@ -218,3 +218,6 @@ app-admin/glance
 # 2014-03-26 Fabui Erculiani: we now use systemd from either gentoo or
 # sabayon-distro
 sys-apps/systemd::systemd-love
+
+# 2014-03-31 Fabio Erculiani: causes build errors of reverse deps
+=dev-lang/parrot-6.2*
