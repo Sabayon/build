@@ -146,3 +146,8 @@ media-libs/libdvbpsi -~amd64 -~x86
 
 # singular fails with unstable ntl
 dev-libs/ntl -~amd64 -~x86
+
+# we want stable systemd stack
+virtual/udev -~amd64 -~x86
+sys-apps/systemd -~amd64 -~x86
+
