@@ -149,5 +149,6 @@ dev-libs/ntl -~amd64 -~x86
 
 # we want stable systemd stack
 virtual/udev -~amd64 -~x86
+# accept udev-208-r2 since it provides true multilib support
+=virtual/udev-208-r2 ~amd64
 sys-apps/systemd -~amd64 -~x86
-
