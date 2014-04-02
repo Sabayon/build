@@ -1104,3 +1104,11 @@ sys-libs/readline static-libs
 
 # required by gitg
 dev-libs/libgit2 threads
+
+# required by media-plugins/grilo-plugins-0.2.10
+# required by media-sound/gnome-music-3.10.3
+# required by gnome-music (argument)
+>=media-libs/grilo-0.2.10 playlist
+# required by media-sound/gnome-music-3.10.3
+# required by gnome-music (argument)
+>=media-plugins/grilo-plugins-0.2.10 tracker
