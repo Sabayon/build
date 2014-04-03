@@ -153,4 +153,4 @@ virtual/udev -~amd64 -~x86
 =virtual/udev-208-r2 ~amd64
 sys-apps/systemd -~amd64 -~x86
 # except systemd-208
-sys-apps/systemd-208* ~amd64 ~x86
+=sys-apps/systemd-208* ~amd64 ~x86
