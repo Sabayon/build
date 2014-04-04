@@ -193,3 +193,6 @@ games-util/steam-client-meta (.*)sys-devel/gcc-(.*) \1sys-devel/base-gcc-\2
 
 # Add conflict to systemd-sysv-utils for eselect-init
 sys-apps/systemd-sysv-utils ++!app-admin/eselect-init<2>
+
+# Replace x11-drivers/ati-drivers with ati-userspace from xvba-video
+x11-libs/xvba-video (.*)x11-drivers/ati-drivers(.*) \1x11-drivers/ati-userspace\2
