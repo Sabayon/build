@@ -154,3 +154,6 @@ virtual/udev -~amd64 -~x86
 sys-apps/systemd -~amd64 -~x86
 # except systemd-208
 =sys-apps/systemd-208* ~amd64 ~x86
+
+# Temporary keyword openssl 1.0.1g due to CVE-2014-0160
+~dev-libs/openssl-1.0.1g ~amd64 ~x86
