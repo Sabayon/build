@@ -219,3 +219,6 @@ sys-apps/systemd::gentoo
 
 # 2014-04-04 Fabio Erculiani: migrated to dev-python/pillow
 dev-python/imaging
+
+# 2014-04-15 Fabio Erculiani: no tomcat 7.0.53 yet
+~dev-java/tomcat-servlet-api-7.0.53
