@@ -33,6 +33,7 @@ media-sound/google-musicmanager		Google-TOS
 net-wireless/broadcom-sta		Broadcom
 app-emulation/virtualbox-bin		PUEL
 media-sound/google-musicmanager		google-talkplugin Apache-2.0 MIT LGPL-2.1 gSOAP BSD FDL-1.2 MPL-1.1 openssl ZLIB as-is
+media-sound/neroaac			Nero-AAC-EULA
 media-tv/livestation			Livestation-EULA
 media-video/makemkv			MakeMKV-EULA
 games-action/heretic2-demo		LOKI-EULA
@@ -47,4 +48,4 @@ www-plugins/google-talkplugin           Google-TOS
 dev-java/oracle-jdk-bin			Oracle-BCLA-JavaSE
 dev-java/oracle-jre-bin			Oracle-BCLA-JavaSE
 sys-firmware/b43-firmware		Broadcom
-net-misc/teamviewer		TeamViewer
+net-misc/teamviewer			TeamViewer
