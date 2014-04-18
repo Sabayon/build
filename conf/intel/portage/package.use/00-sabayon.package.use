@@ -59,6 +59,8 @@ app-editors/emacs xft
 # USE=python wants python 3.3 now, so disable
 app-editors/gedit -python
 app-editors/gedit-plugins -python -terminal
+# USE=spell wants Python 3.2, doesn't allow 3.3
+app-editors/retext -spell
 app-editors/vim cscope ruby vim-pager
 app-editors/xemacs xft
 
