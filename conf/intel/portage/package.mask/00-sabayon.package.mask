@@ -164,7 +164,10 @@ sys-auth/consolekit
 # 2013-08-12 Fabio Erculiani: dev-python/python-novaclient and 
 # dev-python/python-glanceclient want older prettytable and
 # matter keeps pulling it it.
->=dev-python/prettytable-0.7
+# 2013-04-18 Sławomir Nizio: bump masked version to avoid this
+# problem, even though 0.7 is the latest currently (relevant
+# mask is now: <dev-python/prettytable-0.8).
+>=dev-python/prettytable-0.8
 
 # 2013-08-12 Fabio Erculiani: dev-python/sqlalchemy-migrate-0.7
 # requires an older version of sqlalchemy (of course!)
