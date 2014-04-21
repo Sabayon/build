@@ -218,7 +218,7 @@ sys-apps/systemd::systemd-love
 sys-apps/systemd::gentoo
 
 # 2014-03-31 Fabio Erculiani: causes build errors of reverse deps
-=dev-lang/parrot-6.2*
+>=dev-lang/parrot-6.2
 
 # 2014-04-04 Fabio Erculiani: migrated to dev-python/pillow
 dev-python/imaging
