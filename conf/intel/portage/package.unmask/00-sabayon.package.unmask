@@ -277,6 +277,9 @@ dev-libs/libgcrypt:11
 >=x11-libs/pango-1.36.2-r1
 >=app-emulation/emul-linux-x86-gtklibs-20131008-r4
 =dev-libs/libxslt-1.1.28-r2
+=sys-libs/slang-2.2.4-r1
+=media-libs/giflib-4.2.3-r1
+
 
 # MATE 1.6 is like zomg want
 <app-admin/mate-system-tools-1.7::mate-overlay
