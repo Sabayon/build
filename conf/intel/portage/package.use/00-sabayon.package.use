@@ -1113,3 +1113,6 @@ dev-libs/libgit2 threads
 # required by media-sound/gnome-music-3.10.3
 # required by gnome-music (argument)
 >=media-plugins/grilo-plugins-0.2.10 tracker
+
+# required by ktnef
+app-office/akonadi-server soprano
