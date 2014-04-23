@@ -388,6 +388,7 @@ mail-mta/postfix mbox sasl
 
 # We want the MATE NetworkManager applet
 mate-base/mate-applets networkmanager
+mate-base/caja mate
 
 mate-extra/mate-file-manager-sendto -cdr
 
