@@ -26,6 +26,7 @@ app-text/pdf2djvu (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 app-text/pdf2oo (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-base\2
 app-text/pdfgrep (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 app-text/qpdfview (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
+app-text/referencer (.*)app-text/poppler(.*) app-text/poppler-glib
 app-text/texlive-core (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
 app-text/xournal app-text/poppler(\[.*\]) app-text/poppler-glib
 app-text/xpdf (.*)app-text/poppler-(.*)(\[.*\])? \1app-text/poppler-base-\2
