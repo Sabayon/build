@@ -187,6 +187,9 @@ dev-python/pycuda (.*)x11-drivers/nvidia-drivers(.*) \1x11-drivers/nvidia-usersp
 # Drop dracut dependency from plymouth, not needed atm
 sys-boot/plymouth (.*)sys-kernel/dracut(.*)
 
+# drop PyQt4 dependency from pyudev, let runtime stuff deal with it
+dev-python/pyudev (.*)dev-python/PyQt4(.*)
+
 # Steam, don't pull in gcc directly
 games-util/steam-launcher (.*)sys-devel/gcc-(.*) \1sys-devel/base-gcc-\2
 games-util/steam-client-meta (.*)sys-devel/gcc-(.*) \1sys-devel/base-gcc-\2
