@@ -1117,3 +1117,6 @@ dev-libs/libgit2 threads
 
 # required by ktnef
 app-office/akonadi-server soprano
+
+# required by libteam
+dev-libs/libnl utils
