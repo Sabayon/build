@@ -279,6 +279,22 @@ media-gfx/yafaray:0
 #  * >=upower-0.99
 =app-misc/tracker-1.0*
 
+# required by gnome-base/nautilus-3.12.0::sabayon-distro[tracker]
+# required by nautilus (argument)
+# /usr/portage/profiles/package.mask:
+# Gilles Dartiguelongue <eva@gentoo.org> (27 Apr 2014)
+# Gnome 3.12 mask. Also requires:
+#  * >=upower-0.99
+=gnome-extra/nautilus-tracker-tags-1.0*
+# required by net-misc/gnome-online-miners-3.12.0
+# required by gnome-extra/gnome-documents-3.12.0
+# required by gnome-documents (argument)
+# /usr/portage/profiles/package.mask:
+# Gilles Dartiguelongue <eva@gentoo.org> (27 Apr 2014)
+# Gnome 3.12 mask. Also requires:
+#  * >=upower-0.99
+=net-libs/libgfbgraph-0.2*
+
 # True multilib aware openal, want!
 =media-libs/openal-1.15.1-r1
 
