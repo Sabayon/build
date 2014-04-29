@@ -81,7 +81,7 @@ media-gfx/yafaray:0
 =media-video/libav-0.8.9-r1
 =media-video/libav-9.10*
 
-# GNOME 3.10 related unmasks
+# GNOME 3.10/3.12 related unmasks
 # required by gnome-base/gnome-settings-daemon-3.10.1::gnome-next
 # required by gnome-base/gnome-core-apps-3.10.1::gnome-next
 # required by gnome-base/gnome-3.10.1::gnome-next
@@ -251,6 +251,33 @@ media-gfx/yafaray:0
 >=x11-themes/gnome-icon-theme-symbolic-3.10
 >=x11-themes/gnome-themes-standard-3.10
 >=x11-wm/mutter-3.10
+
+# required by app-misc/tracker-0.16.4[iso]
+# required by gnome-base/nautilus-3.12.0::sabayon-distro
+# required by app-text/evince-3.12.1[nautilus]
+# required by gnome-extra/gnome-documents-3.12.0
+# required by gnome-documents (argument)
+# /usr/portage/profiles/package.mask:
+# Gilles Dartiguelongue <eva@gentoo.org> (27 Apr 2014)
+# Gnome 3.12 mask. Also requires:
+#  * >=upower-0.99
+=sys-libs/libosinfo-0.2*
+# required by app-misc/tracker-1.0.0
+# required by gnome-extra/gnome-documents-3.12.0
+# required by gnome-documents (argument)
+# /usr/portage/profiles/package.mask:
+# Gilles Dartiguelongue <eva@gentoo.org> (27 Apr 2014)
+# Gnome 3.12 mask. Also requires:
+#  * >=upower-0.99
+=media-libs/libmediaart-0.4*
+# required by net-misc/gnome-online-miners-3.10.3
+# required by gnome-extra/gnome-documents-3.12.0
+# required by gnome-documents (argument)
+# /usr/portage/profiles/package.mask:
+# Gilles Dartiguelongue <eva@gentoo.org> (27 Apr 2014)
+# Gnome 3.12 mask. Also requires:
+#  * >=upower-0.99
+=app-misc/tracker-1.0*
 
 # True multilib aware openal, want!
 =media-libs/openal-1.15.1-r1
