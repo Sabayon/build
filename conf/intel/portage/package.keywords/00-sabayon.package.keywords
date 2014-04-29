@@ -164,5 +164,10 @@ sys-apps/systemd -~amd64 -~x86
 # required by x11-wm/mutter-3.12.1
 # required by gnome-base/gnome-shell-3.12.1
 # required by gnome-shell (argument)
-=sys-power/upower-0.99.0 ** ~amd64 ~x86
-=sys-power/upower-0.100.0 ** ~amd64 ~x86
+=sys-power/upower-0.99* ** ~amd64 ~x86
+=sys-power/upower-0.100* ** ~amd64 ~x86
+
+# required by net-misc/gnome-online-miners-3.12.0
+# required by gnome-extra/gnome-documents-3.12.0
+# required by gnome-documents (argument)
+=net-libs/libgfbgraph-0.2* ** ~amd64 ~x86
