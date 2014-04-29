@@ -1120,3 +1120,6 @@ app-office/akonadi-server soprano
 
 # required by libteam
 dev-libs/libnl utils
+
+# Prefer gtk for media-libs/libmediaart
+media-libs/libmediaart gtk -qt4 -qt5
