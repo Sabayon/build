@@ -1096,8 +1096,9 @@ sys-devel/autogen libopts
 
 # gnome-music is Python3 only, prefer python 3.3 for now
 media-sound/gnome-music python_single_target_python3_3
-# same for gnome-sudoku
+# same for gnome-sudoku and others
 games-puzzle/gnome-sudoku python_single_target_python3_3
+media-gfx/eog-plugins python_single_target_python3_3
 
 # required by media-gfx/gnome-photos-3.10.2
 # required by gnome-photos (argument)
