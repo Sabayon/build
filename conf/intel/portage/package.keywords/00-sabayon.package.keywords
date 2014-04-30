@@ -128,7 +128,7 @@ dev-libs/libgcrypt -~amd64 -~x86
 # Force stable, due to Gentoo bug #495236
 dev-python/tempita -~amd64 -~x86
 
-# GNOME 3.10 crap for x86
+# GNOME 3.10/3.12 crap for x86
 # required by =gnome-base/gnome-3.10* (argument)
 =gnome-base/gnome-3.10* ** ~x86
 =gnome-extra/gnome-documents-3.10* ** ~x86
@@ -143,6 +143,8 @@ dev-python/tempita -~amd64 -~x86
 =media-gfx/gnome-photos-3.10* ** ~x86
 # required by gnome-maps (argument)
 =sci-geosciences/gnome-maps-3.10* ** ~x86
+# required by gnome-photos (argument)
+=sci-geosciences/gnome-photos-3.12* ** ~x86
 
 # vlc fails configure with unstable libdvbpsi
 media-libs/libdvbpsi -~amd64 -~x86
