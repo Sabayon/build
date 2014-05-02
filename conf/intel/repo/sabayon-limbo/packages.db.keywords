@@ -1,2 +1,5 @@
 sys-apps/portage ~x86 ~amd64
 dev-lang/python:3.3 ~x86 ~amd64
+
+# GNOME 3.12 mask
+>=sys-power/upower-0.99.0 ~x86 ~amd64
