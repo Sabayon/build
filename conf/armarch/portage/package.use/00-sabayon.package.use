@@ -104,6 +104,7 @@ gnome-base/gvfs gdu
 gnome-base/gnome-settings-daemon packagekit policykit
 gnome-base/gconf policykit
 net-im/empathy gnome-online-accounts
+net-im/mcabber otr
 mail-client/evolution networkmanager
 x11-libs/gtk+ X
 gnome-base/gnome-menus python
