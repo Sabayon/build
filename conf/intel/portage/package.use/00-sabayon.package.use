@@ -589,6 +589,7 @@ net-im/kadu xmpp
 net-im/pidgin bonjour console gadu groupwise meanwhile msn prediction qq sasl silc -zephyr
 net-im/psi jingle
 net-im/telepathy-connection-managers -icq -yahoo
+net-im/mcabber otr
 
 net-irc/inspircd mysql sqlite
 net-irc/kvirc -audiofile dcc_video
