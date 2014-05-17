@@ -9,7 +9,7 @@
 # See examples below
 
 # EXAMPLES:
-app-admin/anaconda x11-libs/libXmu:0 x11-libs/gtk+:2 x11-libs/gtk+:3 x11-libs/gdk-pixbuf:2 x11-libs/libXrender:0 x11-libs/pixman:0 x11-libs/pango:0 media-libs/mesa:0
+app-admin/anaconda x11-libs/libXmu:0 x11-libs/gtk+:2 x11-libs/gtk+:3 x11-libs/gdk-pixbuf:2 x11-libs/libXrender:0 x11-libs/pixman:0 x11-libs/pango:0 media-libs/mesa:0 sys-libs/libselinux:0 sys-process/audit:0
 
 # it provides its own libwine.so.1
 net-misc/teamviewer app-emulation/wine:0
