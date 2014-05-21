@@ -1133,3 +1133,8 @@ media-libs/libmediaart gtk -qt4 -qt5
 # required by kde-base/kde-meta-4.13.1
 # required by kde-meta (argument)
 >=dev-qt/qt-mobility-1.2.2_p20130703 multimedia
+
+# required by kde-base/nepomuk-4.13.1
+# required by media-video/bangarang-2.1-r2
+# required by bangarang (argument)
+>=kde-base/kdelibs-4.13.1 nepomuk
