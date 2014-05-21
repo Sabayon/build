@@ -1127,3 +1127,9 @@ dev-libs/libnl utils
 
 # Prefer gtk for media-libs/libmediaart
 media-libs/libmediaart gtk -qt4 -qt5
+
+# required by kde-base/artikulate-4.13.1[-gstreamer]
+# required by kde-base/kdeedu-meta-4.13.1
+# required by kde-base/kde-meta-4.13.1
+# required by kde-meta (argument)
+>=dev-qt/qt-mobility-1.2.2_p20130703 multimedia
