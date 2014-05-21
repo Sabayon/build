@@ -141,7 +141,8 @@ media-gfx/yafaray:0
 >=app-text/yelp-tools-3.12.1
 >=dev-cpp/glibmm-2.40.0
 >=dev-cpp/gtkmm-3.12.0
->=dev-libs/atk-2.12.0
+# don't want -r1 because of emul-linux-x86 crap
+=dev-libs/atk-2.12.0
 >=dev-libs/folks-0.9.6-r1
 >=dev-libs/gdl-3.12.0
 >=dev-libs/gjs-1.40.1
