@@ -228,3 +228,6 @@ dev-python/imaging
 
 # 2014-04-15 Fabio Erculiani: unsatisfied reverse deps
 >=dev-haskell/tls-1.2.2
+
+# 2014-05-26 Fabio Erculiani: we are still using cpufrequtils
+sys-power/cpupower
