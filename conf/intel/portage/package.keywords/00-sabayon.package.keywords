@@ -172,3 +172,7 @@ sys-apps/systemd -~amd64 -~x86
 # required by gnome-extra/gnome-documents-3.12.0
 # required by gnome-documents (argument)
 =net-libs/libgfbgraph-0.2* ** ~amd64 ~x86
+
+# keep xdebug-client to stable, since devs tend to update
+# xdebug and xdebug-client separately
+dev-php/xdebug-client -~amd64 -~x86
