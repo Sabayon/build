@@ -19,7 +19,7 @@ games-fps/quake3-data			Q3AEULA
 games-fps/quake3-demo			Q3AEULA
 games-fps/quake4-demo			QUAKE4
 games-fps/enemy-territory		RTCW-ETEULA
-games-fps/urbanterror			Q3AEULA
+games-fps/urbanterror			Q3AEULA Q3AEULA-20000111
 games-fps/ut2004			ut2003
 games-fps/ut2004-data			ut2003
 games-server/ut2004-ded			ut2003
