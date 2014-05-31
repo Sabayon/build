@@ -181,3 +181,6 @@ dev-php/xdebug-client -~amd64 -~x86
 media-libs/freetype -~amd64 -~x86
 # but allow 2.5.0* which is fine
 =media-libs/freetype-2.5.0* ~amd64 ~x86 amd64 x86
+
+# Allow systemd and upower-0.99 friendly version
+=xfce-extra/xfce4-power-manager-1.2.0_p20140527 ~amd64 ~x86 amd64 x86
