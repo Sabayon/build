@@ -194,11 +194,11 @@ dev-python/pyudev (.*)dev-python/PyQt4(.*)
 games-util/steam-launcher (.*)sys-devel/gcc-(.*) \1sys-devel/base-gcc-\2
 games-util/steam-client-meta (.*)sys-devel/gcc-(.*) \1sys-devel/base-gcc-\2
 
-# Ensure a smooth migration from libpng-1.5 to libpng-1.6, drop in future.
-# =media-libs/libpng-1.6* ++media-libs/libpng:1.5<2>
-
 # Add conflict to systemd-sysv-utils for eselect-init
 sys-apps/systemd-sysv-utils ++!app-admin/eselect-init<2>
 
 # Replace x11-drivers/ati-drivers with ati-userspace from xvba-video
 x11-libs/xvba-video (.*)x11-drivers/ati-drivers(.*) \1x11-drivers/ati-userspace\2
+
+# Ensure a smooth migration from libgcrypt-1.5 to 1.6
+=dev-libs/libgcrypt-1.6* ++dev-libs/libgcrypt:11<2>
