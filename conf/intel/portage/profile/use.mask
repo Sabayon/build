@@ -12,3 +12,6 @@
 
 # packagekit is ready for primetime in Sabayon
 -packagekit
+
+# We want true multilib abi
+-abi_x86_32

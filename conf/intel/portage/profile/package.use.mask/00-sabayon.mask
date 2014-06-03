@@ -14,9 +14,3 @@ sys-fs/udisks -systemd
 
 # We use a builtin module for sys-fs/zfs
 sys-fs/zfs -kernel-builtin
-
-# Unmask ABI_X86=32 for openssl, drop this
-# once the use.stable.mask is removed
-dev-libs/openssl -abi_x86_32
-# same thing for libpng
-media-libs/libpng -abi_x86_32
