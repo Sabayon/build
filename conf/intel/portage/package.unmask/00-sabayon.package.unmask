@@ -309,9 +309,6 @@ media-gfx/yafaray:0
 # True multilib aware openal, want!
 =media-libs/openal-1.15.1-r1
 
-# Mesa 10 is still masked
-=media-libs/mesa-10*
-
 # Michał Górny <mgorny@gentoo.org> (28 Feb 2014)
 # New multilib conversions for testing, grouped with corresponding
 # emul-linux bumps. Please unmask in order, after getting ACK from
@@ -333,7 +330,10 @@ dev-libs/libgcrypt:11
 =dev-libs/libxslt-1.1.28-r2
 =sys-libs/slang-2.2.4-r1
 =media-libs/giflib-4.2.3-r1
-
+=media-libs/libart_lgpl-2.3.21-r2
+=net-libs/libtirpc-0.2.4-r2
+=sys-libs/cracklib-2.9.1-r1
+=sys-libs/pam-1.1.8-r2
 
 # MATE 1.8 is like zomg want
 <app-admin/mate-system-tools-1.9::mate-overlay
