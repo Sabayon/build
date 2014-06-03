@@ -565,8 +565,9 @@ net-dialup/ppp atm dhcp radius -gtk
 net-dialup/freeradius threads
 net-dialup/slmodem usb
 
-net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm -gtk python autoipd -qt4
+net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm -gtk python autoipd -qt4 introspection
 net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat
+net-dns/avahi-gtk introspection
 net-dns/dnsmasq -dbus tftp conntrack dhcp script dhcp-tools
 # We must choose between mysql and postgres
 net-dns/mydns mysql
