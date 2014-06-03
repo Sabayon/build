@@ -11,6 +11,8 @@ sys-devel/make -~amd64 -~x86
 sys-kernel/linux-headers -~amd64 -~x86
 sys-libs/libselinux -~amd64 -~x86
 net-libs/gnutls -~amd64 -~x86
+# Accept gnutls-3.3 now
+=net-libs/gnutls-3.3* ~amd64 ~x86 amd64 x86
 dev-lang/tcl -~amd64 -~x86
 dev-lang/tk -~amd64 -~x86
 dev-lang/ghc -~amd64 -~x86
@@ -159,8 +161,8 @@ sys-apps/systemd -~amd64 -~x86
 # except systemd-208
 =sys-apps/systemd-208* ~amd64 ~x86
 
-# Temporary keyword openssl 1.0.1g due to CVE-2014-0160
-~dev-libs/openssl-1.0.1g ~amd64 ~x86
+# Allow any openssl 0.9.8y revision as well
+~dev-libs/openssl-0.9.8y ~amd64 ~x86
 
 # required by x11-wm/mutter-3.12.1
 # required by gnome-base/gnome-shell-3.12.1
