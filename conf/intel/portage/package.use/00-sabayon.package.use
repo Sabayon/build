@@ -1146,3 +1146,6 @@ media-libs/libmediaart gtk -qt4 -qt5
 # prefer openssl instead of gnutls
 # because lib32 true multilib support in cups is broken
 net-print/cups -gnutls
+
+# commoncpp2 does not build with latest gnutls
+dev-cpp/commoncpp2 -gnutls ssl
