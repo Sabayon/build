@@ -570,6 +570,7 @@ net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat
 net-dns/avahi-gtk introspection
 net-dns/avahi-gtk3 introspection
 net-dns/avahi-mono introspection
+net-dns/avahi-qt introspection
 net-dns/dnsmasq -dbus tftp conntrack dhcp script dhcp-tools
 # We must choose between mysql and postgres
 net-dns/mydns mysql
