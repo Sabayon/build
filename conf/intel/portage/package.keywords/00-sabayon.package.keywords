@@ -163,6 +163,9 @@ sys-apps/systemd -~amd64 -~x86
 
 # Allow any openssl 0.9.8y revision as well
 ~dev-libs/openssl-0.9.8y ~amd64 ~x86
+# Allow any openssl 1.0.1 as well, this includes
+# true multilib aware versions, only needed for amd64
+=dev-libs/openssl-1.0.1* ~amd64
 
 # required by x11-wm/mutter-3.12.1
 # required by gnome-base/gnome-shell-3.12.1
