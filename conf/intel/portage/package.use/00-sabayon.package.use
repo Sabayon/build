@@ -1149,3 +1149,6 @@ net-print/cups -gnutls
 
 # commoncpp2 does not build with latest gnutls
 dev-cpp/commoncpp2 -gnutls ssl
+
+# Bug 4726, add UVM support
+x11-drivers/nvidia-userspace uvm
