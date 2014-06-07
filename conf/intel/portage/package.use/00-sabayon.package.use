@@ -932,9 +932,6 @@ dev-python/PyQt4 webkit sql assistant declarative examples script help
 sys-devel/libperl ithreads
 dev-lang/perl ithreads
 
-# vmware-tools defaults
-# app-emulation/vmware-tools vmware_guest_freebsd vmware_guest_linux vmware_guest_netware vmware_guest_solaris vmware_guest_winPre2k vmware_guest_windows
-
 # For safety (no particular reason, but grub requires ncurses) 
 # we also provide libncurses.a
 sys-libs/ncurses static-libs
@@ -1152,3 +1149,6 @@ dev-cpp/commoncpp2 -gnutls ssl
 
 # Bug 4726, add UVM support
 x11-drivers/nvidia-userspace uvm
+
+# Use in-kernel modules
+app-emulation/vmware-modules -vmci -vsock
