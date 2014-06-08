@@ -1152,3 +1152,6 @@ x11-drivers/nvidia-userspace uvm
 
 # Use in-kernel modules
 app-emulation/vmware-modules -vmci -vsock
+
+# No modules, thanks. We're bleeding.
+net-firewall/ipset -modules
