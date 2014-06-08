@@ -394,3 +394,6 @@ x11-apps/fusion-icon::mate-overlay
 <x11-themes/mate-themes-1.9::mate-overlay
 <x11-wm/marco-1.9::mate-overlay
 <x11-wm/mate-window-manager-1.9::mate-overlay
+
+# We want LXC 1.0.x
+=app-emulation/lxc-1.0*
