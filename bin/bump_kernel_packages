@@ -179,6 +179,7 @@ if __name__ == "__main__":
 
     dirs.append(portage_tmpdir)
     os.environ["PORTAGE_TMPDIR"] = portage_tmpdir
+    cmd_prefix = "test -e ~/.bashrc && source ~/.bashrc;"
 
     if normal_atoms and not nsargs.only_injected:
         args = ["emerge", "-v", "--keep-going"]
@@ -186,7 +187,7 @@ if __name__ == "__main__":
             args.append("-a")
         args += [x for x in normal_atoms]
         # emerge is a shell function in bashrc
-        rc = subprocess.call(" ".join(args), shell=True)
+        rc = subprocess.call(cmd_prefix + " ".join(args), shell=True)
         if rc != 0 and not nsargs.canfail:
             raise SystemExit(rc)
         subprocess.call(["/usr/sbin/etc-update"])
@@ -197,7 +198,7 @@ if __name__ == "__main__":
 
         args += normal_atoms
         # eit is a shell function in bashrc
-        rc = subprocess.call(" ".join(args), shell=True)
+        rc = subprocess.call(cmd_prefix + " ".join(args), shell=True)
         if rc != 0:
             raise SystemExit(rc)
 
@@ -212,7 +213,7 @@ if __name__ == "__main__":
             args.append("-a")
         args += [x for x in injected_atoms]
         # emerge is a shell function in .bashrc
-        rc = subprocess.call(" ".join(args), shell=True)
+        rc = subprocess.call(cmd_prefix + " ".join(args), shell=True)
         if rc != 0 and not nsargs.canfail:
             raise SystemExit(rc)
 
@@ -230,7 +231,7 @@ if __name__ == "__main__":
             args = ["eit", "inject", "--to", nsargs.build_repo]
             args += tbz2s
             # eit is a shell function in bashrc
-            rc = subprocess.call(" ".join(args), shell=True)
+            rc = subprocess.call(cmd_prefix + " ".join(args), shell=True)
             if rc != 0:
                 raise SystemExit(rc)
 
