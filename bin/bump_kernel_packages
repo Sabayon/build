@@ -64,6 +64,10 @@ if __name__ == "__main__":
         "--non-interactive", action="store_true", default=False,
         help="if set, the script will run in non-interactive mode")
 
+    parser.add_argument(
+        "--disable-shell-wrap", action="store_true", default=False,
+        help="if set, the script will not source .bashrc")
+
     nsargs = parser.parse_args(sys.argv[1:])
 
     known_multiple_injected_versions = set([
@@ -179,7 +183,9 @@ if __name__ == "__main__":
 
     dirs.append(portage_tmpdir)
     os.environ["PORTAGE_TMPDIR"] = portage_tmpdir
-    cmd_prefix = "test -e ~/.bashrc && source ~/.bashrc;"
+    cmd_prefix = ""
+    if not nsargs.disable_shell_wrap:
+        cmd_prefix = "test -e ~/.bashrc && source ~/.bashrc;"
 
     if normal_atoms and not nsargs.only_injected:
         args = ["emerge", "-v", "--keep-going"]
