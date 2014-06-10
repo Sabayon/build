@@ -66,6 +66,11 @@ if __name__ == "__main__":
 
     nsargs = parser.parse_args(sys.argv[1:])
 
+    known_multiple_injected_versions = set([
+            "x11-drivers/nvidia-drivers:0",
+            "x11-drivers/ati-drivers:0",
+        ])
+
     pkgs_map = {}
     try:
 
@@ -101,7 +106,10 @@ if __name__ == "__main__":
                     pkg_id, repository_id = other_candidate
                     repo = srv.open_repository(repository_id)
                     if repo.isInjected(pkg_id):
-                        injected_pkgs.append(other_candidate)
+                        # filter out packages that we know we don't handle multiple
+                        # versions of them.
+                        if key_slot in known_multiple_injected_versions:
+                            injected_pkgs.append(other_candidate)
 
         normal_atoms = []
         injected_atoms = []
