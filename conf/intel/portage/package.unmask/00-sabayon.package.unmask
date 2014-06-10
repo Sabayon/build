@@ -335,6 +335,7 @@ dev-libs/libgcrypt:11
 =sys-libs/cracklib-2.9.1-r1
 =sys-libs/pam-1.1.8-r2
 =sys-devel/flex-2.5.39-r1
+=net-libs/neon-0.30.0-r1
 
 # MATE 1.8 is like zomg want
 <app-admin/mate-system-tools-1.9::mate-overlay
