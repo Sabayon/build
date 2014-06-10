@@ -185,7 +185,8 @@ if __name__ == "__main__":
         if not nsargs.non_interactive:
             args.append("-a")
         args += [x for x in normal_atoms]
-        rc = subprocess.call(args)
+        # emerge is a shell function in bashrc
+        rc = subprocess.call(" ".join(args), shell=True)
         if rc != 0 and not nsargs.canfail:
             raise SystemExit(rc)
         subprocess.call(["/usr/sbin/etc-update"])
@@ -195,7 +196,8 @@ if __name__ == "__main__":
             args.append("--quick")
 
         args += normal_atoms
-        rc = subprocess.call(args)
+        # eit is a shell function in bashrc
+        rc = subprocess.call(" ".join(args), shell=True)
         if rc != 0:
             raise SystemExit(rc)
 
@@ -209,7 +211,8 @@ if __name__ == "__main__":
         if not nsargs.non_interactive:
             args.append("-a")
         args += [x for x in injected_atoms]
-        rc = subprocess.call(args)
+        # emerge is a shell function in .bashrc
+        rc = subprocess.call(" ".join(args), shell=True)
         if rc != 0 and not nsargs.canfail:
             raise SystemExit(rc)
 
@@ -226,7 +229,8 @@ if __name__ == "__main__":
         if tbz2s:
             args = ["eit", "inject", "--to", nsargs.build_repo]
             args += tbz2s
-            rc = subprocess.call(args)
+            # eit is a shell function in bashrc
+            rc = subprocess.call(" ".join(args), shell=True)
             if rc != 0:
                 raise SystemExit(rc)
 
