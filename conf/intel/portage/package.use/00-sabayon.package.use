@@ -1158,3 +1158,7 @@ net-firewall/ipset -modules
 
 # Add more docs to lxc
 app-emulation/lxc doc
+
+# Anaconda related USE deps
+dev-libs/libreport -gtk
+app-admin/anaconda -gtk -gui
