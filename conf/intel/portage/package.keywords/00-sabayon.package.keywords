@@ -162,7 +162,7 @@ sys-apps/systemd -~amd64 -~x86
 =sys-apps/systemd-208* ~amd64 ~x86
 
 # Allow any openssl 0.9.8y revision as well
-~dev-libs/openssl-0.9.8y ~amd64 ~x86
+=dev-libs/openssl-0.9.8* ~amd64 ~x86
 # Allow any openssl 1.0.1 as well, this includes
 # true multilib aware versions, only needed for amd64
 =dev-libs/openssl-1.0.1* ~amd64
