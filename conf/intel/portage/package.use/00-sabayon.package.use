@@ -1162,3 +1162,9 @@ app-emulation/lxc doc
 # Anaconda related USE deps
 dev-libs/libreport -gtk
 app-admin/anaconda -gtk -gui
+
+# required by dev-ruby/metasploit_data_models-0.17.2[ruby_targets_ruby19]
+# required by net-analyzer/metasploit-4.9.3[ruby_targets_ruby19]
+# required by metasploit (argument)
+dev-ruby/activerecord postgres
+
