@@ -395,8 +395,8 @@ mate-extra/mate-file-manager-sendto -cdr
 media-fonts/baekmuk-fonts -X
 
 media-gfx/asymptote -latex
-# Blender uses Python 3.3
-media-gfx/blender python_single_target_python3_3
+# Blender uses Python 3
+media-gfx/blender python_single_target_python3_4
 media-gfx/exiv2 xmp
 # l10n issue is handled by entropy dep_rewrite
 media-gfx/digikam handbook semantic-desktop
