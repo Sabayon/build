@@ -1036,8 +1036,7 @@ dev-libs/lzo static-libs
 dev-python/imaging tk
 dev-python/pillow tk
 virtual/python-imaging tk
-=dev-lang/python-2.7* tk
-=dev-lang/python-3.3* tk
+dev-lang/python tk
 
 # This is while we wait for full true multilib support on libav
 # Please drop this as soon as the corresponding packages are fixed
