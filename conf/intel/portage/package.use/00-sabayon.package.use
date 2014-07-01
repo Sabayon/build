@@ -396,7 +396,7 @@ media-fonts/baekmuk-fonts -X
 
 media-gfx/asymptote -latex
 # Blender uses Python 3
-media-gfx/blender python_single_target_python3_4
+media-gfx/blender python_single_target_python3_4 python_targets_python3_4
 media-gfx/exiv2 xmp
 # l10n issue is handled by entropy dep_rewrite
 media-gfx/digikam handbook semantic-desktop
