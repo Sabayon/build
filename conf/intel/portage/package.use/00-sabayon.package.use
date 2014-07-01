@@ -848,7 +848,7 @@ x11-base/xorg-x11 intel
 x11-drivers/xf86-video-intel sna uxa
 
 x11-drivers/ati-drivers distribution -qt4 disable-watermark
-x11-drivers/nvidia-drivers distribution
+x11-drivers/nvidia-drivers distribution uvm
 x11-drivers/nvidia-drivers -gtk
 # Disable USE=multilib, it's way too much space on amd64
 # see Sept. 6 2012 discussion on staff ML
@@ -1167,4 +1167,10 @@ app-admin/anaconda -gtk -gui
 # required by net-analyzer/metasploit-4.9.3[ruby_targets_ruby19]
 # required by metasploit (argument)
 dev-ruby/activerecord postgres
+
+# Blender Python 3.4 deps
+dev-python/setuptools python_targets_python3_4
+dev-python/requests python_targets_python3_4
+dev-python/numpy python_targets_python3_4
+dev-python/chardet python_targets_python3_4
 
