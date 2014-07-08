@@ -185,7 +185,7 @@ dev-java/swt -firefox
 dev-java/swt gnome
 dev-java/tomcat-servlet-api java5
 
-dev-lang/fpc source
+dev-lang/fpc source ide
 # icc doesn't like LINGUAS=ja on ifc
 dev-lang/ifc idb -linguas_ja
 dev-lang/lua deprecated
