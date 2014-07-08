@@ -132,9 +132,6 @@ media-sound/paprefs
 # 2011-08-17 Fabio Erculiani: Conflicts with x11-terms/terminal
 gnustep-apps/terminal
 
-# 2012-02-15 Joost Ruis: Only use pymol from our overlay since it has depends on python-tk  
-sci-chemistry/pymol::gentoo
-
 # 2012-12-14 Fabio Erculiani: it is causing annoying sh errors on chroots
 >=app-shells/autojump-21.1.0
 
