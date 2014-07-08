@@ -194,3 +194,6 @@ media-libs/freetype -~amd64 -~x86
 sci-physics/clhep -~amd64 -~x86
 # Allow 2.1.4.2 as it works fine
 ~sci-physics/clhep-2.1.4.2 ~amd64 ~x86 amd64 x86
+
+# Use stable libgit2 to allow reverse deps to catch up
+dev-libs/libgit2 -~amd64 -~x86
