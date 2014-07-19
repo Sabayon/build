@@ -7,6 +7,5 @@ cd $(dirname "${0}") || exit 1
 # Tracked kernels
 ./kernel-autobump /home/fabio/repos/kernel stable origin 3.10 sabayon- "3\.10\.[0-9999]"
 ./kernel-autobump /home/fabio/repos/kernel stable origin 3.12 sabayon- "3\.12\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 3.13 sabayon- "3\.13\.[0-9999]"
 ./kernel-autobump /home/fabio/repos/kernel stable origin 3.14 sabayon- "3\.14\.[0-9999]"
 ./kernel-autobump /home/fabio/repos/kernel stable origin 3.15 sabayon- "3\.15\.[0-9999]"
