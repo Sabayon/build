@@ -485,7 +485,7 @@ media-sound/asunder wavpack
 media-sound/audacity ladspa vamp soundtouch id3tag midi -ffmpeg
 media-sound/audacious -gtk gtk3 wma timidity lirc dbus chardet
 media-sound/banshee podcast -ipod -zeroconf mtp njb
-media-sound/cantata replaygain taglib cdparanoia
+media-sound/cantata replaygain taglib cdparanoia devices
 media-sound/clementine lastfm ios moodbar mtp
 media-sound/cmus mikmod
 media-sound/deadbeef alac ape cover curl lastfm m3u hotkeys sndfile supereq wavpack
