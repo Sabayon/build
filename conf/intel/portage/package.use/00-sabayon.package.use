@@ -1173,3 +1173,5 @@ dev-python/requests python_targets_python3_4
 dev-python/numpy python_targets_python3_4
 dev-python/chardet python_targets_python3_4
 
+# Required by rkhunter
+sys-process/lsof rpc
