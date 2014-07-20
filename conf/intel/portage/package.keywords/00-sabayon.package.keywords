@@ -197,3 +197,7 @@ sci-physics/clhep -~amd64 -~x86
 
 # Use stable libgit2 to allow reverse deps to catch up
 dev-libs/libgit2 -~amd64 -~x86
+
+# Force stable pyparsing since unstable 2.0.x introduces incompatible changes
+dev-python/pyparsing -~amd64 -~x86
+
