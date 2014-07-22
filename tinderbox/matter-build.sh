@@ -74,7 +74,7 @@ echo "Acquiring locks at ${LOCK_FILE} and ${LVM_LOCK_FILE} in blocking mode, wai
 	bzip2 -f -k "${LOG_FILE}"
 	# send mail
 	echo "Hello boys and girls,
-this is orion.sabayon.org informing you that a new matter run has been
+this is andromeda.sabayon.org informing you that a new matter run has been
 eventually executed.
 
 Call : ${ARGS}
