@@ -220,3 +220,6 @@ www-plugins/chrome-binary-plugins:unstable
 
 # 2014-07-01 Fabio Erculiani: broken reverse deps
 =razorqt-base/libqtxdg-0.5.3
+
+# 2014-07-24 Fabio Erculiani: mwlib wants an old pyparsing
+>=dev-python/pyparsing-1.6
