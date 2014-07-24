@@ -1068,7 +1068,8 @@ media-video/libav vaapi vdpau
 media-video/mplayer vaapi vdpau
 media-video/mplayer2 vaapi vdpau
 media-video/ffmpeg vaapi vdpau
-media-video/vlc vaapi vdpau
+# TODO: vdpau requires libav-10. Sigh.
+media-video/vlc vaapi -vdpau
 virtual/ffmpeg vaapi vdpau
 www-plugins/gnash vaapi vdpau
 
