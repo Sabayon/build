@@ -223,3 +223,7 @@ www-plugins/chrome-binary-plugins:unstable
 
 # 2014-07-24 Fabio Erculiani: mwlib wants an old pyparsing
 >=dev-python/pyparsing-1.6
+
+# 2014-08-02 Fabio Erculiani: plymouth 0.9.0 simply does not work
+>=sys-boot/plymouth-0.9.0
+>=sys-boot/plymouth-extras-0.9.0
