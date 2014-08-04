@@ -1180,3 +1180,6 @@ sys-process/lsof rpc
 
 # Required by reiser4progs
 sys-libs/libaal static-libs
+
+# intel-gpu-tools is Python3 only
+x11-apps/intel-gpu-tools python_single_target_python3_3
