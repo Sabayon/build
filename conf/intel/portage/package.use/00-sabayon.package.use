@@ -1176,3 +1176,6 @@ dev-python/chardet python_targets_python3_4
 
 # Required by rkhunter
 sys-process/lsof rpc
+
+# Required by reiser4progs
+sys-libs/libaal static-libs
