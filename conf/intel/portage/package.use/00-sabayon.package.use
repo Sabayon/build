@@ -779,7 +779,8 @@ sys-devel/llvm clang
 sys-fs/evms -gtk
 sys-fs/mtd-utils xattr
 sys-fs/ntfs3g suid ntfsprogs
-sys-fs/reiser4progs static
+# USE=static static-libs must go together in order to have it compiling
+sys-fs/reiser4progs static static-libs
 sys-fs/udev extras
 # udisks, we want cryptsetup support
 sys-fs/udisks cryptsetup crypt
