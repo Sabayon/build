@@ -92,7 +92,6 @@ app-leechcraft/lc-lmp kde
 
 app-misc/ddccontrol -gtk -gnome
 app-misc/gcstar stats
-app-misc/gpsdrive speech
 
 # Kernel drivers are unwanted for lirc, they're in-kernel
 app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
@@ -256,8 +255,6 @@ dev-python/pyudev pyqt4
 # don't require media-libs/alsa-lib[alisp]
 dev-python/pyglet -alsa
 
-dev-python/traitsgui wxwidgets qt4
-
 dev-qt/qt-creator autotools cmake git subversion valgrind examples
 dev-qt/qt3support kde
 dev-qt/qthelp compat
@@ -352,7 +349,6 @@ kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
 # kill linguas on kdepim-runtime, we ship it in kde-l10n
 kde-base/kdepim-runtime -linguas_ar -linguas_be -linguas_ca -linguas_ca@valencia -linguas_cs -linguas_da -linguas_de -linguas_el -linguas_en_GB -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fr -linguas_ga -linguas_gl -linguas_hr -linguas_hu -linguas_ia -linguas_it -linguas_ja -linguas_kk -linguas_km -linguas_ko -linguas_lt -linguas_lv -linguas_mai -linguas_nb -linguas_nds -linguas_nl -linguas_nn -linguas_pa -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_se -linguas_sk -linguas_sl -linguas_sv -linguas_th -linguas_tr -linguas_uk -linguas_zh_CN -linguas_zh_TW google kolab
 kde-base/kdeplasma-addons desktopglobe json oauth semantic-desktop
-kde-base/kdesdk-misc extras
 kde-base/kget bittorrent semantic-desktop
 kde-base/klipper prison
 kde-base/kopete addbookmarks alias autoreplace connectionstatus contactnotes gadu groupwise highlight history irc jingle -kdeenablefinal netmeeting nowlistening oscar otr qq sametime skype statistics texteffect translator webpresence winpopup yahoo
@@ -366,7 +362,6 @@ kde-base/okular chm djvu ebook crypt
 kde-base/phonon-kde -xine
 kde-base/plasma-workspace semantic-desktop python
 kde-base/pykde4 semantic-desktop
-kde-base/solid networkmanager -wicd
 kde-base/superkaramba python
 
 kde-misc/networkmanagement openvpn networksettings -linguas_ar -linguas_bs -linguas_ca -linguas_cs -linguas_da -linguas_de -linguas_el -linguas_es -linguas_et -linguas_fa -linguas_fi -linguas_fr -linguas_ga -linguas_gl -linguas_hu -linguas_it -linguas_ja -linguas_kk -linguas_km -linguas_lt -linguas_nb -linguas_nds -linguas_nl -linguas_nn -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_se -linguas_sk -linguas_sl -linguas_sr -linguas_sr@Latn -linguas_sv -linguas_tr -linguas_uk -linguas_zh_CN -linguas_zh_TW
@@ -887,8 +882,6 @@ x11-terms/rxvt-unicode xft
 # Bumblebee stuff
 x11-misc/bumblebee video_cards_nvidia video_cards_nouveau -bbswitch
 x11-misc/cairo-dock xcomposite
-x11-misc/keytouch -kde
-x11-misc/keytouch-editor -kde
 x11-misc/notification-daemon gstreamer
 x11-misc/obconf -lxde
 x11-misc/shutter drawing webphoto
@@ -906,7 +899,6 @@ x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisV
 x11-themes/gnome-colors-common branding
 x11-themes/gtk-engines-murrine -themes
 x11-themes/gtk-engines-qtcurve -mozilla
-x11-themes/qtcurve-qt4 kde windeco
 x11-themes/sabayon-artwork-kde ksplash
 x11-themes/skinenigmang-logos dxr3
 x11-themes/tango-icon-theme branding
