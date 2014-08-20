@@ -205,7 +205,7 @@ dev-libs/crypto++ sse3
 dev-libs/DirectFB dynload fbcon
 dev-libs/dbus-glib bash-completion
 # Required by terminology
-dev-libs/efl pulseaudio audio -xcb pixman X
+dev-libs/efl pulseaudio audio -xcb pixman sound X
 dev-libs/folks eds vala
 dev-libs/gdl gnome
 # 2010-04-6, trying to disable USE="mono" from gmime
