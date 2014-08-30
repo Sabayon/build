@@ -1102,8 +1102,8 @@ media-plugins/grilo-plugins upnp-av
 # required by reiser4progs
 sys-libs/readline static-libs
 
-# required by gitg
-dev-libs/libgit2 threads
+# threads: required by gitg
+dev-libs/libgit2 ssh threads
 
 # required by media-plugins/grilo-plugins-0.2.10
 # required by media-sound/gnome-music-3.10.3
