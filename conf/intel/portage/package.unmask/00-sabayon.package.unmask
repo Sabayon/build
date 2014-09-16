@@ -20,9 +20,6 @@ sys-devel/gcc:4.6::sabayon-distro
 # Our version is fine
 media-video/nvidia-settings::sabayon-distro
 
-# Unmask Gimp 2.7, we want it
-<=media-gfx/gimp-2.8
-
 # Anaconda uses it (perhaps bundle it?)
 <sys-libs/libsepol-9999
 
@@ -68,10 +65,6 @@ media-gfx/yafaray:0
 
 # Yeah Yeah, security...
 <app-text/cuneiform-9999:0
-
-# Unmask true multilib aware libav ebuild
-=media-video/libav-0.8.9-r1
-=media-video/libav-9.10*
 
 # GNOME 3.10/3.12 related unmasks
 # required by gnome-base/gnome-settings-daemon-3.10.1::gnome-next
