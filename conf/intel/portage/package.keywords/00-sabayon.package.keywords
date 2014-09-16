@@ -43,10 +43,6 @@ www-servers/apache -~amd64 -~x86
 media-libs/libpng -~amd64 -~x86
 # but allow libpng 1.6, we need ABI_X86 support
 =media-libs/libpng-1.6* ~amd64 ~x86
-# and also multilib-minimal aware 1.2
-=media-libs/libpng-1.2.50-r1 ~amd64 ~x86
-# and also this support package
-=media-libs/libpng-1.5.17-r15 ~amd64 ~x86
 
 # force stable icu
 dev-libs/icu -~amd64 -~x86
@@ -113,7 +109,6 @@ net-firewall/shorewall-core -~amd64 -~x86
 
 # Accept any libav-0.8* and virtual/ffmpeg-0.10*
 # This is what we currently support
-=media-video/libav-0.8* ~amd64 ~x86
 =virtual/ffmpeg-0.10* ~amd64 ~x86
 =media-video/libav-9* ~amd64 ~x86
 =virtual/ffmpeg-9* ~amd64 ~x86
