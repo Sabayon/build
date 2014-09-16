@@ -14,7 +14,6 @@ app-shells/bashdb
 dev-util/cocom
 
 # Joost Ruis: Requires mesa +motif
-media-libs/openinventor
 sci-biology/arb
 
 # Joost Ruis: needs pciutils with zlib, but we have it in package.use with -zlib no idea why.
