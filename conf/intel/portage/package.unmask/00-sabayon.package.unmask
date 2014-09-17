@@ -170,7 +170,6 @@ media-gfx/yafaray:0
 >=gnome-base/gnome-desktop-3.12.1
 >=gnome-base/gnome-extra-apps-3.12.0
 >=gnome-base/gnome-keyring-3.12.0
->=gnome-base/gnome-light-3.12.0
 >=gnome-base/gnome-session-3.12.1
 >=gnome-base/gnome-settings-daemon-3.12.1
 >=gnome-base/gnome-shell-3.12.1
