@@ -46,8 +46,6 @@ media-libs/libpng -~amd64 -~x86
 
 # force stable icu
 dev-libs/icu -~amd64 -~x86
-# Allow all icu-51 revisions due to ABI_X86 support
-=dev-libs/icu-51* ~amd64 ~x86
 
 app-crypt/qca:2 **
 dev-python/pycups **
