@@ -16,3 +16,6 @@ net-misc/teamviewer app-emulation/wine:0
 
 # libcli.so
 media-sound/pulseaudio dev-db/fastdb:0
+
+# libCore.so, bug 4277
+dev-qt/qt-creator sci-physics/root:0
