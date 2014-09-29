@@ -224,8 +224,5 @@ www-plugins/chrome-binary-plugins:unstable
 >=sys-boot/plymouth-0.9.0
 >=sys-boot/plymouth-extras-0.9.0
 
-# 2014-08-15 Joost Ruis: Temp. mask the new stable perl
->dev-lang/perl-5.16.3
-
 # 2014-08-31 Sławomir Nizio: we cannot support it properly, bug 3776
 app-portage/g-octave
