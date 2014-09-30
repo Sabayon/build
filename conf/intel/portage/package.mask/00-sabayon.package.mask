@@ -238,3 +238,4 @@ app-text/poppler::gentoo
 >virtual/perl-ExtUtils-MakeMaker-6.660.0-r1
 >virtual/perl-ExtUtils-CBuilder-0.280.210-r1
 >virtual/perl-File-Spec-3.400.0-r2
+>virtual/perl-Exporter-5.680.0-r2
