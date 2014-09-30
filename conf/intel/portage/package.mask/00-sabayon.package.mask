@@ -232,3 +232,7 @@ media-tv/xbmc::gentoo
 
 # 2014-09-30 Joost Ruis: Do not pull poppler from Portage
 app-text/poppler::gentoo
+
+# 2014-09-30 Joost Ruis: Masked because we bump to latest stable pull and not want to pull in unstable
+>virtual/perl-ExtUtils-Command-1.170.0-r5
+>virtual/perl-ExtUtils-MakeMaker-6.660.0-r1
