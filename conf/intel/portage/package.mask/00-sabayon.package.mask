@@ -242,4 +242,5 @@ app-text/poppler::gentoo
 >virtual/perl-DB_File-1.829.0
 >virtual/perl-bignum-0.330.0
 >virtual/perl-Module-Load-Conditional-0.580.0
+>virtual/perl-CGI-3.630.0-r2
 >dev-lang/perl-5.18.2-r1
