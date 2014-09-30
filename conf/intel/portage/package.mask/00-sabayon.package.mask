@@ -229,3 +229,6 @@ app-portage/g-octave
 
 # 2014-09-30 Joost Ruis: Do not pull xbmc from Portage
 media-tv/xbmc::gentoo
+
+# 2014-09-30 Joost Ruis: Do not pull poppler from Portage
+app-text/poppler::gentoo
