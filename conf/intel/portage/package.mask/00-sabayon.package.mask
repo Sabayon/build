@@ -248,4 +248,5 @@ app-text/poppler::gentoo
 >virtual/perl-Math-BigInt-1.999.100
 >virtual/perl-IPC-Cmd-0.800.0-r1
 >virtual/perl-Encode-2.490.0-r2
+>virtual/perl-Socket-2.9.0-r2
 >dev-lang/perl-5.18.2-r1
