@@ -266,6 +266,7 @@ app-text/poppler::gentoo
 >virtual/perl-Module-Build-0.400.300-r1
 >virtual/perl-Digest-SHA-5.850.0
 >virtual/perl-Test-Harness-3.260.0-r2
+>virtual/perl-Archive-Tar-1.900.0-r2
 >virtual/perl-Compress-Raw-Zlib-2.60.0-r2
 >virtual/perl-XSLoader-0.160.0-r1
 >virtual/perl-Math-BigRat-0.260.400
