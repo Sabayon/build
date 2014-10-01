@@ -253,4 +253,5 @@ app-text/poppler::gentoo
 >virtual/perl-Time-Piece-1.20-r1
 >virtual/perl-IO-Compress-2.60.0-r1
 >virtual/perl-Compress-Raw-Bzip2-2.60.0-r2
+>virtual/perl-Pod-Parser-1.600.0
 >dev-lang/perl-5.18.2-r1
