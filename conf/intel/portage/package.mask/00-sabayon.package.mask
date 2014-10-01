@@ -265,7 +265,7 @@ app-text/poppler::gentoo
 >virtual/perl-Compress-Raw-Bzip2-2.60.0-r2
 >virtual/perl-ExtUtils-ParseXS-3.180.0-r2
 >virtual/perl-Pod-Parser-1.600.0
->virtual/perl-Pod-Escapes--1.40.0-r4
+>virtual/perl-Pod-Escapes-1.40.0-r4
 >virtual/perl-Scalar-List-Utils-1.270.0-r2
 >virtual/perl-Module-Build-0.400.300-r1
 >virtual/perl-Digest-SHA-5.850.0
