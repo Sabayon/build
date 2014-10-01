@@ -244,4 +244,5 @@ app-text/poppler::gentoo
 >virtual/perl-Module-Load-Conditional-0.580.0
 >virtual/perl-CGI-3.630.0-r2
 >virtual/perl-Attribute-Handlers-0.940.0-r1
+>virtual/perl-Math-BigInt-FastCalc-0.300.0-r3
 >dev-lang/perl-5.18.2-r1
