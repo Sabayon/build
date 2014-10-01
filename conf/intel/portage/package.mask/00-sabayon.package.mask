@@ -252,4 +252,5 @@ app-text/poppler::gentoo
 >virtual/perl-Parse-CPAN-Meta-1.440.400-r1
 >virtual/perl-Time-Piece-1.20-r1
 >virtual/perl-IO-Compress-2.60.0-r1
+>virtual/perl-Compress-Raw-Bzip2-2.60.0-r2
 >dev-lang/perl-5.18.2-r1
