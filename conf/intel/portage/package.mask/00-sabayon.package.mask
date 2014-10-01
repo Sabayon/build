@@ -247,6 +247,7 @@ app-text/poppler::gentoo
 >virtual/perl-Attribute-Handlers-0.940.0-r1
 >virtual/perl-Math-BigInt-FastCalc-0.300.0-r3
 >virtual/perl-Math-BigInt-1.999.100
+>virtual/perl-Net-Ping-2.41-r1
 >virtual/perl-IPC-Cmd-0.800.0-r1
 >virtual/perl-JSON-PP-2.272.20-r1
 >virtual/perl-Encode-2.490.0-r2
@@ -256,6 +257,7 @@ app-text/poppler::gentoo
 >virtual/perl-Time-Piece-1.20-r1
 >virtual/perl-IO-Compress-2.60.0-r1
 >virtual/perl-Compress-Raw-Bzip2-2.60.0-r2
+>virtual/perl-ExtUtils-ParseXS-3.180.0-r2
 >virtual/perl-Pod-Parser-1.600.0
 >virtual/perl-Scalar-List-Utils-1.270.0-r2
 >virtual/perl-Module-Build-0.400.300-r1
@@ -265,6 +267,7 @@ app-text/poppler::gentoo
 >virtual/perl-XSLoader-0.160.0-r1
 >virtual/perl-Math-BigRat-0.260.400
 >virtual/perl-threads-1.860.0-r3
+>virtual/perl-threads-shared-1.430.0-r1
 >virtual/perl-Thread-Queue-3.20.0-r1
 >virtual/perl-Locale-Maketext-1.230.0-r1
 >dev-lang/perl-5.18.2-r1
