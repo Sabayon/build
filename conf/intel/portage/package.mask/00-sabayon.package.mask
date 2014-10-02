@@ -252,7 +252,6 @@ app-text/poppler::gentoo
 >virtual/perl-Attribute-Handlers-0.940.0-r1
 >virtual/perl-I18N-LangTags-0.390.0
 >virtual/perl-Math-BigInt-FastCalc-0.300.0-r3
->virtual/perl-Math-BigInt-1.999.100
 >virtual/perl-Module-Metadata-1.0.11-r1
 >virtual/perl-Net-Ping-2.41-r1
 >virtual/perl-if-0.60.200-r1
