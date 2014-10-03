@@ -21,7 +21,7 @@ xfce-extra/xfce4-cellmodem-plugin
 
 ### Temp masked due a bug
 
-### Slotted packages 
+### Slotted packages
 <net-analyzer/metasploit-3.2_p6750
 app-editors/emacs:18
 
@@ -33,13 +33,13 @@ app-forensics/air
 
 ### net-p2p
 
-### www-client 
+### www-client
 
 # Joost Ruis: This requires x11-libs/fltk with -cairo, that ain't happening
 # Sławomir Nizio (30 Dec 2011): now fltk:2 is compiled with -cairo, and it's used by dillo 2 (3 wants fltk:1)
 >=www-client/dillo-3
 
-### net-misc 
+### net-misc
 
 # Joost Ruis: This package cannot be in tree with distcc
 net-misc/pump
@@ -100,7 +100,7 @@ sci-astronomy/esorex
 # 2010-11-16 Joost Ruis: Needs qt-gui with +gtk (What the hell??)
 media-sound/qtractor
 
-# 2010-11-18 Joost Ruis: Blocks media-fonts/jsmath-extra-dark 
+# 2010-11-18 Joost Ruis: Blocks media-fonts/jsmath-extra-dark
 media-fonts/jsmath-extra-light
 
 # 2010-11-18 Joost Ruis: Blocks media-fonts/culmus
@@ -112,7 +112,7 @@ net-misc/networkmanager::gentoo
 # 2010-12-28 Joost Ruis: Needs vdr with -noepg
 media-plugins/vdr-noepgmenu
 
-# 2010-12-28 Joost Ruis: Needs vdr +setup, but we cannot enable that flag. 
+# 2010-12-28 Joost Ruis: Needs vdr +setup, but we cannot enable that flag
 media-plugins/vdr-setup
 
 # 2011-08-16 Fabio Erculiani: Cruft we don't want
@@ -154,7 +154,7 @@ sys-auth/consolekit
 # stop matter from bumping it for now.
 >=app-admin/elektra-0.8
 
-# 2013-08-12 Fabio Erculiani: dev-python/python-novaclient and 
+# 2013-08-12 Fabio Erculiani: dev-python/python-novaclient and
 # dev-python/python-glanceclient want older prettytable and
 # matter keeps pulling it it.
 # 2013-04-18 Sławomir Nizio: bump masked version to avoid this
@@ -282,3 +282,7 @@ app-text/poppler::gentoo
 >virtual/perl-Thread-Queue-3.20.0-r1
 >virtual/perl-Locale-Maketext-1.230.0-r1
 >dev-lang/perl-5.18.2-r1
+
+# 10-03-2014 Joost Ruis: Mask libnl-3
+# See bug #4807
+>=dev-libs/libnl-3.2.25
