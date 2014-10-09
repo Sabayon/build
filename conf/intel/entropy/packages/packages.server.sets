@@ -19,7 +19,7 @@ sabayonlinux.org entropy packagekit
 # Sabayon stuff
 sabayonlinux.org sabayon-artwork
 # Desktop environments
-sabayonlinux.org X e17 xfce lxde fluxbox gnome
+sabayonlinux.org X enlightenment xfce lxde fluxbox gnome
 # gst plugins for GNOME, KDE, Xfce
 sabayonlinux.org gst-plugins gst-plugins-extra
 # IME fonts stuff
