@@ -709,7 +709,7 @@ sci-libs/fftw threads
 sci-libs/gdal curl geos
 # PQStego requires this USE, see bug 2751
 >=sci-libs/gsl-1.15 cblas-external
-sci-libs/hdf5 -cxx -fortran -mpi threads szip
+sci-libs/hdf5 -cxx -fortran -mpi threads -szip
 sci-libs/itpp fftw
 sci-libs/indilib nova
 sci-libs/netcdf -fortran hdf5
