@@ -593,6 +593,7 @@ net-im/mcabber otr
 
 net-irc/inspircd mysql sqlite
 net-irc/kvirc -audiofile dcc_video
+net-irc/quassel monolithic
 net-irc/znc -python
 
 net-libs/aqbanking chipcard ofx
