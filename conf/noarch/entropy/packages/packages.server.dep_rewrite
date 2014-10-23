@@ -168,6 +168,7 @@ net-fs/netatalk (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 gnome-base/libgdu (.*)net-dns/avahi(.*)(\[.*\]) \1net-dns/avahi-gtk3\2
 media-video/miro (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 kde-misc/kdeconnect (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
+media-tv/tvheadend (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
 
 # Fix gtk-3 deps
 media-video/kino (.*)x11-libs/gtk(.*) \1x11-libs/gtk\2:2
