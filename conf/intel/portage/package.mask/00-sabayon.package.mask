@@ -146,10 +146,6 @@ sys-apps/man
 # 2013-06-26 Fabio Erculiani: migrated to logind
 sys-auth/consolekit
 
-# 2013-08-06 Fabio Erculiani: not sure why this may be pulled in
-# but you know, gamerlay...
->=games-strategy/0ad-99999
-
 # 2013-08-12 Fabio Erculiani: oyranos 0.9.4 wants elektra 0.7
 # stop matter from bumping it for now.
 >=app-admin/elektra-0.8
