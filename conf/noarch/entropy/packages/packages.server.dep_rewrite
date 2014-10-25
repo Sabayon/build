@@ -206,3 +206,10 @@ x11-libs/xvba-video (.*)x11-drivers/ati-drivers(.*) \1x11-drivers/ati-userspace\
 
 # Ensure a smooth migration from libgcrypt-1.5 to 1.6
 =dev-libs/libgcrypt-1.6* ++dev-libs/libgcrypt:11<2>
+
+# Drop VCS dependencies for app-portage/layman (related to bug 4822)
+# keep it aligned with USE flags
+app-portage/layman (.*)dev-vcs/bzr(.*)
+app-portage/layman (.*)dev-vcs/git(.*)
+app-portage/layman (.*)dev-vcs/mercurial(.*)
+app-portage/layman (.*)dev-vcs/subversion(.*)
