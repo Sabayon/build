@@ -274,7 +274,7 @@ app-text/poppler::gentoo
 >virtual/perl-threads-shared-1.430.0-r1
 >virtual/perl-Thread-Queue-3.20.0-r1
 >virtual/perl-Locale-Maketext-1.230.0-r1
->dev-lang/perl-5.18.2-r1
+>dev-lang/perl-5.18.2-r9999
 
 # 10-03-2014 Joost Ruis: Mask libnl-3
 # See bug #4807
