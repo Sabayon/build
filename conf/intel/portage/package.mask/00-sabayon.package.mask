@@ -167,10 +167,6 @@ sys-auth/consolekit
 <sci-mathematics/pari-2.3.5
 >sci-mathematics/pari-2.3.5
 
-# 2013-08-20 Fabio Erculiani: dev-python/warlock needs it and matter
-# keeps bumping it.
->dev-python/jsonpatch-0.10
-
 # 2013-08-26 Fabio Erculiani: mask the gamerlay version of osg
 # osg has a very unstable API.
 dev-games/openscenegraph::gamerlay
