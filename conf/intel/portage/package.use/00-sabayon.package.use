@@ -431,6 +431,7 @@ media-libs/freetype -X -auto-hinter adobe-cff
 media-libs/gd fontconfig
 # LibreOffice wants it
 media-libs/harfbuzz icu
+media-libs/leptonica jpeg2k
 # In order to generate files in different formats, we need to enable imlib
 media-libs/libcaca imlib
 media-libs/libgphoto2 exif
