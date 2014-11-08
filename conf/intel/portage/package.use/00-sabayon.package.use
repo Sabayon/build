@@ -5,7 +5,7 @@ app-accessibility/dasher gnome
 app-accessibility/julius -alsa pulseaudio -oss -portaudio
 app-accessibility/simon -alsa pulseaudio -oss -portaudio
 
-app-admin/conky audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thinkpad weather-metar weather-xoap -ipv6
+app-admin/conky -audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thinkpad weather-metar weather-xoap -ipv6
 # eselect-php now contains fpm init script and apache stuff
 app-admin/eselect-php fpm apache2
 app-admin/gnome-system-tools nfs
