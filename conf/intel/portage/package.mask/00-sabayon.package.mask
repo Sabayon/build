@@ -150,6 +150,9 @@ sys-auth/consolekit
 # stop matter from bumping it for now.
 >=app-admin/elektra-0.8
 
+# 2014-11-08 Sławomir Nizio: wants to downgrade dev-ruby/sass
+app-admin/chef-server-webui
+
 # 2013-08-12 Fabio Erculiani: dev-python/python-novaclient and
 # dev-python/python-glanceclient want older prettytable and
 # matter keeps pulling it it.
