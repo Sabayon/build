@@ -170,6 +170,7 @@ dev-games/crystalspace mng
 dev-games/ode double-precision
 dev-games/ogre cg ois
 dev-games/physfs hog
+dev-games/clanlib:2.3 mikmod
 
 dev-java/antlr cxx script
 dev-java/bsh bsf
