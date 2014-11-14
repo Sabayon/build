@@ -285,5 +285,8 @@ app-text/poppler::gentoo
 # 2014-11-13 Joost Ruis: Do not pull libreoffice from Portage
 app-office/libreoffice::gentoo
 
-# 2014-11-14: Joost Ruis: temp. mask app-text/libebook 
+# 2014-11-14: Joost Ruis: temp. mask required for app-office/libreoffice-4.2.6.3
 >app-text/libebook-0.0.2
+>media-libs/libvisio-0.0.30
+>media-libs/libcdr-0.0.16
+>app-text/libmspub-0.0.6
