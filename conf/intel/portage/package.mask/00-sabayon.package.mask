@@ -284,3 +284,6 @@ app-text/poppler::gentoo
 
 # 2014-11-13 Joost Ruis: Do not pull libreoffice from Portage
 app-office/libreoffice::gentoo
+
+# 2014-11-14: Joost Ruis: temp. mask app-text/libebook 
+>app-text/libebook-0.0.2
