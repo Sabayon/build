@@ -167,6 +167,7 @@ dev-embedded/openocd ftdi
 
 dev-games/cegui devil
 dev-games/crystalspace mng
+dev-games/mygui -opengl
 dev-games/ode double-precision
 dev-games/ogre cg ois
 dev-games/physfs hog
