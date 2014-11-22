@@ -466,7 +466,7 @@ media-libs/tiff lzma
 media-libs/vigra fftw
 media-libs/vips fftw
 media-libs/urt gs
-media-libs/xine-lib aalib fbcon mng vidix dxr3 -win32codecs -gtk
+media-libs/xine-lib aalib fbcon mng vdr vidix dxr3 -win32codecs -gtk
 
 media-plugins/alsa-plugins libsamplerate pulseaudio
 media-plugins/audacious-plugins chardet cue gnome -gtk gtk3 icecast libsamplerate sndfile wavpack
@@ -1058,6 +1058,7 @@ gnome-base/nautilus tracker
 
 # VAAPI/VDPAU support
 media-libs/avidemux-core vaapi vdpau
+media-libs/xine-lib vaapi vdpau
 media-libs/mesa vdpau
 # Disabling vaapi for now, see bug #2221, #4069
 # 2013-11-15: retry with USE=vaapi
