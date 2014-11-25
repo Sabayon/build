@@ -3,7 +3,7 @@ app-misc/sabayon-version
 dev-db/sqlite
 sys-apps/entropy
 sys-devel/base-gcc:4.8
-sys-libs/db:4.8
+sys-libs/db:6.0
 virtual/cron   
 # virtual/linux-binary
 sys-auth/pambase
