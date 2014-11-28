@@ -125,52 +125,8 @@ dev-java/icedtea-bin (.*)sys-devel/gcc(.*)
 dev-java/icedtea (.*)sys-devel/gcc(.*)
 
 # net-dns/avahi dep rewrites
-app-crypt/seahorse (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
-app-emulation/libvirt (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-dev-db/desktopcouch (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
-dev-python/kaa-base (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
-gnome-base/gnome-vfs:2 (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-gnome-base/gvfs:0 (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
-gnustep-base/gnustep-base (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2  
-kde-base/kdelibs (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-kde-base/krdc (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-media-gfx/sane-backends (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-media-libs/libgphoto2 (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-media-plugins/gmpc-avahi (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-media-sound/ario (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-media-sound/mpd (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-media-sound/mt-daapd (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-media-sound/mumble (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-media-sound/pulseaudio (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-media-sound/xmms2 (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-media-video/vlc (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-media-tv/xbmc (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-net-fs/samba (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-net-im/pidgin (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-net-libs/libepc (.*)net-dns/avahi(.*)(\[.*\]) \1net-dns/avahi-gtk3\2
-net-libs/obby (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-net-misc/networkmanager (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-net-misc/remmina (.*)net-dns/avahi(.*)(\[.*\]) \1net-dns/avahi-gtk3\2
-net-misc/vino (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-net-print/cups (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-net-print/cups-filters (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-net-voip/ekiga (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-net-voip/telepathy-salut (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-sci-physics/root (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-sys-auth/nss-mdns (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-sys-fs/owfs (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-sys-power/nut (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-www-apache/mod_dnssd (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-www-client/epiphany (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-x11-libs/libqxt (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-x11-misc/service-discovery-applet (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-x11-misc/x11vnc (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-net-ftp/qshare (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-net-fs/netatalk (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-gnome-base/libgdu (.*)net-dns/avahi(.*)(\[.*\]) \1net-dns/avahi-gtk3\2
-media-video/miro (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-kde-misc/kdeconnect (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
-media-tv/tvheadend (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
+* (.*)net-dns/avahi(.*) \1net-dns/avahi-base\2
+* (.*)net-dns-avahi(.*)(\[.*gtk3.*\]) \1net-dns/avahi-gtk3\2
 
 # Fix gtk-3 deps
 media-video/kino (.*)x11-libs/gtk(.*) \1x11-libs/gtk\2:2
