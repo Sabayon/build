@@ -19,8 +19,6 @@ dev-lang/ghc -~amd64 -~x86
 dev-lang/ruby -~amd64 -~x86
 media-video/libav -~amd64 -~x86
 virtual/ffmpeg -~amd64 -~x86
-net-libs/ptlib -~amd64 -~x86
-net-libs/opal -~amd64 -~x86
 # Force stable boost
 dev-libs/boost -~amd64 -~x86
 dev-util/boost-build -~amd64 -~x86
