@@ -69,7 +69,7 @@ app-emulation/e-uae capslib
 app-emulation/emul-linux-x86-soundlibs esd
 app-emulation/ganeti kvm lxc htools
 app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
-app-emulation/qemu fdt spice -gtk virtfs xattr
+app-emulation/qemu fdt spice -gtk virtfs xattr usbredir
 app-emulation/vice gnome
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
 # Wine, more features
