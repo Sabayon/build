@@ -1098,12 +1098,6 @@ media-plugins/audacious-plugins -ffmpeg
 # required by net-analyzer/tcpreplay-4.0.2
 sys-devel/autogen libopts
 
-# gnome-music is Python3 only, prefer python 3.3 for now
-media-sound/gnome-music python_single_target_python3_3
-# same for gnome-sudoku and others
-games-puzzle/gnome-sudoku python_single_target_python3_3
-media-gfx/eog-plugins python_single_target_python3_3
-
 # required by media-gfx/gnome-photos-3.10.2
 # required by gnome-photos (argument)
 media-plugins/grilo-plugins upnp-av
