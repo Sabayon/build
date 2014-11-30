@@ -162,6 +162,9 @@ sys-apps/systemd-sysv-utils ++!app-admin/eselect-init<2>
 # Replace x11-drivers/ati-drivers with ati-userspace from xvba-video
 x11-libs/xvba-video (.*)x11-drivers/ati-drivers(.*) \1x11-drivers/ati-userspace\2
 
+# Ensure a smooth migration from libgcrypt-1.5 to 1.6
+=dev-libs/libgcrypt-1.6* ++dev-libs/libgcrypt:11<2>
+
 # Drop VCS dependencies for app-portage/layman (related to bug 4822)
 # keep it aligned with USE flags
 app-portage/layman (.*)dev-vcs/bzr(.*)
