@@ -1164,17 +1164,8 @@ app-admin/anaconda -gtk -gui
 # required by metasploit (argument)
 dev-ruby/activerecord postgres
 
-# Blender Python 3.4 deps
-dev-python/setuptools python_targets_python3_4
-dev-python/requests python_targets_python3_4
-dev-python/numpy python_targets_python3_4
-dev-python/chardet python_targets_python3_4
-
 # Required by rkhunter
 sys-process/lsof rpc
 
 # Required by reiser4progs
 sys-libs/libaal static-libs
-
-# intel-gpu-tools is Python3 only
-x11-apps/intel-gpu-tools python_single_target_python3_3
