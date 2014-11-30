@@ -1,11 +1,5 @@
-# Required by GNOME 3
--introspection
-
 # Unmask USE=hardened globally
 -hardened
-
-# Unmask Python 3.3 stuff
--python_targets_python3_3
 
 # Unmask systemd for everything
 -systemd
