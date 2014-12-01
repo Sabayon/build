@@ -503,7 +503,7 @@ media-sound/qtractor sse
 media-sound/pulseaudio system-wide -qt4 -gtk
 # 2.92 with USE=cdr requires =app-cdr/brasero-3.4* but
 # gnome-base/gnome-core-apps[cdr] depends on >=app-cdr/brasero-3.6.1
-media-sound/rhythmbox -cdr
+media-sound/rhythmbox -cdr python_single_target_python3_4 -python_single_target_python3_3
 media-sound/snd fftw
 media-sound/sonic-visualiser fftw
 >=media-sound/soundkonverter-0.2.90-r1 lame
