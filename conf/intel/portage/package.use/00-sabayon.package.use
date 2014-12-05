@@ -401,6 +401,7 @@ media-gfx/digikam handbook semantic-desktop
 media-gfx/gimageview mng
 media-gfx/gimp aalib mng wmf smp
 media-gfx/gphoto2 aalib
+media-gfx/graphicsmagick q16 -lcms
 media-gfx/greycstoration fftw
 media-gfx/gthumb -cdr slideshow
 media-gfx/imagemagick fftw gs perl
