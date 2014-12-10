@@ -173,6 +173,7 @@ dev-games/clanlib:2.3 mikmod
 
 dev-java/antlr cxx script
 dev-java/bsh bsf
+dev-java/emma -launcher
 dev-java/glazedlists java5
 dev-java/gnu-classpath gstreamer -qt4
 # micia: disable source inclusion in icedtea, save some space
