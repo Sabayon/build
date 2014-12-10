@@ -5,7 +5,6 @@ x11-libs/gtk+:1
 
 # 2010-10-29 Joost Ruis: Blocks sci-biology/emboss
 sys-devel/cons
-dev-java/emma
 
 # Joost Ruis: Blocks bash
 app-shells/bashdb
