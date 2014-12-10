@@ -1,6 +1,5 @@
 ## If you dont want to organize it, put new entries in at the very end
 
-app-accessibility/dasher gnome
 # These two want either one of alsa pulseaudio, etc
 app-accessibility/julius -alsa pulseaudio -oss -portaudio
 app-accessibility/simon -alsa pulseaudio -oss -portaudio
@@ -8,7 +7,6 @@ app-accessibility/simon -alsa pulseaudio -oss -portaudio
 app-admin/conky -audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thinkpad weather-metar weather-xoap -ipv6
 # eselect-php now contains fpm init script and apache stuff
 app-admin/eselect-php fpm apache2
-app-admin/gnome-system-tools nfs
 # PackageKit, Sabayon config
 app-admin/packagekit entropy cron pm-utils -qt4 -gtk
 # PackageKit settings
@@ -314,7 +312,6 @@ games-strategy/warzone2100 videos
 games-util/springlobby bittorrent
 
 gnome-base/gconf policykit
-gnome-base/gnome-applets gnome networkmanager gstreamer
 gnome-base/gvfs ios samba gnome gdu fuse archive gnome-keyring udisks
 # Needed by net-analyzer/ehterape
 gnome-base/libgnomecanvas glade
@@ -324,7 +321,6 @@ gnome-base/nautilus gnome sendto
 gnome-extra/avant-window-navigator doc gnome xfce
 gnome-extra/avant-window-navigator-extras gnome
 gnome-extra/evolution-data-server ldap kerberos vala
-gnome-extra/gnome-games -sudoku
 gnome-extra/libgsf gnome
 gnome-extra/nautilus-sendto -cdr
 # nm-applet-gtk2 is the bloody version of nm-applet
@@ -967,8 +963,6 @@ net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-misc/vpnc resolvconf
 
-gnome-base/gnome-panel eds
-
 sys-auth/polkit -kde -gtk
 media-libs/libpng apng
 
@@ -1002,7 +996,6 @@ gnome-extra/polkit-gnome introspection
 gnome-base/libgtop introspection
 x11-libs/libnotify introspection
 dev-libs/libgee introspection
-gnome-base/gnome-panel introspection bonobo
 net-libs/gtk-vnc gtk3
 app-misc/tomboy -applet
 # our is a split package, who cares
