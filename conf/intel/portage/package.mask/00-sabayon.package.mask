@@ -55,7 +55,7 @@ net-misc/openntpd
 # Joost Ruis: We use net-misc/netkit-telnetd so we want to mask
 net-misc/telnet-bsd
 
-# Joost Ruis: Seems to be incompatible with latest net-misc/asterisk 
+# Joost Ruis: Seems to be incompatible with latest net-misc/asterisk
 =net-misc/asterisk-rate_engine-0.5.4
 
 # Joost Ruis: We use dev-texlive/texlive-latexextra so we want to mask this
@@ -259,7 +259,7 @@ app-text/poppler::gentoo
 >virtual/perl-Pod-Escapes-1.40.0-r4
 >virtual/perl-Scalar-List-Utils-1.350.0
 >=virtual/perl-Module-Build-0.420.500
->=virtual/perl-Digest-SHA-5.880.0
+>virtual/perl-Digest-SHA-5.880.0-r9999
 >virtual/perl-Test-Harness-3.260.0-r2
 >virtual/perl-Archive-Tar-1.900.0-r2
 >virtual/perl-Compress-Raw-Zlib-2.60.0-r2
@@ -295,4 +295,4 @@ app-office/libreoffice::gentoo
 net-analyzer/nmap::gentoo
 
 # 2014-11-27 Joost Ruis: Mask portage version
-media-video/mkvtoolnix::gentoo 
+media-video/mkvtoolnix::gentoo
