@@ -576,6 +576,9 @@ net-dns/mydns mysql
 net-fs/cifs-utils ads upcall
 net-fs/samba ads acl oav swat winbind
 
+# requires net-dns/avahi[-mdnsresponder-compat]
+net-fs/netatalk -avahi
+
 net-ftp/proftpd authfile openssl
 
 net-im/bitlbee twitter
