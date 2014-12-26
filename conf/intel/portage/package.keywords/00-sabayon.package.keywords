@@ -92,10 +92,6 @@ net-libs/libosip -~amd64 -~x86
 # Keyword libsdl2 required by steam on amd64
 =media-libs/libsdl2-2.0.0-r1 ** ~amd64
 
-# 7.6.3-r1 (stable) does not compile on x86
-# (related to Sabayon hardening)
-=dev-lang/ghc-7.6.3 **
-
 # Force stable, since shorewall{6,}-lite
 # inverse deps are not updated with the same freq.
 net-firewall/shorewall-core -~amd64 -~x86
@@ -184,3 +180,5 @@ sci-physics/clhep -~amd64 -~x86
 # Force stable pyparsing since unstable 2.0.x introduces incompatible changes
 dev-python/pyparsing -~amd64 -~x86
 
+# Unmask ghc-7.8 since Portage insists on wanting it
+=dev-lang/ghc-7.8* ** ~amd64
