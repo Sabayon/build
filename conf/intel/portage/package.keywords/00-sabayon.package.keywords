@@ -81,6 +81,7 @@ dev-lang/python:3.3 ** ~amd64 ~x86
 media-libs/ilmbase -~amd64 -~x86
 media-libs/openexr -~amd64 -~x86
 media-gfx/openexr_viewers -~amd64 -~x86
+media-libs/openexr_ctl -~amd64 -~x86
 
 # leechcraft only stable versions
 app-leechcraft/leechcraft-meta -~amd64 -~x86
