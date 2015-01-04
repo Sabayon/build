@@ -184,3 +184,6 @@ dev-python/pyparsing -~amd64 -~x86
 
 # Unmask ghc-7.8 since Portage insists on wanting it
 =dev-lang/ghc-7.8* ** ~amd64
+
+# Use stable lib3ds because unstable breaks ABI
+media-libs/lib3ds -~amd64 -~x86
