@@ -292,6 +292,7 @@ dev-vcs/subversion -java -apache2 -dso -kde
 games-board/pysolfc minimal
 
 games-emulation/generator sdlaudio
+games-emulation/pcsxr -alsa -openal -sdl
 games-emulation/qmc2 sdlmess
 
 # Corsix USE=wxwidgets requires masked (dev) wxGTK 2.9
