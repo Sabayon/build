@@ -422,7 +422,8 @@ media-libs/blib aalib
 # required by media-sound/picard
 media-libs/chromaprint tools
 # Needed for gnome-shell
-media-libs/clutter opengl introspection
+media-libs/clutter egl opengl introspection
+media-libs/cogl gles2
 # Needed by freecad
 media-libs/coin doc
 media-libs/devil mng
