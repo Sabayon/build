@@ -140,7 +140,7 @@ media-video/ffmpeg
 sys-apps/man
 
 # 2013-04-03 Fabio Erculiani: we are currently supporting 1.14
->=x11-base/xorg-server-1.15
+>=x11-base/xorg-server-1.15.2-r1
 
 # 2013-06-26 Fabio Erculiani: migrated to logind
 sys-auth/consolekit
