@@ -576,7 +576,9 @@ net-dns/dnsmasq -dbus tftp conntrack dhcp script dhcp-tools
 net-dns/mydns mysql
 
 net-fs/cifs-utils ads upcall
-net-fs/samba ads acl oav swat winbind
+
+# 32-bit ABI is not that useful; also fixes compilation of 3.6.24 (cannot find libpam for 32 bit)
+net-fs/samba -abi_x86_32 ads acl oav swat winbind
 
 # requires net-dns/avahi[-mdnsresponder-compat]
 net-fs/netatalk -avahi
