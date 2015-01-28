@@ -2,8 +2,8 @@
 
 . /sabayon/bin/kernels.inc
 
-packages="=x11-drivers/nvidia-drivers-304*"
-non_kernel_packages="=x11-drivers/nvidia-userspace-304*"
+packages="=x11-drivers/nvidia-drivers-304* =x11-drivers/nvidia-drivers-340*"
+non_kernel_packages="=x11-drivers/nvidia-userspace-304* =x11-drivers/nvidia-userspace-340*"
 ETP_REPO="${ETP_REPO:-sabayon-limbo}"
 
 rm -rf /usr/portage/packages/x11-drivers/*
