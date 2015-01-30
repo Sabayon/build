@@ -292,3 +292,7 @@ net-analyzer/nmap::gentoo
 
 # 2014-11-27 Joost Ruis: Mask portage version
 media-video/mkvtoolnix::gentoo
+
+# 2015-12-30 Sławomir Nizio: dev-vcs/gitg doesn't compile with newer libgit2-glib, Gentoo bug 537232
+>=dev-libs/libgit2-0.21.3
+>=dev-libs/libgit2-glib-0.0.24
