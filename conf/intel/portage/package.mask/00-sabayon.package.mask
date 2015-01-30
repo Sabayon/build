@@ -298,3 +298,10 @@ media-video/mkvtoolnix::gentoo
 >=dev-libs/libgit2-0.22.0
 >=dev-libs/libgit2-glib-0.22.0
 >=dev-python/pygit2-0.22.0
+
+# 2015-12-30 Sławomir Nizio: unmask after they are tested properly
+=x11-misc/lightdm-1.12.2
+=x11-misc/lightdm-base-1.12.2
+=x11-misc/lightdm-qt4-1.12.2
+# note: no 's:#show-language-selector=.*:show-language-selector=true:', check impact
+=x11-misc/lightdm-gtk-greeter-1.9.0
