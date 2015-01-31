@@ -246,7 +246,7 @@ app-text/poppler::gentoo
 >virtual/perl-Socket-2.9.0-r2
 >virtual/perl-Storable-2.410.0-r1
 >virtual/perl-Parse-CPAN-Meta-1.440.400-r1
->virtual/perl-Time-Piece-1.20-r1
+>=virtual/perl-Time-Piece-1.270.0
 >virtual/perl-IO-Compress-2.60.0-r1
 >=virtual/perl-IO-Socket-IP-0.290.0
 >virtual/perl-Compress-Raw-Bzip2-2.60.0-r2
