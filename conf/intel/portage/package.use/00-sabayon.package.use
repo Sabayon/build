@@ -759,6 +759,7 @@ sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap
 sys-apps/util-linux tty-helpers
 
 sys-auth/consolekit -acl
+sys-auth/polkit-qt qt5
 sys-auth/pambase -consolekit -kerberos
 
 sys-block/gparted -kde -gtk dmraid mdadm btrfs
