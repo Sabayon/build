@@ -336,6 +336,7 @@ gnome-extra/zeitgeist-extensions -fts
 # See bug 3619
 kde-base/ark lzma
 kde-base/dolphin semantic-desktop thumbnail
+kde-base/dolphin-plugins git
 kde-base/gwenview kipi semantic-desktop
 kde-base/kactivities semantic-desktop
 kde-base/ksnapshot kipi
