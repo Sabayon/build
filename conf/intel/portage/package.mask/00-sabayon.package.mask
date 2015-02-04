@@ -78,9 +78,6 @@ net-analyzer/pnp4nagios
 # 2010-10-02 Joost Ruis: Needs PHP with +mssql
 dev-php/PEAR-MDB2_Driver_mssql
 
-# 2010-10-02 Joost Ruis: Needs PHP with +firebird
-dev-php/PEAR-MDB2_Driver_ibase
-
 # 2010-10-02 Joost Ruis: Needs PHP with +oci8
 dev-php/PEAR-MDB2_Driver_oci8
 
@@ -108,14 +105,10 @@ media-fonts/culmus-ancient
 # 2010-11-26 Fabio Erculiani: Keep networkmanager from our overlay
 net-misc/networkmanager::gentoo
 
-# 2010-12-28 Joost Ruis: Needs vdr with -noepg
-media-plugins/vdr-noepgmenu
-
 # 2010-12-28 Joost Ruis: Needs vdr +setup, but we cannot enable that flag
 media-plugins/vdr-setup
 
 # 2011-08-16 Fabio Erculiani: Cruft we don't want
-dev-php/eaccelerator
 dev-php/xcache
 
 # udevadm settle bug on LiveCD boot
@@ -165,21 +158,11 @@ app-admin/chef-server-webui
 <sci-mathematics/pari-2.3.5
 >sci-mathematics/pari-2.3.5
 
-# 2013-08-26 Fabio Erculiani: mask the gamerlay version of osg
-# osg has a very unstable API.
-dev-games/openscenegraph::gamerlay
-
 # 2013-09-16 Fabio Erculiani: wtf? live ebuild with keywords?
 >=dev-python/python-keystoneclient-9999
 
 # 2013-09-26 Fabio Erculiani: we're shipping with ruby:1.9 atm
 >=dev-lang/ruby-2.0
-
-# 2013-10-21 Fabio Erculiani: avoid libsdl from gamerlay, since
-# version 2 is in the main tree under a different PN (libsdl2).
-media-libs/libsdl::gamerlay
-games-util/steam-games-meta::gamerlay
-games-util/steam-client-meta::gamerlay
 
 # 2013-11-13 Sławomir Nizio: this package (v. 2013.1.4, 2013.2)
 # depends directly or indirectly on packages older than we already
