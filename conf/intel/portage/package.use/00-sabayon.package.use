@@ -152,7 +152,6 @@ dev-db/freetds mssql
 # dev-db/mongodb should use V8. Allows to fix bug 3069
 # embedded-v8 due to incompatiblity with Chromium - Gentoo bug 471582
 dev-db/mongodb v8 embedded-v8
-dev-db/postgresql-base threads
 # soundex required by Entropy
 # secure-delete required by xulrunner
 # unlock-notify required by dev-db/libzdb
@@ -379,7 +378,6 @@ mail-client/thunderbird lightning -linguas_en_GB -linguas_es_AR -linguas_es_ES -
 mail-filter/dovecot-antispam dspam
 mail-filter/maildrop authlib
 mail-filter/procmail mbox
-mail-filter/spamassassin-fuzzyocr gocr
 
 mail-mta/netqmail qmail-spp
 # More postfix features
@@ -465,7 +463,6 @@ media-libs/sdl-mixer midi timidity mod mikmod
 # USE=mikmod required by gltron
 media-libs/sdl-sound modplug mikmod
 media-libs/svgalib -kernel-helper
-media-libs/swfdec gstreamer
 media-libs/tiff lzma
 media-libs/vigra fftw
 media-libs/vips fftw
@@ -698,9 +695,6 @@ net-voip/ekiga gstreamer
 
 net-wireless/bluez gstreamer obex
 net-wireless/wpa_supplicant -qt3 -qt4 wimax ap p2p eap-sim wps
-
-# Razorqt lightdm plugin is lagging behind, disable
-razorqt-base/razorqt-meta -lightdm
 
 sci-astronomy/celestia -kde
 
@@ -942,7 +936,6 @@ dev-qt/qtsql mysql
 dev-python/PyQt4 webkit sql assistant declarative examples script help
 
 # See Sabayon bug #890
-sys-devel/libperl ithreads
 dev-lang/perl ithreads
 
 # For safety (no particular reason, but grub requires ncurses) 
@@ -1190,4 +1183,3 @@ net-dns/bind threads caps
 
 # We want to build pgsql with USE=server
 dev-db/postgresql server
-virtual/postgresql server
