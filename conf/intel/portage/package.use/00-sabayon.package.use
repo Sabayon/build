@@ -395,6 +395,7 @@ media-gfx/asymptote -latex
 # Blender uses Python 3
 media-gfx/blender python_single_target_python3_4 python_targets_python3_4
 media-gfx/exiv2 xmp
+media-gfx/darktable geo cpu_flags_x86_sse3
 # l10n issue is handled by entropy dep_rewrite
 media-gfx/digikam handbook semantic-desktop
 media-gfx/gimageview mng
