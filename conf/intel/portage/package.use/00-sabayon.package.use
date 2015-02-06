@@ -152,6 +152,7 @@ dev-db/freetds mssql
 # dev-db/mongodb should use V8. Allows to fix bug 3069
 # embedded-v8 due to incompatiblity with Chromium - Gentoo bug 471582
 dev-db/mongodb v8 embedded-v8
+dev-db/postgresql server threads
 # soundex required by Entropy
 # secure-delete required by xulrunner
 # unlock-notify required by dev-db/libzdb
@@ -1182,6 +1183,3 @@ x11-apps/intel-gpu-tools python_targets_python3_4 python_single_target_python3_4
 
 # Enable caps, since threads is enabled by default
 net-dns/bind threads caps
-
-# We want to build pgsql with USE=server
-dev-db/postgresql server
