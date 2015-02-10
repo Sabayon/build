@@ -237,7 +237,6 @@ app-text/poppler::gentoo
 >virtual/perl-Pod-Parser-1.600.0
 >=virtual/perl-Pod-Escapes-1.60.0
 >virtual/perl-Scalar-List-Utils-1.350.0
->=virtual/perl-Module-Build-0.420.500
 >virtual/perl-Digest-SHA-5.880.0-r9999
 >virtual/perl-Test-Harness-3.260.0-r2
 >virtual/perl-Archive-Tar-1.900.0-r2
