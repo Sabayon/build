@@ -540,7 +540,7 @@ media-video/mkvtoolnix -qt4 -wxwidgets
 media-video/ogmrip ogm mp4 srt
 media-video/totem xulrunner iplayer galago
 media-video/vdr SetGroupSep-Patch atsc cmdsubmenu dvbsetup dxr3 graphtft iptv menuorg pinplugin rotor submenu subtitles ttxtsubs ttxtsubs yaepg
-media-video/vlc aalib egl fontconfig httpd libass live lua rtsp samba skins taglib upnp vlm
+media-video/vlc aalib egl fontconfig httpd libass live lua rtsp samba skins taglib upnp vlm -svg
 media-video/xine-ui aalib vdr
 
 # Drop xine-ui from dvdrip, since
