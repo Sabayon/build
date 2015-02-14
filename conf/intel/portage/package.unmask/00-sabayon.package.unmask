@@ -303,7 +303,6 @@ media-gfx/yafaray:0
 dev-libs/libgcrypt:11
 >=dev-libs/lzo-2.06-r1
 >=app-emulation/emul-linux-x86-baselibs-20131008-r20
->=x11-libs/cairo-1.12.16-r1
 >=app-emulation/emul-linux-x86-gtklibs-20131008-r2
 >=x11-libs/gdk-pixbuf-2.30.5-r1
 >=app-emulation/emul-linux-x86-gtklibs-20131008-r3
