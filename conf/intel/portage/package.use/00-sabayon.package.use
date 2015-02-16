@@ -402,6 +402,7 @@ media-gfx/darktable geo cpu_flags_x86_sse3
 media-gfx/digikam handbook semantic-desktop
 media-gfx/gimageview mng
 media-gfx/gimp aalib mng wmf smp
+media-gfx/gmic -ffmpeg
 media-gfx/gphoto2 aalib
 media-gfx/graphicsmagick q16 -lcms
 media-gfx/greycstoration fftw
