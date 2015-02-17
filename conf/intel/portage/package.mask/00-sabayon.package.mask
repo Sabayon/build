@@ -284,3 +284,6 @@ media-video/mkvtoolnix::gentoo
 =x11-misc/lightdm-qt4-1.12.2
 # note: no 's:#show-language-selector=.*:show-language-selector=true:', check impact
 =x11-misc/lightdm-gtk-greeter-1.9.0
+
+# 2015-02-17 Joost Ruis: mask portage version
+net-p2p/bittornado::gentoo 
