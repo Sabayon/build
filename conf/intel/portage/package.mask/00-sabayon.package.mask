@@ -212,6 +212,7 @@ app-text/poppler::gentoo
 >virtual/perl-Exporter-5.680.0-r2
 >virtual/perl-DB_File-1.829.0
 >virtual/perl-bignum-0.330.0
+>virtual/perl-Module-CoreList-5.201.501.200
 >virtual/perl-Module-Load-0.240.0-r1
 >virtual/perl-Module-Load-Conditional-0.580.0
 >virtual/perl-CGI-3.630.0-r2
