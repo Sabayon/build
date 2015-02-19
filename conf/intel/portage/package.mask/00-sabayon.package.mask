@@ -251,6 +251,7 @@ app-text/poppler::gentoo
 >virtual/perl-Locale-Maketext-1.230.0-r1
 >=virtual/perl-Devel-PPPort-3.210.0
 >dev-lang/perl-5.18.2-r9999
+>virtual/perl-version-0.990.800-r2
 
 # 10-03-2014 Joost Ruis: Mask libnl-3
 # See bug #4807
