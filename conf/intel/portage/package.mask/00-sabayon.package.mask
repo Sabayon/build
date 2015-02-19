@@ -286,4 +286,7 @@ media-video/mkvtoolnix::gentoo
 =x11-misc/lightdm-gtk-greeter-1.9.0
 
 # 2015-02-17 Joost Ruis: mask portage version
-net-p2p/bittornado::gentoo 
+net-p2p/bittornado::gentoo
+
+# 2015-02-19 Joost Ruis: Newer version is brokken with collectd
+>sys-libs/libstatgrab-0.17
