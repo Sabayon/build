@@ -276,12 +276,6 @@ net-analyzer/nmap::gentoo
 # 2014-11-27 Joost Ruis: Mask portage version
 media-video/mkvtoolnix::gentoo
 
-# 2015-12-30 Sławomir Nizio: dev-vcs/gitg doesn't compile with newer libgit2-glib, Gentoo bug 537232
-# dev-python/pygit2-0.22.0 needs masked version of libgit2
->=dev-libs/libgit2-0.22.0
->=dev-libs/libgit2-glib-0.22.0
->=dev-python/pygit2-0.22.0
-
 # 2015-12-30 Sławomir Nizio: unmask after they are tested properly
 =x11-misc/lightdm-1.12.2
 =x11-misc/lightdm-base-1.12.2
