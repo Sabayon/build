@@ -57,6 +57,13 @@ transmission|tra)
 		net-p2p/transmission-qt4 \
 		net-p2p/transmission::"$overlay"
 	;;
+quassel|qua)
+	$cmd \
+		net-irc/quassel::"$overlay" \
+		net-irc/quassel-client \
+		net-irc/quassel-common \
+		net-irc/quassel-core
+	;;
 *)
 	echo "Excuse me, but I non capisco." >&2
 	echo "Use --repo <repository> to use different overlay (default: $default_overlay)." >&2
