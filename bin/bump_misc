@@ -19,6 +19,11 @@ if [ "$1" = "--repo" ]; then
 	shift; shift
 fi
 
+if [ "$1" = "--print" ]; then
+	cmd="echo $cmd"
+	shift
+fi
+
 overlay=${overlay:-$default_overlay}
 
 what=$1
@@ -55,6 +60,7 @@ transmission|tra)
 *)
 	echo "Excuse me, but I non capisco." >&2
 	echo "Use --repo <repository> to use different overlay (default: $default_overlay)." >&2
+	echo "Use --print just to print what would be done."
 	[ -n "$1" ] && echo "Run without any parameter for interactive use." >&2
 	exit 1
 esac
