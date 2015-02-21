@@ -5,7 +5,7 @@
 
 . /sabayon/bin/buildrc || exit 2
 
-list="git [sub]version [tra]nsmission"
+list="git [sub]version [tra]nsmission [qua]ssel"
 cmd="emerge -av"
 default_overlay="sabayon-distro"
 overlay=
@@ -64,6 +64,7 @@ quassel|qua)
 		net-irc/quassel-common \
 		net-irc/quassel-core
 	;;
+	# new elements go to $list, too
 *)
 	echo "Excuse me, but I non capisco." >&2
 	echo "Use --repo <repository> to use different overlay (default: $default_overlay)." >&2
