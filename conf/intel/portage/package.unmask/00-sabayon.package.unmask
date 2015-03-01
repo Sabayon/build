@@ -67,14 +67,6 @@ media-gfx/yafaray:0
 <app-text/cuneiform-9999:0
 
 # GNOME 3.10/3.12 related unmasks
-# required by gnome-base/gnome-settings-daemon-3.10.1::gnome-next
-# required by gnome-base/gnome-core-apps-3.10.1::gnome-next
-# required by gnome-base/gnome-3.10.1::gnome-next
-# required by gnome-base/gnome (argument)
-# /usr/portage/profiles/package.mask:
-# Alexandre Rostovtsev <tetromino@gentoo.org> (04 Aug 2013)
-# API break, reverse dependencies need patching; bug #479458.
-=sci-geosciences/geocode-glib-3.10.0
 # required by dev-libs/totem-pl-parser-3.10.0::gnome-next[quvi]
 # required by media-video/totem-3.10.1::gnome-next
 # required by gnome-base/gnome-core-apps-3.10.1::gnome-next
@@ -127,7 +119,6 @@ media-gfx/yafaray:0
 >=dev-cpp/glibmm-2.40.0
 >=dev-cpp/gtkmm-3.12.0
 # don't want -r1 because of emul-linux-x86 crap
-=dev-libs/atk-2.12.0
 >=dev-libs/folks-0.9.6-r1
 >=dev-libs/gdl-3.12.0
 >=dev-libs/gjs-1.40.1
@@ -212,7 +203,6 @@ media-gfx/yafaray:0
 >=media-libs/libmediaart-0.4.0
 >=media-plugins/grilo-plugins-0.2.12
 >=media-sound/gnome-music-3.12.1
->=media-sound/gnome-sound-recorder-3.12.1
 >=media-sound/sound-juicer-3.11.90
 >=media-video/cheese-3.12.1
 >=media-video/totem-3.12.0
@@ -320,7 +310,6 @@ dev-libs/libgcrypt:11
 =sys-devel/flex-2.5.39-r1
 =net-libs/neon-0.30.0-r1
 =dev-libs/nspr-4.10.6-r1
-=net-misc/curl-7.37.0-r1
 
 # We want LXC 1.0.x
 =app-emulation/lxc-1.0*
