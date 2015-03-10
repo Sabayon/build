@@ -72,7 +72,7 @@ app-emulation/qemu fdt spice -gtk virtfs xattr usbredir
 app-emulation/vice gnome
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
 # Wine, more features
-app-emulation/wine fontconfig pipelight samba udisks
+app-emulation/wine fontconfig pipelight samba staging udisks
 app-emulation/winetricks -gtk
 # add HVM
 app-emulation/xen-tools hvm qemu
