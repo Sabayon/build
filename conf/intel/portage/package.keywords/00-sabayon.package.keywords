@@ -90,9 +90,6 @@ app-leechcraft/leechcraft-meta -~amd64 -~x86
 net-libs/libosip -~amd64 -~x86
 # net-libs/libeXosip -~amd64 -~x86
 
-# Keyword libsdl2 required by steam on amd64
-=media-libs/libsdl2-2.0.0-r1 ** ~amd64
-
 # Force stable, since shorewall{6,}-lite
 # inverse deps are not updated with the same freq.
 net-firewall/shorewall-core -~amd64 -~x86
@@ -140,8 +137,6 @@ dev-libs/ntl -~amd64 -~x86
 
 # we want stable systemd stack
 virtual/udev -~amd64 -~x86
-# accept udev-208-r2 since it provides true multilib support
-=virtual/udev-208-r2 ~amd64
 sys-apps/systemd -~amd64 -~x86
 # except systemd-208
 =sys-apps/systemd-208* ~amd64 ~x86
@@ -156,7 +151,6 @@ sys-apps/systemd -~amd64 -~x86
 # required by gnome-base/gnome-shell-3.12.1
 # required by gnome-shell (argument)
 =sys-power/upower-0.99* ** ~amd64 ~x86
-=sys-power/upower-0.100* ** ~amd64 ~x86
 
 # required by net-misc/gnome-online-miners-3.12.0
 # required by gnome-extra/gnome-documents-3.12.0
@@ -169,11 +163,6 @@ dev-php/xdebug-client -~amd64 -~x86
 
 # Prefer a stable and reliable version of freetype
 media-libs/freetype -~amd64 -~x86
-# except for freetype-2.5.4
-=media-libs/freetype-2.5.4* ~amd64 ~x86 amd64 x86
-
-# Allow systemd and upower-0.99 friendly version
-=xfce-extra/xfce4-power-manager-1.2.0_p20140527 ** ~amd64 ~x86 amd64 x86
 
 # Use stable clhep to avoid breaking geant
 sci-physics/clhep -~amd64 -~x86
