@@ -390,8 +390,6 @@ mail-mta/postfix mbox sasl
 mate-base/mate-applets networkmanager
 mate-base/caja mate
 
-mate-extra/mate-file-manager-sendto -cdr
-
 media-fonts/baekmuk-fonts -X
 
 media-gfx/asymptote -latex
