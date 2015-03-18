@@ -253,10 +253,6 @@ app-text/poppler::gentoo
 >dev-lang/perl-5.18.2-r9999
 >virtual/perl-version-0.990.800-r2
 
-# 10-03-2014 Joost Ruis: Mask libnl-3
-# See bug #4807
->=dev-libs/libnl-3.2.25
-
 # 2014-10-12 Sławomir Nizio: sci-visualization/mayavi (4.3.0) does not build with it
 =sci-libs/vtk-6.0.0*
 
