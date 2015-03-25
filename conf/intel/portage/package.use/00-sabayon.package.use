@@ -367,6 +367,7 @@ kde-base/marble plasma
 kde-base/okular chm djvu ebook crypt
 kde-base/phonon-kde -xine
 kde-base/plasma-workspace semantic-desktop python
+kde-base/poxml extras
 kde-base/pykde4 semantic-desktop
 kde-base/superkaramba python
 
