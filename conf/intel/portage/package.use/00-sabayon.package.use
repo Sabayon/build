@@ -603,6 +603,7 @@ net-im/gajim -avahi
 net-im/gyachi gpgme gtkspell gtkhtml -webkit
 net-im/jabberd2 mysql
 net-im/kadu xmpp
+net-im/ktp-common-internals otr
 net-im/pidgin bonjour console gadu groupwise meanwhile msn prediction qq sasl silc -zephyr
 net-im/psi jingle
 net-im/telepathy-connection-managers -icq -yahoo
