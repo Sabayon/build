@@ -24,7 +24,7 @@ app-arch/unzip natspec
 
 # Disable KDE on backintime
 app-backup/backintime gnome -kde
-app-backup/bacula mysql sqlite3
+app-backup/bacula sqlite3
 app-backup/deja-dup nautilus
 app-backup/fsarchiver lzma
 
