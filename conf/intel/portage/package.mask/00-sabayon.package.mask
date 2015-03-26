@@ -105,9 +105,6 @@ media-fonts/culmus-ancient
 # 2010-11-26 Fabio Erculiani: Keep networkmanager from our overlay
 net-misc/networkmanager::gentoo
 
-# 2010-12-28 Joost Ruis: Needs vdr +setup, but we cannot enable that flag
-media-plugins/vdr-setup
-
 # 2011-08-16 Fabio Erculiani: Cruft we don't want
 dev-php/xcache
 
@@ -155,7 +152,6 @@ app-admin/chef-server-webui
 
 # 2013-08-12 Fabio Erculiani: dev-perl/math-pari wants exactly
 # sci-mathematics/pari-2.3.5
-<sci-mathematics/pari-2.3.5
 >sci-mathematics/pari-2.3.5
 
 # 2013-09-16 Fabio Erculiani: wtf? live ebuild with keywords?
@@ -168,7 +164,6 @@ app-admin/chef-server-webui
 app-admin/glance
 
 # 2014-03-26 Fabui Erculiani: we now use systemd from sabayon-distro
-sys-apps/systemd::systemd-love
 sys-apps/systemd::gentoo
 
 # 2014-04-04 Fabio Erculiani: migrated to dev-python/pillow
@@ -204,7 +199,7 @@ app-text/poppler::gentoo
 >virtual/perl-CPAN-Meta-2.120.921-r2
 >virtual/perl-CPAN-Meta-YAML-0.8.0-r2
 >virtual/perl-CPAN-Meta-Requirements-2.122.0-r2
->virtual/perl-ExtUtils-Command-1.180.0-r9999
+>=virtual/perl-ExtUtils-Command-1.180.0-r2
 >virtual/perl-ExtUtils-MakeMaker-6.660.0-r1
 >virtual/perl-ExtUtils-CBuilder-0.280.210-r1
 >virtual/perl-ExtUtils-Install-1.590.0-r1
@@ -212,7 +207,7 @@ app-text/poppler::gentoo
 >virtual/perl-Exporter-5.680.0-r2
 >virtual/perl-DB_File-1.829.0
 >virtual/perl-bignum-0.330.0
->virtual/perl-Module-CoreList-5.201.502.140-r9999
+>=virtual/perl-Module-CoreList-5.201.502.140-r1
 >virtual/perl-Module-Load-0.240.0-r1
 >virtual/perl-Module-Load-Conditional-0.580.0
 >virtual/perl-CGI-3.630.0-r2
@@ -233,11 +228,11 @@ app-text/poppler::gentoo
 >=virtual/perl-IO-1.310.0
 >=virtual/perl-IO-Socket-IP-0.290.0
 >virtual/perl-Compress-Raw-Bzip2-2.60.0-r2
->virtual/perl-ExtUtils-ParseXS-3.220.0-r9999
+>=virtual/perl-ExtUtils-ParseXS-3.240.0
 >virtual/perl-Pod-Parser-1.600.0
 >=virtual/perl-Pod-Escapes-1.60.0
 >virtual/perl-Scalar-List-Utils-1.350.0
->virtual/perl-Digest-SHA-5.880.0-r9999
+>=virtual/perl-Digest-SHA-5.880.0
 >virtual/perl-Test-Harness-3.260.0-r2
 >virtual/perl-Archive-Tar-1.900.0-r2
 >virtual/perl-Compress-Raw-Zlib-2.60.0-r2
@@ -250,7 +245,7 @@ app-text/poppler::gentoo
 >virtual/perl-Thread-Queue-3.20.0-r1
 >virtual/perl-Locale-Maketext-1.230.0-r1
 >=virtual/perl-Devel-PPPort-3.210.0
->dev-lang/perl-5.18.2-r9999
+>=dev-lang/perl-5.20.1-r4
 >virtual/perl-version-0.990.800-r2
 
 # 2014-10-12 Sławomir Nizio: sci-visualization/mayavi (4.3.0) does not build with it
