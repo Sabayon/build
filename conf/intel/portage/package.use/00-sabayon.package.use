@@ -385,6 +385,7 @@ mail-filter/dovecot-antispam dspam
 mail-filter/maildrop authlib
 mail-filter/procmail mbox
 
+mail-mta/exim exiscan-acl maildir
 mail-mta/netqmail qmail-spp
 # More postfix features
 mail-mta/postfix mbox sasl
