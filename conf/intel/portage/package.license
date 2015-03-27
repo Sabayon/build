@@ -41,6 +41,7 @@ sci-electronics/eagle                   cadsoft
 sci-geosciences/googleearth             googleearth
 sci-misc/mendeleydesktop		Mendeley-EULA
 www-client/google-chrome		google-chrome
+www-client/vivaldi			Vivaldi
 www-plugins/adobe-flash			AdobeFlash-10.3 AdobeFlash-11.x
 www-plugins/chrome-binary-plugins	google-chrome
 www-plugins/google-talkplugin           Google-TOS
