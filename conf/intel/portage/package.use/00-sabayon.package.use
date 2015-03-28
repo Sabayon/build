@@ -218,6 +218,7 @@ dev-libs/gmime -mono
 # Required by bitcoin-qt
 dev-libs/leveldb -snappy
 dev-libs/libassuan static-libs
+dev-libs/libdbusmenu-qt qt5
 dev-libs/libf2c static-libs
 dev-libs/libgcrypt static-libs
 # Required by gnome-documents 3.6
