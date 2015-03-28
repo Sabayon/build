@@ -467,6 +467,7 @@ media-libs/openexr -video_cards_nvidia
 # on amd64, if ABI_X86=32 is set, exif must be unset
 media-libs/oyranos -exif
 media-libs/phonon qt5
+media-libs/phonon-vlc qt5
 media-libs/sdl-mixer midi timidity mod mikmod
 # required by games-engines/gargoyle:0
 # USE=mikmod required by gltron
