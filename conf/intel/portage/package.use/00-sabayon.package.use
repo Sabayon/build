@@ -267,7 +267,7 @@ dev-qt/qthelp compat
 dev-qt/qtwebkit kde icu printsupport
 
 dev-scheme/guile regex discouraged networking
-dev-scheme/racket backtrace futures jit places threads
+dev-scheme/racket backtrace doc futures jit places threads
 
 dev-db/sqliteodbc sqlite3
 dev-db/mysql -berkdb embedded pic extraengine
