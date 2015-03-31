@@ -222,3 +222,4 @@ net-p2p/bittornado::gentoo
 
 # 2015-03-31 Joost Ruis: kde-base/baloo requires this version
 >dev-libs/xapian-1.2.18
+>dev-libs/xapian-bindings-1.2.18
