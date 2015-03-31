@@ -172,9 +172,6 @@ dev-python/imaging
 # 2014-04-15 Fabio Erculiani: no tomcat 7.0.53 yet
 ~dev-java/tomcat-servlet-api-7.0.53
 
-# 2014-05-26 Fabio Erculiani: we are still using cpufrequtils
-sys-power/cpupower
-
 # 2014-06-01 Fabio Erculiani: always prefer stable chrome-binary-plugins
 www-plugins/chrome-binary-plugins:beta
 www-plugins/chrome-binary-plugins:unstable
