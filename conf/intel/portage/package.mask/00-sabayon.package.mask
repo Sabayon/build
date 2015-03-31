@@ -226,3 +226,6 @@ net-p2p/bittornado::gentoo
 
 # 2015-03-31 Joost Ruis: Mask unstable perl version
 =dev-lang/perl-5.20.2
+
+# Temp mask 
+=virtual/perl-DB_File-1.831.0
