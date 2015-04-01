@@ -3,7 +3,11 @@
 # script that makes it easier to bump split packages
 # (and perhaps other fun stuff)
 
-. /sabayon/bin/buildrc || exit 2
+if [ -e /sabayon/bin/buildrc ]; then
+	. /sabayon/bin/buildrc || exit 2
+else
+	echo "Warning: buildrc not found" >&2
+fi
 
 list="git [sub]version [tra]nsmission [qua]ssel"
 cmd="emerge -av"
