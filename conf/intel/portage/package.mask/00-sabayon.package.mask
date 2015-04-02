@@ -224,9 +224,12 @@ net-p2p/bittornado::gentoo
 >dev-libs/xapian-1.2.18
 >dev-libs/xapian-bindings-1.2.18
 
+# 2015-04-02 Joost Ruis: app-mobilephone/obex-data-server blocks 1.7 
+>dev-libs/openobex-1.5
+
 # 2015-03-31 Joost Ruis: Mask unstable perl version
 =dev-lang/perl-5.20.2
 
-# Temp mask 
+# Temp mask
 =virtual/perl-DB_File-1.831.0
 >virtual/perl-File-Spec-3.480.0
