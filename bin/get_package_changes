@@ -2,8 +2,6 @@
 import sys
 
 from entropy.server.interfaces import Server
-from entropy.const import etpUi
-etpUi['quiet'] = True
 import entropy.dep
 import portage
 
