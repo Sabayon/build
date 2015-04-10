@@ -524,6 +524,7 @@ media-sound/vagalume libproxy
 media-sound/kid3 -mp4
 
 media-tv/freevo lirc matrox
+media-tv/kodi airplay bluray css goom mysql pvr rtmp upnp webserver xrandr sftp nfs
 media-tv/xawtv aalib
 media-tv/xbmc airplay bluray css goom mysql pvr rtmp upnp webserver xrandr sftp nfs
 
