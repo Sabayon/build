@@ -45,7 +45,7 @@ fi
 
 rollback() {
     cd "${REPO_PATH}" || return 1
-    git rebase --abort || true
+    git rebase --abort 2> /dev/null || true
     git reset --hard "${PUSH_REMOTE}/${BRANCH}" || return 1
 }
 
