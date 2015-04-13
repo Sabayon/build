@@ -233,3 +233,4 @@ net-p2p/bittornado::gentoo
 # Temp mask
 =virtual/perl-DB_File-1.831.0
 >virtual/perl-File-Spec-3.480.0
+>dev-perl/Inline-0.530.0
