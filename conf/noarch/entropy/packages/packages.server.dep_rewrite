@@ -73,24 +73,6 @@ www-client/seamonkey (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2
 www-client/seamonkey (.*)app-crypt/pinentry(.*)\[qt4\] \1app-crypt/pinentry-qt4\2
 
 # Fix virtualbox shitty dependencies
-app-emulation/virtualbox-guest-additions#2.6.31-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.31-sabayon
-app-emulation/virtualbox-guest-additions#2.6.32-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.32-sabayon
-app-emulation/virtualbox-guest-additions#2.6.33-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.33-sabayon
-app-emulation/virtualbox-guest-additions#2.6.34-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.34-sabayon
-app-emulation/virtualbox-guest-additions#2.6.35-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.35-sabayon
-app-emulation/virtualbox-guest-additions#2.6.36-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.36-sabayon
-app-emulation/virtualbox-guest-additions#2.6.37-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.37-sabayon
-app-emulation/virtualbox-guest-additions#2.6.38-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.38-sabayon
-app-emulation/virtualbox-guest-additions#2.6.39-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.39-sabayon
-app-emulation/virtualbox-guest-additions#3.0.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.0.0-sabayon
-app-emulation/virtualbox-guest-additions#3.1.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.1.0-sabayon
-app-emulation/virtualbox-guest-additions#3.2.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.2.0-sabayon
-app-emulation/virtualbox-guest-additions#3.3.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.3.0-sabayon
-app-emulation/virtualbox-guest-additions#3.4.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.4.0-sabayon
-app-emulation/virtualbox-guest-additions#3.5.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.5.0-sabayon
-app-emulation/virtualbox-guest-additions#3.6.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.6.0-sabayon
-app-emulation/virtualbox-guest-additions#3.7.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.7.0-sabayon
-app-emulation/virtualbox-guest-additions#3.8.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.8.0-sabayon
 app-emulation/virtualbox-guest-additions#3.9.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.9.0-sabayon
 app-emulation/virtualbox-guest-additions#3.10.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.10.0-sabayon
 app-emulation/virtualbox-guest-additions#3.11.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.11.0-sabayon
@@ -102,6 +84,10 @@ app-emulation/virtualbox-guest-additions#3.16.0-sabayon (.*)x11-drivers/xf86-vid
 app-emulation/virtualbox-guest-additions#3.17.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.17.0-sabayon
 app-emulation/virtualbox-guest-additions#3.18.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.18.0-sabayon
 app-emulation/virtualbox-guest-additions#3.19.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.19.0-sabayon
+app-emulation/virtualbox-guest-additions#4.0.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#4.0.0-sabayon
+app-emulation/virtualbox-guest-additions#4.1.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#4.1.0-sabayon
+app-emulation/virtualbox-guest-additions#4.2.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#4.2.0-sabayon
+app-emulation/virtualbox-guest-additions#4.3.0-sabayon (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#4.3.0-sabayon
 
 # drop virtualbox-modules dep from virtualbox-bin
 # 2011-02-08: DISABLED because vboxusers group is required but not created by virtualbox-bin 
