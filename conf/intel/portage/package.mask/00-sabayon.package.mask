@@ -99,9 +99,6 @@ media-sound/qtractor
 # 2010-11-18 Joost Ruis: Blocks media-fonts/jsmath-extra-dark
 media-fonts/jsmath-extra-light
 
-# 2010-11-18 Joost Ruis: Blocks media-fonts/culmus
-media-fonts/culmus-ancient
-
 # 2010-11-26 Fabio Erculiani: Keep networkmanager from our overlay
 net-misc/networkmanager::gentoo
 
@@ -154,9 +151,6 @@ app-admin/chef-server-webui
 # sci-mathematics/pari-2.3.5
 >sci-mathematics/pari-2.3.5
 
-# 2013-09-16 Fabio Erculiani: wtf? live ebuild with keywords?
->=dev-python/python-keystoneclient-9999
-
 # 2013-11-13 Sławomir Nizio: this package (v. 2013.1.4, 2013.2)
 # depends directly or indirectly on packages older than we already
 # provide. It cannot be supported properly (easily), and seems to
@@ -168,9 +162,6 @@ sys-apps/systemd::gentoo
 
 # 2014-04-04 Fabio Erculiani: migrated to dev-python/pillow
 dev-python/imaging
-
-# 2014-04-15 Fabio Erculiani: no tomcat 7.0.53 yet
-~dev-java/tomcat-servlet-api-7.0.53
 
 # 2014-06-01 Fabio Erculiani: always prefer stable chrome-binary-plugins
 www-plugins/chrome-binary-plugins:beta
