@@ -99,9 +99,6 @@ media-sound/qtractor
 # 2010-11-18 Joost Ruis: Blocks media-fonts/jsmath-extra-dark
 media-fonts/jsmath-extra-light
 
-# 2010-11-26 Fabio Erculiani: Keep networkmanager from our overlay
-net-misc/networkmanager::gentoo
-
 # 2011-08-16 Fabio Erculiani: Cruft we don't want
 dev-php/xcache
 

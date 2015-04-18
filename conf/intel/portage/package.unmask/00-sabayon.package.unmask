@@ -96,8 +96,6 @@ media-gfx/yafaray:0
 # masked for testing
 =media-libs/libquvi-scripts-0.9.20131104
 
->=net-misc/networkmanager-0.9.8.10
-
 # required by app-misc/tracker-0.16.4[iso]
 # required by gnome-base/nautilus-3.12.0::sabayon-distro
 # required by app-text/evince-3.12.1[nautilus]
