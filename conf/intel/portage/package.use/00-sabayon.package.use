@@ -1091,9 +1091,9 @@ media-video/vlc vaapi -vdpau
 virtual/ffmpeg vaapi vdpau
 www-plugins/gnash vaapi vdpau
 
-# Use Gtk3 for scim and spice-gtk
 app-i18n/scim gtk3
-net-misc/spice-gtk gtk3
+# usbredir required by app-emulation/virt-manager-1.1.0-r2
+net-misc/spice-gtk gtk3 usbredir
 
 # Disable plymouth integration in gdm 3.10
 # Disable gdm integration in plymouth
