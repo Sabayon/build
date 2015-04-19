@@ -13,6 +13,7 @@ dev-util/intel-ocl-sdk			Intel-SDP
 dev-util/nvidia-cuda-toolkit		NVIDIA-CUDA
 games-action/mutantstorm-demo		POMPOM
 games-action/spacetripper-demo		POMPOM
+games-arcade/primateplunge		Primate-Plunge
 games-arcade/thinktanks-demo		THINKTANKS
 games-arcade/marbleblast-demo		MARBLEBLAST
 games-arcade/marbleblastgold-demo	MARBLEBLAST
