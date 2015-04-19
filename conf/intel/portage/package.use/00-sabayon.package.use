@@ -1168,6 +1168,8 @@ app-emulation/vmware-modules -vmci -vsock
 # No modules, thanks. We're bleeding.
 net-firewall/ipset -modules
 
+net-firewall/shorewall lite4 lite6
+
 # Add more docs to lxc
 app-emulation/lxc doc
 

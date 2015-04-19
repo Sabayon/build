@@ -90,10 +90,6 @@ app-leechcraft/leechcraft-meta -~amd64 -~x86
 net-libs/libosip -~amd64 -~x86
 # net-libs/libeXosip -~amd64 -~x86
 
-# Force stable, since shorewall{6,}-lite
-# inverse deps are not updated with the same freq.
-net-firewall/shorewall-core -~amd64 -~x86
-
 # Accept any libav-0.8* and virtual/ffmpeg-0.10*
 # This is what we currently support
 =virtual/ffmpeg-0.10* ~amd64 ~x86
