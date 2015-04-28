@@ -194,7 +194,7 @@ dev-lang/fpc source ide
 dev-lang/ifc idb -linguas_ja
 dev-lang/lua deprecated
 dev-lang/mono moonlight
-dev-lang/nqp moar
+dev-lang/nqp moar -parrot
 dev-lang/ocaml tk
 dev-lang/parrot pcre
 dev-lang/php -threads apache2 bcmath calendar cgi ctype curl filter fpm ftp gd hash imap intl json mhash mysql mysqli mysqlnd odbc pcntl pcre pdo posix postgres reflection simplexml snmp soap sockets spl sqlite sqlite3 tidy tokenizer wddx xml xmlreader xmlwriter xsl zip sysvipc xslt
