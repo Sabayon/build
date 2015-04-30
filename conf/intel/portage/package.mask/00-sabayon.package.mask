@@ -232,4 +232,3 @@ net-p2p/bittornado::gentoo
 =virtual/perl-DB_File-1.831.0
 >virtual/perl-File-Spec-3.480.0
 >dev-perl/Inline-0.530.0
-=sys-devel/base-gcc-4.7.3::gentoo
