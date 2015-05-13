@@ -164,6 +164,10 @@ dev-python/imaging
 www-plugins/chrome-binary-plugins:beta
 www-plugins/chrome-binary-plugins:unstable
 
+# 2014-08-02 Fabio Erculiani: plymouth 0.9.0 simply does not work
+>=sys-boot/plymouth-0.9.0
+>=sys-boot/plymouth-extras-0.9.0
+
 # 2014-08-31 Sławomir Nizio: we cannot support it properly, bug 3776
 app-portage/g-octave
 
