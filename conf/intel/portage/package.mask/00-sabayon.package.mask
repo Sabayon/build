@@ -233,8 +233,8 @@ net-p2p/bittornado::gentoo
 >app-emulation/virtualbox-guest-additions-4.3.18
 >app-emulation/virtualbox-modules-4.3.18
 >x11-drivers/xf86-video-virtualbox-4.3.18
->app-emulation/virtualbox-extpack-oracle-4.3.18
->app-emulation/virtualbox-bin-4.3.18
+>app-emulation/virtualbox-extpack-oracle-4.3.18.96516
+>app-emulation/virtualbox-bin-4.3.18.96516
 >app-emulation/virtualbox-additions-4.3.18
 
 # Temp mask
