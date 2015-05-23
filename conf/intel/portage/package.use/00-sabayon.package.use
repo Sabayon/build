@@ -94,6 +94,8 @@ app-leechcraft/lc-lmp kde
 
 app-misc/ddccontrol -gtk -gnome
 app-misc/gcstar stats
+# use libav
+app-misc/strigi -ffmpeg
 
 # Kernel drivers are unwanted for lirc, they're in-kernel
 app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
