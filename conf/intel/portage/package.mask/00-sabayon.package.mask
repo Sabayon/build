@@ -228,6 +228,9 @@ net-p2p/bittornado::gentoo
 # 2015-04-29 Joost Ruis: Breaks app-arch/zpipe, see Gentoo bug #535990
 >=app-arch/libzpaq-7.04
 
+# 2015-05-23 Sławomir Nizio: this revision contains only a change to make it work with Apache 2.4
+=www-apache/mod_evasive-1.10.1-r1
+
 # Temp mask
 =virtual/perl-DB_File-1.831.0
 >virtual/perl-File-Spec-3.480.0
