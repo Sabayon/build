@@ -1,0 +1,4 @@
+# make it compile
+# https://bugs.gentoo.org/show_bug.cgi?id=516692
+CFLAGS="-O2 -march=x86-64 -pipe -fno-devirtualize"
+CXXFLAGS="-O2 -march=x86-64 -pipe -fno-devirtualize"
