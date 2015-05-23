@@ -836,6 +836,7 @@ virtual/opencl video_cards_nvidia video_cards_fglrx
 
 # relevant flags must be kept in sync with dev-vcs/subversion
 www-apache/mod_dav_svn -dso
+www-apache/mod_jk java
 
 www-apps/egroupware mysql
 www-apps/owncloud mysql postgres sqlite3
