@@ -542,6 +542,8 @@ media-video/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetecti
 media-video/jubler mplayer
 media-video/kino gstreamer quicktime
 media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_nvidia vpx jpeg2k
+# To fix compilation (x86, multilib).
+media-video/libav pic
 media-video/miro faac
 media-video/mplayer 3dnow 3dnowext aalib amr ass bl cddb cdparanoia cpudetection dvdnav -dxr3 faac rtmp ftp ladspa lirc -live md5sum mmxext mng mp2 openal pnm radio rar rtc sse sse2 ssse3 tga tivo vidix vpx x264 zoran
 # testing mplayer flags
