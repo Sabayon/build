@@ -34,6 +34,7 @@ games-simulation/bcs-demo		BCS
 media-sound/google-musicmanager		Google-TOS Apache-2.0 MIT LGPL-2.1 gSOAP BSD FDL-1.2 MPL-1.1 openssl ZLIB libtiff
 net-wireless/broadcom-sta		Broadcom
 app-emulation/virtualbox-bin		PUEL
+media-libs/fdk-aac			FraunhoferFDK
 media-sound/baudline			baudline
 media-sound/neroaac			Nero-AAC-EULA
 media-video/makemkv			MakeMKV-EULA
