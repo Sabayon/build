@@ -94,8 +94,6 @@ app-leechcraft/lc-lmp kde
 
 app-misc/ddccontrol -gtk -gnome
 app-misc/gcstar stats
-# use libav
-app-misc/strigi -ffmpeg libav
 
 # Kernel drivers are unwanted for lirc, they're in-kernel
 app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
@@ -347,7 +345,6 @@ gnome-extra/zeitgeist-extensions -fts
 kde-base/ark lzma
 kde-base/dolphin semantic-desktop thumbnail
 kde-base/dolphin-plugins git
-kde-base/ffmpegthumbs libav
 kde-base/gwenview kipi semantic-desktop
 kde-base/kactivities semantic-desktop
 kde-base/ksnapshot kipi
@@ -464,11 +461,11 @@ media-libs/libsdl2 abi_x86_32
 media-libs/libsfml doc examples
 media-libs/libsoundtouch sse2
 media-libs/libxtract fftw
-media-libs/mediastreamer video -ffmpeg libav
+media-libs/mediastreamer video -ffmpeg
 # www-client/chromium wants media-libs/mesa[gles2]
 media-libs/mesa gbm g3dvl nptl openvg pic shared-dricore shared-glapi video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_r100 video_cards_r200 video_cards_r300 video_cards_r600 video_cards_radeon video_cards_via video_cards_vmware video_cards_radeonsi xa xorg gles2
 media-libs/ming php
-media-libs/mlt libav melt frei0r kdenlive quicktime python
+media-libs/mlt melt frei0r kdenlive quicktime python
 media-libs/openexr -video_cards_nvidia
 # on amd64, if ABI_X86=32 is set, exif must be unset
 media-libs/oyranos -exif
@@ -540,7 +537,6 @@ media-video/blinkensim aalib
 media-video/dvgrab quicktime
 virtual/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx jpeg2k
 media-video/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx
-media-video/ffmpeg2theora libav
 media-video/jubler mplayer
 media-video/kino gstreamer quicktime
 media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_nvidia vpx jpeg2k
@@ -555,10 +551,9 @@ media-video/mplayer2 -xvmc
 # we have media-video/mkvtoolnix-gui
 media-video/mkvtoolnix -qt4 -wxwidgets
 media-video/ogmrip ogm mp4 srt
-media-video/openshot libav
 media-video/totem xulrunner iplayer galago
 media-video/vdr SetGroupSep-Patch atsc cmdsubmenu dvbsetup dxr3 graphtft iptv menuorg pinplugin rotor submenu subtitles ttxtsubs ttxtsubs yaepg
-media-video/vlc aalib egl fontconfig httpd libass libav live lua rtsp samba skins taglib upnp vlm -svg
+media-video/vlc aalib egl fontconfig httpd libass live lua rtsp samba skins taglib upnp vlm -svg
 media-video/xine-ui aalib vdr
 
 # Drop xine-ui from dvdrip, since
