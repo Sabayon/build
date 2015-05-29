@@ -731,7 +731,7 @@ sci-electronics/geda doc stroke
 sci-geosciences/grass tcl tk fftw
 # doesn't build with tiff 4.0
 sci-geosciences/mapserver flash threads -tiff
-sci-geosciences/qgis grass
+sci-geosciences/qgis -grass
 
 # required by media-gfx/luminance-hdr
 sci-libs/fftw threads
