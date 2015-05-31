@@ -543,11 +543,6 @@ media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_
 # To fix compilation (x86, multilib).
 media-video/libav pic
 media-video/miro faac
-media-video/mplayer 3dnow 3dnowext aalib amr ass bl cddb cdparanoia cpudetection dvdnav -dxr3 faac rtmp ftp ladspa lirc -live md5sum mmxext mng mp2 openal pnm radio rar rtc sse sse2 ssse3 tga tivo vidix vpx x264 zoran
-# testing mplayer flags
-media-video/mplayer fbcon bs2b
-# Drop dead code, doesn't work with libav
-media-video/mplayer2 -xvmc
 # we have media-video/mkvtoolnix-gui
 media-video/mkvtoolnix -qt4 -wxwidgets
 media-video/ogmrip ogm mp4 srt
@@ -1089,8 +1084,6 @@ media-tv/mythtv vaapi vdpau
 media-video/avidemux vaapi vdpau
 media-video/hwdecode-demos vaapi vdpau
 media-video/libav vaapi vdpau
-media-video/mplayer vaapi vdpau
-media-video/mplayer2 vaapi vdpau
 media-video/ffmpeg vaapi vdpau
 # TODO: vdpau requires libav-10. Sigh.
 media-video/vlc vaapi -vdpau
