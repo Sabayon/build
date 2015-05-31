@@ -543,6 +543,7 @@ media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_
 # To fix compilation (x86, multilib).
 media-video/libav pic
 media-video/miro faac
+media-video/mpv libmpv
 # we have media-video/mkvtoolnix-gui
 media-video/mkvtoolnix -qt4 -wxwidgets
 media-video/ogmrip ogm mp4 srt
