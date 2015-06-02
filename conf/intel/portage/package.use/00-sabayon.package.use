@@ -1193,6 +1193,7 @@ games-puzzle/gnome-sudoku python_targets_python3_4 python_single_target_python3_
 media-sound/gnome-music python_targets_python3_4 python_single_target_python3_4 -python_single_target_python3_3
 media-gfx/eog-plugins python_targets_python3_4 python_single_target_python3_4 -python_single_target_python3_3
 x11-apps/intel-gpu-tools python_targets_python3_4 python_single_target_python3_4
+media-video/transmageddon python_targets_python3_4 python_single_target_python3_4
 
 # Enable caps, since threads is enabled by default
 net-dns/bind threads caps
