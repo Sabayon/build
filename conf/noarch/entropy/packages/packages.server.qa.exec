@@ -243,30 +243,20 @@ def warn_haskell_bump():
 if __name__ == "__main__":
 
     exit_st = 0
-    rc = check_unwanted_deps()
-    if rc != 0:
-        exit_st = rc
 
-    rc = warn_portage_bump()
-    if rc != 0 and rc > exit_st:
-        exit_st = rc
+    checks = [
+        check_unwanted_deps,
+        warn_portage_bump,
+        warn_perl5_bump,
+        warn_haskell_bump,
+        warn_binutils_bump,
+        warn_sip_bump
+        # more tests here
+    ]
 
-    rc = warn_perl5_bump()
-    if rc != 0 and rc > exit_st:
-        exit_st = rc
-
-    rc = warn_haskell_bump()
-    if rc != 0 and rc > exit_st:
-        exit_st = rc
-
-    rc = warn_binutils_bump()
-    if rc != 0 and rc > exit_st:
-        exit_st = rc
-
-    rc = warn_sip_bump()
-    if rc != 0 and rc > exit_st:
-        exit_st = rc
-
-    # more tests here
+    for check in checks:
+        rc = check()
+        if rc > exit_st:
+            exit_st = rc
 
     raise SystemExit(exit_st)
