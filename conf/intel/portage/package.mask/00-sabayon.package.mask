@@ -229,10 +229,5 @@ net-p2p/bittornado::gentoo
 =www-apache/mod_evasive-1.10.1-r1
 =www-apache/mod_scgi-1.14-r1
 
-# Temp mask
-=virtual/perl-DB_File-1.831.0
->virtual/perl-File-Spec-3.480.0
->dev-perl/Inline-0.530.0
-
 # 2015-06-05 Sławomir Nizio: Mask unstable perl version
 >dev-lang/perl-5.20.2
