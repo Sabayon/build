@@ -603,7 +603,7 @@ net-im/bitlbee twitter
 net-im/centerim gadu
 # ejabberd, more features!
 net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
-net-im/ekg2 gadu gpg xmpp
+net-im/ekg2 -gadu gpg xmpp sqlite
 net-im/empathy gnome
 net-im/gajim -avahi
 net-im/gyachi gpgme gtkspell gtkhtml -webkit
