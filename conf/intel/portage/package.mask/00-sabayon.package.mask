@@ -215,9 +215,6 @@ net-p2p/bittornado::gentoo
 # 2015-04-02 Joost Ruis: app-mobilephone/obex-data-server blocks 1.7
 >dev-libs/openobex-1.5
 
-# 2015-03-31 Joost Ruis: Mask unstable perl version
-=dev-lang/perl-5.20.2
-
 # 2015-04-18 Joost Ruis: Required by media-video/subliminal-0.7.4
 >dev-python/guessit-0.6.2
 >dev-python/babelfish-0.4.0
@@ -236,3 +233,6 @@ net-p2p/bittornado::gentoo
 =virtual/perl-DB_File-1.831.0
 >virtual/perl-File-Spec-3.480.0
 >dev-perl/Inline-0.530.0
+
+# 2015-06-05 Sławomir Nizio: Mask unstable perl version
+>dev-lang/perl-5.20.2
