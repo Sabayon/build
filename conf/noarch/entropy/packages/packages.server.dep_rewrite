@@ -101,6 +101,7 @@ dev-java/netbeans-ide (.*)dev-vcs/subversion(.*):0\[java\] \1dev-vcs/subversion-
 
 # Drop kde-l10n* deps, always
 * (.*)kde-base/kde-l10n(.*)
+* (.*)kde-apps/kde4-l10n(.*)
 
 # Drop x11-libs/cairo PDEPEND from dev-libs/gobject-introspection
 # cairo pulls in mesa (through virtual/opengl) and this is very

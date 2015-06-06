@@ -348,8 +348,7 @@ kde-base/dolphin-plugins git
 kde-base/gwenview kipi semantic-desktop
 kde-base/kactivities semantic-desktop
 kde-base/ksnapshot kipi
-# move kde-base/kde-l10n-meta kde-base/kde-l10n
-kde-base/kde-l10n linguas_be linguas_csb linguas_ne linguas_th linguas_wa
+kde-apps/kde4-l10n linguas_be linguas_csb linguas_ne linguas_th linguas_wa
 kde-base/kdebase-runtime-meta semantic-desktop
 kde-base/kde-meta -nls semantic-desktop
 kde-base/kdepim-meta -nls
