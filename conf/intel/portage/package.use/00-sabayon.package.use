@@ -265,10 +265,25 @@ dev-python/pyudev pyqt4
 # don't require media-libs/alsa-lib[alisp]
 dev-python/pyglet -alsa
 
+# added for mythtv
+dev-qt/qtsql mysql
+
+# required by kde-base/artikulate-4.13.1[-gstreamer]
+# required by kde-base/kdeedu-meta-4.13.1
+# required by kde-base/kde-meta-4.13.1
+# required by kde-meta (argument)
+>=dev-qt/qt-mobility-1.2.2_p20130703 multimedia qml
+
 dev-qt/qt-creator autotools cmake git subversion valgrind examples
 dev-qt/qt3support kde
+dev-qt/qtcore:4 private-headers
+dev-qt/qtcore:5 icu
+dev-qt/qtdeclarative webkit private-headers
 dev-qt/qthelp compat
 dev-qt/qtwebkit kde icu printsupport
+dev-qt/qtgui mng private-headers raster gtkstyle
+dev-qt/qtmultimedia:5 qml
+dev-qt/qtscript private-headers
 
 dev-scheme/guile regex discouraged networking
 dev-scheme/racket backtrace doc futures jit places threads
@@ -889,12 +904,6 @@ x11-libs/libdrm video_cards_intel video_cards_nouveau video_cards_radeon video_c
 # libva coolness
 x11-libs/libva video_cards_dummy video_cards_intel
 
-dev-qt/qtgui mng private-headers raster gtkstyle
-
-dev-qt/qtcore:4 private-headers
-dev-qt/qtcore:5 icu
-dev-qt/qtscript private-headers
-dev-qt/qtdeclarative webkit private-headers
 x11-libs/wxGTK gstreamer
 
 # to make cinepaint work, enable threads on fltk
@@ -946,8 +955,6 @@ xfce-base/xfwm4 xcomposite
 
 xfce-extra/tumbler gstreamer raw
 
-# added for mythtv
-dev-qt/qtsql mysql
 dev-python/PyQt4 webkit sql assistant declarative examples script help
 
 # See Sabayon bug #890
@@ -1139,12 +1146,6 @@ dev-libs/libnl utils
 
 # Prefer gtk for media-libs/libmediaart
 media-libs/libmediaart gtk -qt4 -qt5
-
-# required by kde-base/artikulate-4.13.1[-gstreamer]
-# required by kde-base/kdeedu-meta-4.13.1
-# required by kde-base/kde-meta-4.13.1
-# required by kde-meta (argument)
->=dev-qt/qt-mobility-1.2.2_p20130703 multimedia qml
 
 # required by kde-base/nepomuk-4.13.1
 # required by media-video/bangarang-2.1-r2
