@@ -1196,3 +1196,6 @@ media-video/transmageddon python_targets_python3_4 python_single_target_python3_
 
 # Enable caps, since threads is enabled by default
 net-dns/bind threads caps
+
+# Disable upower, we use systemd
+x11-misc/sddm -upower
