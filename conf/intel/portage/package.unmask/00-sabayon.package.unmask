@@ -5,5 +5,5 @@ media-video/nvidia-settings::sabayon-distro
 # suggesting not to use it with untrusted input.
 <app-text/cuneiform-9999:0
 
-# todo: should be killed with fire
->=app-emulation/emul-linux-x86-baselibs-20131008-r20
+# Plasma 5
+kde-plasma/bluez-qt
