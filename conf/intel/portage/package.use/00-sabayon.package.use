@@ -285,6 +285,7 @@ dev-qt/qthelp compat
 dev-qt/qtwebkit kde icu printsupport
 dev-qt/qtgui mng private-headers raster gtkstyle
 dev-qt/qtmultimedia:5 qml
+dev-qt/qtquickcontrols:5 widgets
 dev-qt/qtscript private-headers
 
 dev-scheme/guile regex discouraged networking
