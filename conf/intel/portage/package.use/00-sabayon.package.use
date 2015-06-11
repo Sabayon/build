@@ -92,6 +92,9 @@ app-laptop/tp_smapi hdaps
 
 app-leechcraft/lc-lmp kde
 
+# USE=sound wants mplayer
+app-misc/anki -sound
+
 app-misc/ddccontrol -gtk -gnome
 app-misc/gcstar stats
 
