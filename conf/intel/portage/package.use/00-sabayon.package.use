@@ -1087,6 +1087,9 @@ app-cdr/brasero tracker
 # required by gnome-base/gnome (argument)
 gnome-base/nautilus tracker
 
+## GNOME 3.16 flags
+>=gnome-base/gnome-control-center-3.16.2 kerberos networkmanager v4l
+
 # VAAPI/VDPAU support
 media-libs/avidemux-core vaapi vdpau
 media-libs/xine-lib vaapi vdpau
