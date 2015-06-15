@@ -129,9 +129,6 @@ sys-apps/man
 # 2013-06-26 Fabio Erculiani: migrated to logind
 sys-auth/consolekit
 
-# 2014-11-08 Sławomir Nizio: wants to downgrade dev-ruby/sass
-app-admin/chef-server-webui
-
 # 2013-08-12 Fabio Erculiani: dev-python/python-novaclient and
 # dev-python/python-glanceclient want older prettytable and
 # matter keeps pulling it it.
