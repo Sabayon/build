@@ -231,6 +231,7 @@ dev-libs/libf2c static-libs
 dev-libs/libgcrypt static-libs
 # Required by gnome-documents 3.6
 dev-libs/libgdata gnome
+dev-libs/libgit2-glib ssh
 dev-libs/libgpg-error static-libs
 dev-libs/libksba static-libs
 dev-libs/libmcs -kde
