@@ -231,3 +231,6 @@ net-p2p/bittornado::gentoo
 
 # 2015-06-05 Sławomir Nizio: Mask unstable perl version
 >dev-lang/perl-5.20.2
+
+# 2015-06-15 Joost Ruis: Do not bump libsepol, required by anaconda
+>sys-libs/libsepol-2.3
