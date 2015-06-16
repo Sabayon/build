@@ -40,7 +40,7 @@ gnome-extra/gnome-commander (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 gnustep-libs/popplerkit (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 kde-base/kfilemetadata (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 kde-base/nepomuk-core (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
-kde-base/okular (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
+kde-apps/okular (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 kde-misc/tellico (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 mail-client/claws-mail (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-glib\2
 media-gfx/gimp (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
