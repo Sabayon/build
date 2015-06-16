@@ -11,7 +11,6 @@ app-office/krita (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-office/libreoffice (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 app-office/openoffice (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 app-office/texmaker (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
-app-office/texmakerx (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-office/texstudio (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-text/apvlv (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 app-text/atril (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-glib\2
@@ -47,7 +46,6 @@ mail-client/claws-mail (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-glib
 media-gfx/gimp (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 media-gfx/graphviz (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-glib\2
 media-gfx/inkscape (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
-media-gfx/keyjnote (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 media-gfx/pdf2svg (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 net-print/cups (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 net-print/cups-filters (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
