@@ -4,6 +4,3 @@ media-video/nvidia-settings::sabayon-distro
 # Masked in Gentoo due to buffer overflows, with a comment
 # suggesting not to use it with untrusted input.
 <app-text/cuneiform-9999:0
-
-# Plasma 5
-kde-plasma/bluez-qt
