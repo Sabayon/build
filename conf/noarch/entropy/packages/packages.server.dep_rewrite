@@ -26,9 +26,12 @@ app-text/pdf2oo (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-base\2
 app-text/pdfgrep (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 app-text/qpdfview (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-text/referencer (.*)app-text/poppler(.*) app-text/poppler-glib
+app-text/scribus (.*)app-text/poppler(.*) app-text/poppler-base\2
 app-text/texlive-core (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
-app-text/xournal app-text/poppler(\[.*\]) app-text/poppler-glib
+app-text/xournal app-text/poppler(\[.*\])? app-text/poppler-glib
 app-text/xpdf (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
+app-text/xournal app-text/poppler(\[.*\])? app-text/poppler-glib
+app-text/yagf app-text/poppler(\[.*\])? app-text/poppler-base\1
 app-text/zathura-pdf-poppler (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 dev-games/openscenegraph (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 dev-python/python-poppler (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
