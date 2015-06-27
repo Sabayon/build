@@ -492,6 +492,11 @@ media-libs/mlt melt frei0r kdenlive quicktime python
 media-libs/openexr -video_cards_nvidia
 # on amd64, if ABI_X86=32 is set, exif must be unset
 media-libs/oyranos -exif
+
+# ...but disable ABI_X86_32 to make elektra compile (Gentoo bug 519492)
+app-admin/elektra -abi_x86_32
+media-libs/oyranos -abi_x86_32
+
 media-libs/phonon qt5
 media-libs/phonon-vlc qt5
 media-libs/sdl-mixer midi timidity mod mikmod
