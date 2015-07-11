@@ -293,6 +293,7 @@ dev-qt/qtgui:5 mng private-headers raster -gtkstyle
 dev-qt/qtmultimedia:5 qml
 dev-qt/qtquickcontrols:5 widgets
 dev-qt/qtscript private-headers
+dev-qt/qtsingleapplication qt5
 
 dev-scheme/guile regex discouraged networking
 dev-scheme/racket backtrace doc futures jit places threads
