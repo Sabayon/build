@@ -946,6 +946,7 @@ x11-misc/xscreensaver -new-login
 
 x11-plugins/pidgin-sipe voice
 x11-plugins/cairo-dock-plugins alsa exif gmenu -kde terminal tomboy -webkit -xfce -xklavier
+x11-terms/qterminal -qt4 qt5
 x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisVert Ubuntu Verde Wood
 # Our artwork, blame Ian
 >=x11-themes/elementary-icon-theme-2.7.1 monochrome branding
