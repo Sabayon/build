@@ -705,7 +705,7 @@ net-misc/networkmanager-vpnc gnome
 net-misc/ntp -zeroconf
 net-misc/openssh -X
 net-misc/openssh -ldap
-net-misc/owncloud-client qt4 -qt5
+net-misc/owncloud-client -qt4 qt5
 # No more spidermonkey
 net-misc/plowshare -javascript
 net-misc/ps3mediaserver multiuser tsmuxer
