@@ -551,6 +551,7 @@ media-sound/rhythmbox -cdr python_single_target_python3_4 -python_single_target_
 media-sound/snd fftw
 media-sound/sonic-visualiser fftw
 >=media-sound/soundkonverter-0.2.90-r1 lame
+media-sound/tomahawk qt5
 media-sound/vagalume libproxy
 # Broken with latest libmp4v2
 media-sound/kid3 -mp4
