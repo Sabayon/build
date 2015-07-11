@@ -286,6 +286,7 @@ dev-qt/qtcore:4 private-headers
 dev-qt/qtcore:5 icu
 dev-qt/qtdeclarative webkit private-headers
 dev-qt/qthelp compat
+dev-qt/qtlockedfile qt5
 dev-qt/qtwebkit kde icu printsupport
 dev-qt/qtgui mng private-headers raster gtkstyle
 dev-qt/qtgui:5 mng private-headers raster -gtkstyle
