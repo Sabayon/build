@@ -4,3 +4,5 @@ media-video/nvidia-settings::sabayon-distro
 # Masked in Gentoo due to buffer overflows, with a comment
 # suggesting not to use it with untrusted input.
 <app-text/cuneiform-9999:0
+
+=sys-devel/gcc-config-1.8-r1::sabayon-distro
