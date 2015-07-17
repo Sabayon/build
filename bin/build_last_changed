@@ -38,7 +38,15 @@ o1_name=sabayon-distro
 o2_name=sabayon
 
 post=/.git/index
-if [[ ${o1}${post} -nt ${o2}${post} ]]; then
+ind1=${overlays_dir}/${o1}${post}
+ind2=${overlays_dir}/${o2}${post}
+
+if [[ ! -e ${ind1} || ! -e ${ind2} ]]; then
+	echo "Either ${ind1} or ${ind2} not found (or even both)!" >&2
+	exit 1
+fi
+
+if [[ ${ind1} -nt ${ind2} ]]; then
 	newer=${o1}
 	name=${o1_name}
 else
