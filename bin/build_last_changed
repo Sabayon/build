@@ -1,0 +1,59 @@
+#!/bin/bash
+
+# Quick and dirty script to install the package changed
+# last in a recently changed overlay.
+
+#   Copyright 2015 Sławomir Nizio
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+
+if [[ -e /sabayon/bin/buildrc ]]; then
+	. /sabayon/bin/buildrc || exit 2
+else
+	echo "Warning: buildrc not found" >&2
+fi
+
+overlays_dir=${1:-/var/lib/layman}
+
+o1=sabayon
+o1_name=sabayon-distro
+
+o2=for-gentoo
+o2_name=sabayon
+
+post=/.git/index
+if [[ ${o1}${post} -nt ${o2}${post} ]]; then
+	newer=${o1}
+	name=${o1_name}
+else
+	newer=${o2}
+	name=${o2_name}
+fi
+
+echo "taking from ${newer}"
+changes=$(git --work-tree="${overlays_dir}/${newer}" \
+	--git-dir="${overlays_dir}/${newer}/.git"	\
+	diff-tree --name-status -r --no-commit-id HEAD) || exit 1
+
+echo "changes for the last commit:"
+echo "${changes}"
+
+# This can be made by one command but well, lol.
+pkg_changes=$(echo "${changes}" | grep -v "^D" \
+	| sed -r -e 's/^[a-zA-Z0-9]+[[:space:]]*//' -e 's:^([^/]+/[^/]+).*:\1:' \
+	| sort -u | grep -E '^(virtual/|[^/]+-)' | awk "{print \$1 \"::${name}\"}")
+
+echo "packages to install:"
+echo "${pkg_changes}"
+set -f
+emerge -av ${pkg_changes}
