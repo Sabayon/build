@@ -25,10 +25,16 @@ fi
 
 overlays_dir=${1:-/var/lib/layman}
 
-o1=sabayon
-o1_name=sabayon-distro
+conventions="sabayon-distro:sabayon sabayon:for-gentoo"
+for c in ${conventions}; do
+	o1=${c%:*}
+	o2=${c#*:}
+	if [[ -e ${overlays_dir}/${o1} && -e ${overlays_dir}/${o2} ]]; then
+		break
+	fi
+done
 
-o2=for-gentoo
+o1_name=sabayon-distro
 o2_name=sabayon
 
 post=/.git/index
