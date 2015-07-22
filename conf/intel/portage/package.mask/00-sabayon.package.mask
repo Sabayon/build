@@ -183,9 +183,6 @@ app-office/libreoffice::gentoo
 # 2014-11-20 Joost Ruis: Mask portage version, we have a split version
 net-analyzer/nmap::gentoo
 
-# 2014-11-27 Joost Ruis: Mask portage version
-media-video/mkvtoolnix::gentoo
-
 # 2015-02-17 Joost Ruis: mask portage version
 net-p2p/bittornado::gentoo
 
