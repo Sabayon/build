@@ -1,5 +1,3 @@
-app-emulation/emul-linux-x86-java	dlj-1.1
-app-emulation/emul-linux-x86-java	Oracle-BCLA-JavaSE
 app-text/cpdf				Coherent-Graphics
 dev-java/sun-jce-bin			Oracle-BCLA-JavaSE sun-bcla-java-vm
 dev-java/sun-jre-bin			Oracle-BCLA-JavaSE
