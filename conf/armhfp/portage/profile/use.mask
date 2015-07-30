@@ -1,0 +1,5 @@
+# Unmask NEON SIMD support, we're armv7
+-neon
+
+# We do have the NetworkManager stack
+-networkmanager

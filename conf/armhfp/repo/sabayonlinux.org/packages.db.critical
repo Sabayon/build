@@ -1,0 +1,3 @@
+sys-devel/base-gcc:4.7
+>=sys-apps/portage-2.2.0_alpha142
+>sys-libs/glibc-2.16.9999

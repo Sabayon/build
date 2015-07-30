@@ -1,0 +1,14 @@
+if [ "${EBUILD_PHASE}" = "install" ]; then
+	elog
+	elog "Entropy administration information:"
+	elog
+	elog "~~~   READ THIS CAREFULLY   ~~~"
+	elog "if you are bumping gnome-extra/nm-applet"
+	elog "please also bump the Entropy injected version"
+	elog "for GTK2 this way:"
+	elog "emerge -B nm-applet-gtk2 && \\"
+	elog "eit inject /usr/portage/packages/gnome-extra/nm-applet-gtk2*"
+	elog
+	elog "~~~   READ THIS CAREFULLY   ~~~"
+	elog
+fi

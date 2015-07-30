@@ -1,0 +1,15 @@
+- Files in here must be real file, hardlinks or directories
+(containing split files, like for instance, package.use/
+which contains 00-sabayon.package.use).
+
+Symlinks are not allowed since they're read by Entropy Server
+during repository metadata generation and, if symlink, their
+symlink pointer is recorded instead of the file content.
+
+Split files in configuration directories, like package.use/*
+must end with "." + the directory name. For instance, configuration
+files inside package.use/ must end with ".package.use". This is
+required in order to have them pulled in properly into
+packages.db.meta by Entropy Server.
+
+See: entropy/lib/entropy/server/interfaces/db.py -> spm_files_map
