@@ -4,7 +4,7 @@ sys-libs/glibc -~arm
 =sys-libs/glibc-2.17* ~arm
 <dev-lang/python-3 -~arm
 dev-libs/openssl -~arm
-dev-lang/perl -~arm
+dev-lang/perl ~arm
 sys-devel/make -~arm
 sys-kernel/linux-headers -~arm
 net-libs/gnutls -~arm
