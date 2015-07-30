@@ -213,3 +213,7 @@ net-fs/samba winbind
 
 # pyside has opengl and X enabled
 dev-python/pyside opengl X
+
+# required by several stuff
+dev-db/mariadb client-libs
+
