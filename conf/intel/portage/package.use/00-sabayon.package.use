@@ -486,6 +486,7 @@ media-libs/libsdl aalib
 media-libs/libsdl2 abi_x86_32
 media-libs/libsfml doc examples
 media-libs/libsoundtouch sse2
+media-libs/libvpx postproc
 media-libs/libxtract fftw
 media-libs/mediastreamer video -ffmpeg
 # www-client/chromium wants media-libs/mesa[gles2]
