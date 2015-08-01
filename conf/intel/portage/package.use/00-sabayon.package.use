@@ -941,6 +941,7 @@ x11-terms/rxvt-unicode 256-color xft
 # Bumblebee stuff
 x11-misc/bumblebee video_cards_nvidia video_cards_nouveau -bbswitch
 x11-misc/cairo-dock xcomposite
+x11-misc/gpaste gnome-shell keybinder
 x11-misc/notification-daemon gstreamer
 x11-misc/obconf -lxde
 x11-misc/shutter drawing webphoto
