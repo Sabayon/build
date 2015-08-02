@@ -166,14 +166,15 @@ www-servers/apache -threads
 # Enable USE=branding
 x11-themes/elementary-icon-theme branding
 
-# Enable cryptsetup in genkernel
-sys-kernel/genkernel cryptsetup crypt
+# Enable cryptsetup, mdadm, dmraid in genkernel
+sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid
 # Kernel stuff!
 sys-kernel/linux-odroid luks mdadm lvm
 sys-kernel/linux-sabayon luks mdadm lvm
-sys-kernel/linux-beaglebone luks mdadm lvm
+sys-kernel/linux-beaglebone luks mdadm lvm zfs plymouth dmraid iscsi symlink
 sys-kernel/linux-efikamx luks mdadm lvm
 sys-kernel/linux-raspberry luks mdadm lvm
+sys-kernel/beaglebone-sources symlink
 
 # Needed for emesene
 net-libs/farstream python
