@@ -172,9 +172,10 @@ sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid
 sys-kernel/linux-odroid luks mdadm lvm
 sys-kernel/linux-sabayon luks mdadm lvm
 sys-kernel/linux-beaglebone luks mdadm lvm zfs plymouth dmraid iscsi symlink
-sys-kernel/linux-efikamx luks mdadm lvm
+sys-kernel/linux-efikamx luks mdadm lvm symlink plymouth
 sys-kernel/linux-raspberry luks mdadm lvm
 sys-kernel/beaglebone-sources symlink
+sys-kernel/efikamx-sources symlink
 
 # Needed for emesene
 net-libs/farstream python
