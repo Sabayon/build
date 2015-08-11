@@ -6,3 +6,6 @@ media-video/nvidia-settings::sabayon-distro
 <app-text/cuneiform-9999:0
 
 =sys-devel/gcc-config-1.8-r1::sabayon-distro
+
+# Masked for non systemd profiles
+app-admin/calamares
