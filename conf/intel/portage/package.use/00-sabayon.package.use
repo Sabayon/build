@@ -213,6 +213,7 @@ dev-libs/boost python threads icu
 # Enable threading support in botan
 dev-libs/botan threads
 dev-libs/crypto++ sse3
+dev-libs/c-blosc hdf5
 # Needed by directvnc
 dev-libs/DirectFB dynload fbcon
 dev-libs/dbus-glib bash-completion
