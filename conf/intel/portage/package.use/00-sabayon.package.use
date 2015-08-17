@@ -1175,11 +1175,6 @@ dev-libs/libnl utils
 # Prefer gtk for media-libs/libmediaart
 media-libs/libmediaart gtk -qt4 -qt5
 
-# required by kde-base/nepomuk-4.13.1
-# required by media-video/bangarang-2.1-r2
-# required by bangarang (argument)
->=kde-base/kdelibs-4.13.1 nepomuk
-
 # prefer openssl instead of gnutls
 # because lib32 true multilib support in cups is broken
 net-print/cups -gnutls
