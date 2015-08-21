@@ -724,6 +724,8 @@ net-misc/tor threads
 net-misc/vinagre -avahi
 net-misc/x2goserver sqlite
 
+net-news/rssguard -qt4 qt5
+
 net-nds/openldap -minimal
 
 net-nntp/suck perl
