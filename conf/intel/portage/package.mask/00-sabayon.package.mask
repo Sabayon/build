@@ -224,3 +224,6 @@ net-p2p/bittornado::gentoo
 
 # 2015-07-06 Joost Ruis: Only use our overlay version
 app-arch/file-roller::gentoo
+
+# 2015-08-31 Joost Ruis: Only use overlay version
+media-tv/kodi::gentoo
