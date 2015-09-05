@@ -376,6 +376,7 @@ kde-apps/ark lzma
 kde-apps/dolphin semantic-desktop thumbnail
 kde-apps/dolphin-plugins git
 kde-apps/gwenview kipi semantic-desktop
+kde-base/baloo minimal
 kde-base/kactivities minimal semantic-desktop
 kde-apps/ksnapshot kipi
 kde-apps/kde4-l10n linguas_be linguas_csb linguas_ne linguas_th linguas_wa
