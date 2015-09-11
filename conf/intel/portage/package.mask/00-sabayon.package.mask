@@ -145,12 +145,6 @@ sys-auth/consolekit
 # sci-mathematics/pari-2.3.5
 >sci-mathematics/pari-2.3.5
 
-# 2013-11-13 Sławomir Nizio: this package (v. 2013.1.4, 2013.2)
-# depends directly or indirectly on packages older than we already
-# provide. It cannot be supported properly (easily), and seems to
-# be unpopular.
-app-admin/glance
-
 # 2014-03-26 Fabui Erculiani: we now use systemd from sabayon-distro
 sys-apps/systemd::gentoo
 
