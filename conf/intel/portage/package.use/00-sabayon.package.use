@@ -933,7 +933,7 @@ x11-libs/cairo glitz -qt4
 # move x11-libs/ecore dev-libs/ecore
 dev-libs/ecore curl
 x11-libs/goffice gnome
-x11-libs/libdrm video_cards_intel video_cards_nouveau video_cards_radeon video_cards_vmware libkms
+x11-libs/libdrm video_cards_amdgpu video_cards_intel video_cards_nouveau video_cards_radeon video_cards_vmware libkms
 # libva coolness
 x11-libs/libva video_cards_dummy video_cards_intel
 
