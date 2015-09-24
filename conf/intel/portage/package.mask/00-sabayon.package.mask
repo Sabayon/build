@@ -220,3 +220,7 @@ media-tv/kodi::gentoo
 
 # 2015-09-16 Joost Ruis: Part of tree needs dev-python/pbr-0.11.0
 >dev-python/pbr-0.11.0
+
+# 2015-09-24 Ettore Di Giacinto: not LMs are ready to new version yet
+>sys-auth/polkit-0.112-r3
+
