@@ -790,7 +790,7 @@ sci-libs/plplot -wxwidgets
 sci-libs/vtk tk tcl rendering mpi -ffmpeg
 
 sci-mathematics/maxima latex
-sci-mathematics/octave fftw curl
+sci-mathematics/octave fftw curl gui
 
 # htmldoc, doc, graphviz are required by app-doc/root-docs
 sci-physics/root htmldoc doc fftw graphviz
