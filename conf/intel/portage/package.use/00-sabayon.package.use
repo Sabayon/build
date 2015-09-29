@@ -973,7 +973,6 @@ x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisV
 >=x11-themes/elementary-icon-theme-2.7.1 monochrome branding
 x11-themes/gnome-colors-common branding
 x11-themes/gtk-engines-murrine -themes
-x11-themes/gtk-engines-qtcurve -mozilla
 x11-themes/sabayon-artwork-kde ksplash
 x11-themes/skinenigmang-logos dxr3
 x11-themes/tango-icon-theme branding
