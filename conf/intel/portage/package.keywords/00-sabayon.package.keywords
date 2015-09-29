@@ -113,6 +113,7 @@ sys-apps/systemd -~amd64 -~x86
 # except systemd-208 and systemd-222
 =sys-apps/systemd-208* ~amd64 ~x86
 =sys-apps/systemd-222* ~amd64 ~x86
+=sys-apps/systemd-226-r1 ~amd64 ~x86
 
 # Allow any openssl 0.9.8y revision as well
 =dev-libs/openssl-0.9.8* ~amd64 ~x86
