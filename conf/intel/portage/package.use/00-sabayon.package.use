@@ -243,7 +243,6 @@ dev-libs/nss utils
 dev-libs/popt static-libs
 dev-libs/pth static-libs
 dev-libs/qtkeychain qt5
-dev-libs/soprano clucene redland -java
 dev-libs/tinyxml stl
 dev-libs/tntnet sdk
 dev-libs/xerces-c xqilla icu
