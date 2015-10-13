@@ -612,7 +612,7 @@ net-analyzer/rrdtool graph
 net-analyzer/snmptt mysql
 net-analyzer/snort dynamicplugin
 net-analyzer/smokeping apache2
-net-analyzer/wireshark python -qt4
+net-analyzer/wireshark lua python -qt4
 net-analyzer/zabbix frontend agent server mysql ssh snmp proxy -sqlite3
 
 # gtk part is provided by net-analyzer/zenmap
