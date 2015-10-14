@@ -787,6 +787,7 @@ sci-libs/netcdf -fortran hdf5
 sci-libs/plplot -wxwidgets
 # -ffmpeg because at this time, with latest libav, build fails
 sci-libs/vtk tk tcl rendering mpi -ffmpeg
+sci-libs/ViSP opencv
 
 sci-mathematics/maxima latex
 sci-mathematics/octave fftw curl gui
