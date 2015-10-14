@@ -93,9 +93,6 @@ sci-chemistry/molmol
 sci-astronomy/cpl
 sci-astronomy/esorex
 
-# 2010-11-16 Joost Ruis: Needs qt-gui with +gtk (What the hell??)
-media-sound/qtractor
-
 # 2010-11-18 Joost Ruis: Blocks media-fonts/jsmath-extra-dark
 media-fonts/jsmath-extra-light
 
