@@ -389,7 +389,7 @@ kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
 kde-base/kdepim-runtime -linguas_ar -linguas_be -linguas_ca -linguas_ca@valencia -linguas_cs -linguas_da -linguas_de -linguas_el -linguas_en_GB -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fr -linguas_ga -linguas_gl -linguas_hr -linguas_hu -linguas_ia -linguas_it -linguas_ja -linguas_kk -linguas_km -linguas_ko -linguas_lt -linguas_lv -linguas_mai -linguas_nb -linguas_nds -linguas_nl -linguas_nn -linguas_pa -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_se -linguas_sk -linguas_sl -linguas_sv -linguas_th -linguas_tr -linguas_uk -linguas_zh_CN -linguas_zh_TW google kolab
 kde-base/kdeplasma-addons desktopglobe json oauth semantic-desktop
 kde-apps/kget bittorrent semantic-desktop
-kde-apps/kio-extras samba
+kde-apps/kio-extras mtp samba
 kde-base/klipper prison
 kde-apps/kopete addbookmarks alias autoreplace connectionstatus contactnotes gadu groupwise highlight history irc -kdeenablefinal netmeeting nowlistening oscar otr qq sametime skype statistics texteffect translator webpresence winpopup yahoo
 kde-apps/krdc vnc
