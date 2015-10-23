@@ -219,11 +219,8 @@ dev-python/pyside opengl X
 # required by several stuff
 dev-db/mariadb client-libs
 
-# required by x11-libs/libxkbcommon-0.5.0::gentoo[X]
-# required by x11-wm/i3-4.10.3::gentoo
-# required by i3 (argument)
->=x11-libs/libxcb-1.11-r1 xkb
-# required by x11-wm/i3-4.10.3::gentoo
-# required by i3 (argument)
->=x11-libs/libxkbcommon-0.5.0 X
+dev-libs/libpcre pcre16
+# required by i3
+x11-libs/libxcb xkb
+x11-libs/libxkbcommon X
 
