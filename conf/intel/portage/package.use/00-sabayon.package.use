@@ -70,7 +70,7 @@ app-emacs/auctex preview-latex
 app-emulation/e-uae capslib
 app-emulation/emul-linux-x86-soundlibs esd
 app-emulation/ganeti kvm lxc htools
-app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
+app-emulation/libvirt lxc rbd virtualbox fuse kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/qemu glusterfs nfs rbd fdt spice -gtk virtfs xattr usbredir
 app-emulation/vice -gtk2
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
