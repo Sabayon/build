@@ -20,10 +20,6 @@ xfce-extra/xfce4-cellmodem-plugin
 
 ### Temp masked due a bug
 
-### Slotted packages
-<net-analyzer/metasploit-3.2_p6750
-app-editors/emacs:18
-
 ### net-analyser
 
 # Joost Ruis: We have netcat6 in our tree
