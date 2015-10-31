@@ -1231,3 +1231,6 @@ net-dns/bind threads caps
 
 # Disable upower, we use systemd
 x11-misc/sddm -upower
+
+# Enabling Galera arbitrator daemon
+sys-cluster/galera garbd
