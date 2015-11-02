@@ -290,7 +290,7 @@ dev-qt/qtlockedfile qt5
 dev-qt/qtwebkit kde icu printsupport
 dev-qt/qtgui mng private-headers raster gtkstyle
 dev-qt/qtgui:5 mng private-headers raster -gtkstyle
-dev-qt/qtmultimedia:5 qml
+dev-qt/qtmultimedia:5 gstreamer qml
 dev-qt/qtquickcontrols:5 widgets
 dev-qt/qtscript private-headers
 dev-qt/qtsingleapplication qt5
