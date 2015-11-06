@@ -247,6 +247,8 @@ dev-libs/tntnet sdk
 dev-libs/xerces-c xqilla icu
 dev-libs/xmlrpc-c curl
 dev-libs/xmlsec gcrypt
+# Required by texstudio
+dev-libs/quazip qt5 -qt4
 
 # See Sabayon bug #1020
 dev-libs/openct pcsc-lite
