@@ -131,7 +131,7 @@ app-text/mate-document-viewer caja mate mate-keyring
 app-office/libreoffice -nsplugin -gnome -java templates -kde pdfimport
 
 # Multimedia!
-media-libs/libsdl directfb X opengl 
+media-libs/libsdl directfb X opengl
 media-libs/sdl-image gif jpeg png
 media-video/mplayer jpeg png pulseaudio -dvdnav
 media-video/mplayer2 jpeg png pulseaudio -cpudetection -dvdnav
@@ -226,3 +226,6 @@ x11-libs/libxkbcommon X
 
 # required by dev-lang/php
 app-eselect/eselect-php fpm apache2
+
+# XXX: Useless for raspberrypi, compiling later in another board
+x11-base/xorg-drivers -video_cards_omapfb
