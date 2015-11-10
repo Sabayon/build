@@ -733,7 +733,8 @@ net-misc/x2goserver sqlite
 
 net-news/rssguard -qt4 qt5
 
-net-nds/openldap -minimal
+net-nds/openldap -minimal sasl
+net-dns/bind-tools gssapi
 
 net-nntp/suck perl
 
@@ -793,6 +794,7 @@ sci-libs/ViSP opencv
 
 sci-mathematics/maxima latex
 sci-mathematics/octave fftw curl gui doc gnuplot
+sci-mathematics/scilab fftw openmp
 
 # htmldoc, doc, graphviz are required by app-doc/root-docs
 sci-physics/root htmldoc doc fftw graphviz
