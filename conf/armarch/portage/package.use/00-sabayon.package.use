@@ -234,3 +234,6 @@ x11-base/xorg-drivers -video_cards_omapfb
 # required by lxqt-meta
 sys-auth/polkit-qt qt5
 
+# required by metasploit
+dev-ruby/activerecord postgres
+
