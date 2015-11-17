@@ -533,6 +533,9 @@ media-plugins/gst-plugins-meta mms http
 media-plugins/kipi-plugins calendar gpssync
 media-plugins/vdr-weatherng dxr3
 
+# enable qt5 for libde265
+media-libs/libde265 qt5 -qt4
+
 media-radio/tucnak2 fftw
 
 media-sound/alsa-tools -gtk
@@ -793,7 +796,7 @@ sci-libs/vtk tk tcl rendering mpi -ffmpeg
 sci-libs/ViSP opencv
 
 sci-mathematics/maxima latex
-sci-mathematics/octave fftw curl gui doc gnuplot
+sci-mathematics/octave fftw curl gui doc gnuplot hdf5
 sci-mathematics/scilab fftw openmp
 
 # htmldoc, doc, graphviz are required by app-doc/root-docs
