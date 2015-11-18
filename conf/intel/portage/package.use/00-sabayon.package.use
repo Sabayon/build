@@ -324,9 +324,6 @@ dev-vcs/git curl webdav -subversion -gtk
 dev-vcs/qct mercurial subversion
 dev-vcs/subversion -java -apache2 -dso -kde
 
-# use minimal so it doesn't depend on dev-python/imaging[tk]
-games-board/pysolfc minimal
-
 games-emulation/generator sdlaudio
 games-emulation/pcsxr -alsa -openal -sdl
 
@@ -1099,9 +1096,6 @@ dev-db/google-mysql -embedded
 dev-libs/lzo static-libs
 
 # Enable USE=tk for the Python Imaging stack (and Python)
-# We will use our own crafted dev-python/imaging ebuild
-# that redirects the tk dependency to python-tk
-dev-python/imaging tk
 dev-python/pillow tk
 virtual/python-imaging tk
 dev-lang/python tk

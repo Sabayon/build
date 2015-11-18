@@ -57,11 +57,6 @@ net-misc/telnet-bsd
 # Joost Ruis: We use dev-texlive/texlive-latexextra so we want to mask this
 dev-tex/prosper
 
-# Joost Ruis: wants dev-python/imaging +tk compiled, ain't going to happen
-=media-sound/lilycomp-1.0.2-r1
-media-gfx/skencil
-media-gfx/asymptote
-
 ### Games
 
 # Joost Ruis: Requires media-libs/sdl-mixer[timidity]
