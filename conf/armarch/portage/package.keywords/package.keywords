@@ -109,3 +109,6 @@ www-client/chromium ** ~arm
 
 # We want to resolve mdns stuff
 <sys-auth/nss-mdns-9999 ** ~arm
+
+# Want phpmyadmin
+dev-db/phpmyadmin ** ~arm
