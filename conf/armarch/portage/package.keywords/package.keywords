@@ -115,3 +115,6 @@ dev-db/phpmyadmin ** ~arm
 
 # Want games-emulation/openmsx
 games-emulation/openmsx ** ~arm
+
+# Want games-emulation/gnuboy
+games-emulation/gnuboy ** ~arm
