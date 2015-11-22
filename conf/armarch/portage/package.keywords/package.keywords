@@ -118,3 +118,6 @@ games-emulation/openmsx ** ~arm
 
 # Want games-emulation/gnuboy
 games-emulation/gnuboy ** ~arm
+
+# Want games-emulation/atari800
+games-emulation/atari800 ** ~arm
