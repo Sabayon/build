@@ -112,3 +112,6 @@ www-client/chromium ** ~arm
 
 # Want phpmyadmin
 dev-db/phpmyadmin ** ~arm
+
+# Want games-emulation/openmsx
+games-emulation/openmsx ** ~arm
