@@ -149,3 +149,4 @@ games-emulation/atari800 ** ~arm
 
 # Want games-emulation/mupen64plus
 games-emulation/mupen64plus ** ~arm
+games-emulation/mupen64plus-rsp-hle ** ~arm
