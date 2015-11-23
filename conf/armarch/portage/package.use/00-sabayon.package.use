@@ -240,3 +240,4 @@ dev-ruby/activerecord postgres
 
 # Enlightenment
 dev-libs/efl egl gles sound -sdl
+media-libs/elementary -sdl
