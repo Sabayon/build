@@ -238,4 +238,4 @@ sys-auth/polkit-qt qt5
 dev-ruby/activerecord postgres
 
 # Enlightenment
-dev-libs/efl sound
+dev-libs/efl gles sound
