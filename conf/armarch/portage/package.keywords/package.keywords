@@ -95,9 +95,34 @@ media-tv/xbmc ~arm
 <gnome-extra/nemo-9999 ** ~arm
 <x11-wm/muffin-9999 ** ~arm
 
-# Needed for MATE 1.6
+# Needed for MATE
+app-arch/engrampa ** ~arm
+app-editors/pluma ** ~arm
+app-text/atril ** ~arm
+dev-libs/libmateweather ** ~arm
+mate-base/mate-applets ** ~arm
+mate-base/caja ** ~arm
+mate-base/libmatekbd ** ~arm
+mate-base/mate ** ~arm
+mate-base/mate-control-center ** ~arm
+mate-base/mate-common ** ~arm
+mate-base/mate-menus ** ~arm
+mate-base/mate-panel ** ~arm
+mate-base/mate-session-manager ** ~arm
+mate-base/mate-settings-daemon ** ~arm
+mate-extra/mate-calc ** ~arm
+mate-extra/mate-dialogs ** ~arm
+mate-extra/mate-media ** ~arm
+mate-extra/mate-polkit ** ~arm
+mate-extra/mate-power-manager ** ~arm
+mate-extra/mate-screensaver ** ~arm
+mate-extra/mate-system-monitor ** ~arm
+mate-extra/mate-utils ** ~arm
+x11-misc/mozo ** ~arm
 =x11-themes/gtk-engines-murrine-0.98.2 ** ~arm
+x11-themes/mate-themes ** ~arm
 =x11-themes/murrine-themes-0.98.0 ** ~arm
+x11-wm/marco ** ~arm
 
 # Misc
 <media-libs/vigra-9999 ** ~arm
