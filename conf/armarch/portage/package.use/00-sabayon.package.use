@@ -237,3 +237,5 @@ sys-auth/polkit-qt qt5
 # required by metasploit
 dev-ruby/activerecord postgres
 
+# Enlightenment
+dev-libs/efl sound
