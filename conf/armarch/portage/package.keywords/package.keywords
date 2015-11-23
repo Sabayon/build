@@ -146,3 +146,6 @@ games-emulation/gnuboy ** ~arm
 
 # Want games-emulation/atari800
 games-emulation/atari800 ** ~arm
+
+# Want games-emulation/mupen64plus
+games-emulation/mupen64plus ** ~arm
