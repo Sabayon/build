@@ -241,3 +241,6 @@ dev-ruby/activerecord postgres
 # Enlightenment
 dev-libs/efl egl gles sound -sdl
 media-libs/elementary -sdl
+
+# Midori
+www-client/midori sqlite -deprecated -granite -introspection -doc -zeitgeist
