@@ -26,9 +26,9 @@ www-servers/nginx ** ~arm
 # (but it's not true)
 =sys-devel/make-3.82-r4 ** ~arm
 
-# Keyword E17
-=dev-libs/eio-1.7.4 ** ~arm
-=x11-wm/enlightenment-0.17.0 ** ~arm
+# Keyword Enlightenment
+x11-terms/terminology ** ~arm
+x11-wm/enlightenment ** ~arm
 
 <xfce-extra/xfce4-notifyd-9999 ** ~arm
 
