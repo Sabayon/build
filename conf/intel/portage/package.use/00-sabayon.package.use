@@ -511,6 +511,7 @@ media-libs/oyranos -abi_x86_32
 media-libs/opencv contrib -qt4 qt5
 media-libs/phonon qt5
 media-libs/phonon-vlc qt5
+media-libs/phonon-gstreamer qt5
 media-libs/sdl-mixer midi timidity mod mikmod
 # required by games-engines/gargoyle:0
 # USE=mikmod required by gltron
