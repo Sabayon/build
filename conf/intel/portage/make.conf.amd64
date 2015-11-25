@@ -60,7 +60,7 @@ PYTHON_TARGETS="python2_7 python3_4"
 
 # Some more forced targets
 PHP_TARGETS="php5-5"
-RUBY_TARGETS="ruby20"
+RUBY_TARGETS="ruby20 ruby21"
 
 # Apache suEXEC default UMASK
 # See bug 3544
