@@ -135,7 +135,7 @@ media-libs/libsdl directfb X opengl
 media-libs/sdl-image gif jpeg png
 media-video/mplayer jpeg png pulseaudio -dvdnav
 media-video/mplayer2 jpeg png pulseaudio -cpudetection -dvdnav
-media-tv/xbmc bluray udev pulseaudio webserver css
+media-tv/kodi bluray gles nfs udev pulseaudio webserver css
 # needed for vlc
 sys-libs/zlib minizip
 
@@ -247,3 +247,4 @@ www-client/midori sqlite -deprecated -granite -introspection -doc -zeitgeist
 
 # Docker: Enabling support for different fs 
 app-emulation/docker aufs overlay btrfs
+
