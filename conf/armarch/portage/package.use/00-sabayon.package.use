@@ -249,4 +249,4 @@ www-client/midori sqlite -deprecated -granite -introspection -doc -zeitgeist
 app-emulation/docker aufs overlay btrfs
 
 # Enable gles2 on webkit-gtk
-net-libs/webkit-gtk gles2
+net-libs/webkit-gtk gles2 -opengl
