@@ -250,3 +250,6 @@ app-emulation/docker aufs overlay btrfs
 
 # Enable gles2 on webkit-gtk
 net-libs/webkit-gtk gles2 -opengl
+
+# media-video/mpv
+media-video/mpv drm raspberry-pi
