@@ -182,7 +182,7 @@ sys-kernel/efikamx-sources symlink
 net-libs/farstream python
 
 # PHP wants gd
-dev-lang/php -threads apache2 curl gd truetype exif fpm ftp pdo sockets spell sqlite mysql mysqli zip
+dev-lang/php -threads apache2 curl gd truetype exif fpm ftp ldap pdo sockets spell sqlite mysql mysqli zip
 app-admin/eselect-php fpm
 
 # GST stuff
