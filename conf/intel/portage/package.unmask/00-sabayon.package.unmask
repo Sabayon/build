@@ -6,3 +6,6 @@
 
 # Masked for non systemd profiles
 app-admin/calamares
+
+# Masked for testing iputils
+=net-misc/iputils-20150815-r1
