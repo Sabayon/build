@@ -257,3 +257,4 @@ media-video/mpv drm raspberry-pi
 # Octave: enabling support for different functionalities
 sci-mathematics/octave fftw curl gui doc gnuplot hdf5
 sci-libs/hdf5 -cxx -fortran -mpi threads -szip
+sci-libs/fftw -neon 
