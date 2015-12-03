@@ -167,9 +167,6 @@ net-p2p/bittornado::gentoo
 # 2015-02-24 Joost Ruis: dev-util/pida needs bpython[gtk] 0.14 lacks this flag
 >=dev-python/bpython-0.14
 
-# 2015-03-14 Sławomir Nizio: because of app-admin/puppet's >=dev-ruby/rgen-0.6.5 =dev-ruby/rgen-0.6*
->=dev-ruby/rgen-0.7
-
 # 2015-03-31 Joost Ruis: kde-base/baloo requires this version
 >=dev-libs/xapian-1.3
 >=dev-libs/xapian-bindings-1.3
