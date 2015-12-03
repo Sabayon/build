@@ -131,6 +131,7 @@ app-text/mate-document-viewer caja mate mate-keyring
 app-office/libreoffice -nsplugin -gnome -java templates -kde pdfimport
 
 # Multimedia!
+media-libs/grilo playlist
 media-libs/libmediaart -qt4 -qt5
 media-libs/libsdl directfb X opengl
 media-libs/sdl-image gif jpeg png
