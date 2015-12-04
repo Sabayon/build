@@ -254,7 +254,7 @@ app-emulation/docker aufs overlay btrfs
 net-libs/webkit-gtk gles2 -opengl
 
 # media-video/mpv
-media-video/mpv drm raspberry-pi libav
+media-video/mpv drm raspberry-pi
 
 # Octave: enabling support for different functionalities
 sci-mathematics/octave fftw curl gui doc gnuplot hdf5
@@ -262,4 +262,4 @@ sci-libs/hdf5 -cxx -fortran -mpi threads -szip
 sci-libs/fftw -neon 
 
 # libav https://bugs.gentoo.org/show_bug.cgi?id=550904
-media-video/libav -aac armv6t2
+media-video/libav -aac armv6t2 faac x264
