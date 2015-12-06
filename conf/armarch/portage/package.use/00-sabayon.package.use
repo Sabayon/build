@@ -263,3 +263,7 @@ sci-libs/fftw -neon
 
 # ffmpeg https://bugs.gentoo.org/show_bug.cgi?id=550904
 media-video/ffmpeg -aac armv6t2 faac x264
+
+# required by kde-meta
+media-gfx/exiv2 xmp
+
