@@ -261,5 +261,5 @@ sci-mathematics/octave fftw curl gui doc gnuplot hdf5
 sci-libs/hdf5 -cxx -fortran -mpi threads -szip
 sci-libs/fftw -neon 
 
-# libav https://bugs.gentoo.org/show_bug.cgi?id=550904
-media-video/libav -aac armv6t2 faac x264
+# ffmpeg https://bugs.gentoo.org/show_bug.cgi?id=550904
+media-video/ffmpeg -aac armv6t2 faac x264
