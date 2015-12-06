@@ -151,3 +151,5 @@ games-emulation/atari800 ** ~arm
 games-emulation/mupen64plus ** ~arm
 games-emulation/mupen64plus-core ** ~arm
 games-emulation/mupen64plus-rsp-hle ** ~arm
+
+media-video/ffmpeg -~arm
