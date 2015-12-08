@@ -221,7 +221,7 @@ net-fs/samba winbind
 dev-python/pyside opengl X
 
 # required by several stuff
-dev-db/mariadb client-libs
+dev-db/mariadb client-libs odbc
 
 dev-libs/libpcre pcre16
 # required by i3
