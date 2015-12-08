@@ -267,3 +267,6 @@ media-video/ffmpeg -aac armv6t2 faac x264
 # required by kde-meta
 media-gfx/exiv2 xmp
 
+net-dns/bind dlz
+
+
