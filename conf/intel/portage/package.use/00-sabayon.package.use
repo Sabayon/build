@@ -273,9 +273,6 @@ dev-python/pyudev pyqt4
 # don't require media-libs/alsa-lib[alisp]
 dev-python/pyglet -alsa
 
-# added for mythtv
-dev-qt/qtsql mysql
-
 # required by kde-base/artikulate-4.13.1[-gstreamer]
 # required by kde-base/kdeedu-meta-4.13.1
 # required by kde-base/kde-meta-4.13.1
@@ -295,6 +292,9 @@ dev-qt/qtgui:5 mng private-headers raster -gtkstyle
 dev-qt/qtmultimedia:5 gstreamer qml
 dev-qt/qtquickcontrols:5 widgets
 dev-qt/qtscript private-headers
+dev-qt/qtscript:5 private-headers scripttools
+# added for mythtv
+dev-qt/qtsql mysql
 dev-qt/qtsingleapplication qt5
 
 dev-scheme/guile regex discouraged networking
