@@ -471,6 +471,7 @@ media-libs/cogl gles2
 # Needed by freecad
 media-libs/coin doc
 media-libs/devil mng
+media-libs/elementary -sdl
 # move x11-libs/evas media-libs/evas
 media-libs/evas fontconfig sse threads
 media-libs/freetype -X -auto-hinter adobe-cff
