@@ -1,0 +1,3 @@
+# Needed to build it, this is RPI specific. Requires raspberry-userland
+CFLAGS="${CFLAGS} -I/opt/vc/include -I/opt/vc/include/interface/vcos -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux"
+LDFLAGS="${LDFLAGS} -L/opt/vc/lib"
