@@ -150,7 +150,7 @@ net-misc/networkmanager bluetooth connection-sharing resolvconf modemmanager
 gnome-extra/nm-applet bluetooth
 
 # Enable gles while we don't have other GL libs around (pvr-omap4 would collide)
-media-libs/mesa gles1 gles2 openmax openvg
+media-libs/mesa -dri3 -gles1 -gles2 -openmax openvg
 media-libs/cogl gles2 opengl
 media-libs/libsdl2 gles
 
