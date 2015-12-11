@@ -270,3 +270,4 @@ media-gfx/exiv2 xmp
 net-dns/bind dlz
 
 app-crypt/pinentry gnome-keyring
+net-analyzer/rrdtool graph
