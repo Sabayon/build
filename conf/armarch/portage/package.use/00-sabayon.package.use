@@ -241,7 +241,7 @@ sys-auth/polkit-qt qt5
 dev-ruby/activerecord postgres
 
 # Enlightenment
-dev-libs/efl egl gles sound -sdl
+dev-libs/efl egl gles sound -sdl -opengl
 media-libs/elementary -sdl
 
 # Midori
