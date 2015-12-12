@@ -137,7 +137,7 @@ media-libs/libsdl directfb X opengl
 media-libs/sdl-image gif jpeg png
 media-video/mplayer jpeg png pulseaudio -dvdnav
 media-video/mplayer2 jpeg png pulseaudio -cpudetection -dvdnav
-media-tv/kodi bluray gles nfs udev pulseaudio webserver css opengl
+media-tv/kodi bluray gles nfs udev pulseaudio webserver css sdl
 # needed for vlc
 sys-libs/zlib minizip
 
@@ -150,7 +150,7 @@ net-misc/networkmanager bluetooth connection-sharing resolvconf modemmanager
 gnome-extra/nm-applet bluetooth
 
 # Enable gles while we don't have other GL libs around (pvr-omap4 would collide)
-media-libs/mesa -dri3 -gles1 gles2 -openmax openvg
+media-libs/mesa -dri3 -gles1 -gles2 -openmax openvg
 media-libs/cogl gles2 opengl
 media-libs/libsdl2 gles
 
@@ -251,7 +251,7 @@ www-client/midori sqlite -deprecated -granite -introspection -doc -zeitgeist
 app-emulation/docker aufs overlay btrfs
 
 # Enable gles2 on webkit-gtk
-net-libs/webkit-gtk -gles2 opengl
+net-libs/webkit-gtk gles2 -opengl
 
 # media-video/mpv
 media-video/mpv drm raspberry-pi
