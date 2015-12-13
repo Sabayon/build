@@ -273,5 +273,4 @@ app-crypt/pinentry gnome-keyring
 net-analyzer/rrdtool graph
 
 #gnome
-media-libs/clutter -wayland
 gnome-base/gnome-control-center networkmanager
