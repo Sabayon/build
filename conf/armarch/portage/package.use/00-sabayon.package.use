@@ -274,3 +274,4 @@ net-analyzer/rrdtool graph
 
 #gnome
 gnome-base/gnome-control-center networkmanager
+media-libs/libvpx -neon
