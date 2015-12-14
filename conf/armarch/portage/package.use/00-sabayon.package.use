@@ -250,8 +250,8 @@ www-client/midori sqlite -deprecated -granite -introspection -doc -zeitgeist
 # Docker: Enabling support for different fs 
 app-emulation/docker aufs overlay btrfs
 
-# Enable gles2 on webkit-gtk
-net-libs/webkit-gtk gles2 -opengl
+# Enable opengl on webkit-gtk, unfortunately here we need to be generic
+net-libs/webkit-gtk -gles2 opengl -wayland
 
 # media-video/mpv
 media-video/mpv drm raspberry-pi
@@ -275,3 +275,5 @@ net-analyzer/rrdtool graph
 #gnome
 gnome-base/gnome-control-center networkmanager
 media-libs/libvpx -neon
+x11-libs/gtk+:3 -wayland
+
