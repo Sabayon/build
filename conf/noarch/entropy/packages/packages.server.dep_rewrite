@@ -41,7 +41,7 @@ dev-tex/luatex (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 dev-tex/pstplus (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 gnome-extra/gnome-commander (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 gnustep-libs/popplerkit (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
-kde-base/kfilemetadata (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
+kde-base/kfilemetadata (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
 kde-base/nepomuk-core (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 kde-apps/okular (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 kde-misc/tellico (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
