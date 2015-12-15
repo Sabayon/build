@@ -1078,7 +1078,7 @@ net-dns/avahi dbus gtk3
 # Disable accessibility, since it's just a virtual dependency
 gnome-base/gnome -extras -accessibility
 # Enable some fancy stuff on gdm
-gnome-base/gdm gnome-keyring smartcard accessibility fprint
+gnome-base/gdm gnome-keyring smartcard accessibility fprint -wayland
 # required by gnome-extra/synapse-0.2.6, required by gnome-extra/synapse (argument)
 >=gnome-extra/zeitgeist-0.7.1-r1 fts
 
