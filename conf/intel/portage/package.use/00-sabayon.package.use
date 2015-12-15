@@ -530,6 +530,8 @@ media-plugins/audacious-plugins chardet cue gnome -gtk gtk3 icecast libsamplerat
 media-plugins/gst-plugins-meta mms http
 media-plugins/kipi-plugins calendar gpssync
 media-plugins/vdr-weatherng dxr3
+# Enable egl flag as requested from wayland flag
+media-libs/gst-plugins-bad egl
 
 # enable qt5 for libde265
 media-libs/libde265 qt5 -qt4
