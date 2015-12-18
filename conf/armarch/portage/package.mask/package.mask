@@ -1,2 +1,4 @@
 >sys-fs/udev-171-r5
 >app-crypt/gnupg-2.0.28
+# We now user raspberypi-userland from our overlay
+media-libs/raspberrypi-userland::gentoo
