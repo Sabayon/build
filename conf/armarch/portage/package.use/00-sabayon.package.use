@@ -280,3 +280,5 @@ gnome-base/gnome-control-center networkmanager
 media-libs/libvpx -neon
 x11-libs/gtk+:3 -wayland
 
+# Retro gaming
+games-emulation/mupen64plus-core -osd
