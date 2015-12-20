@@ -279,6 +279,7 @@ net-analyzer/rrdtool graph
 gnome-base/gnome-control-center networkmanager
 media-libs/libvpx -neon
 x11-libs/gtk+:3 -wayland
+media-libs/mesa xa wayland
 
 # Retro gaming
 games-emulation/mupen64plus-core -osd
