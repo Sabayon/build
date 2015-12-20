@@ -326,6 +326,10 @@ dev-vcs/subversion -java -apache2 -dso -kde
 
 games-emulation/generator sdlaudio
 games-emulation/pcsxr -alsa -openal -sdl
+# Dolphin Emu useflag
+net-libs/mbedtls havege
+net-libs/polarssl havege
+games-emulation/dolphin-emu ao egl enet llvm portaudio upnp
 
 # Corsix USE=wxwidgets requires masked (dev) wxGTK 2.9
 games-engines/corsix-th -wxwidgets
