@@ -287,3 +287,6 @@ games-emulation/mupen64plus-core -osd
 # Snort
 dev-lang/perl ithreads
 
+# cloudshark && wireshark
+net-analyzer/wireshark lua
+
