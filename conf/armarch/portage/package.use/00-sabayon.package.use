@@ -288,5 +288,5 @@ games-emulation/mupen64plus-core -osd
 dev-lang/perl ithreads
 
 # cloudshark && wireshark
-net-analyzer/wireshark lua
+net-analyzer/wireshark lua -qt5 -qt4
 
