@@ -283,3 +283,7 @@ media-libs/mesa xa wayland
 
 # Retro gaming
 games-emulation/mupen64plus-core -osd
+
+# Snort
+dev-lang/perl ithreads
+
