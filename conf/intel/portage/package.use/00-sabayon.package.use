@@ -56,6 +56,8 @@ app-crypt/mit-krb5 krb4 openldap
 app-crypt/pinentry gtk qt4
 app-crypt/qca gpg qt5
 
+app-doc/doxygen dot
+
 app-editors/bluefish gnome
 app-editors/emacs xft
 app-editors/gedit-plugins terminal
