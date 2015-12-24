@@ -354,7 +354,7 @@ games-util/springlobby bittorrent
 gnome-base/gconf policykit
 gnome-base/gnome-control-center networkmanager
 gnome-base/gnome-settings-daemon networkmanager
-gnome-base/gvfs ios samba gnome gdu google gnome-online-accounts fuse archive gnome-keyring udisks
+gnome-base/gvfs afp ios samba gnome gdu google gnome-online-accounts fuse archive gnome-keyring nfs udisks
 # Needed by net-analyzer/ehterape
 gnome-base/libgnomecanvas glade
 gnome-base/librsvg gnome
