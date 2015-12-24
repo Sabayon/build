@@ -912,6 +912,7 @@ www-client/midori sqlite
 www-client/qupzilla -qt4 qt5
 www-client/rekonq semantic-desktop
 www-client/seamonkey -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO -linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
+www-client/surf savedconfig
 www-client/uget gstreamer
 
 # 32bit plugin is unwanted
