@@ -257,7 +257,7 @@ app-emulation/docker aufs overlay btrfs
 net-libs/webkit-gtk -gles2 opengl -wayland
 
 # media-video/mpv
-media-video/mpv drm raspberry-pi
+media-video/mpv drm raspberry-pi samba
 
 # Octave: enabling support for different functionalities
 sci-mathematics/octave fftw curl gui doc gnuplot hdf5
