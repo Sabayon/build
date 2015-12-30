@@ -231,7 +231,7 @@ dev-libs/libdbusmenu gtk3
 dev-libs/libdbusmenu-qt qt5
 dev-libs/libf2c static-libs
 dev-libs/libgcrypt static-libs
-dev-libs/libgdata gnome-online-accounts
+dev-libs/libgdata gnome gnome-online-accounts
 dev-libs/libgit2-glib ssh
 dev-libs/libgpg-error static-libs
 dev-libs/libksba static-libs
