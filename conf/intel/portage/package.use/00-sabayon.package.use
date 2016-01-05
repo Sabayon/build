@@ -354,6 +354,8 @@ gnome-base/gconf policykit
 gnome-base/gnome-control-center networkmanager
 gnome-base/gnome-settings-daemon networkmanager
 gnome-base/gvfs afp ios samba gnome gdu google gnome-online-accounts fuse archive gnome-keyring nfs udisks
+net-misc/gnome-online-miners flickr
+
 # Needed by net-analyzer/ehterape
 gnome-base/libgnomecanvas glade
 gnome-base/librsvg gnome
@@ -1245,3 +1247,7 @@ x11-misc/sddm -upower
 
 # Enabling Galera arbitrator daemon
 sys-cluster/galera garbd
+
+# Enabling apparmor aufs btrfs overlay useflag to docker
+sys-libs/libapparmor static-libs
+app-emulation/docker apparmor aufs btrfs overlay
