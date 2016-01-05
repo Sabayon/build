@@ -355,6 +355,7 @@ gnome-base/gnome-control-center networkmanager
 gnome-base/gnome-settings-daemon networkmanager
 gnome-base/gvfs afp ios samba gnome gdu google gnome-online-accounts fuse archive gnome-keyring nfs udisks
 net-misc/gnome-online-miners flickr
+media-plugins/grilo-plugins flickr
 
 # Needed by net-analyzer/ehterape
 gnome-base/libgnomecanvas glade
