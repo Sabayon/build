@@ -144,3 +144,6 @@ media-libs/lib3ds -~amd64 -~x86
 
 # Use stable net-misc/freerdp because unstable breaks ABI
 net-misc/freerdp -~amd64 -~x86
+
+# Use stable version, can easily break LMs
+sys-auth/polkit -~amd64
