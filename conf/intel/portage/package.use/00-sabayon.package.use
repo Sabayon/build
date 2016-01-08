@@ -560,7 +560,7 @@ media-sound/deadbeef alac ape cover curl lastfm m3u hotkeys sndfile supereq wavp
 media-sound/gmusicbrowser gstreamer
 media-sound/gpodder gstreamer
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
-media-sound/lmms fftw fluidsynth vst 
+media-sound/lmms fftw fluidsynth vst
 media-sound/mixxx shout
 media-sound/moc curl sndfile
 media-sound/mp3splt-gtk gstreamer
@@ -909,7 +909,7 @@ www-apps/trac mysql postgres vhosts sqlite
 # which is not enough at this time, minimum req is 9.5
 www-client/chromium -system-ffmpeg
 www-client/firefox filepicker -gnome gstreamer mozbranding system-jpeg xforms
-www-client/firefox-bin linguas_be linguas_id linguas_ka linguas_ku linguas_pa_IN linguas_sq 
+www-client/firefox-bin linguas_be linguas_id linguas_ka linguas_ku linguas_pa_IN linguas_sq
 www-client/midori sqlite
 www-client/qupzilla -qt4 qt5
 www-client/rekonq semantic-desktop
@@ -989,13 +989,14 @@ x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisV
 >=x11-themes/elementary-icon-theme-2.7.1 monochrome branding
 x11-themes/gnome-colors-common branding
 x11-themes/gtk-engines-murrine -themes
+x11-themes/qtcurve qt5
 x11-themes/sabayon-artwork-kde ksplash
 x11-themes/skinenigmang-logos dxr3
 x11-themes/tango-icon-theme branding
 
 x11-wm/compiz -gnome -kde
 x11-wm/compiz-fusion -gnome -kde
-x11-wm/enlightenment xrandr -exchange 
+x11-wm/enlightenment xrandr -exchange
 x11-wm/fluxbox imlib
 x11-wm/fvwm imlib
 x11-wm/icewm imlib
@@ -1013,7 +1014,7 @@ dev-python/PyQt5 webkit
 # See Sabayon bug #890
 dev-lang/perl ithreads
 
-# For safety (no particular reason, but grub requires ncurses) 
+# For safety (no particular reason, but grub requires ncurses)
 # we also provide libncurses.a
 sys-libs/ncurses static-libs
 
@@ -1051,8 +1052,8 @@ media-libs/libpng apng
 
 # New splashutils wants static-libs see Gentoo bug #356231
 media-libs/libpng static-libs
-media-libs/lcms static-libs 
-virtual/jpeg static-libs 
+media-libs/lcms static-libs
+virtual/jpeg static-libs
 media-libs/libjpeg-turbo static-libs
 media-libs/libmng static-libs
 app-arch/bzip2 static-libs
