@@ -50,7 +50,7 @@ media-gfx/gimp (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 media-gfx/graphviz (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-glib\2
 media-gfx/inkscape (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 media-gfx/pdf2svg (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
-media-plugins/evas_generic_loaders (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-base\2
+media-plugins/evas\_generic\_loaders (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-base\2
 net-print/cups (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 net-print/cups-filters (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 sci-libs/gdal (.*)app-text/poppler(.*) \1app-text/poppler-base\2
