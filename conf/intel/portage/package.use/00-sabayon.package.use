@@ -996,7 +996,7 @@ x11-themes/tango-icon-theme branding
 
 x11-wm/compiz -gnome -kde
 x11-wm/compiz-fusion -gnome -kde
-x11-wm/enlightenment xrandr -exchange
+x11-wm/enlightenment xrandr -exchange -enlightenment_modules_wl-weekeyboard
 x11-wm/fluxbox imlib
 x11-wm/fvwm imlib
 x11-wm/icewm imlib
