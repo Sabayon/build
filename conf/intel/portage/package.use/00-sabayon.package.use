@@ -507,7 +507,7 @@ media-libs/mediastreamer video -ffmpeg
 # www-client/chromium wants media-libs/mesa[gles2]
 media-libs/mesa gbm g3dvl nptl openvg pic shared-dricore shared-glapi video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_r100 video_cards_r200 video_cards_r300 video_cards_r600 video_cards_radeon video_cards_via video_cards_vmware video_cards_radeonsi xa xorg gles2
 media-libs/ming php
-media-libs/mlt melt frei0r kdenlive quicktime python -qt4
+media-libs/mlt melt frei0r kdenlive quicktime python qt5 -qt4
 media-libs/openal -qt4
 media-libs/openexr -video_cards_nvidia
 # on amd64, if ABI_X86=32 is set, exif must be unset
