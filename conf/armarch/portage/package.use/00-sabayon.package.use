@@ -290,3 +290,5 @@ dev-lang/perl ithreads
 # cloudshark && wireshark
 net-analyzer/wireshark lua -qt5 -qt4
 
+# roundcube
+mail-client/roundcube mysql
