@@ -19,7 +19,7 @@ app-text/calibre (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-text/diffpdf (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-text/dvipdfmx (.*)app-text/poppler(\d.*)(\[.*\])? \1app-text/poppler-base\2
 app-text/epdfview (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
-app-text/gscan2pdf (.*)app-text/poppler(.*) \1app-text/poppler-base\2
+media-gfx/gscan2pdf (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 app-text/evince (.*)app-text/poppler-(.*)(\[.*\]) \1app-text/poppler-glib-\2
 app-text/kbibtex (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-text/mate-document-viewer (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
