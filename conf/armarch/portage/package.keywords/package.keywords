@@ -127,8 +127,8 @@ x11-wm/marco ** ~arm
 # Misc
 <media-libs/vigra-9999 ** ~arm
 
-# Firefox, we want stable
-www-client/firefox -~arm
+# Firefox, we don't want stable
+www-client/firefox ~arm
 # Chromium, we want it
 www-client/chromium ** ~arm
 
