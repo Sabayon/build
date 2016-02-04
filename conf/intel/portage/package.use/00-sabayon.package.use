@@ -600,6 +600,7 @@ media-video/kino gstreamer quicktime
 media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_nvidia vpx jpeg2k
 # To fix compilation (x86, multilib).
 media-video/libav pic
+media-video/makemkv qt5 -qt4
 media-video/miro faac
 media-video/mpv libmpv samba
 media-video/mkvtoolnix qt5 -wxwidgets
