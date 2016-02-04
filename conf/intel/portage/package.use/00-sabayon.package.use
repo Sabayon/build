@@ -462,6 +462,7 @@ media-gfx/kphotoalbum kipi
 media-gfx/librecad doc
 # SSE2 required, otherwise it does not merge
 media-gfx/luminance-hdr sse2
+media-gfx/openmesh qt5 -qt4
 # required for some functionality of Inkscape - bug 2941
 media-gfx/pstoedit plotutils
 # Newer kernels do not provide vid4l
