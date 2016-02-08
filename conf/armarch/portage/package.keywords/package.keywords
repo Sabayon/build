@@ -153,3 +153,6 @@ games-emulation/mupen64plus-core ** ~arm
 games-emulation/mupen64plus-rsp-hle ** ~arm
 
 media-video/ffmpeg -~arm
+
+dev-libs/efl -~arm
+media-libs/elementary -~arm
