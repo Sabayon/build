@@ -202,6 +202,7 @@ dev-lang/fpc source ide
 # icc doesn't like LINGUAS=ja on ifc
 dev-lang/ifc idb -linguas_ja
 dev-lang/lua deprecated
+dev-lang/luajit lua52compat
 dev-lang/mono moonlight
 dev-lang/nqp moar -parrot
 dev-lang/ocaml tk
