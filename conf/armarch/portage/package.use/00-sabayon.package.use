@@ -298,3 +298,4 @@ mail-client/roundcube mysql
 # ROS
 dev-python/numpy lapack
 
+net-p2p/qbittorrent -qt5
