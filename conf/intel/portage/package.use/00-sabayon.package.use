@@ -712,7 +712,7 @@ net-mail/tpop3d mbox maildir
 net-misc/dropbox librsync-bundled
 
 net-misc/aria2 metalink bittorrent xmlrpc
-net-misc/asterisk jabber gtalk
+net-misc/asterisk jabber gtalk xmpp
 # Preffer openssl over nss and gnutls for curl
 # moreover, nss breaks git https:// checkouts
 net-misc/curl http2 idn ssl -nss -gnutls
