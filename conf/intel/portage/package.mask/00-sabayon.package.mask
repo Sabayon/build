@@ -202,3 +202,6 @@ media-tv/kodi::gentoo
 
 # 2015-09-30 Joost Ruis: Only use overlay version
 sys-fs/zfs-kmod::gentoo
+
+# 2016-03-03 Joost Ruis: Only use overlay version
+sys-apps/lsb-release::gentoo
