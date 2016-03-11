@@ -236,6 +236,7 @@ dev-libs/libgcrypt static-libs
 dev-libs/libgdata gnome gnome-online-accounts
 dev-libs/libgit2-glib ssh
 dev-libs/libgpg-error static-libs
+dev-libs/libgusb vala
 dev-libs/libksba static-libs
 dev-libs/libmcs -kde
 dev-libs/libpcre pcre16
