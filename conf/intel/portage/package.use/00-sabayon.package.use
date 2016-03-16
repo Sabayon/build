@@ -127,6 +127,8 @@ app-office/texstudio qt5 -qt4
 
 app-pda/gtkpod gstreamer
 app-pda/libopensync-plugin-syncml obex
+# Added boost and gui flags to barry
+app-pda/barry boost gui
 
 app-portage/eix sqlite
 app-portage/layman bazaar git mercurial subversion
