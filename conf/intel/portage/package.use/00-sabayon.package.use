@@ -425,6 +425,7 @@ mail-client/claws-mail archive bogofilter calendar networkmanager pdf perl pytho
 mail-client/evolution exchange
 mail-client/mail-notification mozilla pop mbox gmail
 mail-client/mutt sasl sidebar smtp
+mail-client/roundcube mysql
 mail-client/thunderbird lightning -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
 mail-client/trojita qt5 -qt4
 
