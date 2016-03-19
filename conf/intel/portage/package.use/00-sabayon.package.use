@@ -542,7 +542,7 @@ media-libs/urt gs
 media-libs/xine-lib aalib fbcon mng vdr vidix dxr3 -win32codecs -gtk
 
 media-plugins/alsa-plugins libsamplerate pulseaudio
-media-plugins/audacious-plugins chardet cue gnome -gtk gtk3 icecast libsamplerate sndfile wavpack
+media-plugins/audacious-plugins chardet cue gnome -gtk gtk3 http icecast libsamplerate sndfile wavpack
 # Enable the http plugin
 media-plugins/gst-plugins-meta mms http
 media-plugins/kipi-plugins calendar gpssync
