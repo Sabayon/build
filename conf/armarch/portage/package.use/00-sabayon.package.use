@@ -299,3 +299,6 @@ mail-client/roundcube mysql
 dev-python/numpy lapack
 
 net-p2p/qbittorrent -qt5
+
+#lxqt
+dev-libs/libdbusmenu-qt qt5
