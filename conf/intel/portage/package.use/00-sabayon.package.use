@@ -318,7 +318,7 @@ dev-util/anjuta subversion
 dev-util/biew mmx sse
 dev-util/codeblocks contrib
 dev-util/eclipse-sdk java6
-dev-util/geany-plugins enchant gtkspell
+dev-util/geany-plugins ctags enchant gtkspell
 dev-util/glade -gnome
 dev-util/jay java
 dev-util/kdevelop php qthelp ruby
