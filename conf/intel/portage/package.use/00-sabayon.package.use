@@ -295,7 +295,7 @@ dev-qt/qtlockedfile qt5
 dev-qt/qtwebkit kde icu printsupport
 dev-qt/qtgui mng private-headers raster gtkstyle
 dev-qt/qtgui:5 mng private-headers raster -gtkstyle
-dev-qt/qtmultimedia:5 gstreamer qml
+dev-qt/qtmultimedia:5 gstreamer qml widgets
 dev-qt/qtquickcontrols:5 widgets
 dev-qt/qtscript private-headers
 dev-qt/qtscript:5 private-headers scripttools
@@ -622,6 +622,9 @@ media-video/xine-ui aalib vdr
 # Drop xine-ui from dvdrip, since
 # we don't want it on G ISO
 media-video/dvdrip -xine subtitles fping
+
+# Added useflag for openshot >2.0.6
+media-video/openshot python_single_target_python3_4 python_targets_python3_4
 
 net-analyzer/fping suid
 net-analyzer/nessus-core -gtk
