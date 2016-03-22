@@ -28,8 +28,8 @@ dev-util/boost-build -~amd64 -~x86
 # Apache is a critical component and 2.2 is still
 # "good enough", 2.4 isn't yet stabilized
 app-admin/apache-tools -~amd64 -~x86
-www-servers/apache -~amd64 -~x86
-<www-servers/apache-2.3 ~amd64 ~x86 amd64 x86
+www-servers/apache ~amd64 ~x86
+
 <app-admin/apache-tools-2.3 ~amd64 ~x86 amd64 x86
 # required to compile Chromium on x86, it seems
 =sys-devel/make-3.82-r4 ~amd64 ~x86
