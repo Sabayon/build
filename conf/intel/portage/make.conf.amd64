@@ -28,7 +28,7 @@ SAB_PRINT="cups ppds foomatic-db gimpprint freetype xprint scanner"
 SAB_XSYS="cairo X opengl png gif gtk qt4 qt3support xpm tiff xinerama aiglx svg gphoto2 dga lcd openexr wayland" 
 SAB_DESKTOP="kdehiddenvisibility gmp libnotify rdesktop pda zeroconf kdeenablefinal visualization avahi startup-notification accessibility"
 SAB_BROWSER="nsplugin firefox mozdevelop xulrunner"
-SAB_COMMS="jabber msn yahoo icq irc aim rss slp mail imap"
+SAB_COMMS="jabber msn yahoo icq irc aim rss slp mail imap http2"
 
 USE="${SAB_BAD} ${SAB_MEDIA} ${SAB_CODECS} ${SAB_SYSTEM} ${SAB_FILESYS} ${SAB_PRINT} ${SAB_XSYS} ${SAB_DESKTOP} ${SAB_BROWSER} ${SAB_COMMS}"	
 
