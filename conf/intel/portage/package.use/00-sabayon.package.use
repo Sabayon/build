@@ -1267,7 +1267,8 @@ sys-cluster/galera garbd
 
 # Enabling apparmor aufs btrfs overlay useflag to docker
 sys-libs/libapparmor static-libs
-app-emulation/docker apparmor aufs btrfs overlay
+# Ettore Di Giacinto: -seccomp, introduced by docker-1.10 requires static-lib on libseccomp. disable it for now.
+app-emulation/docker apparmor aufs btrfs overlay -seccomp
 
 # Fails  https://bugs.gentoo.org/show_bug.cgi?id=571650
 x11-misc/xplanet -gif
