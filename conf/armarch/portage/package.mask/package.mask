@@ -1,9 +1,6 @@
 >sys-fs/udev-171-r5
 >app-crypt/gnupg-2.0.28
 
-# We now use raspberypi-userland from our overlay
-media-libs/raspberrypi-userland::gentoo
-
 # 2016-03-11 Ettore Di Giacinto: Keep openssl from our overlay
 dev-libs/openssl::gentoo
 
