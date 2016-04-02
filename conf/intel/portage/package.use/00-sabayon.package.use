@@ -596,7 +596,6 @@ media-sound/kid3 -mp4
 media-tv/freevo lirc matrox
 media-tv/kodi airplay bluray css goom mysql pvr rtmp upnp webserver xrandr sftp nfs
 media-tv/xawtv aalib
-media-tv/xbmc airplay bluray css goom mysql pvr rtmp upnp webserver xrandr sftp nfs
 
 # Disable MMX due to compile failures
 media-tv/mythtv fftw
@@ -1154,7 +1153,7 @@ media-libs/xine-lib vaapi vdpau
 media-libs/mesa vdpau
 # Disabling vaapi for now, see bug #2221, #4069
 # 2013-11-15: retry with USE=vaapi
-media-tv/xbmc vaapi vdpau
+media-tv/kodi vaapi vdpau
 media-tv/mythtv vaapi vdpau
 media-video/avidemux vaapi vdpau
 media-video/hwdecode-demos vaapi vdpau
