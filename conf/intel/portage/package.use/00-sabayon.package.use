@@ -1158,6 +1158,7 @@ media-tv/mythtv vaapi vdpau
 media-video/avidemux vaapi vdpau
 media-video/hwdecode-demos vaapi vdpau
 media-video/libav vaapi vdpau
+media-video/mpv vaapi vdpau
 media-video/ffmpeg vaapi vdpau
 # TODO: vdpau requires libav-10. Sigh.
 media-video/vlc vaapi -vdpau
