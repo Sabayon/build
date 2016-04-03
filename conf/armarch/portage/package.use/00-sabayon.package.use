@@ -302,3 +302,5 @@ net-p2p/qbittorrent -qt5
 
 #lxqt
 dev-libs/libdbusmenu-qt qt5
+
+dev-libs/libdbusmenu gtk3
