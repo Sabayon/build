@@ -769,7 +769,7 @@ net-p2p/bitcoin-qt -qt4 qt5
 net-p2p/deluge webinterface
 net-p2p/eiskaltdcpp json
 net-p2p/qbittorrent -qt4 qt5
-net-p2p/retroshare -cli
+net-p2p/retroshare -cli -qt4 qt5
 net-p2p/vuze source
 
 net-print/cnijfilter-drivers e500 e510 e600 ip100 ip4700 ip4900 ip7200 mg2100 mg2200 mg3100 mg3200 mg4100 mg4200 mg5300 mg5400 mg6200 mg6300 mg8200 mp230 mp250 mp270 mp490 mp550 mp560 mp640 mx370 mx430 mx510 mx710 mx890
