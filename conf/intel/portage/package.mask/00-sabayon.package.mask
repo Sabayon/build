@@ -152,9 +152,6 @@ app-text/poppler::gentoo
 # 2014-10-12 Sławomir Nizio: sci-visualization/mayavi (4.3.0) does not build with it
 =sci-libs/vtk-6.0.0*
 
-# 2014-11-13 Joost Ruis: Do not pull libreoffice from Portage
-app-office/libreoffice::gentoo
-
 # 2014-11-20 Joost Ruis: Mask portage version, we have a split version
 net-analyzer/nmap::gentoo
 
