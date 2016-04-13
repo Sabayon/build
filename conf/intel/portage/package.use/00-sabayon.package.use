@@ -1274,3 +1274,5 @@ app-emulation/docker apparmor aufs btrfs overlay -seccomp
 
 # Fails  https://bugs.gentoo.org/show_bug.cgi?id=571650
 x11-misc/xplanet -gif
+
+www-client/w3m fbcon imlib
