@@ -405,6 +405,7 @@ kde-base/klipper prison
 kde-apps/kopete addbookmarks alias autoreplace connectionstatus contactnotes gadu groupwise highlight history irc -kdeenablefinal netmeeting nowlistening oscar otr qq sametime skype statistics texteffect translator webpresence winpopup yahoo
 kde-apps/krdc vnc
 kde-base/krunner xcomposite
+kde-apps/ktp-common-internals otr
 kde-base/kwin captury xcomposite
 # Required by plasma-workspace
 kde-base/libplasmaclock semantic-desktop
@@ -681,7 +682,6 @@ net-im/gajim -avahi
 net-im/gyachi gpgme gtkspell gtkhtml -webkit
 net-im/jabberd2 mysql
 net-im/kadu xmpp
-net-im/ktp-common-internals otr
 net-im/pidgin bonjour console gadu groupwise meanwhile msn prediction qq sasl silc -zephyr
 net-im/psi jingle
 net-im/telepathy-connection-managers -icq -yahoo
