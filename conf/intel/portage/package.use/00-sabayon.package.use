@@ -704,7 +704,7 @@ net-libs/libproxy -kde -gnome python
 net-libs/libsoup gnome
 net-libs/opal sip sipim h323
 net-libs/ptlib video stun wav pipechan dns http dtmf
-net-libs/telepathy-qt farstream
+net-libs/telepathy-qt farstream qt5
 net-libs/wvstreams -qt3
 
 # Disable net-wireless/bluez for libpcap to avoid
