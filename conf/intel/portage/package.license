@@ -1,8 +1,4 @@
 app-text/cpdf				Coherent-Graphics
-dev-java/sun-jce-bin			Oracle-BCLA-JavaSE sun-bcla-java-vm
-dev-java/sun-jre-bin			Oracle-BCLA-JavaSE
-dev-java/sun-jdk			dlj-1.1
-dev-java/sun-jdk			Oracle-BCLA-JavaSE
 dev-lang/icc				Intel-SDP
 dev-lang/idb				Intel-SDP
 dev-lang/ifc				Intel-SDP
