@@ -127,7 +127,6 @@ app-office/texmaker qt5 -qt4
 app-office/texstudio qt5 -qt4
 
 app-pda/gtkpod gstreamer
-app-pda/libopensync-plugin-syncml obex
 # Added boost and gui flags to barry
 app-pda/barry boost gui
 
@@ -280,12 +279,6 @@ dev-python/pyudev pyqt4
 # don't require media-libs/alsa-lib[alisp]
 dev-python/pyglet -alsa
 
-# required by kde-base/artikulate-4.13.1[-gstreamer]
-# required by kde-base/kdeedu-meta-4.13.1
-# required by kde-base/kde-meta-4.13.1
-# required by kde-meta (argument)
->=dev-qt/qt-mobility-1.2.2_p20130703 multimedia qml
-
 dev-qt/qt-creator autotools cmake git subversion valgrind examples
 dev-qt/qt3support kde
 dev-qt/qtcore:4 private-headers
@@ -318,7 +311,6 @@ dev-tcltk/tclxml expat
 dev-util/anjuta subversion
 dev-util/biew mmx sse
 dev-util/codeblocks contrib
-dev-util/eclipse-sdk java6
 dev-util/geany-plugins ctags enchant gtkspell
 dev-util/glade -gnome
 dev-util/jay java
@@ -378,8 +370,6 @@ gnome-extra/nautilus-sendto -cdr
 # Cannot enable bluetooth because gnome-bluetooth-3.x
 # is gtk3 as well
 gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
-# disable fts because gnome-extra/zeitgeist-extensions[fts] doesn't allow gnome-extra/zeitgeist[fts]
-gnome-extra/zeitgeist-extensions -fts
 
 # See bug 3619
 kde-apps/ark lzma
@@ -391,13 +381,9 @@ kde-base/kactivities minimal semantic-desktop
 kde-apps/ksnapshot kipi
 kde-apps/kde4-l10n minimal linguas_be linguas_csb linguas_ne linguas_th linguas_wa
 kde-apps/kdebase-runtime-meta semantic-desktop
-kde-base/kde-meta -nls semantic-desktop
-kde-base/kdepim-meta -nls
-kde-base/kdepimlibs semantic-desktop
 kde-apps/kdebase-kioslaves samba
 kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
 # kill linguas on kdepim-runtime, we ship it in kde-l10n
-kde-base/kdepim-runtime -linguas_ar -linguas_be -linguas_ca -linguas_ca@valencia -linguas_cs -linguas_da -linguas_de -linguas_el -linguas_en_GB -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fr -linguas_ga -linguas_gl -linguas_hr -linguas_hu -linguas_ia -linguas_it -linguas_ja -linguas_kk -linguas_km -linguas_ko -linguas_lt -linguas_lv -linguas_mai -linguas_nb -linguas_nds -linguas_nl -linguas_nn -linguas_pa -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_se -linguas_sk -linguas_sl -linguas_sv -linguas_th -linguas_tr -linguas_uk -linguas_zh_CN -linguas_zh_TW google kolab
 kde-base/kdeplasma-addons desktopglobe json oauth semantic-desktop
 kde-apps/kget bittorrent semantic-desktop
 kde-apps/kio-extras mtp samba
@@ -491,8 +477,6 @@ media-libs/cogl gles2
 media-libs/coin doc
 media-libs/devil mng
 media-libs/elementary -sdl
-# move x11-libs/evas media-libs/evas
-media-libs/evas fontconfig sse threads
 media-libs/freetype -X -auto-hinter adobe-cff
 media-libs/gd fontconfig
 media-libs/gexiv2 introspection
@@ -596,7 +580,6 @@ media-sound/kid3 -mp4
 
 media-tv/freevo lirc matrox
 media-tv/kodi airplay bluray css goom mysql pvr rtmp upnp webserver xrandr sftp nfs
-media-tv/xawtv aalib
 
 # Disable MMX due to compile failures
 media-tv/mythtv fftw
@@ -1006,7 +989,6 @@ x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisV
 x11-themes/gnome-colors-common branding
 x11-themes/gtk-engines-murrine -themes
 x11-themes/qtcurve qt5
-x11-themes/sabayon-artwork-kde ksplash
 x11-themes/skinenigmang-logos dxr3
 x11-themes/tango-icon-theme branding
 
@@ -1156,7 +1138,6 @@ media-libs/mesa vdpau
 media-tv/kodi vaapi vdpau
 media-tv/mythtv vaapi vdpau
 media-video/avidemux vaapi vdpau
-media-video/hwdecode-demos vaapi vdpau
 media-video/libav vaapi vdpau
 media-video/mpv vaapi vdpau
 media-video/ffmpeg vaapi vdpau
