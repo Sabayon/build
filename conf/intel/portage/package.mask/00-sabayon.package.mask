@@ -9,9 +9,6 @@ sys-devel/cons
 # Joost Ruis: Blocks bash
 app-shells/bashdb
 
-# Joost Ruis: Blocks media-gfx/hugin
-dev-util/cocom
-
 # Joost Ruis: Requires mesa +motif
 sci-biology/arb
 
@@ -142,9 +139,6 @@ www-plugins/chrome-binary-plugins:unstable
 
 # 2014-08-31 Sławomir Nizio: we cannot support it properly, bug 3776
 app-portage/g-octave
-
-# 2014-09-30 Joost Ruis: Do not pull xbmc from Portage
-media-tv/xbmc::gentoo
 
 # 2014-09-30 Joost Ruis: Do not pull poppler from Portage
 app-text/poppler::gentoo
