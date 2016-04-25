@@ -22,8 +22,6 @@ virtual/ffmpeg -~amd64 -~x86
 # Force stable boost
 dev-libs/boost -~amd64 -~x86
 dev-util/boost-build -~amd64 -~x86
-=dev-libs/boost-1.52* ~amd64 ~x86 amd64 x86
-=dev-util/boost-build-1.52* ~amd64 ~x86 amd64 x86
 
 # Apache is a critical component and 2.2 is still
 # "good enough", 2.4 isn't yet stabilized
@@ -54,8 +52,6 @@ dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 
 # gst-plugins missing x86 keywords
 media-plugins/gst-plugins-assrender **
-# ~x86 arch missing
-media-video/hwdecode-demos ** ~x86 ~amd64
 
 # using only stable versions
 www-client/chromium -~amd64 -~x86
