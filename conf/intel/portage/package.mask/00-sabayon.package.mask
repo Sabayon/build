@@ -201,3 +201,6 @@ x11-misc/sddm::gentoo
 
 # 2016-03-22 Ettore Di Giacinto: Keep apache from our overlay
 www-servers/apache::gentoo
+
+# 2016-04-27 Joost Ruis: Only use overlay version
+sys-boot/grub::gentoo
