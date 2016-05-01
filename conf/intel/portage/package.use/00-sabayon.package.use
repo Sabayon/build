@@ -1257,3 +1257,8 @@ app-emulation/docker apparmor aufs btrfs overlay -seccomp
 x11-misc/xplanet -gif
 
 www-client/w3m fbcon imlib
+
+# required by media-sound/tomahawk
+media-libs/liblastfm qt5
+media-libs/libechonest qt5
+
