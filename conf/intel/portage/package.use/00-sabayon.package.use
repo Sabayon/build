@@ -598,6 +598,7 @@ media-video/miro faac
 media-video/mpv libmpv samba
 media-video/mkvtoolnix qt5 -wxwidgets
 media-video/ogmrip ogm mp4 srt
+media-video/simplescreenrecorder qt5 -qt4
 media-video/smplayer -qt4 qt5
 media-video/totem xulrunner iplayer galago
 media-video/vdr SetGroupSep-Patch atsc cmdsubmenu dvbsetup dxr3 graphtft iptv menuorg pinplugin rotor submenu subtitles ttxtsubs ttxtsubs yaepg
