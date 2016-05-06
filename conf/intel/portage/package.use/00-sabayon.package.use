@@ -151,7 +151,7 @@ app-text/texlive-core xetex
 # qt4 is a bit overkill for highlight
 # our servers don't want qt4 either.
 app-text/highlight -qt4
-app-text/qpdfview sqlite
+app-text/qpdfview qt5 sqlite -qt4
 # qt4 is overkill for cmake as well
 dev-util/cmake -qt4
 
