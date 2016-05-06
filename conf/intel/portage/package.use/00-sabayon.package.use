@@ -172,6 +172,7 @@ dev-db/postgresql server threads
 # secure-delete required by xulrunner
 # unlock-notify required by dev-db/libzdb
 dev-db/sqlite soundex extensions unlock-notify
+dev-db/sqlitebrowser qt5 -qt4
 # We don't have Oracle
 dev-db/tora -oracle
 
