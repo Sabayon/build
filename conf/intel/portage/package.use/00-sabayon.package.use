@@ -679,6 +679,7 @@ net-irc/znc -python
 net-libs/aqbanking chipcard ofx
 net-libs/c-client chappa
 net-libs/glib-networking gnome
+net-libs/jreen qt5 -qt4
 net-libs/libgadu ssl threads
 # Required by XBMC 12.x
 net-libs/libmicrohttpd messages
