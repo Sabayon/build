@@ -4,3 +4,7 @@
 =dev-libs/gobject-introspection-1.36*
 
 =sys-devel/gcc-config-1.8-r1::sabayon-distro
+
+#Unmasking orcale
+dev-java/oracle-jdk-bin
+dev-java/oracle-jre-bin
