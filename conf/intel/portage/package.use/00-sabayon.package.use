@@ -278,7 +278,7 @@ dev-python/matplotlib -wxwindows
 dev-python/numpy lapack
 # We want sqlite3 support in pypy
 dev-python/pypy sqlite
-dev-python/pyside script
+dev-python/pyside declarative designer multimedia script sql webkit xmlpatterns
 dev-python/pyudev pyqt4
 
 # don't require media-libs/alsa-lib[alisp]
