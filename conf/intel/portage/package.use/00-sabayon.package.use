@@ -260,6 +260,8 @@ dev-libs/quazip qt5 -qt4
 # See Sabayon bug #1020
 dev-libs/openct pcsc-lite
 
+dev-lua/lpeg luajit
+
 dev-ml/camlimages gs postscript
 dev-ml/lablgl glut
 dev-ml/lablgtk gnomecanvas
