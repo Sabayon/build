@@ -261,6 +261,7 @@ dev-libs/quazip qt5 -qt4
 dev-libs/openct pcsc-lite
 
 dev-lua/lpeg luajit
+dev-lua/mpack luajit
 
 dev-ml/camlimages gs postscript
 dev-ml/lablgl glut
