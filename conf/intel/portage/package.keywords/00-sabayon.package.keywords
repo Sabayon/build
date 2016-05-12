@@ -143,3 +143,6 @@ net-misc/freerdp -~amd64 -~x86
 
 # Use stable version, can easily break LMs
 sys-auth/polkit -~amd64
+
+# Use stable version
+sys-apps/iproute2 -~amd64
