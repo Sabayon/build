@@ -163,7 +163,7 @@ app-text/ghostscript-gpl -linguas_ja -linguas_ko -linguas_zh_CN -linguas_zh_TW
 # required for blender
 dev-cpp/glog gflags
 
-dev-db/freetds mssql
+dev-db/freetds mssql odbc
 # dev-db/mongodb should use V8. Allows to fix bug 3069
 # embedded-v8 due to incompatiblity with Chromium - Gentoo bug 471582
 dev-db/mongodb v8 embedded-v8
