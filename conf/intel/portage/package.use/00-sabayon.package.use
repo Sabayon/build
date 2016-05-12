@@ -608,7 +608,7 @@ media-video/simplescreenrecorder qt5 -qt4
 media-video/smplayer -qt4 qt5
 media-video/totem xulrunner iplayer galago
 media-video/vdr SetGroupSep-Patch atsc cmdsubmenu dvbsetup dxr3 graphtft iptv menuorg pinplugin rotor submenu subtitles ttxtsubs ttxtsubs yaepg
-media-video/vlc aalib egl fontconfig httpd libass live lua -qt5 rtsp opus samba skins taglib upnp vlm -svg qt4
+media-video/vlc aalib egl fontconfig httpd libass live lua -qt5 rtsp samba skins taglib upnp vlm -svg qt4
 media-video/xine-ui aalib vdr
 
 # Drop xine-ui from dvdrip, since
