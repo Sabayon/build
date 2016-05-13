@@ -1,15 +1,11 @@
 # Only use stable versions of these libs
 # sys-kernel/linux-headers -~amd64 -~x86
 sys-libs/glibc -~amd64 -~x86
-# Allow glibc 2.17, it's good enough and:
-# https://bugs.sabayon.org/show_bug.cgi?id=4182
-=sys-libs/glibc-2.17* ~amd64 ~x86
 <dev-lang/python-3 -~amd64 -~x86
 dev-libs/openssl -~amd64 -~x86
 dev-lang/perl -~amd64 -~x86
 sys-devel/make -~amd64 -~x86
 sys-kernel/linux-headers -~amd64 -~x86
-sys-libs/libselinux -~amd64 -~x86
 net-libs/gnutls -~amd64 -~x86
 # Accept gnutls-3.3 now
 =net-libs/gnutls-3.3* ~amd64 ~x86 amd64 x86
@@ -45,7 +41,6 @@ dev-python/pycups **
 
 # Grub2, make binpkg for now, keep masked
 <sys-boot/grub-2.99 **
-dev-embedded/avr-libc * ~* -x86 -~x86 -amd64 -~amd64
 
 # Use portage-2.2
 =sys-apps/portage-2.2* **
@@ -55,9 +50,6 @@ media-plugins/gst-plugins-assrender **
 
 # using only stable versions
 www-client/chromium -~amd64 -~x86
-
-# From the bumblebee overlay
-=x11-misc/primus-9999 ** ~amd64 ~x86
 
 # Keeps being pulled in while qgis still needs an older version
 >=x11-libs/qwtpolar-1.0 -~amd64 -~x86
@@ -70,9 +62,6 @@ media-libs/ilmbase -~amd64 -~x86
 media-libs/openexr -~amd64 -~x86
 media-gfx/openexr_viewers -~amd64 -~x86
 media-libs/openexr_ctl -~amd64 -~x86
-
-# leechcraft only stable versions
-app-leechcraft/leechcraft-meta -~amd64 -~x86
 
 # These are a pain in the ass when they abi break
 net-libs/libosip -~amd64 -~x86
