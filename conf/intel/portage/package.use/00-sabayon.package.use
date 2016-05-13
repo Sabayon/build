@@ -54,7 +54,7 @@ app-crypt/mit-krb5 krb4 openldap
 # about dependencies, should really use pinentry-base
 # instead
 app-crypt/pinentry gtk qt4
-app-crypt/qca gpg qt5
+app-crypt/qca gpg
 
 app-doc/doxygen dot
 
@@ -123,8 +123,8 @@ app-office/kmymoney hbci ofx
 app-office/libreoffice -nsplugin gnome java templates -kde pdfimport binfilter -gtk3 gstreamer
 app-office/libreoffice-l10n-meta linguas_as linguas_as_IN linguas_ast linguas_be linguas_be_BY linguas_bo linguas_brx linguas_ca_XV linguas_dgo linguas_dz linguas_en_ZA linguas_fo linguas_gd linguas_gu linguas_hi_IN linguas_ia linguas_id linguas_ka linguas_kn linguas_kok linguas_ks linguas_ku linguas_ky linguas_lo linguas_mai linguas_mi linguas_ml linguas_ml_IN linguas_mni linguas_mr linguas_mr_IN linguas_my linguas_ne linguas_nr linguas_ns linguas_nso linguas_oc linguas_om linguas_or linguas_or_IN linguas_pa_IN linguas_pap linguas_ps linguas_sa_IN linguas_sat linguas_sd linguas_sh linguas_si linguas_sq linguas_st linguas_sw linguas_sw_TZ linguas_te linguas_te_IN linguas_th linguas_ti linguas_ti_ER linguas_tn linguas_ts linguas_ug linguas_ur_IN linguas_ve linguas_xh linguas_zu
 app-office/magicpoint mng
-app-office/texmaker qt5 -qt4
-app-office/texstudio qt5 -qt4
+app-office/texmaker -qt4
+app-office/texstudio -qt4
 
 app-pda/gtkpod gstreamer
 # Added boost and gui flags to barry
@@ -142,7 +142,7 @@ app-text/fbreader -gtk
 app-text/ghostscript-gpl -cjk -gtk
 app-text/lcdf-typetools kpathsea
 app-text/atril caja djvu dvi mate mate-keyring
-app-text/poppler jpeg2k qt5
+app-text/poppler jpeg2k
 app-text/poppler-base jpeg2k
 app-text/stardict tools
 app-text/texlive -truetype
@@ -151,7 +151,7 @@ app-text/texlive-core xetex
 # qt4 is a bit overkill for highlight
 # our servers don't want qt4 either.
 app-text/highlight -qt4
-app-text/qpdfview qt5 sqlite -qt4
+app-text/qpdfview sqlite -qt4
 # qt4 is overkill for cmake as well
 dev-util/cmake -qt4
 
@@ -172,7 +172,7 @@ dev-db/postgresql server threads
 # secure-delete required by xulrunner
 # unlock-notify required by dev-db/libzdb
 dev-db/sqlite soundex extensions unlock-notify
-dev-db/sqlitebrowser qt5 -qt4
+dev-db/sqlitebrowser -qt4
 # We don't have Oracle
 dev-db/tora -oracle
 
@@ -234,7 +234,6 @@ dev-libs/gdl gnome
 dev-libs/gmime -mono
 dev-libs/libassuan static-libs
 dev-libs/libdbusmenu gtk3
-dev-libs/libdbusmenu-qt qt5
 dev-libs/libf2c static-libs
 dev-libs/libgcrypt static-libs
 dev-libs/libgdata gnome gnome-online-accounts
@@ -248,15 +247,14 @@ dev-libs/libxml2 icu
 dev-libs/nss utils
 dev-libs/popt static-libs
 dev-libs/pth static-libs
-dev-libs/qcustomplot qt5 -qt4
-dev-libs/qtkeychain qt5
+dev-libs/qcustomplot -qt4
 dev-libs/tinyxml stl
 dev-libs/tntnet sdk
 dev-libs/xerces-c xqilla icu
 dev-libs/xmlrpc-c curl
 dev-libs/xmlsec gcrypt
 # Required by texstudio
-dev-libs/quazip qt5 -qt4
+dev-libs/quazip -qt4
 
 # See Sabayon bug #1020
 dev-libs/openct pcsc-lite
@@ -291,7 +289,6 @@ dev-qt/qtcore:4 private-headers
 dev-qt/qtcore:5 icu
 dev-qt/qtdeclarative webkit private-headers
 dev-qt/qthelp compat
-dev-qt/qtlockedfile qt5
 dev-qt/qtwebkit kde icu printsupport
 dev-qt/qtgui mng private-headers raster gtkstyle
 dev-qt/qtgui:5 mng private-headers raster -gtkstyle
@@ -301,7 +298,6 @@ dev-qt/qtscript private-headers
 dev-qt/qtscript:5 private-headers scripttools
 # added for mythtv
 dev-qt/qtsql mysql
-dev-qt/qtsingleapplication qt5
 
 dev-scheme/guile regex discouraged networking
 dev-scheme/racket backtrace doc futures jit places threads
@@ -413,7 +409,7 @@ kde-plasma/plasma-meta networkmanager
 kde-plasma/plasma-nm modemmanager
 
 kde-misc/networkmanagement openvpn networksettings -linguas_ar -linguas_bs -linguas_ca -linguas_cs -linguas_da -linguas_de -linguas_el -linguas_es -linguas_et -linguas_fa -linguas_fi -linguas_fr -linguas_ga -linguas_gl -linguas_hu -linguas_it -linguas_ja -linguas_kk -linguas_km -linguas_lt -linguas_nb -linguas_nds -linguas_nl -linguas_nn -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_se -linguas_sk -linguas_sl -linguas_sr -linguas_sr@Latn -linguas_sv -linguas_tr -linguas_uk -linguas_zh_CN -linguas_zh_TW
-kde-misc/kdiff3 -qt4 qt5
+kde-misc/kdiff3 -qt4
 
 lxqt-base/lxqt-meta admin icons
 
@@ -423,7 +419,7 @@ mail-client/mail-notification mozilla pop mbox gmail
 mail-client/mutt sasl sidebar smtp
 mail-client/roundcube mysql
 mail-client/thunderbird lightning -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
-mail-client/trojita qt5 -qt4
+mail-client/trojita -qt4
 
 mail-filter/dovecot-antispam dspam
 mail-filter/maildrop authlib
@@ -463,7 +459,7 @@ media-gfx/kphotoalbum kipi
 media-gfx/librecad doc
 # SSE2 required, otherwise it does not merge
 media-gfx/luminance-hdr sse2
-media-gfx/openmesh qt5 -qt4
+media-gfx/openmesh -qt4
 # required for some functionality of Inkscape - bug 2941
 media-gfx/pstoedit plotutils
 # Newer kernels do not provide vid4l
@@ -508,7 +504,7 @@ media-libs/mediastreamer video -ffmpeg
 # www-client/chromium wants media-libs/mesa[gles2]
 media-libs/mesa gbm g3dvl nptl openvg pic shared-dricore shared-glapi video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_r100 video_cards_r200 video_cards_r300 video_cards_r600 video_cards_radeon video_cards_via video_cards_vmware video_cards_radeonsi xa xorg gles2
 media-libs/ming php
-media-libs/mlt melt frei0r kdenlive quicktime python qt5 -qt4
+media-libs/mlt melt frei0r kdenlive quicktime python -qt4
 media-libs/openal -qt4
 media-libs/openexr -video_cards_nvidia
 # on amd64, if ABI_X86=32 is set, exif must be unset
@@ -518,11 +514,7 @@ media-libs/oyranos -exif
 app-admin/elektra -abi_x86_32
 media-libs/oyranos -abi_x86_32
 
-media-libs/opencv contrib -qt4 qt5
-media-libs/phonon qt5
-media-libs/phonon-vlc qt5
-media-libs/phonon-gstreamer qt5
-media-libs/qt-gstreamer qt5
+media-libs/opencv contrib -qt4
 media-libs/sdl-mixer midi timidity mod mikmod
 # required by games-engines/gargoyle:0
 # USE=mikmod required by gltron
@@ -543,8 +535,8 @@ media-plugins/vdr-weatherng dxr3
 # Enable egl flag as requested from wayland flag
 media-libs/gst-plugins-bad egl -wayland
 
-# enable qt5 for libde265
-media-libs/libde265 qt5 -qt4
+# disable qt4 for libde265
+media-libs/libde265 -qt4
 
 media-radio/tucnak2 fftw
 
@@ -559,7 +551,7 @@ media-sound/cantata replaygain taglib cdparanoia devices
 media-sound/clementine lastfm ios moodbar mtp
 media-sound/cmus mikmod
 media-sound/deadbeef alac ape cover curl lastfm m3u hotkeys sndfile supereq wavpack wma
-media-sound/flacon qt5 -qt4
+media-sound/flacon -qt4
 media-sound/gmusicbrowser gstreamer
 media-sound/gpodder gstreamer
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
@@ -569,7 +561,7 @@ media-sound/moc curl sndfile
 media-sound/mp3splt-gtk gstreamer
 media-sound/ncmpcpp curl
 media-sound/qsampler -qt4
-media-sound/qtractor qt5 sse
+media-sound/qtractor sse
 # Enable system-wide pulseaudio, also see bug #4009
 # Disable qt4
 # 2013-07-11: gtk3 is only used to set a proper window icon...
@@ -580,7 +572,6 @@ media-sound/rhythmbox -cdr python_single_target_python3_4 -python_single_target_
 media-sound/snd fftw
 media-sound/sonic-visualiser fftw
 >=media-sound/soundkonverter-0.2.90-r1 lame
-media-sound/tomahawk qt5
 media-sound/vagalume libproxy
 # Broken with latest libmp4v2
 media-sound/kid3 -mp4
@@ -600,16 +591,16 @@ media-video/kino gstreamer quicktime
 media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_nvidia vpx jpeg2k
 # To fix compilation (x86, multilib).
 media-video/libav pic
-media-video/makemkv qt5 -qt4
+media-video/makemkv -qt4
 media-video/miro faac
 media-video/mpv libmpv samba
-media-video/mkvtoolnix qt5 -wxwidgets
+media-video/mkvtoolnix -wxwidgets
 media-video/ogmrip ogm mp4 srt
-media-video/simplescreenrecorder qt5 -qt4
-media-video/smplayer -qt4 qt5
+media-video/simplescreenrecorder -qt4
+media-video/smplayer -qt4
 media-video/totem xulrunner iplayer galago
 media-video/vdr SetGroupSep-Patch atsc cmdsubmenu dvbsetup dxr3 graphtft iptv menuorg pinplugin rotor submenu subtitles ttxtsubs ttxtsubs yaepg
-media-video/vlc aalib egl fontconfig httpd libass live lua -qt5 rtsp samba skins taglib upnp vlm -svg qt4
+media-video/vlc aalib egl fontconfig httpd libass live lua rtsp samba skins taglib upnp vlm -svg -qt4
 media-video/xine-ui aalib vdr
 
 # Drop xine-ui from dvdrip, since
@@ -687,7 +678,7 @@ net-irc/znc -python
 net-libs/aqbanking chipcard ofx
 net-libs/c-client chappa
 net-libs/glib-networking gnome
-net-libs/jreen qt5 -qt4
+net-libs/jreen -qt4
 net-libs/libgadu ssl threads
 # Required by XBMC 12.x
 net-libs/libmicrohttpd messages
@@ -696,7 +687,7 @@ net-libs/libproxy -kde -gnome python
 net-libs/libsoup gnome
 net-libs/opal sip sipim h323
 net-libs/ptlib video stun wav pipechan dns http dtmf
-net-libs/telepathy-qt farstream qt5
+net-libs/telepathy-qt farstream
 net-libs/wvstreams -qt3
 
 # Disable net-wireless/bluez for libpcap to avoid
@@ -737,7 +728,7 @@ net-misc/networkmanager-vpnc gnome
 net-misc/ntp -zeroconf
 net-misc/openssh -X
 net-misc/openssh -ldap
-net-misc/owncloud-client -qt4 qt5
+net-misc/owncloud-client -qt4
 # No more spidermonkey
 net-misc/plowshare -javascript
 net-misc/ps3mediaserver multiuser tsmuxer
@@ -749,7 +740,7 @@ net-misc/tor threads
 net-misc/vinagre -avahi
 net-misc/x2goserver sqlite
 
-net-news/rssguard -qt4 qt5
+net-news/rssguard -qt4
 
 net-nds/openldap -minimal sasl
 net-dns/bind-tools gssapi
@@ -757,11 +748,11 @@ net-dns/bind-tools gssapi
 net-nntp/suck perl
 
 net-p2p/amule geoip stats remote upnp daemon
-net-p2p/bitcoin-qt -qt4 qt5
+net-p2p/bitcoin-qt -qt4
 net-p2p/deluge webinterface
 net-p2p/eiskaltdcpp json
-net-p2p/qbittorrent -qt4 qt5
-net-p2p/retroshare -cli -qt4 qt5
+net-p2p/qbittorrent -qt4
+net-p2p/retroshare -cli -qt4
 net-p2p/vuze source
 
 net-print/cnijfilter-drivers e500 e510 e600 ip100 ip4700 ip4900 ip7200 mg2100 mg2200 mg3100 mg3200 mg4100 mg4200 mg5300 mg5400 mg6200 mg6300 mg8200 mp230 mp250 mp270 mp490 mp550 mp560 mp640 mx370 mx430 mx510 mx710 mx890
@@ -837,7 +828,6 @@ sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap
 sys-apps/util-linux tty-helpers
 
 sys-auth/consolekit -acl
-sys-auth/polkit-qt qt5
 sys-auth/pambase -consolekit -kerberos
 
 sys-block/gparted -kde -gtk dmraid mdadm btrfs
@@ -919,7 +909,7 @@ www-client/chromium -system-ffmpeg
 www-client/firefox filepicker -gnome gstreamer mozbranding system-jpeg xforms
 www-client/firefox-bin linguas_be linguas_id linguas_ka linguas_ku linguas_pa_IN linguas_sq
 www-client/midori sqlite
-www-client/qupzilla -qt4 qt5
+www-client/qupzilla -qt4
 www-client/rekonq opera
 www-client/seamonkey -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO -linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
 www-client/surf savedconfig
@@ -962,7 +952,7 @@ x11-libs/libdrm video_cards_amdgpu video_cards_intel video_cards_nouveau video_c
 # libva coolness
 x11-libs/libva video_cards_dummy video_cards_intel
 
-x11-libs/qtermwidget -qt4 qt5
+x11-libs/qtermwidget -qt4
 x11-libs/wxGTK gstreamer webkit
 
 # to make cinepaint work, enable threads on fltk
@@ -991,13 +981,12 @@ x11-misc/xscreensaver -new-login
 
 x11-plugins/pidgin-sipe voice
 x11-plugins/cairo-dock-plugins alsa exif gmenu -kde terminal tomboy -webkit -xfce -xklavier
-x11-terms/qterminal -qt4 qt5
+x11-terms/qterminal -qt4
 x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisVert Ubuntu Verde Wood
 # Our artwork, blame Ian
 >=x11-themes/elementary-icon-theme-2.7.1 monochrome branding
 x11-themes/gnome-colors-common branding
 x11-themes/gtk-engines-murrine -themes
-x11-themes/qtcurve qt5
 x11-themes/skinenigmang-logos dxr3
 x11-themes/tango-icon-theme branding
 
@@ -1266,10 +1255,6 @@ app-emulation/docker apparmor aufs btrfs overlay -seccomp
 x11-misc/xplanet -gif
 
 www-client/w3m fbcon imlib
-
-# required by media-sound/tomahawk
-media-libs/liblastfm qt5
-media-libs/libechonest qt5
 
 # needed for app-editors/atom
 dev-util/electron -system-ffmpeg
