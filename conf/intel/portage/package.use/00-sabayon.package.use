@@ -1270,3 +1270,5 @@ www-client/w3m fbcon imlib
 media-libs/liblastfm qt5
 media-libs/libechonest qt5
 
+# needed for app-editors/atom
+dev-util/electron -system-ffmpeg
