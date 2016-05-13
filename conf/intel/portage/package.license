@@ -35,6 +35,8 @@ sci-geosciences/googleearth             googleearth
 sci-mathematics/gimps			GIMPS
 sci-misc/mendeleydesktop		Mendeley-EULA
 www-client/google-chrome		google-chrome
+www-client/google-chrome-beta		google-chrome
+www-client/google-chrome-unstable	google-chrome
 www-client/vivaldi			Vivaldi
 www-plugins/adobe-flash			AdobeFlash-10.3 AdobeFlash-11.x
 www-plugins/chrome-binary-plugins	google-chrome
