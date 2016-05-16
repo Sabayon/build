@@ -1256,3 +1256,6 @@ www-client/w3m fbcon imlib
 
 # needed for app-editors/atom
 dev-util/electron -system-ffmpeg
+
+# needed for lxd
+app-emulation/lxc cgmanager
