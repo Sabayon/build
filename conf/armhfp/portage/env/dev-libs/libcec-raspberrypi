@@ -1,4 +1,0 @@
-CFLAGS="-I/opt/vc/include/ -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -mfloat-abi=hard -mfpu=neon-vfpv4" 
-CXXFLAGS="-I/opt/vc/include/ -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -mfloat-abi=hard -mfpu=neon-vfpv4" 
-LDFLAGS="-L/opt/vc/lib" 
-
