@@ -1261,4 +1261,5 @@ dev-util/electron -system-ffmpeg
 app-emulation/lxc cgmanager
 
 # needed for calamares
-dev-qt/qtwebengine -system-ffmpeg
+dev-qt/qtwebengine -system-ffmpeg widgets
+dev-qt/qtwebchannel qml
