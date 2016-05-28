@@ -935,13 +935,13 @@ x11-base/xorg-x11 intel
 x11-drivers/xf86-video-intel sna uxa
 
 x11-drivers/ati-drivers distribution -qt4 disable-watermark
-x11-drivers/nvidia-drivers distribution uvm
+x11-drivers/nvidia-drivers distribution uvm tools
 x11-drivers/nvidia-drivers -gtk
 # Disable USE=multilib, it's way too much space on amd64
 # see Sept. 6 2012 discussion on staff ML
 # Update: since we cannot disable USE=multilib,
 # USE flag has been renamed to x-multilib
-x11-drivers/nvidia-userspace -x-multilib
+x11-drivers/nvidia-userspace -x-multilib tools
 x11-drivers/ati-userspace -x-multilib
 
 x11-libs/cairo glitz -qt4
