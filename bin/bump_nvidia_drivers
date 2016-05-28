@@ -4,7 +4,7 @@
 packages="x11-drivers/nvidia-drivers::sabayon-distro"
 
 # build for latest kernel
-KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge $packages media-video/nvidia-settings::sabayon-distro
+KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge $packages
 echo -5 | etc-update
 eit commit
 
