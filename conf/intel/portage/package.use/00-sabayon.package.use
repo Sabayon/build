@@ -962,7 +962,7 @@ dev-lang/tcl threads
 dev-lang/tk threads
 dev-tcltk/tclx threads
 
-x11-terms/rxvt-unicode 256-color xft
+x11-terms/rxvt-unicode 256-color blink fading-colors xft
 
 # Bumblebee stuff
 x11-misc/bumblebee video_cards_nvidia video_cards_nouveau
