@@ -1263,3 +1263,5 @@ app-emulation/lxc cgmanager
 # needed for calamares
 dev-qt/qtwebengine -system-ffmpeg widgets
 dev-qt/qtwebchannel qml
+
+net-p2p/bitcoin-qt -qt4 ljr
