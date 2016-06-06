@@ -304,3 +304,9 @@ net-p2p/qbittorrent -qt5
 dev-libs/libdbusmenu-qt qt5
 
 dev-libs/libdbusmenu gtk3
+
+#Required for plasma
+dev-qt/qtcore icu
+media-libs/phonon qt5
+app-text/poppler qt5
+
