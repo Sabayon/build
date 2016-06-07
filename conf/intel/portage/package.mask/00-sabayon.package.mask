@@ -206,4 +206,4 @@ www-servers/apache::gentoo
 sys-boot/grub::gentoo
 
 # 2016-06-7 Ettore Di Giacinto: Keep kde-l10n from our overlay
-kde-apps/kde-l10n::sabayon-distro
+kde-apps/kde-l10n::gentoo
