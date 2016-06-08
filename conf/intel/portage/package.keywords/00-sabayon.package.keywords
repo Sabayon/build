@@ -139,3 +139,6 @@ sys-apps/iproute2 -~amd64
 # Only stable gcc
 sys-devel/gcc -~amd64
 sys-devel/base-gcc -~amd64
+
+
+sys-fs/e2fsprogs -~amd64
