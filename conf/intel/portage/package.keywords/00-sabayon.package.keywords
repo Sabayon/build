@@ -140,5 +140,6 @@ sys-apps/iproute2 -~amd64
 sys-devel/gcc -~amd64
 sys-devel/base-gcc -~amd64
 
-
+# Default config file /etc/mke2fs.conf of the unstable e2fsprogs breaks Calamares
+# anyway, old /etc/mke2fs.conf from stable versions works on unstable
 sys-fs/e2fsprogs -~amd64
