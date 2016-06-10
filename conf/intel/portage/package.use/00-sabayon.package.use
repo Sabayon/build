@@ -1011,7 +1011,7 @@ dev-lang/perl ithreads
 
 # For safety (no particular reason, but grub requires ncurses)
 # we also provide libncurses.a
-sys-libs/ncurses static-libs
+sys-libs/ncurses static-libs tinfo
 
 ## Put new entries after this line if you dont want to organize it. ##
 ######################################################################
