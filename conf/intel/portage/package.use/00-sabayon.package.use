@@ -319,6 +319,7 @@ dev-util/jay java
 dev-util/kdevelop php qthelp ruby
 dev-util/kdevplatform git subversion
 dev-util/nvidia-cuda-sdk opencl
+dev-util/nvidia-cuda-toolkit debugger eclipse profiler
 
 dev-vcs/bzr bash-completion curl sftp
 dev-vcs/git curl webdav -subversion -gtk
