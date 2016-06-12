@@ -346,6 +346,7 @@ games-rpg/eternal-lands-data music sound
 games-rpg/nwn-data videos
 
 games-strategy/0ad editor sound
+games-strategy/freeciv -qt5
 games-strategy/uqm voice
 games-strategy/warzone2100 videos
 
