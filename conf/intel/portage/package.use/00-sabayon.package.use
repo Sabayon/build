@@ -497,7 +497,7 @@ media-libs/libraw demosaic
 media-libs/libsamplerate sndfile
 media-libs/libsdl aalib
 # 32bit libs on amd64, list them here
-media-libs/libsdl2 abi_x86_32 haptic
+media-libs/libsdl2 abi_x86_32 gles haptic
 media-libs/libsfml doc examples
 media-libs/libsoundtouch sse2
 media-libs/libvpx postproc
