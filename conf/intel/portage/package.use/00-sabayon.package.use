@@ -645,7 +645,7 @@ net-dns/avahi-qt introspection
 net-dns/dnsmasq -dbus tftp conntrack dhcp script dhcp-tools
 # We must choose between mysql and postgres
 net-dns/mydns mysql
-net-firewall/fwknop server
+net-firewall/fwknop firewalld server
 net-fs/cifs-utils ads upcall
 
 # 32-bit ABI is not that useful; also fixes compilation of 3.6.24 (cannot find libpam for 32 bit)
