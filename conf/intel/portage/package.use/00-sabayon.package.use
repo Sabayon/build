@@ -326,6 +326,7 @@ dev-vcs/git curl webdav -subversion -gtk
 dev-vcs/qct mercurial subversion
 dev-vcs/subversion -java -apache2 -dso -kde
 
+games-simulation/flightgear -qt5
 games-emulation/generator sdlaudio
 games-emulation/pcsxr -alsa -openal -sdl
 # Dolphin Emu useflag
