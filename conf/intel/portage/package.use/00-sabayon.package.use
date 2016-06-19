@@ -652,7 +652,7 @@ net-firewall/fwknop firewalld server
 net-fs/cifs-utils ads upcall
 
 # 32-bit ABI is not that useful; also fixes compilation of 3.6.24 (cannot find libpam for 32 bit)
-net-fs/samba -abi_x86_32 ads acl aio client oav swat winbind
+net-fs/samba -abi_x86_32 ads acl aio client oav swat winbind -cluster
 
 # requires net-dns/avahi[-mdnsresponder-compat]
 net-fs/netatalk -avahi
