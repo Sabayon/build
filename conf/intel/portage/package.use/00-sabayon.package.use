@@ -939,8 +939,10 @@ x11-apps/fusion-icon -qt4
 x11-base/xorg-server -ipv6 nptl kdrive xvfb
 x11-base/xorg-x11 intel
 x11-drivers/xf86-video-intel sna uxa
+
 x11-drivers/ati-drivers distribution -qt4 disable-watermark
-x11-drivers/nvidia-drivers distribution uvm -gtk -tools
+x11-drivers/nvidia-drivers distribution uvm tools
+x11-drivers/nvidia-drivers -gtk
 # Disable USE=multilib, it's way too much space on amd64
 # see Sept. 6 2012 discussion on staff ML
 # Update: since we cannot disable USE=multilib,
