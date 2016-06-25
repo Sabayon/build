@@ -310,3 +310,5 @@ dev-qt/qtcore icu
 media-libs/phonon qt5
 app-text/poppler qt5
 
+# nextcloud
+>=dev-lang/php-7.0.7-r1 xmlreader
