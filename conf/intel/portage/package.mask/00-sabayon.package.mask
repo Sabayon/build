@@ -165,10 +165,6 @@ net-p2p/bittornado::gentoo
 # 2015-04-02 Joost Ruis: app-mobilephone/obex-data-server blocks 1.7
 >dev-libs/openobex-1.5
 
-# 2015-04-18 Joost Ruis: Required by media-video/subliminal-0.7.4
->dev-python/guessit-0.6.2
->dev-python/babelfish-0.4.0
-
 # 2015-04-20 Joost Ruis: Several packages in tree need =app-crypt/gnupg-2.0*;=app-crypt/gnupg-1.4*?
 >=app-crypt/gnupg-2.1.3
 
