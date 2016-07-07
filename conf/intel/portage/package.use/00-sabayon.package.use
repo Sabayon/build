@@ -351,8 +351,6 @@ games-strategy/freeciv -qt5
 games-strategy/uqm voice
 games-strategy/warzone2100 videos
 
-games-util/springlobby bittorrent
-
 gnome-base/gconf policykit
 gnome-base/gnome-control-center networkmanager
 gnome-base/gnome-settings-daemon networkmanager
@@ -405,7 +403,6 @@ kde-apps/okular chm djvu ebook crypt
 kde-base/plasma-workspace semantic-desktop python
 kde-apps/poxml extras
 kde-base/pykde4 semantic-desktop
-kde-apps/superkaramba python
 
 kde-plasma/plasma-desktop legacy-systray input_devices_synaptics
 kde-plasma/plasma-meta networkmanager
@@ -791,7 +788,6 @@ sci-electronics/geda doc stroke
 sci-geosciences/grass tcl tk fftw
 # doesn't build with tiff 4.0
 sci-geosciences/mapserver flash threads -tiff
-sci-geosciences/qlandkartegt -qt4
 sci-geosciences/qgis -grass
 
 # required by media-gfx/luminance-hdr
@@ -1032,10 +1028,7 @@ media-video/avidemux amr
 
 # Disable gtk dependency, unwanted for Core
 dev-python/python-meh -gtk
-app-admin/system-config-date -gtk
 dev-python/python-slip -gtk
-app-admin/firstboot -gtk
-app-admin/system-config-users -X
 
 # Pylons stuff
 dev-python/paste openid
@@ -1111,7 +1104,6 @@ dev-libs/lzo static-libs
 
 # Enable USE=tk for the Python Imaging stack (and Python)
 dev-python/pillow tk
-virtual/python-imaging tk
 dev-lang/python tk
 
 # This is while we wait for full true multilib support on libav
