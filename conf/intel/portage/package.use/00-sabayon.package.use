@@ -568,7 +568,8 @@ media-sound/qtractor sse
 # Enable system-wide pulseaudio, also see bug #4009
 # Disable qt4
 # 2013-07-11: gtk3 is only used to set a proper window icon...
-media-sound/pulseaudio system-wide -qt4 -gtk
+# 2016-07-13: enable headset profiles, see bug #5232
+media-sound/pulseaudio system-wide -qt4 -gtk native-headset ofono-headset 
 # 2.92 with USE=cdr requires =app-cdr/brasero-3.4* but
 # gnome-base/gnome-core-apps[cdr] depends on >=app-cdr/brasero-3.6.1
 media-sound/rhythmbox -cdr python_single_target_python3_4 -python_single_target_python3_3
