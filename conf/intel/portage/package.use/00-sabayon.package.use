@@ -1264,3 +1264,6 @@ dev-qt/qtwebengine -system-ffmpeg widgets
 dev-qt/qtwebchannel qml
 
 net-p2p/bitcoin-qt -qt4 ljr
+
+# https://bugs.sabayon.org/show_bug.cgi?id=5205
+dev-java/oracle-jdk-bin javafx
