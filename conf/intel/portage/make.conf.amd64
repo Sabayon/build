@@ -53,7 +53,7 @@ CONFIG_PROTECT="/usr/share/config/kdm /etc /etc/conf.d /etc/init.d"
 # /lib/modules mask is useful for our internal tinderbox
 CONFIG_PROTECT_MASK="/etc/skel /lib/modules"
 APACHE2_MPMS="prefork"
-GENTOO_MIRRORS="ftp://ftp.spline.inf.fu-berlin.de/mirrors/gentoo/ http://archive.mmu.edu.my/gentoo rsync://gentoo.bloodhost.ru/gentoo-distfiles ftp://gentoo.mirrors.tds.net/gentoo ftp://ftp.halifax.rwth-aachen.de/gentoo/ rsync://mirror.neolabs.kz/gentoo http://ftp.gentoo.bg/ http://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://mirrors.tera-byte.com/pub/gentoo"
+GENTOO_MIRRORS="ftp://ftp.spline.inf.fu-berlin.de/mirrors/gentoo/ rsync://gentoo.bloodhost.ru/gentoo-distfiles ftp://gentoo.mirrors.tds.net/gentoo ftp://ftp.halifax.rwth-aachen.de/gentoo/ rsync://mirror.neolabs.kz/gentoo http://ftp.gentoo.bg/ http://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://mirrors.tera-byte.com/pub/gentoo"
 
 USE_PYTHON="2.7"
 PYTHON_TARGETS="python2_7 python3_4"
