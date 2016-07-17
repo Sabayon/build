@@ -405,7 +405,7 @@ kde-base/plasma-workspace semantic-desktop python
 kde-apps/poxml extras
 kde-base/pykde4 semantic-desktop
 
-kde-plasma/plasma-desktop legacy-systray input_devices_synaptics
+kde-plasma/plasma-desktop legacy-systray input_devices_synaptics touchpad
 kde-plasma/plasma-meta networkmanager
 kde-plasma/plasma-nm modemmanager
 
