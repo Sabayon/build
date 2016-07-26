@@ -153,8 +153,8 @@ app-text/texlive-core xetex
 # our servers don't want qt4 either.
 app-text/highlight -qt4
 app-text/qpdfview sqlite -qt4
-# qt4 is overkill for cmake as well
-dev-util/cmake -qt4
+# qt4 or qt5 is overkill for cmake as well
+dev-util/cmake -qt4 -qt5
 
 # Since those are not linker deps, we
 # can drop then and let users decide
