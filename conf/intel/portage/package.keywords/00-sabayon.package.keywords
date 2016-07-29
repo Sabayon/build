@@ -39,8 +39,9 @@ dev-libs/icu -~amd64 -~x86
 app-crypt/qca:2 **
 dev-python/pycups **
 
-# Grub2, make binpkg for now, keep masked
-<sys-boot/grub-2.99 **
+# Grub2, get stable version only
+#<sys-boot/grub-2.99 **
+sys-boot/grub -~amd64 
 
 # Use portage-2.2
 =sys-apps/portage-2.2* **
