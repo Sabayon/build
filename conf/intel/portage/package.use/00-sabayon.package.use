@@ -134,8 +134,6 @@ app-pda/barry boost gui
 app-portage/eix sqlite
 app-portage/layman bazaar git mercurial subversion
 
-app-text/aspell -linguas_af -linguas_be -linguas_bg -linguas_br -linguas_ca -linguas_cs -linguas_cy -linguas_da -linguas_de -linguas_el -linguas_en -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fo -linguas_fr -linguas_ga -linguas_gl -linguas_he -linguas_hr -linguas_hu -linguas_is -linguas_it -linguas_lt -linguas_nl -linguas_no -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_sk -linguas_sl -linguas_sr -linguas_sv -linguas_uk -linguas_vi
-app-text/hunspell -linguas_af -linguas_be -linguas_bg -linguas_br -linguas_ca -linguas_cs -linguas_cy -linguas_da -linguas_de -linguas_el -linguas_en -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fo -linguas_fr -linguas_ga -linguas_gl -linguas_he -linguas_hr -linguas_hu -linguas_is -linguas_it -linguas_lt -linguas_lv -linguas_mk -linguas_ms -linguas_nb -linguas_nl -linguas_nn -linguas_no -linguas_pl -linguas_pt -linguas_ro -linguas_ru -linguas_sk -linguas_sl -linguas_sr -linguas_sv -linguas_uk -linguas_vi
 app-text/djvu threads -nsplugin
 app-text/enchant aspell
 app-text/evince djvu dvi gnome-keyring nautilus -nsplugin
@@ -159,7 +157,7 @@ dev-util/cmake -qt4 -qt5
 # Since those are not linker deps, we
 # can drop then and let users decide
 # to install the fonts they want
-app-text/ghostscript-gpl -linguas_ja -linguas_ko -linguas_zh_CN -linguas_zh_TW
+app-text/ghostscript-gpl -l10n_ja -l10n_ko -l10n_zh-CN -l10n_zh-TW
 
 # required for blender
 dev-cpp/glog gflags
@@ -383,7 +381,6 @@ kde-apps/gwenview kipi semantic-desktop
 kde-base/baloo minimal
 kde-base/kactivities minimal semantic-desktop
 kde-apps/ksnapshot kipi
-kde-apps/kde4-l10n minimal linguas_be linguas_csb linguas_ne linguas_th linguas_wa
 kde-apps/kdebase-runtime-meta semantic-desktop
 kde-apps/kdebase-kioslaves samba
 kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
@@ -409,7 +406,8 @@ kde-plasma/plasma-desktop legacy-systray input_devices_synaptics
 kde-plasma/plasma-meta networkmanager
 kde-plasma/plasma-nm modemmanager
 
-kde-misc/networkmanagement openvpn networksettings -linguas_ar -linguas_bs -linguas_ca -linguas_cs -linguas_da -linguas_de -linguas_el -linguas_es -linguas_et -linguas_fa -linguas_fi -linguas_fr -linguas_ga -linguas_gl -linguas_hu -linguas_it -linguas_ja -linguas_kk -linguas_km -linguas_lt -linguas_nb -linguas_nds -linguas_nl -linguas_nn -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_se -linguas_sk -linguas_sl -linguas_sr -linguas_sr@Latn -linguas_sv -linguas_tr -linguas_uk -linguas_zh_CN -linguas_zh_TW
+kde-misc/networkmanagement openvpn networksettings
+
 kde-misc/kdiff3 -qt4
 
 lxqt-base/lxqt-meta admin icons
@@ -419,7 +417,8 @@ mail-client/evolution exchange
 mail-client/mail-notification mozilla pop mbox gmail
 mail-client/mutt sasl sidebar smtp
 mail-client/roundcube mysql
-mail-client/thunderbird lightning -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
+mail-client/thunderbird lightning
+
 mail-client/trojita -qt4
 
 mail-filter/dovecot-antispam dspam
@@ -825,7 +824,6 @@ sys-apps/groff -X
 sys-apps/hwdata-gentoo binary-drivers
 # Do we really want berkdb?
 sys-apps/man-db -berkdb
-sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -linguas_nl -linguas_pl -linguas_ro -linguas_ru -linguas_zh_CN
 sys-apps/pciutils -zlib
 # systemd support
 sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap
@@ -912,7 +910,6 @@ www-apps/trac mysql postgres vhosts sqlite
 # which is not enough at this time, minimum req is 9.5
 www-client/chromium -system-ffmpeg
 www-client/firefox filepicker -gnome gstreamer mozbranding system-jpeg xforms
-www-client/firefox-bin linguas_be linguas_id linguas_ka linguas_ku linguas_pa_IN linguas_sq
 www-client/midori sqlite
 www-client/qupzilla -qt4
 www-client/rekonq opera
