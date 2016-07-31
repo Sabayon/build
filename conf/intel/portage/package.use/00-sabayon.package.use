@@ -512,10 +512,6 @@ media-libs/openexr -video_cards_nvidia
 # on amd64, if ABI_X86=32 is set, exif must be unset
 media-libs/oyranos -exif -qt4
 
-# ...but disable ABI_X86_32 to make elektra compile (Gentoo bug 519492)
-app-admin/elektra -abi_x86_32
-media-libs/oyranos -abi_x86_32
-
 media-libs/opencv contrib -qt4
 media-libs/phonon qt4
 media-libs/phonon-vlc qt4
