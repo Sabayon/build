@@ -9,7 +9,7 @@ else
 	echo "Warning: buildrc not found" >&2
 fi
 
-list="git [sub]version [tra]nsmission [qua]ssel"
+list="git [sub]version [tra]nsmission [qua]ssel [pop]pler"
 cmd="emerge -av"
 default_overlay="sabayon-distro"
 overlay=
@@ -67,6 +67,14 @@ quassel|qua)
 		net-irc/quassel-client \
 		net-irc/quassel-common \
 		net-irc/quassel-core
+	;;
+poppler|pop)
+	$cmd \
+		app-text/poppler::"$overlay" \
+		app-text/poppler-base
+		app-text/poppler-glib
+		app-text/poppler-qt4
+		app-text/poppler-qt5
 	;;
 	# new elements go to $list, too
 *)
