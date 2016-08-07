@@ -41,6 +41,7 @@ sci-misc/mendeleydesktop		Mendeley-EULA
 www-client/google-chrome		google-chrome
 www-client/google-chrome-beta		google-chrome
 www-client/google-chrome-unstable	google-chrome
+www-client/opera			OPERA-2014
 www-client/vivaldi			Vivaldi
 www-plugins/adobe-flash			AdobeFlash-10.3 AdobeFlash-11.x
 www-plugins/chrome-binary-plugins	google-chrome
