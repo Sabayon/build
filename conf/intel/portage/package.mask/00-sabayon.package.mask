@@ -209,3 +209,6 @@ kde-apps/kde-l10n::gentoo
 
 # 2016-08-06 Ettore Di Giacinto: Only use overlay version
 sys-power/cpupower::gentoo
+
+# 2016-08-16 Ettore Di Giacinto: see GLSA https://security.gentoo.org/glsa/201606-04
+dev-libs/libgcrypt:11
