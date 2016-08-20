@@ -1,22 +1,16 @@
 #!/bin/bash
 
 . /etc/profile
+. /sabayon/bin/kernels.inc
 
 cd $(dirname "${0}") || exit 1
 
 # Tracked kernels
-./kernel-autobump /home/fabio/repos/kernel stable origin 3.10 sabayon- "3\.10\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 3.12 sabayon- "3\.12\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 3.14 sabayon- "3\.14\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 3.15 sabayon- "3\.15\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 3.16 sabayon- "3\.16\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 3.17 sabayon- "3\.17\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 3.18 sabayon- "3\.18\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 3.19 sabayon- "3\.19\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 4.0 sabayon- "4\.0\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 4.1 sabayon- "4\.1\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 4.2 sabayon- "4\.2\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 4.3 sabayon- "4\.3\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 4.4 sabayon- "4\.4\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 4.5 sabayon- "4\.5\.[0-9999]"
-./kernel-autobump /home/fabio/repos/kernel stable origin 4.6 sabayon- "4\.6\.[0-9999]"
+for kernel in ${kernels}; do
+	kernel="${kernel%-sabayon}"
+	k_ver=$(echo "${kernel}" | awk --field-separator . '{ print $1 }')
+	k_patchlevel=$(echo "${kernel}" | awk --field-separator . '{ print $2 }')
+	k_sublevel=$(echo "${kernel}" | awk --field-separator . '{ print $3 }')
+	echo "Tracking ${kernel} -> ${k_ver}, ${k_patchlevel}, ${k_sublevel}"
+	./kernel-autobump /home/fabio/repos/kernel stable origin "${k_ver}.${k_patchlevel}" sabayon- "${k_ver}\.${k_patchlevel}\.[0-9999]"
+done
