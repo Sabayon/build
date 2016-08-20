@@ -1,9 +1,10 @@
 #!/bin/bash
 
 . /etc/profile
-. /sabayon/bin/kernels.inc
 
 cd $(dirname "${0}") || exit 1
+
+. ./kernels.inc
 
 # Tracked kernels
 for kernel in ${kernels}; do
