@@ -13,13 +13,14 @@ KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge "${@}" || exit 1
 echo -5 | etc-update
 eit add "${@}" || exit 1
 
+export PKGDIR=$(mktemp -d --tmpdir=/var/tmp --suffix=.bump_kernel_package)
+
 for kernel in $kernels; do
         if [ "${kernel}" = "${running_kernel}" ]; then
                 continue
         fi
-        rm -rf /usr/portage/packages/*
         KERNEL_DIR="/usr/src/linux-${kernel}" emerge -B "${@}" || { echo "ouch unable to build" && exit 1; }
-        built_pkgs=$(find /usr/portage/packages -name "*.tbz2" | xargs echo)
+        built_pkgs=$(find "${PKGDIR}" -name "*.tbz2" | xargs echo)
         [[ -z "${built_pkgs}" ]] && echo "ouch no kernel pkgs" && exit 2
         eit inject ${built_pkgs} || { echo "ouch unable to inject" && exit 3; }
 done
