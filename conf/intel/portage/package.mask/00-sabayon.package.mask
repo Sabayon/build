@@ -215,3 +215,6 @@ dev-libs/libgcrypt:11
 
 # 2016-08-23 Sławomir Nizio: conflicts with media-gfx/paint-mono-0.1.63, https://bugs.gentoo.org/show_bug.cgi?id=591556
 =sci-mathematics/singular-4.0.2
+
+# 2016-08-23 Ettore Di Giacinto: use overlay version
+media-sound/mixxx::gentoo
