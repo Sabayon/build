@@ -212,3 +212,6 @@ sys-power/cpupower::gentoo
 
 # 2016-08-16 Ettore Di Giacinto: see GLSA https://security.gentoo.org/glsa/201606-04
 dev-libs/libgcrypt:11
+
+# 2016-08-23 Sławomir Nizio: conflicts with media-gfx/paint-mono-0.1.63, https://bugs.gentoo.org/show_bug.cgi?id=591556
+=sci-mathematics/singular-4.0.2
