@@ -560,7 +560,7 @@ media-sound/gmusicbrowser gstreamer
 media-sound/gpodder gstreamer
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
 media-sound/lmms fftw fluidsynth vst
-media-sound/mixxx shout -qt4
+media-sound/mixxx shout -ffmpeg -qt4
 media-sound/moc curl sndfile
 media-sound/mp3splt-gtk gstreamer
 media-sound/ncmpcpp curl
