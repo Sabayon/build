@@ -35,7 +35,6 @@ app-benchmarks/phoronix-test-suite gd -gtk
 
 app-cdr/brasero nautilus
 app-cdr/cdrdao -gnome
-app-cdr/dvd95 sse sse2
 app-cdr/k3b taglib
 app-cdr/xfburn gstreamer
 
@@ -333,8 +332,6 @@ net-libs/mbedtls havege
 net-libs/polarssl havege
 games-emulation/dolphin-emu ao egl enet llvm portaudio upnp
 
-# Corsix USE=wxwidgets requires masked (dev) wxGTK 2.9
-games-engines/corsix-th -wxwidgets
 games-engines/stratagus mng
 
 games-fps/darkplaces textures
@@ -380,7 +377,6 @@ kde-apps/dolphin-plugins git
 kde-apps/gwenview kipi semantic-desktop
 kde-base/baloo minimal
 kde-base/kactivities minimal semantic-desktop
-kde-apps/ksnapshot kipi
 kde-apps/kdebase-runtime-meta semantic-desktop
 kde-apps/kdebase-kioslaves samba
 kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
@@ -581,7 +577,6 @@ media-sound/vagalume libproxy
 # Broken with latest libmp4v2
 media-sound/kid3 -mp4
 
-media-tv/freevo lirc matrox
 media-tv/kodi airplay bluray cec css goom mysql pvr rtmp upnp webserver xrandr sftp nfs java
 
 # Disable MMX due to compile failures
@@ -637,7 +632,6 @@ net-analyzer/nmap -zenmap ncat ndiff nping
 net-dialup/mgetty -fax
 net-dialup/ppp atm dhcp radius -gtk
 net-dialup/freeradius threads
-net-dialup/slmodem usb
 
 net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm -gtk python autoipd -qt4 introspection
 net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat
@@ -666,7 +660,6 @@ net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
 net-im/ekg2 -gadu gpg xmpp sqlite
 net-im/empathy gnome
 net-im/gajim -avahi
-net-im/gyachi gpgme gtkspell gtkhtml -webkit
 net-im/jabberd2 mysql
 net-im/kadu xmpp
 net-im/pidgin bonjour console gadu groupwise meanwhile msn prediction qq sasl silc -zephyr
