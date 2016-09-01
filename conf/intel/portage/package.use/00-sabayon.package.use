@@ -350,7 +350,7 @@ games-strategy/warzone2100 videos
 gnome-base/gconf policykit
 gnome-base/gnome-control-center networkmanager
 gnome-base/gnome-settings-daemon networkmanager
-gnome-base/gvfs afp ios samba gnome gdu google gnome-online-accounts fuse archive gnome-keyring nfs udisks
+gnome-base/gvfs afp ios samba gnome gdu google gnome-online-accounts fuse archive gnome-keyring mtp nfs udisks
 net-misc/gnome-online-miners flickr
 media-plugins/grilo-plugins flickr
 
