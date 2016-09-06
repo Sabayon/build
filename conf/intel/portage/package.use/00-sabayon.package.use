@@ -478,7 +478,7 @@ media-libs/devil mng
 media-libs/elementary -sdl
 media-libs/freetype -X -auto-hinter adobe-cff
 media-libs/gd fontconfig
-media-libs/gegl -ffmpeg
+media-libs/gegl raw jpeg2k -ffmpeg
 media-libs/gexiv2 introspection
 # LibreOffice wants it
 media-libs/harfbuzz icu
