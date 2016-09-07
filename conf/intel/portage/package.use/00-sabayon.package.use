@@ -489,6 +489,7 @@ media-libs/libcaca imlib
 media-libs/libgphoto2 exif
 media-libs/libggi aalib
 media-libs/libgpod ios
+media-libs/libmypaint gegl
 # Required by media-gfx/darktable
 media-libs/libraw demosaic
 media-libs/libsamplerate sndfile
