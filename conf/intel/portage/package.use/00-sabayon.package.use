@@ -194,6 +194,7 @@ dev-java/gnu-classpath gstreamer -qt4
 # micia: disable source inclusion in icedtea, save some space
 dev-java/icedtea -source
 # Needed for Netbeans ide
+dev-java/junit source
 dev-java/swing-layout source
 dev-java/swt cairo -xulrunner
 dev-java/swt -firefox
