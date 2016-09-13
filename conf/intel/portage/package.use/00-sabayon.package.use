@@ -438,7 +438,7 @@ media-fonts/baekmuk-fonts -X
 
 media-gfx/asymptote -latex
 # Blender uses Python 3
-media-gfx/blender collada cycles python_single_target_python3_4 python_targets_python3_4 fftw doc jpeg2k libav
+media-gfx/blender collada cycles python_single_target_python3_4 python_targets_python3_4 fftw doc jpeg2k libav -ffmpeg
 media-gfx/exiv2 xmp
 media-gfx/darktable geo cpu_flags_x86_sse3
 # l10n issue is handled by entropy dep_rewrite
