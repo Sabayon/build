@@ -312,7 +312,7 @@ dev-tcltk/tclxml expat
 dev-util/anjuta subversion
 dev-util/biew mmx sse
 dev-util/codeblocks contrib
-dev-util/geany-plugins ctags enchant gtkspell
+dev-util/geany-plugins ctags enchant git gtkspell
 dev-util/glade -gnome
 dev-util/jay java
 dev-util/kdevelop php qthelp ruby
