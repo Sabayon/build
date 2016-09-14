@@ -221,3 +221,6 @@ media-sound/mixxx::gentoo
 >=dev-python/pygit2-0.24.1
 >=dev-libs/libgit2-0.24.0
 >=dev-libs/libgit2-glib-0.24.0
+
+# temp mask for Perl bump
+>sys-kernel/linux-headers-4.3
