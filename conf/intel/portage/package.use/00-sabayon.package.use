@@ -265,6 +265,7 @@ dev-ml/camlimages gs postscript
 dev-ml/lablgl glut
 dev-ml/lablgtk gnomecanvas
 
+dev-perl/Alien-wxWidgets gstreamer
 dev-perl/PDL fftw
 
 dev-python/cgkit 3ds
