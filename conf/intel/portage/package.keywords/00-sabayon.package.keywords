@@ -147,3 +147,7 @@ sys-fs/e2fsprogs -~amd64
 
 # Only stable NetworkManager
 net-misc/networkmanager -~amd64
+
+# Keep efi components stable
+sys-boot/efibootmgr -~amd64
+sys-libs/efivar -~amd64
