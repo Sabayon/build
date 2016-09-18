@@ -508,6 +508,8 @@ media-libs/ming php
 media-libs/mlt melt frei0r kdenlive quicktime python -qt4
 media-libs/openal -qt4
 media-libs/openexr -video_cards_nvidia
+# -ffmpeg, otherwise pulls in media-video/ffmpeg (no libav support as of 1.6.13)
+media-libs/openimageio -ffmpeg
 # on amd64, if ABI_X86=32 is set, exif must be unset
 media-libs/oyranos -exif -qt4
 
