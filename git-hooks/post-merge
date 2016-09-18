@@ -17,7 +17,7 @@ case $arch in
 	if [ -e "/usr/lib/gcc/armv6j-hardfloat-linux-gnueabi" ]; then
 		src_make_conf="./conf/armv6j/portage/make.conf"
 	elif [ -e "/usr/lib/gcc/armv7a-hardfloat-linux-gnueabi" ]; then
-		src_make_conf="./conf/armv7l/portage/make.conf"
+		src_make_conf="./conf/armhfp/portage/make.conf"
 	else
 		echo "Unsupported ARM architecture" >&2
 	fi
