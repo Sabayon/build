@@ -13,6 +13,15 @@ case $arch in
 	x86_64)
 	src_make_conf="./conf/intel/portage/make.conf.amd64"
 	;;
+	arm*)
+	if [ -e "/usr/lib/gcc/armv6j-hardfloat-linux-gnueabi" ]; then
+		src_make_conf="./conf/armv6j/portage/make.conf"
+	elif [ -e "/usr/lib/gcc/armv7a-hardfloat-linux-gnueabi" ]; then
+		src_make_conf="./conf/armv7l/portage/make.conf"
+	else
+		echo "Unsupported ARM architecture" >&2
+	fi
+	;;
 esac
 
 if [ -n "$src_make_conf" ]; then
