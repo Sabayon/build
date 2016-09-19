@@ -312,3 +312,5 @@ app-text/poppler qt5
 
 # nextcloud
 >=dev-lang/php-7.0.7-r1 xmlreader
+
+app-portage/eix sqlite
