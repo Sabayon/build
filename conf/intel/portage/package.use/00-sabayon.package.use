@@ -350,8 +350,8 @@ games-strategy/uqm voice
 games-strategy/warzone2100 videos
 
 gnome-base/gconf policykit
-gnome-base/gnome-control-center networkmanager
-gnome-base/gnome-settings-daemon networkmanager
+gnome-base/gnome-control-center networkmanager input_devices_wacom
+gnome-base/gnome-settings-daemon networkmanager input_devices_wacom
 gnome-base/gvfs afp ios samba gnome gdu google gnome-online-accounts fuse archive gnome-keyring mtp nfs udisks
 net-misc/gnome-online-miners flickr
 media-plugins/grilo-plugins flickr
