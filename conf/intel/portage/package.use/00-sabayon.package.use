@@ -970,6 +970,7 @@ x11-misc/cairo-dock xcomposite
 x11-misc/gpaste gnome-shell keybinder
 x11-misc/notification-daemon gstreamer
 x11-misc/obconf -lxde
+x11-misc/sddm consolekit
 x11-misc/shutter drawing webphoto
 x11-misc/xaos aalib
 # Better support for xmobar, add xft USE flag
@@ -1233,9 +1234,6 @@ media-video/transmageddon python_targets_python3_4 python_single_target_python3_
 
 # Enable caps, since threads is enabled by default
 net-dns/bind threads caps
-
-# Disable upower, we use systemd
-x11-misc/sddm -upower
 
 # Enabling Galera arbitrator daemon
 sys-cluster/galera garbd
