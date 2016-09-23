@@ -151,3 +151,6 @@ net-misc/networkmanager -~amd64
 # Keep efi components stable
 sys-boot/efibootmgr -~amd64
 sys-libs/efivar -~amd64
+
+# keep gnupg stable, >2.1.11 suffer of the interactive prompting bug, ignoring and breaking --batch
+app-crypt/gnupg -~amd64
