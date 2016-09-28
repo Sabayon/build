@@ -382,7 +382,7 @@ kde-base/kactivities minimal semantic-desktop
 kde-apps/kdebase-runtime-meta semantic-desktop
 kde-apps/kdebase-kioslaves samba
 kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
-# kill linguas on kdepim-runtime, we ship it in kde-l10n
+kde-apps/kdepim-runtime google
 kde-base/kdeplasma-addons desktopglobe json oauth semantic-desktop
 kde-apps/kget bittorrent semantic-desktop
 kde-apps/kio-extras mtp samba
