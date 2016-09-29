@@ -91,6 +91,7 @@ kde-base/kwin opengl gles
 dev-python/PyQt4 script svg declarative sql webkit X
 kde-apps/kde4-l10n linguas_be linguas_csb linguas_ne linguas_th linguas_wa
 app-text/poppler-base jpeg2k
+kde-plasma/breeze -qt4
 
 
 # GNOME stuff
