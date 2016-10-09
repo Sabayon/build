@@ -1,4 +1,4 @@
->sys-fs/udev-171-r5
+# >sys-fs/udev-171-r5
 >app-crypt/gnupg-2.0.28
 
 # We now use raspberypi-userland from our overlay
