@@ -691,7 +691,7 @@ net-libs/libsoup gnome
 net-libs/opal sip sipim h323
 net-libs/ptlib video stun wav pipechan dns http dtmf
 net-libs/qxmpp -qt4
-net-libs/telepathy-qt farstream -qt4
+net-libs/telepathy-qt farstream
 
 # Disable net-wireless/bluez for libpcap to avoid
 # having dbus, thus half X shit around pulled in
