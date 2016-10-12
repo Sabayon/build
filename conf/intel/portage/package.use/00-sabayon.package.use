@@ -31,8 +31,6 @@ app-backup/bacula sqlite3
 app-backup/deja-dup nautilus
 app-backup/fsarchiver lzma
 
-app-benchmarks/phoronix-test-suite gd -gtk
-
 app-cdr/brasero nautilus
 app-cdr/cdrdao -gnome
 app-cdr/k3b taglib
@@ -597,7 +595,6 @@ media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_
 # To fix compilation (x86, multilib).
 media-video/libav pic
 media-video/makemkv -qt4
-media-video/miro faac
 media-video/mpv libmpv samba
 media-video/mkvtoolnix -wxwidgets
 media-video/ogmrip ogm mp4 srt
@@ -738,7 +735,7 @@ net-misc/ps3mediaserver multiuser tsmuxer
 net-misc/remmina vnc vte ssh freerdp
 # Add xattr support to rsync
 net-misc/rsync xattr
-net-misc/tightvnc -java server
+net-misc/tigervnc -java server
 net-misc/tor threads
 net-misc/vinagre -avahi
 net-misc/x2goserver sqlite
@@ -882,7 +879,6 @@ sys-kernel/dracut device-mapper dracut_modules_biosdevname dracut_modules_btrfs 
 sys-kernel/genkernel cryptsetup crypt
 sys-kernel/genkernel-next cryptsetup crypt dmraid mdadm
 sys-kernel/linux-sabayon btrfs dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
-sys-kernel/linux-ec2 btrfs
 <sys-kernel/linux-sabayon-3.13 splash
 sys-kernel/sabayon-sources symlink
 
@@ -1064,7 +1060,6 @@ x11-libs/gtk+:2 introspection
 media-libs/gst-plugins-base introspection
 media-libs/gstreamer introspection
 dev-libs/glib introspection
-net-libs/libsoup-gnome introspection
 media-libs/babl introspection
 gnome-extra/polkit-gnome introspection
 gnome-base/libgtop introspection
