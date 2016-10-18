@@ -564,6 +564,7 @@ media-sound/moc curl sndfile
 media-sound/mp3splt-gtk gstreamer
 media-sound/ncmpcpp curl
 media-sound/qsampler -qt4
+media-sound/qmmp analyzer crossfade curl
 media-sound/qtractor sse
 # Enable system-wide pulseaudio, also see bug #4009
 # Disable qt4
