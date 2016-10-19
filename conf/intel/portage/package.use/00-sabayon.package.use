@@ -699,6 +699,7 @@ net-mail/dbmail sqlite3
 # Provide more dovecot features
 net-mail/dovecot managesieve mbox sieve sqlite
 net-mail/notmuch mutt
+net-mail/mu mu4e
 net-mail/tpop3d mbox maildir
 
 # See bug 3118
