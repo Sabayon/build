@@ -154,3 +154,6 @@ sys-libs/efivar -~amd64
 
 # keep gnupg stable, >2.1.11 suffer of the interactive prompting bug, ignoring and breaking --batch
 app-crypt/gnupg -~amd64
+
+# Use stable version
+media-libs/libvpx -~amd64
