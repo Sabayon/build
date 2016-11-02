@@ -157,3 +157,6 @@ app-crypt/gnupg -~amd64
 
 # Use stable version
 media-libs/libvpx -~amd64
+
+# Use stable version
+dev-scheme/guile -~amd64
