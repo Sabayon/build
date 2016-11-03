@@ -131,6 +131,7 @@ app-pda/barry boost gui
 app-portage/eix sqlite
 app-portage/layman bazaar git mercurial subversion
 
+app-text/ansifilter -qt5
 app-text/djvu threads -nsplugin
 app-text/enchant aspell
 app-text/evince djvu dvi gnome-keyring nautilus -nsplugin
