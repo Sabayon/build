@@ -401,7 +401,7 @@ kde-base/pykde4 semantic-desktop
 
 kde-plasma/plasma-desktop legacy-systray input_devices_synaptics
 kde-plasma/plasma-meta networkmanager
-kde-plasma/plasma-nm modemmanager
+kde-plasma/plasma-nm modemmanager openconnect
 
 kde-misc/networkmanagement openvpn networksettings
 
