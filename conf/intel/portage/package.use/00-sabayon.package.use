@@ -296,7 +296,7 @@ dev-qt/qtquickcontrols:5 widgets
 dev-qt/qtscript private-headers
 dev-qt/qtscript:5 private-headers scripttools
 # added for mythtv
-dev-qt/qtsql mysql
+dev-qt/qtsql mysql postgres
 
 dev-scheme/guile regex discouraged networking
 dev-scheme/racket backtrace doc futures jit places threads
@@ -673,7 +673,8 @@ net-im/mcabber otr
 
 net-irc/inspircd mysql sqlite
 net-irc/kvirc -audiofile dcc_video
-net-irc/quassel monolithic
+net-irc/quassel-core postgres
+net-irc/quassel monolithic postgres
 net-irc/weechat tcl
 net-irc/znc -python
 
