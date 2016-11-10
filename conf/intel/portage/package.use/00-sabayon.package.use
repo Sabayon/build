@@ -376,7 +376,6 @@ kde-apps/ark lzma
 kde-apps/dolphin semantic-desktop thumbnail
 kde-apps/dolphin-plugins git
 kde-apps/gwenview kipi semantic-desktop
-kde-base/baloo minimal
 kde-base/kactivities minimal semantic-desktop
 kde-apps/kdebase-runtime-meta semantic-desktop
 kde-apps/kdebase-kioslaves samba
@@ -390,7 +389,6 @@ kde-apps/kopete addbookmarks alias autoreplace connectionstatus contactnotes gad
 kde-apps/krdc vnc
 kde-base/krunner xcomposite
 kde-apps/ktp-common-internals otr
-kde-base/kwin captury xcomposite
 # Required by plasma-workspace
 kde-base/libplasmaclock semantic-desktop
 kde-apps/marble plasma
@@ -399,6 +397,9 @@ kde-base/plasma-workspace semantic-desktop python
 kde-apps/poxml extras
 kde-base/pykde4 semantic-desktop
 
+kde-frameworks/baloo minimal
+
+kde-plasma/kwin captury xcomposite
 kde-plasma/plasma-desktop legacy-systray input_devices_synaptics
 kde-plasma/plasma-meta networkmanager
 kde-plasma/plasma-nm modemmanager openconnect
@@ -1175,9 +1176,6 @@ dev-libs/libgit2 ssh threads
 # required by media-sound/gnome-music-3.10.3
 # required by gnome-music (argument)
 >=media-plugins/grilo-plugins-0.2.10 tracker
-
-# required by ktnef
-app-office/akonadi-server soprano
 
 # required by libteam
 dev-libs/libnl utils
