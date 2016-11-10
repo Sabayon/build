@@ -381,7 +381,6 @@ kde-apps/kdebase-runtime-meta semantic-desktop
 kde-apps/kdebase-kioslaves samba
 kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
 kde-apps/kdepim-runtime google
-kde-base/kdeplasma-addons desktopglobe json oauth semantic-desktop
 kde-apps/kget bittorrent semantic-desktop
 kde-apps/kio-extras mtp samba
 kde-base/klipper prison
@@ -399,6 +398,7 @@ kde-base/pykde4 semantic-desktop
 
 kde-frameworks/baloo minimal
 
+kde-plasma/kdeplasma-addons desktopglobe json oauth semantic-desktop
 kde-plasma/kwin captury xcomposite
 kde-plasma/plasma-desktop legacy-systray input_devices_synaptics
 kde-plasma/plasma-meta networkmanager
