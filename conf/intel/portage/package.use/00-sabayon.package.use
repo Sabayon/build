@@ -328,6 +328,7 @@ dev-vcs/subversion -java -apache2 -dso -kde
 games-simulation/flightgear -qt5
 games-emulation/generator sdlaudio
 games-emulation/pcsxr -alsa -openal -sdl
+games-emulation/vbam -ffmpeg
 # Dolphin Emu useflag
 net-libs/mbedtls havege
 net-libs/polarssl havege
