@@ -169,7 +169,8 @@ net-p2p/bittornado::gentoo
 >sys-libs/libsepol-2.3
 
 # 2015-07-06 Joost Ruis: Only use our overlay version
-app-arch/file-roller::gentoo
+# 2016-11-13 Francesco Ferro: Only use our overlay version for ebuild <3.22
+<app-arch/file-roller-3.22::gentoo
 
 # 2015-08-31 Joost Ruis: Only use overlay version
 media-tv/kodi::gentoo
