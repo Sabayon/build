@@ -1261,3 +1261,6 @@ dev-java/oracle-jdk-bin javafx -nsplugin
 # -nsplugin: conflicts with dev-java/icedtea-web[nsplugin]
 dev-java/oracle-jre-bin -nsplugin
 app-emulation/runc apparmor
+
+# Require mkfs.dosfs
+sys-fs/dosfstools compat
