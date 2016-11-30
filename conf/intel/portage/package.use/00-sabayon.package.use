@@ -290,13 +290,14 @@ dev-qt/qtdeclarative webkit private-headers
 dev-qt/qthelp compat
 dev-qt/qtwebkit kde icu printsupport
 dev-qt/qtgui mng private-headers raster gtkstyle
-dev-qt/qtgui:5 mng private-headers raster -gtkstyle
+dev-qt/qtgui:5 egl mng private-headers raster -gtkstyle
 dev-qt/qtmultimedia:5 gstreamer qml widgets
 dev-qt/qtquickcontrols:5 widgets
 dev-qt/qtscript private-headers
 dev-qt/qtscript:5 private-headers scripttools
 # added for mythtv
 dev-qt/qtsql mysql
+dev-qt/qtwayland egl
 
 dev-scheme/guile regex discouraged networking
 dev-scheme/racket backtrace doc futures jit places threads
