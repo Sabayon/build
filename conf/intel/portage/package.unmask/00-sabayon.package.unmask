@@ -8,3 +8,6 @@
 app-admin/calamares
 
 =x11-misc/lightdm-1.17.5::sabayon-distro
+
+# new versions currently masked in Gentoo due to ffmpeg transition, our version is not affected.
+media-tv/kodi

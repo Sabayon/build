@@ -8,3 +8,6 @@
 #Unmasking orcale
 dev-java/oracle-jdk-bin
 dev-java/oracle-jre-bin
+
+# new versions currently masked in Gentoo due to ffmpeg transition, our version is not affected.
+media-tv/kodi
