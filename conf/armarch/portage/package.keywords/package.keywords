@@ -156,3 +156,5 @@ media-video/ffmpeg -~arm
 
 dev-libs/efl -~arm
 media-libs/elementary -~arm
+
+dev-util/gdbus-codegen -~arm
