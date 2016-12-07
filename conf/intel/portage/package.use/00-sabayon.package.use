@@ -69,6 +69,7 @@ app-emacs/auctex preview-latex
 app-emulation/e-uae capslib
 app-emulation/ganeti kvm lxc htools
 app-emulation/libvirt lxc rbd virtualbox fuse kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
+app-emulation/open-vm-tools -X -xinerama
 # Added virgl and gtk to introduce virtual 3D gpu on qemu
 app-emulation/qemu glusterfs nfs rbd fdt spice -gtk virtfs xattr usbredir gtk virgl
 app-emulation/vice -gtk
