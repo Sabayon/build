@@ -1267,3 +1267,12 @@ app-emulation/runc apparmor
 
 # Require mkfs.dosfs
 sys-fs/dosfstools compat
+
+# MATE is slowly migrating to gtk3, those are needed for 1.16
+>=mate-base/mate-control-center-1.16.0 gtk3
+>=x11-wm/marco-1.16.0 gtk3
+>=mate-base/libmatekbd-1.16.0 gtk3
+>=mate-base/mate-settings-daemon-1.16.0 gtk3
+>=mate-base/mate-desktop-1.16.1 gtk3
+>=mate-base/caja-1.16.1 gtk3
+
