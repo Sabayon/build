@@ -1275,4 +1275,9 @@ sys-fs/dosfstools compat
 >=mate-base/mate-settings-daemon-1.16.0 gtk3
 >=mate-base/mate-desktop-1.16.1 gtk3
 >=mate-base/caja-1.16.1 gtk3
+>=mate-extra/caja-extensions-1.16.0 gtk3
+>=mate-base/mate-1.16 gtk3
+>=media-gfx/eom-1.16.0 -python gtk3
+>=app-editors/pluma-1.16.0 -python gtk3
+dev-libs/libmateweather -python gtk3
 
