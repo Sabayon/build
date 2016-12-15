@@ -99,6 +99,9 @@ app-misc/anki -sound
 app-misc/ddccontrol -gtk -gnome
 app-misc/gcstar stats
 
+#Gramps requires explicit single target
+app-misc/gramps python_single_target_python3_4
+
 # Kernel drivers are unwanted for lirc, they're in-kernel
 app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
 
@@ -432,6 +435,7 @@ mail-mta/netqmail qmail-spp
 mail-mta/postfix mbox sasl
 
 mate-base/mate -notification
+mate-extra/mate-sensors-applet gtk3
 # We want the MATE NetworkManager applet
 mate-base/mate-applets networkmanager
 mate-base/caja mate
