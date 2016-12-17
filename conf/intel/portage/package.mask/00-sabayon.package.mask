@@ -202,10 +202,6 @@ kde-apps/kde-l10n::gentoo
 # 2016-08-06 Ettore Di Giacinto: Only use overlay version
 sys-power/cpupower::gentoo
 
-# 2016-08-23 Sławomir Nizio: conflicts with media-gfx/paint-mono-0.1.63, https://bugs.gentoo.org/show_bug.cgi?id=591556
-# forked ebuild used
-=sci-mathematics/singular-4.0.2::gentoo
-
 # 2016-08-23 Ettore Di Giacinto: use overlay version
 media-sound/mixxx::gentoo
 
