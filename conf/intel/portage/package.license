@@ -51,3 +51,4 @@ dev-java/oracle-jdk-bin			Oracle-BCLA-JavaSE
 dev-java/oracle-jre-bin			Oracle-BCLA-JavaSE
 sys-firmware/b43-firmware		Broadcom
 net-misc/teamviewer			TeamViewer
+sci-misc/mendeleydesktop		Mendeley-terms
