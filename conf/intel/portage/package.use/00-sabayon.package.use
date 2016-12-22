@@ -824,7 +824,7 @@ sci-visualization/fityk gnuplot wxwindows
 sci-visualization/gnuplot gd wxwidgets
 sci-visualization/grace fftw
 sci-visualization/gwyddion fftw
-sci-visualization/paraview mpi
+sci-visualization/paraview -python
 
 # Disable nautilus integration, it gets pulled in in XFCE spin
 sys-apps/gnome-disk-utility -nautilus -avahi
