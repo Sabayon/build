@@ -387,7 +387,7 @@ kde-apps/kdebase-runtime-meta semantic-desktop
 kde-apps/kdebase-kioslaves samba
 kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
 kde-apps/kdepim-runtime google
-kde-apps/kget bittorrent semantic-desktop
+kde-apps/kget -bittorrent semantic-desktop
 kde-apps/kio-extras mtp samba
 kde-base/klipper prison
 kde-apps/kopete addbookmarks alias autoreplace connectionstatus contactnotes gadu groupwise highlight history irc -kdeenablefinal netmeeting nowlistening oscar otr qq sametime skype statistics texteffect translator webpresence winpopup yahoo
