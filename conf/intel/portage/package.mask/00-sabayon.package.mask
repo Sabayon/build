@@ -156,8 +156,8 @@ net-p2p/bittornado::gentoo
 >=dev-python/bpython-0.14
 
 # 2015-03-31 Joost Ruis: kde-base/baloo requires this version
->=dev-libs/xapian-1.3
->=dev-libs/xapian-bindings-1.3
+>=dev-libs/xapian-1.5
+>=dev-libs/xapian-bindings-1.5
 
 # 2015-04-29 Joost Ruis: Breaks app-arch/zpipe, see Gentoo bug #535990
 >=app-arch/libzpaq-7.04
