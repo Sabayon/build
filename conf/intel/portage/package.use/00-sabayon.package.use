@@ -85,7 +85,8 @@ app-emulation/xen-tools hvm qemu
 # be a real problem though since everyone nowadays has normally both of them installed.
 # Advantage is that it will be working for applications using either version of the toolkit
 # which also helps make it just work (bug 2518). It may be revisited in the future if needed.
-app-i18n/ibus gtk3 dconf
+# 2016-12-25: vala useflag enable because budgie-desktop requires it
+app-i18n/ibus gtk3 dconf vala
 app-i18n/skk-jisyo cdb
 
 app-laptop/pommed -gtk
