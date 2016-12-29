@@ -109,7 +109,7 @@ app-emulation/virtualbox-guest-additions#4.8.0-sabayon (.*)x11-drivers/xf86-vide
 dev-java/netbeans-ide (.*)dev-vcs/subversion(.*):0\[java\] \1dev-vcs/subversion-java\2:0
 
 # Drop kde-l10n* deps, always
-* (.*)kde-base/kde-l10n(.*)
+* (.*)kde-apps/kde-l10n(.*)
 * (.*)kde-apps/kde4-l10n(.*)
 
 # Drop x11-libs/cairo PDEPEND from dev-libs/gobject-introspection
