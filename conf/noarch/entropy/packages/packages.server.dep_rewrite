@@ -15,7 +15,7 @@ app-office/texmaker (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-office/texstudio (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-text/apvlv (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 app-text/atril (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-glib\2
-app-text/calibre (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
+app-text/calibre (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
 app-text/diffpdf (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-text/dvipdfmx (.*)app-text/poppler(\d.*)(\[.*\])? \1app-text/poppler-base\2
 app-text/epdfview (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
