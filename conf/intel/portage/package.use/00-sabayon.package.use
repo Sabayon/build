@@ -384,29 +384,23 @@ kde-apps/ark lzma
 kde-apps/dolphin semantic-desktop thumbnail
 kde-apps/dolphin-plugins git
 kde-apps/gwenview kipi semantic-desktop
-kde-base/kactivities minimal semantic-desktop
 kde-apps/kdebase-runtime-meta semantic-desktop
 kde-apps/kdebase-kioslaves samba
-kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
 kde-apps/kdepim-runtime google
 kde-apps/kget -bittorrent semantic-desktop
 kde-apps/kio-extras mtp samba
-kde-base/klipper prison
 kde-apps/kopete addbookmarks alias autoreplace connectionstatus contactnotes gadu groupwise highlight history irc -kdeenablefinal netmeeting nowlistening oscar otr qq sametime skype statistics texteffect translator webpresence winpopup yahoo
 kde-apps/krdc vnc
-kde-base/krunner xcomposite
 kde-apps/ktp-common-internals otr
-# Required by plasma-workspace
-kde-base/libplasmaclock semantic-desktop
 kde-apps/marble plasma
 kde-apps/okular chm djvu ebook crypt
-kde-base/plasma-workspace semantic-desktop python
 kde-apps/poxml extras
-kde-base/pykde4 semantic-desktop
 
 kde-frameworks/baloo minimal
+kde-frameworks/kdelibs jpeg2k -pertty acl semantic-desktop
 
 kde-plasma/kdeplasma-addons desktopglobe json oauth semantic-desktop
+kde-plasma/klipper prison
 kde-plasma/kwin captury xcomposite
 kde-plasma/plasma-desktop legacy-systray input_devices_synaptics
 kde-plasma/plasma-meta networkmanager
