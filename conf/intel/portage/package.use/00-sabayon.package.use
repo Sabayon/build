@@ -368,8 +368,6 @@ gnome-base/libgnomecanvas glade
 gnome-base/librsvg gnome
 gnome-base/nautilus gnome sendto
 
-gnome-extra/avant-window-navigator doc gnome xfce
-gnome-extra/avant-window-navigator-extras gnome
 gnome-extra/evolution-data-server ldap kerberos vala
 gnome-extra/libgsf gnome
 gnome-extra/nautilus-sendto -cdr
