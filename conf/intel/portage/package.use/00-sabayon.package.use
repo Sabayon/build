@@ -808,7 +808,7 @@ sci-libs/vtk tk tcl rendering mpi -ffmpeg
 sci-libs/ViSP opencv
 
 sci-mathematics/maxima latex
-sci-mathematics/octave fftw curl gui doc gnuplot hdf5
+sci-mathematics/octave fftw curl gui doc gnuplot hdf5 -qt5
 sci-mathematics/scilab fftw openmp
 
 # htmldoc, doc, graphviz are required by app-doc/root-docs
