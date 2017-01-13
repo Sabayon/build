@@ -58,7 +58,7 @@ transmission|tra)
 		net-p2p/transmission-cli \
 		net-p2p/transmission-daemon \
 		net-p2p/transmission-gtk \
-		net-p2p/transmission-qt4 \
+		net-p2p/transmission-qt5 \
 		net-p2p/transmission::"$overlay"
 	;;
 quassel|qua)
