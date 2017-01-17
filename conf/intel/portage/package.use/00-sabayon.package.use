@@ -846,6 +846,7 @@ sys-block/open-iscsi -modules
 >sys-boot/grub-1 multislot
 sys-boot/grub device-mapper libzfs
 
+sys-cluster/ceph cephfs
 sys-cluster/openmpi romio
 sys-cluster/torque server
 # We support both vanilla and vz kernels
