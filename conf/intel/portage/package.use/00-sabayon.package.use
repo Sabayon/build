@@ -739,7 +739,7 @@ net-misc/owncloud-client -qt4
 # No more spidermonkey
 net-misc/plowshare -javascript
 net-misc/ps3mediaserver multiuser tsmuxer
-net-misc/remmina vnc vte ssh freerdp
+net-misc/remmina vnc vte ssh rdp
 # Add xattr support to rsync
 net-misc/rsync xattr
 net-misc/tigervnc -java server
