@@ -321,3 +321,5 @@ media-libs/libvpx svc
 app-admin/packagekit-qt qt5
 
 media-libs/libmypaint gegl
+
+x11-libs/qscintilla qt5 -qt4
