@@ -601,7 +601,7 @@ media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_
 # To fix compilation (x86, multilib).
 media-video/libav pic
 media-video/makemkv -qt4
-media-video/mpv libav libmpv samba
+media-video/mpv libmpv samba
 media-video/mkvtoolnix -wxwidgets
 media-video/ogmrip ogm mp4 srt
 media-video/simplescreenrecorder -qt4
