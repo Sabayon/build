@@ -208,11 +208,6 @@ media-sound/mixxx::gentoo
 # 2016-08-26 Sławomir Nizio: net-misc/gns3-server (as of 1.5.1) depends on =dev-python/aiohttp-0.21.5
 >=dev-python/aiohttp-0.22.2
 
-# 2016-08-27 Sławomir Nizio: app-editors/atom (as of 1.8.0) depends on dev-libs/libgit2-0.23*:=[ssh]
->=dev-python/pygit2-0.24.1
->=dev-libs/libgit2-0.24.0
->=dev-libs/libgit2-glib-0.24.0
-
 # 2016-09-17 Sławomir Nizio: at least media-video/bino does not compile with it: https://bugs.gentoo.org/show_bug.cgi?id=594080
 >=media-libs/glew-2.0.0:0
 
