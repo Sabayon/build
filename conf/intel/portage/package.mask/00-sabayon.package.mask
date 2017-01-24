@@ -219,3 +219,6 @@ media-sound/mixxx::gentoo
 
 # 2016-12-31 Joost Ruis: use overlay version
 media-sound/jack-audio-connection-kit::gentoo
+
+# 2017-01-24 Joost Ruis: use overlay version
+sys-cluster/ceph::gentoo
