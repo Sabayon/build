@@ -54,9 +54,6 @@ www-client/chromium -~amd64 -~x86
 # Keeps being pulled in while qgis still needs an older version
 >=x11-libs/qwtpolar-1.0 -~amd64 -~x86
 
-# Python 3.3, add keywords
-dev-lang/python:3.3 ** ~amd64 ~x86
-
 # OpenEXR 2.0.0 causes a huge breakage, keep stable, mask unstable
 media-libs/ilmbase -~amd64 -~x86
 media-libs/openexr -~amd64 -~x86
@@ -79,9 +76,8 @@ app-emulation/libvirt -~amd64 -~x86
 # Latest libgcrypt may break a gazillion of pkgs,
 # wait for it to be stabilized
 dev-libs/libgcrypt -~amd64 -~x86
-# allow 1.5 and 1.6 on amd64, mainly due to true multilib
+# allow 1.5 on amd64, mainly due to true multilib
 =dev-libs/libgcrypt-1.5* ~amd64
-=dev-libs/libgcrypt-1.6* ~amd64
 
 # Force stable, due to Gentoo bug #495236
 dev-python/tempita -~amd64 -~x86
@@ -96,9 +92,7 @@ dev-libs/ntl -~amd64 -~x86
 # we want stable systemd stack
 virtual/udev -~amd64 -~x86
 sys-apps/systemd -~amd64 -~x86
-# except systemd-208 and systemd-222
-=sys-apps/systemd-208* ~amd64 ~x86
-=sys-apps/systemd-222* ~amd64 ~x86
+# allow unstable systemd-226
 =sys-apps/systemd-226* ~amd64 ~x86
 
 # Allow any openssl 0.9.8y revision as well
