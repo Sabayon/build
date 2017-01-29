@@ -405,8 +405,6 @@ kde-plasma/plasma-desktop legacy-systray input_devices_synaptics
 kde-plasma/plasma-meta networkmanager
 kde-plasma/plasma-nm modemmanager openconnect
 
-kde-misc/networkmanagement openvpn networksettings
-
 kde-misc/kdiff3 -qt4
 
 lxqt-base/lxqt-meta admin icons
@@ -553,7 +551,6 @@ media-sound/ardour freesound lv2
 media-sound/asunder wavpack
 media-sound/audacity ladspa vamp soundtouch id3tag midi sbsms -ffmpeg
 media-sound/audacious gtk3 wma timidity lirc dbus chardet -gtk -qt5
-media-sound/banshee podcast -ipod -zeroconf mtp njb
 media-sound/cantata replaygain taglib cdparanoia devices
 media-sound/clementine lastfm ios moodbar mtp
 media-sound/cmus mikmod
@@ -915,7 +912,6 @@ www-client/chromium -system-ffmpeg
 www-client/firefox filepicker -gnome gstreamer mozbranding system-jpeg xforms
 www-client/midori sqlite
 www-client/qupzilla -qt4
-www-client/rekonq opera
 www-client/surf savedconfig
 www-client/uget gstreamer
 
@@ -1076,7 +1072,6 @@ gnome-base/libgtop introspection
 x11-libs/libnotify introspection
 dev-libs/libgee introspection
 net-libs/gtk-vnc gtk3
-app-misc/tomboy -applet
 # our is a split package, who cares
 net-dns/avahi dbus gtk3
 # Do not pull in gnome-extra-apps meta package
