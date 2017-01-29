@@ -140,9 +140,6 @@ app-portage/g-octave
 # 2014-09-30 Joost Ruis: Do not pull poppler from Portage
 app-text/poppler::gentoo
 
-# 2014-10-12 Sławomir Nizio: sci-visualization/mayavi (4.3.0) does not build with it
-=sci-libs/vtk-6.0.0*
-
 # 2014-11-20 Joost Ruis: Mask portage version, we have a split version
 net-analyzer/nmap::gentoo
 
@@ -158,9 +155,6 @@ net-p2p/bittornado::gentoo
 # 2015-03-31 Joost Ruis: kde-base/baloo requires this version
 >=dev-libs/xapian-1.5
 >=dev-libs/xapian-bindings-1.5
-
-# 2015-04-29 Joost Ruis: Breaks app-arch/zpipe, see Gentoo bug #535990
->=app-arch/libzpaq-7.04
 
 # 2015-06-05 Sławomir Nizio: Mask unstable perl version
 >dev-lang/perl-5.22.2
