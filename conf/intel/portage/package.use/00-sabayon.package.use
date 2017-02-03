@@ -412,7 +412,7 @@ lxqt-base/lxqt-meta admin icons
 mail-client/claws-mail archive bogofilter calendar networkmanager pdf perl python rss spam-report webkit -kde -pda
 mail-client/evolution exchange
 mail-client/mail-notification mozilla pop mbox gmail
-mail-client/mutt sasl sidebar smtp
+mail-client/mutt -berkdb -lmdb -qdbm -tokyocabinet gdbm sasl sidebar smtp
 mail-client/roundcube mysql
 mail-client/thunderbird lightning
 
