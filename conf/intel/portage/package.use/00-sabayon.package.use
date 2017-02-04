@@ -339,7 +339,6 @@ games-emulation/pcsxr -alsa -openal -sdl
 games-emulation/vbam -ffmpeg
 # Dolphin Emu useflag
 net-libs/mbedtls havege
-net-libs/polarssl havege
 games-emulation/dolphin-emu ao egl enet llvm portaudio upnp
 
 games-engines/stratagus mng
