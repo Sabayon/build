@@ -1,0 +1,29 @@
+if [ "${EBUILD_PHASE}" = "install" ]; then
+	url=https://github.com/Sabayon/build/blob/9bce2a15185c8aa3b5524ff54430e19a1d20f9b7
+	url+=/conf/noarch/entropy/packages/packages.server.dep_rewrite#L164
+
+	elog
+	elog "Entropy administration information:"
+	elog
+	elog "~~~   READ THIS CAREFULLY   ~~~"
+	elog "if you are bumping sys-libs/ncurses"
+
+	# lxnay's mail rephrased
+	elog "if you are bumping sys-libs/ncurses to a new slot:"
+	elog "Whenever upstream moves the old compat library to a separate slot,"
+	elog "and updates the former slot with a new version of it, it is needed"
+	elog "to make sure that the new version is pulling in the old library"
+	elog "from the new slot."
+
+	elog "For example, sys-libs/ncurses-5.9-r101 should be a dependency of"
+	elog "the new ncurses-6.0 package."
+
+	elog "Compare with:"
+	elog "$url"
+
+	elog "if you are bumping sys-libs/ncurses"
+	elog "~~~   READ THIS CAREFULLY   ~~~"
+	elog
+
+	unset url
+fi
