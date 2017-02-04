@@ -337,9 +337,7 @@ games-simulation/flightgear -qt5
 games-emulation/generator sdlaudio
 games-emulation/pcsxr -alsa -openal -sdl
 games-emulation/vbam -ffmpeg
-# Dolphin Emu useflag
-net-libs/mbedtls havege
-games-emulation/dolphin-emu ao egl enet llvm portaudio upnp
+games-emulation/dolphin ao egl llvm portaudio upnp
 
 games-engines/stratagus mng
 
@@ -687,6 +685,8 @@ net-libs/libmicrohttpd messages
 # libproxy is bloatware
 net-libs/libproxy -kde -gnome python
 net-libs/libsoup gnome
+# used to be dolphin-emu (now dolphin) flag
+net-libs/mbedtls havege
 net-libs/opal sip sipim h323
 net-libs/ptlib video stun wav pipechan dns http dtmf
 net-libs/qxmpp -qt4
