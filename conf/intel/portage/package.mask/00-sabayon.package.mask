@@ -157,7 +157,7 @@ net-p2p/bittornado::gentoo
 >=dev-libs/xapian-bindings-1.5
 
 # 2015-06-05 Sławomir Nizio: Mask unstable perl version
->dev-lang/perl-5.22.2
+>dev-lang/perl-5.22.3_rc4
 
 # 2015-06-15 Joost Ruis: Do not bump libsepol, required by anaconda
 >sys-libs/libsepol-2.3
