@@ -583,7 +583,8 @@ media-sound/kid3 -mp4
 media-tv/kodi airplay bluray cec css goom mysql pvr rtmp upnp webserver xrandr sftp nfs java
 
 # Disable MMX due to compile failures
-media-tv/mythtv fftw
+# disable hls because (as of 0.27.6_p20160318) it requires <media-libs/libvpx-1.5.0
+media-tv/mythtv -hls fftw
 
 media-video/blinkensim aalib
 media-video/dvgrab quicktime
