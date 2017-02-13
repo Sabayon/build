@@ -375,6 +375,7 @@ gnome-extra/nautilus-sendto -cdr
 # is gtk3 as well
 gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
 
+kde-apps/akonadi tools
 # See bug 3619
 kde-apps/ark lzma
 kde-apps/dolphin semantic-desktop thumbnail
