@@ -196,9 +196,6 @@ kde-apps/kde-l10n::gentoo
 # 2016-08-06 Ettore Di Giacinto: Only use overlay version
 sys-power/cpupower::gentoo
 
-# 2016-08-23 Ettore Di Giacinto: use overlay version
-media-sound/mixxx::gentoo
-
 # 2016-08-26 Sławomir Nizio: net-misc/gns3-server (as of 1.5.1) depends on =dev-python/aiohttp-0.21.5
 >=dev-python/aiohttp-0.22.2
 
