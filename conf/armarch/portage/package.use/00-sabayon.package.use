@@ -323,3 +323,6 @@ app-admin/packagekit-qt qt5
 media-libs/libmypaint gegl
 
 x11-libs/qscintilla qt5 -qt4
+
+
+media-sound/pulseaudio-10.0 gnome
