@@ -100,8 +100,8 @@ dev-java/icedtea-bin (.*)sys-devel/gcc(.*)
 dev-java/icedtea (.*)sys-devel/gcc(.*)
 
 # net-dns/avahi dep rewrites
-* (.*)net-dns/avahi(.*)(\[.*\])? \1net-dns/avahi-base\2
-* (.*)net-dns/avahi(.*)(\[.*gtk3.*\]) \1net-dns/avahi-gtk3\2
+* (.*)net-dns/avahi(?!-base|-qt|-gtk|-mono|-gtk3)(.*)(\[.*\])? \1net-dns/avahi-base\2
+* (.*)net-dns/avahi(?!-base|-qt|-gtk|-mono|-gtk3)(.*)(\[.*gtk3.*\]) \1net-dns/avahi-gtk3\2
 
 # Fix gtk-3 deps
 media-video/kino (.*)x11-libs/gtk(.*) \1x11-libs/gtk\2:2
