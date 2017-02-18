@@ -213,3 +213,7 @@ media-sound/jack-audio-connection-kit::gentoo
 
 # 2017-01-24 Joost Ruis: use overlay version
 sys-cluster/ceph::gentoo
+
+# 2017-02-18 Francesco Ferretti: use overlay version
+net-dns/avahi::gentoo
+
