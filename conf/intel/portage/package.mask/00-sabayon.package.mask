@@ -205,9 +205,6 @@ sys-power/cpupower::gentoo
 # temp mask for Perl bump
 >sys-kernel/linux-headers-4.3
 
-# 2016-11-10 Ettore Di Giacinto:  https://bugs.gentoo.org/show_bug.cgi?id=575498
->sys-libs/glibc-2.21-r2
-
 # 2016-12-31 Joost Ruis: use overlay version
 media-sound/jack-audio-connection-kit::gentoo
 
