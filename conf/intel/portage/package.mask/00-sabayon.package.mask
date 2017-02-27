@@ -207,3 +207,6 @@ sys-cluster/ceph::gentoo
 # 2017-02-18 Francesco Ferretti: use overlay version
 net-dns/avahi::gentoo
 
+# 2017-02-27 Joost Ruis: Currently needs unstable ghc
+>=x11-wm/xmonad-0.13
+>=x11-wm/xmonad-contrib-0.13
