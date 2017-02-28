@@ -168,9 +168,6 @@ sys-fs/zfs-kmod::gentoo
 # 2016-03-03 Joost Ruis: Only use overlay version
 sys-apps/lsb-release::gentoo
 
-# 2016-03-11 Ettore Di Giacinto: Keep openssl from our overlay
-dev-libs/openssl::gentoo
-
 # 2016-03-14 Ettore Di Giacinto: Keep sddm from our overlay
 x11-misc/sddm::gentoo
 
