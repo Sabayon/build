@@ -992,6 +992,7 @@ x11-themes/gnome-colors-common branding
 x11-themes/gtk-engines-murrine -themes
 x11-themes/skinenigmang-logos dxr3
 x11-themes/tango-icon-theme branding
+x11-themes/zuki-themes gnome-shell
 
 x11-wm/compiz -gnome -kde
 x11-wm/compiz-fusion -gnome -kde
