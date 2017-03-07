@@ -23,3 +23,5 @@ cd $(dirname "${0}") || exit 1
 ./kernel-autobump /home/fabio/repos/kernel stable origin 4.7 sabayon- "4\.7\.[0-9999]"
 ./kernel-autobump /home/fabio/repos/kernel stable origin 4.8 sabayon- "4\.8\.[0-9999]"
 ./kernel-autobump /home/fabio/repos/kernel stable origin 4.9 sabayon- "4\.9\.[0-9999]"
+./kernel-autobump /home/fabio/repos/kernel stable origin 4.10 sabayon- "4\.10\.[0-9999]"
+
