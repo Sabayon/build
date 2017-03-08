@@ -180,9 +180,6 @@ sys-boot/grub::gentoo
 # 2016-06-7 Ettore Di Giacinto: Keep kde-l10n from our overlay
 kde-apps/kde-l10n::gentoo
 
-# 2016-07-32 Sławomir Nizio: docker-compose (1.8.0_r2) requires this
->=dev-python/requests-2.8
-
 # 2016-08-06 Ettore Di Giacinto: Only use overlay version
 sys-power/cpupower::gentoo
 
