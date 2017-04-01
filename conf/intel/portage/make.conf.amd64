@@ -49,7 +49,6 @@ QEMU_SOFTMMU_TARGETS="x86_64 arm cris i386 m68k microblaze mips mips64 mips64el 
 
 ## PORTAGE CONFIG ##
 PORTDIR_OVERLAY="/usr/local/portage"
-source /var/lib/layman/make.conf
 CONFIG_PROTECT="/usr/share/config/kdm /etc /etc/conf.d /etc/init.d"
 # /lib/modules mask is useful for our internal tinderbox
 CONFIG_PROTECT_MASK="/etc/skel /lib/modules"
