@@ -189,9 +189,6 @@ sys-power/cpupower::gentoo
 # 2016-09-17 Sławomir Nizio: at least media-video/bino does not compile with it: https://bugs.gentoo.org/show_bug.cgi?id=594080
 >=media-libs/glew-2.0.0:0
 
-# temp mask for Perl bump
->sys-kernel/linux-headers-4.3
-
 # 2016-12-31 Joost Ruis: use overlay version
 media-sound/jack-audio-connection-kit::gentoo
 
