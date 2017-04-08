@@ -50,7 +50,7 @@ app-crypt/mit-krb5 krb4 openldap
 # enable GTK2 by default, people complaining
 # about dependencies, should really use pinentry-base
 # instead
-app-crypt/pinentry gtk qt4 -qt5
+app-crypt/pinentry gtk qt4 -qt5 gnome-keyring
 app-crypt/qca gpg
 
 app-doc/doxygen dot
