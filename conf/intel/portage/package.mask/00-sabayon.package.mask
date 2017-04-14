@@ -159,9 +159,6 @@ net-p2p/bittornado::gentoo
 # 2016-11-13 Francesco Ferro: Only use our overlay version for ebuild <3.22
 <app-arch/file-roller-3.22::gentoo
 
-# 2015-08-31 Joost Ruis: Only use overlay version
-media-tv/kodi::gentoo
-
 # 2015-09-30 Joost Ruis: Only use overlay version
 sys-fs/zfs-kmod::gentoo
 
