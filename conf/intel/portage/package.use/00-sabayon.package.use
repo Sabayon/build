@@ -966,7 +966,7 @@ x11-libs/qtermwidget -qt4
 # required by x11-libs/qwtpolar
 x11-libs/qwt designer
 
-x11-libs/qwtpolar -qt4 qt5
+x11-libs/qwtpolar qt4 -qt5
 x11-libs/wxGTK gstreamer webkit
 
 # to make cinepaint work, enable threads on fltk
