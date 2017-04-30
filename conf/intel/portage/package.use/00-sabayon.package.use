@@ -289,6 +289,8 @@ dev-python/pyudev pyqt4
 # don't require media-libs/alsa-lib[alisp]
 dev-python/pyglet -alsa
 
+dev-python/qscintilla-python qt4 -qt5
+
 dev-qt/qt-creator autotools cmake git subversion valgrind examples
 dev-qt/qt3support kde
 dev-qt/qtcore:4 private-headers
