@@ -156,5 +156,5 @@ app-portage/layman (.*)dev-vcs/subversion(.*)
 
 # Drop useless blocker. Entropy strips the sub-slot which makes the blocker too
 # wide (bug 5382). It can by safely removed because Sabayon does not provide
-# this Boost version anyway.
-media-sound/ncmpcpp !dev-libs/boost:0/1\.57\.0(.*)
+# this Boost version anyway. (It is: !dev-libs/boost:0/1.57.0.)
+media-sound/ncmpcpp !dev-libs/boost:(.*)
