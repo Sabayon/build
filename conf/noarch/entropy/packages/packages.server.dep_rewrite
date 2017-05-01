@@ -11,8 +11,8 @@ app-office/krita (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-office/libreoffice (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 app-office/openoffice (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 app-office/scribus (.*)app-text/poppler(.*) \1app-text/poppler-base\2
-app-office/texmaker (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
-app-office/texstudio (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
+app-office/texmaker (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
+app-office/texstudio (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
 app-text/apvlv (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 app-text/atril (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-glib\2
 app-text/calibre (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
@@ -27,7 +27,7 @@ app-text/pdf2djvu (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 app-text/pdf2htmlEX (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 app-text/pdf2oo (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-base\2
 app-text/pdfgrep (.*)app-text/poppler(.*) \1app-text/poppler-base\2
-app-text/qpdfview (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
+app-text/qpdfview (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
 app-text/referencer (.*)app-text/poppler(.*) app-text/poppler-glib
 app-text/texlive-core (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 app-text/xournal app-text/poppler(\[.*\])? app-text/poppler-glib
@@ -44,8 +44,8 @@ gnome-extra/gnome-commander (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 gnustep-libs/popplerkit (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 kde-base/kfilemetadata (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 kde-frameworks/kfilemetadata (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
-kde-apps/okular (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
-kde-misc/tellico (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
+kde-apps/okular (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
+kde-misc/tellico (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
 mail-client/claws-mail (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-glib\2
 media-gfx/gimp (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 media-gfx/graphviz (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-glib\2
@@ -58,7 +58,7 @@ sci-libs/gdal (.*)app-text/poppler(.*) \1app-text/poppler-base\2
 www-apps/dotproject (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 www-apps/swish-e (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 x11-misc/andromeda (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
-x11-misc/qcomicbook (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
+x11-misc/qcomicbook (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
 xfce-extra/tumbler (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 media-gfx/pqiv (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-glib\2
 
