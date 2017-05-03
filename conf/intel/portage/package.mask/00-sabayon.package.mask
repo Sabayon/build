@@ -191,5 +191,8 @@ net-dns/avahi::gentoo
 >=dev-haskell/haddock-api-2.17.3
 >=dev-haskell/haddock-2.17.2
 
+# 2017-05-03 Sławomir Nizio: net-proxy/mitmproxy 0.11.3 requires this 0.11*
+>=dev-python/netlib-0.12.0
+
 # Temp. masked to resolve conflicts
 >dev-haskell/http-client-tls-0.2.4
