@@ -277,7 +277,7 @@ dev-python/cgkit 3ds
 # Make possible to have dev-python/epydoc without python compiled with tk
 dev-python/epydoc -X
 dev-python/ipython -wxwidgets
-dev-python/matplotlib -wxwindows
+dev-python/matplotlib -qt5 -wxwindows
 # Required by dev-python/graph-tool
 dev-python/numpy lapack
 # We want sqlite3 support in pypy
