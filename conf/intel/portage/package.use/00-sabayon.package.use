@@ -285,6 +285,7 @@ dev-python/pypy sqlite
 dev-python/PyQt4 compat
 dev-python/pyside declarative designer multimedia script sql webkit xmlpatterns
 dev-python/pyudev pyqt4
+dev-python/QtPy webkit
 
 # don't require media-libs/alsa-lib[alisp]
 dev-python/pyglet -alsa
