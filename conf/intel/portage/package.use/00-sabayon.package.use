@@ -445,6 +445,7 @@ media-gfx/exiv2 xmp
 media-gfx/darktable geo cpu_flags_x86_sse3
 # l10n issue is handled by entropy dep_rewrite
 media-gfx/digikam handbook semantic-desktop
+media-gfx/eog-plugins flickr
 media-gfx/gimageview mng
 media-gfx/gimp aalib mng wmf smp
 media-gfx/gmic -ffmpeg
