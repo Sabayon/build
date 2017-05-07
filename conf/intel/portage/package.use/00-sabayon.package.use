@@ -338,6 +338,7 @@ dev-vcs/subversion -java -apache2 -dso -kde
 
 games-simulation/flightgear -qt5
 games-emulation/generator sdlaudio
+games-emulation/mednafen debugger
 games-emulation/pcsxr -alsa -openal -sdl
 games-emulation/vbam -ffmpeg
 games-emulation/dolphin ao egl llvm portaudio upnp
