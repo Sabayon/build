@@ -200,5 +200,8 @@ net-dns/avahi::gentoo
 # 2017-05-06 Sławomir Nizio: sys-fs/encfs (as of 1.9.1) requires dev-libs/tinyxml2:0/3
 >=dev-libs/tinyxml2-4
 
+# 2017-05-10 Joost Ruis: Keep masked until we have Python:3.5
+>=media-gfx/blender-2.78a-r1
+
 # Temp. masked to resolve conflicts
 >dev-haskell/http-client-tls-0.2.4
