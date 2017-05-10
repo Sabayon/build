@@ -750,6 +750,7 @@ net-misc/rsync xattr
 net-misc/tigervnc -java server
 net-misc/tor threads
 net-misc/vinagre rdp -avahi
+net-misc/x2goclient -qt5
 net-misc/x2goserver sqlite
 
 net-news/rssguard -qt4
