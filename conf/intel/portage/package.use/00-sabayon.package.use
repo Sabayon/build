@@ -869,6 +869,7 @@ sys-devel/gettext -git
 sys-devel/gdb expat python
 # clang wants USE=clang for llvm
 sys-devel/llvm clang
+sys-devel/qconf -qt4
 
 sys-fs/evms -gtk
 sys-fs/mtd-utils xattr
