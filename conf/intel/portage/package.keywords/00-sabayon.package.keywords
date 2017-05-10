@@ -159,3 +159,6 @@ dev-libs/protobuf -~amd64
 # use stable sys-libs/tevent to avoid problems like in bug 5362
 # (Samba is tevent's main reverse dependency)
 sys-libs/tevent -~amd64
+
+# Use stable dev-libs/libRocket
+dev-libs/libRocket -~amd64
