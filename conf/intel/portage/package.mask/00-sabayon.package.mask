@@ -203,8 +203,9 @@ net-dns/avahi::gentoo
 # 2017-05-10 Joost Ruis: Keep masked until we have Python:3.5
 >=media-gfx/blender-2.78-r1
 
-# 2017-05-10 Joost Ruis: Keep masked until we have qt5 enabled on x11-libs/qscintilla 
+# 2017-05-10 Joost Ruis: Keep masked until we have qt5 enabled on x11-libs/qscintilla
 >=sci-geosciences/qgis-2.18.7
+>=dev-db/sqlitebrowser-3.9.1-r1
 
 # Temp. masked to resolve conflicts
 >dev-haskell/http-client-tls-0.2.4
