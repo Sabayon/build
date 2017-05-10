@@ -207,5 +207,8 @@ net-dns/avahi::gentoo
 >=sci-geosciences/qgis-2.18.7
 >=dev-db/sqlitebrowser-3.9.1-r1
 
+# 2017-05-10 Joost Ruis: Required by sci-visualization/paraview-5.2.0
+>=dev-libs/jsoncpp-1.7.5
+
 # Temp. masked to resolve conflicts
 >dev-haskell/http-client-tls-0.2.4
