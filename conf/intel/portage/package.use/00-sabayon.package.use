@@ -790,7 +790,7 @@ sci-chemistry/avogadro -python
 sci-chemistry/openbabel -perl -python
 sci-chemistry/xds-bin smp
 
-sci-chemistry/apbs tools
+sci-chemistry/apbs iapbs tools
 
 sci-electronics/geda doc stroke
 
