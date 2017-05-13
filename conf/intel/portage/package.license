@@ -45,6 +45,7 @@ www-client/google-chrome-unstable	google-chrome
 www-client/opera			OPERA-2014
 www-client/opera-developer		OPERA-2014
 www-client/vivaldi			Vivaldi
+www-client/vivaldi-snapshot		Vivaldi
 www-plugins/adobe-flash			AdobeFlash-10.3 AdobeFlash-11.x
 www-plugins/chrome-binary-plugins	google-chrome
 www-plugins/google-talkplugin           Google-TOS
