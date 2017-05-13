@@ -1,4 +1,4 @@
 sys-devel/base-gcc:4.9
->=sys-apps/portage-2.3.3
+>=sys-apps/portage-2.3.5
 >sys-libs/glibc-2.22.9999
 >=sys-apps/entropy-205
