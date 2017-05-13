@@ -66,6 +66,7 @@ app-editors/xemacs xft
 app-emacs/auctex preview-latex
 
 # virt stuff
+app-emulation/docker-runc apparmor
 app-emulation/e-uae capslib
 app-emulation/ganeti kvm lxc htools
 app-emulation/libvirt lxc rbd virtualbox fuse kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
