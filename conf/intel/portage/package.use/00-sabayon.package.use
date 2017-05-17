@@ -923,7 +923,7 @@ www-apps/trac mysql postgres vhosts sqlite
 
 # system-ffmpeg dependency pulls in ffmpeg, we use stable libav
 # which is not enough at this time, minimum req is 9.5
-www-client/chromium -system-ffmpeg
+www-client/chromium widevine -system-ffmpeg
 www-client/firefox filepicker -gnome gstreamer mozbranding system-jpeg xforms
 www-client/midori sqlite
 www-client/qupzilla -qt4
