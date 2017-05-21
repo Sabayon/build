@@ -11,7 +11,7 @@ app-eselect/eselect-php fpm apache2
 # (Previous versions didn't have it, so nothing should be "lost.")
 app-admin/testdisk -qt4
 # PackageKit, Sabayon config
-app-admin/packagekit entropy cron pm-utils -qt4 -gtk
+app-admin/packagekit entropy cron pm-utils -qt5 -gtk
 # PackageKit settings
 app-admin/packagekit-base pm-utils entropy -bash-completion
 app-admin/ulogd mysql
