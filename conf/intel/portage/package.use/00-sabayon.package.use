@@ -758,7 +758,8 @@ net-misc/x2goserver sqlite
 
 net-news/rssguard -qt4
 
-net-nds/openldap -minimal sasl
+# slp disabled due to https://bugs.gentoo.org/show_bug.cgi?id=617278
+net-nds/openldap -minimal sasl -slp
 net-dns/bind-tools gssapi
 
 net-nntp/suck perl
