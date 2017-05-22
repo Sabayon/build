@@ -673,7 +673,7 @@ net-im/centerim gadu
 net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
 net-im/ekg2 -gadu gpg xmpp sqlite
 net-im/empathy gnome
-net-im/gajim -avahi
+net-im/gajim -zeroconf
 net-im/jabberd2 mysql
 net-im/kadu xmpp
 net-im/pidgin bonjour console gadu groupwise meanwhile msn prediction qq sasl silc -zephyr
