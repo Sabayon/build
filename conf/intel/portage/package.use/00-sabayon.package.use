@@ -1062,9 +1062,10 @@ dev-python/pylons genshi jinja
 
 # openresolv support
 net-dns/bind dlz resolvconf
-net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
 net-vpn/vpnc resolvconf
+# networkmanager cross-compatibility for connman
+net-misc/connman resolvconf networkmanager
 
 sys-auth/polkit -kde -gtk
 media-libs/libpng apng
