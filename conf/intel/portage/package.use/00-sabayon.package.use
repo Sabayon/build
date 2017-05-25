@@ -1063,7 +1063,7 @@ dev-python/pylons genshi jinja
 net-dns/bind dlz resolvconf
 net-misc/connman resolvconf
 net-misc/networkmanager resolvconf
-net-misc/vpnc resolvconf
+net-vpn/vpnc resolvconf
 
 sys-auth/polkit -kde -gtk
 media-libs/libpng apng
