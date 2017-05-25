@@ -690,6 +690,7 @@ net-irc/znc -python
 net-libs/aqbanking chipcard ofx
 net-libs/c-client chappa
 net-libs/glib-networking gnome
+net-libs/gnutls openpgp sslv2 tools
 net-libs/jreen -qt4
 net-libs/libgadu ssl threads
 # Required by XBMC 12.x
