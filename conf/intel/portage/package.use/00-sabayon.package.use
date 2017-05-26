@@ -1062,7 +1062,7 @@ dev-python/pylons genshi jinja
 
 # openresolv support
 net-dns/bind dlz resolvconf
-net-misc/connman networkmanager resolvconf
+net-misc/connman iptables networkmanager resolvconf
 net-misc/networkmanager resolvconf
 net-vpn/vpnc resolvconf
 
