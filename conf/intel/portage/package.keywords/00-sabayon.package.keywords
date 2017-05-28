@@ -28,6 +28,9 @@ www-servers/apache ~amd64 ~x86
 # required to compile Chromium on x86, it seems
 =sys-devel/make-3.82-r4 ~amd64 ~x86
 
+# force stable imagemagick
+media-gfx/imagemagick -~amd64 -~x86
+
 # force stable libpng
 media-libs/libpng -~amd64 -~x86
 # but allow libpng 1.6, we need ABI_X86 support
