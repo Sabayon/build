@@ -269,7 +269,7 @@ dev-lua/mpack luajit
 
 dev-ml/camlimages gs postscript
 dev-ml/lablgl glut
-dev-ml/lablgtk gnomecanvas
+dev-ml/lablgtk gnomecanvas sourceview
 
 dev-perl/Alien-wxWidgets gstreamer
 dev-perl/PDL fftw
