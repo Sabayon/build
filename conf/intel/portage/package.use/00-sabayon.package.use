@@ -1307,5 +1307,6 @@ dev-libs/libmateweather -python gtk3
 
 dev-libs/sway swaygrab swaylock wallpapers
 
-# Enable opencl and evm
+# Enable opencl and evm, make it possible to mine ETH.
 net-p2p/go-ethereum evm opencl
+media-libs/mesa opencl
