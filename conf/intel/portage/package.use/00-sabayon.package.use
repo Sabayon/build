@@ -931,7 +931,7 @@ www-client/firefox filepicker -gnome gstreamer mozbranding system-jpeg xforms
 www-client/midori sqlite
 www-client/qupzilla -qt4
 www-client/surf savedconfig
-www-client/uget gstreamer
+www-client/uget gstreamer aria2
 
 # 32bit plugin is unwanted
 www-plugins/adobe-flash -32bit sse2
