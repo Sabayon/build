@@ -33,7 +33,7 @@ app-backup/fsarchiver lzma
 
 app-cdr/brasero nautilus
 app-cdr/cdrdao -gnome
-app-cdr/k3b taglib
+kde-apps/k3b taglib
 app-cdr/xfburn gstreamer
 
 # required by seahorse
@@ -251,7 +251,6 @@ dev-libs/libpcre pcre16 static-libs
 dev-libs/libxml2 icu
 dev-libs/nss utils
 dev-libs/popt static-libs
-dev-libs/pth static-libs
 dev-libs/qcustomplot -qt4
 dev-libs/tinyxml stl
 dev-libs/tntnet sdk
@@ -402,7 +401,6 @@ kde-frameworks/baloo minimal
 kde-frameworks/kdelibs jpeg2k -pertty acl semantic-desktop
 
 kde-plasma/kdeplasma-addons desktopglobe json oauth semantic-desktop
-kde-plasma/klipper prison
 kde-plasma/kwin captury xcomposite
 kde-plasma/plasma-desktop legacy-systray input_devices_synaptics
 kde-plasma/plasma-meta networkmanager
@@ -724,8 +722,6 @@ net-misc/asterisk jabber gtalk xmpp
 # Preffer openssl over nss and gnutls for curl
 # moreover, nss breaks git https:// checkouts
 net-misc/curl http2 idn ssl -nss -gnutls
-# Hylafax features
-net-misc/hylafax mgetty
 net-misc/mediatomb thumbnail -javascript
 net-misc/minidlna netgear readynas
 net-misc/mosh ufw
@@ -752,7 +748,7 @@ net-misc/remmina vnc vte ssh rdp
 # Add xattr support to rsync
 net-misc/rsync xattr
 net-misc/tigervnc -java server
-net-misc/tor threads
+net-vpn/tor threads
 net-misc/vinagre rdp -avahi
 net-misc/x2goclient -qt5
 net-misc/x2goserver sqlite
@@ -878,7 +874,6 @@ sys-devel/gdb expat python
 sys-devel/llvm clang
 sys-devel/qconf -qt4
 
-sys-fs/evms -gtk
 sys-fs/mtd-utils xattr
 sys-fs/ntfs3g suid ntfsprogs
 # USE=static static-libs must go together in order to have it compiling
@@ -952,7 +947,6 @@ x11-base/xorg-server -ipv6 nptl kdrive xvfb
 x11-base/xorg-x11 intel
 x11-drivers/xf86-video-intel dri3 sna uxa
 
-x11-drivers/ati-drivers distribution -qt4 disable-watermark
 x11-drivers/nvidia-drivers distribution uvm tools
 x11-drivers/nvidia-drivers -gtk
 # Disable USE=multilib, it's way too much space on amd64
@@ -960,7 +954,6 @@ x11-drivers/nvidia-drivers -gtk
 # Update: since we cannot disable USE=multilib,
 # USE flag has been renamed to x-multilib
 x11-drivers/nvidia-userspace -x-multilib tools
-x11-drivers/ati-userspace -x-multilib
 
 # required by gnome-extra/cinnamon-screensaver >= 3.2.13-r2
 x11-libs/xapps introspection
@@ -1121,8 +1114,6 @@ sys-libs/glibc hardened suid nscd
 # See bug 3360
 media-libs/freetype infinality
 
-# Super Google MySQL!
-dev-db/google-mysql -embedded
 ~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
 
