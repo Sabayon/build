@@ -10,7 +10,8 @@ perl-core/* -~amd64 -~x86
 virtual/perl-* -~amd64 -~x86
 # exceptions:
 # for dev-perl/DateTime-Locale required by other packages
-virtual/perl-Scalar-List-Utils amd64
+~virtual/perl-Scalar-List-Utils-1.460.0 ~amd64
+~perl-core/Scalar-List-Utils-1.460.0 ~amd64
 
 sys-devel/make -~amd64 -~x86
 sys-kernel/linux-headers -~amd64 -~x86
