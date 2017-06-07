@@ -12,6 +12,9 @@ virtual/perl-* -~amd64 -~x86
 # for dev-perl/DateTime-Locale required by other packages
 ~virtual/perl-Scalar-List-Utils-1.460.0 ~amd64
 ~perl-core/Scalar-List-Utils-1.460.0 ~amd64
+# needed for dev-tex/biber-2.7::gentoo
+~virtual/perl-Unicode-Collate-1.190.0 ~amd64
+~perl-core/Unicode-Collate-1.190.0 ~amd64
 
 sys-devel/make -~amd64 -~x86
 sys-kernel/linux-headers -~amd64 -~x86
