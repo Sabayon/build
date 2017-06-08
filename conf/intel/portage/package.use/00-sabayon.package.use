@@ -1277,7 +1277,7 @@ net-p2p/bitcoin-qt -qt4 ljr
 dev-java/oracle-jdk-bin javafx -nsplugin
 
 # -nsplugin: conflicts with dev-java/icedtea-web[nsplugin]
-dev-java/oracle-jre-bin -nsplugin
+dev-java/oracle-jre-bin -nsplugin jce
 app-emulation/runc apparmor
 
 # Require mkfs.dosfs
