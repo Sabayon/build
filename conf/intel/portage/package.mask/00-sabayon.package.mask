@@ -210,5 +210,8 @@ net-dns/avahi::gentoo
 # 2017-05-10 Joost Ruis: Required by sci-visualization/paraview-5.2.0
 >=dev-libs/jsoncpp-1.7.5
 
+# 2017-06-11 Sławomir Nizio: dev-ruby/rake-remote_task 2.4.2 depends on <dev-ruby/rake-12
+>=dev-ruby/rake-12
+
 # Temp. masked to resolve conflicts
 >dev-haskell/http-client-tls-0.2.4
