@@ -213,5 +213,9 @@ net-dns/avahi::gentoo
 # 2017-06-11 Sławomir Nizio: dev-ruby/rake-remote_task 2.4.2 depends on <dev-ruby/rake-12
 >=dev-ruby/rake-12
 
+# 2017-06-14 Sławomir Nizio: sys-cluster/libccs-3.2.0 and sys-cluster/openais-1.1.4-r1
+# depend on the older version
+>=sys-cluster/corosync-2
+
 # Temp. masked to resolve conflicts
 >dev-haskell/http-client-tls-0.2.4
