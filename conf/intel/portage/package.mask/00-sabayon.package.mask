@@ -214,5 +214,8 @@ net-dns/avahi::gentoo
 # depend on the older version
 >=sys-cluster/corosync-2
 
+# 2017-06-14 Sławomir Nizio: media-gfx/meshlab-1.3.3 requires media-libs/lib3ds-1*
+>=media-libs/lib3ds-2.0.0_rc1
+
 # Temp. masked to resolve conflicts
 >dev-haskell/http-client-tls-0.2.4
