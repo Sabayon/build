@@ -1303,3 +1303,5 @@ dev-libs/sway swaygrab swaylock wallpapers
 # Enable opencl and evm, make it possible to mine ETH.
 net-p2p/go-ethereum evm opencl
 media-libs/mesa opencl
+# Add electrum features
+net-misc/electrum qrcode sync trustedcoin_com cosign digitalbitbox
