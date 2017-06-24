@@ -417,6 +417,10 @@ mail-client/mutt -berkdb -lmdb -qdbm -tokyocabinet gdbm sasl sidebar smtp
 mail-client/roundcube mysql
 mail-client/thunderbird lightning
 
+# ffmpeg is default; disabling it (as of 52.2.0) means losing HTML5 video
+# rendering
+mail-client/thunderbird-bin -ffmpeg
+
 mail-client/trojita -qt4
 
 mail-filter/dovecot-antispam dspam
