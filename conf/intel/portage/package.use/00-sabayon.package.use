@@ -138,13 +138,14 @@ app-portage/eix sqlite
 app-portage/layman bazaar git mercurial subversion
 
 app-text/ansifilter -qt5
+app-text/atril caja djvu dvi mate mate-keyring
 app-text/djvu threads -nsplugin
 app-text/enchant aspell
 app-text/evince djvu dvi gnome-keyring nautilus -nsplugin
 app-text/fbreader -gtk
 app-text/ghostscript-gpl -cjk -gtk
 app-text/lcdf-typetools kpathsea
-app-text/atril caja djvu dvi mate mate-keyring
+app-text/libwps tools
 app-text/poppler jpeg2k
 app-text/poppler-base jpeg2k
 app-text/stardict tools
