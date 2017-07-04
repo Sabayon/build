@@ -219,7 +219,7 @@ net-dns/avahi::gentoo
 
 # 2017-07-04 Sławomir Nizio: dev-python/pygit2 must be matched (x.y parts) with
 # libgit2, but no new enough version of the former (only 0.25.1 is available)
->=dev-python/pygit2-0.26
+>=dev-libs/libgit2-0.26
 >=dev-libs/libgit2-glib-0.26
 
 # Temp. masked to resolve conflicts
