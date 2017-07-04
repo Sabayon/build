@@ -217,5 +217,10 @@ net-dns/avahi::gentoo
 # 2017-06-14 Sławomir Nizio: media-gfx/meshlab-1.3.3 requires media-libs/lib3ds-1*
 >=media-libs/lib3ds-2.0.0_rc1
 
+# 2017-07-04 Sławomir Nizio: dev-python/pygit2 must be matched (x.y parts) with
+# libgit2, but no new enough version of the former (only 0.25.1 is available)
+>=dev-python/pygit2-0.26
+>=dev-libs/libgit2-glib-0.26
+
 # Temp. masked to resolve conflicts
 >dev-haskell/http-client-tls-0.2.4
