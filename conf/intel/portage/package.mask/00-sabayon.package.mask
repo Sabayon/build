@@ -224,6 +224,3 @@ net-dns/avahi::gentoo
 
 # 2017-07-04 Sławomir Nizio: net-analyzer/metasploit:4.12 requires =dev-ruby/rkelly-remix-0.0.6
 >=dev-ruby/rkelly-remix-0.0.7
-
-# Temp. masked to resolve conflicts
->dev-haskell/http-client-tls-0.2.4
