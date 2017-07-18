@@ -15,6 +15,7 @@ app-admin/packagekit entropy cron pm-utils -qt5 -gtk
 # PackageKit settings
 app-admin/packagekit-base pm-utils entropy -bash-completion
 app-admin/ulogd mysql
+app-admin/setools -X
 
 app-arch/advancecomp mng
 # GNOME PackageKit support
