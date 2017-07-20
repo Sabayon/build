@@ -195,7 +195,7 @@ dev-lang/php -threads apache2 curl gd truetype exif fpm ftp ldap pdo sockets spe
 app-admin/eselect-php fpm
 
 # GST stuff
-media-libs/gst-plugins-bad X
+media-libs/gst-plugins-bad X -opengl
 media-libs/gst-plugins-base X
 
 # NSS, we want utils!
