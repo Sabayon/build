@@ -257,8 +257,8 @@ www-client/midori sqlite -deprecated -granite -introspection -doc -zeitgeist
 # Docker: Enabling support for different fs 
 app-emulation/docker aufs overlay btrfs
 
-# Enable opengl on webkit-gtk, unfortunately here we need to be generic
-net-libs/webkit-gtk -gles2 opengl -wayland
+# Disable opengl on webkit-gtk
+net-libs/webkit-gtk -gles2 -opengl -wayland
 
 # media-video/mpv
 media-video/mpv drm samba
