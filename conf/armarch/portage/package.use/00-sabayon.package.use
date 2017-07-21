@@ -258,7 +258,7 @@ www-client/midori sqlite -deprecated -granite -introspection -doc -zeitgeist
 app-emulation/docker aufs overlay btrfs
 
 # Disable opengl on webkit-gtk
-net-libs/webkit-gtk -gles2 -opengl -wayland
+net-libs/webkit-gtk -gles2 -opengl -wayland -webgl
 
 # media-video/mpv
 media-video/mpv drm samba
