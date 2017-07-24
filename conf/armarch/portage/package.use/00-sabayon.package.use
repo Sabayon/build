@@ -222,7 +222,7 @@ app-editors/gedit-plugins -python -terminal
 net-fs/cifs-utils upcall
 
 # cifs-utils requires samba[winbind]
-net-fs/samba winbind
+net-fs/samba client winbind
 
 # pyside has opengl and X enabled
 dev-python/pyside opengl X
