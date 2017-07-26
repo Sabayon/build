@@ -85,6 +85,7 @@ dev-qt/qtopengl qt3support
 dev-qt/qthelp qt3support
 dev-qt/qtdeclarative qt3support
 dev-qt/qtdemo qt3support
+dev-qt/qtsingleapplication qt5
 dev-qt/qtwebkit icu
 kde-base/kdepimlibs semantic-desktop
 kde-base/kdelibs semantic-desktop opengl
