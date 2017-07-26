@@ -81,6 +81,7 @@ app-crypt/qca:2 qt5
 dev-qt/qtcore qt3support ssl
 dev-qt/qtsql qt3support mysql
 dev-qt/qtgui qt3support mng
+dev-qt/qtlockedfile qt5
 dev-qt/qtopengl qt3support
 dev-qt/qthelp qt3support
 dev-qt/qtdeclarative qt3support
