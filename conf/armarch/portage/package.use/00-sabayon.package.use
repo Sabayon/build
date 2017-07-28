@@ -333,3 +333,5 @@ media-sound/pulseaudio gnome
 net-misc/aria2 tcmalloc bittorrent metalink
 
 net-dns/avahi -qt4
+
+media-libs/opencv contrib
