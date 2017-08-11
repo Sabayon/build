@@ -9,3 +9,6 @@ app-admin/calamares
 
 # new versions currently masked in Gentoo due to ffmpeg transition, our version is not affected.
 media-tv/kodi
+
+# We need this for our kernels
+sys-apps/v86d
