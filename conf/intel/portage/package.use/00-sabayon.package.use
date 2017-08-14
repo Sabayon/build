@@ -468,6 +468,9 @@ media-gfx/kphotoalbum kipi
 media-gfx/librecad doc
 # SSE2 required, otherwise it does not merge
 media-gfx/luminance-hdr sse2
+# disable tiff because it pulls in media-libs/opencv, change if deemed so (bug
+# 5463, comment 1)
+media-gfx/nomacs -tiff
 media-gfx/openmesh -qt4
 # required for some functionality of Inkscape - bug 2941
 media-gfx/pstoedit plotutils
