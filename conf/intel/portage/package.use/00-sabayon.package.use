@@ -88,7 +88,9 @@ app-emulation/xen-tools hvm qemu
 # Advantage is that it will be working for applications using either version of the toolkit
 # which also helps make it just work (bug 2518). It may be revisited in the future if needed.
 # 2016-12-25: vala useflag enable because budgie-desktop requires it
-app-i18n/ibus gtk2 dconf vala
+# emoji disabled because it pulls also app-i18n/unicode-cldr which when
+# unpacked takes about 120 MB
+app-i18n/ibus gtk2 dconf vala -emoji
 app-i18n/skk-jisyo cdb
 
 app-laptop/pommed -gtk
