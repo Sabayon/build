@@ -235,3 +235,8 @@ net-dns/avahi::gentoo
 # 2017-07-16 Sławomir Nizio: app-crypt/certbot is at 0.15.0 and depends on the
 # same version of app-crypt/acme (whose newer version is available)
 >app-crypt/acme-0.15.0
+
+
+# 2017-08-16 Sławomir Nizio: app-i18n/libpinyin-2.0.92 does not build
+# https://bugs.gentoo.org/show_bug.cgi?id=628036
+=app-i18n/libpinyin-2.0.92
