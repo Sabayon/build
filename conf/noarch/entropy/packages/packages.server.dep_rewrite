@@ -161,3 +161,7 @@ app-portage/layman (.*)dev-vcs/subversion(.*)
 # this Boost version anyway. (It is: !dev-libs/boost:0/1.57.0.)
 media-sound/ncmpcpp dev-libs/boost:(.*)
 media-sound/ncmpcpp ++dev-libs/boost:0[nls,threads]<2>
+
+# qscintilla and qscintilla-python split ebuilds for qt4/qt5
+dev-python/qscintilla-python-qt4 (.*)x11-libs/qscintilla(.*) \1x11-libs/qscintilla-qt4\2
+dev-python/qscintilla-python-qt5 (.*)x11-libs/qscintilla(.*) \1x11-libs/qscintilla-qt5\2
