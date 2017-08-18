@@ -165,3 +165,4 @@ media-sound/ncmpcpp ++dev-libs/boost:0[nls,threads]<2>
 # qscintilla and qscintilla-python split ebuilds for qt4/qt5
 dev-python/qscintilla-python-qt4 (.*)x11-libs/qscintilla(.*) \1x11-libs/qscintilla-qt4\2
 dev-python/qscintilla-python-qt5 (.*)x11-libs/qscintilla(.*) \1x11-libs/qscintilla-qt5\2
+sci-mathematics/octave (.*)x11-libs/qscintilla(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-\4\2\3
