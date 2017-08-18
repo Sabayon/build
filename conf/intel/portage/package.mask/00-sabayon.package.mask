@@ -240,5 +240,6 @@ net-dns/avahi::gentoo
 # https://bugs.gentoo.org/show_bug.cgi?id=628036
 =app-i18n/libpinyin-2.0.92
 
-# 2017-08-18 Sławomir Nizio: our metapackage is used
+# 2017-08-18 Sławomir Nizio: our metapackages are used
 x11-libs/qscintilla::gentoo
+dev-python/qscintilla-python::gentoo
