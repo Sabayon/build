@@ -296,7 +296,10 @@ dev-python/QtPy webkit
 # don't require media-libs/alsa-lib[alisp]
 dev-python/pyglet -alsa
 
-dev-python/qscintilla-python qt4 -qt5
+# keep them in sync
+dev-python/qscintilla-python qt4 qt5
+dev-python/qscintilla-python-qt4 qt4 -qt5
+dev-python/qscintilla-python-qt5 -qt4 qt5
 
 dev-qt/qt-creator autotools cmake git subversion valgrind examples
 dev-qt/qt3support kde
@@ -983,7 +986,11 @@ x11-libs/libdrm video_cards_amdgpu video_cards_intel video_cards_nouveau video_c
 # libva coolness
 x11-libs/libva video_cards_dummy video_cards_intel
 
-x11-libs/qscintilla qt4 -qt5
+# keep them in sync
+x11-libs/qscintilla qt4 qt5
+x11-libs/qscintilla-qt4 qt4 -qt5
+x11-libs/qscintilla-qt5 -qt4 qt5
+
 x11-libs/qtermwidget -qt4
 
 # required by x11-libs/qwtpolar

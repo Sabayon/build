@@ -236,7 +236,9 @@ net-dns/avahi::gentoo
 # same version of app-crypt/acme (whose newer version is available)
 >app-crypt/acme-0.15.0
 
-
 # 2017-08-16 Sławomir Nizio: app-i18n/libpinyin-2.0.92 does not build
 # https://bugs.gentoo.org/show_bug.cgi?id=628036
 =app-i18n/libpinyin-2.0.92
+
+# 2017-08-18 Sławomir Nizio: our metapackage is used
+x11-libs/qscintilla::gentoo
