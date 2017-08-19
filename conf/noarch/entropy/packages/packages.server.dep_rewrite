@@ -179,8 +179,8 @@ sci-geosciences/qgis (.*)x11-libs/qscintilla(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/q
 dev-python/qscintilla-python-qt4 (.*)x11-libs/qscintilla(.*) \1x11-libs/qscintilla-qt4\2
 dev-python/qscintilla-python-qt5 (.*)x11-libs/qscintilla(.*) \1x11-libs/qscintilla-qt5\2
 
-dev-util/eric (.*)x11-libs/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-python-\4\2\3
-dev-vcs/hgview (.*)x11-libs/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-python-\4\2\3
-dev-vcs/tortoisehg (.*)x11-libs/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-python-\4\2\3
-net-analyzer/linkchecker (.*)x11-libs/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-python-\4\2\3
-sci-geosciences/qgis (.*)x11-libs/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-python-\4\2\3
+dev-util/eric (.*)dev-python/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1dev-python/qscintilla-python-\4\2\3
+dev-vcs/hgview (.*)dev-python/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1dev-python/qscintilla-python-\4\2\3
+dev-vcs/tortoisehg (.*)dev-python/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1dev-python/qscintilla-python-\4\2\3
+net-analyzer/linkchecker (.*)dev-python/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1dev-python/qscintilla-python-\4\2\3
+sci-geosciences/qgis (.*)dev-python/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1dev-python/qscintilla-python-\4\2\3
