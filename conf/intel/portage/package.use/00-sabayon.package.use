@@ -774,7 +774,7 @@ net-misc/vinagre rdp -avahi
 net-misc/x2goclient -qt5
 net-misc/x2goserver sqlite
 
-net-news/rssguard -qt4
+net-news/rssguard -qt4 webengine
 
 # slp disabled due to https://bugs.gentoo.org/show_bug.cgi?id=617278
 net-nds/openldap -minimal sasl -slp
