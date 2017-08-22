@@ -569,6 +569,7 @@ media-radio/tucnak2 fftw
 
 media-sound/alsa-tools -gtk
 media-sound/amarok lastfm cdaudio ifp njb mtp musicbrainz -xmms mp4 embedded -cdda
+media-sound/aqualung libsamplerate
 media-sound/ardour freesound lv2
 media-sound/asunder wavpack
 media-sound/audacity ladspa vamp soundtouch id3tag midi sbsms -ffmpeg
