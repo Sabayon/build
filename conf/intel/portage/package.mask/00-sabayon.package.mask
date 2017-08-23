@@ -17,14 +17,6 @@ xfce-extra/xfce4-cellmodem-plugin
 net-analyzer/netcat
 app-forensics/air
 
-### net-p2p
-
-### www-client
-
-# Joost Ruis: This requires x11-libs/fltk with -cairo, that ain't happening
-# Sławomir Nizio (30 Dec 2011): now fltk:2 is compiled with -cairo, and it's used by dillo 2 (3 wants fltk:1)
->=www-client/dillo-3
-
 ### net-misc
 
 # Joost Ruis: This package cannot be in tree with distcc
