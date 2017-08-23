@@ -170,9 +170,6 @@ kde-apps/kde-l10n::gentoo
 # 2016-08-06 Ettore Di Giacinto: Only use overlay version
 sys-power/cpupower::gentoo
 
-# 2016-08-26 Sławomir Nizio: net-misc/gns3-server (as of 1.5.1) depends on =dev-python/aiohttp-0.21.5
->=dev-python/aiohttp-0.22.2
-
 # 2016-09-17 Sławomir Nizio: at least media-video/bino does not compile with it: https://bugs.gentoo.org/show_bug.cgi?id=594080
 >=media-libs/glew-2.0.0:0
 
@@ -236,3 +233,6 @@ dev-python/qscintilla-python::gentoo
 # 2017-08-23 Sławomir Nizio: required by aws-0.12.1
 >=dev-haskell/conduit-1.3
 >=dev-haskell/http-conduit-2.2
+
+# 2017-08-23 Sławomir Nizio: net-misc/gns3-server (as of 2.0.3-r1) depends on =dev-python/aiohttp-1.3.5*
+>=dev-python/aiohttp-1.3.6
