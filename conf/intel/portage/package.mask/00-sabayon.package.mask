@@ -6,9 +6,6 @@ sys-devel/cons
 # Joost Ruis: Blocks bash
 app-shells/bashdb
 
-# Joost Ruis: needs pciutils with zlib, but we have it in package.use with -zlib no idea why.
-xfce-extra/xfce4-cellmodem-plugin
-
 ### Temp masked due a bug
 
 ### net-analyser
