@@ -219,3 +219,7 @@ dev-python/qscintilla-python::gentoo
 
 # 2017-08-23 Sławomir Nizio: net-misc/gns3-server (as of 2.0.3-r1) depends on =dev-python/aiohttp-1.3.5*
 >=dev-python/aiohttp-1.3.6
+
+# 2017-09-07 Sławomir Nizio: dev-ruby/ruby-gtk2 (as of 3.1.1) does not compile
+# with new one; see Gentoo bug 616682, comment 6
+>dev-ruby/pkg-config-1.1.7
