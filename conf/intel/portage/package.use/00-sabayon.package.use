@@ -138,7 +138,7 @@ app-pda/gtkpod gstreamer
 app-pda/barry boost gui
 
 app-portage/eix sqlite
-app-portage/layman bazaar git mercurial subversion
+app-portage/layman bazaar git mercurial subversion sync-plugin-portage
 
 app-text/ansifilter -qt5
 app-text/atril caja djvu dvi mate mate-keyring
