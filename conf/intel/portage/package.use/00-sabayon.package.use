@@ -73,7 +73,8 @@ app-emulation/ganeti kvm lxc htools
 app-emulation/libvirt lxc rbd virtualbox fuse kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/open-vm-tools -X -xinerama
 # Added virgl and gtk to introduce virtual 3D gpu on qemu
-app-emulation/qemu glusterfs nfs rbd fdt spice -gtk virtfs xattr usbredir gtk virgl
+# Add smartcard flag required by gnome-boxes
+app-emulation/qemu glusterfs nfs rbd fdt spice -gtk virtfs xattr usbredir gtk virgl smartcard
 app-emulation/vice -gtk
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
 app-emulation/vmware-workstation ovftool server vix
@@ -1187,7 +1188,10 @@ www-plugins/gnash vaapi vdpau
 
 app-i18n/scim gtk3
 # usbredir required by app-emulation/virt-manager-1.1.0-r2
-net-misc/spice-gtk gtk3 usbredir
+# Add smartcard flag required by gnome-boxes
+app-emulation/spice smartcard
+net-misc/spice-gtk gtk3 usbredir smartcard
+
 
 # Disable plymouth integration in gdm 3.10
 # Disable gdm integration in plymouth
