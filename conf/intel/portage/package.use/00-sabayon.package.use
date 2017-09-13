@@ -285,7 +285,7 @@ dev-python/cgkit 3ds
 dev-python/epydoc -X
 dev-python/QtPy gui
 dev-python/ipython -wxwidgets
-dev-python/matplotlib -qt5 -wxwindows
+dev-python/matplotlib qt5 -qt4 -wxwindows
 # Required by dev-python/graph-tool
 dev-python/numpy lapack
 # We want sqlite3 support in pypy
