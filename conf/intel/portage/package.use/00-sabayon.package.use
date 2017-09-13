@@ -284,7 +284,7 @@ dev-python/cgkit 3ds
 # Make possible to have dev-python/epydoc without python compiled with tk
 dev-python/epydoc -X
 dev-python/QtPy gui
-dev-python/ipython -wxwidgets
+dev-python/ipython qt5 -qt4 -wxwidgets
 dev-python/matplotlib qt5 -qt4 -wxwindows
 # Required by dev-python/graph-tool
 dev-python/numpy lapack
