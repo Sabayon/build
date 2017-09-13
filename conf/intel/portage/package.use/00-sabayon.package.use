@@ -490,6 +490,7 @@ media-gfx/splashutils mng fbcondecor
 media-gfx/xsane tiff
 media-gfx/zbar imagemagick v4l
 
+media-libs/avidemux-plugins qt5 -qt4
 media-libs/blib aalib
 # required by media-sound/picard
 media-libs/chromaprint tools
@@ -616,6 +617,7 @@ media-tv/kodi airplay bluray cec css goom mysql pvr rtmp upnp webserver xrandr s
 # disable hls because (as of 0.27.6_p20160318) it requires <media-libs/libvpx-1.5.0
 media-tv/mythtv -hls fftw
 
+media-video/avidemux qt5 -qt4
 media-video/blinkensim aalib
 media-video/dvgrab quicktime
 virtual/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx jpeg2k
