@@ -503,7 +503,7 @@ media-libs/devil mng
 media-libs/elementary -sdl
 media-libs/freetype -X -auto-hinter adobe-cff
 media-libs/gd fontconfig
-media-libs/gegl raw jpeg2k -ffmpeg
+media-libs/gegl raw jpeg2k
 media-libs/gexiv2 introspection
 # it's either Wayland or X, see Gentoo bug 616968
 media-libs/glfw -wayland
@@ -825,7 +825,7 @@ sci-libs/fftw threads
 sci-libs/gdal curl geos
 # PQStego requires this USE, see bug 2751
 >=sci-libs/gsl-1.15 cblas-external
-sci-libs/hdf5 hl -cxx -fortran -mpi -threads -szip
+sci-libs/hdf5 hl cxx -fortran -mpi -threads -szip
 sci-libs/itpp fftw
 sci-libs/indilib nova
 sci-libs/netcdf -fortran hdf5
