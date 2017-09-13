@@ -457,7 +457,7 @@ media-fonts/noto -cjk
 
 media-gfx/asymptote -latex
 # Blender uses Python 3
-media-gfx/blender collada cycles python_single_target_python3_4 python_targets_python3_4 fftw doc jpeg2k libav openimageio -ffmpeg
+media-gfx/blender collada cycles python_single_target_python3_4 python_targets_python3_4 fftw doc jpeg2k openimageio -ffmpeg
 media-gfx/exiv2 xmp
 media-gfx/darktable geo cpu_flags_x86_sse3
 # l10n issue is handled by entropy dep_rewrite
@@ -533,8 +533,6 @@ media-libs/ming php
 media-libs/mlt melt frei0r kdenlive quicktime python -qt4
 media-libs/openal -qt4
 media-libs/openexr -video_cards_nvidia
-# -ffmpeg, otherwise pulls in media-video/ffmpeg (no libav support as of 1.6.13)
-media-libs/openimageio -ffmpeg
 # on amd64, if ABI_X86=32 is set, exif must be unset
 media-libs/oyranos -exif -qt4
 
@@ -622,13 +620,8 @@ media-video/blinkensim aalib
 media-video/dvgrab quicktime
 virtual/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx jpeg2k
 media-video/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx
-# fdk disabled, libav-aac enabled because otherwise media-video/libav[fdk] is required
-media-video/handbrake -fdk libav-aac
 media-video/jubler mplayer
 media-video/kino gstreamer quicktime
-media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_nvidia vpx jpeg2k
-# To fix compilation (x86, multilib).
-media-video/libav pic
 media-video/makemkv -qt4
 media-video/mpv libmpv samba tools
 media-video/mkvtoolnix -wxwidgets
@@ -837,8 +830,6 @@ sci-libs/itpp fftw
 sci-libs/indilib nova
 sci-libs/netcdf -fortran hdf5
 sci-libs/plplot -wxwidgets
-# -ffmpeg because at this time, with latest libav, build fails
-sci-libs/vtk tk tcl rendering mpi -ffmpeg
 sci-libs/ViSP opencv
 
 sci-mathematics/maxima latex
@@ -946,9 +937,7 @@ www-apps/postfixadmin mysql
 www-apps/rt mysql
 www-apps/trac mysql postgres vhosts sqlite
 
-# system-ffmpeg dependency pulls in ffmpeg, we use stable libav
-# which is not enough at this time, minimum req is 9.5
-www-client/chromium widevine -system-ffmpeg
+www-client/chromium widevine
 www-client/firefox filepicker -gnome gstreamer mozbranding system-jpeg xforms
 www-client/midori sqlite
 www-client/qupzilla -qt4
@@ -1156,9 +1145,6 @@ dev-libs/lzo static-libs
 dev-python/pillow tk
 dev-lang/python tk
 
-# This is while we wait for full true multilib support on libav
-# Please drop this as soon as the corresponding packages are fixed
-media-video/libav -gnutls openssl -test
 virtual/ffmpeg -gnutls openssl -test
 
 ## GNOME 3.10 flags
@@ -1182,11 +1168,9 @@ media-libs/mesa vdpau
 media-tv/kodi vaapi vdpau
 media-tv/mythtv vaapi vdpau
 media-video/avidemux vaapi vdpau
-media-video/libav vaapi vdpau
 media-video/mpv vaapi vdpau
 media-video/ffmpeg vaapi vdpau
-# TODO: vdpau requires libav-10. Sigh.
-media-video/vlc vaapi -vdpau
+media-video/vlc vaapi vdpau
 virtual/ffmpeg vaapi vdpau
 www-plugins/gnash vaapi vdpau
 
@@ -1209,9 +1193,6 @@ sys-boot/plymouth -gdm
 gnome-base/gnome-settings-daemon -packagekit
 gnome-base/nautilus packagekit
 gnome-extra/gnome-color-manager packagekit
-
-# USE=-ffmpeg due to libav-9.10+ requirements, not yet in chroots
-media-plugins/audacious-plugins -ffmpeg
 
 # required by net-analyzer/tcpreplay-4.0.2
 sys-devel/autogen libopts
