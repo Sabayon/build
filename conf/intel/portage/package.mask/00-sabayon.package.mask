@@ -85,9 +85,6 @@ gnustep-apps/terminal
 # 2012-12-14 Fabio Erculiani: it is causing annoying sh errors on chroots
 >=app-shells/autojump-21.1.0
 
-# 2013-01-13 Fabio Erculiani: we use media-video/libav
-media-video/ffmpeg
-
 # 2013-02-08 Fabio Erculiani: we use man-db
 sys-apps/man
 
