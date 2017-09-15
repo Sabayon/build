@@ -654,7 +654,7 @@ net-analyzer/netcat6 -bluetooth
 # No need to have USE=X on net-snmp
 # ucd-compat required by net-misc/vmpsd-1.4
 net-analyzer/net-snmp ucd-compat -X
-net-analyzer/rrdtool graph
+net-analyzer/rrdtool graph python_single_target_python3_5 -python_single_target_python3_4
 net-analyzer/snmptt mysql
 net-analyzer/snort dynamicplugin
 net-analyzer/smokeping apache2
