@@ -641,7 +641,7 @@ media-video/xine-ui aalib vdr
 media-video/dvdrip -xine subtitles fping
 
 # Added useflag for openshot >2.0.6
-media-libs/libopenshot python_single_target_python3_5
+media-libs/libopenshot python_single_target_python3_5 -python_single_target_python3_4
 media-video/openshot python_single_target_python3_5 python_targets_python3_5
 
 net-analyzer/fping suid
