@@ -245,6 +245,7 @@ dev-libs/gdl gnome
 # 2016-12-25, enabling smime on gmime for crypt useflag in notmuch
 dev-libs/gmime smime -mono
 dev-libs/libassuan static-libs
+dev-libs/libcec python_single_target_python3_5 -python_single_target_python3_4
 dev-libs/libdbusmenu gtk3
 dev-libs/libf2c static-libs
 dev-libs/libgcrypt static-libs
