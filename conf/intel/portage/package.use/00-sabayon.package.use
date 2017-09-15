@@ -932,6 +932,7 @@ virtual/opencl video_cards_nvidia video_cards_fglrx
 www-apache/mod_dav_svn -dso
 www-apache/mod_jk java
 www-apache/mod_perl ithreads
+www-apache/mod_wsgi python_single_target_python3_5 -python_single_target_python3_4
 
 www-apps/egroupware mysql
 www-apps/owncloud mysql postgres sqlite3
