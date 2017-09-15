@@ -463,6 +463,7 @@ media-gfx/darktable geo cpu_flags_x86_sse3
 # l10n issue is handled by entropy dep_rewrite
 media-gfx/digikam handbook semantic-desktop
 media-gfx/eog-plugins flickr
+media-gfx/fontforge python_single_target_python3_5 python_targets_python3_5
 media-gfx/gimageview mng
 media-gfx/gimp aalib mng wmf smp
 media-gfx/gmic gimp -ffmpeg
