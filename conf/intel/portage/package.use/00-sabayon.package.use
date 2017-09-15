@@ -627,6 +627,7 @@ media-video/makemkv -qt4
 media-video/mpv libmpv samba tools
 media-video/mkvtoolnix -wxwidgets
 media-video/ogmrip ogm mp4 srt
+media-video/pitivi python_single_target_python3_5 -python_single_target_python3_4
 media-video/simplescreenrecorder -qt4
 media-video/smplayer -qt4
 media-video/totem xulrunner iplayer galago
