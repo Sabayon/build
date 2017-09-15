@@ -198,6 +198,7 @@ dev-games/ogre cg ois
 dev-games/physfs hog
 dev-games/simgear subversion
 dev-games/clanlib:2.3 mikmod
+dev-games/vamos python_single_target_python3_5 -python_single_target_python3_4
 
 dev-java/antlr cxx script
 dev-java/bsh bsf
