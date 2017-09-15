@@ -611,6 +611,7 @@ media-sound/snd fftw
 media-sound/sonic-visualiser fftw
 >=media-sound/soundkonverter-0.2.90-r1 lame
 media-sound/vagalume libproxy
+media-sound/xmms2 python_single_target_python3_5 -python_single_target_python3_4
 # Broken with latest libmp4v2
 media-sound/kid3 -mp4
 
