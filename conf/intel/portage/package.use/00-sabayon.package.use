@@ -257,6 +257,7 @@ dev-libs/libgpg-error static-libs
 dev-libs/libgusb vala
 dev-libs/libksba static-libs
 dev-libs/libmcs -kde
+dev-libs/liborcus python_single_target_python3_5 -python_single_target_python3_4
 dev-libs/libpcre pcre16 static-libs
 dev-libs/libxml2 icu
 dev-libs/nss utils
