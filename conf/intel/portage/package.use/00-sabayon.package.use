@@ -890,7 +890,7 @@ sys-devel/qconf qt5 -qt4
 # No fuck git by default!
 sys-devel/gettext -git
 # gdb tuning, we want XML
-sys-devel/gdb expat python
+sys-devel/gdb expat python python_single_target_python3_5 -python_single_target_python3_4
 # clang wants USE=clang for llvm
 sys-devel/llvm clang
 sys-devel/qconf -qt4
