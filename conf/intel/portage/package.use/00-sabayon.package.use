@@ -255,6 +255,7 @@ dev-libs/libgdata gnome gnome-online-accounts
 dev-libs/libgit2-glib ssh
 dev-libs/libgpg-error static-libs
 dev-libs/libgusb vala
+dev-libs/libixion python_single_target_python3_5 -python_single_target_python3_4
 dev-libs/libksba static-libs
 dev-libs/libmcs -kde
 dev-libs/liborcus python_single_target_python3_5 -python_single_target_python3_4
