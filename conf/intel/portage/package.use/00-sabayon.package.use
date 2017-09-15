@@ -701,6 +701,7 @@ net-im/psi jingle
 net-im/telepathy-connection-managers -icq -yahoo
 net-im/mcabber otr
 
+net-irc/hexchat python_single_target_python3_5 -python_single_target_python3_4
 net-irc/inspircd mysql sqlite
 net-irc/kvirc -audiofile dcc_video
 net-irc/quassel monolithic
