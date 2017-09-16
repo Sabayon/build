@@ -226,3 +226,6 @@ dev-lang/python:3.4
 
 # 2017-09-16 Joost Ruis: Blocks with openrc
 >sys-cluster/ceph-10.2.7-r1
+
+# 2017-09-16 Joost Ruis: Do not pull new gcc yet
+>sys-devel/gcc-4.9.3
