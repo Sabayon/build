@@ -231,7 +231,7 @@ dev-lang/rakudo moar
 dev-libs/beecrypt threads
 # Needed by some lisp packages
 dev-libs/boehm-gc threads
-dev-libs/boost python threads icu
+dev-libs/boost context python threads icu
 # Enable threading support in botan
 dev-libs/botan threads
 dev-libs/crypto++ sse3
