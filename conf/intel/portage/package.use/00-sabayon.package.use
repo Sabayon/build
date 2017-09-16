@@ -233,7 +233,7 @@ dev-libs/beecrypt threads
 dev-libs/boehm-gc threads
 dev-libs/boost context python threads icu
 # Enable threading support in botan
-dev-libs/botan threads
+dev-libs/botan threads -gmp
 dev-libs/crypto++ sse3
 dev-libs/c-blosc hdf5
 # Needed by directvnc
