@@ -131,6 +131,7 @@ net-p2p/bittornado::gentoo
 
 # 2015-06-15 Joost Ruis: Do not bump libsepol, required by anaconda
 >sys-libs/libsepol-2.6
+>sys-libs/libselinux-2.6
 
 # 2015-09-30 Joost Ruis: Only use overlay version
 sys-fs/zfs-kmod::gentoo
