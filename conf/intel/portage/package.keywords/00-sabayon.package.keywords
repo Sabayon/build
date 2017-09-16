@@ -30,6 +30,10 @@ virtual/ffmpeg -~amd64 -~x86
 dev-libs/boost -~amd64 -~x86
 dev-util/boost-build -~amd64 -~x86
 
+# Need unstable boost to get the python 3.5 target
+=dev-libs/boost-1.63.0 ~amd64
+=dev-util/boost-build-1.63.0 ~amd64
+
 # Apache is a critical component and 2.2 is still
 # "good enough", 2.4 isn't yet stabilized
 app-admin/apache-tools -~amd64 -~x86
