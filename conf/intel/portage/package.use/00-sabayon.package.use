@@ -308,6 +308,8 @@ dev-python/qscintilla-python qt4 qt5
 dev-python/qscintilla-python-qt4 qt4 -qt5
 dev-python/qscintilla-python-qt5 -qt4 qt5
 
+dev-python/sphinx latex
+
 dev-qt/qt-creator autotools cmake git subversion valgrind examples
 dev-qt/qt3support kde
 dev-qt/qtcore:4 private-headers
