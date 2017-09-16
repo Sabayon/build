@@ -223,7 +223,3 @@ dev-python/qscintilla-python::gentoo
 
 # 2017-09-15 Joost Ruis: Prevent Python 3.4 downgrade
 dev-lang/python:3.4
-
-# temp masked
->media-libs/ilmbase-2.1.0
->media-libs/openexr-2.1.0
