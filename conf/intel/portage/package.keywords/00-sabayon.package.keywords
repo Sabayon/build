@@ -124,9 +124,6 @@ sci-physics/clhep -~amd64 -~x86
 # Allow 2.1.4.2 as it works fine
 ~sci-physics/clhep-2.1.4.2 ~amd64 ~x86 amd64 x86
 
-# Force stable pyparsing since unstable 2.0.x introduces incompatible changes
-dev-python/pyparsing -~amd64 -~x86
-
 # Unmask ghc-7.8 since Portage insists on wanting it
 =dev-lang/ghc-7.8* ** ~amd64
 
