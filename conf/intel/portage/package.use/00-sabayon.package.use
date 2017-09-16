@@ -841,6 +841,7 @@ sci-libs/itpp fftw
 sci-libs/indilib nova
 sci-libs/netcdf -fortran hdf5
 sci-libs/plplot -wxwidgets
+sci-libs/scipy sparse
 sci-libs/ViSP opencv
 
 sci-mathematics/maxima latex
