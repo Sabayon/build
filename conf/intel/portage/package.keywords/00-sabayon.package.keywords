@@ -69,12 +69,6 @@ media-plugins/gst-plugins-assrender **
 # using only stable versions
 www-client/chromium -~amd64 -~x86
 
-# OpenEXR 2.0.0 causes a huge breakage, keep stable, mask unstable
-media-libs/ilmbase -~amd64 -~x86
-media-libs/openexr -~amd64 -~x86
-media-gfx/openexr_viewers -~amd64 -~x86
-media-libs/openexr_ctl -~amd64 -~x86
-
 # These are a pain in the ass when they abi break
 net-libs/libosip -~amd64 -~x86
 # net-libs/libeXosip -~amd64 -~x86
