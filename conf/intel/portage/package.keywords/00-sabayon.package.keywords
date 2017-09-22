@@ -174,3 +174,6 @@ dev-libs/libRocket -~amd64
 
 # Use stable media-libs/libopenraw
 media-libs/libopenraw -~amd64 
+
+# accept unstable sys-kernel/linux-headers-4.9
+=sys-kernel/linux-headers-4.9 ~amd64
