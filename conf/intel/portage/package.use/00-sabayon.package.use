@@ -28,7 +28,8 @@ app-arch/unzip natspec
 
 # Disable KDE on backintime
 app-backup/backintime gnome -kde
-app-backup/bacula mysql vim-syntax
+# Only one DB supported.
+app-backup/bacula mysql vim-syntax -sqlite
 app-backup/deja-dup nautilus
 app-backup/fsarchiver lzma
 
