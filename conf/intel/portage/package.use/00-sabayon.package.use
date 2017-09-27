@@ -105,9 +105,6 @@ app-misc/anki -sound
 app-misc/ddccontrol -gtk -gnome
 app-misc/gcstar stats
 
-#Gramps requires explicit single target
-app-misc/gramps python_single_target_python3_5
-
 # Kernel drivers are unwanted for lirc, they're in-kernel
 app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
 
@@ -127,7 +124,7 @@ app-office/glabels doc
 app-office/gnucash chipcard hbci ofx quotes sqlite
 app-office/homebank ofx
 app-office/kmymoney hbci ofx
-app-office/libreoffice -nsplugin gnome java templates -kde pdfimport binfilter -gtk3 gstreamer python_single_target_python3_5 -python_single_target_python3_4
+app-office/libreoffice -nsplugin gnome java templates -kde pdfimport binfilter -gtk3 gstreamer
 app-office/libreoffice-l10n-meta linguas_am linguas_as linguas_as_IN linguas_ast linguas_be linguas_be_BY linguas_bo linguas_brx linguas_ca_XV linguas_dgo linguas_dz linguas_en_ZA linguas_fo linguas_gd linguas_gu linguas_gug linguas_hi_IN linguas_ia linguas_id linguas_ka linguas_kn linguas_kok linguas_ks linguas_ku linguas_ky linguas_lb linguas_lo linguas_mai linguas_mi linguas_ml linguas_ml_IN linguas_mni linguas_mr linguas_mr_IN linguas_my linguas_ne linguas_nr linguas_ns linguas_nso linguas_oc linguas_om linguas_or linguas_or_IN linguas_pa_IN linguas_pap linguas_ps linguas_sa_IN linguas_sat linguas_sd linguas_sh linguas_si linguas_sid linguas_sq linguas_st linguas_sw linguas_sw_TZ linguas_te linguas_te_IN linguas_th linguas_ti linguas_ti_ER linguas_tn linguas_ts linguas_tt linguas_ug linguas_ur_IN linguas_ve linguas_xh linguas_zu
 app-office/lyx -qt4
 app-office/magicpoint mng
@@ -154,7 +151,6 @@ app-text/lcdf-typetools kpathsea
 app-text/libwps tools
 app-text/poppler jpeg2k
 app-text/poppler-base jpeg2k
-app-text/sigil python_single_target_python3_5 -python_single_target_python3_4
 app-text/stardict tools
 app-text/texlive extra -truetype
 app-text/texlive-core xetex
@@ -198,7 +194,6 @@ dev-games/ogre cg ois
 dev-games/physfs hog
 dev-games/simgear subversion
 dev-games/clanlib:2.3 mikmod
-dev-games/vamos python_single_target_python3_5 -python_single_target_python3_4
 
 dev-java/antlr cxx script
 dev-java/bsh bsf
@@ -247,7 +242,6 @@ dev-libs/gdl gnome
 # 2016-12-25, enabling smime on gmime for crypt useflag in notmuch
 dev-libs/gmime smime -mono
 dev-libs/libassuan static-libs
-dev-libs/libcec python_single_target_python3_5 -python_single_target_python3_4
 dev-libs/libdbusmenu gtk3
 dev-libs/libf2c static-libs
 dev-libs/libgcrypt static-libs
@@ -255,10 +249,8 @@ dev-libs/libgdata gnome gnome-online-accounts
 dev-libs/libgit2-glib ssh
 dev-libs/libgpg-error static-libs
 dev-libs/libgusb vala
-dev-libs/libixion python_single_target_python3_5 -python_single_target_python3_4
 dev-libs/libksba static-libs
 dev-libs/libmcs -kde
-dev-libs/liborcus python_single_target_python3_5 -python_single_target_python3_4
 dev-libs/libpcre pcre16 static-libs
 dev-libs/libxml2 icu
 dev-libs/nss utils
@@ -464,13 +456,12 @@ media-fonts/noto -cjk
 
 media-gfx/asymptote -latex
 # Blender uses Python 3
-media-gfx/blender collada cycles python_single_target_python3_5 python_targets_python3_5 fftw doc jpeg2k openimageio ffmpeg
+media-gfx/blender collada cycles fftw doc jpeg2k openimageio ffmpeg
 media-gfx/exiv2 xmp
 media-gfx/darktable geo cpu_flags_x86_sse3
 # l10n issue is handled by entropy dep_rewrite
 media-gfx/digikam handbook semantic-desktop
 media-gfx/eog-plugins flickr
-media-gfx/fontforge python_single_target_python3_5 python_targets_python3_5 -python_single_target_python3_4
 media-gfx/gimageview mng
 media-gfx/gimp aalib mng wmf smp
 media-gfx/gmic gimp -ffmpeg
@@ -609,12 +600,11 @@ media-sound/qtractor sse
 media-sound/pulseaudio gnome system-wide -qt4 -gtk native-headset ofono-headset 
 # 2.92 with USE=cdr requires =app-cdr/brasero-3.4* but
 # gnome-base/gnome-core-apps[cdr] depends on >=app-cdr/brasero-3.6.1
-media-sound/rhythmbox -cdr python_single_target_python3_5 -python_single_target_python3_3
+media-sound/rhythmbox -cdr
 media-sound/snd fftw
 media-sound/sonic-visualiser fftw
 >=media-sound/soundkonverter-0.2.90-r1 lame
 media-sound/vagalume libproxy
-media-sound/xmms2 python_single_target_python3_5 -python_single_target_python3_4
 # Broken with latest libmp4v2
 media-sound/kid3 -mp4
 
@@ -635,7 +625,6 @@ media-video/makemkv -qt4
 media-video/mpv libmpv samba tools
 media-video/mkvtoolnix -wxwidgets
 media-video/ogmrip ogm mp4 srt
-media-video/pitivi python_single_target_python3_5 -python_single_target_python3_4
 media-video/simplescreenrecorder -qt4
 media-video/smplayer -qt4
 media-video/totem xulrunner iplayer galago
@@ -647,10 +636,6 @@ media-video/xine-ui aalib vdr
 # we don't want it on G ISO
 media-video/dvdrip -xine subtitles fping
 
-# Added useflag for openshot >2.0.6
-media-libs/libopenshot python_single_target_python3_5 -python_single_target_python3_4
-media-video/openshot python_single_target_python3_5 python_targets_python3_5
-
 net-analyzer/fping suid
 net-analyzer/nessus-core -gtk
 # Bluetooth dependency is unwanted on servers
@@ -659,7 +644,6 @@ net-analyzer/netcat6 -bluetooth
 # No need to have USE=X on net-snmp
 # ucd-compat required by net-misc/vmpsd-1.4
 net-analyzer/net-snmp ucd-compat -X
-net-analyzer/rrdtool graph python_single_target_python3_5 -python_single_target_python3_4
 net-analyzer/snmptt mysql
 net-analyzer/snort dynamicplugin
 net-analyzer/smokeping apache2
@@ -707,11 +691,10 @@ net-im/psi jingle
 net-im/telepathy-connection-managers -icq -yahoo
 net-im/mcabber otr
 
-net-irc/hexchat python_single_target_python3_5 -python_single_target_python3_4
 net-irc/inspircd mysql sqlite
 net-irc/kvirc -audiofile dcc_video
 net-irc/quassel monolithic
-net-irc/weechat tcl python_single_target_python3_5 -python_single_target_python3_4
+net-irc/weechat tcl
 net-irc/znc -python
 
 net-libs/aqbanking chipcard ofx
@@ -899,7 +882,7 @@ sys-devel/qconf qt5 -qt4
 # No fuck git by default!
 sys-devel/gettext -git
 # gdb tuning, we want XML
-sys-devel/gdb expat python python_single_target_python3_5 -python_single_target_python3_4
+sys-devel/gdb expat python
 # clang wants USE=clang for llvm
 sys-devel/llvm clang
 sys-devel/qconf -qt4
@@ -941,7 +924,6 @@ virtual/opencl video_cards_nvidia video_cards_fglrx
 www-apache/mod_dav_svn -dso
 www-apache/mod_jk java
 www-apache/mod_perl ithreads
-www-apache/mod_wsgi python_single_target_python3_5 -python_single_target_python3_4
 
 www-apps/egroupware mysql
 www-apps/owncloud mysql postgres sqlite3
@@ -1269,13 +1251,6 @@ sys-process/lsof rpc
 
 # Required by reiser4progs
 sys-libs/libaal static-libs
-
-# Default to Python 3.5
-games-puzzle/gnome-sudoku python_targets_python3_5 python_single_target_python3_5 -python_single_target_python3_3
-media-sound/gnome-music python_targets_python3_5 python_single_target_python3_5 -python_single_target_python3_3
-media-gfx/eog-plugins python_targets_python3_5 python_single_target_python3_5 -python_single_target_python3_3
-x11-apps/intel-gpu-tools python_targets_python3_5 python_single_target_python3_5
-media-video/transmageddon python_targets_python3_5 python_single_target_python3_5
 
 # Enable caps, since threads is enabled by default
 net-dns/bind threads caps
