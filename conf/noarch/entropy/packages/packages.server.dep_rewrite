@@ -61,7 +61,7 @@ x11-misc/andromeda (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 x11-misc/qcomicbook (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
 xfce-extra/tumbler (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 media-gfx/pqiv (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-glib\2
-app-editors/tea (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-qt5\2
+app-editors/tea (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
 
 # lightdm split rewrite
 razorqt-base/razorqt-lightdm-greeter (.*)x11-misc/lightdm(.*)\[qt4\] \1x11-misc/lightdm-qt4\2
