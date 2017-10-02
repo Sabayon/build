@@ -170,6 +170,8 @@ net-dns/avahi::gentoo
 >=x11-wm/xmonad-contrib-0.13
 >=dev-haskell/haddock-api-2.17.3
 >=dev-haskell/haddock-2.17.2
+>=dev-haskell/haddock-library-1.4.2
+>=dev-haskell/x11-1.8-r1
 
 # 2017-05-03 Sławomir Nizio: net-proxy/mitmproxy 0.11.3 requires this 0.11*
 >=dev-python/netlib-0.12.0
