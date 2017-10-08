@@ -1,0 +1,18 @@
+if [ "${EBUILD_PHASE}" = "install" ]; then
+	url=https://bugs.sabayon.org/show_bug.cgi?id=5411#c4
+
+	elog
+	elog "Entropy administration information:"
+	elog
+	elog "~~~   READ THIS CAREFULLY   ~~~"
+	elog "if you are bumping dev-lisp/sbcl"
+
+	elog "You may need to rebuild sci-mathematics/maxima."
+	elog "More information is at $url"
+
+	elog "if you are bumping dev-lisp/sbcl"
+	elog "~~~   READ THIS CAREFULLY   ~~~"
+	elog
+
+	unset url
+fi
