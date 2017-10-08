@@ -830,7 +830,7 @@ sci-libs/plplot -wxwidgets
 sci-libs/scipy sparse
 sci-libs/ViSP opencv
 
-sci-mathematics/maxima latex
+sci-mathematics/maxima latex sbcl
 sci-mathematics/octave fftw curl gui doc gnuplot hdf5
 sci-mathematics/scilab fftw openmp
 
