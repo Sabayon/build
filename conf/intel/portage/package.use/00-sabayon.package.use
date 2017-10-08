@@ -257,6 +257,7 @@ dev-libs/libxml2 icu
 dev-libs/nss utils
 dev-libs/popt static-libs
 dev-libs/qcustomplot -qt4
+dev-libs/qtkeychain -qt4
 dev-libs/tinyxml stl
 dev-libs/tntnet sdk
 dev-libs/xerces-c xqilla icu
