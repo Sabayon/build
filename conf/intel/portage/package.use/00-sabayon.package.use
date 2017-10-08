@@ -851,7 +851,7 @@ sys-apps/hwdata-gentoo binary-drivers
 sys-apps/man-db -berkdb
 sys-apps/pciutils -zlib
 # systemd support
-sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap
+sys-apps/systemd -gtk plymouth sysv-utils cryptsetup lzma xattr -openrc keymap
 # Install tty helpers (like wall)
 sys-apps/util-linux tty-helpers
 
