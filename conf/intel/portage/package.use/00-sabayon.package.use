@@ -901,6 +901,7 @@ sys-fs/udisks cryptsetup crypt
 sys-fs/zfs kernel-builtin
 
 sys-apps/kmod lzma static-libs
+sys-libs/libcxx -libunwind
 sys-libs/libcxxabi -libunwind
 sys-libs/e2fsprogs-libs static-libs
 sys-fs/udev static-libs
