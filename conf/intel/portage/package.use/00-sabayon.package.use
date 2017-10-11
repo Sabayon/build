@@ -398,7 +398,6 @@ kde-apps/ark lzma
 kde-apps/dolphin semantic-desktop thumbnail
 kde-apps/dolphin-plugins git
 kde-apps/gwenview kipi semantic-desktop
-kde-apps/kdebase-runtime-meta semantic-desktop
 kde-apps/kdebase-kioslaves samba
 kde-apps/kdepim-runtime google
 kde-apps/kget -bittorrent semantic-desktop
@@ -582,8 +581,6 @@ media-sound/clementine lastfm ios moodbar mtp
 media-sound/cmus mikmod
 media-sound/deadbeef alac ape cover curl lastfm m3u hotkeys sndfile supereq wavpack wma
 media-sound/flacon -qt4
-# It does not compile with ffmpeg (Gentoo bug 575988)
-media-sound/gejengel -ffmpeg
 media-sound/gmusicbrowser gstreamer
 media-sound/gpodder gstreamer
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
@@ -785,7 +782,6 @@ net-p2p/qbittorrent -qt4
 net-p2p/retroshare -cli -qt4
 net-p2p/vuze source
 
-net-print/cnijfilter-drivers e500 e510 e600 ip100 ip4700 ip4900 ip7200 mg2100 mg2200 mg3100 mg3200 mg4100 mg4200 mg5300 mg5400 mg6200 mg6300 mg8200 mp230 mp250 mp270 mp490 mp550 mp560 mp640 mx370 mx430 mx510 mx710 mx890
 net-print/cups -java
 net-print/cups-filters ipp_autosetup pclm
 net-print/gutenprint foomaticdb -gtk
@@ -833,7 +829,6 @@ sci-libs/ViSP opencv
 
 sci-mathematics/maxima latex sbcl
 sci-mathematics/octave fftw curl gui doc gnuplot hdf5
-sci-mathematics/scilab fftw openmp
 
 # htmldoc, doc, graphviz are required by app-doc/root-docs
 sci-physics/root htmldoc doc fftw graphviz
@@ -930,7 +925,6 @@ www-apache/mod_dav_svn -dso
 www-apache/mod_jk java
 www-apache/mod_perl ithreads
 
-www-apps/egroupware mysql
 www-apps/owncloud mysql postgres sqlite3
 www-apps/phprojekt mysql
 www-apps/postfixadmin mysql
@@ -1138,7 +1132,6 @@ sys-libs/glibc hardened suid nscd
 # See bug 3360
 media-libs/freetype infinality
 
-~virtual/mysql-5.1 -embedded
 dev-libs/lzo static-libs
 
 # Enable USE=tk for the Python Imaging stack (and Python)
