@@ -36,7 +36,6 @@ net-im/skype				>=net-im/skype-4.0.0.7-r2 skype-4.0.0.7-copyright
 net-misc/chrome-remote-desktop		google-chrome
 sci-biology/foldingathome		FAH-EULA-2014
 sci-electronics/eagle                   cadsoft
-sci-geosciences/googleearth             googleearth
 sci-mathematics/gimps			GIMPS
 sci-misc/mendeleydesktop		Mendeley-EULA
 www-client/google-chrome		google-chrome
