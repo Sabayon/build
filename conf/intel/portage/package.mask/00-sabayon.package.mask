@@ -201,7 +201,8 @@ net-dns/avahi::gentoo
 
 # 2017-07-16 Sławomir Nizio: app-crypt/certbot is at 0.15.0 and depends on the
 # same version of app-crypt/acme (whose newer version is available)
->app-crypt/acme-0.15.0
+# 2017-10-12 Sławomir Nizio: first dependency bump to avoid such a situation
+>app-crypt/acme-0.19.0
 
 # 2017-08-18 Sławomir Nizio: our metapackages are used
 x11-libs/qscintilla::gentoo
