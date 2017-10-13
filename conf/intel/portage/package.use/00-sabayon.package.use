@@ -792,7 +792,7 @@ net-proxy/tsocks tordns
 
 net-voip/ekiga gstreamer
 
-net-wireless/bluez gstreamer obex
+net-wireless/bluez gstreamer obex user-session
 net-wireless/wpa_supplicant -qt4 -qt5 wimax ap p2p eap-sim wps
 
 sci-astronomy/celestia -kde
