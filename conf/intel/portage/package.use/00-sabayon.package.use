@@ -415,7 +415,7 @@ kde-frameworks/kdelibs jpeg2k -opengl -pertty -plasma acl semantic-desktop
 kde-plasma/kdeplasma-addons desktopglobe json oauth semantic-desktop
 kde-plasma/kwin captury xcomposite
 kde-plasma/kscreenlocker -seccomp
-kde-plasma/plasma-desktop legacy-systray input_devices_synaptics
+kde-plasma/plasma-desktop legacy-systray input_devices_synaptics touchpad
 kde-plasma/plasma-meta networkmanager
 kde-plasma/plasma-nm modemmanager openconnect
 
