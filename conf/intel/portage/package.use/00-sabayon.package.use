@@ -160,7 +160,7 @@ app-text/texlive-core xetex
 app-text/highlight -qt4
 app-text/qpdfview sqlite -qt4
 # qt4 or qt5 is overkill for cmake as well
-dev-util/cmake -qt4 -qt5
+dev-util/cmake -qt4 -qt5 server
 
 # Since those are not linker deps, we
 # can drop then and let users decide
