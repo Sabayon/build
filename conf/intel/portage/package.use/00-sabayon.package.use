@@ -146,7 +146,8 @@ app-text/enchant aspell
 app-text/evince djvu dvi gnome-keyring nautilus -nsplugin
 app-text/fbreader -gtk
 app-text/ghostscript-gpl -cjk -gtk
-app-text/mupdf -opengl -X
+# enable X to have 'mupdf' tool
+app-text/mupdf -opengl X
 app-text/lcdf-typetools kpathsea
 app-text/libwps tools
 app-text/poppler jpeg2k
