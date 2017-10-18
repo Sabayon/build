@@ -242,3 +242,6 @@ dev-lang/python:3.4
 # 2017-10-04 Sławomir Nizio: app-emulation/ganeti 2.15.2-r6 requires older versions
 >=dev-haskell/snap-core-1.0.1.0
 >=dev-haskell/snap-server-1.0.1.1
+
+# 2017-10-18 Joost Ruis: Prevent blocking dev-cpp/gmock
+>=dev-cpp/gtest-1.8.0
