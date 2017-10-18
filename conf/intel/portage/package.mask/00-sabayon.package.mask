@@ -245,3 +245,9 @@ dev-lang/python:3.4
 
 # 2017-10-18 Joost Ruis: Prevent blocking dev-cpp/gmock
 >=dev-cpp/gtest-1.8.0
+
+# temp masked
+>sci-physics/geant-4.10.01
+>sci-physics/geant-data-4.10.01
+>sci-electronics/freehdl-0.0.7
+>dev-scheme/guile-1.8.8-r3
