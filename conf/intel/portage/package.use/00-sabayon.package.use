@@ -410,7 +410,7 @@ kde-apps/okular chm djvu ebook crypt
 kde-apps/poxml extras
 
 kde-frameworks/baloo minimal
-kde-frameworks/kdelibs jpeg2k -opengl -pertty -plasma acl semantic-desktop
+kde-frameworks/kdelibs jpeg2k opengl -pertty plasma acl semantic-desktop
 
 kde-plasma/kdeplasma-addons desktopglobe json oauth semantic-desktop
 kde-plasma/kwin captury xcomposite
