@@ -117,11 +117,6 @@ dev-php/xdebug-client -~amd64 -~x86
 # Prefer a stable and reliable version of freetype
 media-libs/freetype -~amd64 -~x86
 
-# Use stable clhep to avoid breaking geant
-sci-physics/clhep -~amd64 -~x86
-# Allow 2.1.4.2 as it works fine
-~sci-physics/clhep-2.1.4.2 ~amd64 ~x86 amd64 x86
-
 # Unmask ghc-7.8 since Portage insists on wanting it
 =dev-lang/ghc-7.8* ** ~amd64
 
