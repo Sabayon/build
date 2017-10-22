@@ -251,3 +251,4 @@ dev-lang/python:3.4
 >sci-physics/geant-data-4.10.01
 >sci-electronics/freehdl-0.0.7
 >dev-scheme/guile-1.8.8-r3
+>media-gfx/exiv2-0.25-r2
