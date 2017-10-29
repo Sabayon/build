@@ -1044,7 +1044,7 @@ xfce-base/xfwm4 xcomposite
 xfce-extra/tumbler gstreamer raw
 
 dev-python/PyQt4 webkit sql assistant declarative examples script help
-dev-python/PyQt5 webkit sql xmlpatterns
+dev-python/PyQt5 help webkit sql xmlpatterns
 
 # See Sabayon bug #890
 dev-lang/perl ithreads
