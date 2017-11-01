@@ -76,7 +76,7 @@ app-emulation/open-vm-tools -X -xinerama
 # Added virgl and gtk to introduce virtual 3D gpu on qemu
 # Add smartcard flag required by gnome-boxes
 app-emulation/qemu glusterfs nfs rbd fdt spice -gtk virtfs xattr usbredir gtk virgl smartcard
-app-emulation/vice -gtk
+app-emulation/vice gtk
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
 app-emulation/vmware-workstation ovftool server vix
 # Wine, more features
