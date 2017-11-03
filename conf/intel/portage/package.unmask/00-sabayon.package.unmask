@@ -16,3 +16,7 @@ sys-apps/v86d
 # 2.10.* is masked in Gentoo; additionally, use the metapackage from overlay
 =x11-libs/qscintilla-2.10*::sabayon-distro
 =dev-python/qscintilla-python-2.10*::sabayon-distro
+
+# Unmask until it is bumped or removed; the former is somewhat likely (Gentoo
+# bug 620826, comment 2).
+=app-misc/anki-2.0.47
