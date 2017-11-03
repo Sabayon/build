@@ -1,9 +1,5 @@
 app-arch/rar				RAR
 app-text/cpdf				Coherent-Graphics
-dev-lang/icc				Intel-SDP
-dev-lang/idb				Intel-SDP
-dev-lang/ifc				Intel-SDP
-dev-libs/intel-common			Intel-SDP
 dev-util/intel-ocl-sdk			Intel-SDP
 dev-util/nvidia-cuda-toolkit		NVIDIA-CUDA
 games-action/spacetripper-demo		POMPOM
@@ -15,16 +11,10 @@ games-fps/quake3-data			Q3AEULA
 games-fps/quake3-demo			Q3AEULA
 games-fps/enemy-territory		RTCW-ETEULA
 games-fps/urbanterror			Q3AEULA Q3AEULA-20000111
-games-fps/ut2004			ut2003
-games-fps/ut2004-data			ut2003
-games-fps/ut2004-bonuspack-ece		ut2003
-games-fps/ut2004-bonuspack-mega		ut2003
-games-server/ut2004-ded			ut2003
+games-fps/urbanterror-data		Q3AEULA Q3AEULA-20000111
 games-strategy/darwinia-demo		Introversion
 games-strategy/darwinia			Introversion
-app-cdr/nero				Nero-EULA-US
 games-simulation/bcs-demo		BCS
-media-sound/google-musicmanager		Google-TOS Apache-2.0 MIT LGPL-2.1 gSOAP BSD FDL-1.2 MPL-1.1 openssl ZLIB libtiff
 net-wireless/broadcom-sta		Broadcom
 app-emulation/virtualbox-bin		PUEL
 media-libs/fdk-aac			FraunhoferFDK
@@ -32,12 +22,10 @@ media-sound/baudline			baudline
 media-sound/neroaac			Nero-AAC-EULA
 media-video/makemkv			MakeMKV-EULA
 games-action/heretic2-demo		LOKI-EULA
-net-im/skype				>=net-im/skype-4.0.0.7-r2 skype-4.0.0.7-copyright
 net-misc/chrome-remote-desktop		google-chrome
 sci-biology/foldingathome		FAH-EULA-2014
 sci-electronics/eagle                   cadsoft
 sci-mathematics/gimps			GIMPS
-sci-misc/mendeleydesktop		Mendeley-EULA
 www-client/google-chrome		google-chrome
 www-client/google-chrome-beta		google-chrome
 www-client/google-chrome-unstable	google-chrome
@@ -51,5 +39,3 @@ www-plugins/google-talkplugin           Google-TOS
 dev-java/oracle-jdk-bin			Oracle-BCLA-JavaSE
 dev-java/oracle-jre-bin			Oracle-BCLA-JavaSE
 sys-firmware/b43-firmware		Broadcom
-net-misc/teamviewer			TeamViewer
-sci-misc/mendeleydesktop		Mendeley-terms
