@@ -230,9 +230,6 @@ dev-lang/python:3.4
 # 2017-09-16 Joost Ruis: Blocks with openrc
 >sys-cluster/ceph-10.2.7-r1
 
-# 2017-09-16 Joost Ruis: Do not pull new gcc yet
->=dev-db/mongodb-3.4.3
-
 # 2017-09-23 Sławomir Nizio: kde-apps/libkface does not build with it, Gentoo bug 631836
 >=media-libs/opencv-3.3.0-r1
 
