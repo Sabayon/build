@@ -122,8 +122,7 @@ media-video/kino (.*)x11-libs/gtk(.*) \1x11-libs/gtk\2:2
 # Rewrite almost every standard dev-python/pygobject dependency
 * (.*)dev-python/pygobject(?!.*-base.*)(?!.*-cairo.*)((?=-[0-9]\.)?)(?!.*-2\*)(?!.*:2)((.*:3)?)(?!.*\[.*cairo.*\].*) \1dev-python/pygobject-base\2\3
 
-# ati-drivers, nvidia-drivers rewrites
-virtual/opencl (.*)x11-drivers/ati-drivers(.*) \1x11-drivers/ati-userspace\2
+# nvidia-drivers rewrites
 virtual/opencl (.*)x11-drivers/nvidia-drivers(.*) \1x11-drivers/nvidia-userspace\2
 dev-util/nvidia-cuda-sdk (.*)x11-drivers/nvidia-drivers(.*) \1x11-drivers/nvidia-userspace\2
 dev-util/nvidia-cuda-toolkit (.*)x11-drivers/nvidia-drivers(.*) \1x11-drivers/nvidia-userspace\2
@@ -141,9 +140,6 @@ games-util/steam-client-meta (.*)sys-devel/gcc-(.*) \1sys-devel/base-gcc-\2
 
 # Add conflict to systemd-sysv-utils for eselect-init
 sys-apps/systemd-sysv-utils ++!app-admin/eselect-init<2>
-
-# Replace x11-drivers/ati-drivers with ati-userspace from xvba-video
-x11-libs/xvba-video (.*)x11-drivers/ati-drivers(.*) \1x11-drivers/ati-userspace\2
 
 # Ensure a smooth migration from libgcrypt-1.5 to 1.6
 =dev-libs/libgcrypt-1.6* ++dev-libs/libgcrypt:11<2>
