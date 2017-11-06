@@ -82,8 +82,7 @@ def check_unwanted_deps():
         "net-p2p/transmission", "app-crypt/pinentry", "dev-python/pygobject:3",
         "x11-misc/lightdm", "x11-libs/qscintilla", "dev-python/qscintilla-python"]
     warning_deps = ["media-libs/jpeg",
-        "dev-lang/gnat-gcc", "dev-lang/gcc", "x11-drivers/nvidia-drivers",
-        "x11-drivers/ati-drivers"]
+        "dev-lang/gnat-gcc", "dev-lang/gcc", "x11-drivers/nvidia-drivers"]
     func_rc = 0
 
     pkg_deps_map = dict(
