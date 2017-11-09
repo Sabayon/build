@@ -12,7 +12,3 @@ media-tv/kodi
 
 # We need this for our kernels
 sys-apps/v86d
-
-# 2.10.* is masked in Gentoo; additionally, use the metapackage from overlay
-=x11-libs/qscintilla-2.10*::sabayon-distro
-=dev-python/qscintilla-python-2.10*::sabayon-distro
