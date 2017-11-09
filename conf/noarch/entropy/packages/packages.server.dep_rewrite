@@ -70,12 +70,10 @@ x11-misc/lightdm-kde (.*)x11-misc/lightdm(.*)\[qt4\] \1x11-misc/lightdm-qt4\2
 
 # point to our split pinentry packages
 x11-plugins/enigmail (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2\2
-x11-plugins/enigmail (.*)app-crypt/pinentry(.*)\[qt4\] \1app-crypt/pinentry-qt4\2
 mail-client/thunderbird (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2\2
 app-crypt/gnupg (.*)app-crypt/pinentry(.*) app-crypt/pinentry-base
 mail-client/evolution (.*)app-crypt/pinentry(.*)(\[.*\]) \1app-crypt/pinentry-gtk2\2
 www-client/seamonkey (.*)app-crypt/pinentry(.*)\[gtk\] \1app-crypt/pinentry-gtk2\2
-www-client/seamonkey (.*)app-crypt/pinentry(.*)\[qt4\] \1app-crypt/pinentry-qt4\2
 gnome-base/gnome-keyring app-crypt/pinentry\[gnome-keyring\] app-crypt/pinentry-gnome
 
 # drop virtualbox-modules dep from virtualbox-bin
