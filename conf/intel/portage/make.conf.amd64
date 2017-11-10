@@ -8,7 +8,7 @@ CFLAGS="-O2 -march=x86-64 -pipe" # -ftree-vectorize ${GRAPHITE}"
 CHOST="x86_64-pc-linux-gnu"
 CXXFLAGS="${CFLAGS}"
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
-MAKEOPTS="-j8 -s"
+MAKEOPTS="-j6 -s"
 
 # Portage stuff
 ACCEPT_KEYWORDS="~amd64"
