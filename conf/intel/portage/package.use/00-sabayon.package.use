@@ -1271,7 +1271,7 @@ www-client/w3m fbcon imlib
 dev-util/electron -system-ffmpeg
 
 # needed for lxd
-app-emulation/lxc cgmanager
+app-emulation/lxc -cgmanager seccomp
 
 # needed for calamares
 dev-qt/qtwebengine -system-ffmpeg widgets
