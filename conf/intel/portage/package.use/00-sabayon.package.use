@@ -760,7 +760,7 @@ net-misc/plowshare -javascript
 net-misc/ps3mediaserver multiuser tsmuxer
 net-misc/remmina vnc vte ssh rdp
 # Add xattr support to rsync
-net-misc/rsync xattr
+net-misc/rsync examples xattr
 net-misc/tigervnc -java server
 net-vpn/tor threads
 net-misc/vinagre rdp -avahi
