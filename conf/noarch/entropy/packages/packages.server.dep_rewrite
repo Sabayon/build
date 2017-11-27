@@ -1,5 +1,6 @@
 # Fix poppler dependencies, we provide our own split deps
 app-editors/gummi (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
+app-text/paperwork-backend (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 app-leechcraft/lc-monocle (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt4\2
 app-misc/beagle (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 app-misc/pdfpc (.*)app-text/poppler(.*) app-text/poppler-glib
