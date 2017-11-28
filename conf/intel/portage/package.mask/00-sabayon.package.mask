@@ -252,3 +252,7 @@ dev-lang/python:3.4
 # 2017-11-22 Sławomir Nizio: dev-haskell/yesod-routes (as of 1.2.0.7-r2)
 # depends an older version (Gentoo bug 610350)
 >=dev-lang/ghc-8
+
+# 2017-11-28 Sławomir Nizio: net-misc/vinagre-3.22.0-r1 fails to build with the
+# newer one, Gentoo bug 636280
+>=net-misc/freerdp-2.0.0_pre20160722
