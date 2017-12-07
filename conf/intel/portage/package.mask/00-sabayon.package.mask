@@ -142,7 +142,7 @@ sys-fs/zfs-kmod::gentoo
 sys-apps/lsb-release::gentoo
 
 # 2016-03-14 Ettore Di Giacinto: Keep sddm from our overlay
-x11-misc/sddm::gentoo
+# x11-misc/sddm::gentoo
 
 # 2016-03-22 Ettore Di Giacinto: Keep apache from our overlay
 www-servers/apache::gentoo
