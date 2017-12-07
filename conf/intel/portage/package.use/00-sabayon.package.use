@@ -79,6 +79,7 @@ app-emulation/qemu glusterfs nfs rbd fdt spice -gtk virtfs xattr usbredir gtk vi
 app-emulation/vice gtk -sdl
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
 app-emulation/vmware-workstation ovftool server vix
+app-emulation/wine-any samba
 app-emulation/winetricks -gtk
 # add HVM
 app-emulation/xen-tools hvm qemu
