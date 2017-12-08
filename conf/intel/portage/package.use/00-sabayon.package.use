@@ -174,6 +174,7 @@ dev-db/freetds mssql odbc
 # dev-db/mongodb should use V8. Allows to fix bug 3069
 # embedded-v8 due to incompatiblity with Chromium - Gentoo bug 471582
 dev-db/mongodb v8 embedded-v8
+dev-db/postgis address-standardizer topology
 dev-db/postgresql server threads
 # soundex required by Entropy
 # secure-delete required by xulrunner
