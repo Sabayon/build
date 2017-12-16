@@ -956,6 +956,8 @@ www-servers/cherokee admin
 # Inflate lighttpd
 www-servers/lighttpd fastcgi lua memcache xattr
 
+www-servers/nginx nginx_modules_http_stub_status
+
 x11-apps/fusion-icon -qt4
 
 # X.Org stuff
