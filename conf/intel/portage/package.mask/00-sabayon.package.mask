@@ -150,9 +150,6 @@ www-servers/apache::gentoo
 # 2016-04-27 Joost Ruis: Only use overlay version
 sys-boot/grub::gentoo
 
-# 2016-06-7 Ettore Di Giacinto: Keep kde-l10n from our overlay
-kde-apps/kde-l10n::gentoo
-
 # 2016-08-06 Ettore Di Giacinto: Only use overlay version
 sys-power/cpupower::gentoo
 
