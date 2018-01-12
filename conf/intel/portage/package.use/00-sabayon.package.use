@@ -735,7 +735,7 @@ net-misc/aria2 metalink bittorrent xmlrpc
 net-misc/asterisk jabber gtalk xmpp
 # Preffer openssl over nss and gnutls for curl
 # moreover, nss breaks git https:// checkouts
-net-misc/curl http2 idn ssl -nss -gnutls
+net-misc/curl http2 idn ssl -nss -gnutls static-libs
 net-misc/mediatomb thumbnail -javascript
 net-misc/minidlna netgear readynas
 net-misc/mosh ufw
