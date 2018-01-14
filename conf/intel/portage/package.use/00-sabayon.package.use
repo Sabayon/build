@@ -475,7 +475,7 @@ media-gfx/imagemagick fftw gs perl
 media-gfx/k3d 3ds
 media-gfx/kphotoalbum kipi
 # micia, add documentation for librecad, so that help menu works properly
-media-gfx/librecad doc
+media-gfx/librecad doc -qt4
 # SSE2 required, otherwise it does not merge
 media-gfx/luminance-hdr sse2
 # disable tiff because it pulls in media-libs/opencv, change if deemed so (bug
