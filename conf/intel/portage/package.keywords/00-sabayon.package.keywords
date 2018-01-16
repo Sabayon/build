@@ -104,12 +104,6 @@ sys-apps/systemd -~amd64 -~x86
 # allow unstable systemd-226
 =sys-apps/systemd-226* ~amd64 ~x86
 
-# Allow any openssl 0.9.8y revision as well
-=dev-libs/openssl-0.9.8* ~amd64 ~x86
-# Allow any openssl 1.0.1 as well, this includes
-# true multilib aware versions, only needed for amd64
-=dev-libs/openssl-1.0.1* ~amd64
-
 # keep xdebug-client to stable, since devs tend to update
 # xdebug and xdebug-client separately
 dev-php/xdebug-client -~amd64 -~x86
