@@ -190,8 +190,9 @@ net-dns/avahi::gentoo
 >=media-libs/lib3ds-2.0.0_rc1
 
 # http-client-tls-0.3.3 requires >=dev-haskell/http-client-0.5.0
-# but http-conduit-2.1.10.1.ebuild requires >=dev-haskell/http-client-0.4.28 <dev-haskell/http-client-0.5
->dev-haskell/http-client-tls-0.2.4
+# but http-conduit-2.2.3 requires >=dev-haskell/http-client-0.5 <dev-haskell/http-client-0.6
+# it's fine but the mask is kept to avoid problems like in the past (in case newer -tls requires >=0.6
+>dev-haskell/http-client-tls-0.3.3
 
 # 2017-07-16 Sławomir Nizio: app-emulation/ganeti (as of 2.15.2-r6) depends on <1.3.5
 >=dev-python/sphinx-1.3.5
