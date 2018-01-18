@@ -933,7 +933,7 @@ www-apps/postfixadmin mysql
 www-apps/rt mysql
 www-apps/trac mysql postgres vhosts sqlite
 
-www-client/chromium widevine
+www-client/chromium jumbo-build widevine
 www-client/firefox filepicker -gnome gstreamer mozbranding system-jpeg xforms
 www-client/midori sqlite
 www-client/qupzilla -qt4
