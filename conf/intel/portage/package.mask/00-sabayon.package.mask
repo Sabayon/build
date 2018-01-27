@@ -265,3 +265,4 @@ dev-lang/python:3.4
 # Temp mask
 >sys-apps/dbus-1.10.24
 >media-video/ffmpeg-3.3.6
+>app-admin/packagekit-base-1.1.5-r2
