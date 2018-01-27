@@ -169,3 +169,6 @@ sys-apps/util-linux -~amd64
 
 # Force stable net-libs/libnsl
 net-libs/libnsl -~amd64
+
+# Force stable media-libs/libsdl2
+media-libs/libsdl2 -~amd64
