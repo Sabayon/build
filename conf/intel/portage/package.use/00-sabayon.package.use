@@ -621,7 +621,9 @@ media-video/avidemux qt5 -qt4
 media-video/blinkensim aalib
 media-video/dvgrab quicktime
 virtual/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx jpeg2k
-media-video/ffmpeg threads ogg vhook faac faad fdk jpeg2k video_cards_nvidia amr cpudetection vpx
+media-video/ffmpeg threads ogg vhook faac faad fdk jpeg2k video_cards_nvidia amr vpx
+# x86 cpu optimizations, detected at ffmpeg runtime
+media-video/ffmpeg cpudetection cpu_flags_x86_3dnow cpu_flags_x86_3dnowext cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_fma3 cpu_flags_x86_fma4 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 cpu_flags_x86_xop
 media-video/jubler mplayer
 media-video/kino gstreamer quicktime
 media-video/makemkv -qt4
