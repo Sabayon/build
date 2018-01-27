@@ -166,3 +166,6 @@ media-libs/libopenraw -~amd64
 
 # Force stable sys-apps/util-linux
 sys-apps/util-linux -~amd64
+
+# Force stable net-libs/libnsl
+net-libs/libnsl -~amd64
