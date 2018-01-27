@@ -258,3 +258,6 @@ dev-lang/python:3.4
 
 # 2018-01-16 Sławomir Nizio: x11-wm/xmonad-contrib 0.12 requires this
 >=dev-haskell/x11-1.8-r1
+
+# Temp mask
+>sys-apps/dbus-1.10.24
