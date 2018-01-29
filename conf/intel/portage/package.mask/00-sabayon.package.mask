@@ -267,3 +267,4 @@ dev-lang/python:3.4
 >media-video/ffmpeg-3.3.6
 >app-admin/packagekit-base-1.1.5-r2
 >app-admin/packagekit-gtk-1.1.5
+>dev-scheme/guile-1.8.8-r3
