@@ -225,6 +225,7 @@ dev-lang/php -threads apache2 bcmath calendar cgi ctype curl filter fpm ftp gd h
 dev-lang/python sqlite berkdb
 dev-lang/rakudo moar
 
+dev-libs/apr-util openssl
 dev-libs/beecrypt threads
 # Needed by some lisp packages
 dev-libs/boehm-gc threads
