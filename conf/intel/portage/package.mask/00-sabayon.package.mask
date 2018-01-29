@@ -269,3 +269,4 @@ dev-lang/python:3.4
 >app-admin/packagekit-gtk-1.1.5
 >dev-scheme/guile-1.8.8-r3
 >app-office/gnucash-2.6.15
+>sys-devel/autogen-5.18.4-r1
