@@ -101,15 +101,14 @@ dev-libs/gobject-introspection (.*)x11-libs/cairo(.*)
 dev-java/icedtea-bin (.*)sys-devel/gcc(.*)
 dev-java/icedtea (.*)sys-devel/gcc(.*)
 
-# net-dns/avahi dep rewrites
-* (.*)net-dns/avahi(.*)\[(?!.*(gtk|qt4|mono).*).*\] \1net-dns/avahi-gtk3\2
-* (.*)net-dns/avahi(.*)(\[.*gtk3(,.*)?\]) \1net-dns/avahi-gtk3\2
-* (.*)net-dns/avahi(.*)(\[.*gtk(,.*)?\]) \1net-dns/avahi-gtk\2
-* (.*)net-dns/avahi(.*)(\[.*qt4(,.*)?\]) \1net-dns/avahi-qt\2
-* (.*)net-dns/avahi(.*)(\[.*mono(,.*)?\]) \1net-dns/avahi-mono\2
+# net-dns/avahi dep rewrites (ignoring the split dependencies from the
+# metapackage: the first (?!...))
+* (.*)net-dns/avahi(?!-base|-gtk|-gtk3|-mono|-qt)(.*)\[(?!.*(gtk|qt4|mono).*).*\] \1net-dns/avahi-gtk3\2
+* (.*)net-dns/avahi(?!-base|-gtk|-gtk3|-mono|-qt)(.*)(\[.*gtk3(,.*)?\]) \1net-dns/avahi-gtk3\2
+* (.*)net-dns/avahi(?!-base|-gtk|-gtk3|-mono|-qt)(.*)(\[.*gtk(,.*)?\]) \1net-dns/avahi-gtk\2
+* (.*)net-dns/avahi(?!-base|-gtk|-gtk3|-mono|-qt)(.*)(\[.*qt4(,.*)?\]) \1net-dns/avahi-qt\2
+* (.*)net-dns/avahi(?!-base|-gtk|-gtk3|-mono|-qt)(.*)(\[.*mono(,.*)?\]) \1net-dns/avahi-mono\2
 # net-dns/avahi, without [...]
-# note: make sure not to match the split dependencies (from the metapackage)
-# themselves
 * (.*)net-dns/avahi(?!-base|-gtk|-gtk3|-mono|-qt)([^\[\]]*$) \1net-dns/avahi-base\2
 
 # Fix gtk-3 deps
