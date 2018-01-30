@@ -181,3 +181,6 @@ sys-fs/cryptsetup -~amd64
 
 # Force stable sci-electronics/geda
 sci-electronics/geda -~amd64
+
+# Force stable dev-libs/json
+dev-libs/json -~amd64
