@@ -1,6 +1,2 @@
 # Mask apache using MPM worker for now
 www-servers/apache[threads]
-
-# Mask nvidia beta drivers
->x11-drivers/nvidia-drivers-387
->x11-drivers/nvidia-userspace-387
