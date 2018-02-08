@@ -581,7 +581,7 @@ media-sound/asunder wavpack
 media-sound/audacity ladspa vamp soundtouch id3tag midi sbsms -ffmpeg
 media-sound/audacious gtk3 wma timidity lirc dbus chardet -gtk -qt5
 media-sound/cantata replaygain taglib cdparanoia devices
-media-sound/clementine lastfm ios moodbar mtp
+media-sound/clementine -lastfm ios moodbar mtp
 media-sound/cmus mikmod
 media-sound/deadbeef alac ape cover curl lastfm m3u hotkeys sndfile supereq wavpack wma
 media-sound/flacon -qt4
