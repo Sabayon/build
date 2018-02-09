@@ -246,6 +246,7 @@ dev-libs/gdl gnome
 dev-libs/gmime smime -mono
 dev-libs/libassuan static-libs
 dev-libs/libdbusmenu gtk3
+dev-libs/libdbusmenu-qt -qt4
 dev-libs/libf2c static-libs
 dev-libs/libgcrypt static-libs
 dev-libs/libgdata gnome gnome-online-accounts
