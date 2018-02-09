@@ -859,6 +859,7 @@ sys-apps/util-linux tty-helpers
 
 sys-auth/consolekit -acl
 sys-auth/pambase -consolekit -kerberos
+sys-auth/polkit-qt -qt4
 
 sys-block/gparted -kde -gtk dmraid mdadm btrfs
 sys-block/parted device-mapper
