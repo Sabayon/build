@@ -1,0 +1,2 @@
+# Gentoo bug 633834 - app-office/libreoffice-5.4.0.3: configure error, ant says java.lang.NoSuchMethodError
+LOCALCLASSPATH=/usr/share/ant-core/lib/ant.jar
