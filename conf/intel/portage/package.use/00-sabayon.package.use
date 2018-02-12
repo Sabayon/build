@@ -78,7 +78,6 @@ app-emulation/open-vm-tools -X -xinerama
 app-emulation/qemu glusterfs nfs rbd fdt spice -gtk virtfs xattr usbredir gtk virgl smartcard
 app-emulation/vice fullscreen gtk -sdl
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
-app-emulation/vmware-workstation ovftool server vix
 app-emulation/wine-any samba
 app-emulation/winetricks -gtk
 # add HVM
@@ -341,15 +340,12 @@ dev-util/biew mmx sse
 dev-util/codeblocks contrib
 dev-util/geany-plugins ctags enchant git gtkspell pretty-printer
 dev-util/glade -gnome
-dev-util/jay java
 dev-util/kdevelop php qthelp ruby
-dev-util/kdevplatform git subversion
 dev-util/nvidia-cuda-sdk opencl
 dev-util/nvidia-cuda-toolkit debugger eclipse profiler
 
 dev-vcs/bzr bash-completion curl sftp
 dev-vcs/git curl webdav -subversion -gtk
-dev-vcs/qct mercurial subversion
 dev-vcs/subversion -java -apache2 -dso -kde
 
 games-simulation/flightgear -qt5
@@ -367,7 +363,6 @@ games-fps/nexuiz dedicated maps
 games-fps/worldofpadman maps
 
 games-rpg/eternal-lands-data music sound
-games-rpg/nwn-data videos
 
 games-strategy/0ad editor sound
 games-strategy/freeciv -qt5
@@ -401,7 +396,6 @@ kde-apps/ark lzma
 kde-apps/dolphin semantic-desktop thumbnail
 kde-apps/dolphin-plugins git
 kde-apps/gwenview kipi semantic-desktop
-kde-apps/kdebase-kioslaves samba
 kde-apps/kdepim-runtime google
 kde-apps/kget -bittorrent semantic-desktop
 kde-apps/kio-extras mtp samba
@@ -557,7 +551,6 @@ media-libs/sdl-sound modplug mikmod
 media-libs/svgalib -kernel-helper
 media-libs/tiff lzma
 media-libs/vigra fftw
-media-libs/vips fftw
 media-libs/urt gs
 media-libs/xine-lib aalib fbcon mng vdr vidix dxr3 -win32codecs -gtk
 
@@ -573,10 +566,7 @@ media-libs/gst-plugins-bad egl -wayland
 # disable qt4 for libde265
 media-libs/libde265 -qt4
 
-media-radio/tucnak2 fftw
-
 media-sound/alsa-tools -gtk
-media-sound/amarok lastfm cdaudio ifp njb mtp musicbrainz -xmms mp4 embedded -cdda
 media-sound/aqualung libsamplerate
 media-sound/ardour freesound lv2
 media-sound/asunder wavpack
@@ -716,8 +706,6 @@ net-libs/libproxy -kde -gnome python
 net-libs/libsoup gnome
 # used to be dolphin-emu (now dolphin) flag
 net-libs/mbedtls havege
-net-libs/opal sip sipim h323
-net-libs/ptlib video stun wav pipechan dns http dtmf
 net-libs/qxmpp -qt4
 net-libs/telepathy-qt farstream
 net-libs/zeromq unwind
@@ -741,7 +729,6 @@ net-misc/asterisk jabber gtalk xmpp
 # Preffer openssl over nss and gnutls for curl
 # moreover, nss breaks git https:// checkouts
 net-misc/curl http2 idn ssl -nss -gnutls static-libs
-net-misc/mediatomb thumbnail -javascript
 net-misc/minidlna netgear readynas
 net-misc/mosh ufw
 # bluetooth use flag is useless
@@ -795,8 +782,6 @@ net-print/hplip -acl fax hpijs parport snmp static-ppds usb -qt4
 
 net-proxy/privoxy threads
 net-proxy/tsocks tordns
-
-net-voip/ekiga gstreamer
 
 net-wireless/bluez gstreamer obex user-session
 net-wireless/wpa_supplicant -qt4 -qt5 wimax ap p2p eap-sim wps
@@ -1234,9 +1219,6 @@ dev-cpp/commoncpp2 -gnutls ssl
 
 # Bug 4726, add UVM support
 x11-drivers/nvidia-userspace uvm
-
-# Use in-kernel modules
-app-emulation/vmware-modules -vmci -vsock
 
 # No modules, thanks. We're bleeding.
 net-firewall/ipset -modules
