@@ -157,3 +157,5 @@ media-video/ffmpeg -~arm
 media-libs/elementary -~arm
 
 dev-util/gdbus-codegen -~arm
+
+virtual/rubygems -~arm
