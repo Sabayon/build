@@ -264,3 +264,4 @@ virtual/linux-sources::gentoo
 
 # Temp mask
 dev-lang/python:3.6
+>app-text/texlive-core-2017-r2
