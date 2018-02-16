@@ -157,3 +157,5 @@ media-video/ffmpeg -~arm
 media-libs/elementary -~arm
 
 virtual/rubygems -~arm
+
+app-text/opensp -~arm
