@@ -3,4 +3,5 @@
 # We now use raspberypi-userland from our overlay
 media-libs/raspberrypi-userland::gentoo
 
+>net-libs/libnsl-0
 
