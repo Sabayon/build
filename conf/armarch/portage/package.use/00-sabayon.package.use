@@ -335,3 +335,5 @@ net-misc/aria2 tcmalloc bittorrent metalink xmlrpc
 net-dns/avahi -qt4
 
 media-libs/opencv contrib
+
+www-apache/mod_perl ithreads
