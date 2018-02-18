@@ -2,11 +2,7 @@
 dev-lang/perl -~arm
 perl-core/* -~arm
 virtual/perl-* -~arm
-
-# unstable perl exceptions
-perl-core/Scalar-List-Utils ~arm
-perl-core/Encode ~arm
-perl-core/Devel-PPPort ~arm
+dev-perl/* -~arm
 
 # Only use stable versions of these libs
 sys-kernel/linux-headers -~arm
