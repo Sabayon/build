@@ -179,8 +179,5 @@ app-shells/bash-completion -~amd64
 # Force stable sys-fs/cryptsetup
 sys-fs/cryptsetup -~amd64
 
-# Force stable sci-electronics/geda
-sci-electronics/geda -~amd64
-
 # Force stable dev-libs/json-c
 dev-libs/json-c -~amd64
