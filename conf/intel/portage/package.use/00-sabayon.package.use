@@ -580,6 +580,7 @@ media-sound/flacon -qt4
 media-sound/gmusicbrowser gstreamer
 media-sound/gpodder gstreamer
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
+media-sound/lilypond guile2
 media-sound/lmms fftw fluidsynth vst
 media-sound/mixxx shout -ffmpeg -qt4 hid
 media-sound/moc curl sndfile
