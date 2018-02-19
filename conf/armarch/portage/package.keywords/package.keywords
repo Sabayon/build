@@ -166,3 +166,4 @@ app-text/opensp -~arm
 
 perl-core/ExtUtils-MakeMaker ~arm
 virtual/perl-ExtUtils-MakeMaker ~arm
+virtual/perl-IO-Socket-IP ~arm
