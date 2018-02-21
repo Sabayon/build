@@ -154,6 +154,7 @@ sys-libs/zlib minizip
 # Networking
 net-libs/rb_libtorrent python
 net-wireless/wpa_supplicant dbus
+net-misc/connman iptables
 net-misc/modemmanager policykit
 net-misc/networkmanager bluetooth connection-sharing resolvconf modemmanager
 # required by gnome-core-apps
