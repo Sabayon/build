@@ -16,9 +16,14 @@ dev-lang/tcl -~arm
 dev-lang/tk -~arm
 dev-lang/ghc -~arm
 dev-lang/ruby -~arm
+
 # sci-mathematics/maxima needs texinfo <5.0
 # stick texinfo to stable to avoid matter bump it
 sys-apps/texinfo -~arm
+
+# Want stable cups
+net-print/cups -~arm
+net-print/cups-filters -~arm
 
 # We want Portage 2.2
 <sys-apps/portage-2.3 ** ~arm
@@ -163,9 +168,3 @@ media-libs/elementary -~arm
 virtual/rubygems -~arm
 
 app-text/opensp -~arm
-
-perl-core/ExtUtils-MakeMaker ~arm
-virtual/perl-ExtUtils-MakeMaker ~arm
-virtual/perl-IO-Socket-IP ~arm
-perl-core/Scalar-List-Utils ~arm
-virtual/perl-Scalar-List-Utils ~arm
