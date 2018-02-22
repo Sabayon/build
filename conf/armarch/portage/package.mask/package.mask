@@ -5,3 +5,5 @@ media-libs/raspberrypi-userland::gentoo
 
 >net-libs/libnsl-0
 
+# temp masked
+>=dev-lang/perl-5.26.1
