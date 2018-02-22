@@ -262,5 +262,9 @@ dev-lang/python:3.4
 # 2018-01-30 Joost Ruis: Use our overlay version
 virtual/linux-sources::gentoo
 
+# 2018-02-22 Sławomir Nizio: media-gfx/printrun needs media-gfx/cairosvg with
+# Python 2.7 support but only the older cairosvg fulfills that
+>=media-gfx/cairosvg-2
+
 # Temp mask
 dev-lang/python:3.6
