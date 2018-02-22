@@ -161,6 +161,10 @@ games-emulation/mupen64plus ** ~arm
 games-emulation/mupen64plus-core ** ~arm
 games-emulation/mupen64plus-rsp-hle ** ~arm
 
+# KDE / Plasma stuff
+kde-apps/libkexiv2 ** ~arm
+
+
 media-video/ffmpeg -~arm
 
 media-libs/elementary -~arm
