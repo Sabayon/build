@@ -178,3 +178,7 @@ sys-fs/cryptsetup -~amd64
 
 # Force stable dev-libs/json-c
 dev-libs/json-c -~amd64
+
+# For www-client/conkeror which likes not-newest www-client/firefox(-bin);
+# stable should be OK
+www-client/firefox-bin -~amd64
