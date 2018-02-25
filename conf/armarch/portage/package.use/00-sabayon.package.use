@@ -37,7 +37,7 @@ xfce-base/xfce4-session policykit udev
 
 net-wireless/bluez test-programs
 
-sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr openrc gudev extras hwdb keymap
+sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr openrc gudev extras hwdb keymap sysv-utils
 virtual/udev hwdb gudev keymap
 
 # LXDE stuff
