@@ -15,6 +15,7 @@ dev-qt/qdbus -~arm
 dev-qt/qtbluetooth -~arm
 dev-qt/qtconcurrent -~arm
 dev-qt/qtcore -~arm
+dev-qt/qtdbus -~arm
 dev-qt/qtdeclarative -~arm
 dev-qt/qtgraphicaleffects -~arm
 dev-qt/qtgui -~arm
