@@ -27,6 +27,7 @@ dev-qt/qtscript -~arm
 dev-qt/qtsql -~arm
 dev-qt/qtsvg -~arm
 dev-qt/qtwidgets -~arm
+dev-qt/qtx11extras -~arm
 dev-qt/qtxml -~arm
 dev-qt/qtxmlpatterns -~arm
 
