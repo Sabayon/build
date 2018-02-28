@@ -8,7 +8,26 @@ dev-libs/boost -~arm
 dev-util/boost-build -~arm
 
 # force stable qt
+dev-qt/designer -~arm
+dev-qt/linguist -~arm
+dev-qt/linguist-tools -~arm
+dev-qt/qdbus -~arm
+dev-qt/qtbluetooth -~arm
+dev-qt/qtconcurrent -~arm
 dev-qt/qtcore -~arm
+dev-qt/qtdeclarative -~arm
+dev-qt/qtgraphicaleffects -~arm
+dev-qt/qtgui -~arm
+dev-qt/qtnetwork -~arm
+dev-qt/qtopengl -~arm
+dev-qt/qtpaths -~arm
+dev-qt/qtprintsupport -~arm
+dev-qt/qtquickcontrols -~arm
+dev-qt/qtscript -~arm
+dev-qt/qtsql -~arm
+dev-qt/qtsvg -~arm
+dev-qt/qtxml -~arm
+dev-qt/qtxmlpatterns -~arm
 
 # Only use stable versions of these libs
 sys-kernel/linux-headers -~arm
