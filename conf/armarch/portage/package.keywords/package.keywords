@@ -26,6 +26,7 @@ dev-qt/qtquickcontrols -~arm
 dev-qt/qtscript -~arm
 dev-qt/qtsql -~arm
 dev-qt/qtsvg -~arm
+dev-qt/qtwidgets -~arm
 dev-qt/qtxml -~arm
 dev-qt/qtxmlpatterns -~arm
 
