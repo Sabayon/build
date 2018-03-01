@@ -7,40 +7,6 @@ virtual/perl-* -~arm
 dev-libs/boost -~arm
 dev-util/boost-build -~arm
 
-# force stable qt
-dev-qt/designer -~arm
-dev-qt/linguist -~arm
-dev-qt/linguist-tools -~arm
-dev-qt/qdbus -~arm
-dev-qt/qtbluetooth -~arm
-dev-qt/qtconcurrent -~arm
-dev-qt/qtcore -~arm
-dev-qt/qtdbus -~arm
-dev-qt/qtdeclarative -~arm
-dev-qt/qtgraphicaleffects -~arm
-dev-qt/qtgui -~arm
-dev-qt/qtnetwork -~arm
-dev-qt/qtopengl -~arm
-dev-qt/qtpaths -~arm
-dev-qt/qtprintsupport -~arm
-dev-qt/qtquickcontrols -~arm
-dev-qt/qtscript -~arm
-dev-qt/qtsensors -~arm
-dev-qt/qtsql -~arm
-dev-qt/qtsvg -~arm
-dev-qt/qttest -~arm
-dev-qt/qttranslations -~arm
-dev-qt/qtwayland -~arm
-dev-qt/qtwebkit -~arm
-dev-qt/qtwidgets -~arm
-dev-qt/qtx11extras -~arm
-dev-qt/qtxml -~arm
-dev-qt/qtxmlpatterns -~arm
-
-# qt unstable exceptions
-dev-qt/qtvirtualkeyboard ~arm
-dev-qt/qtquickcontrols2 ~arm
-
 # Only use stable versions of these libs
 sys-kernel/linux-headers -~arm
 sys-libs/glibc -~arm
