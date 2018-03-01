@@ -29,6 +29,7 @@ dev-qt/qtscript -~arm
 dev-qt/qtsensors -~arm
 dev-qt/qtsql -~arm
 dev-qt/qtsvg -~arm
+dev-qt/qttest -~arm
 dev-qt/qtvirtualkeyboard -~arm
 dev-qt/qtwayland -~arm
 dev-qt/qtwebkit -~arm
