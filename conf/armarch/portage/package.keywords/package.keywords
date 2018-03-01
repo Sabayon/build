@@ -31,13 +31,15 @@ dev-qt/qtsql -~arm
 dev-qt/qtsvg -~arm
 dev-qt/qttest -~arm
 dev-qt/qttranslations -~arm
-dev-qt/qtvirtualkeyboard -~arm
 dev-qt/qtwayland -~arm
 dev-qt/qtwebkit -~arm
 dev-qt/qtwidgets -~arm
 dev-qt/qtx11extras -~arm
 dev-qt/qtxml -~arm
 dev-qt/qtxmlpatterns -~arm
+
+# qt unstable exceptions
+dev-qt/qtvirtualkeyboard ~arm
 
 # Only use stable versions of these libs
 sys-kernel/linux-headers -~arm
