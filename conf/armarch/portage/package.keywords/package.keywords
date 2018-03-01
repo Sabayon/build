@@ -25,6 +25,7 @@ dev-qt/qtpaths -~arm
 dev-qt/qtprintsupport -~arm
 dev-qt/qtquickcontrols -~arm
 dev-qt/qtscript -~arm
+dev-qt/qtsensors -~arm
 dev-qt/qtsql -~arm
 dev-qt/qtsvg -~arm
 dev-qt/qtwidgets -~arm
