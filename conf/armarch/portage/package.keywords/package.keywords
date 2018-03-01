@@ -30,6 +30,7 @@ dev-qt/qtsensors -~arm
 dev-qt/qtsql -~arm
 dev-qt/qtsvg -~arm
 dev-qt/qtvirtualkeyboard -~arm
+dev-qt/qtwebkit -~arm
 dev-qt/qtwidgets -~arm
 dev-qt/qtx11extras -~arm
 dev-qt/qtxml -~arm
