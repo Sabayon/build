@@ -105,7 +105,7 @@ app-text/poppler-glib cairo
 sys-apps/pciutils -zlib
 gnome-base/gvfs cdda gtk
 x11-libs/gdk-pixbuf jpeg
-sys-apps/dbus X
+sys-apps/dbus user-session X
 net-libs/gtk-vnc gtk3
 net-print/cups dbus
 app-crypt/pinentry gtk
