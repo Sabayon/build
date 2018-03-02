@@ -239,9 +239,6 @@ dev-lang/python:3.4
 >=dev-haskell/snap-core-1.0.1.0
 >=dev-haskell/snap-server-1.0.1.1
 
-# 2017-10-18 Joost Ruis: Prevent blocking dev-cpp/gmock
->=dev-cpp/gtest-1.8.0
-
 # 2017-11-8 Joost Ruis: Currently broken, fails to detect Windows
 >=sys-boot/os-prober-1.76
 
