@@ -259,5 +259,8 @@ virtual/linux-sources::gentoo
 # Python 2.7 support but only the older cairosvg fulfills that
 >=media-gfx/cairosvg-2
 
+# 2018-03-02 Sławomir Nizio: required by sys-admin/anaconda::sabayon-distro
+>=sys-process/audit-2.7
+
 # Temp mask
 dev-lang/python:3.6
