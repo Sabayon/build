@@ -35,7 +35,7 @@ xfce-base/xfce4-session policykit udev
 # required by xfce4 and upower stuff
 # extras is required by net-wireless/bluez
 
-net-wireless/bluez test-programs
+net-wireless/bluez test-programs user-session
 
 sys-apps/systemd -gtk plymouth cryptsetup static-libs lzma xattr openrc gudev extras hwdb keymap sysv-utils
 virtual/udev hwdb gudev keymap
