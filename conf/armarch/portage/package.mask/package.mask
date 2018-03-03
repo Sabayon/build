@@ -7,6 +7,10 @@ media-libs/raspberrypi-userland::gentoo
 
 # temp masked
 >=dev-lang/perl-5.26.1
+>dev-libs/nettle-3.3-r2
+>media-libs/giflib-4.1.6-r3
+>dev-libs/mpfr-3.1.3_p4
+>sys-libs/binutils-libs-2.29.1-r1
 
 # installed from overlay
 dev-libs/openssl::gentoo
