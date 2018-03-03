@@ -7,3 +7,4 @@ media-libs/raspberrypi-userland::gentoo
 
 # temp masked
 >=dev-lang/perl-5.26.1
+=media-libs/giflib-5.1.4
