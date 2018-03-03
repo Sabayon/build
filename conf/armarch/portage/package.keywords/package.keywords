@@ -7,15 +7,14 @@ virtual/perl-* -~arm
 dev-libs/boost -~arm
 dev-util/boost-build -~arm
 
-# force stable sys-libs/gdbm
-sys-libs/gdbm -~arm
-
 # Only use stable versions of these libs
 sys-kernel/linux-headers -~arm
 sys-libs/glibc -~arm
 =sys-libs/glibc-2.17* ~arm
 <dev-lang/python-3 -~arm
+dev-libs/mpc -~arm
 dev-libs/openssl ~arm
+sys-libs/gdbm -~arm
 sys-devel/make -~arm
 sys-kernel/linux-headers -~arm
 net-libs/gnutls -~arm
