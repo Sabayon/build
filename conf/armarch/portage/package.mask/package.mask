@@ -7,3 +7,6 @@ media-libs/raspberrypi-userland::gentoo
 
 # temp masked
 >=dev-lang/perl-5.26.1
+
+# installed from overlay
+sys-devel/gcc-config::gentoo
