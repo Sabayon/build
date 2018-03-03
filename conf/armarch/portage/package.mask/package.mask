@@ -9,4 +9,5 @@ media-libs/raspberrypi-userland::gentoo
 >=dev-lang/perl-5.26.1
 
 # installed from overlay
+dev-libs/openssl::gentoo
 sys-devel/gcc-config::gentoo
