@@ -15,3 +15,4 @@ media-libs/raspberrypi-userland::gentoo
 # installed from overlay
 dev-libs/openssl::gentoo
 sys-devel/gcc-config::gentoo
+sys-devel/gcc::gentoo
