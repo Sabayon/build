@@ -15,6 +15,7 @@ sys-libs/glibc -~arm
 dev-libs/mpc -~arm
 dev-libs/openssl ~arm
 sys-libs/gdbm -~arm
+sys-devel/binutils -~arm
 sys-devel/make -~arm
 sys-kernel/linux-headers -~arm
 media-libs/imlib2 -~arm
