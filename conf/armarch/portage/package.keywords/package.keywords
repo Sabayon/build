@@ -19,6 +19,7 @@ sys-devel/binutils -~arm
 sys-devel/make -~arm
 sys-kernel/linux-headers -~arm
 media-libs/imlib2 -~arm
+media-libs/libepoxy -~arm
 net-libs/gnutls -~arm
 dev-lang/tcl -~arm
 dev-lang/tk -~arm
