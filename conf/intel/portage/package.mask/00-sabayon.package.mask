@@ -262,8 +262,5 @@ virtual/linux-sources::gentoo
 # 2018-03-02 Sławomir Nizio: required by sys-admin/anaconda::sabayon-distro
 >=sys-process/audit-2.7
 
-# 2018-03-02 Sławomir Nizio: app-text/scrollkeeper wants just =1.0 (Gentoo bug 642308)
-=app-text/scrollkeeper-dtd-1.0-r1
-
 # Temp mask
 dev-lang/python:3.6
