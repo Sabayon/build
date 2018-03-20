@@ -1,8 +1,5 @@
 # >sys-fs/udev-171-r5
 
-# We now use raspberypi-userland from our overlay
-media-libs/raspberrypi-userland::gentoo
-
 >net-libs/libnsl-0
 
 # temp masked
