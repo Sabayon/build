@@ -503,7 +503,7 @@ media-libs/devil mng
 media-libs/elementary -sdl
 media-libs/freetype -X -auto-hinter adobe-cff
 media-libs/gd fontconfig
-media-libs/gegl raw jpeg2k
+media-libs/gegl raw jpeg2k umfpack
 media-libs/gexiv2 introspection
 # it's either Wayland or X, see Gentoo bug 616968
 media-libs/glfw -wayland
