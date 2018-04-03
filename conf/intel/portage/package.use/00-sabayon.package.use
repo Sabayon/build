@@ -253,7 +253,6 @@ dev-libs/libgit2-glib ssh
 dev-libs/libgpg-error static-libs
 dev-libs/libgusb vala
 dev-libs/libksba static-libs
-dev-libs/libmcs -kde
 dev-libs/libpcre pcre16 static-libs
 dev-libs/libpcre2 pcre16 pcre32
 dev-libs/libxml2 icu
@@ -682,7 +681,6 @@ net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
 net-im/ekg2 -gadu gpg xmpp sqlite
 net-im/empathy gnome
 net-im/gajim -zeroconf
-net-im/jabberd2 mysql
 net-im/kadu xmpp
 net-im/pidgin bonjour console gadu groupwise meanwhile msn prediction qq sasl silc -zephyr
 net-im/psi jingle
@@ -951,8 +949,6 @@ www-servers/lighttpd fastcgi lua memcache xattr
 
 www-servers/nginx nginx_modules_http_stub_status nginx_modules_http_geoip
 
-x11-apps/fusion-icon -qt4
-
 # X.Org stuff
 x11-base/xorg-server -ipv6 nptl kdrive xvfb
 x11-base/xorg-x11 intel
@@ -1025,8 +1021,6 @@ x11-themes/skinenigmang-logos dxr3
 x11-themes/tango-icon-theme branding
 x11-themes/zuki-themes gnome-shell
 
-x11-wm/compiz -gnome -kde
-x11-wm/compiz-fusion -gnome -kde
 x11-wm/enlightenment xrandr -exchange -enlightenment_modules_wl-weekeyboard
 x11-wm/fluxbox imlib
 x11-wm/fvwm imlib
@@ -1115,8 +1109,6 @@ net-dns/avahi dbus gtk3
 gnome-base/gnome -extras -accessibility
 # Enable some fancy stuff on gdm
 gnome-base/gdm gnome-keyring smartcard accessibility fprint -wayland
-# required by gnome-extra/synapse-0.2.6, required by gnome-extra/synapse (argument)
->=gnome-extra/zeitgeist-0.7.1-r1 fts
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
 
