@@ -16,8 +16,6 @@ virtual/perl-* -~amd64 -~x86
 sys-devel/make -~amd64 -~x86
 sys-kernel/linux-headers -~amd64 -~x86
 net-libs/gnutls -~amd64 -~x86
-# Accept gnutls-3.3 now
-=net-libs/gnutls-3.3* ~amd64 ~x86 amd64 x86
 dev-lang/tcl -~amd64 -~x86
 dev-lang/tk -~amd64 -~x86
 dev-lang/ghc -~amd64 -~x86
@@ -40,8 +38,6 @@ app-admin/apache-tools -~amd64 -~x86
 www-servers/apache ~amd64 ~x86
 
 <app-admin/apache-tools-2.3 ~amd64 ~x86 amd64 x86
-# required to compile Chromium on x86, it seems
-=sys-devel/make-3.82-r4 ~amd64 ~x86
 
 # force stable imagemagick
 media-gfx/imagemagick -~amd64 -~x86
@@ -69,12 +65,6 @@ www-client/chromium -~amd64 -~x86
 # These are a pain in the ass when they abi break
 net-libs/libosip -~amd64 -~x86
 # net-libs/libeXosip -~amd64 -~x86
-
-# Accept any libav-0.8* and virtual/ffmpeg-0.10*
-# This is what we currently support
-=virtual/ffmpeg-0.10* ~amd64 ~x86
-=media-video/libav-9* ~amd64 ~x86
-=virtual/ffmpeg-9* ~amd64 ~x86
 
 # new libvirt may break virtinst revdep, force stable
 app-emulation/libvirt -~amd64 -~x86
@@ -151,9 +141,6 @@ dev-libs/protobuf -~amd64
 # use stable sys-libs/tevent to avoid problems like in bug 5362
 # (Samba is tevent's main reverse dependency)
 sys-libs/tevent -~amd64
-
-# Use stable dev-libs/libRocket
-dev-libs/libRocket -~amd64
 
 # Use stable media-libs/libopenraw
 media-libs/libopenraw -~amd64 
