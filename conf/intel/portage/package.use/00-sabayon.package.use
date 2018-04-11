@@ -764,6 +764,7 @@ net-news/rssguard -qt4 webengine
 # slp disabled due to https://bugs.gentoo.org/show_bug.cgi?id=617278
 net-nds/openldap -minimal sasl -slp
 net-dns/bind-tools gssapi
+net-nds/rpcbind warmstarts
 
 net-nntp/suck perl
 
