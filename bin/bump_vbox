@@ -2,7 +2,7 @@
 
 . /sabayon/bin/kernels.inc
 packages="app-emulation/virtualbox-guest-additions app-emulation/virtualbox-modules"
-non_tagged_packages="virtualbox-bin x11-drivers/xf86-video-virtualbox"
+non_tagged_packages="virtualbox-bin"
 
 # build for latest kernel
 KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge $packages ${non_tagged_packages} || exit 1
