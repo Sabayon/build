@@ -168,4 +168,5 @@ dev-libs/json-c -~amd64
 
 # For www-client/conkeror which likes not-newest www-client/firefox(-bin);
 # stable should be OK
+# also, a stable version is likely an ESR so there is a choice (bug 5515)
 www-client/firefox-bin -~amd64
