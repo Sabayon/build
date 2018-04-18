@@ -257,6 +257,9 @@ dev-libs/libpcre pcre16 static-libs
 dev-libs/libpcre2 pcre16 pcre32
 dev-libs/libxml2 icu
 dev-libs/nss utils
+
+# required by net-misc/curl[static-libs], enabled here
+dev-libs/openssl:0 static-libs
 dev-libs/popt static-libs
 dev-libs/qcustomplot -qt4
 dev-libs/qtkeychain -qt4
