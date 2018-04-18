@@ -203,10 +203,6 @@ net-dns/avahi::gentoo
 # 2017-10-12 Sławomir Nizio: first dependency bump to avoid such a situation
 >app-crypt/acme-0.21.1
 
-# 2017-08-18 Sławomir Nizio: our metapackages are used
-x11-libs/qscintilla::gentoo
-dev-python/qscintilla-python::gentoo
-
 # 2018-01-27 Joost Ruis: mask sys-apps/baselayout from portage
 sys-apps/baselayout::gentoo
 

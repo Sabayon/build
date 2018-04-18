@@ -152,26 +152,3 @@ app-portage/layman (.*)dev-vcs/subversion(.*)
 # this Boost version anyway. (It is: !dev-libs/boost:0/1.57.0.)
 media-sound/ncmpcpp dev-libs/boost:(.*)
 media-sound/ncmpcpp ++dev-libs/boost:0[nls,threads]<2>
-
-# qscintilla split ebuilds for qt4/qt5
-sci-mathematics/octave (.*)x11-libs/qscintilla(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-\4\2\3
-app-editors/juffed (.*)x11-libs/qscintilla(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-\4\2\3
-app-editors/qwriter (.*)x11-libs/qscintilla(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-\4\2\3
-dev-db/sqlitebrowser (.*)x11-libs/qscintilla(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-\4\2\3
-dev-db/sqliteman (.*)x11-libs/qscintilla(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-\4\2\3
-dev-python/qscintilla-python (.*)x11-libs/qscintilla(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-\4\2\3
-dev-util/kscope (.*)x11-libs/qscintilla(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-\4\2\3
-dev-util/monkeystudio (.*)x11-libs/qscintilla(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-\4\2\3
-dev-util/universalindentgui (.*)x11-libs/qscintilla(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-\4\2\3
-media-gfx/openscad (.*)x11-libs/qscintilla(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-\4\2\3
-sci-geosciences/qgis (.*)x11-libs/qscintilla(.*)(\[.*(qt5|qt4).*\]) \1x11-libs/qscintilla-\4\2\3
-
-# qscintilla-python split ebuilds for qt4/qt5
-dev-python/qscintilla-python-qt4 (.*)x11-libs/qscintilla(.*) \1x11-libs/qscintilla-qt4\2
-dev-python/qscintilla-python-qt5 (.*)x11-libs/qscintilla(.*) \1x11-libs/qscintilla-qt5\2
-
-dev-util/eric (.*)dev-python/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1dev-python/qscintilla-python-\4\2\3
-dev-vcs/hgview (.*)dev-python/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1dev-python/qscintilla-python-\4\2\3
-dev-vcs/tortoisehg (.*)dev-python/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1dev-python/qscintilla-python-\4\2\3
-net-analyzer/linkchecker (.*)dev-python/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1dev-python/qscintilla-python-\4\2\3
-sci-geosciences/qgis (.*)dev-python/qscintilla-python(.*)(\[.*(qt5|qt4).*\]) \1dev-python/qscintilla-python-\4\2\3
