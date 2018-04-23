@@ -498,7 +498,7 @@ media-libs/cogl gles2
 media-libs/coin doc
 media-libs/devil mng
 media-libs/elementary -sdl
-media-libs/freetype -X -auto-hinter adobe-cff
+media-libs/freetype -X -auto-hinter adobe-cff harfbuzz
 media-libs/gd fontconfig
 media-libs/gegl raw jpeg2k umfpack
 media-libs/gexiv2 introspection
