@@ -342,8 +342,20 @@ dev-util/nvidia-cuda-sdk opencl
 dev-util/nvidia-cuda-toolkit debugger eclipse profiler
 
 dev-vcs/bzr bash-completion curl sftp
-dev-vcs/git curl webdav -subversion -gtk
 dev-vcs/subversion -java -apache2 -dso -kde
+
+# git, split-flags
+dev-vcs/git sab-split -subversion
+dev-vcs/git-cvs sab-split cvs -subversion
+dev-vcs/git-gui-tools sab-split tk -subversion
+dev-vcs/git-subversion sab-split subversion
+www-apps/gitweb sab-split cgi -subversion
+# git, misc. (keep them in sync)
+dev-vcs/git curl webdav
+dev-vcs/git-cvs curl webdav
+dev-vcs/git-gui-tools curl webdav
+dev-vcs/git-subversion curl webdav
+www-apps/gitweb curl webdav
 
 games-simulation/flightgear -qt5
 games-emulation/generator sdlaudio
