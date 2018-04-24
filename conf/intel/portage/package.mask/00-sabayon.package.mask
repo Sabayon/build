@@ -260,7 +260,7 @@ virtual/linux-sources::gentoo
 
 # 2018-04-24 Sławomir Nizio: net-misc/gerbera-1.1.0-r1 has
 # <=net-libs/libupnp-1.8.2:1.8, related Gentoo bug 654014
->=net-libs/libupnp-1.8.2:1.8
+>net-libs/libupnp-1.8.2:1.8
 
 # Temp mask
 dev-lang/python:3.6
