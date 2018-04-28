@@ -165,8 +165,3 @@ dev-libs/json-c -~amd64
 # stable should be OK
 # also, a stable version is likely an ESR so there is a choice (bug 5515)
 www-client/firefox-bin -~amd64
-
-# It is masked in Gentoo because requires masked icu, but we have it with
-# USE=-icu. Also, we already have a version that became masked (instead of
-# downgrading I prefer to unmask a newer one as it's harmless).
-=net-libs/nodejs-9.11.1 **

@@ -13,8 +13,7 @@ media-tv/kodi
 # We need this for our kernels
 sys-apps/v86d
 
-# from Gentoo:
-#    This release and later require C++11 or C++14
-#    So we mask it here, and unmask in 17.0 release profiles
-# unmasked here until the profile is updated
-=net-libs/nodejs-9.4.0
+# It is masked in Gentoo because requires masked icu, but we have it with
+# USE=-icu. Also, we already have a version that became masked (instead of
+# downgrading I prefer to unmask a newer one as it's harmless).
+=net-libs/nodejs-9.11.1
