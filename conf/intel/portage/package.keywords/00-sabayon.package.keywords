@@ -20,8 +20,6 @@ dev-lang/tcl -~amd64 -~x86
 dev-lang/tk -~amd64 -~x86
 dev-lang/ghc -~amd64 -~x86
 dev-lang/ruby -~amd64 -~x86
-# also unstable 2.3 for broader support of packages
-dev-lang/ruby:2.3 **
 # media-video/libav -~amd64 -~x86
 virtual/ffmpeg -~amd64 -~x86
 # Force stable boost
