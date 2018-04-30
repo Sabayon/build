@@ -325,10 +325,9 @@ dev-scheme/guile regex discouraged networking
 dev-scheme/racket backtrace doc futures jit places threads
 
 dev-db/sqliteodbc sqlite3
-dev-db/mysql -berkdb client-libs embedded pic extraengine
+dev-db/mysql -berkdb client-libs pic extraengine
 dev-db/mysql-cluster embedded
-dev-db/mariadb -berkdb client-libs embedded extraengine odbc
-virtual/mysql embedded
+dev-db/mariadb -berkdb client-libs extraengine odbc
 
 dev-tcltk/tclxml expat
 
