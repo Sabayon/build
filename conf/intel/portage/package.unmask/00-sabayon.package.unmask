@@ -17,6 +17,3 @@ sys-apps/v86d
 # USE=-icu. Also, we already have a version that became masked (instead of
 # downgrading I prefer to unmask a newer one as it's harmless).
 =net-libs/nodejs-9.11.1
-
-# Unmask x11-base/xorg-server-1.19.99.905
-=x11-base/xorg-server-1.19.99.905
