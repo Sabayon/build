@@ -20,6 +20,8 @@ app-emulation/virtualbox-bin		PUEL
 media-libs/fdk-aac			FraunhoferFDK
 media-sound/baudline			baudline
 media-sound/neroaac			Nero-AAC-EULA
+media-sound/teamspeak-client-bin	teamspeak3
+media-sound/teamspeak-server-bin	teamspeak3
 media-video/makemkv			MakeMKV-EULA
 games-action/heretic2-demo		LOKI-EULA
 net-misc/chrome-remote-desktop		google-chrome
