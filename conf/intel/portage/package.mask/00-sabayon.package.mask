@@ -172,9 +172,6 @@ net-dns/avahi::gentoo
 # 2017-05-03 Sławomir Nizio: app-emulation/docker-compose requires the older version
 >=dev-python/requests-2.12
 
-# 2017-05-06 Sławomir Nizio: sys-fs/encfs (as of 1.9.1) requires dev-libs/tinyxml2:0/3
->=dev-libs/tinyxml2-4
-
 # 2017-06-11+ Sławomir Nizio: dev-ruby/rake-remote_task 2.4.3 depends on <dev-ruby/rake-13
 >=dev-ruby/rake-13
 
