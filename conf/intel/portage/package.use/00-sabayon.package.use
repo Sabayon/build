@@ -865,7 +865,7 @@ sys-block/open-iscsi -modules
 
 # grub2 must be slotted for a while
 >sys-boot/grub-1 multislot
-sys-boot/grub device-mapper libzfs
+sys-boot/grub device-mapper libzfs mount
 
 sys-cluster/ceph cephfs
 sys-cluster/openmpi romio
