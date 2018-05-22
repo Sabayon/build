@@ -232,9 +232,6 @@ dev-lang/python:3.4
 >=dev-haskell/snap-core-1.0.1.0
 >=dev-haskell/snap-server-1.0.1.1
 
-# 2017-11-8 Joost Ruis: Currently broken, fails to detect Windows
->=sys-boot/os-prober-1.76
-
 # 2017-11-12 Sławomir Nizio: dev-util/lldb (as of 5.0.0) requires this
 >=dev-lang/swig-3.0.9
 
