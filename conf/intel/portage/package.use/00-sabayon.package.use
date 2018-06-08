@@ -31,7 +31,7 @@ app-backup/backintime gnome -kde
 # Only one DB supported.
 app-backup/bacula mysql vim-syntax -sqlite
 app-backup/deja-dup nautilus
-app-backup/fsarchiver lzma
+app-backup/fsarchiver lzma zstd
 
 app-cdr/brasero nautilus
 app-cdr/cdrdao -gnome
