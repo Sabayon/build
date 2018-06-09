@@ -382,6 +382,7 @@ gnome-base/gconf policykit
 gnome-base/gnome-control-center networkmanager input_devices_wacom
 gnome-base/gnome-settings-daemon networkmanager input_devices_wacom
 gnome-base/gvfs afp ios samba gnome gdu google gnome-online-accounts fuse archive gnome-keyring mtp nfs udisks
+gnome-base/libglade python_single_target_python2_7
 net-misc/gnome-online-miners flickr
 media-plugins/grilo-plugins flickr
 
