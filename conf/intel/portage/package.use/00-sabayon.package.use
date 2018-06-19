@@ -755,8 +755,8 @@ net-misc/networkmanager-openconnect gtk
 net-misc/networkmanager-pptp gtk
 net-misc/networkmanager-vpnc gnome
 net-misc/ntp -zeroconf
-net-misc/openssh -X
-net-misc/openssh -ldap
+net-misc/openssh -X -ldap
+net-misc/openssh libedit
 net-misc/owncloud-client -qt4
 # No more spidermonkey
 net-misc/plowshare -javascript
