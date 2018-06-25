@@ -232,9 +232,6 @@ dev-lang/python:3.4
 >=dev-haskell/snap-core-1.0.1.0
 >=dev-haskell/snap-server-1.0.1.1
 
-# 2017-11-12 Sławomir Nizio: dev-util/lldb (as of 5.0.0) requires this
->=dev-lang/swig-3.0.9
-
 # 2017-11-22 Sławomir Nizio: dev-haskell/yesod-routes (as of 1.2.0.7-r2)
 # depends an older version (Gentoo bug 610350)
 >=dev-lang/ghc-8
