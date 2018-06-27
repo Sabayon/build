@@ -145,6 +145,8 @@ media-libs/libopenraw -~amd64
 
 # Force stable sys-apps/util-linux
 sys-apps/util-linux -~amd64
+# but unmask a stable version that is in the overlay
+=sys-apps/util-linux-2.30.2-r1 **
 
 # Force stable net-libs/libnsl
 net-libs/libnsl -~amd64
