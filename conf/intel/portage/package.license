@@ -1,6 +1,5 @@
 app-arch/rar				RAR
 app-text/cpdf				Coherent-Graphics
-dev-util/intel-ocl-sdk			Intel-SDP
 dev-util/nvidia-cuda-toolkit		NVIDIA-CUDA
 games-action/spacetripper-demo		POMPOM
 games-arcade/primateplunge		Primate-Plunge
