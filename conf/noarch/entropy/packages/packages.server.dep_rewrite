@@ -58,6 +58,9 @@ xfce-extra/tumbler (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 media-gfx/pqiv (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-glib\2
 app-editors/tea (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
 
+rewrite media-gfx/engauge from-dep=app-text/poppler to-dep=app-text/poppler-qt5 if-dep-has-use=qt5 drop-use=qt5
+
+
 # lightdm split rewrite
 razorqt-base/razorqt-lightdm-greeter (.*)x11-misc/lightdm(.*)\[qt4\] \1x11-misc/lightdm-qt4\2
 x11-misc/lightdm-gtk-greeter (.*)x11-misc/lightdm(.*) \1x11-misc/lightdm-base\2
