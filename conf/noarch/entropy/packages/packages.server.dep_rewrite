@@ -99,7 +99,6 @@ dev-java/icedtea (.*)sys-devel/gcc(.*)
 * (.*)net-dns/avahi(?!-base|-gtk|-gtk3|-mono|-qt)(.*)\[(?!.*(gtk|qt4|mono).*).*\] \1net-dns/avahi-gtk3\2
 * (.*)net-dns/avahi(?!-base|-gtk|-gtk3|-mono|-qt)(.*)(\[.*gtk3(,.*)?\]) \1net-dns/avahi-gtk3\2
 * (.*)net-dns/avahi(?!-base|-gtk|-gtk3|-mono|-qt)(.*)(\[.*gtk(,.*)?\]) \1net-dns/avahi-gtk\2
-* (.*)net-dns/avahi(?!-base|-gtk|-gtk3|-mono|-qt)(.*)(\[.*qt4(,.*)?\]) \1net-dns/avahi-qt\2
 * (.*)net-dns/avahi(?!-base|-gtk|-gtk3|-mono|-qt)(.*)(\[.*mono(,.*)?\]) \1net-dns/avahi-mono\2
 # net-dns/avahi, without [...]
 * (.*)net-dns/avahi(?!-base|-gtk|-gtk3|-mono|-qt)([^\[\]]*$) \1net-dns/avahi-base\2
