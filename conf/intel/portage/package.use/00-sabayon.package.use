@@ -294,9 +294,7 @@ dev-python/matplotlib qt5 -qt4 -wxwindows
 dev-python/numpy lapack
 # We want sqlite3 support in pypy
 dev-python/pypy sqlite
-dev-python/PyQt4 compat
 dev-python/pyside declarative designer multimedia script sql webkit xmlpatterns
-dev-python/pyudev pyqt4
 dev-python/QtPy webkit
 
 # don't require media-libs/alsa-lib[alisp]
@@ -1043,7 +1041,6 @@ xfce-base/xfwm4 xcomposite
 
 xfce-extra/tumbler gstreamer raw
 
-dev-python/PyQt4 webkit sql assistant declarative examples script help
 dev-python/PyQt5 declarative help webkit sql xmlpatterns
 
 # See Sabayon bug #890
