@@ -302,7 +302,6 @@ dev-python/pyglet -alsa
 dev-python/sphinx latex
 
 dev-qt/qt-creator autotools cmake git subversion valgrind examples
-dev-qt/qtcore:4 private-headers
 dev-qt/qtcore:5 icu
 dev-qt/qtdeclarative webkit private-headers
 dev-qt/qthelp compat
