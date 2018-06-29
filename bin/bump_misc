@@ -79,7 +79,6 @@ lightdm|lig)
 	$cmd \
 		x11-misc/lightdm::"$overlay" \
 		x11-misc/lightdm-base \
-		x11-misc/lightdm-qt4 \
 		x11-misc/lightdm-qt5
 	;;
 	# new elements go to $list, too
