@@ -49,8 +49,8 @@ app-crypt/mit-krb5 krb4 openldap
 # enable GTK2 by default, people complaining
 # about dependencies, should really use pinentry-base
 # instead
-app-crypt/pinentry gtk qt4 -qt5 gnome-keyring
-app-crypt/qca gpg -qt4
+app-crypt/pinentry gtk -qt5 gnome-keyring
+app-crypt/qca gpg
 
 app-doc/doxygen latex dot
 
@@ -106,7 +106,7 @@ app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
 
 app-misc/mc -slang
 # app-misc/recoll cannot use both inotify and fam, only one of them.
-app-misc/recoll -fam inotify -qt4 qt5
+app-misc/recoll -fam inotify qt5
 app-misc/sphinx mysql
 app-misc/tuxcmd-modules gnome unrar
 
@@ -122,10 +122,7 @@ app-office/homebank ofx
 app-office/kmymoney hbci ofx
 app-office/libreoffice -nsplugin gnome java templates -kde pdfimport binfilter -gtk3 gstreamer
 app-office/libreoffice-l10n-meta linguas_am linguas_as linguas_as_IN linguas_ast linguas_be linguas_be_BY linguas_bo linguas_brx linguas_ca_XV linguas_dgo linguas_dz linguas_en_ZA linguas_fo linguas_gd linguas_gu linguas_gug linguas_hi_IN linguas_ia linguas_id linguas_ka linguas_kn linguas_kok linguas_ks linguas_ku linguas_ky linguas_lb linguas_lo linguas_mai linguas_mi linguas_ml linguas_ml_IN linguas_mni linguas_mr linguas_mr_IN linguas_my linguas_ne linguas_nr linguas_ns linguas_nso linguas_oc linguas_om linguas_or linguas_or_IN linguas_pa_IN linguas_pap linguas_ps linguas_sa_IN linguas_sat linguas_sd linguas_sh linguas_si linguas_sid linguas_sq linguas_st linguas_sw linguas_sw_TZ linguas_te linguas_te_IN linguas_th linguas_ti linguas_ti_ER linguas_tn linguas_ts linguas_tt linguas_ug linguas_ur_IN linguas_ve linguas_xh linguas_zu
-app-office/lyx -qt4
 app-office/magicpoint mng
-app-office/texmaker -qt4
-app-office/texstudio -qt4
 
 app-pda/gtkpod gstreamer
 # Added boost and gui flags to barry
@@ -152,12 +149,9 @@ app-text/stardict tools
 app-text/texlive extra -truetype
 app-text/texlive-core xetex
 
-# qt4 is a bit overkill for highlight
-# our servers don't want qt4 either.
-app-text/highlight -qt4
-app-text/qpdfview sqlite -qt4
-# qt4 or qt5 is overkill for cmake as well
-dev-util/cmake -qt4 -qt5 server
+app-text/qpdfview sqlite
+# qt5 is overkill for cmake as well
+dev-util/cmake -qt5 server
 
 # Since those are not linker deps, we
 # can drop then and let users decide
@@ -177,7 +171,6 @@ dev-db/postgresql server threads
 # secure-delete required by xulrunner
 # unlock-notify required by dev-db/libzdb
 dev-db/sqlite soundex extensions unlock-notify
-dev-db/sqlitebrowser -qt4
 # We don't have Oracle
 dev-db/tora -oracle
 
@@ -197,7 +190,7 @@ dev-java/antlr cxx script
 dev-java/bsh bsf
 dev-java/emma -launcher
 dev-java/glazedlists java5
-dev-java/gnu-classpath gstreamer -qt4
+dev-java/gnu-classpath gstreamer
 # micia: disable source inclusion in icedtea, save some space
 dev-java/icedtea -source
 # Needed for Netbeans ide
@@ -242,7 +235,6 @@ dev-libs/gdl gnome
 dev-libs/gmime smime -mono
 dev-libs/libassuan static-libs
 dev-libs/libdbusmenu gtk3
-dev-libs/libdbusmenu-qt -qt4
 dev-libs/libf2c static-libs
 dev-libs/libgcrypt static-libs
 dev-libs/libgdata gnome gnome-online-accounts
@@ -258,15 +250,11 @@ dev-libs/nss utils
 # required by net-misc/curl[static-libs], enabled here
 dev-libs/openssl:0 static-libs
 dev-libs/popt static-libs
-dev-libs/qcustomplot -qt4
-dev-libs/qtkeychain -qt4
 dev-libs/tinyxml stl
 dev-libs/tntnet sdk
 dev-libs/xerces-c xqilla icu
 dev-libs/xmlrpc-c curl
 dev-libs/xmlsec gcrypt nss
-# Required by texstudio
-dev-libs/quazip -qt4
 
 # See Sabayon bug #1020
 dev-libs/openct pcsc-lite
@@ -285,8 +273,8 @@ dev-python/cgkit 3ds
 # Make possible to have dev-python/epydoc without python compiled with tk
 dev-python/epydoc -X
 dev-python/QtPy gui
-dev-python/ipython qt5 -qt4 -wxwidgets
-dev-python/matplotlib qt5 -qt4 -wxwindows
+dev-python/ipython qt5 -wxwidgets
+dev-python/matplotlib qt5 -wxwindows
 # Required by dev-python/graph-tool
 dev-python/numpy lapack
 # We want sqlite3 support in pypy
@@ -411,16 +399,12 @@ kde-apps/poxml extras
 kde-frameworks/baloo minimal
 kde-frameworks/kdelibs jpeg2k opengl -pertty plasma acl semantic-desktop
 
-kde-plasma/breeze -qt4
 kde-plasma/kdeplasma-addons desktopglobe json oauth semantic-desktop
 kde-plasma/kwin captury xcomposite
 kde-plasma/kscreenlocker -seccomp
-kde-plasma/plasma-desktop input_devices_synaptics touchpad -qt4
+kde-plasma/plasma-desktop input_devices_synaptics touchpad
 kde-plasma/plasma-meta networkmanager
 kde-plasma/plasma-nm modemmanager openconnect
-kde-plasma/oxygen -qt4
-
-kde-misc/kdiff3 -qt4
 
 lxqt-base/lxqt-meta admin icons
 
@@ -434,8 +418,6 @@ mail-client/thunderbird lightning
 # ffmpeg is default; disabling it (as of 52.2.0) means losing HTML5 video
 # rendering
 mail-client/thunderbird-bin -ffmpeg
-
-mail-client/trojita -qt4
 
 mail-filter/dovecot-antispam dspam
 mail-filter/maildrop authlib
@@ -476,13 +458,12 @@ media-gfx/imagemagick fftw gs perl
 media-gfx/k3d 3ds
 media-gfx/kphotoalbum kipi
 # micia, add documentation for librecad, so that help menu works properly
-media-gfx/librecad doc -qt4
+media-gfx/librecad doc
 # SSE2 required, otherwise it does not merge
 media-gfx/luminance-hdr sse2
 # disable tiff because it pulls in media-libs/opencv, change if deemed so (bug
 # 5463, comment 1)
 media-gfx/nomacs -tiff
-media-gfx/openmesh -qt4
 # required for some functionality of Inkscape - bug 2941
 media-gfx/pstoedit plotutils
 # Newer kernels do not provide vid4l
@@ -492,7 +473,7 @@ media-gfx/splashutils mng fbcondecor
 media-gfx/xsane tiff
 media-gfx/zbar imagemagick v4l
 
-media-libs/avidemux-plugins qt5 -qt4
+media-libs/avidemux-plugins qt5
 media-libs/blib aalib
 # required by media-sound/picard
 media-libs/chromaprint tools
@@ -517,7 +498,6 @@ media-libs/libcaca imlib
 media-libs/libgphoto2 exif
 media-libs/libggi aalib
 media-libs/libgpod ios
-media-libs/liblastfm -qt4
 media-libs/libmypaint gegl
 # Required by media-gfx/darktable
 media-libs/libraw demosaic
@@ -533,20 +513,18 @@ media-libs/mediastreamer video -ffmpeg
 # www-client/chromium wants media-libs/mesa[gles2]
 media-libs/mesa gbm g3dvl nptl openvg pic shared-dricore shared-glapi video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_r100 video_cards_r200 video_cards_r300 video_cards_r600 video_cards_radeon video_cards_via video_cards_vmware video_cards_radeonsi vulkan xa xorg gles2
 media-libs/ming php
-media-libs/mlt melt frei0r kdenlive quicktime python -qt4
+media-libs/mlt melt frei0r kdenlive quicktime python
 # Disable GUI libs.
 media-libs/openal -qt5
 media-libs/openexr -video_cards_nvidia
 # on amd64, if ABI_X86=32 is set, exif must be unset
-media-libs/oyranos -exif -qt4
+media-libs/oyranos -exif
 
 # ...but disable ABI_X86_32 to make elektra compile (Gentoo bug 519492)
 app-admin/elektra -abi_x86_32
 media-libs/oyranos -abi_x86_32
 
-media-libs/opencv contrib -qt4
-media-libs/phonon -qt4
-media-libs/phonon-gstreamer -qt4
+media-libs/opencv contrib
 media-libs/sdl-mixer midi timidity mod mikmod
 # required by games-engines/gargoyle:0
 # USE=mikmod required by gltron
@@ -566,9 +544,6 @@ media-plugins/vdr-weatherng dxr3
 # Enable egl flag as requested from wayland flag
 media-libs/gst-plugins-bad egl -wayland
 
-# disable qt4 for libde265
-media-libs/libde265 -qt4
-
 media-sound/alsa-tools -gtk
 media-sound/aqualung libsamplerate
 media-sound/ardour freesound lv2
@@ -579,21 +554,18 @@ media-sound/cantata replaygain taglib cdparanoia devices
 media-sound/clementine -lastfm ios moodbar mtp
 media-sound/cmus mikmod
 media-sound/deadbeef alac ape cover curl lastfm m3u hotkeys sndfile supereq wavpack wma
-media-sound/flacon -qt4
 media-sound/gmusicbrowser gstreamer
 media-sound/gpodder gstreamer
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
 media-sound/lilypond guile2
 media-sound/lmms fftw fluidsynth vst
-media-sound/mixxx shout -ffmpeg -qt4 hid
+media-sound/mixxx shout -ffmpeg hid
 media-sound/moc curl sndfile
 media-sound/mp3splt-gtk gstreamer
 media-sound/ncmpcpp curl
-media-sound/qsampler -qt4
 media-sound/qmmp analyzer crossfade curl
 media-sound/qtractor sse
 # Enable system-wide pulseaudio, also see bug #4009
-# Disable qt4
 # 2013-07-11: gtk3 is only used to set a proper window icon...
 # 2016-07-13: enable headset profiles, see bug #5232
 # 2016-12-01: kde-plasma/plasma-pa requires gnome use enabled
@@ -614,22 +586,19 @@ media-tv/kodi airplay bluray cec css goom mysql pvr rtmp upnp webserver xrandr s
 # disable hls because (as of 0.27.6_p20160318) it requires <media-libs/libvpx-1.5.0
 media-tv/mythtv -hls fftw
 
-media-video/avidemux qt5 -qt4
+media-video/avidemux qt5
 media-video/blinkensim aalib
 media-video/dvgrab quicktime
 virtual/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx jpeg2k
 media-video/ffmpeg threads ogg vhook faac faad fdk jpeg2k video_cards_nvidia amr cpudetection vpx
 media-video/jubler mplayer
 media-video/kino gstreamer quicktime
-media-video/makemkv -qt4
 media-video/mpv libmpv samba tools
 media-video/mkvtoolnix -wxwidgets
 media-video/ogmrip ogm mp4 srt
-media-video/simplescreenrecorder -qt4
-media-video/smplayer -qt4
 media-video/totem xulrunner iplayer galago
 media-video/vdr SetGroupSep-Patch atsc cmdsubmenu dvbsetup dxr3 graphtft iptv menuorg pinplugin rotor submenu subtitles ttxtsubs ttxtsubs yaepg
-media-video/vlc aalib chromecast egl fontconfig httpd libass live lua microdns rtsp samba skins soxr taglib upnp vlm -svg -qt4
+media-video/vlc aalib chromecast egl fontconfig httpd libass live lua microdns rtsp samba skins soxr taglib upnp vlm -svg
 media-video/xine-ui aalib vdr
 
 # Drop xine-ui from dvdrip, since
@@ -647,7 +616,7 @@ net-analyzer/net-snmp ucd-compat -X
 net-analyzer/snmptt mysql
 net-analyzer/snort dynamicplugin
 net-analyzer/smokeping apache2
-net-analyzer/wireshark lua python -qt4
+net-analyzer/wireshark lua python
 net-analyzer/zabbix frontend agent server mysql ssh snmp proxy -sqlite3
 
 # zenmap part is provided by net-analyzer/zenmap
@@ -699,7 +668,6 @@ net-libs/aqbanking chipcard ofx
 net-libs/c-client chappa
 net-libs/glib-networking gnome
 net-libs/gnutls openpgp sslv2 sslv3 tools
-net-libs/jreen -qt4
 net-libs/libgadu ssl threads
 # Required by XBMC 12.x
 net-libs/libmicrohttpd messages
@@ -708,7 +676,6 @@ net-libs/libproxy -kde -gnome python
 net-libs/libsoup gnome
 # used to be dolphin-emu (now dolphin) flag
 net-libs/mbedtls havege
-net-libs/qxmpp -qt4
 net-libs/telepathy-qt farstream
 net-libs/zeromq unwind
 
@@ -748,7 +715,6 @@ net-misc/networkmanager-vpnc gnome
 net-misc/ntp -zeroconf
 net-misc/openssh -X -ldap
 net-misc/openssh libedit
-net-misc/owncloud-client -qt4
 # No more spidermonkey
 net-misc/plowshare -javascript
 net-misc/ps3mediaserver multiuser tsmuxer
@@ -761,7 +727,7 @@ net-misc/vinagre rdp -avahi
 net-misc/x2goclient -qt5
 net-misc/x2goserver sqlite
 
-net-news/rssguard -qt4 webengine
+net-news/rssguard webengine
 
 # slp disabled due to https://bugs.gentoo.org/show_bug.cgi?id=617278
 net-nds/openldap -minimal sasl -slp
@@ -774,20 +740,19 @@ net-p2p/amule geoip stats remote upnp daemon
 net-p2p/bitcoin-qt knots
 net-p2p/deluge webinterface
 net-p2p/eiskaltdcpp json
-net-p2p/qbittorrent -qt4
-net-p2p/retroshare -cli -qt4
+net-p2p/retroshare -cli
 net-p2p/vuze source
 
 net-print/cups -java
 net-print/cups-filters ipp_autosetup pclm
 net-print/gutenprint foomaticdb -gtk
-net-print/hplip -acl fax hpijs parport snmp static-ppds usb -qt4
+net-print/hplip -acl fax hpijs parport snmp static-ppds usb
 
 net-proxy/privoxy threads
 net-proxy/tsocks tordns
 
 net-wireless/bluez gstreamer obex user-session
-net-wireless/wpa_supplicant -qt4 -qt5 wimax ap p2p eap-sim wps
+net-wireless/wpa_supplicant -qt5 wimax ap p2p eap-sim wps
 
 sci-astronomy/celestia -kde
 
@@ -850,7 +815,6 @@ sys-apps/util-linux tty-helpers
 
 sys-auth/consolekit -acl
 sys-auth/pambase -consolekit -kerberos
-sys-auth/polkit-qt -qt4
 
 sys-block/gparted -kde -gtk dmraid mdadm btrfs
 sys-block/parted device-mapper
@@ -874,15 +838,12 @@ sys-devel/distcc -avahi -gtk
 sys-devel/gcc objc objc++ objc-gc graphite go -gtk
 sys-devel/base-gcc objc objc++ objc-gc graphite -gtk
 
-sys-devel/qconf qt5 -qt4
-
 # No fuck git by default!
 sys-devel/gettext -git
 # gdb tuning, we want XML
 sys-devel/gdb expat python
 # clang wants USE=clang for llvm
 sys-devel/llvm clang
-sys-devel/qconf -qt4
 
 sys-fs/mtd-utils xattr
 sys-fs/ntfs3g suid ntfsprogs
@@ -934,7 +895,6 @@ www-apps/trac mysql postgres vhosts sqlite
 www-client/chromium jumbo-build widevine
 www-client/firefox filepicker -gnome gstreamer mozbranding system-jpeg xforms
 www-client/midori sqlite
-www-client/qupzilla -qt4
 www-client/surf savedconfig
 www-client/uget gstreamer aria2
 
@@ -972,13 +932,11 @@ x11-drivers/nvidia-userspace -x-multilib tools
 # required by gnome-extra/cinnamon-screensaver >= 3.2.13-r2
 x11-libs/xapps introspection
 
-x11-libs/cairo glitz -qt4
+x11-libs/cairo glitz
 x11-libs/goffice gnome
 x11-libs/libdrm video_cards_amdgpu video_cards_intel video_cards_nouveau video_cards_radeon video_cards_vmware libkms
 # libva coolness
 x11-libs/libva video_cards_dummy video_cards_intel
-
-x11-libs/qtermwidget -qt4
 
 # required by x11-libs/qwtpolar
 x11-libs/qwt designer
@@ -1012,13 +970,12 @@ x11-misc/xscreensaver -new-login
 
 x11-plugins/pidgin-sipe voice
 x11-plugins/cairo-dock-plugins alsa exif gmenu -kde terminal tomboy -webkit -xfce -xklavier
-x11-terms/qterminal -qt4
 x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisVert Ubuntu Verde Wood
 # Our artwork, blame Ian
 >=x11-themes/elementary-icon-theme-2.7.1 monochrome branding
 x11-themes/gnome-colors-common branding
 x11-themes/gtk-engines-murrine -themes
-x11-themes/qtcurve plasma -qt4
+x11-themes/qtcurve plasma
 x11-themes/skinenigmang-logos dxr3
 x11-themes/tango-icon-theme branding
 x11-themes/zuki-themes gnome-shell
@@ -1203,7 +1160,7 @@ dev-libs/libgit2 ssh threads
 dev-libs/libnl utils
 
 # Prefer gtk for media-libs/libmediaart
-media-libs/libmediaart gtk -qt4 -qt5
+media-libs/libmediaart gtk -qt5
 
 # prefer openssl instead of gnutls
 # because lib32 true multilib support in cups is broken
