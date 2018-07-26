@@ -661,7 +661,8 @@ net-im/mcabber otr
 
 net-irc/inspircd mysql sqlite
 net-irc/kvirc -audiofile dcc_video
-net-irc/quassel monolithic -server
+net-irc/quassel monolithic urlpreview -server
+net-irc/quassel-client urlpreview
 net-irc/weechat tcl
 net-irc/znc -python
 
