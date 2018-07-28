@@ -195,11 +195,6 @@ net-dns/avahi::gentoo
 # 2017-07-16 Sławomir Nizio: app-emulation/ganeti (as of 2.15.2-r6) depends on <1.3.5
 >=dev-python/sphinx-1.3.5
 
-# 2017-07-16 Sławomir Nizio: app-crypt/certbot is at 0.15.0 and depends on the
-# same version of app-crypt/acme (whose newer version is available)
-# 2017-10-12 Sławomir Nizio: first dependency bump to avoid such a situation
->app-crypt/acme-0.21.1
-
 # 2018-01-27 Joost Ruis: mask sys-apps/baselayout from portage
 sys-apps/baselayout::gentoo
 
