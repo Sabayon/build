@@ -216,6 +216,7 @@ dev-lang/python sqlite berkdb
 dev-lang/rakudo moar
 
 dev-libs/apr-util openssl
+dev-libs/appstream -qt5
 dev-libs/beecrypt threads
 # Needed by some lisp packages
 dev-libs/boehm-gc threads
