@@ -99,10 +99,6 @@ sys-auth/consolekit
 # mask is now: <dev-python/prettytable-0.8).
 >=dev-python/prettytable-0.8
 
-# 2013-08-12 Fabio Erculiani: dev-perl/math-pari wants exactly
-# sci-mathematics/pari-2.3.5
->sci-mathematics/pari-2.3.5
-
 # 2014-03-26 Fabui Erculiani: we now use systemd from sabayon-distro
 sys-apps/systemd::gentoo
 
