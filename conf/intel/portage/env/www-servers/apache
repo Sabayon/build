@@ -5,9 +5,9 @@ if [ "${EBUILD_PHASE}" = "install" ]; then
 	elog "~~~   READ THIS CAREFULLY   ~~~"
 	elog "if you are bumping www-servers/apache"
 	elog "please also bump the Entropy tagged version"
-	elog "containing the worker MPM, this way:"
-	elog "USE=\"threads apache2_modules_http2\" APACHE2_MPMS=\"worker\" emerge -B apache && \\"
-	elog "ENTROPY_PROJECT_TAG=\"worker\" eit inject /usr/portage/packages/www-servers/apache*"
+	elog "containing the worker MPM"
+	elog
+	elog "you can use build-inject-apache.sh"
 	elog
 	elog "~~~   READ THIS CAREFULLY   ~~~"
 	elog
