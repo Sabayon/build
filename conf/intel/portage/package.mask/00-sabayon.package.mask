@@ -209,9 +209,6 @@ sys-apps/baselayout::gentoo
 # 2017-09-15 Joost Ruis: Prevent Python 3.4 downgrade
 dev-lang/python:3.4
 
-# 2017-09-16 Joost Ruis: Blocks with openrc
->sys-cluster/ceph-10.2.7-r1
-
 # 2017-09-23 Sławomir Nizio: dev-ruby/gherkin 2.12.2 requires =dev-util/ragel-6*
 >dev-util/ragel-7
 
