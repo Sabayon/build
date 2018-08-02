@@ -237,10 +237,6 @@ virtual/linux-sources::gentoo
 # <=net-libs/libupnp-1.8.2:1.8, related Gentoo bug 654014
 >net-libs/libupnp-1.8.2:1.8
 
-# 2018-05-27 Sławomir Nizio: app-text/texlive-core-2017-r3 requires an older
-# version (DEPEND)
->=media-libs/freetype-2.9
-
 # 2018-06-20 Sławomir Nizio: www-client/conkeror (as of 1.0.4) wants <57
 >=www-client/firefox-bin-57
 
