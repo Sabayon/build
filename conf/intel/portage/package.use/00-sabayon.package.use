@@ -345,6 +345,7 @@ games-emulation/mednafen debugger
 games-emulation/pcsxr -alsa -openal -sdl
 games-emulation/vbam -ffmpeg
 games-emulation/dolphin ao egl llvm portaudio upnp
+games-emulation/yabause -qt5
 
 games-engines/stratagus mng
 
