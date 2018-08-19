@@ -125,12 +125,6 @@ net-p2p/bittornado::gentoo
 # 2015-02-19 Joost Ruis: Newer version is brokken with collectd
 >sys-libs/libstatgrab-0.17
 
-# 2015-06-15 Joost Ruis: Do not bump libsepol, required by anaconda
->sys-libs/libsepol-2.6
->sys-libs/libselinux-2.6
->sys-apps/selinux-python-2.6
->sys-apps/policycoreutils-2.6
-
 # 2015-09-30 Joost Ruis: Only use overlay version
 sys-fs/zfs-kmod::gentoo
 
@@ -229,9 +223,6 @@ virtual/linux-sources::gentoo
 # 2018-02-22 Sławomir Nizio: media-gfx/printrun needs media-gfx/cairosvg with
 # Python 2.7 support but only the older cairosvg fulfills that
 >=media-gfx/cairosvg-2
-
-# 2018-03-02 Sławomir Nizio: required by sys-admin/anaconda::sabayon-distro
->=sys-process/audit-2.7
 
 # 2018-04-24 Sławomir Nizio: net-misc/gerbera-1.1.0-r1 has
 # <=net-libs/libupnp-1.8.2:1.8, related Gentoo bug 654014
