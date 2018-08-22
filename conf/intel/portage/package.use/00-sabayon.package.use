@@ -282,6 +282,7 @@ dev-python/matplotlib qt5 -wxwindows
 dev-python/numpy lapack
 # We want sqlite3 support in pypy
 dev-python/pypy sqlite
+dev-python/pyudev -qt5
 dev-python/QtPy webkit
 
 # don't require media-libs/alsa-lib[alisp]
