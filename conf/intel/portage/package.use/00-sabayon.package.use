@@ -1090,10 +1090,6 @@ media-libs/freetype infinality
 
 dev-libs/lzo static-libs
 
-# Enable USE=tk for the Python Imaging stack (and Python)
-dev-python/pillow tk
-dev-lang/python tk
-
 virtual/ffmpeg -gnutls openssl -test
 
 ## GNOME 3.10 flags
