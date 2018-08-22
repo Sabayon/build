@@ -613,6 +613,7 @@ media-video/xine-ui aalib vdr
 media-video/dvdrip -xine subtitles fping
 
 net-analyzer/fping suid
+net-analyzer/namebench -X
 net-analyzer/nessus-core -gtk
 # Bluetooth dependency is unwanted on servers
 # It pulls in a lot of crap
