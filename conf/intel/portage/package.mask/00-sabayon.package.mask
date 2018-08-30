@@ -224,10 +224,6 @@ virtual/linux-sources::gentoo
 # Python 2.7 support but only the older cairosvg fulfills that
 >=media-gfx/cairosvg-2
 
-# 2018-04-24 Sławomir Nizio: net-misc/gerbera-1.1.0-r1 has
-# <=net-libs/libupnp-1.8.2:1.8, related Gentoo bug 654014
->net-libs/libupnp-1.8.2:1.8
-
 # 2018-06-20 Sławomir Nizio: www-client/conkeror (as of 1.0.4) wants <57
 >=www-client/firefox-bin-57
 
