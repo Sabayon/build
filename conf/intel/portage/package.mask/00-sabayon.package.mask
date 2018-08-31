@@ -227,5 +227,8 @@ virtual/linux-sources::gentoo
 # 2018-06-20 Sławomir Nizio: www-client/conkeror (as of 1.0.4) wants <57
 >=www-client/firefox-bin-57
 
+# 2018-08-31 Sławomir Nizio: mask until Gentoo bug 654866 is fixed
+app-admin/testdisk::gentoo
+
 # Temp mask
 dev-lang/python:3.6
