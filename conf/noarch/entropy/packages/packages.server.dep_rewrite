@@ -129,6 +129,9 @@ sys-boot/plymouth (.*)sys-kernel/dracut(.*)
 games-util/steam-launcher (.*)sys-devel/gcc-(.*) \1sys-devel/base-gcc-\2
 games-util/steam-client-meta (.*)sys-devel/gcc-(.*) \1sys-devel/base-gcc-\2
 
+# app-arch/pxz needs sys-devel/base-gcc due to libgomp.so.1
+rewrite app-arch/pxz from-dep=sys-devel/gcc to-dep=sys-devel/base-gcc
+
 # Add conflict to systemd-sysv-utils for eselect-init
 sys-apps/systemd-sysv-utils ++!app-admin/eselect-init<2>
 
