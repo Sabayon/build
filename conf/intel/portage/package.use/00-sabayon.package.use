@@ -856,6 +856,8 @@ sys-devel/gdb expat python
 # clang wants USE=clang for llvm
 sys-devel/llvm clang
 
+sys-firmware/intel-microcode initramfs
+
 sys-fs/mtd-utils xattr
 sys-fs/ntfs3g suid ntfsprogs
 # USE=static static-libs must go together in order to have it compiling
