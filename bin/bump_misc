@@ -9,7 +9,7 @@ else
 	echo "Warning: buildrc not found" >&2
 fi
 
-list="git [sub]version [tra]nsmission [qua]ssel [pop]pler"
+list="git [sub]version [tra]nsmission [qua]ssel [pop]pler [lig]htdm [pin]entry"
 cmd="emerge -av"
 default_overlay="sabayon-distro"
 overlay=
@@ -37,59 +37,40 @@ if [ -z "$what" ]; then
 	read what
 fi
 
+get_list() {
+	local base=$1
+	shift
+	local item result
+	for item in "$@"; do
+		result="$result$base$item::$overlay "
+	done
+	result="$result $base::$overlay"
+	echo "$result"
+}
+
 case $what in
 git)
-	$cmd \
-		dev-vcs/git::"$overlay" \
-		dev-vcs/git-cvs \
-		dev-vcs/git-gui-tools \
-		dev-vcs/git-subversion \
-		www-apps/gitweb
+	$cmd $(get_list dev-vcs/git -cvs -gui-tools -subversion) www-apps-gitweb
 	;;
 subversion|sub)
-	$cmd \
-		dev-vcs/subversion::"$overlay" \
-		dev-vcs/subversion-java \
-		www-apache/mod_dav_svn
+	$cmd $(get_list dev-vcs/subversion -java) www-apache/mod_dav_svn
 	;;
 transmission|tra)
-	$cmd \
-		net-p2p/transmission-base \
-		net-p2p/transmission-cli \
-		net-p2p/transmission-daemon \
-		net-p2p/transmission-gtk \
-		net-p2p/transmission-qt5 \
-		net-p2p/transmission::"$overlay"
+	$cmd $(get_list net-p2p/transmission -base -cli -daemon -gtk -qt5)
 	;;
 quassel|qua)
-	$cmd \
-		net-irc/quassel::"$overlay" \
-		net-irc/quassel-client \
-		net-irc/quassel-common \
-		net-irc/quassel-core
+	$cmd $(get_list net-irc/quassel -client -common -core)
 	;;
 poppler|pop)
-	$cmd \
-		app-text/poppler::"$overlay" \
-		app-text/poppler-base \
-		app-text/poppler-glib \
-		app-text/poppler-qt5
+	$cmd $(get_list app-text/poppler -base -glib -qt5)
 	;;
 lightdm|lig)
-	$cmd \
-		x11-misc/lightdm::"$overlay" \
-		x11-misc/lightdm-base \
-		x11-misc/lightdm-qt5
+	$cmd $(get_list x11-misc/lightdm -base -qt5)
 	;;
 pinentry|pin)
-	$cmd \
-		app-crypt/pinentry::"$overlay" \
-		app-crypt/pinentry-base \
-		app-crypt/pinentry-gnome \
-		app-crypt/pinentry-gtk2 \
-		app-crypt/pinentry-qt5
+	$cmd $(get_list app-crypt/pinentry -base -gnome -gtk2 -qt5)
 	;;
-	# new elements go to $list, too
+	# add new elements to $list, too
 *)
 	echo "Excuse me, but I non capisco." >&2
 	echo "Use --repo <repository> to use different overlay (default: $default_overlay)." >&2
