@@ -81,6 +81,14 @@ lightdm|lig)
 		x11-misc/lightdm-base \
 		x11-misc/lightdm-qt5
 	;;
+pinentry|pin)
+	$cmd \
+		app-crypt/pinentry::"$overlay" \
+		app-crypt/pinentry-base \
+		app-crypt/pinentry-gnome \
+		app-crypt/pinentry-gtk2 \
+		app-crypt/pinentry-qt5
+	;;
 	# new elements go to $list, too
 *)
 	echo "Excuse me, but I non capisco." >&2
