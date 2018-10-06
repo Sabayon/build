@@ -4,8 +4,6 @@ dev-util/nvidia-cuda-toolkit		NVIDIA-CUDA
 games-action/spacetripper-demo		POMPOM
 games-arcade/primateplunge		Primate-Plunge
 games-arcade/thinktanks-demo		THINKTANKS
-games-arcade/marbleblast-demo		MARBLEBLAST
-games-arcade/marbleblastgold-demo	MARBLEBLAST
 games-fps/quake3-data			Q3AEULA
 games-fps/quake3-demo			Q3AEULA
 games-fps/enemy-territory		RTCW-ETEULA
@@ -18,11 +16,8 @@ net-wireless/broadcom-sta		Broadcom
 app-emulation/virtualbox-bin		PUEL
 media-libs/fdk-aac			FraunhoferFDK
 media-sound/baudline			baudline
-media-sound/neroaac			Nero-AAC-EULA
 media-sound/teamspeak-client		teamspeak3
 media-sound/teamspeak-server		teamspeak3
-media-sound/teamspeak-client-bin	teamspeak3
-media-sound/teamspeak-server-bin	teamspeak3
 media-video/makemkv			MakeMKV-EULA
 games-action/heretic2-demo		LOKI-EULA
 net-misc/chrome-remote-desktop		google-chrome
