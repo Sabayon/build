@@ -170,3 +170,6 @@ www-client/firefox-bin -~amd64
 
 # Force stable sys-apps/hwloc
 sys-apps/hwloc -~amd64
+
+# Force stable app-text/sword
+app-text/sword -~amd64
