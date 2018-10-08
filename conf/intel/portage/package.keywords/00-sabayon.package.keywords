@@ -167,3 +167,6 @@ dev-libs/json-c -~amd64
 # stable should be OK
 # also, a stable version is likely an ESR so there is a choice (bug 5515)
 www-client/firefox-bin -~amd64
+
+# Force stable sys-apps/hwloc
+sys-apps/hwloc -~amd64
