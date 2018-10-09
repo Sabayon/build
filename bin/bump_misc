@@ -50,7 +50,7 @@ get_list() {
 
 case $what in
 git)
-	$cmd $(get_list dev-vcs/git -cvs -gui-tools -subversion) www-apps-gitweb
+	$cmd $(get_list dev-vcs/git -cvs -gui-tools -subversion) www-apps/gitweb
 	;;
 subversion|sub)
 	$cmd $(get_list dev-vcs/subversion -java) www-apache/mod_dav_svn
