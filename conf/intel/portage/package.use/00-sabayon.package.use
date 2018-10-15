@@ -302,6 +302,7 @@ dev-qt/qtmultimedia:5 gstreamer qml widgets
 dev-qt/qtquickcontrols:5 widgets
 dev-qt/qtscript private-headers
 dev-qt/qtscript:5 private-headers scripttools
+dev-qt/qtsensors qml
 # added for mythtv
 dev-qt/qtsql mysql
 dev-qt/qtwayland egl
