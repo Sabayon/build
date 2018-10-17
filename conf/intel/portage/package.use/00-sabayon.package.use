@@ -689,7 +689,7 @@ net-libs/libsoup gnome
 # used to be dolphin-emu (now dolphin) flag
 net-libs/mbedtls havege
 net-libs/telepathy-qt farstream
-net-libs/zeromq unwind
+net-libs/zeromq drafts unwind
 
 # Disable net-wireless/bluez for libpcap to avoid
 # having dbus, thus half X shit around pulled in
