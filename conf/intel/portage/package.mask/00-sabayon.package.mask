@@ -189,9 +189,6 @@ sys-apps/baselayout::gentoo
 >=dev-haskell/conduit-1.3
 >=dev-haskell/http-conduit-2.2
 
-# 2017-08-23 Sławomir Nizio: net-misc/gns3-server (as of 2.0.3-r1) depends on =dev-python/aiohttp-1.3.5*
->=dev-python/aiohttp-1.3.6
-
 # 2017-09-09 Sławomir Nizio: dev-python/pygit2 must be matched (x.y parts) with
 # libgit2, but it can happen that there is no new enough version of the former
 >=dev-libs/libgit2-0.27
