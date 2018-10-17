@@ -1006,7 +1006,7 @@ xfce-base/xfwm4 xcomposite
 
 xfce-extra/tumbler gstreamer raw
 
-dev-python/PyQt5 declarative help webkit sql xmlpatterns
+dev-python/PyQt5 declarative help webchannel webkit webengine websockets sql xmlpatterns
 
 # See Sabayon bug #890
 dev-lang/perl ithreads
