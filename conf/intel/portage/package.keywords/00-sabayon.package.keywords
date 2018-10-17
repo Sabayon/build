@@ -63,6 +63,7 @@ net-libs/libosip -~amd64 -~x86
 
 # new libvirt may break virtinst revdep, force stable
 app-emulation/libvirt -~amd64 -~x86
+dev-python/libvirt-python -~amd64
 
 # Latest libgcrypt may break a gazillion of pkgs,
 # wait for it to be stabilized
