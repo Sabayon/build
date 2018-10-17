@@ -221,4 +221,3 @@ virtual/linux-sources::gentoo
 
 # Temp mask. Can be removed once Python:3.6 is in tree
 >dev-python/dnspython-1.15.0-r1
->dev-python/pyyaml-3.12
