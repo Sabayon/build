@@ -219,5 +219,9 @@ virtual/linux-sources::gentoo
 # 2018-06-20 Sławomir Nizio: www-client/conkeror (as of 1.0.4) wants <57
 >=www-client/firefox-bin-57
 
+# 2018-10-18 Joost Ruis: Use dev-python/pygobject from overlay
+dev-python/pygobject::gentoo
+
 # Temp mask. Can be removed once Python:3.6 is in tree
 >dev-python/dnspython-1.15.0-r1
+
