@@ -505,6 +505,7 @@ media-libs/harfbuzz icu
 media-libs/leptonica jpeg2k
 # In order to generate files in different formats, we need to enable imlib
 media-libs/libcaca imlib
+media-libs/libffado -qt5
 media-libs/libgphoto2 exif
 media-libs/libggi aalib
 media-libs/libgpod ios
