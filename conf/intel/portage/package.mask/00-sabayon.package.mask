@@ -217,7 +217,7 @@ virtual/linux-sources::gentoo
 >=www-client/firefox-bin-57
 
 # 2018-10-18 Joost Ruis: Use dev-python/pygobject from overlay
-dev-python/pygobject::gentoo
+dev-python/pygobject:3::gentoo
 
 # Temp mask. Can be removed once Python:3.6 is in tree
 >dev-python/dnspython-1.15.0-r1
