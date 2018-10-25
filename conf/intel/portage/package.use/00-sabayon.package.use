@@ -292,6 +292,7 @@ dev-python/QtPy webkit
 dev-python/pyglet -alsa
 
 dev-python/sphinx latex
+dev-python/twisted conch
 
 dev-qt/qt-creator autotools cmake designer git subversion valgrind examples
 dev-qt/qtcore:5 icu
