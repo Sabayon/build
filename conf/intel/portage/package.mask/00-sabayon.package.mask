@@ -213,9 +213,6 @@ virtual/linux-sources::gentoo
 # Python 2.7 support but only the older cairosvg fulfills that
 >=media-gfx/cairosvg-2
 
-# 2018-06-20 Sławomir Nizio: www-client/conkeror (as of 1.0.4) wants <57
->=www-client/firefox-bin-57
-
 # 2018-10-18 Joost Ruis: Use dev-python/pygobject from overlay
 dev-python/pygobject:3::gentoo
 
