@@ -937,6 +937,8 @@ www-servers/lighttpd fastcgi lua memcache xattr
 
 www-servers/nginx nginx_modules_http_stub_status nginx_modules_http_geoip
 
+x11-apps/mesa-progs egl gles2
+
 # X.Org stuff
 x11-base/xorg-server -ipv6 nptl kdrive xvfb
 x11-base/xorg-x11 intel
