@@ -412,6 +412,10 @@ kde-apps/poxml extras
 kde-frameworks/baloo minimal
 kde-frameworks/kdelibs jpeg2k opengl -pertty plasma acl semantic-desktop
 
+# as of 1.3.2, bluetooth support is not yet ready, and as reported causes
+# issues (scans the device often)
+kde-misc/kdeconnect -bluetooth
+
 kde-plasma/kdeplasma-addons desktopglobe json oauth semantic-desktop
 kde-plasma/kwin captury xcomposite
 kde-plasma/kscreenlocker -seccomp
