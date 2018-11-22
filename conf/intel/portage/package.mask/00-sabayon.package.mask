@@ -216,6 +216,10 @@ virtual/linux-sources::gentoo
 # 2018-10-18 Joost Ruis: Use dev-python/pygobject from overlay
 dev-python/pygobject:3::gentoo
 
+# 2018-11-22 Sławomir Nizio: because of sys-cluster/ceph
+# (as of 12.2.7 and 12.2.8-r1)
+>=dev-libs/crypto++-7
+
 # Temp mask. Can be removed once Python:3.6 is in tree
 >dev-python/dnspython-1.15.0-r1
 
