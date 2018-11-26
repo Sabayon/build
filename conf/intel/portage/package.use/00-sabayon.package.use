@@ -696,7 +696,7 @@ net-libs/libgadu ssl threads
 net-libs/libmicrohttpd messages
 # libproxy is bloatware
 net-libs/libproxy -kde -gnome python
-net-libs/libsoup gnome
+net-libs/libsoup gnome vala
 # used to be dolphin-emu (now dolphin) flag
 net-libs/mbedtls havege
 net-libs/nodejs icu inspector
