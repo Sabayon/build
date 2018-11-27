@@ -2,4 +2,4 @@ sys-devel/base-gcc:6.4.0
 >=sys-apps/portage-2.3.40-r1
 >sys-libs/glibc-2.25.9999
 >=sys-apps/entropy-313
->=sys-devel/binutils-2.30-r2
+>=sys-devel/binutils-2.30-r4
