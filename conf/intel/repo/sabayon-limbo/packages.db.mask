@@ -3,5 +3,5 @@ www-servers/apache[threads]
 
 # ext4 (or some block layer?) corruption:
 # https://bugzilla.kernel.org/show_bug.cgi?id=201685
-sys-kernel/linux-sabayon-4.19*
-sys-kernel/sabayon-sources-4.19*
+<sys-kernel/linux-sabayon-4.19.8:4.19
+<sys-kernel/sabayon-sources-4.19.8:4.19
