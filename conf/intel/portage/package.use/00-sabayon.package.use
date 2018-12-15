@@ -831,6 +831,7 @@ sys-apps/hwdata-gentoo binary-drivers
 # Do we really want berkdb?
 sys-apps/man-db -berkdb
 sys-apps/dbus user-session
+sys-apps/iproute2 caps
 sys-apps/pciutils -zlib
 # systemd support
 sys-apps/systemd -gtk plymouth sysv-utils cryptsetup lzma xattr -openrc keymap
