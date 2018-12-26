@@ -324,6 +324,7 @@ dev-tcltk/blt -X
 dev-tcltk/tclxml expat
 
 dev-util/anjuta subversion
+dev-util/astyle java
 dev-util/biew mmx sse
 dev-util/codeblocks contrib
 dev-util/geany-plugins ctags enchant git gtkspell pretty-printer
