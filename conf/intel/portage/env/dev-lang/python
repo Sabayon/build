@@ -5,3 +5,19 @@ echo "* Disabling PIE as per bug 3599"
 GCC_SPECS=$(gcc-config -L | cut -d":" -f1)/hardenednopiessp.specs
 echo "* Setting GCC_SPECS to ${GCC_SPECS}"
 export GCC_SPECS
+
+if [ "${EBUILD_PHASE}" = "install" ]; then
+	elog
+	elog "Entropy administration information:"
+	elog
+	elog "~~~   READ THIS CAREFULLY   ~~~"
+	elog "if you are bumping dev-lang/python:3"
+	elog "to the latest \"minor\" revision:"
+	elog "make sure that new Python 3 is selected"
+	elog
+	elog "one way is bumping app-misc/sabayon-version"
+	elog "(or replicating that eselect command)"
+	elog
+	elog "~~~   READ THIS CAREFULLY   ~~~"
+	elog
+fi
