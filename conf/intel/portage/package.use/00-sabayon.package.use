@@ -22,6 +22,7 @@ app-arch/file-roller -nautilus packagekit
 app-arch/engrampa caja
 app-arch/p7zip -kde -wxwidgets
 # vzctl and other packages now require xattr support in tar
+app-arch/rpm lua
 app-arch/tar xattr
 app-arch/unzip natspec
 app-arch/zstd lz4
