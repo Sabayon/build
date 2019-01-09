@@ -22,7 +22,7 @@ app-arch/file-roller -nautilus packagekit
 app-arch/engrampa caja
 app-arch/p7zip -kde -wxwidgets
 # vzctl and other packages now require xattr support in tar
-app-arch/rpm lua python_single_target_python2_7
+app-arch/rpm lua python_single_target_python2_7 -python_single_target_python3_6
 app-arch/tar xattr
 app-arch/unzip natspec
 app-arch/zstd lz4
