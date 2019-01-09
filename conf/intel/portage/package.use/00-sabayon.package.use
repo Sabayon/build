@@ -246,6 +246,7 @@ dev-libs/libgdata gnome gnome-online-accounts
 dev-libs/libgit2-glib ssh
 dev-libs/libgpg-error static-libs
 dev-libs/libgusb vala
+dev-libs/libgweather vala
 dev-libs/libksba static-libs
 dev-libs/libpcre pcre16 static-libs
 dev-libs/libpcre2 pcre16 pcre32
