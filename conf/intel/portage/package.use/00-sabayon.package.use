@@ -511,6 +511,7 @@ media-libs/gegl raw jpeg2k umfpack
 media-libs/gexiv2 introspection
 # it's either Wayland or X, see Gentoo bug 616968
 media-libs/glfw -wayland
+media-libs/gsound vala
 # LibreOffice wants it
 media-libs/harfbuzz icu
 media-libs/leptonica jpeg2k
