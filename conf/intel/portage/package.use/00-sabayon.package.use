@@ -839,7 +839,7 @@ sys-apps/dbus user-session
 sys-apps/iproute2 caps
 sys-apps/pciutils -zlib
 # systemd support
-sys-apps/systemd -gtk plymouth sysv-utils cryptsetup lzma xattr -openrc keymap
+sys-apps/systemd -gtk dracut plymouth sysv-utils cryptsetup lzma xattr -openrc keymap
 # Install tty helpers (like wall)
 sys-apps/util-linux tty-helpers
 
