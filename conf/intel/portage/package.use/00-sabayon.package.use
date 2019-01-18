@@ -694,6 +694,7 @@ net-libs/aqbanking chipcard ofx
 net-libs/c-client chappa
 net-libs/glib-networking gnome
 net-libs/gnutls openpgp sslv2 sslv3 tools
+net-libs/gnome-online-accounts vala
 # Disable cxx, otherwise we have curl pulling in boost
 net-libs/nghttp2 -cxx
 net-libs/libgadu ssl threads
