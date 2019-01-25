@@ -219,6 +219,5 @@ dev-python/pygobject:3::gentoo
 # 2018-12-15 Sławomir Nizio: mc-1.5 has a DEPEND on <sci-libs/superlu-5
 >=sci-libs/superlu-5
 
-# Temp mask. Can be removed once Python:3.6 is in tree
->dev-python/dnspython-1.15.0-r1
-
+# 2019-01-25 Joost Ruis: Use overlay version
+dev-vcs/git::gentoo
