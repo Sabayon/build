@@ -175,6 +175,3 @@ sys-apps/hwloc -~amd64
 
 # Force stable app-text/sword
 app-text/sword -~amd64
-
-# Force stable sys-kernel/linux-headers
-sys-kernel/linux-headers -~amd64
