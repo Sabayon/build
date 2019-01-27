@@ -1,8 +1,9 @@
 # Only use stable versions of these libs
-# sys-kernel/linux-headers -~amd64 -~x86
+sys-kernel/linux-headers -~amd64 -~x86
 sys-libs/glibc -~amd64 -~x86
 <dev-lang/python-3 -~amd64 -~x86
 dev-libs/openssl -~amd64 -~x86
+virtual/os-headers -~amd64 -~x86
 
 # force stable perl
 dev-lang/perl -~amd64 -~x86
@@ -14,7 +15,6 @@ virtual/perl-* -~amd64 -~x86
 ~perl-core/Scalar-List-Utils-1.460.0 ~amd64
 
 sys-devel/make -~amd64 -~x86
-sys-kernel/linux-headers -~amd64 -~x86
 net-libs/gnutls -~amd64 -~x86
 dev-lang/tcl -~amd64 -~x86
 dev-lang/tk -~amd64 -~x86
@@ -141,9 +141,6 @@ sys-libs/tevent -~amd64
 
 # Use stable media-libs/libopenraw
 media-libs/libopenraw -~amd64 
-
-# accept unstable sys-kernel/linux-headers-4.9
-=sys-kernel/linux-headers-4.9 ~amd64
 
 # Force stable sys-apps/util-linux
 sys-apps/util-linux -~amd64
