@@ -927,7 +927,7 @@ www-apps/rt mysql
 www-apps/trac mysql postgres vhosts sqlite
 
 www-client/chromium jumbo-build widevine
-www-client/firefox filepicker -gnome gstreamer mozbranding system-jpeg xforms
+www-client/firefox filepicker -gnome gstreamer mozbranding system-jpeg -system-sqlite xforms
 www-client/midori sqlite
 www-client/surf savedconfig
 www-client/uget gstreamer aria2
