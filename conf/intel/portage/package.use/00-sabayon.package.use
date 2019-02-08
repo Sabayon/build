@@ -755,6 +755,7 @@ net-misc/rsync examples xattr
 net-misc/tigervnc -java server
 net-vpn/tor threads
 net-misc/vinagre rdp -avahi
+net-misc/openvswitch monitor
 net-misc/x2goclient -qt5
 net-misc/x2goserver sqlite
 
