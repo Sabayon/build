@@ -1,0 +1,8 @@
+echo "* Reducing -j in MAKEOPTS"
+# Don't override any other setting, and jobs number if it was for example
+# reduced globally.
+MAKEOPTS=$(echo "${MAKEOPTS}" | sed 's/-j8 /-j7 /')
+if [ -z "${MAKEOPTS}" ]; then
+	MAKEOPTS="-j7 -s"
+fi
+export MAKEOPTS
