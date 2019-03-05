@@ -329,6 +329,7 @@ dev-util/anjuta subversion
 dev-util/astyle java
 dev-util/biew mmx sse
 dev-util/codeblocks contrib
+dev-util/geany -gtk3
 dev-util/geany-plugins ctags enchant git gtkspell pretty-printer -gtk3
 dev-util/glade -gnome
 dev-util/kdevelop php qthelp ruby
