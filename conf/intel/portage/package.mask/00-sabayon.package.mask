@@ -121,9 +121,6 @@ net-p2p/bittornado::gentoo
 # 2015-02-19 Joost Ruis: Newer version is brokken with collectd
 >sys-libs/libstatgrab-0.17
 
-# 2015-09-30 Joost Ruis: Only use overlay version
-sys-fs/zfs-kmod::gentoo
-
 # 2016-03-03 Joost Ruis: Only use overlay version
 sys-apps/lsb-release::gentoo
 
