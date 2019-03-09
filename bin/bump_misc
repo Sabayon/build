@@ -9,7 +9,7 @@ else
 	echo "Warning: buildrc not found" >&2
 fi
 
-list="git [sub]version [tra]nsmission [qua]ssel [pop]pler [lig]htdm [pin]entry"
+list="git [sub]version [tra]nsmission [qua]ssel [pop]pler [lig]htdm [pin]entry [ava]hi"
 cmd="emerge -av"
 default_overlay="sabayon-distro"
 overlay=
@@ -69,6 +69,9 @@ lightdm|lig)
 	;;
 pinentry|pin)
 	$cmd $(get_list app-crypt/pinentry -base -gnome -gtk2 -qt5)
+	;;
+avahi|ava)
+	$cmd $(get_list net-dns/avahi -base -gtk -gtk3 -mono)
 	;;
 	# add new elements to $list, too
 *)
