@@ -1135,7 +1135,7 @@ gnome-base/nautilus tracker
 # VAAPI/VDPAU support
 media-libs/avidemux-core vaapi vdpau
 media-libs/xine-lib vaapi vdpau
-media-libs/mesa vdpau
+media-libs/mesa vaapi vdpau
 # Disabling vaapi for now, see bug #2221, #4069
 # 2013-11-15: retry with USE=vaapi
 media-tv/kodi vaapi vdpau
