@@ -182,7 +182,6 @@ dev-embedded/avr-libc -selinux
 dev-embedded/openocd ftdi
 
 dev-games/cegui devil
-dev-games/crystalspace mng
 dev-games/mygui -opengl
 dev-games/ode double-precision
 dev-games/ogre cg ois
@@ -206,8 +205,6 @@ dev-java/swt -firefox
 dev-java/swt gnome
 
 dev-lang/fpc source ide
-# icc doesn't like LINGUAS=ja on ifc
-dev-lang/ifc idb -linguas_ja
 dev-lang/lua deprecated
 dev-lang/luajit lua52compat
 dev-lang/mono moonlight
@@ -415,7 +412,6 @@ kde-apps/okular chm djvu ebook crypt
 kde-apps/poxml extras
 
 kde-frameworks/baloo minimal
-kde-frameworks/kdelibs jpeg2k opengl -pertty plasma acl semantic-desktop
 
 # as of 1.3.2, bluetooth support is not yet ready, and as reported causes
 # issues (scans the device often)
@@ -477,7 +473,6 @@ media-gfx/graphicsmagick q16 -lcms
 media-gfx/greycstoration fftw
 media-gfx/gthumb -cdr slideshow
 media-gfx/imagemagick fftw gs perl
-media-gfx/k3d 3ds
 media-gfx/kphotoalbum kipi
 # micia, add documentation for librecad, so that help menu works properly
 media-gfx/librecad doc
@@ -491,7 +486,6 @@ media-gfx/pstoedit plotutils
 # Newer kernels do not provide vid4l
 media-gfx/sane-backends threads -v4l
 media-gfx/sane-frontends gimp
-media-gfx/splashutils mng fbcondecor
 media-gfx/xsane tiff
 media-gfx/zbar imagemagick v4l
 
@@ -505,7 +499,6 @@ media-libs/cogl gles2
 # Needed by freecad
 media-libs/coin doc
 media-libs/devil mng
-media-libs/elementary -sdl
 media-libs/freetype -X -auto-hinter adobe-cff harfbuzz
 media-libs/gd fontconfig
 media-libs/gegl raw jpeg2k umfpack
@@ -600,7 +593,6 @@ media-sound/rhythmbox -cdr
 media-sound/snd fftw
 media-sound/sonic-visualiser fftw
 >=media-sound/soundkonverter-0.2.90-r1 lame
-media-sound/vagalume libproxy
 # Broken with latest libmp4v2
 media-sound/kid3 -mp4
 
@@ -936,7 +928,6 @@ www-client/uget gstreamer aria2
 
 # 32bit plugin is unwanted
 www-plugins/adobe-flash -32bit sse2
-www-plugins/gnash egl openvg ffmpeg -python -cairo -sdl -kde
 
 # Our Apache defaults
 # apache2_modules_http2 not enabled because it does not build (on Gentoo) with
@@ -1145,7 +1136,6 @@ media-video/mpv vaapi vdpau
 media-video/ffmpeg vaapi vdpau
 media-video/vlc vaapi vdpau
 virtual/ffmpeg vaapi vdpau
-www-plugins/gnash vaapi vdpau
 
 app-i18n/scim gtk3
 # usbredir required by app-emulation/virt-manager-1.1.0-r2
@@ -1275,8 +1265,6 @@ sys-fs/dosfstools compat
 >=media-gfx/eom-1.16.0 -python gtk3
 >=app-editors/pluma-1.16.0 -python gtk3
 dev-libs/libmateweather -python gtk3
-
-dev-libs/sway swaygrab swaylock wallpapers
 
 # Enable opencl and evm, make it possible to mine ETH.
 net-p2p/go-ethereum evm opencl
