@@ -472,7 +472,7 @@ media-gfx/gphoto2 aalib
 media-gfx/graphicsmagick q16 -lcms
 media-gfx/greycstoration fftw
 media-gfx/gthumb -cdr slideshow
-media-gfx/imagemagick fftw gs perl
+media-gfx/imagemagick fftw gs perl q32
 media-gfx/kphotoalbum kipi
 # micia, add documentation for librecad, so that help menu works properly
 media-gfx/librecad doc
