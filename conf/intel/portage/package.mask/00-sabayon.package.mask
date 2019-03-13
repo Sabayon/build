@@ -218,6 +218,3 @@ dev-python/pygobject:3::gentoo
 
 # 2019-01-25 Joost Ruis: Use overlay version
 dev-vcs/git::gentoo
-
-# Temp mask
->media-gfx/imagemagick-6.9.10.28
