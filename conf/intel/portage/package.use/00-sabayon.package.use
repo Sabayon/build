@@ -841,7 +841,7 @@ sys-apps/util-linux tty-helpers
 sys-auth/consolekit -acl
 sys-auth/pambase -consolekit -kerberos
 
-sys-block/gparted -kde -gtk dmraid mdadm btrfs
+sys-block/gparted -kde -gtk dmraid f2fs mdadm btrfs
 sys-block/parted device-mapper
 
 # Kernel modules not needed
