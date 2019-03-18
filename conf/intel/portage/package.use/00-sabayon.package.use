@@ -741,6 +741,7 @@ net-misc/openssh libedit
 # No more spidermonkey
 net-misc/plowshare -javascript
 net-misc/ps3mediaserver multiuser tsmuxer
+net-misc/putty gssapi
 net-misc/remmina vnc vte ssh rdp
 # Add xattr support to rsync
 net-misc/rsync examples xattr
