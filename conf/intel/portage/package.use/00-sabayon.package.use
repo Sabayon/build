@@ -1247,7 +1247,7 @@ dev-qt/qtwebchannel qml
 dev-java/oracle-jdk-bin javafx -nsplugin
 
 # -nsplugin: conflicts with dev-java/icedtea-web[nsplugin]
-dev-java/oracle-jre-bin -nsplugin
+dev-java/oracle-jre-bin -nsplugin jce
 app-emulation/runc apparmor
 
 # Require mkfs.dosfs
