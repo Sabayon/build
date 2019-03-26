@@ -9,6 +9,7 @@ games-fps/quake3-demo			Q3AEULA
 games-fps/enemy-territory		RTCW-ETEULA
 games-fps/urbanterror			Q3AEULA Q3AEULA-20000111
 games-fps/urbanterror-data		Q3AEULA Q3AEULA-20000111
+games-server/steamcmd			Steam
 games-strategy/darwinia-demo		Introversion
 games-strategy/darwinia			Introversion
 games-simulation/bcs-demo		BCS
