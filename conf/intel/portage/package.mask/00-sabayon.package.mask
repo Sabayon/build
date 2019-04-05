@@ -217,3 +217,5 @@ dev-vcs/git::gentoo
 
 # temp mask
 <dev-lang/ghc-8.0.2
+>dev-libs/libffi-3.2.1-r2
+>virtual/libffi-3.0.13-r1
