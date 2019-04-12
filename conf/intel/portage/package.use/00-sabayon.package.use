@@ -1140,10 +1140,8 @@ media-video/vlc vaapi vdpau
 virtual/ffmpeg vaapi vdpau
 
 app-i18n/scim gtk3
-# usbredir required by app-emulation/virt-manager-1.1.0-r2
-# Add smartcard flag required by gnome-boxes
 app-emulation/spice smartcard
-net-misc/spice-gtk gtk3 usbredir smartcard
+net-misc/spice-gtk gtk3 usbredir smartcard vala
 
 
 # Disable plymouth integration in gdm 3.10
