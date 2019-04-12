@@ -311,6 +311,8 @@ dev-qt/qtsensors qml
 dev-qt/qtsql mysql
 dev-qt/qtwayland egl
 
+dev-ruby/mysql2 mariadb
+
 dev-scheme/guile regex discouraged networking
 dev-scheme/racket backtrace doc futures jit places threads
 
