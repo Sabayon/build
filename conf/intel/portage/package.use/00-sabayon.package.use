@@ -310,6 +310,7 @@ dev-qt/qtsensors qml
 # added for mythtv
 dev-qt/qtsql mysql
 dev-qt/qtwayland egl
+dev-qt/qtxmlpatterns qml
 
 dev-ruby/mysql2 mariadb
 
