@@ -182,6 +182,3 @@ mail-filter/maildrop -~amd64
 mail-mta/courier -~amd64
 net-libs/courier-authlib -~amd64
 net-mail/courier-imap -~amd64
-
-# Force stable net-firewall/xtables-addons
-net-firewall/xtables-addons -~amd64
