@@ -226,7 +226,6 @@ dev-libs/botan threads -gmp
 dev-libs/crypto++ sse3
 dev-libs/c-blosc hdf5
 # Needed by directvnc
-dev-libs/DirectFB dynload fbcon
 dev-libs/dbus-glib bash-completion
 # Required by terminology
 dev-libs/efl audio drm egl gles2 pulseaudio pixman sound X gstreamer -xcb -opengl -sdl -gnutls
@@ -402,7 +401,6 @@ kde-apps/akonadi tools
 # See bug 3619
 kde-apps/ark lzma
 kde-apps/dolphin semantic-desktop thumbnail
-kde-apps/dolphin-plugins git
 kde-apps/gwenview kipi semantic-desktop
 kde-apps/kdepim-runtime google
 kde-apps/kget -bittorrent semantic-desktop
@@ -440,7 +438,6 @@ mail-client/thunderbird lightning
 # rendering
 mail-client/thunderbird-bin -ffmpeg
 
-mail-filter/dovecot-antispam dspam
 mail-filter/maildrop authlib
 mail-filter/procmail mbox
 
@@ -626,10 +623,6 @@ media-video/dvdrip -xine subtitles fping
 
 net-analyzer/fping suid
 net-analyzer/namebench -X
-net-analyzer/nessus-core -gtk
-# Bluetooth dependency is unwanted on servers
-# It pulls in a lot of crap
-net-analyzer/netcat6 -bluetooth
 # No need to have USE=X on net-snmp
 # ucd-compat required by net-misc/vmpsd-1.4
 net-analyzer/net-snmp ucd-compat -X
@@ -788,7 +781,6 @@ sci-astronomy/celestia -kde
 sci-biology/transfac -emboss
 
 # temp. disable python support due to sip shit
-sci-chemistry/avogadro -python
 sci-chemistry/openbabel -perl -python
 sci-chemistry/xds-bin smp
 
@@ -918,7 +910,6 @@ www-apache/mod_jk java
 www-apache/mod_perl ithreads
 
 www-apps/owncloud mysql postgres sqlite3
-www-apps/phprojekt mysql
 www-apps/postfixadmin mysql
 www-apps/rt mysql
 www-apps/trac mysql postgres vhosts sqlite
@@ -1202,10 +1193,6 @@ net-firewall/shorewall lite4 lite6
 
 # Add more docs to lxc
 app-emulation/lxc doc
-
-# Anaconda related USE deps
-dev-libs/libreport -gtk
-app-admin/anaconda -gtk -gui
 
 # required by dev-ruby/metasploit_data_models-0.17.2[ruby_targets_ruby19]
 # required by net-analyzer/metasploit-4.9.3[ruby_targets_ruby19]
