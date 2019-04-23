@@ -22,17 +22,11 @@ net-misc/pump
 # Joost Ruis: This package cannot be in tree with sys-apps/iproute2
 net-misc/arpd
 
-#Joost Ruis: Wants >=dev-lang/perl-5.6.1[-ithreads] never going to happen.
-net-irc/epic4
-
 # Joost Ruis: We use net-misc/ntp so we want to mask this
 net-misc/openntpd
 
 # Joost Ruis: We use net-misc/netkit-telnetd so we want to mask
 net-misc/telnet-bsd
-
-# Joost Ruis: Seems to be incompatible with latest net-misc/asterisk
-=net-misc/asterisk-rate_engine-0.5.4
 
 # Joost Ruis: We use dev-texlive/texlive-latexextra so we want to mask this
 dev-tex/prosper
@@ -139,9 +133,6 @@ media-sound/jack-audio-connection-kit::gentoo
 # 2017-02-18 Francesco Ferretti: use overlay version
 net-dns/avahi::gentoo
 
-# 2017-05-03 Sławomir Nizio: net-proxy/mitmproxy 0.11.3 requires this 0.11*
->=dev-python/netlib-0.12.0
-
 # 2017-06-11+ Sławomir Nizio: dev-ruby/rake-remote_task 2.4.3 depends on <dev-ruby/rake-13
 >=dev-ruby/rake-13
 
@@ -171,9 +162,6 @@ sys-apps/baselayout::gentoo
 >=dev-libs/libgit2-glib-0.27
 >=dev-python/pygit2-0.27
 
-# 2017-09-15 Joost Ruis: Prevent Python 3.4 downgrade
-dev-lang/python:3.4
-
 # 2017-09-23 Sławomir Nizio: dev-ruby/gherkin 2.12.2 requires =dev-util/ragel-6*
 >dev-util/ragel-7
 
@@ -196,8 +184,3 @@ dev-python/pygobject:3::gentoo
 
 # 2019-01-25 Joost Ruis: Use overlay version
 dev-vcs/git::gentoo
-
-# temp mask
-<dev-lang/ghc-8.0.2
->dev-libs/libffi-3.2.1-r2
->virtual/libffi-3.0.13-r1
