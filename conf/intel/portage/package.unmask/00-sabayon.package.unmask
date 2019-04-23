@@ -12,8 +12,3 @@ media-tv/kodi
 
 # We need this for our kernels
 sys-apps/v86d
-
-# It is masked in Gentoo because requires masked icu, but we have it with
-# USE=-icu. Also, we already have a version that became masked (instead of
-# downgrading I prefer to unmask a newer one as it's harmless).
-=net-libs/nodejs-9.11.1
