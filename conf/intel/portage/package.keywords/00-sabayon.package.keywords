@@ -26,10 +26,6 @@ virtual/ffmpeg -~amd64 -~x86
 dev-libs/boost -~amd64 -~x86
 dev-util/boost-build -~amd64 -~x86
 
-# Need unstable boost to get the python 3.5 target
-=dev-libs/boost-1.63.0 ~amd64
-=dev-util/boost-build-1.63.0 ~amd64
-
 # Apache is a critical component and 2.2 is still
 # "good enough", 2.4 isn't yet stabilized
 app-admin/apache-tools -~amd64 -~x86
@@ -84,8 +80,6 @@ dev-libs/ntl -~amd64 -~x86
 # we want stable systemd stack
 virtual/udev -~amd64 -~x86
 sys-apps/systemd -~amd64 -~x86
-# allow unstable systemd-226
-=sys-apps/systemd-226* ~amd64 ~x86
 
 # keep xdebug-client to stable, since devs tend to update
 # xdebug and xdebug-client separately
@@ -144,8 +138,6 @@ media-libs/libopenraw -~amd64
 
 # Force stable sys-apps/util-linux
 sys-apps/util-linux -~amd64
-# but unmask a stable version that is in the overlay
-=sys-apps/util-linux-2.30.2-r1 **
 
 # Force stable net-libs/libnsl
 net-libs/libnsl -~amd64
