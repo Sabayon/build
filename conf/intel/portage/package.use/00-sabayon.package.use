@@ -278,7 +278,7 @@ dev-python/QtPy gui
 dev-python/ipython qt5 -wxwidgets
 # Required by app-editors/retext
 dev-python/markdown pygments
-dev-python/matplotlib qt5 -wxwindows
+dev-python/matplotlib qt5 -wxwidgets
 # The cli flag just brings a lot of dependencies (Gentoo bug 656148)
 dev-python/netaddr -cli
 # Required by dev-python/graph-tool
