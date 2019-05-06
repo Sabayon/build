@@ -181,7 +181,3 @@ dev-python/pygobject:3::gentoo
 
 # 2019-01-25 Joost Ruis: Use overlay version
 dev-vcs/git::gentoo
-
-# 2019-04-29 Joost Ruis: This breaks wget and gnutls
-# Phat warning here, this really breaks stuff
->net-dns/libidn2-2.0.4
