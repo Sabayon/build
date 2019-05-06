@@ -3,3 +3,4 @@ sys-devel/base-gcc:7.3.0
 >sys-libs/glibc-2.25.9999
 >=sys-apps/entropy-313
 >=sys-devel/binutils-2.31.1-r4
+>=net-libs/gnutls-3.6.7
