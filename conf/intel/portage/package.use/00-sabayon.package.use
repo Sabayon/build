@@ -776,6 +776,7 @@ net-wireless/bluez gstreamer obex user-session
 net-wireless/wpa_supplicant -qt5 wimax ap p2p eap-sim wps
 
 sci-astronomy/celestia -kde
+sci-astronomy/kstars indi
 
 # workaround for https://bugs.gentoo.org/show_bug.cgi?id=361411
 sci-biology/transfac -emboss
