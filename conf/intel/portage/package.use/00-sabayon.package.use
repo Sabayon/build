@@ -647,6 +647,8 @@ net-dns/avahi-gtk3 introspection
 net-dns/avahi-mono introspection
 net-dns/dnsmasq dbus tftp conntrack dnssec dhcp script dhcp-tools
 net-dns/getdns stubby
+# net-dns/libidn2[static-libs] is for net-misc/curl
+net-dns/libidn2 static-libs
 # We must choose between mysql and postgres
 net-dns/mydns mysql
 net-firewall/fwknop firewalld server -iptables
