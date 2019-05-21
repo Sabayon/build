@@ -315,6 +315,7 @@ dev-ruby/mysql2 mariadb
 
 dev-scheme/guile regex discouraged networking
 dev-scheme/racket backtrace doc futures jit places threads
+dev-scheme/scm libscm
 
 dev-db/sqliteodbc sqlite3
 dev-db/mysql -berkdb client-libs pic extraengine
