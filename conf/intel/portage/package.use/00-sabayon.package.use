@@ -639,7 +639,6 @@ net-analyzer/nmap -zenmap ncat ndiff nping
 
 net-dialup/mgetty -fax
 net-dialup/ppp atm dhcp radius -gtk
-net-dialup/freeradius threads
 
 net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm gtk python autoipd -qt5 introspection
 net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat
