@@ -389,7 +389,7 @@ gnome-base/libgnomecanvas glade
 gnome-base/librsvg gnome
 gnome-base/nautilus gnome sendto
 
-gnome-extra/evolution-data-server ldap kerberos vala
+gnome-extra/evolution-data-server oauth ldap kerberos vala
 gnome-extra/libgsf gnome
 gnome-extra/nautilus-sendto -cdr
 # nm-applet-gtk2 is the bloody version of nm-applet
