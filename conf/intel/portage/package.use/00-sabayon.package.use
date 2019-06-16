@@ -607,7 +607,7 @@ media-video/avidemux qt5
 media-video/blinkensim aalib
 media-video/dvgrab quicktime
 virtual/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx jpeg2k
-media-video/ffmpeg threads ogg vhook faac faad fdk jpeg2k video_cards_nvidia amr cpudetection vpx
+media-video/ffmpeg threads ogg vhook faac faad fdk jpeg2k video_cards_nvidia amr cpudetection vpx webp
 media-video/jubler mplayer
 media-video/kino gstreamer quicktime
 media-video/mpv libmpv samba tools
