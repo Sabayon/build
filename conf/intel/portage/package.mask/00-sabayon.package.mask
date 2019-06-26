@@ -181,3 +181,6 @@ dev-python/pygobject:3::gentoo
 
 # 2019-01-25 Joost Ruis: Use overlay version
 dev-vcs/git::gentoo
+
+# 2019-06-26 Sławomir Nizio: 3.2.1 is stable, 3.2.1-r2 is merged, stick to that
+>=dev-libs/libffi-3.3
