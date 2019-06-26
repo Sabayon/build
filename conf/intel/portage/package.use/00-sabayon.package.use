@@ -887,7 +887,7 @@ sys-libs/libcxx -libunwind
 sys-libs/libcxxabi -libunwind
 sys-libs/e2fsprogs-libs static-libs
 sys-fs/udev static-libs
-sys-apps/util-linux static-libs
+sys-apps/util-linux caps static-libs
 dev-libs/glib static-libs
 dev-libs/elfutils static-libs
 sys-libs/gpm static-libs
