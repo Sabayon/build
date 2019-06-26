@@ -184,3 +184,4 @@ dev-vcs/git::gentoo
 
 # 2019-06-26 Sławomir Nizio: 3.2.1 is stable, 3.2.1-r2 is merged, stick to that
 >=dev-libs/libffi-3.3
+>=dev-libs/libffi-3.3_rc0
