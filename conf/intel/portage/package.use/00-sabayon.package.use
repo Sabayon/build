@@ -914,6 +914,7 @@ www-apache/mod_jk java
 www-apache/mod_perl ithreads
 
 www-apps/owncloud mysql postgres sqlite3
+www-apps/phpBB mysqli sqlite
 www-apps/postfixadmin mysql
 www-apps/rt mysql
 www-apps/trac mysql postgres vhosts sqlite
