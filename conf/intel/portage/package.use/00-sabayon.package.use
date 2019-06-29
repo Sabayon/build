@@ -105,6 +105,10 @@ app-misc/anki -sound
 app-misc/ddccontrol -gtk -gnome
 app-misc/gcstar stats
 
+# At 0.5.9 png and freetype require USE lcd_devices_glcd which would bring
+# a few additional dependencies.
+app-misc/lcdproc -png -freetype
+
 # Kernel drivers are unwanted for lirc, they're in-kernel
 app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
 
