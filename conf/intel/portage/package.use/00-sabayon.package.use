@@ -610,7 +610,7 @@ media-tv/mythtv -hls fftw
 media-video/avidemux qt5
 media-video/blinkensim aalib
 media-video/dvgrab quicktime
-virtual/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx jpeg2k
+virtual/ffmpeg threads ogg vhook faac faad amr cpudetection vpx jpeg2k -video_cards_nvidia
 media-video/ffmpeg threads ogg vhook faac faad fdk jpeg2k video_cards_nvidia amr cpudetection vpx webp
 media-video/jubler mplayer
 media-video/kino gstreamer quicktime
