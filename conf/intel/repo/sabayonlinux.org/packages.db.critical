@@ -1,4 +1,4 @@
-sys-devel/base-gcc:7.3.0
+sys-devel/base-gcc:8.2.0
 >=sys-apps/portage-2.3.62
 >sys-libs/glibc-2.28.9999
 >=sys-apps/entropy-313
