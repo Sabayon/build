@@ -62,6 +62,7 @@ app-editors/tea (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
 
 rewrite media-gfx/engauge if-dep-has-use=qt5 from-dep=app-text/poppler to-dep=app-text/poppler-qt5 drop-use=qt5
 rewrite dev-libs/efl from-dep=app-text/poppler to-dep=app-text/poppler-base
+rewrite media-libs/gegl if-dep-has-use=cairo from-dep=app-text/poppler to-dep=app-text/poppler-glib drop-use=cairo
 
 # lightdm split rewrite
 x11-misc/lightdm-gtk-greeter (.*)x11-misc/lightdm(.*) \1x11-misc/lightdm-base\2
