@@ -115,6 +115,8 @@ app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
 app-misc/mc -slang
 # app-misc/recoll cannot use both inotify and fam, only one of them.
 app-misc/recoll -fam inotify qt5
+# No Python 3 due to a bug: https://bugs.sabayon.org/show_bug.cgi?id=5816#c9
+app-misc/solaar -python_targets_python3_6 -python_targets_python3_7
 app-misc/sphinx mysql
 app-misc/tuxcmd-modules gnome unrar
 
