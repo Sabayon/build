@@ -563,7 +563,7 @@ media-plugins/alsa-plugins libsamplerate pulseaudio
 media-plugins/audacious-plugins chardet cue gnome gtk3 http icecast libsamplerate modplug sndfile speedpitch wavpack -gtk -qt5
 # Enable the http plugin
 media-plugins/gst-plugins-meta mms http
-media-plugins/kipi-plugins calendar gpssync
+kde-apps/kipi-plugins calendar gpssync
 media-plugins/vdr-weatherng dxr3
 # Enable egl flag as requested from wayland flag
 media-libs/gst-plugins-bad egl -wayland
