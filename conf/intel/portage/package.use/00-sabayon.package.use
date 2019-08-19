@@ -149,6 +149,7 @@ app-text/enchant aspell
 app-text/evince djvu dvi gnome-keyring nautilus -nsplugin
 app-text/fbreader -gtk
 app-text/ghostscript-gpl -cjk -gtk
+app-text/gtkspell vala
 # enable X to have 'mupdf' tool - we build inject it now
 app-text/mupdf -opengl -X
 app-text/lcdf-typetools kpathsea
@@ -241,6 +242,7 @@ dev-libs/gdl gnome
 # 2016-12-25, enabling smime on gmime for crypt useflag in notmuch
 dev-libs/gmime smime -mono
 dev-libs/libassuan static-libs
+dev-libs/libdazzle vala
 dev-libs/libdbusmenu gtk3
 dev-libs/libf2c static-libs
 dev-libs/libgcrypt static-libs
