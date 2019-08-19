@@ -1232,8 +1232,7 @@ x11-misc/xplanet -gif
 
 www-client/w3m fbcon imlib
 
-# needed for app-editors/atom
-dev-util/electron -system-ffmpeg
+dev-util/electron -system-ffmpeg -system-libvpx
 
 # needed for lxd
 app-emulation/lxc cgmanager
