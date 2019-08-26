@@ -846,6 +846,7 @@ sys-apps/pciutils -zlib
 sys-apps/systemd -gtk dracut plymouth sysv-utils cryptsetup lzma xattr -openrc keymap
 # Install tty helpers (like wall)
 sys-apps/util-linux tty-helpers
+sys-apps/xdg-desktop-portal screencast
 
 sys-auth/consolekit -acl
 sys-auth/pambase -consolekit -kerberos
