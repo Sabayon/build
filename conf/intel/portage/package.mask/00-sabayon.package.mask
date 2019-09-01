@@ -187,3 +187,6 @@ dev-vcs/git::gentoo
 >=dev-python/pygit2-0.29
 
 x11-drivers/nvidia-drivers::gentoo
+
+#temp mask
+>=dev-lang/perl-5.30.0
