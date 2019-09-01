@@ -4,6 +4,7 @@ sys-libs/glibc -~amd64 -~x86
 <dev-lang/python-3 -~amd64 -~x86
 dev-libs/openssl -~amd64 -~x86
 virtual/os-headers -~amd64 -~x86
+sys-libs/tevent -~amd64
 
 # force stable perl
 dev-lang/perl -~amd64 -~x86
