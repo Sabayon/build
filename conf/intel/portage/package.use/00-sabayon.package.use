@@ -141,6 +141,14 @@ app-pda/barry boost gui
 app-portage/eix sqlite
 app-portage/layman bazaar git mercurial subversion sync-plugin-portage
 
+# app-portage/smart-live-rebuild depends on app-portage/gentoopm
+# and app-portage/gentoopm depends on || ( sys-apps/pkgcore ... );
+# sys-apps/pkgcore depends on dev-python/snakeoil which is (as of 0.8.3)
+# python 3 only, so these two have to be python 3 only.
+app-portage/smart-live-rebuild -python_targets_python2_7
+app-portage/gentoopm -python_targets_python2_7
+
+
 app-text/ansifilter -qt5
 app-text/asciidoc python_single_target_python2_7
 app-text/atril caja djvu dvi mate mate-keyring
