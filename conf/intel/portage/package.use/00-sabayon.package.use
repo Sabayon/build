@@ -450,7 +450,7 @@ mail-client/evolution exchange
 mail-client/mail-notification mozilla pop mbox gmail
 mail-client/mutt -berkdb -lmdb -qdbm -tokyocabinet gdbm sasl sidebar smtp
 mail-client/roundcube mysql
-mail-client/thunderbird lightning
+mail-client/thunderbird lightning -system-sqlite -system-libvpx -system-av1
 
 # ffmpeg is default; disabling it (as of 52.2.0) means losing HTML5 video
 # rendering
