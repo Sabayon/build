@@ -7,6 +7,7 @@ virtual/os-headers -~amd64 -~x86
 sys-libs/tevent -~amd64
 dev-libs/libevent -~amd64
 sci-libs/proj -~amd64
+dev-lang/erlang -~amd64
 
 # force stable perl
 dev-lang/perl -~amd64 -~x86
