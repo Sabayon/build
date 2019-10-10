@@ -86,10 +86,6 @@ virtual/udev -~amd64 -~x86
 # let's try unstable systemd from overlay
 # sys-apps/systemd -~amd64 -~x86
 
-# keep xdebug-client to stable, since devs tend to update
-# xdebug and xdebug-client separately
-dev-php/xdebug-client -~amd64 -~x86
-
 # Prefer a stable and reliable version of freetype
 media-libs/freetype -~amd64 -~x86
 
