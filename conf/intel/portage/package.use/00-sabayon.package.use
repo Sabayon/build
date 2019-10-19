@@ -151,7 +151,7 @@ app-portage/gentoopm -python_targets_python2_7
 
 app-text/ansifilter -qt5
 app-text/asciidoc python_single_target_python2_7
-app-text/atril caja djvu dvi mate mate-keyring
+app-text/atril caja djvu dvi mate mate-keyring epub
 app-text/djvu threads -nsplugin
 app-text/enchant aspell
 app-text/evince djvu dvi gnome-keyring nautilus -nsplugin
