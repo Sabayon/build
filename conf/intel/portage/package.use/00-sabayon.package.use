@@ -70,7 +70,6 @@ app-emacs/auctex preview-latex
 
 # virt stuff
 app-emulation/docker-runc apparmor
-app-emulation/e-uae capslib
 app-emulation/ganeti kvm lxc htools
 app-emulation/libvirt lxc rbd virtualbox fuse kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/open-vm-tools -X -xinerama
@@ -232,7 +231,6 @@ dev-lang/rakudo moar
 
 dev-libs/apr-util openssl
 dev-libs/appstream -qt5
-dev-libs/beecrypt threads
 # Needed by some lisp packages
 dev-libs/boehm-gc threads
 dev-libs/boost context python threads icu
@@ -383,8 +381,6 @@ games-fps/darkplaces textures
 games-fps/freedoom doomsday
 games-fps/nexuiz dedicated maps
 games-fps/worldofpadman maps
-
-games-rpg/eternal-lands-data music sound
 
 games-strategy/0ad editor sound
 games-strategy/freeciv -qt5
@@ -547,7 +543,6 @@ media-libs/libxtract fftw
 media-libs/mediastreamer video -ffmpeg
 # www-client/chromium wants media-libs/mesa[gles2]
 media-libs/mesa gbm g3dvl nptl openvg pic shared-dricore shared-glapi video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_r100 video_cards_r200 video_cards_r300 video_cards_r600 video_cards_radeon video_cards_via video_cards_vmware video_cards_radeonsi vulkan xa xorg gles2
-media-libs/ming php
 media-libs/mlt melt frei0r kdenlive quicktime python
 # Disable GUI libs.
 media-libs/openal -qt5
@@ -1059,10 +1054,6 @@ app-cdr/brasero -css
 media-tv/mythtv -css
 
 media-video/avidemux amr
-
-# Disable gtk dependency, unwanted for Core
-dev-python/python-meh -gtk
-dev-python/python-slip -gtk
 
 # Pylons stuff
 dev-python/paste openid
