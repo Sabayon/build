@@ -64,12 +64,6 @@ media-fonts/jsmath-extra-light
 # 2011-08-16 Fabio Erculiani: Cruft we don't want
 dev-php/xcache
 
-# udevadm settle bug on LiveCD boot
-# reported upstream...
-# Upstream is LAME
-# Kay Sievers !!
-# >=sys-fs/udev-168
-
 # 2011-08-17 Fabio Erculiani: Conflicts with x11-terms/terminal
 gnustep-apps/terminal
 
@@ -90,9 +84,6 @@ sys-auth/consolekit
 # mask is now: <dev-python/prettytable-0.8).
 >=dev-python/prettytable-0.8
 
-# 2014-03-26 Fabui Erculiani: we now use systemd from sabayon-distro
-sys-apps/systemd::gentoo
-
 # 2014-06-01 Fabio Erculiani: always prefer stable chrome-binary-plugins
 www-plugins/chrome-binary-plugins:beta
 www-plugins/chrome-binary-plugins:unstable
@@ -100,35 +91,11 @@ www-plugins/chrome-binary-plugins:unstable
 # 2014-08-31 Sławomir Nizio: we cannot support it properly, bug 3776
 app-portage/g-octave
 
-# 2014-09-30 Joost Ruis: Do not pull poppler from Portage
-app-text/poppler::gentoo
-
-# 2014-11-20 Joost Ruis: Mask portage version, we have a split version
-net-analyzer/nmap::gentoo
-
-# 2015-02-17 Joost Ruis: mask portage version
-net-p2p/bittornado::gentoo
-
 # 2015-02-19 Joost Ruis: Newer version is brokken with collectd
 >sys-libs/libstatgrab-0.17
 
-# 2016-03-03 Joost Ruis: Only use overlay version
-sys-apps/lsb-release::gentoo
-
 # 2016-03-14 Ettore Di Giacinto: Keep sddm from our overlay
 # x11-misc/sddm::gentoo
-
-# 2016-03-22 Ettore Di Giacinto: Keep apache from our overlay
-www-servers/apache::gentoo
-
-# 2016-04-27 Joost Ruis: Only use overlay version
-sys-boot/grub::gentoo
-
-# 2016-12-31 Joost Ruis: use overlay version
-media-sound/jack-audio-connection-kit::gentoo
-
-# 2017-02-18 Francesco Ferretti: use overlay version
-net-dns/avahi::gentoo
 
 # 2017-06-11+ Sławomir Nizio: dev-ruby/rake-remote_task 2.4.3 depends on <dev-ruby/rake-13
 >=dev-ruby/rake-13
@@ -150,21 +117,12 @@ net-dns/avahi::gentoo
 >=dev-haskell/http-client-0.5
 >dev-haskell/http-client-tls-0.2.4
 
-# 2018-01-27 Joost Ruis: mask sys-apps/baselayout from portage
-sys-apps/baselayout::gentoo
-
 # 2017-09-23 Sławomir Nizio: dev-ruby/gherkin 2.12.2 requires =dev-util/ragel-6*
 >dev-util/ragel-7
-
-# 2018-01-30 Joost Ruis: Use our overlay version
-virtual/linux-sources::gentoo
 
 # 2018-02-22 Sławomir Nizio: media-gfx/printrun needs media-gfx/cairosvg with
 # Python 2.7 support but only the older cairosvg fulfills that
 >=media-gfx/cairosvg-2
-
-# 2018-10-18 Joost Ruis: Use dev-python/pygobject from overlay
-dev-python/pygobject:3::gentoo
 
 # 2018-11-22 Sławomir Nizio: because of sys-cluster/ceph
 # (as of 12.2.7 and 12.2.8-r1)
@@ -172,9 +130,6 @@ dev-python/pygobject:3::gentoo
 
 # 2018-12-15 Sławomir Nizio: mc-1.5 has a DEPEND on <sci-libs/superlu-5
 >=sci-libs/superlu-5
-
-# 2019-01-25 Joost Ruis: Use overlay version
-dev-vcs/git::gentoo
 
 # 2019-06-26 Sławomir Nizio: 3.2.1 is stable, 3.2.1-r2 is merged, stick to that
 >=dev-libs/libffi-3.3
@@ -186,7 +141,20 @@ dev-vcs/git::gentoo
 >=dev-libs/libgit2-glib-0.29
 >=dev-python/pygit2-0.29
 
+# 2019-10-22 Joost Ruis: We have these packages on our overlay
+# So do not pull the Portage version
+app-text/poppler::gentoo
+dev-python/pygobject:3::gentoo
+dev-vcs/git::gentoo
+media-sound/jack-audio-connection-kit::gentoo
+net-analyzer/nmap::gentoo
+net-dns/avahi::gentoo
+net-p2p/bittornado::gentoo
+sys-apps/baselayout::gentoo
+sys-apps/lsb-release::gentoo
+sys-apps/systemd::gentoo
+sys-boot/grub::gentoo
+sys-devel/gcc::gentoo
+virtual/linux-sources::gentoo
+www-servers/apache::gentoo
 x11-drivers/nvidia-drivers::gentoo
-
-#temp mask
->=dev-lang/perl-5.30.0
