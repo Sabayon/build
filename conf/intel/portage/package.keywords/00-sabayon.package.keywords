@@ -1,4 +1,5 @@
 # Only use stable versions of these libs
+app-arch/bzip2 -~amd64
 sys-kernel/linux-headers -~amd64 -~x86
 sys-libs/glibc -~amd64 -~x86
 <dev-lang/python-3 -~amd64 -~x86
