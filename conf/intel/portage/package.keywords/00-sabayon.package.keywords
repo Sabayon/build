@@ -8,6 +8,7 @@ virtual/os-headers -~amd64 -~x86
 sys-libs/tevent -~amd64
 dev-libs/libevent -~amd64
 sci-libs/proj -~amd64
+sys-apps/portage -~amd64
 dev-lang/erlang -~amd64
 
 # force stable perl
@@ -51,9 +52,6 @@ dev-libs/icu -~amd64 -~x86
 
 # Grub2, make binpkg for now, keep masked
 <sys-boot/grub-2.99 **
-
-# Use portage-2.2
-=sys-apps/portage-2.2* **
 
 # using only stable versions
 www-client/chromium -~amd64 -~x86
