@@ -952,7 +952,7 @@ www-servers/apache apache2_modules_macro apache2_modules_slotmem_shm apache2_mod
 www-servers/cherokee admin
 
 # Inflate lighttpd
-www-servers/lighttpd fastcgi lua memcache xattr
+www-servers/lighttpd fastcgi lua memcache xattr -kerberos
 
 www-servers/nginx nginx_modules_http_stub_status nginx_modules_http_geoip
 
