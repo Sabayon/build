@@ -9,6 +9,7 @@ sys-libs/tevent -~amd64
 dev-libs/libevent -~amd64
 sci-libs/proj -~amd64
 sys-apps/portage -~amd64
+sys-cluster/galera -~amd64
 dev-lang/erlang -~amd64
 
 # force stable perl
