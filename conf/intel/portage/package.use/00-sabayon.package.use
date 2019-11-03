@@ -241,7 +241,7 @@ dev-libs/c-blosc hdf5
 # Needed by directvnc
 dev-libs/dbus-glib bash-completion
 # Required by terminology
-dev-libs/efl audio drm egl gles2 pulseaudio pixman sound X gstreamer -xcb -opengl -sdl -gnutls
+dev-libs/efl audio drm egl fontconfig gles2 pulseaudio pixman sound X gstreamer -xcb -opengl -sdl -gnutls
 dev-libs/folks eds vala
 dev-libs/gdl gnome
 # 2010-04-6, trying to disable USE="mono" from gmime
