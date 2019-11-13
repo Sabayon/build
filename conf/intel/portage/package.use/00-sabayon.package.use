@@ -276,6 +276,7 @@ dev-libs/xmlsec gcrypt nss
 dev-libs/openct pcsc-lite
 
 dev-lua/lpeg luajit
+dev-lua/luv luajit
 dev-lua/mpack luajit
 
 dev-ml/camlimages gs postscript
