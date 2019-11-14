@@ -362,11 +362,11 @@ dev-vcs/git-gui-tools sab-split tk -subversion
 dev-vcs/git-subversion sab-split subversion
 www-apps/gitweb sab-split cgi -subversion
 # git, misc. (keep them in sync)
-dev-vcs/git curl webdav
-dev-vcs/git-cvs curl webdav
-dev-vcs/git-gui-tools curl webdav
-dev-vcs/git-subversion curl webdav
-www-apps/gitweb curl webdav
+dev-vcs/git curl perforce webdav
+dev-vcs/git-cvs curl perforce webdav
+dev-vcs/git-gui-tools curl perforce webdav
+dev-vcs/git-subversion curl perforce webdav
+www-apps/gitweb curl perforce webdav
 
 games-simulation/flightgear -qt5
 games-emulation/generator sdlaudio
