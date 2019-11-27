@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 #
 # Entropy Server QA executable hook.
 # This file doesn't strictly need to be a shell script, but just an executable
