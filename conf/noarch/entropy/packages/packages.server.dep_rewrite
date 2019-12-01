@@ -64,6 +64,7 @@ rewrite media-gfx/engauge if-dep-has-use=qt5 from-dep=app-text/poppler to-dep=ap
 rewrite dev-libs/efl from-dep=app-text/poppler to-dep=app-text/poppler-base
 rewrite media-libs/gegl if-dep-has-use=cairo from-dep=app-text/poppler to-dep=app-text/poppler-glib drop-use=cairo
 rewrite app-text/kbibtex if-dep-has-use=qt5 from-dep=app-text/poppler to-dep=app-text/poppler-qt5 drop-use=qt5
+rewrite media-gfx/geeqie if-dep-has-use=cairo from-dep=app-text/poppler to-dep=app-text/poppler-glib drop-use=cairo
 
 # lightdm split rewrite
 x11-misc/lightdm-gtk-greeter (.*)x11-misc/lightdm(.*) \1x11-misc/lightdm-base\2
