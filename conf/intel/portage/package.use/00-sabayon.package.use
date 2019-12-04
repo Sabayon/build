@@ -247,6 +247,7 @@ dev-libs/gdl gnome
 # 2010-04-6, trying to disable USE="mono" from gmime
 # 2016-12-25, enabling smime on gmime for crypt useflag in notmuch
 dev-libs/gmime smime -mono
+dev-libs/gmp static-libs
 dev-libs/libassuan static-libs
 dev-libs/libdazzle vala
 dev-libs/libdbusmenu gtk3
