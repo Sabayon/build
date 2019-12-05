@@ -131,10 +131,6 @@ app-portage/g-octave
 # 2018-12-15 Sławomir Nizio: mc-1.5 has a DEPEND on <sci-libs/superlu-5
 >=sci-libs/superlu-5
 
-# 2019-06-26 Sławomir Nizio: 3.2.1 is stable, 3.2.1-r2 is merged, stick to that
->=dev-libs/libffi-3.3
->=dev-libs/libffi-3.3_rc0
-
 # 2019-08-19 Sławomir Nizio: dev-python/pygit2 must be matched (x.y parts) with
 # libgit2, but it can happen that there is no new enough version of the former
 >=dev-libs/libgit2-0.29
