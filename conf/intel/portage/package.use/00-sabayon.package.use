@@ -380,6 +380,7 @@ games-emulation/yabause -qt5
 games-engines/stratagus mng
 
 games-fps/darkplaces textures
+games-fps/eduke32 server vpx
 games-fps/freedoom doomsday
 games-fps/nexuiz dedicated maps
 games-fps/worldofpadman maps
