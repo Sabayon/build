@@ -423,6 +423,7 @@ kde-apps/kig python_single_target_python2_7
 kde-apps/kget -bittorrent semantic-desktop
 kde-apps/kio-extras mtp samba
 kde-apps/kopete addbookmarks alias autoreplace connectionstatus contactnotes gadu groupwise highlight history irc -kdeenablefinal netmeeting nowlistening oscar otr qq sametime skype statistics texteffect translator webpresence winpopup yahoo
+kde-apps/kross-interpreters python_single_target_python2_7
 kde-apps/krdc vnc
 kde-apps/ktp-common-internals otr
 kde-apps/marble plasma
