@@ -673,7 +673,7 @@ net-firewall/fwknop firewalld server -iptables
 net-fs/cifs-utils ads upcall
 
 # 32-bit ABI is not that useful; also fixes compilation of 3.6.24 (cannot find libpam for 32 bit)
-net-fs/samba -abi_x86_32 ads acl aio client oav swat winbind -cluster -ceph
+net-fs/samba -abi_x86_32 ads acl aio client oav python_single_target_python2_7 swat winbind -cluster -ceph
 
 # requires net-dns/avahi[-mdnsresponder-compat]
 net-fs/netatalk -avahi
