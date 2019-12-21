@@ -1283,3 +1283,6 @@ net-p2p/go-ethereum evm opencl
 media-libs/mesa opencl
 # Add electrum features
 net-misc/electrum qrcode sync trustedcoin_com cosign digitalbitbox
+
+# python_single_target_python2_7
+app-office/scribus python_single_target_python2_7
