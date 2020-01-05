@@ -16,9 +16,6 @@ app-forensics/air
 
 ### net-misc
 
-# Joost Ruis: This package cannot be in tree with distcc
-net-misc/pump
-
 # Joost Ruis: This package cannot be in tree with sys-apps/iproute2
 net-misc/arpd
 
@@ -27,9 +24,6 @@ net-misc/openntpd
 
 # Joost Ruis: We use net-misc/netkit-telnetd so we want to mask
 net-misc/telnet-bsd
-
-# Joost Ruis: We use dev-texlive/texlive-latexextra so we want to mask this
-dev-tex/prosper
 
 ### Games
 
@@ -57,12 +51,6 @@ sci-chemistry/molmol
 # 2010-10-29 Joost Ruis: collision with sci-libs/gdal
 sci-astronomy/cpl
 sci-astronomy/esorex
-
-# 2010-11-18 Joost Ruis: Blocks media-fonts/jsmath-extra-dark
-media-fonts/jsmath-extra-light
-
-# 2011-08-16 Fabio Erculiani: Cruft we don't want
-dev-php/xcache
 
 # 2011-08-17 Fabio Erculiani: Conflicts with x11-terms/terminal
 gnustep-apps/terminal
