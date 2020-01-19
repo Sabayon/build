@@ -159,7 +159,3 @@ x11-drivers/nvidia-drivers::gentoo
 >=app-misc/magneto-loader-322-r1
 >=x11-misc/magneto-gtk3-322-r1
 >=x11-misc/magneto-gtk-322-r1
-
-# 2020-01-19 Joost Ruis: pulls in >=sci-libs/lapack-3.8, creates a complex mess
->=virtual/blas-3.8
->=virtual/cblas-3.8
