@@ -925,6 +925,9 @@ sys-kernel/sabayon-sources symlink
 sys-libs/db -java
 sys-libs/zlib minizip
 
+virtual/blas eselect-ldso
+virtual/cblas eselect-ldso
+virtual/lapack eselect-ldso
 virtual/mpi romio
 virtual/ooo java
 virtual/opencl video_cards_nvidia video_cards_fglrx
