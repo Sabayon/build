@@ -297,8 +297,6 @@ dev-python/markdown pygments
 dev-python/matplotlib qt5 -wxwidgets
 # The cli flag just brings a lot of dependencies (Gentoo bug 656148)
 dev-python/netaddr -cli
-# Required by dev-python/graph-tool
-dev-python/numpy lapack
 # We want sqlite3 support in pypy
 dev-python/pypy sqlite
 dev-python/pyudev -qt5
