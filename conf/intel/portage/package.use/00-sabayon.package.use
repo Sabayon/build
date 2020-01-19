@@ -826,6 +826,7 @@ sci-libs/gdal curl geos
 sci-libs/hdf5 hl cxx -fortran -mpi -threads -szip
 sci-libs/itpp fftw
 sci-libs/indilib nova
+sci-libs/lapack eselect-ldso
 sci-libs/netcdf -fortran hdf5
 sci-libs/plplot -wxwidgets
 sci-libs/scipy sparse
