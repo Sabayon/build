@@ -143,19 +143,3 @@ virtual/linux-sources::gentoo
 www-servers/apache::gentoo
 x11-drivers/nvidia-drivers::gentoo
 
-# 2019-12-14 Sławomir Nizio: 322-r1 allows for py2 and py3 but Entropy is not
-# yet ready in this version; it's just ebuilds are prepared for 323 (323 will
-# be OK, 322-r1 is not)
-# 2019-12-20 Sławomir Nizio: change =322-r1 to >=322-r1, it's broken with py3
-# and provides no benefit for py2 users, so block the whole range
->=sys-apps/magneto-core-322-r1
->=sys-apps/rigo-daemon-322-r1
->=sys-apps/entropy-server-322-r1
->=sys-apps/entropy-322-r1
->=app-admin/matter-322-r1
->=app-admin/equo-322-r1
->=app-admin/rigo-322-r1
->=kde-misc/magneto-kde-322-r1
->=app-misc/magneto-loader-322-r1
->=x11-misc/magneto-gtk3-322-r1
->=x11-misc/magneto-gtk-322-r1
