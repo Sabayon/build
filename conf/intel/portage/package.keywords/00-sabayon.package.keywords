@@ -167,6 +167,9 @@ sys-apps/hwloc -~amd64
 # Force stable app-text/sword
 app-text/sword -~amd64
 
+# Force stable dev-python/QtPy
+dev-python/QtPy -~amd64
+
 # Mask all that require unstable >=net-libs/courier-unicode-2.0 in fact pinning
 # them to stable versions.  Some packages that depend on courier-unicode are
 # injected, making it harder to detect problems, so keeping them stable is
