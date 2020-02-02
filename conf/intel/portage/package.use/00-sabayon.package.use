@@ -972,6 +972,7 @@ x11-apps/mesa-progs egl gles2
 x11-base/xorg-server -ipv6 nptl kdrive xephyr xvfb
 x11-base/xorg-x11 intel
 x11-drivers/xf86-video-intel dri3 sna uxa
+x11-drivers/xf86-video-qxl python_single_target_python2_7
 
 x11-drivers/nvidia-drivers distribution uvm tools
 x11-drivers/nvidia-drivers -gtk
