@@ -416,7 +416,7 @@ kde-apps/akonadi tools
 # See bug 3619
 kde-apps/ark lzma
 kde-apps/dolphin semantic-desktop thumbnail
-kde-apps/gwenview kipi semantic-desktop
+kde-apps/gwenview kipi raw semantic-desktop
 kde-apps/kdepim-runtime google
 kde-apps/kig python_single_target_python2_7
 kde-apps/kget -bittorrent semantic-desktop
