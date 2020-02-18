@@ -915,6 +915,11 @@ sys-libs/gpm static-libs
 
 sys-libs/gwenhywfar designer qml sensors serialport webkit
 
+sys-libs/ldb python_single_target_python2_7
+sys-libs/talloc python_single_target_python2_7
+sys-libs/tdb python_single_target_python2_7
+sys-libs/tevent python_single_target_python2_7
+
 sys-kernel/dracut device-mapper dracut_modules_biosdevname dracut_modules_btrfs dracut_modules_dmraid dracut_modules_dmsquash-live dracut_modules_gensplash dracut_modules_lvm dracut_modules_mdraid dracut_modules_multipath dracut_modules_nbd dracut_modules_nfs dracut_modules_plymouth dracut_modules_syslog dracut_modules_crypt dracut_modules_crypt-gpg dracut_modules_crypt-loop dracut_modules_iscsi dracut_modules_systemd net
 sys-kernel/genkernel cryptsetup crypt
 sys-kernel/genkernel-next cryptsetup crypt dmraid mdadm
