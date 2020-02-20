@@ -9,3 +9,6 @@
 
 # We want true multilib abi
 -abi_x86_32
+
+# Enable gentoo-vm for use dev-java/openjdk
+-gentoo-vm
