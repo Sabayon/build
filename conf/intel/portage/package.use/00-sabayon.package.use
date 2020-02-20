@@ -1302,3 +1302,4 @@ net-mail/libpst python_single_target_python2_7
 app-office/ledger python_single_target_python2_7
 app-vim/vimoutliner python_single_target_python2_7
 media-gfx/gimp python_single_target_python2_7
+media-plugins/gimp-resynthesizer python_single_target_python2_7
