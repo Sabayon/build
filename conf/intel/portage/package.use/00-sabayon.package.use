@@ -1305,3 +1305,7 @@ media-gfx/gimp python_single_target_python2_7
 media-plugins/gimp-resynthesizer python_single_target_python2_7
 sci-visualization/pyxplot python_single_target_python2_7
 app-admin/packagekit-base python_single_target_python2_7
+
+# remove py2 e.g. to satisfy deps (for example, to avoid downgrades to versions
+# of dependendencies supporting Python 2)
+dev-python/jaraco-functools -python_targets_python2_7
