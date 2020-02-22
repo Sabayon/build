@@ -1,6 +1,7 @@
 # Fix poppler dependencies, we provide our own split deps
 app-editors/gummi (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 app-editors/kile (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
+app-editors/tea (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
 app-text/paperwork-backend (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 app-misc/beagle (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 app-misc/pdfpc (.*)app-text/poppler(.*) app-text/poppler-glib
@@ -58,13 +59,13 @@ www-apps/swish-e (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-base\2
 x11-misc/qcomicbook (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
 xfce-extra/tumbler (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-glib\2
 media-gfx/pqiv (.*)app-text/poppler(.*)(\[.*\])? \1app-text/poppler-glib\2
-app-editors/tea (.*)app-text/poppler(.*)(\[.*\]) \1app-text/poppler-qt5\2
 
 rewrite media-gfx/engauge if-dep-has-use=qt5 from-dep=app-text/poppler to-dep=app-text/poppler-qt5 drop-use=qt5
 rewrite dev-libs/efl from-dep=app-text/poppler to-dep=app-text/poppler-base
 rewrite media-libs/gegl if-dep-has-use=cairo from-dep=app-text/poppler to-dep=app-text/poppler-glib drop-use=cairo
 rewrite app-text/kbibtex if-dep-has-use=qt5 from-dep=app-text/poppler to-dep=app-text/poppler-qt5 drop-use=qt5
 rewrite media-gfx/geeqie if-dep-has-use=cairo from-dep=app-text/poppler to-dep=app-text/poppler-glib drop-use=cairo
+rewrite app-text/pdfarranger if-dep-has-use=introspection from-dep=app-text/poppler to-dep=app-text/poppler-glib
 
 # lightdm split rewrite
 x11-misc/lightdm-gtk-greeter (.*)x11-misc/lightdm(.*) \1x11-misc/lightdm-base\2
@@ -120,6 +121,8 @@ media-video/kino (.*)x11-libs/gtk(.*) \1x11-libs/gtk\2:2
 * (.*)dev-python/pygobject(.*)\[cairo(.*)\] \1dev-python/pygobject-cairo\2
 # Rewrite almost every standard dev-python/pygobject dependency
 * (.*)dev-python/pygobject(?!.*-base.*)(?!.*-cairo.*)((?=-[0-9]\.)?)(?!.*-2\*)(?!.*:2)((.*:3)?)(?!.*\[.*cairo.*\].*) \1dev-python/pygobject-base\2\3
+# pygobject, other rewrites
+rewrite app-text/pdfarranger if-dep-has-use=cairo from-dep=dev-python/pygobject to-dep=dev-python/pygobject-cairo drop-use=cairo
 
 # nvidia-drivers rewrites
 virtual/opencl (.*)x11-drivers/nvidia-drivers(.*) \1x11-drivers/nvidia-userspace\2
