@@ -1304,3 +1304,4 @@ app-vim/vimoutliner python_single_target_python2_7
 media-gfx/gimp python_single_target_python2_7
 media-plugins/gimp-resynthesizer python_single_target_python2_7
 sci-visualization/pyxplot python_single_target_python2_7
+app-admin/packagekit-base python_single_target_python2_7
