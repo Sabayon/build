@@ -834,7 +834,7 @@ sci-libs/scipy sparse
 sci-libs/ViSP opencv
 
 sci-mathematics/maxima latex sbcl
-sci-mathematics/octave fftw curl gui doc gnuplot hdf5
+sci-mathematics/octave fftw curl gui doc gnuplot hdf5 graphicsmagick
 
 # htmldoc, doc, graphviz are required by app-doc/root-docs
 sci-physics/root htmldoc doc fftw graphviz
