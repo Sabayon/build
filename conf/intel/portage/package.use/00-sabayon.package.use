@@ -1316,3 +1316,7 @@ dev-python/pytest-cov -python_targets_python2_7
 dev-python/pytest-pep8 -python_targets_python2_7
 dev-python/pytest-runner -python_targets_python2_7
 dev-python/pytest-timeout -python_targets_python2_7
+dev-vcs/bzr -python_targets_python2_7
+dev-vcs/bzr-rewrite -python_targets_python2_7
+dev-vcs/bzr-xmloutput -python_targets_python2_7
+dev-vcs/bzrtools -python_targets_python2_7
