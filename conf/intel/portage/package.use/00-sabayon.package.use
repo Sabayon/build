@@ -138,7 +138,7 @@ app-pda/gtkpod gstreamer
 app-pda/barry boost gui
 
 app-portage/eix sqlite
-app-portage/layman bazaar git mercurial subversion sync-plugin-portage
+app-portage/layman git mercurial subversion sync-plugin-portage
 
 # app-portage/smart-live-rebuild depends on app-portage/gentoopm
 # and app-portage/gentoopm depends on || ( sys-apps/pkgcore ... );
