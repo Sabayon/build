@@ -143,3 +143,5 @@ virtual/linux-sources::gentoo
 www-servers/apache::gentoo
 x11-drivers/nvidia-drivers::gentoo
 
+# temp mask
+>sys-apps/hwloc-1.11.2-r1
