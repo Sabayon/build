@@ -1307,6 +1307,7 @@ sci-visualization/pyxplot python_single_target_python2_7
 app-admin/packagekit-base python_single_target_python2_7
 media-sound/lash python_single_target_python2_7
 sys-libs/libieee1284 python_single_target_python2_7
+media-libs/libkate python_single_target_python2_7
 
 # remove py2 e.g. to satisfy deps (for example, to avoid downgrades to versions
 # of dependendencies supporting Python 2)
