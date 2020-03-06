@@ -248,6 +248,8 @@ dev-libs/gdl gnome
 # 2016-12-25, enabling smime on gmime for crypt useflag in notmuch
 dev-libs/gmime smime -mono
 dev-libs/gmp static-libs
+# -abi_x86_32 because (in 1.3.3) it hardcodes /usr/lib32
+dev-libs/jthread -abi_x86_32
 dev-libs/libassuan static-libs
 dev-libs/libdazzle vala
 dev-libs/libdbusmenu gtk3
