@@ -641,6 +641,7 @@ media-video/xine-ui aalib vdr
 media-video/dvdrip -xine subtitles fping
 
 net-analyzer/fping suid
+net-analyzer/gvmd sqlite
 net-analyzer/namebench -X
 # No need to have USE=X on net-snmp
 # ucd-compat required by net-misc/vmpsd-1.4
