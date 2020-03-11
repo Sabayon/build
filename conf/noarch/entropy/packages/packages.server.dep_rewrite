@@ -160,3 +160,6 @@ app-portage/layman (.*)dev-vcs/subversion(.*)
 # this Boost version anyway. (It is: !dev-libs/boost:0/1.57.0.)
 media-sound/ncmpcpp dev-libs/boost:(.*)
 media-sound/ncmpcpp ++dev-libs/boost:0[nls,threads]<2>
+
+# for default/linux/amd64/17.1/desktop to be extra sure the migration packages go first
+sys-libs/glibc ++sys-apps/sabayon-lib-migration-check<2>

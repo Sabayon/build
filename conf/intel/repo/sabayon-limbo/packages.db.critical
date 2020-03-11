@@ -4,3 +4,5 @@ sys-devel/base-gcc:8.2.0
 >=sys-apps/entropy-313
 >=sys-devel/binutils-2.32-r1
 >=net-libs/gnutls-3.6.7
+sys-apps/sabayon-lib-migration
+sys-apps/sabayon-lib-migration-check
