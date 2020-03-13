@@ -144,5 +144,4 @@ www-servers/apache::gentoo
 x11-drivers/nvidia-drivers::gentoo
 
 # temp mask
->dev-libs/protobuf-3.8.0
 >media-libs/x265-3.1.2
