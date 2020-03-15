@@ -1313,6 +1313,7 @@ app-forensics/openscap python_single_target_python2_7
 net-analyzer/net-snmp python_single_target_python2_7
 mail-client/claws-mail python_single_target_python2_7
 net-im/ekg2 python_single_target_python2_7
+media-tv/mythtv python_single_target_python2_7
 
 # remove py2 e.g. to satisfy deps (for example, to avoid downgrades to versions
 # of dependendencies supporting Python 2)
