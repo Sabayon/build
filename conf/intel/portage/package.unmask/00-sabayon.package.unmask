@@ -12,3 +12,9 @@ media-tv/kodi
 
 # We need this for our kernels
 sys-apps/v86d
+
+# Entropy packages are currently masked in Portage due
+# it's depend on packagekit
+app-admin/equo
+sys-apps/entropy
+sys-apps/entropy-server
