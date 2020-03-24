@@ -1319,6 +1319,7 @@ dev-db/mysql-workbench python_single_target_python2_7
 www-apps/trac python_single_target_python2_7
 app-misc/email2trac python_single_target_python2_7
 app-text/pylize python_single_target_python2_7
+app-text/sgmltools-lite python_single_target_python2_7
 
 # remove py2 e.g. to satisfy deps (for example, to avoid downgrades to versions
 # of dependendencies supporting Python 2)
