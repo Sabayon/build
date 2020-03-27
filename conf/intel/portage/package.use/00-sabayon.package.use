@@ -672,6 +672,7 @@ net-dns/libidn2 static-libs
 # We must choose between mysql and postgres
 net-dns/mydns mysql
 net-firewall/fwknop firewalld server -iptables
+net-firewall/nftables xtables
 net-fs/cifs-utils ads upcall
 
 # 32-bit ABI is not that useful; also fixes compilation of 3.6.24 (cannot find libpam for 32 bit)
