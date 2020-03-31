@@ -1332,6 +1332,7 @@ net-analyzer/nmap python_single_target_python2_7
 net-analyzer/zenmap python_single_target_python2_7
 app-misc/golly python_single_target_python2_7
 app-office/planner python_single_target_python2_7
+dev-util/glade python_single_target_python2_7
 
 # remove py2 e.g. to satisfy deps (for example, to avoid downgrades to versions
 # of dependendencies supporting Python 2)
