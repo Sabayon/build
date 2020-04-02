@@ -427,7 +427,7 @@ kde-apps/kross-interpreters python_single_target_python2_7
 kde-apps/krdc vnc
 kde-apps/ktp-common-internals otr
 kde-apps/marble plasma
-kde-apps/okular chm djvu ebook crypt
+kde-apps/okular chm djvu ebook epub crypt
 kde-apps/poxml extras
 
 kde-frameworks/baloo minimal
