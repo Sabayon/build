@@ -73,6 +73,7 @@ app-emulation/docker-runc apparmor
 app-emulation/ganeti kvm lxc htools
 app-emulation/libvirt lxc rbd virtualbox fuse kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/open-vm-tools -X -xinerama
+app-emulation/protontricks -gui
 # Added virgl and gtk to introduce virtual 3D gpu on qemu
 # Add smartcard flag required by gnome-boxes
 app-emulation/qemu glusterfs nfs rbd fdt spice -gtk virtfs xattr usbredir gtk virgl smartcard
