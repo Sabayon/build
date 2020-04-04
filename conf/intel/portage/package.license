@@ -3,9 +3,6 @@ app-text/cpdf				Coherent-Graphics
 dev-util/nvidia-cuda-toolkit		NVIDIA-CUDA
 games-arcade/primateplunge		Primate-Plunge
 games-arcade/thinktanks-demo		THINKTANKS
-games-fps/quake3-data			Q3AEULA
-games-fps/quake3-demo			Q3AEULA
-games-fps/enemy-territory		RTCW-ETEULA
 games-fps/urbanterror			Q3AEULA Q3AEULA-20000111
 games-fps/urbanterror-data		Q3AEULA Q3AEULA-20000111
 games-server/steamcmd			Steam
@@ -20,7 +17,6 @@ media-sound/teamspeak-client		teamspeak3
 media-sound/teamspeak-server		teamspeak3
 media-video/makemkv			MakeMKV-EULA
 games-action/heretic2-demo		LOKI-EULA
-net-misc/chrome-remote-desktop		google-chrome
 net-misc/teamviewer			TeamViewer
 sci-biology/foldingathome		FAH-EULA-2014
 sci-electronics/eagle                   cadsoft
