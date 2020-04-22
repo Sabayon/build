@@ -386,6 +386,8 @@ games-fps/freedoom doomsday
 games-fps/nexuiz dedicated maps
 games-fps/worldofpadman maps
 
+games-sports/xmoto double-precision
+
 games-strategy/0ad editor sound
 games-strategy/freeciv -qt5
 games-strategy/ufoai client server
