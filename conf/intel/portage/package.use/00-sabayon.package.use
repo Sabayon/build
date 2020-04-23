@@ -1342,6 +1342,7 @@ net-mail/mailman python_single_target_python2_7
 dev-python/nautilus-python python_single_target_python2_7
 app-office/pybliographer python_single_target_python2_7
 dev-libs/libnatspec python_single_target_python2_7
+dev-python/pymdown-extensions python_single_target_python2_7
 
 # remove py2 e.g. to satisfy deps (for example, to avoid downgrades to versions
 # of dependendencies supporting Python 2)
