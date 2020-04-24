@@ -1,6 +1,6 @@
 sys-devel/base-gcc:8.2.0
->=sys-apps/portage-2.3.69
+>=sys-apps/portage-2.3.89
 >sys-libs/glibc-2.28.9999
->=sys-apps/entropy-313
+>=sys-apps/entropy-324
 >=sys-devel/binutils-2.32-r1
 >=net-libs/gnutls-3.6.7
