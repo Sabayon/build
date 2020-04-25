@@ -800,7 +800,7 @@ sci-biology/transfac -emboss
 sci-chemistry/openbabel -perl -python
 sci-chemistry/xds-bin smp
 
-sci-chemistry/apbs iapbs tools
+sci-chemistry/apbs iapbs tools python_single_target_python2_7
 
 sci-electronics/geda doc stroke
 
