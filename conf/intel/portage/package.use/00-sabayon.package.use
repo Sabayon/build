@@ -1326,6 +1326,7 @@ dev-python/pymdown-extensions -python_single_target_python2_7
 gnome-base/libglade python_single_target_python2_7
 kde-apps/kross-interpreters python_single_target_python2_7
 x11-drivers/xf86-video-qxl python_single_target_python2_7
+sci-libs/xdmf2 python_single_target_python2_7
 
 # remove py2 e.g. to satisfy deps (for example, to avoid downgrades to versions
 # of dependendencies supporting Python 2)
