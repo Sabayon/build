@@ -2,7 +2,7 @@ app-admin/equo
 app-misc/sabayon-version
 dev-db/sqlite
 sys-apps/entropy
-sys-devel/base-gcc:7.3.0
+sys-devel/base-gcc:8.2.0
 sys-libs/db:6.0
 virtual/cron   
 # virtual/linux-binary
