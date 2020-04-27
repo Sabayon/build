@@ -575,12 +575,11 @@ media-sound/asunder wavpack
 media-sound/audacity ladspa vamp soundtouch id3tag midi sbsms -ffmpeg
 media-sound/audacious gtk3 wma timidity lirc dbus chardet -gtk -qt5
 media-sound/cantata replaygain taglib cdparanoia devices
-media-sound/clementine -lastfm ios moodbar mtp -ipod
+media-sound/clementine -lastfm ios moodbar mtp
 media-sound/cmus mikmod
 media-sound/deadbeef alac ape cover curl lastfm m3u hotkeys sndfile supereq wavpack wma
 media-sound/gmusicbrowser gstreamer
 media-sound/gpodder gstreamer
-media-sound/guayadeque -ipod
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
 media-sound/lilypond guile2
 media-sound/lmms fftw fluidsynth vst
@@ -597,7 +596,7 @@ media-sound/qtractor sse
 media-sound/pulseaudio gnome system-wide -qt5 -gtk native-headset ofono-headset
 # 2.92 with USE=cdr requires =app-cdr/brasero-3.4* but
 # gnome-base/gnome-core-apps[cdr] depends on >=app-cdr/brasero-3.6.1
-media-sound/rhythmbox -cdr -ipod
+media-sound/rhythmbox -cdr
 media-sound/snd fftw
 media-sound/sonic-visualiser fftw
 >=media-sound/soundkonverter-0.2.90-r1 lame
