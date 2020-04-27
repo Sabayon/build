@@ -132,7 +132,6 @@ app-office/libreoffice -nsplugin gnome java templates -kde pdfimport binfilter -
 app-office/libreoffice-l10n-meta linguas_am linguas_as linguas_as_IN linguas_ast linguas_be linguas_be_BY linguas_bo linguas_brx linguas_ca_XV linguas_dgo linguas_dz linguas_en_ZA linguas_fo linguas_gd linguas_gu linguas_gug linguas_hi_IN linguas_ia linguas_id linguas_ka linguas_kn linguas_kok linguas_ks linguas_ku linguas_ky linguas_lb linguas_lo linguas_mai linguas_mi linguas_ml linguas_ml_IN linguas_mni linguas_mr linguas_mr_IN linguas_my linguas_ne linguas_nr linguas_ns linguas_nso linguas_oc linguas_om linguas_or linguas_or_IN linguas_pa_IN linguas_pap linguas_ps linguas_sa_IN linguas_sat linguas_sd linguas_sh linguas_si linguas_sid linguas_sq linguas_st linguas_sw linguas_sw_TZ linguas_te linguas_te_IN linguas_th linguas_ti linguas_ti_ER linguas_tn linguas_ts linguas_tt linguas_ug linguas_ur_IN linguas_ve linguas_xh linguas_zu
 app-office/magicpoint mng
 
-app-pda/gtkpod gstreamer
 # Added boost and gui flags to barry
 app-pda/barry boost gui
 
@@ -576,11 +575,12 @@ media-sound/asunder wavpack
 media-sound/audacity ladspa vamp soundtouch id3tag midi sbsms -ffmpeg
 media-sound/audacious gtk3 wma timidity lirc dbus chardet -gtk -qt5
 media-sound/cantata replaygain taglib cdparanoia devices
-media-sound/clementine -lastfm ios moodbar mtp
+media-sound/clementine -lastfm ios moodbar mtp -ipod
 media-sound/cmus mikmod
 media-sound/deadbeef alac ape cover curl lastfm m3u hotkeys sndfile supereq wavpack wma
 media-sound/gmusicbrowser gstreamer
 media-sound/gpodder gstreamer
+media-sound/guayadeque -ipod
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
 media-sound/lilypond guile2
 media-sound/lmms fftw fluidsynth vst
@@ -597,7 +597,7 @@ media-sound/qtractor sse
 media-sound/pulseaudio gnome system-wide -qt5 -gtk native-headset ofono-headset
 # 2.92 with USE=cdr requires =app-cdr/brasero-3.4* but
 # gnome-base/gnome-core-apps[cdr] depends on >=app-cdr/brasero-3.6.1
-media-sound/rhythmbox -cdr
+media-sound/rhythmbox -cdr -ipod
 media-sound/snd fftw
 media-sound/sonic-visualiser fftw
 >=media-sound/soundkonverter-0.2.90-r1 lame
