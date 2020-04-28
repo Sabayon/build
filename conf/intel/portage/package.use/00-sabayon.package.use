@@ -1329,6 +1329,7 @@ sci-chemistry/pdb2pqr python_single_target_python2_7
 app-emulation/playonlinux python_single_target_python2_7
 net-irc/irker python_single_target_python2_7
 media-sound/tunapie python_single_target_python2_7
+media-sound/jack python_single_target_python2_7
 
 # remove py2 e.g. to satisfy deps (for example, to avoid downgrades to versions
 # of dependendencies supporting Python 2)
