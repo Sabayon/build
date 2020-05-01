@@ -1331,6 +1331,7 @@ net-irc/irker python_single_target_python2_7
 media-sound/tunapie python_single_target_python2_7
 media-sound/jack python_single_target_python2_7
 games-rpg/wastesedge python_single_target_python2_7
+games-rpg/adonthell python_single_target_python2_7
 
 # remove py2 e.g. to satisfy deps (for example, to avoid downgrades to versions
 # of dependendencies supporting Python 2)
