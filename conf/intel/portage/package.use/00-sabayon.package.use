@@ -734,7 +734,7 @@ net-misc/minidlna netgear readynas
 net-misc/mosh ufw
 # bluetooth use flag is useless
 # wext due to bug 3283
-net-misc/networkmanager -bluetooth connection-sharing dhclient -dhcpcd -gnutls introspection modemmanager nss wext wimax -resolvconf
+net-misc/networkmanager -bluetooth connection-sharing dhclient -dhcpcd -gnutls introspection modemmanager nss wext wimax -resolvconf -elogind
 # OLD: to make VPN working with networkmanager (nm-applet)
 # NEW: USE=gtk makes these plugins work properly with
 # newer nm-applet. Please, don't remove it and see
