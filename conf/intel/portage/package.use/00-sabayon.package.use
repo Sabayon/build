@@ -593,7 +593,7 @@ media-sound/qtractor sse
 # 2013-07-11: gtk3 is only used to set a proper window icon...
 # 2016-07-13: enable headset profiles, see bug #5232
 # 2016-12-01: kde-plasma/plasma-pa requires gnome use enabled
-media-sound/pulseaudio gnome system-wide -qt5 -gtk native-headset ofono-headset
+media-sound/pulseaudio gnome system-wide -qt5 -gtk native-headset ofono-headset -elogind
 # 2.92 with USE=cdr requires =app-cdr/brasero-3.4* but
 # gnome-base/gnome-core-apps[cdr] depends on >=app-cdr/brasero-3.6.1
 media-sound/rhythmbox -cdr
