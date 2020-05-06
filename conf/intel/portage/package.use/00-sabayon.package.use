@@ -917,6 +917,8 @@ sys-kernel/sabayon-sources symlink
 sys-libs/db -java
 sys-libs/zlib minizip
 
+sys-process/procps -elogind
+
 virtual/blas eselect-ldso
 virtual/cblas eselect-ldso
 virtual/lapack eselect-ldso
