@@ -255,7 +255,7 @@ dev-libs/libxml2 icu
 dev-libs/nss utils
 
 # required by net-misc/curl[static-libs], enabled here
-dev-libs/openssl:0 static-libs
+dev-libs/openssl:0 static-libs sslv3
 dev-libs/popt static-libs
 dev-libs/tinyxml stl
 dev-libs/tntnet sdk
