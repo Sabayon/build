@@ -338,6 +338,8 @@ dev-util/geany -gtk3
 dev-util/geany-plugins ctags enchant git gtkspell pretty-printer -gtk3
 dev-util/glade -gnome
 dev-util/kdevelop php qthelp ruby
+dev-util/mottainai-agent lxd
+dev-util/mottainai-server lxd
 dev-util/nvidia-cuda-sdk opencl
 dev-util/nvidia-cuda-toolkit debugger eclipse profiler
 dev-util/xdelta lzma
