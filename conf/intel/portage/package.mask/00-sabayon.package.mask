@@ -147,4 +147,4 @@ x11-drivers/nvidia-drivers::gentoo
 >media-libs/x265-3.1.2
 
 # 2020-05-09 Daniele Rondina: We use for now our portage ebuild
-sys-apps/portage::gentoo
+# sys-apps/portage::gentoo
