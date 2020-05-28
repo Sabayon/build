@@ -1350,3 +1350,4 @@ dev-python/pytest-runner -python_targets_python2_7
 dev-python/pytest-timeout -python_targets_python2_7
 dev-python/reportlab -python_targets_python2_7
 media-libs/mutagen -python_targets_python2_7
+sys-apps/portage -python_targets_python2_7
