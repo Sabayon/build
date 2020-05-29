@@ -787,7 +787,7 @@ net-print/hplip -acl fax hpijs parport snmp static-ppds usb
 net-proxy/privoxy threads
 net-proxy/tsocks tordns
 
-net-wireless/gnuradio atsc channels dtv fec grc noaa performance-counters python_single_target_python2_7
+net-wireless/gnuradio atsc channels dtv fec grc noaa performance-counters
 net-wireless/bluez gstreamer obex user-session
 net-wireless/wpa_supplicant -qt5 wimax ap p2p eap-sim wps
 
