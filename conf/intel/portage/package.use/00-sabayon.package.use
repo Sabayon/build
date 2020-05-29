@@ -397,6 +397,7 @@ gnome-base/libgnomecanvas glade
 gnome-base/librsvg gnome
 gnome-base/nautilus gnome sendto
 
+gnome-extra/cinnamon-session -elogind
 gnome-extra/evolution-data-server oauth ldap kerberos vala
 gnome-extra/libgsf gnome
 gnome-extra/nautilus-sendto -cdr
