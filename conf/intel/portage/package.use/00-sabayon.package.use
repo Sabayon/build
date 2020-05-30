@@ -388,7 +388,7 @@ games-strategy/warzone2100 videos
 gnome-base/gconf policykit
 gnome-base/gnome-control-center networkmanager input_devices_wacom
 gnome-base/gnome-settings-daemon networkmanager input_devices_wacom
-gnome-base/gvfs afp ios samba gnome gdu google gnome-online-accounts fuse archive gnome-keyring mtp nfs udisks -elogind
+gnome-base/gvfs afp ios samba gnome gdu google gnome-online-accounts fuse archive gnome-keyring mtp nfs udisks
 net-misc/gnome-online-miners flickr
 media-plugins/grilo-plugins flickr
 
@@ -397,7 +397,6 @@ gnome-base/libgnomecanvas glade
 gnome-base/librsvg gnome
 gnome-base/nautilus gnome sendto
 
-gnome-extra/cinnamon-session -elogind
 gnome-extra/evolution-data-server oauth ldap kerberos vala
 gnome-extra/libgsf gnome
 gnome-extra/nautilus-sendto -cdr
@@ -599,7 +598,7 @@ media-sound/qtractor sse
 # 2013-07-11: gtk3 is only used to set a proper window icon...
 # 2016-07-13: enable headset profiles, see bug #5232
 # 2016-12-01: kde-plasma/plasma-pa requires gnome use enabled
-media-sound/pulseaudio gnome system-wide -qt5 -gtk native-headset ofono-headset -elogind
+media-sound/pulseaudio gnome system-wide -qt5 -gtk native-headset ofono-headset
 # 2.92 with USE=cdr requires =app-cdr/brasero-3.4* but
 # gnome-base/gnome-core-apps[cdr] depends on >=app-cdr/brasero-3.6.1
 media-sound/rhythmbox -cdr
@@ -740,7 +739,7 @@ net-misc/minidlna netgear readynas
 net-misc/mosh ufw
 # bluetooth use flag is useless
 # wext due to bug 3283
-net-misc/networkmanager -bluetooth connection-sharing dhclient -dhcpcd -gnutls introspection modemmanager nss wext wimax -resolvconf -elogind
+net-misc/networkmanager -bluetooth connection-sharing dhclient -dhcpcd -gnutls introspection modemmanager nss wext wimax -resolvconf
 # OLD: to make VPN working with networkmanager (nm-applet)
 # NEW: USE=gtk makes these plugins work properly with
 # newer nm-applet. Please, don't remove it and see
@@ -922,8 +921,6 @@ sys-kernel/sabayon-sources symlink
 
 sys-libs/db -java
 sys-libs/zlib minizip
-
-sys-process/procps -elogind
 
 virtual/blas eselect-ldso
 virtual/cblas eselect-ldso
