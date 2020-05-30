@@ -1360,3 +1360,4 @@ dev-python/pygobject-cairo -python_targets_python2_7
 dev-python/Babel -python_targets_python2_7
 app-emulation/xen-pvgrub -python_single_target_python2_7
 app-emulation/xen-tools -python_single_target_python2_7
+dev-libs/xapian-bindings -python_single_target_python2_7
