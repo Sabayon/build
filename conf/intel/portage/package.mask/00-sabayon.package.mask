@@ -108,10 +108,6 @@ app-portage/g-octave
 # 2017-09-23 Sławomir Nizio: dev-ruby/gherkin 2.12.2 requires =dev-util/ragel-6*
 >dev-util/ragel-7
 
-# 2018-02-22 Sławomir Nizio: media-gfx/printrun needs media-gfx/cairosvg with
-# Python 2.7 support but only the older cairosvg fulfills that
->=media-gfx/cairosvg-2
-
 # 2018-11-22 Sławomir Nizio: because of sys-cluster/ceph
 # (as of 12.2.7 and 12.2.8-r1)
 >=dev-libs/crypto++-7
