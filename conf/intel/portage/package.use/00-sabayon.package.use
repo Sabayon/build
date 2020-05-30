@@ -1358,3 +1358,6 @@ app-admin/rigo -python_targets_python2_7
 app-misc/magneto-loader -python_targets_python2_7
 kde-misc/magneto-kde -python_targets_python2_7
 dev-python/pywavelets -python_targets_python2_7
+dev-python/pygobject -python_targets_python2_7
+dev-python/pygobject-base -python_targets_python2_7
+dev-python/pygobject-cairo -python_targets_python2_7
