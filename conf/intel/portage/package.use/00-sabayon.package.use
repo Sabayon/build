@@ -1335,3 +1335,7 @@ dev-python/pillow python_targets_python2_7
 
 # media-tv/mythtv still requires this
 dev-python/requests-cache python_targets_python2_7
+dev-python/requests python_targets_python2_7
+dev-python/urllib3 python_targets_python2_7
+dev-python/cryptography python_targets_python2_7
+dev-python/pyopenssl python_targets_python2_7
