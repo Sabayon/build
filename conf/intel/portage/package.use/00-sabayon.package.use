@@ -1331,4 +1331,4 @@ games-rpg/wastesedge python_single_target_python2_7
 games-rpg/adonthell python_single_target_python2_7
 
 # media-tv/kodi still requires this
-dev-python/pillow python_single_target_python2_7
+dev-python/pillow python_targets_python2_7
