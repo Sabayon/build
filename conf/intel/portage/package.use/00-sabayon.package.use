@@ -206,6 +206,8 @@ dev-java/swt cairo -xulrunner
 dev-java/swt -firefox
 # net-p2p/vuze requires swt[gnome] in order to work, see bug #3724
 dev-java/swt gnome
+# sci-mathematics/rstudio requires dev-java/validation-api[source]
+dev-java/validation-api source
 
 dev-lang/fpc source ide
 dev-lang/lua deprecated
