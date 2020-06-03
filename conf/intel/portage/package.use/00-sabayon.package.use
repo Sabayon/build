@@ -681,7 +681,6 @@ net-im/bitlbee twitter
 net-im/centerim gadu
 # ejabberd, more features!
 net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
-net-im/ekg2 -gadu gpg xmpp sqlite
 net-im/empathy gnome
 net-im/gajim -zeroconf
 net-im/kadu xmpp
@@ -1299,7 +1298,6 @@ media-libs/libkate python_single_target_python2_7
 app-forensics/openscap python_single_target_python2_7
 net-analyzer/net-snmp python_single_target_python2_7
 mail-client/claws-mail python_single_target_python2_7
-net-im/ekg2 python_single_target_python2_7
 media-tv/mythtv python_single_target_python2_7
 dev-db/mysql-workbench python_single_target_python2_7
 www-apps/trac python_single_target_python2_7
