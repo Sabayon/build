@@ -1293,7 +1293,6 @@ app-office/ledger python_single_target_python2_7
 app-vim/vimoutliner python_single_target_python2_7
 media-gfx/gimp python_single_target_python2_7
 media-plugins/gimp-resynthesizer python_single_target_python2_7
-sci-visualization/pyxplot python_single_target_python2_7
 media-sound/lash python_single_target_python2_7
 sys-libs/libieee1284 python_single_target_python2_7
 media-libs/libkate python_single_target_python2_7
@@ -1324,13 +1323,10 @@ dev-libs/libnatspec python_single_target_python2_7
 gnome-base/libglade python_single_target_python2_7
 x11-drivers/xf86-video-qxl python_single_target_python2_7
 sci-libs/xdmf2 python_single_target_python2_7
-sci-chemistry/pdb2pqr python_single_target_python2_7
 app-emulation/playonlinux python_single_target_python2_7
 net-irc/irker python_single_target_python2_7
 media-sound/tunapie python_single_target_python2_7
 media-sound/jack python_single_target_python2_7
-games-rpg/wastesedge python_single_target_python2_7
-games-rpg/adonthell python_single_target_python2_7
 
 # media-tv/kodi still requires this
 dev-python/pillow python_targets_python2_7
