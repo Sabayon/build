@@ -1330,3 +1330,6 @@ dev-python/requests python_targets_python2_7
 dev-python/urllib3 python_targets_python2_7
 dev-python/cryptography python_targets_python2_7
 dev-python/pyopenssl python_targets_python2_7
+
+# We must keep alive pylons for a bit
+dev-python/genshi python_targets_python2_7
