@@ -11,6 +11,7 @@ games-strategy/darwinia			Introversion
 games-simulation/bcs-demo		BCS
 net-wireless/broadcom-sta		Broadcom
 app-emulation/virtualbox-bin		PUEL
+app-emulation/virtualbox-extpack-oracle PUEL
 media-libs/fdk-aac			FraunhoferFDK
 media-sound/baudline			baudline
 media-sound/teamspeak-client		teamspeak3
