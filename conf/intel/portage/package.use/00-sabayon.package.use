@@ -302,8 +302,13 @@ dev-python/pyglet -alsa
 dev-python/sphinx latex
 dev-python/twisted conch
 
-dev-qt/qt-creator autotools cmake designer git subversion valgrind examples
+dev-qt/linguist-tools qml
+dev-qt/qt-creator autotools cmake designer git modeling qmldesigner qmlprofiler subversion valgrind examples
+dev-qt/qt3d qml
+dev-qt/qtbluetooth qml
+dev-qt/qtcharts qml
 dev-qt/qtcore:5 icu
+dev-qt/qtcharts qml
 dev-qt/qtdeclarative webkit private-headers
 dev-qt/qthelp compat
 dev-qt/qtwebkit kde icu printsupport
@@ -311,6 +316,7 @@ dev-qt/qtgui mng private-headers raster gtkstyle
 dev-qt/qtgui:5 egl ibus mng private-headers raster -gtkstyle
 dev-qt/qtmultimedia:5 gstreamer qml widgets
 dev-qt/qtquickcontrols:5 widgets
+dev-qt/qtquickcontrols2:5 widgets
 dev-qt/qtscript private-headers
 dev-qt/qtscript:5 private-headers scripttools
 dev-qt/qtsensors qml
