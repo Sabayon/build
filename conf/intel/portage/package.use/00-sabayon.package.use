@@ -1294,7 +1294,6 @@ net-misc/electrum qrcode sync trustedcoin_com cosign digitalbitbox
 # python_single_target_python2_7
 app-office/scribus python_single_target_python2_7
 net-mail/libpst python_single_target_python2_7
-app-office/ledger python_single_target_python2_7
 app-vim/vimoutliner python_single_target_python2_7
 media-gfx/gimp python_single_target_python2_7
 media-plugins/gimp-resynthesizer python_single_target_python2_7
@@ -1306,7 +1305,6 @@ net-analyzer/net-snmp python_single_target_python2_7
 mail-client/claws-mail python_single_target_python2_7
 media-tv/mythtv python_single_target_python2_7
 dev-db/mysql-workbench python_single_target_python2_7
-www-apps/trac python_single_target_python2_7
 app-misc/email2trac python_single_target_python2_7
 app-text/sgmltools-lite python_single_target_python2_7
 www-apps/viewvc python_single_target_python2_7
