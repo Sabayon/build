@@ -1070,10 +1070,6 @@ media-tv/mythtv -css
 
 media-video/avidemux amr
 
-# Pylons stuff
-dev-python/paste openid
-dev-python/pylons genshi jinja
-
 # openresolv support
 net-dns/bind dlz resolvconf
 net-misc/connman iptables networkmanager resolvconf
@@ -1324,6 +1320,3 @@ media-sound/jack python_single_target_python2_7
 
 # media-tv/kodi still requires this
 dev-python/pillow python_targets_python2_7
-
-# We must keep alive pylons for a bit
-dev-python/genshi python_targets_python2_7
