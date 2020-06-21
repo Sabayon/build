@@ -142,5 +142,6 @@ x11-drivers/nvidia-drivers::gentoo
 # temp mask
 >media-libs/x265-3.1.2
 
-# 2020-05-09 Daniele Rondina: We use for now our portage ebuild
-# sys-apps/portage::gentoo
+# 2020-06-21 Joost Ruis: Mask app-text/texlive-core from Portage
+# Can be unmasked when split poppler gets bumped
+app-text/texlive-core::gentoo
