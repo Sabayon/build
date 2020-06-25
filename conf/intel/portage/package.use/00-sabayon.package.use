@@ -57,7 +57,7 @@ app-crypt/qca gpg
 
 app-doc/doxygen latex dot
 
-app-editors/bluefish gnome
+app-editors/bluefish gnome -python
 app-editors/emacs libxml2 xft
 app-editors/gedit-plugins terminal
 # USE=spell wants Python 3.2, doesn't allow 3.3
