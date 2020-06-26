@@ -79,9 +79,6 @@ www-plugins/chrome-binary-plugins:unstable
 # 2014-08-31 Sławomir Nizio: we cannot support it properly, bug 3776
 app-portage/g-octave
 
-# 2015-02-19 Joost Ruis: Newer version is brokken with collectd
->sys-libs/libstatgrab-0.17
-
 # 2016-03-14 Ettore Di Giacinto: Keep sddm from our overlay
 # x11-misc/sddm::gentoo
 
