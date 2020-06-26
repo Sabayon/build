@@ -445,7 +445,7 @@ kde-plasma/plasma-workspace geolocation
 
 lxde-base/lxterminal gtk3
 
-lxqt-base/lxqt-meta admin icons
+lxqt-base/lxqt-meta admin archiver lximage powermanagement processviewer -sddm
 
 mail-client/claws-mail archive bogofilter calendar networkmanager pdf perl python rss spam-report webkit -kde -pda
 mail-client/evolution exchange
