@@ -1,4 +1,4 @@
-w## If you dont want to organize it, put new entries in at the very end
+## If you dont want to organize it, put new entries in at the very end
 
 app-accessibility/at-spi2-core -X
 # These two want either one of alsa pulseaudio, etc
