@@ -1,4 +1,4 @@
-## If you dont want to organize it, put new entries in at the very end
+w## If you dont want to organize it, put new entries in at the very end
 
 app-accessibility/at-spi2-core -X
 # These two want either one of alsa pulseaudio, etc
@@ -429,6 +429,7 @@ kde-apps/okular chm djvu ebook epub crypt
 kde-apps/poxml extras
 
 kde-frameworks/baloo minimal
+kde-frameworks/kitemmodels qml
 
 # as of 1.3.2, bluetooth support is not yet ready, and as reported causes
 # issues (scans the device often)
