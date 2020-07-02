@@ -985,7 +985,7 @@ x11-drivers/nvidia-drivers -gtk
 # see Sept. 6 2012 discussion on staff ML
 # Update: since we cannot disable USE=multilib,
 # USE flag has been renamed to x-multilib
-x11-drivers/nvidia-userspace -x-multilib tools
+x11-drivers/nvidia-userspace -x-multilib libglvnd tools
 
 # required by gnome-extra/cinnamon-screensaver >= 3.2.13-r2
 x11-libs/xapps introspection
