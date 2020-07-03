@@ -979,7 +979,7 @@ x11-base/xorg-server -ipv6 nptl kdrive xephyr xvfb
 x11-base/xorg-x11 intel
 x11-drivers/xf86-video-intel dri3 sna uxa
 
-x11-drivers/nvidia-drivers distribution uvm tools
+x11-drivers/nvidia-drivers distribution libglvnd uvm tools
 x11-drivers/nvidia-drivers -gtk
 # Disable USE=multilib, it's way too much space on amd64
 # see Sept. 6 2012 discussion on staff ML
