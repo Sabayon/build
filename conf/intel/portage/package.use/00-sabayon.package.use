@@ -303,7 +303,7 @@ dev-python/sphinx latex
 dev-python/twisted conch
 
 dev-qt/linguist-tools qml
-dev-qt/qt-creator autotools cmake designer git modeling qmldesigner qmlprofiler subversion valgrind examples
+dev-qt/qt-creator autotools cmake designer git lsp modeling qmldesigner qmlprofiler subversion valgrind examples
 dev-qt/qt3d qml
 dev-qt/qtbluetooth qml
 dev-qt/qtcharts qml
