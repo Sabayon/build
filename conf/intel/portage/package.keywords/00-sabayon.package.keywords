@@ -12,6 +12,7 @@ sci-libs/proj -~amd64
 sys-apps/portage -~amd64
 sys-cluster/galera -~amd64
 dev-lang/erlang -~amd64
+sys-libs/libseccomp -~amd64
 
 # force stable perl
 dev-lang/perl -~amd64 -~x86
