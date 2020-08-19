@@ -1324,3 +1324,4 @@ net-irc/telepathy-idle python_single_target_python2_7
 
 # media-tv/kodi still requires this
 dev-python/pillow python_targets_python2_7
+dev-python/setuptools python_targets_python2_7
