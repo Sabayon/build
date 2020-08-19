@@ -57,9 +57,9 @@ APACHE2_MPMS="prefork"
 GENTOO_MIRRORS="ftp://ftp.spline.inf.fu-berlin.de/mirrors/gentoo/ rsync://gentoo.bloodhost.ru/gentoo-distfiles ftp://gentoo.mirrors.tds.net/gentoo ftp://ftp.halifax.rwth-aachen.de/gentoo/ rsync://mirror.neolabs.kz/gentoo http://ftp.gentoo.bg/ http://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://mirrors.tera-byte.com/pub/gentoo"
 ACCEPT_LICENSE="* -@EULA"
 
-USE_PYTHON="3.6"
-PYTHON_TARGETS="python3_6"
-PYTHON_SINGLE_TARGET="python3_6"
+USE_PYTHON="3.8"
+PYTHON_TARGETS="python3_8"
+PYTHON_SINGLE_TARGET="python3_8"
 
 # Some more forced targets
 PHP_TARGETS="php7-3"
