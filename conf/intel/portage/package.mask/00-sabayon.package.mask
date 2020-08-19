@@ -142,3 +142,6 @@ app-text/texlive-core::gentoo
 
 # 2020-07-03 Joost Ruis: Do not pull in app-eselect/eselect-opengl
 app-eselect/eselect-opengl
+
+# 2020-08-19 Joost Ruis: Do not pull in newer portage version
+>sys-apps/portage-2.3.89-r3
