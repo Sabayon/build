@@ -148,3 +148,4 @@ app-eselect/eselect-opengl
 
 # temp mask
 >media-gfx/sane-backends-1.0.27-r3
+>kde-apps/kio-extras-20.04.3
