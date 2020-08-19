@@ -140,10 +140,5 @@ x11-drivers/nvidia-drivers::gentoo
 # Can be unmasked when split poppler gets bumped
 app-text/texlive-core::gentoo
 
-# 2020-06-28 Joost Ruis: Prevent pulling in python >3.6 
-dev-lang/python:3.7
-dev-lang/python:3.8
-dev-lang/python:3.9
-
 # 2020-07-03 Joost Ruis: Do not pull in app-eselect/eselect-opengl
 app-eselect/eselect-opengl
