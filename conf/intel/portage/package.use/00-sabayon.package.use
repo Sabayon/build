@@ -664,7 +664,7 @@ net-dialup/mgetty -fax
 net-dialup/ppp atm dhcp radius -gtk
 
 net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm gtk python autoipd -qt5 introspection
-net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat
+net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat -abi_x86_32
 net-dns/avahi-gtk introspection
 net-dns/avahi-gtk3 introspection
 net-dns/avahi-mono introspection
