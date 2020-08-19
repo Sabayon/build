@@ -145,3 +145,6 @@ app-eselect/eselect-opengl
 
 # 2020-08-19 Joost Ruis: Do not pull in newer portage version
 >sys-apps/portage-2.3.89-r3
+
+# temp mask
+>media-gfx/sane-backends-1.0.27-r3
