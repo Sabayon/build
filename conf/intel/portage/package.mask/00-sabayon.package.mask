@@ -136,10 +136,6 @@ virtual/linux-sources::gentoo
 www-servers/apache::gentoo
 x11-drivers/nvidia-drivers::gentoo
 
-# 2020-06-21 Joost Ruis: Mask app-text/texlive-core from Portage
-# Can be unmasked when split poppler gets bumped
-app-text/texlive-core::gentoo
-
 # 2020-07-03 Joost Ruis: Do not pull in app-eselect/eselect-opengl
 app-eselect/eselect-opengl
 
