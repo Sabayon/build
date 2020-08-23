@@ -974,6 +974,7 @@ www-servers/lighttpd fastcgi lua memcache xattr -kerberos
 www-servers/nginx nginx_modules_http_stub_status nginx_modules_http_geoip
 
 x11-apps/mesa-progs egl gles2
+x11-apps/igt-gpu-tools video_cards_intel
 
 # X.Org stuff
 x11-base/xorg-server -ipv6 nptl kdrive xephyr xvfb
