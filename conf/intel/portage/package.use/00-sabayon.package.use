@@ -1329,3 +1329,4 @@ dev-python/pillow python_targets_python2_7
 dev-python/setuptools python_targets_python2_7
 dev-python/certifi python_targets_python2_7
 dev-python/setuptools_scm python_targets_python2_7
+dev-vcs/subversion python_targets_python2_7
