@@ -14,6 +14,7 @@ sys-cluster/galera -~amd64
 dev-lang/erlang -~amd64
 sys-libs/libseccomp -~amd64
 net-fs/samba -~amd64
+sys-libs/e2fsprogs-libs -~amd64
 
 # force stable perl
 dev-lang/perl -~amd64 -~x86
