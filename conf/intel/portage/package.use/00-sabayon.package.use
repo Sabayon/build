@@ -556,6 +556,7 @@ media-libs/mlt melt frei0r kdenlive quicktime python
 # Disable GUI libs.
 media-libs/openal -qt5
 media-libs/openexr -video_cards_nvidia
+media-libs/opus custom-modes
 # on amd64, if ABI_X86=32 is set, exif must be unset
 media-libs/oyranos -exif
 
