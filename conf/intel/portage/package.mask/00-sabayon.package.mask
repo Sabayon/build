@@ -135,3 +135,6 @@ app-eselect/eselect-opengl
 
 # 2020-08-19 Joost Ruis: Do not pull in newer portage version
 >sys-apps/portage-2.3.89-r3
+
+# 20202-08-26 Joost Ruis: Do not pull in newer python versions
+>dev-lang/python:3.7
