@@ -282,7 +282,7 @@ dev-perl/PDL fftw
 dev-python/cgkit 3ds
 # Make possible to have dev-python/epydoc without python compiled with tk
 dev-python/epydoc -X
-dev-python/QtPy gui webengine
+dev-python/QtPy gui printsupport webengine
 dev-python/ipython qt5 -wxwidgets
 # Required by app-editors/retext
 dev-python/markdown pygments
