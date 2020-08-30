@@ -592,6 +592,7 @@ media-sound/ardour freesound lv2
 media-sound/asunder wavpack
 media-sound/audacity ladspa vamp soundtouch id3tag midi sbsms -ffmpeg
 media-sound/audacious gtk3 wma timidity lirc dbus chardet -gtk -qt5
+media-sound/audiotools -gui
 media-sound/cantata replaygain taglib cdparanoia devices
 media-sound/clementine -lastfm ios moodbar mtp
 media-sound/cmus mikmod
