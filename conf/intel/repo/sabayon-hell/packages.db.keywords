@@ -1,7 +1,0 @@
-sys-apps/portage ~x86 ~amd64
-dev-lang/python:3.3 ~x86 ~amd64
-
-# GNOME 3.12 mask
->=sys-power/upower-0.99.0 ~x86 ~amd64
-# Allow systemd and upower 0.99 friendly version
-=xfce-extra/xfce4-power-manager-1.2.0_p20140527 ~amd64 ~x86 amd64 x86
