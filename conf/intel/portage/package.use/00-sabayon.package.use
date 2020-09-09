@@ -913,7 +913,9 @@ sys-fs/udisks cryptsetup crypt
 # We use a builtin kernel module
 sys-fs/zfs kernel-builtin
 
+sys-apps/entropy-server -matter
 sys-apps/kmod lzma static-libs
+
 sys-libs/libcxx -libunwind
 sys-libs/libcxxabi -libunwind
 sys-libs/e2fsprogs-libs static-libs
