@@ -1297,40 +1297,18 @@ media-libs/mesa opencl
 net-misc/electrum qrcode sync trustedcoin_com cosign digitalbitbox
 
 # python_single_target_python2_7
-app-office/scribus python_single_target_python2_7
-net-mail/libpst python_single_target_python2_7
-app-vim/vimoutliner python_single_target_python2_7
 media-gfx/gimp python_single_target_python2_7
-media-plugins/gimp-resynthesizer python_single_target_python2_7
 media-sound/lash python_single_target_python2_7
-sys-libs/libieee1284 python_single_target_python2_7
 media-libs/libkate python_single_target_python2_7
-app-forensics/openscap python_single_target_python2_7
 mail-client/claws-mail python_single_target_python2_7
-media-tv/mythtv python_single_target_python2_7
 dev-db/mysql-workbench python_single_target_python2_7
-app-misc/email2trac python_single_target_python2_7
 app-text/sgmltools-lite python_single_target_python2_7
-www-apps/viewvc python_single_target_python2_7
-net-firewall/fwknop python_single_target_python2_7
-net-mail/offlineimap python_single_target_python2_7
 app-portage/unsymlink-lib python_single_target_python2_7
 net-analyzer/nmap python_single_target_python2_7
 net-analyzer/zenmap python_single_target_python2_7
-app-office/planner python_single_target_python2_7
-dev-util/glade python_single_target_python2_7
-dev-libs/libnatspec python_single_target_python2_7
 gnome-base/libglade python_single_target_python2_7
 x11-drivers/xf86-video-qxl python_single_target_python2_7
-sci-libs/xdmf2 python_single_target_python2_7
-app-emulation/playonlinux python_single_target_python2_7
-net-irc/irker python_single_target_python2_7
-media-sound/jack python_single_target_python2_7
 net-irc/telepathy-idle python_single_target_python2_7
 
-# media-tv/kodi still requires this
-dev-python/pillow python_targets_python2_7
-dev-python/setuptools python_targets_python2_7
-dev-python/certifi python_targets_python2_7
-dev-python/setuptools_scm python_targets_python2_7
-dev-vcs/subversion python_targets_python2_7
+# Gimp requirement
+dev-python/pycairo python_targets_python2_7
