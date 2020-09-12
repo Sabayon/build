@@ -1312,3 +1312,6 @@ net-irc/telepathy-idle python_single_target_python2_7
 
 # Gimp requirement
 dev-python/pycairo python_targets_python2_7
+
+# Make migration to Python 3.7 more smooth by keeping support on 3.6 for a while
+sys-apps/portage python_targets_python3_6
