@@ -1316,3 +1316,6 @@ dev-python/setuptools python_targets_python2_7
 
 # Make migration to Python 3.7 more smooth by keeping support on 3.6 for a while
 sys-apps/portage python_targets_python3_6
+dev-python/certifi python_targets_python3_6
+dev-python/setuptools python_targets_python3_6
+dev-python/setuptools_scm python_targets_python3_6
