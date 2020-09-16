@@ -9,10 +9,6 @@ app-admin/conky -audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thi
 app-admin/keepassxc browser
 # eselect-php now contains fpm init script and apache stuff
 app-eselect/eselect-php fpm apache2
-# PackageKit, Sabayon config
-app-admin/packagekit entropy cron pm-utils -qt5 -gtk
-# PackageKit settings
-app-admin/packagekit-base pm-utils entropy -bash-completion
 app-admin/ulogd mysql
 app-admin/setools -X
 
@@ -30,7 +26,6 @@ app-arch/zstd lz4
 app-backup/backintime gnome -kde
 # Only one DB supported.
 app-backup/bacula mysql vim-syntax -sqlite
-app-backup/deja-dup nautilus
 app-backup/fsarchiver lzma zstd
 
 app-cdr/brasero nautilus
@@ -68,7 +63,6 @@ app-editors/xemacs xft
 app-emacs/auctex preview-latex
 
 # virt stuff
-app-emulation/docker-runc apparmor
 app-emulation/ganeti kvm lxc htools
 app-emulation/libvirt lxc rbd virtualbox fuse kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/open-vm-tools -X -xinerama
@@ -78,7 +72,6 @@ app-emulation/protontricks -gui
 app-emulation/qemu glusterfs nfs rbd fdt spice -gtk virtfs xattr usbredir gtk virgl smartcard
 app-emulation/vice fullscreen gtk -sdl
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
-app-emulation/wine-any samba -ffmpeg
 app-emulation/winetricks -gtk
 # add HVM
 app-emulation/xen-tools hvm qemu
@@ -119,7 +112,6 @@ app-misc/sphinx mysql
 app-misc/tuxcmd-modules gnome unrar
 
 app-mobilephone/gnokii sms -X
-app-mobilephone/kannel mysql
 
 app-office/abiword plugins
 app-office/calligra kdepim semantic-desktop
@@ -273,16 +265,12 @@ dev-lua/lpeg luajit
 dev-lua/luv luajit
 dev-lua/mpack luajit
 
-dev-ml/camlimages gs postscript
 dev-ml/lablgl glut
 dev-ml/lablgtk gnomecanvas sourceview
 
 dev-perl/Alien-wxWidgets gstreamer
 dev-perl/PDL fftw
 
-dev-python/cgkit 3ds
-# Make possible to have dev-python/epydoc without python compiled with tk
-dev-python/epydoc -X
 dev-python/QtPy gui printsupport webengine
 dev-python/ipython qt5 -wxwidgets
 # Required by app-editors/retext
@@ -354,7 +342,6 @@ dev-util/nvidia-cuda-sdk opencl
 dev-util/nvidia-cuda-toolkit debugger eclipse profiler
 dev-util/xdelta lzma
 
-dev-vcs/bzr bash-completion curl sftp
 dev-vcs/subversion -java -apache2 -dso -kde
 
 # git, split-flags
@@ -453,7 +440,6 @@ lxqt-base/lxqt-meta admin archiver lximage powermanagement processviewer -displa
 
 mail-client/claws-mail archive bogofilter calendar networkmanager pdf perl python rss spam-report webkit -kde -pda
 mail-client/evolution exchange
-mail-client/mail-notification mozilla pop mbox gmail
 mail-client/mutt -berkdb -lmdb -qdbm -tokyocabinet gdbm sasl sidebar smtp
 mail-client/roundcube mysql
 mail-client/thunderbird lightning -system-sqlite -system-libvpx -system-av1
@@ -494,7 +480,6 @@ media-gfx/gimp aalib mng webp wmf smp
 media-gfx/gmic gimp fftw -ffmpeg -qt5
 media-gfx/gphoto2 aalib
 media-gfx/graphicsmagick q16 -lcms
-media-gfx/greycstoration fftw
 media-gfx/gthumb -cdr slideshow
 media-gfx/imagemagick fftw gs perl q32
 media-gfx/kphotoalbum kipi
@@ -550,7 +535,6 @@ media-libs/libsfml doc examples
 media-libs/libsoundtouch sse2
 media-libs/libvpx postproc svc
 media-libs/libxtract fftw
-media-libs/mediastreamer video -ffmpeg
 # www-client/chromium wants media-libs/mesa[gles2]
 media-libs/mesa gbm g3dvl nptl openvg pic shared-dricore shared-glapi video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_r100 video_cards_r200 video_cards_r300 video_cards_r600 video_cards_radeon video_cards_via video_cards_vmware video_cards_radeonsi vulkan xa xorg gles2
 media-libs/mlt melt frei0r kdenlive quicktime python
@@ -649,7 +633,6 @@ media-video/dvdrip -xine subtitles fping
 
 net-analyzer/fping suid
 net-analyzer/gvmd sqlite
-net-analyzer/namebench -X
 # No need to have USE=X on net-snmp
 # ucd-compat required by net-misc/vmpsd-1.4
 net-analyzer/net-snmp ucd-compat -kmem -python -python_single_target_python2_7 -X
@@ -816,8 +799,6 @@ sci-biology/transfac -emboss
 # temp. disable python support due to sip shit
 sci-chemistry/openbabel -perl -python
 sci-chemistry/xds-bin smp
-
-sci-chemistry/apbs iapbs tools python_single_target_python2_7
 
 sci-electronics/geda doc stroke
 
@@ -1043,7 +1024,6 @@ x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisV
 x11-themes/gnome-colors-common branding
 x11-themes/gtk-engines-murrine -themes
 x11-themes/qtcurve plasma
-x11-themes/skinenigmang-logos dxr3
 x11-themes/tango-icon-theme branding
 x11-themes/zuki-themes gnome-shell
 
@@ -1255,9 +1235,6 @@ app-emulation/docker apparmor aufs btrfs overlay seccomp
 x11-misc/xplanet -gif
 
 www-client/w3m fbcon imlib
-
-# needed for app-editors/atom
-dev-util/electron -system-ffmpeg
 
 # needed for lxd
 app-emulation/lxc cgmanager
