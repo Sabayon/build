@@ -58,9 +58,6 @@ gnustep-apps/terminal
 # 2012-12-14 Fabio Erculiani: it is causing annoying sh errors on chroots
 >=app-shells/autojump-21.1.0
 
-# 2013-02-08 Fabio Erculiani: we use man-db
-sys-apps/man
-
 # 2013-06-26 Fabio Erculiani: migrated to logind
 sys-auth/consolekit
 
@@ -129,9 +126,6 @@ sys-devel/gcc::gentoo
 virtual/linux-sources::gentoo
 www-servers/apache::gentoo
 x11-drivers/nvidia-drivers::gentoo
-
-# 2020-07-03 Joost Ruis: Do not pull in app-eselect/eselect-opengl
-app-eselect/eselect-opengl
 
 # 2020-08-26 Joost Ruis: Do not pull in newer python version
 >dev-lang/python-3.7.8-r2
