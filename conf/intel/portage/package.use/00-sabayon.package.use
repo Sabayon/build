@@ -1309,6 +1309,7 @@ net-analyzer/zenmap python_single_target_python2_7
 gnome-base/libglade python_single_target_python2_7
 x11-drivers/xf86-video-qxl python_single_target_python2_7
 net-irc/telepathy-idle python_single_target_python2_7
+media-plugins/gimp-resynthesizer python_single_target_python2_7
 
 # Gimp requirement
 dev-python/pycairo python_targets_python2_7
