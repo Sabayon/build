@@ -1103,7 +1103,7 @@ net-dns/avahi dbus gtk3
 # Disable accessibility, since it's just a virtual dependency
 gnome-base/gnome -extras -accessibility
 # Enable some fancy stuff on gdm
-gnome-base/gdm gnome-keyring smartcard accessibility fprint -wayland
+gnome-base/gdm gnome-keyring smartcard accessibility fprint wayland
 
 sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango -static-libs
 
