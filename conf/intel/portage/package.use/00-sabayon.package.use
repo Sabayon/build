@@ -1299,3 +1299,4 @@ sys-apps/portage python_targets_python3_6
 dev-python/certifi python_targets_python3_6
 dev-python/setuptools python_targets_python3_6
 dev-python/setuptools_scm python_targets_python3_6
+dev-python/six python_targets_python3_6
