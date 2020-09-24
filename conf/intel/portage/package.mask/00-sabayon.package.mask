@@ -115,7 +115,6 @@ app-text/poppler::gentoo
 dev-python/pygobject:3::gentoo
 dev-vcs/git::gentoo
 media-sound/jack-audio-connection-kit::gentoo
-net-analyzer/nmap::gentoo
 net-dns/avahi::gentoo
 net-p2p/bittornado::gentoo
 sys-apps/baselayout::gentoo
