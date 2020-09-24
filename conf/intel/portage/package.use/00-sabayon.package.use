@@ -1273,27 +1273,6 @@ media-libs/mesa opencl
 # Add electrum features
 net-misc/electrum qrcode sync trustedcoin_com cosign digitalbitbox
 
-# python_single_target_python2_7
-media-gfx/gimp python_single_target_python2_7
-media-sound/lash python_single_target_python2_7
-media-libs/libkate python_single_target_python2_7
-mail-client/claws-mail python_single_target_python2_7
-dev-db/mysql-workbench python_single_target_python2_7
-app-text/sgmltools-lite python_single_target_python2_7
-app-portage/unsymlink-lib python_single_target_python2_7
-net-analyzer/nmap python_single_target_python2_7
-net-analyzer/zenmap python_single_target_python2_7
-gnome-base/libglade python_single_target_python2_7
-x11-drivers/xf86-video-qxl python_single_target_python2_7
-net-irc/telepathy-idle python_single_target_python2_7
-media-plugins/gimp-resynthesizer python_single_target_python2_7
-
-# Gimp requirement
-dev-python/pycairo python_targets_python2_7
-dev-python/setuptools python_targets_python2_7
-dev-python/certifi python_targets_python2_7
-dev-python/setuptools_scm python_targets_python2_7
-
 # Make migration to Python 3.7 more smooth by keeping support on 3.6 for a while
 # These are all required for Portage. We Can drop this end 2021.
 app-portage/gemato python_targets_python3_6
