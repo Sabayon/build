@@ -85,12 +85,8 @@ gnome-base/gnome-keyring app-crypt/pinentry\[gnome-keyring\] app-crypt/pinentry-
 # Add conflict to net-im/ejabberd for ejabberd-babel
 # net-im/ejabberd ++!net-im/ejabberd-babel<2>
 
-# Force netbeans-ide to use our split subversion-java package
-dev-java/netbeans-ide (.*)dev-vcs/subversion(.*):0\[java\] \1dev-vcs/subversion-java\2:0
-
 # Drop kde-l10n* deps, always
 * (.*)kde-apps/kde-l10n(.*)
-* (.*)kde-apps/kde4-l10n(.*)
 
 # Drop x11-libs/cairo PDEPEND from dev-libs/gobject-introspection
 # cairo pulls in mesa (through virtual/opengl) and this is very
