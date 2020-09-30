@@ -927,6 +927,7 @@ www-apache/mod_dav_svn -dso
 www-apache/mod_jk java
 www-apache/mod_perl ithreads
 
+www-apps/nextcloud -imagemagick
 www-apps/owncloud mysql postgres sqlite3
 www-apps/phpBB mysqli sqlite
 www-apps/postfixadmin mysql
