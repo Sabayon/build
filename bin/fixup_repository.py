@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import bz2
 import os
 import sys
