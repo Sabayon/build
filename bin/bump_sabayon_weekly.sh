@@ -10,7 +10,7 @@ SSH_KEY=${SSH_KEY:-/sabayon/conf/ssh/id_rsa}
 
 RSYNC_BIN=${RSYNC_BIN:-/usr/bin/rsync}
 RSYNC_ARGS=${RSYNC_ARGS:--avP --delay-updates}
-RSYNC_BASE_PARAMS=${RSYNC_BASE_PARAMS:---exclude packages*/* --exclude *.asc --delete --delete-during --delete-excluded}
+RSYNC_BASE_PARAMS=${RSYNC_BASE_PARAMS:---exclude 'packages*/*' --exclude '*.asc' --delete --delete-during --delete-excluded}
 
 SSH_BIN=${SSH_BIN:-/usr/bin/ssh}
 SSH_ARGS=${SSH_ARGS:--i ${SSH_KEY} -p 9222}
