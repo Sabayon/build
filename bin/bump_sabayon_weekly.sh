@@ -28,6 +28,7 @@ main () {
   mkdir -p ${STAGING_DIR}
 
   local temp_dest_dir=${STAGING_DIR}/update_sabayon_weekly_repo
+  mkdir -p ${temp_dest_dir}
 
   ${RSYNC_BIN} ${RSYNC_ARGS} ${SOURCE_DIR} ${temp_dest_dir} ${RSYNC_BASE_PARAMS}
 
