@@ -44,6 +44,9 @@ main () {
   # rsync from the staging directory to the final
   ${RSYNC_BIN} ${RSYNC_ARGS} ${temp_dest_dir}/ ${DEST_DIR}/
 
+  echo "check $DEST_DIR..."
+  return 0
+
   # create remote directory
   ${SSH_BIN} ${SSH_ARGS} ${REMOTE_HOST} mkdir -p ${REMOTE_DIR} || true
 
