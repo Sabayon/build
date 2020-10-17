@@ -4,8 +4,8 @@
 set -xe
 
 BASE_DIR="${BASE_DIR:-/sabayon/rsync/rsync.sabayon.org/entropy/standard}"
-SOURCE_DIR=${SOURCE_DIR:-${BASE_DIR}/sabayonlinux.org}
-DEST_DIR=${DEST_DIR:-${BASE_DIR}/sabayon-weekly}
+SOURCE_DIR=${SOURCE_DIR:-${BASE_DIR}/sabayonlinux.org/}
+DEST_DIR=${DEST_DIR:-${BASE_DIR}/sabayon-weekly/}
 SSH_KEY=${SSH_KEY:-/sabayon/conf/ssh/id_rsa}
 
 RSYNC_BIN=${RSYNC_BIN:-/usr/bin/rsync}
@@ -27,7 +27,6 @@ main () {
   mkdir -p ${STAGING_DIR}
 
   local temp_dest_dir=${STAGING_DIR}/update_sabayon_weekly_repo
-  mkdir -p ${temp_dest_dir}
 
   ${RSYNC_BIN} ${RSYNC_ARGS} ${SOURCE_DIR} ${temp_dest_dir} --exclude 'packages*/*' --exclude '*.asc' --delete --delete-during --delete-excluded
 
