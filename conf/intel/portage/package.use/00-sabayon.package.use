@@ -645,7 +645,7 @@ net-analyzer/wireshark lua python
 net-analyzer/zabbix frontend agent server mysql ssh snmp proxy -sqlite3
 
 net-dialup/mgetty -fax
-net-dialup/ppp atm dhcp radius -gtk
+net-dialup/ppp atm dhcp eap-tls radius -gtk
 
 net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm gtk python autoipd -qt5 introspection
 net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat
