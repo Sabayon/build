@@ -9,10 +9,6 @@ import shutil
 import sys
 import tempfile
 
-sys.path.insert(0, "/usr/lib/entropy/entropy_path_loader")
-
-import entropy_path_loader
-
 from entropy.server.interfaces import Server
 
 import entropy.dep
