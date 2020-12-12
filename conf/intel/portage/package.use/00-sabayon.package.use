@@ -63,7 +63,6 @@ app-editors/xemacs xft
 app-emacs/auctex preview-latex
 
 # virt stuff
-app-emulation/ganeti kvm lxc htools
 app-emulation/libvirt lxc rbd virtualbox fuse kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/open-vm-tools -X -xinerama
 app-emulation/protontricks -gui
@@ -88,8 +87,6 @@ app-i18n/skk-jisyo cdb
 
 app-laptop/pommed -gtk
 app-laptop/tp_smapi hdaps
-
-app-leechcraft/lc-lmp kde
 
 # USE=sound wants mplayer
 app-misc/anki -sound
@@ -320,7 +317,6 @@ dev-scheme/guile regex discouraged networking
 dev-scheme/racket backtrace doc futures jit places threads
 dev-scheme/scm libscm
 
-dev-db/sqliteodbc sqlite3
 dev-db/mysql -berkdb client-libs pic extraengine
 dev-db/mysql-cluster embedded
 dev-db/mariadb -berkdb client-libs extraengine odbc
@@ -396,11 +392,6 @@ gnome-base/nautilus gnome sendto
 gnome-extra/evolution-data-server oauth ldap kerberos vala
 gnome-extra/libgsf gnome
 gnome-extra/nautilus-sendto -cdr
-# nm-applet-gtk2 is the bloody version of nm-applet
-# used by non-gtk3 DEs, like LXDE, Xfce, E17, ...
-# Cannot enable bluetooth because gnome-bluetooth-3.x
-# is gtk3 as well
-gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
 
 kde-apps/akonadi tools
 # See bug 3619
@@ -616,8 +607,7 @@ media-tv/mythtv -hls fftw
 media-video/avidemux qt5
 media-video/blinkensim aalib
 media-video/dvgrab quicktime
-virtual/ffmpeg threads ogg vhook faac faad amr cpudetection vpx jpeg2k -video_cards_nvidia
-media-video/ffmpeg threads ogg vhook faac faad fdk jpeg2k video_cards_nvidia amr cpudetection vidstab vpx webp -video_cards_nvidia
+media-video/ffmpeg X alsa amr bluray bzip2 cpudetection encode fdk gmp gnutls gpl gsm iconv ieee1394 jack jpeg2k mp3 network openal opengl openh264 opus postproc pulseaudio sdl speex svg test theora threads truetype v4l vaapi vdpau vidstab vorbis vpx webp x264 x265 xvid zlib
 media-video/jubler mplayer
 media-video/kino gstreamer quicktime
 media-video/mpv libmpv samba tools
@@ -676,7 +666,6 @@ net-im/centerim gadu
 net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
 net-im/empathy gnome
 net-im/gajim -zeroconf
-net-im/kadu xmpp
 net-im/pidgin bonjour console gadu groupwise meanwhile msn prediction qq sasl silc -zephyr
 net-im/psi jingle
 net-im/telepathy-connection-managers -icq -yahoo
@@ -818,7 +807,6 @@ sci-libs/indilib nova
 sci-libs/lapack eselect-ldso
 sci-libs/netcdf -fortran hdf5
 sci-libs/plplot -wxwidgets
-sci-libs/scipy sparse
 sci-libs/ViSP opencv
 
 sci-mathematics/maxima latex sbcl
@@ -848,7 +836,6 @@ sys-apps/systemd -gtk dracut plymouth sysv-utils cryptsetup lzma xattr -openrc k
 sys-apps/util-linux tty-helpers
 sys-apps/xdg-desktop-portal screencast
 
-sys-auth/consolekit -acl
 sys-auth/pambase -consolekit -kerberos
 
 sys-block/gparted -kde -gtk dmraid f2fs mdadm btrfs
@@ -933,7 +920,6 @@ www-apps/owncloud mysql postgres sqlite3
 www-apps/phpBB mysqli sqlite
 www-apps/postfixadmin mysql
 www-apps/rt mysql
-www-apps/trac mysql postgres vhosts sqlite
 
 www-client/chromium jumbo-build widevine
 www-client/firefox filepicker -gnome gstreamer mozbranding system-jpeg -system-libvpx -system-sqlite -system-av1 xforms
@@ -950,8 +936,6 @@ www-plugins/adobe-flash -32bit sse2
 # https://gitweb.gentoo.org/repo/gentoo.git/commit/eclass/apache-2.eclass?id=4b33fc3fc85114b1a95509eb393299ebc428c167
 # (the change made after 2.4.27 was introduced)
 www-servers/apache apache2_modules_macro apache2_modules_slotmem_shm apache2_modules_asis apache2_modules_auth_digest apache2_modules_authn_dbd apache2_modules_cern_meta apache2_modules_cgi apache2_modules_cgid apache2_modules_charset_lite apache2_modules_dbd apache2_modules_dumpio apache2_modules_imagemap apache2_modules_log_forensic apache2_modules_proxy apache2_modules_proxy_ajp apache2_modules_proxy_balancer apache2_modules_proxy_connect apache2_modules_proxy_fcgi apache2_modules_proxy_ftp apache2_modules_proxy_http apache2_modules_proxy_html apache2_modules_substitute apache2_modules_version apache2_modules_proxy_wstunnel apache2_modules_xml2enc ident suexec
-
-www-servers/cherokee admin
 
 # Inflate lighttpd
 www-servers/lighttpd fastcgi lua memcache xattr -kerberos
@@ -1118,8 +1102,6 @@ media-libs/freetype infinality
 
 dev-libs/lzo static-libs
 
-virtual/ffmpeg -gnutls openssl -test
-
 ## GNOME 3.10 flags
 # required by gnome-music
 app-misc/tracker gstreamer -ffmpeg
@@ -1144,7 +1126,6 @@ media-video/avidemux vaapi vdpau
 media-video/mpv vaapi vdpau
 media-video/ffmpeg vaapi vdpau
 media-video/vlc vaapi vdpau
-virtual/ffmpeg vaapi vdpau
 
 app-i18n/scim gtk3
 app-emulation/spice smartcard
@@ -1241,10 +1222,6 @@ app-emulation/lxc cgmanager
 # needed for calamares
 dev-qt/qtwebengine -system-ffmpeg widgets geolocation
 dev-qt/qtwebchannel qml
-
-# javafx: https://bugs.sabayon.org/show_bug.cgi?id=5205
-# -nsplugin: conflicts with dev-java/icedtea-web[nsplugin]
-dev-java/oracle-jdk-bin javafx -nsplugin
 
 # -nsplugin: conflicts with dev-java/icedtea-web[nsplugin]
 dev-java/oracle-jre-bin -nsplugin
