@@ -62,7 +62,7 @@ app-editors/xemacs xft
 
 app-emacs/auctex preview-latex
 
-# virt stuff
+app-emulation/containerd apparmor btrfs
 app-emulation/libvirt lxc rbd virtualbox fuse kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/open-vm-tools -X -xinerama
 app-emulation/protontricks -gui
