@@ -873,6 +873,7 @@ sys-fs/mtd-utils xattr
 sys-fs/ntfs3g suid ntfsprogs
 # USE=static static-libs must go together in order to have it compiling
 sys-fs/reiser4progs static static-libs
+sys-fs/squashfs-tools lzma lz4
 sys-fs/udev extras
 # udisks, we want cryptsetup support
 sys-fs/udisks cryptsetup crypt
