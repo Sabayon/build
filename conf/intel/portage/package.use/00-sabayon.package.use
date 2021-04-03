@@ -71,6 +71,7 @@ app-emulation/protontricks -gui
 app-emulation/qemu glusterfs nfs rbd fdt spice -gtk virtfs xattr usbredir gtk virgl smartcard
 app-emulation/vice fullscreen gtk -sdl
 app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
+app-emulation/wine-staging vkd3d vulkan
 app-emulation/winetricks -gtk
 # add HVM
 app-emulation/xen-tools hvm qemu
