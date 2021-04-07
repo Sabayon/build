@@ -120,7 +120,6 @@ sys-apps/baselayout::gentoo
 sys-apps/lsb-release::gentoo
 sys-apps/systemd::gentoo
 sys-boot/grub::gentoo
-sys-devel/gcc::gentoo
 virtual/linux-sources::gentoo
 www-servers/apache::gentoo
 x11-drivers/nvidia-drivers::gentoo
