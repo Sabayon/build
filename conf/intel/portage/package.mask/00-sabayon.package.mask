@@ -118,7 +118,6 @@ net-dns/avahi::gentoo
 net-p2p/bittornado::gentoo
 sys-apps/baselayout::gentoo
 sys-apps/lsb-release::gentoo
-sys-apps/systemd::gentoo
 sys-boot/grub::gentoo
 virtual/linux-sources::gentoo
 www-servers/apache::gentoo
