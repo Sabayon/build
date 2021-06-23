@@ -114,4 +114,4 @@ www-servers/apache::gentoo
 x11-drivers/nvidia-drivers::gentoo
 
 # 2021-01-22 Joost Ruis: Do not pull in newer python version
->dev-lang/python-3.7.9
+>dev-lang/python-3.7.10
