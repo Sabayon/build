@@ -113,5 +113,9 @@ virtual/linux-sources::gentoo
 www-servers/apache::gentoo
 x11-drivers/nvidia-drivers::gentoo
 
-# 2021-01-22 Joost Ruis: Do not pull in newer python version
+# 2021-07-08 Joost Ruis: Do not pull in newer python version
 >dev-lang/python-3.8.10_p2
+
+# 2021-07-08 Joost Ruis: We are stuck with Portage 2, Entropy code is broken with Portage 3
+# This is why we keep a copy of this version on our overlay
+sys-apps/portage::gentoo
