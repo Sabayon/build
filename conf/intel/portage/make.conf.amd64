@@ -58,7 +58,7 @@ GENTOO_MIRRORS="ftp://ftp.spline.inf.fu-berlin.de/mirrors/gentoo/ rsync://gentoo
 ACCEPT_LICENSE="* -@EULA"
 
 USE_PYTHON="3.8"
-PYTHON_TARGETS="python3_8"
+PYTHON_TARGETS="python3_7 python3_8"
 PYTHON_SINGLE_TARGET="python3_8"
 
 # Some more forced targets
