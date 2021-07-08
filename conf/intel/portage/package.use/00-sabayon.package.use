@@ -1220,7 +1220,7 @@ x11-misc/xplanet -gif
 www-client/w3m fbcon imlib
 
 # needed for lxd
-app-emulation/lxc cgmanager
+app-emulation/lxc -cgmanager seccomp
 
 # needed for calamares
 dev-qt/qtwebengine -system-ffmpeg widgets geolocation
